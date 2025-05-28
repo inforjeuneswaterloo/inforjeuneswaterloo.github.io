@@ -1,0 +1,21 @@
+- title: "instagram"
+  url: https://www.instagram.com/ijwaterloo
+  icon: "fa-brands fa-instagram"
+
+- title: "mastodon"
+  url: https://mastodon.social/@inforjeuneswaterloo
+  icon: "fa-brands fa-mastodon"
+
+- title: "facebook"
+  url: https://facebook.com/ijwaterloo
+  icon: "fa-brands fa-facebook-f"
+
+- title: "utube"
+  url: https://www.youtube.com/@InforjeuneswaterlooOrg2/
+  icon: "fa-brands fa-youtube"
+  
+- title: whatsapp
+  url: https://wa.me/0032473953806
+  icon: "fa-brands fa-whatsapp"
+
+

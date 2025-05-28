@@ -1,0 +1,7 @@
+support: 
+  - nom: fwb
+    logo: assets/images/support/fwb-banner.png
+    url: http://www.cfwb.be
+  - nom: woo
+    logo: assets/images/support/logo-waterloo.png
+    url: https://www.waterloo.be 

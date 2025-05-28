@@ -1,0 +1,26 @@
+#Images
+image:
+  fluid: "img-fluid"
+  card: "card-img-top"
+#Buttons
+btn-light: "btn-light"
+btn-dark: "btn-dark"
+btn-outline-light: "btn-outline-light"
+btn-outline-dark: "btn-outline-dark"
+#fa
+arrow-right: "fa-solid fa-arrow-right"
+chevron-right: "fa-solid fa-chevron-right"
+arrow-left: "fa-solide fa-arrow-left"
+chevron-left: "fa-solid fa-chevron-left"
+share: "fa-solid fa-share-nodes"
+cogs: "fa-solid fa-cogs"
+podcast: "fa-solid fa-podcast"
+feather: "fa-solid fa-feather-pointed"
+student: "fa-solid fa-graduation-cap"
+pdf: "fa-solid fa-file-pdf"
+dload: "fa-solid fa-download"
+#div
+d-flex:
+  left: "justify-content-end"
+  right: "justify-content-start"
+  center: "justify-content-center"

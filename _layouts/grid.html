@@ -1,0 +1,18 @@
+---
+layout: fw
+---
+<div class="header mt-5">
+    <h1 class="page-heading">{{ page.title }}</h1>
+</div>
+<div class="container">
+    <div class="row">
+        {% for post in paginator.posts %}
+            {% include grid.html item=post %}
+        {% endfor %}
+    </div>
+</div>
+{% if paginator.total_pages > 1 %}
+    <div class="d-flex justify-content-center mb-4">
+        {% include pagination.html pagination=paginator %}
+    </div>
+{% endif %}

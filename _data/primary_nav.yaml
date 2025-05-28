@@ -1,0 +1,12 @@
+- title: "Collections"
+  url: "/collections/"
+  icon: "fa-solid fa-folder-open"
+- title: "Téléchargements"
+  url: "/telechargements/"
+  icon: "fa-solid fa-download"
+- title: "Organismes"
+  url: "/organismes/"
+  icon: "fa-solid fa-building-ngo"
+
+
+

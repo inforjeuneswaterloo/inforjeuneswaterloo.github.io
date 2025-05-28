@@ -1,0 +1,6 @@
+<a class="btn {{include.class}}" href="{{include.url | relative_url}}">
+    {{include.text}}
+    {% if include.icon %}
+        <i class="{{include.icon}}"></i>
+    {% endif %}
+</a>

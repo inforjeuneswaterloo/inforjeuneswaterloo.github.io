@@ -1,0 +1,28 @@
+{
+  "name": "hyde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy-bootstrap": "mkdir -p assets/css assets/js && cp node_modules/bootstrap/dist/css/bootstrap.min.css assets/css/ && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/js/",
+    "copy-fontawesome": "mkdir -p assets/fontawesome/css assets/fontawesome/webfonts && cp node_modules/@fortawesome/fontawesome-free/css/all.min.css assets/fontawesome/css/ && cp -R node_modules/@fortawesome/fontawesome-free/webfonts/. assets/fontawesome/webfonts/",
+    "copy-assets": "npm run copy-bootstrap && npm run copy-fontawesome",
+    "start": "npm run copy-assets && bundle exec jekyll serve",
+    "local": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inforjeuneswaterloo/inforjeuneswaterloo.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inforjeuneswaterloo/inforjeuneswaterloo.github.io/issues"
+  },
+  "homepage": "https://github.com/inforjeuneswaterloo/inforjeuneswaterloo.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bootstrap": "^5.3.6"
+  }
+}

@@ -1,0 +1,31 @@
+    {% assign paginator=include.pagination %}
+        <nav aria-label="Page navigation example">
+            <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item flex-fill bg-light">
+                    <a class="page-link" href="{{ paginator.first_page_path }}">
+                        <i class="fa-solid fa-angles-left"></i>
+                    </a>
+                </li>
+                {% if include.pagination.previous_page %}
+                
+                    <li class="list-group-item flex-fill">
+                        <a class="page-link" href="{{ paginator.previous_page_path }}">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </li>
+                {%  endif %}
+                {% if include.pagination.next_page %}
+                    <li class="list-group-item flex-fill">
+                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+                            <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                    </li>
+                    <li class="list-group-item flex-fill bg-light">
+                        <a class="page-link" href="{{ paginator.last_page_path }}">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </li>
+                {% endif %}
+
+            </ul>
+        </nav>

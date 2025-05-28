@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="container-sm mt-4" aria-label="Content">
+      
+        {{ content }}
+
+    </main>
+
+    {%- include footer.html -%}
+
+    {%- include sub-footer.html -%}
+    
+
+  </body>
+
+</html>

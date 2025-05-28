@@ -1,0 +1,16 @@
+{% assign include.item=posts %}
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <div class="card h-100">
+            {% if post.image %}
+                <img src="{{post.image}}" class="card-img-top img-fluid">
+            {% endif %}
+            <div class="card-body">
+                <h5 class="heading">{{ post.title }}</h5>
+                <div class="card-body">
+                </div>
+                <div class="d-flex flex-row-reverse">
+                    {%include button.html url=post.url icon=site.data.config.arrow-right class=site.data.config.btn-light %}
+                </div>
+            </div>
+        </div>
+    </div>

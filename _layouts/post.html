@@ -18,7 +18,11 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  {% if page.shared_url %}
+    <div class="d-flex">
+      <p class="p-2">Source:&nbsp;<a href="{{page.shared_url}}" target="_blank">{{page.shared_domain}}</a></p>
+    </div>
+  {% endif %}
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

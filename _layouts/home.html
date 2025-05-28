@@ -1,34 +1,24 @@
 ---
-layout: default
+layout: fw
 ---
-
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+<div class="container mb-2 mt-2">
+  <div class="jumbotron jumbotron-fluid p-2">
+    <div class="row align-items-center">
+      <div class="col-12 col-sm-6 col-md-4">
+        <img class="img-fluid" src="/assets/images/logos/ijw-carre-transparent.png" >
+      </div>
+      <div class="col-12 col-md-8">
+          <h1 class="display-4">Voyager. 
+          <span class="bg-black text-white p-1 rounded">Découvrir.</span> Partager.</h1>
+          <div class="d-flex justify-content-center">
+            <div class="p-2">
+              <a href="/collections/" class="btn btn-outline-secondary">En savoir plus&nbsp;<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </div>
+            <div class="p-2">
+              <a href="https://wa.me/0032473953806" class="btn btn-success whatsapp-button text-white" target="_blank" rel="noopener noreferrer"> Nous contacter via <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
 </div>

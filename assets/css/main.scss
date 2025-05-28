@@ -1,0 +1,234 @@
+---
+
+---
+
+@import
+  "minima";
+  
+
+.masonry-item {
+    margin-bottom: 1rem; /* Espacement entre les cartes */
+}
+  
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+.bg-blue-ij{
+  background-color: #12a3fe
+}
+
+.nav-container {
+  position: relative;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-drawer {
+  position: fixed;
+  top: O;
+  right: -250px; /* Initially hidden off-screen */
+  //width: 250px;
+  height: 100%;
+  //background-color: #f0f0f0;
+  overflow-y: auto;
+  transition: right 0.4s ease-in-out; /* Smooth animation */
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      a {
+        //display: block;
+        //padding: 0.8em;
+        text-decoration: none;
+        //color: #333;
+
+        &:hover {
+          background-color: #12a3fe;
+          color:#fff;
+        }
+      }
+    }
+  }
+
+  &.open {
+    right: 0; /* Show the drawer */
+  }
+}
+/* --- Styles Spécifiques à la Timeline --- */
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #e9ecef;
+  transform: translateX(-50%);
+}
+
+.timeline-year {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+  min-height: 50px;
+}
+
+.timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  border: 4px solid #dee2e6;
+}
+
+.timeline-date-label {
+  position: absolute;
+  top: 5px;
+  width: 60px;
+  font-size: 0.85em;
+  line-height: 1.2;
+  text-align: center;
+  color: #6c757d;
+  z-index: 9;
+}
+
+.timeline-date-label .timeline-month {
+  font-size: 0.9em;
+  font-weight: bold;
+  display: block;
+}
+
+.timeline-date-label .timeline-day {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+}
+
+
+.timeline-item:nth-child(odd) .timeline-date-label {
+  left: calc(50% + 25px);
+  text-align: left;
+}
+
+.timeline-item:nth-child(even) .timeline-date-label {
+  right: calc(50% + 25px);
+  text-align: right;
+}
+
+
+.timeline-content {
+  width: calc(50% - 30px);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  position: relative; /* Essentiel pour positionner le pseudo-élément */
+  z-index: 2;
+}
+
+/* NOUVEAU: Styles pour le connecteur */
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 21px; /* Position verticale du connecteur, ajustez si besoin pour qu'il s'aligne au centre du point */
+  width: 25px; /* Longueur du connecteur (doit combler l'espace entre le point et la carte) */
+  height: 2px; /* Épaisseur du connecteur */
+  background-color: #dee2e6; 
+  z-index: 1; /* S'assure qu'il est en dessous de la carte mais au-dessus de la ligne principale */
+}
+
+/* Positionnement du connecteur pour les éléments impairs (à gauche) */
+.timeline-item:nth-child(odd) .timeline-content::before {
+  right: -25px; /* Le connecteur part du bord droit de la carte vers le point */
+}
+
+/* Positionnement du connecteur pour les éléments pairs (à droite) */
+.timeline-item:nth-child(even) .timeline-content::before {
+  left: -25px; /* Le connecteur part du bord gauche de la carte vers le point */
+}
+
+
+/* --- Ajustements Responsifs --- */
+@media (max-width: 768px) {
+  .timeline::before {
+      left: 20px;
+      transform: translateX(0);
+  }
+
+  .timeline-dot {
+      left: 20px;
+      transform: translateX(0);
+  }
+
+  .timeline-date-label {
+      left: 50px !important;
+      right: auto !important;
+      text-align: left !important;
+      top: 5px;
+      width: auto;
+  }
+
+  .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .timeline-content {
+      width: calc(100% - 50px);
+      margin-left: 50px !important;
+      margin-right: 0 !important;
+  }
+
+  /* NOUVEAU: Cacher le connecteur sur les petits écrans (car la ligne verticale bouge) */
+  .timeline-content::before {
+      display: none; 
+  }
+
+  .timeline-year {
+      margin-left: 20px;
+      text-align: left;
+  }
+}
