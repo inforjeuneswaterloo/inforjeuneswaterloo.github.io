@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nos Actualités
-permalink: /news/ # Supprimez cette ligne si c'est votre index.html principal
+permalink: /news/
 ---
 
 <div class="container mt-5">
@@ -9,7 +9,7 @@ permalink: /news/ # Supprimez cette ligne si c'est votre index.html principal
 
   <div class="timeline">
     {% assign current_year = null %}
-    {% assign posts_by_day = site.news | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
+    {% assign posts_by_day = site.collections.news.docs | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
 
     {% for day_group in posts_by_day %}
       {% assign date_key = day_group.name %}
@@ -21,14 +21,16 @@ permalink: /news/ # Supprimez cette ligne si c'est votre index.html principal
         {% assign current_year = post_year %}
       {% endif %}
 
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date-label">
-          <span class="timeline-month">{{ first_post_in_day.date | date: "%m" }}</span><br>
-          <span class="timeline-day">{{ first_post_in_day.date | date: "%d" }}</span>
+      <div class="timeline-item"> {# Ce timeline-item gère l'alternance G/D des blocs de contenu #}
+        <div class="timeline-line-marker"> {# NOUVEAU: Conteneur invisible pour le dot et la date #}
+            <div class="timeline-dot"></div>
+            <div class="timeline-date-label">
+                <span class="timeline-month">{{ first_post_in_day.date | date: "%m" }}</span><br>
+                <span class="timeline-day">{{ first_post_in_day.date | date: "%d" }}</span>
+            </div>
         </div>
 
-        <div class="timeline-cards-group">
+        <div class="timeline-cards-group"> {# Conteneur pour toutes les cartes de ce jour spécifique #}
           {% for post in day_group.items %}
             <div class="timeline-card card mb-3">
               <div class="card-body">
@@ -40,9 +42,9 @@ permalink: /news/ # Supprimez cette ligne si c'est votre index.html principal
                 </p>
                 
                 {% if post.image %}
-                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded" style="max-height: 200px; object-fit: cover; width: 100%;">
+                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> {# Ajout de timeline-image class #}
                 {% elsif post.thumb %}
-                   <img src="{{ post.thumb }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded" style="max-height: 150px; object-fit: cover; width: 100%;">
+                   <img src="{{ post.thumb }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> {# Ajout de timeline-image class #}
                 {% endif %}
 
                 <div class="card-text">

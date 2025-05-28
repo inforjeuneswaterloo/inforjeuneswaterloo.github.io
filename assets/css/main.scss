@@ -66,145 +66,164 @@ a:hover{
     right: 0; /* Show the drawer */
   }
 }
+/* GLOBAL RESET FOR RESPONSIVENESS */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* --- Styles Spécifiques à la Timeline --- */
 
 .timeline {
-  position: relative;
-  padding: 20px 0;
-  max-width: 900px; /* Largeur max pour le desktop */
-  margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+    max-width: 900px; /* Largeur max pour le desktop */
+    margin: 0 auto;
 }
 
 .timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%; /* Ligne au centre sur desktop */
-  width: 2px;
-  background-color: #e9ecef;
-  transform: translateX(-50%);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Ligne au centre sur desktop */
+    width: 2px;
+    background-color: #e9ecef;
+    transform: translateX(-50%);
 }
 
 .timeline-year {
-  position: relative;
-  z-index: 10;
-  background-color: white;
-  padding: 5px 15px;
-  border-radius: 5px;
-  display: inline-block;
-  font-weight: bold;
-  color: #495057;
-  border: 1px solid #dee2e6;
-  margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    /* Centrage horizontal du texte 'Année' */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Empêche le texte de se couper */
 }
 
-/* MODIFIÉ : La classe timeline-item s'applique maintenant au conteneur du groupe de jour */
-.timeline-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  position: relative;
-  align-items: flex-start; /* Aligne les éléments du groupe en haut (dot, date, cards-group) */
+.timeline-item { /* Gère l'alternance G/D des groupes de contenu */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative; /* Contexte pour timeline-line-marker */
+    align-items: flex-start; /* Aligne le contenu en haut */
 }
 
-/* Alterner les côtés pour le groupe entier de la journée */
 .timeline-item:nth-child(even) {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse; /* Alternance G/D sur desktop */
+}
+
+/* NOUVEAU: Conteneur pour le dot et la date */
+.timeline-line-marker {
+    position: absolute;
+    top: 0; /* Aligne en haut du timeline-item */
+    left: 50%; /* Positionne sur la ligne centrale */
+    transform: translateX(-50%); /* Centre le marqueur */
+    height: 100%; /* S'étend sur toute la hauteur du timeline-item pour référence */
+    width: 60px; /* Largeur pour contenir le dot et la date */
+    z-index: 10; /* Toujours au-dessus de tout */
+    pointer-events: none; /* Permet de cliquer à travers pour le contenu en dessous */
 }
 
 .timeline-dot {
-  position: absolute;
-  top: 15px; /* Aligne avec le haut de la première carte dans le groupe */
-  left: 50%; /* Dot au centre sur desktop */
-  width: 16px;
-  height: 16px;
-  background-color: #0d6efd;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  border: 4px solid #dee2e6; /* Bordure plus épaisse comme demandé précédemment */
+    position: absolute;
+    top: 15px; /* Position verticale par rapport à timeline-line-marker */
+    left: 50%; /* Centré dans timeline-line-marker */
+    width: 16px;
+    height: 16px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    transform: translateX(-50%); /* Centrage horizontal du dot */
+    border: 3px solid white; /* Bordure blanche pour le point */
 }
 
 .timeline-date-label {
-  position: absolute;
-  top: 5px; /* Ajustez pour aligner avec le point */
-  width: 60px; /* Largeur fixe pour la date */
-  font-size: 0.85em;
-  line-height: 1.2;
-  text-align: center;
-  color: #6c757d;
-  z-index: 9;
+    position: absolute;
+    top: 5px; /* Position verticale par rapport à timeline-line-marker */
+    left: 50%; /* Centré dans timeline-line-marker */
+    transform: translateX(-50%); /* Centrage horizontal du label */
+    width: 60px; /* Largeur fixe pour la date */
+    font-size: 0.85em;
+    line-height: 1.2;
+    text-align: center;
+    color: #6c757d;
+    z-index: 9;
 }
 
 .timeline-date-label .timeline-month {
-  font-size: 0.9em;
-  font-weight: bold;
-  display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: block;
 }
 
 .timeline-date-label .timeline-day {
-  font-size: 1.2em;
-  font-weight: bold;
-  display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
 }
 
-.timeline-item:nth-child(odd) .timeline-date-label {
-  left: calc(50% + 25px);
-  text-align: left;
-}
+/* Les styles left/right sur timeline-date-label sont gérés par le transform: translateX(-50%) */
 
-.timeline-item:nth-child(even) .timeline-date-label {
-  right: calc(50% + 25px);
-  text-align: right;
-}
 
-/* NOUVEAU : Conteneur pour toutes les cartes d'une journée */
 .timeline-cards-group {
-  width: calc(50% - 30px); /* 50% de la largeur moins la marge sur desktop */
-  position: relative; /* Pour positionner le pseudo-élément connecteur */
-  z-index: 2; /* Assure que le groupe de contenu est au-dessus de la ligne */
-  padding-top: 5px; /* Petit padding pour aligner le contenu de la première carte avec le dot */
+    width: calc(50% - 30px); /* 50% de la largeur moins la marge sur desktop */
+    position: relative;
+    z-index: 2;
+    padding-top: 5px; /* Petit padding pour aligner le contenu de la première carte avec le dot */
 }
 
 .timeline-item:nth-child(odd) .timeline-cards-group {
-  margin-right: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
+    margin-right: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
 }
 
 .timeline-item:nth-child(even) .timeline-cards-group {
-  margin-left: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
+    margin-left: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
 }
 
-/* MODIFIÉ : Styles pour les cartes individuelles à l'intérieur du groupe (ex-timeline-content) */
-.timeline-card { /* Renommé de .timeline-content à .timeline-card */
-  /* Bootstrap's .card already provides basic styling like border-radius, background-color, etc. */
-  /* Override or add specific styles here if needed. */
-  padding: 15px; /* Appliquer le padding à la carte individuelle */
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  background-color: #fff; /* Fond blanc pour les cartes */
-  border-radius: 8px; /* Coins arrondis */
-  border: 1px solid #dee2e6; /* Bordure de la carte */
+.timeline-card {
+    padding: 15px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+/* NOUVEAU: Styles pour les images dans les cartes */
+.timeline-image {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Empêche les espaces sous l'image */
+    margin-left: auto; /* Centre l'image */
+    margin-right: auto;
+    /* Les styles max-height et object-fit sont toujours bons à garder pour la coupe visuelle */
+    max-height: 200px;
+    object-fit: cover;
 }
 
 /* Connecteur du point à la première carte du groupe */
 .timeline-cards-group::before {
-  content: '';
-  position: absolute;
-  top: 18px; /* Ajustez pour aligner avec le centre du point du timeline-dot */
-  width: 25px; /* Longueur du connecteur */
-  height: 2px; /* Épaisseur du connecteur */
-  background-color: #dee2e6; /* Couleur du connecteur (même que bordure de carte) */
-  z-index: 1; /* En dessous du point, en dessous du contenu, au-dessus de la ligne principale */
+    content: '';
+    position: absolute;
+    top: 18px; /* Ajustez pour aligner avec le centre du point du timeline-dot */
+    width: 25px; /* Longueur du connecteur */
+    height: 2px; /* Épaisseur du connecteur */
+    background-color: #dee2e6; /* Couleur du connecteur (même que bordure de carte) */
+    z-index: 1;
 }
 
-/* Positionnement du connecteur pour les groupes impairs (à gauche) */
 .timeline-item:nth-child(odd) .timeline-cards-group::before {
-  right: -25px; /* Part du bord droit du groupe de cartes vers le point */
+    right: -25px; /* Part du bord droit du groupe de cartes vers le point */
 }
 
-/* Positionnement du connecteur pour les groupes pairs (à droite) */
 .timeline-item:nth-child(even) .timeline-cards-group::before {
-  left: -25px; /* Part du bord gauche du groupe de cartes vers le point */
+    left: -25px; /* Part du bord gauche du groupe de cartes vers le point */
 }
 
 
@@ -212,115 +231,130 @@ a:hover{
 
 /* Pour les écrans jusqu'à 992px (largeur de tablettes paysage / petits ordinateurs portables) */
 @media (max-width: 992px) {
-  .timeline::before {
-      left: 20px; /* La ligne passe à gauche */
-      transform: translateX(0);
-  }
+    .timeline::before {
+        left: 20px; /* La ligne passe à gauche */
+        transform: translateX(0);
+    }
 
-  .timeline-dot {
-      left: 20px; /* Les points s'alignent sur la ligne de gauche */
-      transform: translateX(0);
-  }
+    /* Le marqueur de la ligne (dot et date) est maintenant positionné par rapport à la ligne */
+    .timeline-line-marker {
+        left: 20px; /* Le marqueur s'aligne sur la ligne de gauche */
+        transform: translateX(-50%); /* Centrage du marqueur sur la ligne */
+        width: auto; /* Largeur auto pour la date */
+        height: auto;
+    }
 
-  .timeline-date-label {
-      left: 50px !important; /* La date se positionne à droite du point */
-      right: auto !important; /* Annule la position droite pour les items pairs */
-      text-align: left !important; /* Aligne le texte de la date à gauche */
-      top: 5px;
-      width: auto; /* Laisser la largeur automatique sur mobile */
-  }
+    .timeline-dot {
+        left: 50%; /* Reste centré dans son marqueur */
+        transform: translateX(-50%);
+    }
 
-  .timeline-item {
-      flex-direction: column; /* Les items s'empilent verticalement */
-      align-items: flex-start; /* Aligne le contenu à gauche */
-  }
+    .timeline-date-label {
+        left: 50%; /* Reste centré dans son marqueur */
+        transform: translateX(-50%);
+        margin-left: 25px; /* Décalage pour aligner la date avec le point */
+        width: auto;
+    }
+    .timeline-date-label .timeline-month,
+    .timeline-date-label .timeline-day {
+        text-align: left; /* Aligner le texte de la date à gauche sur mobile */
+    }
 
-  .timeline-item:nth-child(even) { /* Annule la row-reverse pour la simple colonne */
-      flex-direction: column;
-  }
 
-  .timeline-cards-group {
-      width: calc(100% - 50px); /* Le groupe de cartes prend presque toute la largeur */
-      margin-left: 50px !important; /* Marge pour la ligne de gauche */
-      margin-right: 0 !important;
-  }
+    .timeline-item {
+        flex-direction: column; /* Les items s'empilent verticalement */
+        align-items: flex-start; /* Aligne le contenu à gauche */
+    }
 
-  .timeline-cards-group::before {
-      display: none; /* Cache le connecteur sur les petits écrans car la mise en page change */
-  }
+    .timeline-item:nth-child(even) { /* Annule la row-reverse pour la simple colonne */
+        flex-direction: column;
+    }
 
-  .timeline-year {
-      margin-left: 20px; /* Aligne l'année avec la ligne de gauche */
-      text-align: left;
-  }
+    .timeline-cards-group {
+        width: calc(100% - 50px); /* Le groupe de cartes prend presque toute la largeur */
+        margin-left: 50px !important; /* Marge pour la ligne de gauche */
+        margin-right: 0 !important;
+    }
+
+    .timeline-cards-group::before {
+        display: none; /* Cache le connecteur sur les petits écrans car la mise en page change */
+    }
+
+    .timeline-year {
+        margin-left: 20px; /* Aligne l'année avec la ligne de gauche */
+        text-align: left;
+        transform: translateX(0); /* Annule le transform de centrage */
+        left: auto; /* Annule le left:50% */
+    }
 }
 
 /* Pour les écrans jusqu'à 768px (tablettes portrait / la plupart des mobiles) */
 @media (max-width: 768px) {
-  .timeline {
-      padding: 10px 0; /* Réduit un peu le padding général */
-  }
+    .timeline {
+        padding: 10px 0;
+    }
 
-  .timeline-date-label {
-      font-size: 0.8em; /* Réduit un peu la taille de la date */
-      width: 50px; /* Réduit la largeur de la date */
-      left: 40px !important; /* Rapproche un peu de la ligne */
-  }
+    .timeline-date-label {
+        font-size: 0.8em;
+        /* Re-adjust position if necessary due to tighter space */
+        margin-left: 15px; /* Reduced margin */
+    }
 
-  .timeline-dot {
-      top: 10px; /* Ajuste la position du point sur les écrans plus petits */
-  }
-  
-  .timeline-cards-group {
-      width: calc(100% - 40px); /* Ajuste la largeur du groupe de cartes */
-      margin-left: 40px !important; /* Ajuste la marge pour la ligne */
-  }
+    .timeline-dot {
+        top: 10px; /* Ajuste la position du point sur les écrans plus petits */
+    }
+    
+    .timeline-cards-group {
+        width: calc(100% - 40px);
+        margin-left: 40px !important;
+    }
 }
 
 /* Pour les écrans jusqu'à 576px (très petits mobiles) */
 @media (max-width: 576px) {
-  .timeline {
-      padding: 5px 0;
-  }
+    .timeline {
+        padding: 5px 0;
+    }
 
-  .timeline::before {
-      left: 15px; /* Ligne encore plus à gauche */
-  }
+    .timeline::before {
+        left: 15px;
+    }
 
-  .timeline-dot {
-      left: 15px; /* Point encore plus à gauche */
-      width: 12px; /* Point légèrement plus petit */
-      height: 12px;
-      top: 12px; /* Ajuste position du point */
-  }
+    .timeline-dot {
+        left: 15px; /* Point encore plus à gauche */
+        width: 12px;
+        height: 12px;
+        top: 12px;
+    }
 
-  .timeline-date-label {
-      left: 35px !important; /* Rapproche encore de la ligne */
-      font-size: 0.75em; /* Texte de la date encore plus petit */
-      width: 45px;
-  }
+    .timeline-date-label {
+        left: 35px !important; /* Positionne la date plus près du point */
+        font-size: 0.75em;
+        width: 45px;
+        margin-left: 0 !important; /* Annule le margin-left pour les dates sur très petits écrans */
+    }
 
-  .timeline-cards-group {
-      width: calc(100% - 35px); /* Ajuste la largeur du groupe de cartes */
-      margin-left: 35px !important; /* Ajuste la marge pour la ligne */
-      padding-top: 2px; /* Réduit le padding supérieur */
-  }
+    .timeline-cards-group {
+        width: calc(100% - 35px);
+        margin-left: 35px !important;
+        padding-top: 2px;
+    }
 
-  .timeline-card .card-body {
-      padding: 10px; /* Réduit le padding des cartes individuelles */
-  }
+    .timeline-card .card-body {
+        padding: 10px;
+    }
 
-  .timeline-card .card-title {
-      font-size: 1.1em; /* Ajuste la taille du titre */
-  }
-  .timeline-card .card-subtitle {
-      font-size: 0.85em; /* Ajuste la taille du sous-titre */
-  }
-  .timeline-card .card-text {
-      font-size: 0.9em; /* Ajuste la taille du texte principal */
-  }
-  .timeline-card .btn {
-      font-size: 0.8em; /* Ajuste la taille du bouton */
-      padding: 0.25rem 0.5rem; /* Réduit le padding du bouton */
-  }
+    .timeline-card .card-title {
+        font-size: 1.1em;
+    }
+    .timeline-card .card-subtitle {
+        font-size: 0.85em;
+    }
+    .timeline-card .card-text {
+        font-size: 0.9em;
+    }
+    .timeline-card .btn {
+        font-size: 0.8em;
+        padding: 0.25rem 0.5rem;
+    }
 }
