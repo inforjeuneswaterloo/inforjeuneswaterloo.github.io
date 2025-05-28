@@ -71,7 +71,7 @@ a:hover{
 .timeline {
   position: relative;
   padding: 20px 0;
-  max-width: 900px;
+  max-width: 900px; /* Largeur max pour le desktop */
   margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ a:hover{
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 50%; /* Ligne au centre sur desktop */
   width: 2px;
   background-color: #e9ecef;
   transform: translateX(-50%);
@@ -99,35 +99,37 @@ a:hover{
   margin-bottom: 20px;
 }
 
+/* MODIFIÉ : La classe timeline-item s'applique maintenant au conteneur du groupe de jour */
 .timeline-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   position: relative;
-  min-height: 50px;
+  align-items: flex-start; /* Aligne les éléments du groupe en haut (dot, date, cards-group) */
 }
 
+/* Alterner les côtés pour le groupe entier de la journée */
 .timeline-item:nth-child(even) {
   flex-direction: row-reverse;
 }
 
 .timeline-dot {
   position: absolute;
-  top: 15px;
-  left: 50%;
+  top: 15px; /* Aligne avec le haut de la première carte dans le groupe */
+  left: 50%; /* Dot au centre sur desktop */
   width: 16px;
   height: 16px;
   background-color: #0d6efd;
   border-radius: 50%;
   transform: translateX(-50%);
   z-index: 10;
-  border: 4px solid #dee2e6;
+  border: 4px solid #dee2e6; /* Bordure plus épaisse comme demandé précédemment */
 }
 
 .timeline-date-label {
   position: absolute;
-  top: 5px;
-  width: 60px;
+  top: 5px; /* Ajustez pour aligner avec le point */
+  width: 60px; /* Largeur fixe pour la date */
   font-size: 0.85em;
   line-height: 1.2;
   text-align: center;
@@ -147,7 +149,6 @@ a:hover{
   display: block;
 }
 
-
 .timeline-item:nth-child(odd) .timeline-date-label {
   left: calc(50% + 25px);
   text-align: left;
@@ -158,77 +159,168 @@ a:hover{
   text-align: right;
 }
 
-
-.timeline-content {
-  width: calc(50% - 30px);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  background-color: #fff;
-  position: relative; /* Essentiel pour positionner le pseudo-élément */
-  z-index: 2;
+/* NOUVEAU : Conteneur pour toutes les cartes d'une journée */
+.timeline-cards-group {
+  width: calc(50% - 30px); /* 50% de la largeur moins la marge sur desktop */
+  position: relative; /* Pour positionner le pseudo-élément connecteur */
+  z-index: 2; /* Assure que le groupe de contenu est au-dessus de la ligne */
+  padding-top: 5px; /* Petit padding pour aligner le contenu de la première carte avec le dot */
 }
 
-/* NOUVEAU: Styles pour le connecteur */
-.timeline-content::before {
+.timeline-item:nth-child(odd) .timeline-cards-group {
+  margin-right: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
+}
+
+.timeline-item:nth-child(even) .timeline-cards-group {
+  margin-left: 30px; /* Marge entre le groupe de cartes et la ligne centrale */
+}
+
+/* MODIFIÉ : Styles pour les cartes individuelles à l'intérieur du groupe (ex-timeline-content) */
+.timeline-card { /* Renommé de .timeline-content à .timeline-card */
+  /* Bootstrap's .card already provides basic styling like border-radius, background-color, etc. */
+  /* Override or add specific styles here if needed. */
+  padding: 15px; /* Appliquer le padding à la carte individuelle */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #fff; /* Fond blanc pour les cartes */
+  border-radius: 8px; /* Coins arrondis */
+  border: 1px solid #dee2e6; /* Bordure de la carte */
+}
+
+/* Connecteur du point à la première carte du groupe */
+.timeline-cards-group::before {
   content: '';
   position: absolute;
-  top: 21px; /* Position verticale du connecteur, ajustez si besoin pour qu'il s'aligne au centre du point */
-  width: 25px; /* Longueur du connecteur (doit combler l'espace entre le point et la carte) */
+  top: 18px; /* Ajustez pour aligner avec le centre du point du timeline-dot */
+  width: 25px; /* Longueur du connecteur */
   height: 2px; /* Épaisseur du connecteur */
-  background-color: #dee2e6; 
-  z-index: 1; /* S'assure qu'il est en dessous de la carte mais au-dessus de la ligne principale */
+  background-color: #dee2e6; /* Couleur du connecteur (même que bordure de carte) */
+  z-index: 1; /* En dessous du point, en dessous du contenu, au-dessus de la ligne principale */
 }
 
-/* Positionnement du connecteur pour les éléments impairs (à gauche) */
-.timeline-item:nth-child(odd) .timeline-content::before {
-  right: -25px; /* Le connecteur part du bord droit de la carte vers le point */
+/* Positionnement du connecteur pour les groupes impairs (à gauche) */
+.timeline-item:nth-child(odd) .timeline-cards-group::before {
+  right: -25px; /* Part du bord droit du groupe de cartes vers le point */
 }
 
-/* Positionnement du connecteur pour les éléments pairs (à droite) */
-.timeline-item:nth-child(even) .timeline-content::before {
-  left: -25px; /* Le connecteur part du bord gauche de la carte vers le point */
+/* Positionnement du connecteur pour les groupes pairs (à droite) */
+.timeline-item:nth-child(even) .timeline-cards-group::before {
+  left: -25px; /* Part du bord gauche du groupe de cartes vers le point */
 }
 
 
 /* --- Ajustements Responsifs --- */
-@media (max-width: 768px) {
+
+/* Pour les écrans jusqu'à 992px (largeur de tablettes paysage / petits ordinateurs portables) */
+@media (max-width: 992px) {
   .timeline::before {
-      left: 20px;
+      left: 20px; /* La ligne passe à gauche */
       transform: translateX(0);
   }
 
   .timeline-dot {
-      left: 20px;
+      left: 20px; /* Les points s'alignent sur la ligne de gauche */
       transform: translateX(0);
   }
 
   .timeline-date-label {
-      left: 50px !important;
-      right: auto !important;
-      text-align: left !important;
+      left: 50px !important; /* La date se positionne à droite du point */
+      right: auto !important; /* Annule la position droite pour les items pairs */
+      text-align: left !important; /* Aligne le texte de la date à gauche */
       top: 5px;
-      width: auto;
+      width: auto; /* Laisser la largeur automatique sur mobile */
   }
 
   .timeline-item {
-      flex-direction: column;
-      align-items: flex-start;
+      flex-direction: column; /* Les items s'empilent verticalement */
+      align-items: flex-start; /* Aligne le contenu à gauche */
   }
 
-  .timeline-content {
-      width: calc(100% - 50px);
-      margin-left: 50px !important;
+  .timeline-item:nth-child(even) { /* Annule la row-reverse pour la simple colonne */
+      flex-direction: column;
+  }
+
+  .timeline-cards-group {
+      width: calc(100% - 50px); /* Le groupe de cartes prend presque toute la largeur */
+      margin-left: 50px !important; /* Marge pour la ligne de gauche */
       margin-right: 0 !important;
   }
 
-  /* NOUVEAU: Cacher le connecteur sur les petits écrans (car la ligne verticale bouge) */
-  .timeline-content::before {
-      display: none; 
+  .timeline-cards-group::before {
+      display: none; /* Cache le connecteur sur les petits écrans car la mise en page change */
   }
 
   .timeline-year {
-      margin-left: 20px;
+      margin-left: 20px; /* Aligne l'année avec la ligne de gauche */
       text-align: left;
+  }
+}
+
+/* Pour les écrans jusqu'à 768px (tablettes portrait / la plupart des mobiles) */
+@media (max-width: 768px) {
+  .timeline {
+      padding: 10px 0; /* Réduit un peu le padding général */
+  }
+
+  .timeline-date-label {
+      font-size: 0.8em; /* Réduit un peu la taille de la date */
+      width: 50px; /* Réduit la largeur de la date */
+      left: 40px !important; /* Rapproche un peu de la ligne */
+  }
+
+  .timeline-dot {
+      top: 10px; /* Ajuste la position du point sur les écrans plus petits */
+  }
+  
+  .timeline-cards-group {
+      width: calc(100% - 40px); /* Ajuste la largeur du groupe de cartes */
+      margin-left: 40px !important; /* Ajuste la marge pour la ligne */
+  }
+}
+
+/* Pour les écrans jusqu'à 576px (très petits mobiles) */
+@media (max-width: 576px) {
+  .timeline {
+      padding: 5px 0;
+  }
+
+  .timeline::before {
+      left: 15px; /* Ligne encore plus à gauche */
+  }
+
+  .timeline-dot {
+      left: 15px; /* Point encore plus à gauche */
+      width: 12px; /* Point légèrement plus petit */
+      height: 12px;
+      top: 12px; /* Ajuste position du point */
+  }
+
+  .timeline-date-label {
+      left: 35px !important; /* Rapproche encore de la ligne */
+      font-size: 0.75em; /* Texte de la date encore plus petit */
+      width: 45px;
+  }
+
+  .timeline-cards-group {
+      width: calc(100% - 35px); /* Ajuste la largeur du groupe de cartes */
+      margin-left: 35px !important; /* Ajuste la marge pour la ligne */
+      padding-top: 2px; /* Réduit le padding supérieur */
+  }
+
+  .timeline-card .card-body {
+      padding: 10px; /* Réduit le padding des cartes individuelles */
+  }
+
+  .timeline-card .card-title {
+      font-size: 1.1em; /* Ajuste la taille du titre */
+  }
+  .timeline-card .card-subtitle {
+      font-size: 0.85em; /* Ajuste la taille du sous-titre */
+  }
+  .timeline-card .card-text {
+      font-size: 0.9em; /* Ajuste la taille du texte principal */
+  }
+  .timeline-card .btn {
+      font-size: 0.8em; /* Ajuste la taille du bouton */
+      padding: 0.25rem 0.5rem; /* Réduit le padding du bouton */
   }
 }
