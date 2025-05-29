@@ -3,13 +3,12 @@ layout: default
 title: Nos Actualités
 permalink: /news/
 ---
-
 <div class="container mt-5">
   <h1 class="mb-4 text-center">Toutes nos actualités</h1>
 
   <div class="timeline">
     {% assign current_year = null %}
-    {% assign posts_by_day = site.collections.news.docs | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
+    {% assign posts_by_day = site.news | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
 
     {% for day_group in posts_by_day %}
       {% assign date_key = day_group.name %}
@@ -21,8 +20,8 @@ permalink: /news/
         {% assign current_year = post_year %}
       {% endif %}
 
-      <div class="timeline-item"> {# Ce timeline-item gère l'alternance G/D des blocs de contenu #}
-        <div class="timeline-line-marker"> {# NOUVEAU: Conteneur invisible pour le dot et la date #}
+      <div class="timeline-item"> 
+        <div class="timeline-line-marker"> 
             <div class="timeline-dot"></div>
             <div class="timeline-date-label">
                 <span class="timeline-month">{{ first_post_in_day.date | date: "%m" }}</span><br>
@@ -30,7 +29,7 @@ permalink: /news/
             </div>
         </div>
 
-        <div class="timeline-cards-group"> {# Conteneur pour toutes les cartes de ce jour spécifique #}
+        <div class="timeline-cards-group"> 
           {% for post in day_group.items %}
             <div class="timeline-card card mb-3">
               <div class="card-body">
@@ -42,9 +41,8 @@ permalink: /news/
                 </p>
                 
                 {% if post.image %}
-                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> {# Ajout de timeline-image class #}
-                {% elsif post.thumb %}
-                   <img src="{{ post.thumb }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> {# Ajout de timeline-image class #}
+                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> 
+                   <img src="{{ post.thumb }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> 
                 {% endif %}
 
                 <div class="card-text">
