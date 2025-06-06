@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="container mt-5">
+  <h1 class="mb-4 text-center">Toutes nos actualités</h1>
+
+  <div class="timeline">
+    {% assign current_year = null %}
+    {% comment %} Tri des posts par date décroissante et regroupement par jour {% endcomment %}
+    {% assign posts_by_day = site.news | sort: 'date' | reverse | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" %}
+
+    {% for day_group in posts_by_day %}
+      {% assign date_key = day_group.name %}
+      {% assign first_post_in_day = day_group.items | first %}
+      {% assign post_year = first_post_in_day.date | date: "%Y" %}
+
+      {% comment %} Affiche l'année si elle change {% endcomment %}
+      {% if post_year != current_year %}
+        <div class="timeline-year text-center my-4">{{ post_year }}</div>
+        {% assign current_year = post_year %}
+      {% endif %}
+
+      <div class="timeline-item"> 
+        <div class="timeline-line-marker"> 
+            <div class="timeline-dot"></div>
+            <div class="timeline-date-label">
+                {% comment %} Affichage simplifié de la date (Jour Mois) {% endcomment %}
+                <span class="timeline-date">{{ first_post_in_day.date | date: "%d %b" }}</span>
+            </div>
+        </div>
+
+        <div class="timeline-cards-group"> 
+          {% for post in day_group.items %}
+            {% comment %}
+              Logique de récupération de l'image à afficher :
+              1. Priorise 'thumb' au niveau supérieur (front matter)
+              2. Puis 'thumb' dans le premier élément de 'thread_posts.external_link' (spécifique Bluesky)
+              3. Enfin 'image' au niveau supérieur (pour d'autres types d'articles)
+            {% endcomment %}
+            {% assign display_image = null %}
+
+            {% if post.thumb %}
+              {% assign display_image = post.thumb %}
+            {% elsif post.thread_posts and post.thread_posts[0] and post.thread_posts[0].external_link and post.thread_posts[0].external_link.thumb %}
+              {% assign display_image = post.thread_posts[0].external_link.thumb %}
+            {% elsif post.image %}
+              {% assign display_image = post.image %}
+            {% endif %}
+
+            <div class="timeline-card card mb-3">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title | escape }}</a></h5>
+                <p class="card-subtitle text-muted mb-2">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        Publié le {{ post.date | date: "%d %b %Y à %H:%M" }}
+                    </time>
+                </p>
+                
+                {% comment %} Affiche l'image si une source a été trouvée {% endcomment %}
+                {% if display_image %}
+                  <img src="{{ display_image }}" alt="{{ post.title | escape }}" class="img-fluid mb-2 rounded timeline-image"> 
+                {% endif %}
+
+                <div class="card-text">
+                  {{ post.description | default: post.excerpt }} 
+                </div>
+                <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary mt-3">Lire </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

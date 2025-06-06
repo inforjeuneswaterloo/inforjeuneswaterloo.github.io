@@ -33,6 +33,15 @@ collections:
     permalink: /news/:title
 
   
+jekyll-archives:
+  enabled:
+    - months
+    - years
+  layout: archive # On utilisera un layout nommé 'archive.html'
+  permalinks:
+    years: '/archives/:year'
+    month: '/archives/:year/:month/' # Structure de l'URL, ex: /archives/2025/05/
+
 
 # Build settings
 permalink: /:title/
@@ -41,6 +50,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-archives
 
 
 # Exclude from processing.
