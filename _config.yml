@@ -26,12 +26,20 @@ pagination:
 #Collections
 collections:
   jobs:
+    label: Jobs
+    slug: jobs
     output: true
     permalink: /jobs/:title
   news:
+    label: Actualités
+    slug: news
     output: true
     permalink: /news/:title
-
+  services:
+    label: services
+    slug: services
+    output: true
+    permalink: /services/:title
   
 jekyll-archives:
   enabled:

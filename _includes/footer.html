@@ -2,25 +2,38 @@
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
   <div class="container container-fluid">
     <div class="row justify-content-center">
+      {% assign homepage_url='/'| relative_url %}
+      {% assign logo_ij='/assets/images/logos/ijw-carre-transparent.png' %}
+      {% assign img_class='img-fluid' %}
+      {% assign news_posts=site.news | sort: 'date' | reverse %}
+      {% assign footer_nav=site.data.footer_nav %}
+      {% assign list_social=site.data.social %}
       <div class="col-12 col-md-3 mb-4 justify-content-center align-items-center">
-          <img src="/assets/images/logos/ijw-carre-transparent.png" class="img-fluid">
-        <!--<div class="list-group list-group-flush">
-          {% for item in site.data.footer_nav %}
-            <a class="list-group-item list-group-item-action bg-light " href="{{item.url}}">{{item.title}}</a>
-          {% endfor %}
-        </div>-->
-      </div>
+        <p class="display">Menu</p>
+        <ul class="list-group list-group-flush ms-0">
+          {% include flexible-list.html list_type="menu" list_data=footer_nav %}
+        </ul>
+     </div>
       <div class="col-12 col-md-4 justify-content-center align-items-center">
-        {% include footer-nav.html%}
+        <p class="display"> Actualités </p>
+        <ul class="list-group list-group-flush">
+          {% include flexible-list.html list_type="news" list_data=news_posts limit=5 %}
+        </ul>
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
-        <div class="d-flex mt-4">
-          {{ site.description | markdownify }}
-        </div>
-        {% include social.html %}
-        <div class="d-flex mt-4">
-          {% include collabs.html %}
-        </div>
+        {% if page.url == homepage_url %}
+          <div class="d-flex mt-4">
+            {{ site.description | markdownify }}
+          </div>
+          <div class="d-flex mt-4">
+            {% include collabs.html %}
+          </div>
+        {% else %}
+          <img src="{{ logo_ij }}" class="{{ img_class }}">
+          <div class="d-flex mt-2 justify-content-center">
+            {% include flexible-list.html list_data=list_social list_type="social" css_class="btn btn-dark" %}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>

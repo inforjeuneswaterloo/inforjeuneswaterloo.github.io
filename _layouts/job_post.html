@@ -4,7 +4,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
    <div class="card h-100 p-3">
     <header class="post-header">
-      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h1 class="heading p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-meta">
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
@@ -16,12 +16,12 @@ layout: default
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
-      {{ content }}
+      {{page.description | markdownify }}
     </div>
-    {% if page.shared_url %}
+    {% if page.first_toot_link %}
       <div class="d-flex justify-content-end">
-        <a class="btn btn-outline-secondary" href="{{ page.shared_url }}" target="_blank">
-          {{ page.shared_domain }}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
+        <a class="btn btn-outline-secondary" href="{{ page.first_toot_link }}" target="_blank">
+          {{ page.first_toot_link_domain }}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
     {% endif %}
