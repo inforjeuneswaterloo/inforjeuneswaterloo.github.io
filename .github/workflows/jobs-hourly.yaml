@@ -6,7 +6,7 @@ on:
     # Exécute toutes les heures, à la minute 0.
     # L'heure UTC est utilisée pour les cron jobs sur GitHub Actions.
     # Si vous voulez que ça tourne à 08:00 CEST (UTC+2), vous devez mettre '0 6 * * *' UTC.
-    - cron: '0 * * * *' 
+    - cron: '0 15 * * *' 
 
   workflow_dispatch: # Permet de lancer le workflow manuellement depuis l'interface GitHub
 

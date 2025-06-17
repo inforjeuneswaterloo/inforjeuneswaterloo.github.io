@@ -12,8 +12,9 @@
     {% when 'navbar' %}
         {% for item in list_data %}
             {% if item.output and item.label != 'posts' %}
+                {% assign item_url = item.permalink | replace: ":path", "" | replace: ":title", "" | replace: "//", "/" %}
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{item.slug | relative_url }}">
+                    <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{ item_url | relative_url }}">
                         {{ item.label | capitalize }}
                     </a>
                 </li>
@@ -37,4 +38,15 @@
                 </a>
             </div>
         {% endfor %}
+    {% when 'services' %}
+        {% assign class=include.css_class %} 
+        {% assign icon=include.icon %}
+        {% for item in list_data %}
+            <div class="col">
+                <a class="{{class}}" href="{{item.url | relative_url}}">
+                    {{item.title}}&nbsp;<i class="{{icon}}"></i>
+                </a>
+            </div>
+        {% endfor %}
+            
 {% endcase %}
