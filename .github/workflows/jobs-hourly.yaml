@@ -38,7 +38,7 @@ jobs:
           pip install requests python-frontmatter python-slugify html2text pytz
 
       - name: Run Mastodon post retrieval script
-        run: python create_job_post.py
+        run: python jobs.py
 
       - name: Commit changes (new Mastodon posts)
         # Cette étape va committer les nouveaux fichiers .md créés par le script Python
