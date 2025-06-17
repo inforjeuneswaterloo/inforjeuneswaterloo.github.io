@@ -3,34 +3,30 @@ name: Mises à jour horaires du site et publication Mastodon
 
 on:
   schedule:
-    # Exécute toutes les heures, à la minute 0 (par exemple, 08:00, 09:00, etc.)
+    # Exécute toutes les heures, à la minute 0.
     # L'heure UTC est utilisée pour les cron jobs sur GitHub Actions.
-    # Pour Orp-Jauche (CEST, UTC+2), 0 * * * * UTC signifie 02:00, 03:00 CEST.
-    # Si vous voulez que ça tourne à 08:00 CEST, il faut mettre 06:00 UTC (6 * * * *)
-    - cron: '0 * * * *' # Adaptez l'heure UTC si vous voulez un fuseau horaire spécifique
+    # Si vous voulez que ça tourne à 08:00 CEST (UTC+2), vous devez mettre '0 6 * * *' UTC.
+    - cron: '0 * * * *' 
 
-  workflow_dispatch: # Permet de lancer le workflow manuellement si besoin
+  workflow_dispatch: # Permet de lancer le workflow manuellement depuis l'interface GitHub
 
 jobs:
-  # Job 1: Préparer les données (récupérer les posts Mastodon)
+  # Job 1: Préparer les données (récupérer les posts Mastodon et les committer)
   prepare_data:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Nécessaire pour que le script puisse modifier les fichiers Markdown
+      contents: write # Nécessaire pour que le script Python puisse modifier les fichiers Markdown
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Nécessaire pour l'historique Git si vous commentez/décommentez des pushes
-          # Vous devez utiliser un jeton personnel pour pousser depuis un workflow qui a été déclenché par 'schedule'
-          # si le GITHUB_TOKEN par défaut ne suffit pas (par exemple si votre workflow est complexe)
-          # Dans la plupart des cas, pour un simple commit par un GITHUB_TOKEN, 'contents: write' est suffisant.
+          fetch-depth: 0 # Récupère l'historique complet pour les opérations Git
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9' # Ou votre version préférée de Python
+          python-version: '3.9' # Version de Python que vous utilisez
 
       - name: Install Python dependencies
         run: |
@@ -38,57 +34,61 @@ jobs:
           pip install requests python-frontmatter python-slugify html2text pytz
 
       - name: Run Mastodon post retrieval script
-        run: python jobs.py
+        # Assurez-vous que le fichier jobs.py est bien à la racine de votre dépôt
+        run: python jobs.py 
 
       - name: Commit changes (new Mastodon posts)
         # Cette étape va committer les nouveaux fichiers .md créés par le script Python
         # et les pousser vers votre branche 'main'.
-        # Cela déclenchera le job 'build_and_deploy' (si configuré pour écouter les pushes sur 'main').
+        # Ce push déclenchera ensuite le job 'build_and_deploy'.
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add _jobs/ # Ajoutez tous les fichiers créés/modifiés dans _jobs
+          git add _jobs/ # Ajoutez les fichiers créés/modifiés dans le dossier _jobs
           git commit -m "Automatisation: Mise à jour des annonces Mastodon" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilise le jeton par défaut fourni par GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilise le jeton par défaut de GitHub Actions
 
 
-  # Job 2: Construire et Déployer le site Jekyll
-  # Ce job s'exécutera automatiquement une fois que le job 'prepare_data' aura poussé les changements
-  # (si votre workflow de déploiement est configuré pour écouter les pushes sur 'main').
-  # Si vous voulez les intégrer dans un seul workflow, il faudrait faire dépendre ce job du précédent:
+  # Job 2: Construire et Déployer le site Jekyll sur GitHub Pages
+  # Ce job attend que le job 'prepare_data' soit terminé et que les fichiers soient poussés.
   build_and_deploy:
     runs-on: ubuntu-latest
-    needs: prepare_data # Ce job attend que 'prepare_data' soit terminé et que les fichiers soient poussés
+    needs: prepare_data # Ce job dépend de la réussite de 'prepare_data'
     
+    # Configuration de l'environnement de déploiement GitHub Pages
+    environment:
+      name: github-pages # Nom d'environnement spécial requis par actions/deploy-pages
+    
+    # Permissions spécifiques pour le déploiement sur GitHub Pages
     permissions:
-      contents: write
-      pages: write
-      id-token: write
+      contents: write # Nécessaire pour checkout et pour l'étape de déploiement
+      pages: write    # Nécessaire pour déployer sur GitHub Pages
+      id-token: write # Nécessaire pour l'authentification avec OIDC pour GitHub Pages
 
     steps:
       - name: Checkout code (after data preparation)
         uses: actions/checkout@v4
         with:
-          # Important: 'fetch-depth: 0' pour s'assurer que le commit précédent est bien là
-          # si vous faites un `git pull` ou des opérations qui dépendent de l'historique
-          fetch-depth: 0 
+          fetch-depth: 0 # Nécessaire pour l'historique Git si vous faites des opérations de push
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.1' 
-          bundler-cache: true
+          ruby-version: '3.3.1' # Spécifiez une version de Ruby stable et disponible (ex: 3.3.1 ou 3.2.4)
+          bundler-cache: true # Installe les dépendances Gemfile avec Bundler
 
       - name: Build Jekyll site
+        # Cette étape exécute Jekyll avec tous vos plugins (même non supportés par GitHub Pages)
         run: bundle exec jekyll build
 
       - name: Upload Pages artifact
+        # Cette étape prend le site Jekyll déjà construit (_site)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./_site # Chemin du dossier Jekyll construit
 
       - name: Deploy to GitHub Pages
-        id: deployment
+        # Cette étape déploie l'artefact statique sur GitHub Pages
         uses: actions/deploy-pages@v4
