@@ -7,8 +7,9 @@ import urllib.parse
 import traceback
 
 # --- Configuration ---
-BLUESKY_USERNAME = os.environ.get("BLUESKY_USERNAME")
-BLUESKY_APP_PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD")
+BLUESKY_USERNAME = "inforjeuneswaterloo"
+BLUESKY_APP_PASSWORD = "46i7-h3ht-o2xg-6ryw"
+
 JEKYLL_POSTS_DIR = "_news"
 
 # --- Initialisation du client Bluesky ---
