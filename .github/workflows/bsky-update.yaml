@@ -1,0 +1,43 @@
+# .github/workflows/_bluesky_publisher.yml
+name: Publication Bluesky (fréquente)
+
+on:
+  schedule:
+    # Exécute toutes les 5 minutes.
+    # L'heure UTC est utilisée.
+    - cron: '*/5 * * * *' 
+
+  workflow_dispatch: # Permet de lancer ce workflow manuellement pour test ou besoin immédiat
+
+jobs:
+  publish_to_bluesky:
+    runs-on: ubuntu-latest
+    
+    # Permissions minimales nécessaires si bsky.py ne modifie pas le dépôt
+    permissions:
+      contents: read 
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' # Assurez-vous que cette version correspond à votre environnement
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install atproto # atproto est la seule librairie essentielle pour bsky.py
+
+      - name: Run Bluesky Publisher Script
+        # Assurez-vous que le chemin est correct (scripts/bsky.py)
+        # Et que bsky.py est configuré pour faire le travail de publication
+        run: python scripts/bsky.py
+        env:
+          # Assurez-vous que ces secrets sont configurés dans les paramètres de votre dépôt GitHub
+          BSKY_USERNAME: ${{ secrets.BSKY_USERNAME }}
+          BSKY_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          # Ajoutez d'autres variables d'environnement si bsky.py en a besoin (ex: JEKYLL_BASE_URL)
+          #JEKYLL_BASE_URL: https://votre-domaine.com # Adaptez à votre domaine réel si bsky.py l'utilise

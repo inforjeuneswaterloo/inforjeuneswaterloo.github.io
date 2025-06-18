@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Mastodon post retrieval script
         # Assurez-vous que le fichier jobs.py est bien à la racine de votre dépôt
-        run: python jobs.py 
+        run: python scripts/jobs.py 
 
       - name: Commit changes (new Mastodon posts)
         # Cette étape va committer les nouveaux fichiers .md créés par le script Python

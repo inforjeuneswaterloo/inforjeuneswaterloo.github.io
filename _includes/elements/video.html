@@ -1,0 +1,25 @@
+{% assign link=include.link %}
+{% assign width=include.w | default: 640 %}
+{% assign height=include.h | default: 360 %}
+{% assign autoplay=inlude.autoplay | default:false %}
+{% assign loop=include.loop | default:false %}
+{% assign muted=include.muted | default: true %}
+{% assign playsinline=include.playsinline | default:true}
+{% assign poster=include.poster %}
+{% assign controls=include.controls | default:true}
+{% assign type=include.type %}
+
+
+
+<video 
+    {% if controls %}{{controls}}{% endif %}
+    {% if autoplay %}{{autoplay}}{%endif %}
+    {% if loop %}{{loop}}{% endif %}
+    {% if muted %}{{muted}}{% endif %}
+    {% if playsinline %}{{playsinline}}{% endif %}
+    {% if poster %}{{poster}}{% endif %}
+    width="{{width}}" height="{{height}}" preload="metadata">
+  <source src="{{link}}" {%if type %}type="{{video/mp4}}"{%endif}>
+  Votre navigateur ne supporte pas la balise vidéo.
+  <a href="{{link}}">Téléchargez la vidéo ici</a>.
+</video>

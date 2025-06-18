@@ -10,4 +10,4 @@ Nous te proposons des séances d’orientation gratuites et personnalisées pour
 - En ligne ou en présentiel
 - Sur RDV via le formulaire en ligne
 
-{% button "Demander un RDV", "https://forms.gle/JUosedsMoRv8sFDE6", "btn btn-outline-dark text-decoration-none","fa-solid fa-calendar-day" %}
+{% include elements/button.html text="Demander un RDV" btn_link="https://forms.gle/JUosedsMoRv8sFDE6" class="btn btn-dark text-decoration-none text-white" icon="fa-solid fa-calendar-day" %}
