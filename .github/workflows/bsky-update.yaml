@@ -32,8 +32,6 @@ jobs:
           pip install atproto datetime os yaml urllib.parse traceback# atproto est la seule librairie essentielle pour bsky.py
 
       - name: Run Bluesky Publisher Script
-        # Assurez-vous que le chemin est correct (scripts/bsky.py)
-        # Et que bsky.py est configuré pour faire le travail de publication
         run: python scripts/bsky.py
         env:
           # Assurez-vous que ces secrets sont configurés dans les paramètres de votre dépôt GitHub
