@@ -12,7 +12,9 @@ import re
 
 # --- Configuration ---
 MASTODON_INSTANCE = "mastodon.social" # L'instance Mastodon
-MASTODON_USERNAME = "job4student"     # Le nom d'utilisateur du profil
+MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
+MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD")
+
 OUTPUT_DIR = "_jobs"                  # Le dossier de votre collection Jekyll
 
 # Définissez le fuseau horaire pour la date de publication des posts Jekyll
