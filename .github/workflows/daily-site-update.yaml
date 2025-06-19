@@ -55,16 +55,11 @@ jobs:
 
       # --- Étape 3: Générer le PDF (sans envoi d'email) ---
       # Ce script lit 'scripts/temp_jobs_for_pdf.json' et génère le PDF dans 'assets/downloads/jobs/archives/'.
-      # Assurez-vous que le nom du fichier Python est correct (generate_pdf.py ou generate_pdf_and_email.py)
       - name: Generate Job Offers PDF
-        run: python scripts/generate_pdf.py # <--- VÉRIFIEZ CE NOM DE FICHIER
+        run: python scripts/generate_pdf.py 
 
-      # --- NOUVELLE ÉTAPE : Nettoyage mensuel des archives PDF ---
-      - name: Monthly cleanup of PDF archives
-        run: |
-          # Supprime les fichiers PDF plus anciens qu'un mois dans le dossier des archives.
-          find assets/downloads/jobs/archives/ -type f -name "*.pdf" -mtime +30 -delete
-          echo "Anciens fichiers PDF supprimés (plus d'un mois)."
+      # --- ÉTAPE DE NETTOYAGE MENSUEL DES ARCHIVES PDF (SUPPRIMÉE) ---
+      # L'étape suivante aurait été ici, mais elle est maintenant retirée.
 
       # --- Étape 4: Exécuter le script Bluesky Publisher ---
       # Ce script nettoie '_news/', récupère les posts Bluesky et les crée dans '_news/'.
