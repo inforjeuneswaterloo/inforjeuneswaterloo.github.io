@@ -57,6 +57,22 @@ jobs:
           BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
 
+      # --- Étape de DÉBOGAGE TEMPORAIRE : Affiche la longueur des identifiants Bluesky ---
+      - name: Debug Bluesky Credentials (TEMPORARY STEP)
+        run: |
+          echo "--- DEBUG BLUESKY CREDENTIALS ---"
+          echo "BLUESKY_USERNAME length: ${{ secrets.BLUESKY_USERNAME | length }}"
+          echo "BLUESKY_APP_PASSWORD length: ${{ secrets.BLUESKY_APP_PASSWORD | length }}"
+          echo "--- END DEBUG ---"
+        # Ces variables d'environnement sont passées à ce step pour le débogage.
+        # N'essayez JAMAIS d'afficher la valeur brute des secrets ($BLUESKY_USERNAME)
+        # car cela les exposerait dans les logs.
+        env:
+          BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+      # --- FIN DE L'ÉTAPE DE DÉBOGAGE TEMPORAIRE ---
+
+
       # --- Étape 3: Commiter tous les changements effectués par les scripts ---
       - name: Commit all content changes
         run: |
