@@ -8,10 +8,10 @@ on:
     # En heure d'hiver (CET - UTC+1), cela correspondra à 16h00.
     - cron: '0 15 * * *' 
 
-  workflow_dispatch: # Permet de lancer ce workflow manuellement
+  workflow_dispatch: # Permet de lancer ce workflow manuellement depuis l'onglet Actions
 
 jobs:
-  # Job unique: Update data & Build & Deploy site
+  # Job unique: Met à jour les données, construit et déploie le site
   update_and_deploy:
     runs-on: ubuntu-latest
     permissions:
@@ -31,18 +31,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9' # La version de Python que vous utilisez
+          python-version: '3.9' # La version de Python utilisée pour vos scripts
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           # Installe toutes les dépendances nécessaires pour jobs.py ET bsky.py
-          # - requests, python-frontmatter, python-slugify, pytz (pour jobs.py)
-          # - PyYAML, atproto, html2text (pour bsky.py)
           pip install requests python-frontmatter python-slugify pytz PyYAML atproto html2text
 
       # --- Étape 1: Exécuter le script Mastodon Jobs (dans scripts/jobs.py) ---
-      - name: Run Mastodon Jobs script
+      # Ce script nettoie '_jobs/', récupère les posts Mastodon et les crée dans '_jobs/'.
+      - name: Run Mastodon Jobs script (job4student)
         run: python scripts/jobs.py 
         env:
           # Assurez-vous que ces Secrets sont configurés dans les paramètres de votre dépôt GitHub
@@ -50,6 +49,7 @@ jobs:
           MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }} # Ou MASTODON_ACCESS_TOKEN
 
       # --- Étape 2: Exécuter le script Bluesky Publisher (dans scripts/bsky.py) ---
+      # Ce script nettoie '_news/', récupère les posts Bluesky et les crée dans '_news/'.
       - name: Run Bluesky Publisher Script
         run: python scripts/bsky.py
         env:
@@ -63,15 +63,11 @@ jobs:
       - name: Debug Bluesky Credentials (TEMPORARY STEP)
         run: |
           echo "--- DEBUG BLUESKY CREDENTIALS ---"
-          # Assign secrets to shell variables first, then get their length using Bash syntax.
           BLUESKY_USERNAME_VAL="${{ secrets.BLUESKY_USERNAME }}"
           BLUESKY_APP_PASSWORD_VAL="${{ secrets.BLUESKY_APP_PASSWORD }}"
-
           echo "BLUESKY_USERNAME length: ${#BLUESKY_USERNAME_VAL}"
           echo "BLUESKY_APP_PASSWORD length: ${#BLUESKY_APP_PASSWORD_VAL}"
           echo "--- END DEBUG ---"
-      # --- FIN DE L'ÉTAPE DE DÉBOGAGE TEMPORAIRE ---
-
 
       # --- Étape 3: Commiter tous les changements effectués par les scripts ---
       - name: Commit all content changes
@@ -79,18 +75,15 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
           # Ajoutez TOUS les dossiers que vos scripts peuvent modifier
+          # Maintenant seulement _jobs/ et _news/
           git add _jobs/ _news/ 
           git commit -m "Automatisation: Mise à jour quotidienne du contenu du site" || echo "No content changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Utilise le jeton par défaut de GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # --- Étape 4: Construire le site Jekyll ---
-      # Cette étape s'exécute après le commit/push des changements.
-      # Le GITHUB_TOKEN par défaut ne déclenche pas un nouveau run de workflow lors du push,
-      # donc la construction se poursuit dans le même run.
       - name: Checkout code (after content update for build)
-        # Re-checkout pour s'assurer d'avoir les derniers fichiers committés pour le build
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 
@@ -98,7 +91,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.1' # Version de Ruby stable et disponible
+          ruby-version: '3.3.1' 
           bundler-cache: true 
 
       - name: Build Jekyll site
