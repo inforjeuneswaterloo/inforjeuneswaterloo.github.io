@@ -9,13 +9,17 @@ import time
 import shutil
 from urllib.parse import urlparse
 import re
+import json # NOUVEAU: Import pour la gestion des fichiers JSON
 
 # --- Configuration ---
 MASTODON_INSTANCE = "mastodon.social" # L'instance Mastodon
+# Lisez les identifiants depuis les variables d'environnement (SÉCURISÉ)
 MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
-MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD")
+MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD") # Ou MASTODON_ACCESS_TOKEN (si utilisé pour auth API)
 
-OUTPUT_DIR = "_jobs"                  # Le dossier de votre collection Jekyll
+OUTPUT_DIR = "_jobs"                  # Le dossier de votre collection Jekyll pour les jobs
+# Chemin du fichier JSON temporaire pour les données de jobs à utiliser pour le PDF
+JOBS_DATA_FOR_PDF_FILE = os.path.join("scripts", "temp_jobs_for_pdf.json")
 
 # Définissez le fuseau horaire pour la date de publication des posts Jekyll
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
@@ -54,25 +58,27 @@ def get_account_statuses(instance, account_id, limit=40):
     url = f"https://{instance}/api/v1/accounts/{account_id}/statuses"
     params = {
         'limit': limit,
-        'exclude_replies': True,
-        'exclude_reblogs': True
+        'exclude_replies': True, # Exclut les réponses
+        'exclude_reblogs': True  # Exclut les reblogs
     }
     try:
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params) 
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Erreur lors de la récupération des statuts du compte ID {account_id} : {e}")
         return None
 
-def create_jekyll_md_file(status_data):
-    """Crée un fichier Markdown Jekyll à partir des données du statut Mastodon."""
-    
+def create_jekyll_md_file_and_get_data(status_data):
+    """
+    Crée un fichier Markdown Jekyll à partir des données du statut Mastodon
+    et retourne le front matter formaté pour un usage externe (ex: PDF).
+    """
     raw_content = status_data.get('content', '')
     h = html2text.HTML2Text()
-    h.ignore_links = True # Important pour que le regex trouve les liens dans le texte brut
+    h.ignore_links = True 
     h.ignore_images = True
-    clean_content_raw_text = h.handle(raw_content).strip() # Texte brut du toot, liens non transformés en markdown
+    clean_content_raw_text = h.handle(raw_content).strip() 
 
     title = None
     card = status_data.get('card')
@@ -87,14 +93,10 @@ def create_jekyll_md_file(status_data):
 
     description = None
     if card and card.get('description'):
-        # Si la description de la carte existe, on la prend telle quelle (elle est déjà propre)
         description = card['description'].strip()
-    # --- MODIFICATION CLÉ ICI : LA DESCRIPTION DE SECOURS N'EST PLUS TRONQUÉE ---
-    if not description: # Si la description de la carte n'est pas trouvée
-        # On prend le contenu nettoyé du toot, puis on supprime TOUTES les URLs de ce contenu
+    if not description: 
         description_from_toot_text = re.sub(URL_REGEX, '', clean_content_raw_text).strip()
-        description = description_from_toot_text # PAS DE TRONCATION ICI
-    # --- FIN MODIFICATION ---
+        description = description_from_toot_text 
 
     pub_date_str = status_data.get('created_at')
     pub_date_utc = datetime.strptime(pub_date_str, '%Y-%m-%dT%H:%M:%S.%fZ').replace(tzinfo=pytz.utc)
@@ -105,7 +107,6 @@ def create_jekyll_md_file(status_data):
     if "mastodon" not in tags:
         tags.append("mastodon")
 
-    # --- EXTRACTION DE L'URL ET DU DOMAINE DE L'ARTICLE DE RÉFÉRENCE (via carte) ---
     url_article_reference = None
     domaine_article_reference = None
 
@@ -117,33 +118,28 @@ def create_jekyll_md_file(status_data):
         except Exception as e:
             print(f"Avertissement : Impossible de parser le domaine pour {url_article_reference} (carte): {e}")
             
-    # --- Récupération du premier lien trouvé DANS LE TEXTE BRUT DU TOOT ---
     first_toot_link = None
     if clean_content_raw_text:
         matches = re.findall(URL_REGEX, clean_content_raw_text)
         if matches:
             first_toot_link = matches[0]
-            # print(f"Lien trouvé dans le texte du toot : {first_toot_link}") # Décommenter pour debug
     
-    # --- Préparation du Front Matter ---
     fm = {
-        'layout': 'job_post',
+        'layout': 'job_post', 
         'title': title,
-        'description': description, # La description est ici, elle ne contient pas de lien direct et n'est pas tronquée.
+        'description': description, 
         'date': jekyll_date,
         'tags': tags,
         'mastodon_id': status_data.get('id'),
-        'mastodon_url': status_data.get('url'), # C'est le permalien du toot lui-même
+        'mastodon_url': status_data.get('url'),
         'mastodon_account': status_data.get('account', {}).get('acct'),
     }
     
-    # Ajoute les informations de l'article de référence (basées sur la carte)
     if url_article_reference:
         fm['url_article_reference'] = url_article_reference
     if domaine_article_reference:
         fm['domaine_article_reference'] = domaine_article_reference
     
-    # Ajoute le premier lien trouvé dans le texte du toot au front-matter (séparément de la description)
     if first_toot_link:
         fm['first_toot_link'] = first_toot_link
         try:
@@ -152,10 +148,8 @@ def create_jekyll_md_file(status_data):
         except Exception as e:
             print(f"Avertissement : Impossible de parser le domaine pour le premier lien du toot ({first_toot_link}): {e}")
 
-    # --- Préparation du contenu Markdown (corps de l'article Jekyll) ---
     markdown_content = clean_content_raw_text + "\n\n" 
     
-    # Logique pour le lien ajouté à la fin du corps du Markdown
     if url_article_reference and url_article_reference != status_data.get('url'):
         markdown_content += f"[Consulter l'article original]({url_article_reference})\n\n"
     elif first_toot_link and first_toot_link != status_data.get('url'):
@@ -163,12 +157,10 @@ def create_jekyll_md_file(status_data):
     elif status_data.get('url'):
         markdown_content += f"[Voir le post Mastodon original]({status_data.get('url')})\n\n"
         
-    # --- Création du nom de fichier ---
     filename_slug = str(status_data.get('id'))
     filename = f"{pub_date_local.strftime('%Y-%m-%d')}-{filename_slug}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
 
-    # --- Écriture du fichier Markdown ---
     post_with_fm = frontmatter.Post(markdown_content)
     post_with_fm.metadata = fm
 
@@ -176,7 +168,7 @@ def create_jekyll_md_file(status_data):
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(frontmatter.dumps(post_with_fm))
         print(f"Article '{filename}' créé avec succès dans '{OUTPUT_DIR}'.")
-        return filepath
+        return fm # Retourne le front matter du job créé
     except IOError as e:
         print(f"Erreur lors de l'écriture du fichier '{filename}': {e}")
         return None
@@ -185,6 +177,12 @@ def create_jekyll_md_file(status_data):
 if __name__ == "__main__":
     print("--- Démarrage du processus de récupération des posts Mastodon ---")
     
+    # Vérifiez que les identifiants sont bien chargés des variables d'environnement
+    if not MASTODON_USERNAME or not MASTODON_PASSWORD:
+        print("Erreur: Les variables MASTODON_USERNAME ou MASTODON_PASSWORD (token) ne sont pas définies en tant que variables d'environnement.")
+        print("Veuillez les configurer dans les Secrets GitHub de votre dépôt.")
+        exit(1)
+
     # ÉTAPE 1: Nettoyer le dossier _jobs existant
     clean_output_directory(OUTPUT_DIR)
 
@@ -197,33 +195,51 @@ if __name__ == "__main__":
         print(f"ID numérique pour '{MASTODON_USERNAME}' : {account_id}")
         
         now_utc = datetime.now(timezone.utc)
-        seven_days_ago_utc = now_utc - timedelta(days=7)
-        print(f"Récupération des posts publiés depuis : {seven_days_ago_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d %H:%M:%S %Z')}")
+        start_of_today_utc = datetime(now_utc.year, now_utc.month, now_utc.day, 0, 0, 0, tzinfo=timezone.utc)
+        print(f"Récupération des posts publiés depuis : {start_of_today_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d %H:%M:%S %Z')}")
 
         statuses = get_account_statuses(MASTODON_INSTANCE, account_id, limit=40) 
         
+        processed_job_data_for_pdf = [] # Initialise la liste pour les données du PDF
+
         if statuses:
             processed_count = 0
             for status in statuses:
                 status_created_at_str = status.get('created_at')
                 status_date_utc = datetime.strptime(status_created_at_str, '%Y-%m-%dT%H:%M:%S.%fZ').replace(tzinfo=pytz.utc)
 
-                if status_date_utc >= seven_days_ago_utc:
-                    create_jekyll_md_file(status)
-                    processed_count += 1
+                if status_date_utc >= start_of_today_utc:
+                    # Appelle la nouvelle fonction qui crée le MD et retourne le front matter
+                    job_fm = create_jekyll_md_file_and_get_data(status)
+                    if job_fm: # Si le fichier MD a été créé avec succès
+                        processed_job_data_for_pdf.append(job_fm) # Ajoute le front matter à la liste
+                        processed_count += 1
                 else:
-                    print(f"Post '{status.get('url')}' est plus ancien que 7 jours ({status_date_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d')}), et les suivants le seront aussi. Arrêt du traitement.")
+                    print(f"Post '{status.get('url')}' est plus ancien que le jour actuel ({status_date_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d')}), et les suivants le seront aussi. Arrêt du traitement.")
                     break
                 
                 time.sleep(0.5)
             
             if processed_count == 0:
-                print(f"Aucun nouveau post trouvé dans les 7 derniers jours pour le profil '{MASTODON_USERNAME}'.")
+                print(f"Aucun nouveau post trouvé pour le jour actuel ({now_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d')}) pour le profil '{MASTODON_USERNAME}'.")
             else:
-                print(f"{processed_count} post(s) créé(s) dans '{OUTPUT_DIR}' pour les 7 derniers jours.")
+                print(f"{processed_count} post(s) créé(s) dans '{OUTPUT_DIR}' pour le jour actuel.")
         else:
             print(f"Aucun statut trouvé pour le profil '{MASTODON_USERNAME}'.")
     else:
         print(f"Impossible de trouver l'ID numérique pour le profil '{MASTODON_USERNAME}'. Vérifiez le nom d'utilisateur et l'instance.")
     
-    print("--- Processus terminé ---")
+    # --- NOUVEAU : Écrire les données des jobs dans un fichier JSON pour le PDF ---
+    if processed_job_data_for_pdf:
+        pdf_data_path = JOBS_DATA_FOR_PDF_FILE
+        with open(pdf_data_path, "w", encoding="utf-8") as f:
+            json.dump(processed_job_data_for_pdf, f, ensure_ascii=False, indent=2)
+        print(f"Données de {len(processed_job_data_for_pdf)} jobs écrites dans {pdf_data_path} pour le PDF.")
+    else:
+        print(f"Aucune donnée de job du jour à écrire dans {JOBS_DATA_FOR_PDF_FILE}.")
+        # Créer un fichier JSON vide si aucun job n'a été traité, pour éviter des erreurs au script suivant
+        with open(JOBS_DATA_FOR_PDF_FILE, "w", encoding="utf-8") as f:
+            json.dump([], f)
+
+
+    print("--- Processus Mastodon terminé ---")
