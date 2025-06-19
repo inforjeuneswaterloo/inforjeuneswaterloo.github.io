@@ -78,7 +78,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
           # Ajoutez TOUS les dossiers que vos scripts peuvent modifier, y compris le chemin du PDF
-          git add _jobs/ _news/ assets/downloads/jobs/archives/ 
+          git add _jobs/ _news/ 
           git commit -m "Automatisation: Mise à jour quotidienne du contenu du site et du PDF" || echo "No content changes to commit"
           git push
         env:
