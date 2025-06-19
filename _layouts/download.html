@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="container mt-5">
+    <h1 class="page-title">{{page.title}}</h1>
+    {% if page.description %}
+        <p class="lead text-center">
+            {{ page.description }}
+        </p>
+    {% endif %}
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+      <ul class="list-group">
+        {{ content }}
+      </ul>
+    </div>
+</div>
