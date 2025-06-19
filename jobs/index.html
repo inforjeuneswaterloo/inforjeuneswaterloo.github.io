@@ -1,20 +1,14 @@
 ---
 layout: grid
 title: Jobs étudiants
-pagination:
-  enabled: true
-  collection: 'jobs'
-  per_page: 6
-  permalink: '/jobs/page/:num/'
+permalink: /jobs/
 draft: false
 listed: true
 pseudo: Jobs
 ---
-{% include elements/notice.html alert="light" text="
-Cette page est mise à jour tous les jour à 17h00. Si tu ne veux pas attendre suis-nous sur
-[@job4student](https://mastodon.social/@job4student)" %}
+{% assign jobs=site.jobs | sort: 'date' | reverse %}
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-  {% for item in paginator.posts  %}
+  {% for item in jobs %}
     {% include grid.html item=item %}
   {% endfor %}  
 </div>
