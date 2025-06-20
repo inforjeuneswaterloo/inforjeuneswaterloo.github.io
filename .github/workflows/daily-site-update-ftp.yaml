@@ -90,7 +90,7 @@ jobs:
       # Cette étape ne s'exécute que si un nouveau commit a été effectué
       - name: Deploy to Infomaniak via FTP
         if: ${{ steps.commit_changes.outputs.committed == 'true' }}
-        uses: SamKirkland/FTP-Deploy@v5 # CHANGEMENT ICI : Utilise la dernière version de la branche v5
+        uses: SamKirkland/FTP-Deploy@v4.3.5 # CHANGEMENT ICI : Utilise la dernière version de la branche v5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
