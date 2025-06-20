@@ -34,6 +34,10 @@ collections:
   services:
     output: true
     permalink: /services/:title
+  posts:
+    output: true
+    permalink: /posts/:title
+
   
 jekyll-archives:
   enabled:

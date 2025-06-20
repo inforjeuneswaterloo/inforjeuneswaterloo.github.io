@@ -1,0 +1,101 @@
+name: Daily Site Content Update and Deployment
+
+on:
+  # Déclenche le workflow chaque jour à 13h00 UTC (soit 15h00 CEST en été, 14h00 CET en hiver)
+  schedule:
+    - cron: '0 15 * * *'
+  # Permet de déclencher le workflow manuellement depuis l'interface GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write # Nécessaire pour les opérations 'git push' et le 'checkout'
+
+jobs:
+  update_and_deploy:
+    runs-on: ubuntu-latest
+    # environment: production # Optionnel : si vous avez un environnement configuré pour les déploiements de production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Récupère tout l'historique pour une détection précise des commits
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' # Assurez-vous que cette version correspond à votre script
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-frontmatter python-slugify pytz PyYAML atproto html2text pdfkit
+
+      - name: Run Mastodon Jobs script (job4student)
+        run: python scripts/jobs.py
+        env:
+          MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
+          MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
+
+      - name: Install wkhtmltopdf for PDF generation
+        run: sudo apt-get update && sudo apt-get install -y wkhtmltopdf
+
+      - name: Run Bluesky Publisher Script
+        run: python scripts/bsky.py
+        env:
+          BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+
+      - name: Commit all content changes
+        id: commit_changes # ID pour cette étape, utilisé pour les conditions suivantes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+
+          # Vérifie si des changements sont présents dans les dossiers spécifiés
+          if git diff --quiet _jobs/ _news/; then
+            echo "No content changes detected in _jobs/ or _news/."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Content changes detected. Committing..."
+            git add _jobs/ _news/
+            git commit -m "Automatisation: Mise à jour quotidienne du contenu du site et du PDF"
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Nécessaire pour 'git push'
+
+      # --- Étapes de construction Jekyll ---
+      # Ces étapes ne s'exécutent que si un nouveau commit a été effectué par le workflow
+      - name: Checkout code (for build)
+        # Re-checkout nécessaire pour s'assurer que les changements nouvellement poussés sont disponibles
+        if: ${{ steps.commit_changes.outputs.committed == 'true' }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Ruby
+        if: ${{ steps.commit_changes.outputs.committed == 'true' }}
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.1' # Assurez-vous que cette version correspond à votre projet Jekyll
+          bundler-cache: true # Installe les gems depuis Gemfile.lock
+
+      - name: Build Jekyll site
+        if: ${{ steps.commit_changes.outputs.committed == 'true' }}
+        run: bundle exec jekyll build
+
+      # --- Déploiement vers Infomaniak via FTP ---
+      # Cette étape ne s'exécute que si un nouveau commit a été effectué
+      - name: Deploy to Infomaniak via FTP
+        if: ${{ steps.commit_changes.outputs.committed == 'true' }}
+        uses: SamKirkland/FTP-Deploy@v5.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps # Utilise FTPS pour une connexion sécurisée (port par défaut 21)
+          local-dir: _site/ # Le dossier généré par Jekyll
+          remote-dir: sites/mtts.inforjeuneswaterloo.be/ # Le chemin exact sur votre serveur Infomaniak
+          # dangerous-clean-slate: true # DANGER : Décommenter cela effacera le dossier distant avant l'upload. À utiliser avec une extrême prudence !

@@ -11,7 +11,7 @@
         {% endfor %}
     {% when 'navbar' %}
         {% for item in list_data %}
-            {% if item.output and item.label != 'posts' %}
+            {% if item.output %}
                 {% assign item_url = item.permalink | replace: ":path", "" | replace: ":title", "" | replace: "//", "/" %}
                 <li class="nav-item">
                     <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{ item_url | relative_url }}">

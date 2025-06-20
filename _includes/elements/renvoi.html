@@ -1,0 +1,15 @@
+{% assign renvoi=include.renvoi %}
+
+<div class="alert alert-light">
+    {% case renvoi %}
+        {%when 'contact' %}
+            Besoin d'infos supplémentaires? <a class="btn btn-outline-dark text-decoration-none" href="/contact/">
+                <strong>Contacte-nous</strong>
+            </a>
+        {% when 'job' %}
+            A la recherche d'un job étudiant? Consulte notre page <a class="btn btn-outline-dark text-decoration-none" href="/jobs/">Jobs</a>
+        {% when 'orientation' %}
+            Besoin d'un coup de pouce pour (re)trouver ta voie? <a class="btn btn-outline-dark text-decoration-none" href="/services/orientation">
+            Nos modules d'orientation</a> sont là pour toi!
+    {% endcase %}
+</div>
