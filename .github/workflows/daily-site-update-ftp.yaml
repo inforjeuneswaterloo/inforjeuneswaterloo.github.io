@@ -3,7 +3,7 @@ name: Daily Site Content Update and Deployment
 on:
   # Déclenche le workflow chaque jour à 13h00 UTC (soit 15h00 CEST en été, 14h00 CET en hiver)
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 13 * * *'
   # Permet de déclencher le workflow manuellement depuis l'interface GitHub
   workflow_dispatch:
 
@@ -90,7 +90,7 @@ jobs:
       # Cette étape ne s'exécute que si un nouveau commit a été effectué
       - name: Deploy to Infomaniak via FTP
         if: ${{ steps.commit_changes.outputs.committed == 'true' }}
-        uses: SamKirkland/FTP-Deploy@v5.0.0
+        uses: SamKirkland/FTP-Deploy@v5 # CHANGEMENT ICI : Utilise la dernière version de la branche v5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
