@@ -90,12 +90,12 @@ jobs:
       # Cette étape ne s'exécute que si un nouveau commit a été effectué
       - name: Deploy to Infomaniak via FTP
         if: ${{ steps.commit_changes.outputs.committed == 'true' }}
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.0 
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.0 # La VRAIE action GitHub
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps # Utilise FTPS pour une connexion sécurisée (port par défaut 21)
-          local-dir: _site/ # Le dossier généré par Jekyll
-          remote-dir: sites/mtts.inforjeuneswaterloo.be/ # Le chemin exact sur votre serveur Infomaniak
-          # dangerous-clean-slate: true # DANGER : Décommenter cela effacera le dossier distant avant l'upload. À utiliser avec une extrême prudence !
+          protocol: ftps
+          local-dir: _site/
+          server-dir: sites/mtts.inforjeuneswaterloo.be/ # CHANGEMENT ICI : 'remote-dir' devient 'server-dir'
+          # dangerous-clean-slate: true
