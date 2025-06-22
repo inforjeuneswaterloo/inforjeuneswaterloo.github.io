@@ -9,7 +9,7 @@ import time
 import shutil
 from urllib.parse import urlparse
 import re
-import json
+# import json # Supprimé: Plus besoin de json
 
 # --- Configuration ---
 MASTODON_INSTANCE = "mastodon.social" # L'instance Mastodon
@@ -17,13 +17,13 @@ MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
 MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD") # Ou MASTODON_ACCESS_TOKEN (si utilisé pour auth API)
 
 OUTPUT_DIR = "_jobs"                  # Le dossier de votre collection Jekyll pour les jobs
-JOBS_DATA_FOR_PDF_FILE = os.path.join("scripts", "temp_jobs_for_pdf.json")
+# JOBS_DATA_FOR_PDF_FILE = os.path.join("scripts", "temp_jobs_for_pdf.json") # Supprimé: Plus besoin de ce chemin
 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 URL_REGEX = r"https?://[^\s]+" 
 
-# --- NOUVEAU: Nombre de jours à récupérer ---
+# NOUVEAU: Nombre de jours à récupérer
 DAYS_TO_FETCH = 7 
 # NOUVEAU: Limite de posts à récupérer par appel API (peut nécessiter pagination pour plus de jours/posts)
 API_FETCH_LIMIT = 200 # Augmenté pour couvrir plus de jours. Max typique est 40, mais certaines instances autorisent plus.
@@ -76,8 +76,8 @@ def get_account_statuses(instance, account_id, limit=API_FETCH_LIMIT): # Utilise
 
 def create_jekyll_md_file_and_get_data(status_data):
     """
-    Crée un fichier Markdown Jekyll à partir des données du statut Mastodon
-    et retourne le front matter formaté pour un usage externe (ex: PDF).
+    Crée un fichier Markdown Jekyll à partir des données du statut Mastodon.
+    Ne retourne plus les données pour le PDF.
     """
     raw_content = status_data.get('content', '')
     h = html2text.HTML2Text()
@@ -151,108 +151,4 @@ def create_jekyll_md_file_and_get_data(status_data):
         try:
             parsed_first_toot_link = urlparse(first_toot_link)
             fm['first_toot_link_domain'] = parsed_first_toot_link.netloc
-        except Exception as e:
-            print(f"Avertissement : Impossible de parser le domaine pour le premier lien du toot ({first_toot_link}): {e}")
-
-    markdown_content = clean_content_raw_text + "\n\n" 
-    
-    if url_article_reference and url_article_reference != status_data.get('url'):
-        markdown_content += f"[Consulter l'article original]({url_article_reference})\n\n"
-    elif first_toot_link and first_toot_link != status_data.get('url'):
-        markdown_content += f"[Consulter le lien trouvé dans le post]({first_toot_link})\n\n"
-    elif status_data.get('url'):
-        markdown_content += f"[Voir le post Mastodon original]({status_data.get('url')})\n\n"
-        
-    filename_slug = str(status_data.get('id'))
-    filename = f"{pub_date_local.strftime('%Y-%m-%d')}-{filename_slug}.md"
-    filepath = os.path.join(OUTPUT_DIR, filename)
-
-    post_with_fm = frontmatter.Post(markdown_content)
-    post_with_fm.metadata = fm
-
-    try:
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(frontmatter.dumps(post_with_fm))
-        print(f"Article '{filename}' créé avec succès dans '{OUTPUT_DIR}'.")
-        return fm # Retourne le front matter du job créé
-    except IOError as e:
-        print(f"Erreur lors de l'écriture du fichier '{filename}': {e}")
-        return None
-
-# --- Exécution principale ---
-if __name__ == "__main__":
-    print("--- Démarrage du processus de récupération des posts Mastodon ---")
-    
-    if not MASTODON_USERNAME or not MASTODON_PASSWORD:
-        print("Erreur: Les variables MASTODON_USERNAME ou MASTODON_PASSWORD (token) ne sont pas définies en tant que variables d'environnement.")
-        print("Veuillez les configurer dans les Secrets GitHub de votre dépôt.")
-        exit(1)
-
-    clean_output_directory(OUTPUT_DIR)
-
-    print(f"Tentative de récupération des posts du profil '{MASTODON_USERNAME}' depuis l'instance '{MASTODON_INSTANCE}'.")
-    
-    account_id = get_account_id(MASTODON_INSTANCE, MASTODON_USERNAME)
-
-    if account_id:
-        print(f"ID numérique pour '{MASTODON_USERNAME}' : {account_id}")
-        
-        now_utc = datetime.now(timezone.utc)
-        # CHANGEMENT ICI: Calculer la date de début il y a DAYS_TO_FETCH jours
-        start_date_utc = now_utc - timedelta(days=DAYS_TO_FETCH)
-        # Arrondir à minuit du jour de début pour inclure tout le jour
-        start_date_utc = datetime(start_date_utc.year, start_date_utc.month, start_date_utc.day, 0, 0, 0, tzinfo=timezone.utc)
-        
-        print(f"Récupération des posts publiés depuis : {start_date_utc.astimezone(TARGET_TIMEZONE).strftime('%Y-%m-%d %H:%M:%S %Z')} (soit les {DAYS_TO_FETCH} derniers jours)")
-
-        # Passe la nouvelle limite à la fonction
-        statuses = get_account_statuses(MASTODON_INSTANCE, account_id, limit=API_FETCH_LIMIT) 
-        
-        processed_job_data_for_pdf = []
-
-        if statuses:
-            processed_count = 0
-            # NOUVEAU: Tri des statuts par date décroissante pour un traitement plus logique
-            statuses.sort(key=lambda x: x.get('created_at'), reverse=True)
-
-            for status in statuses:
-                status_created_at_str = status.get('created_at')
-                status_date_utc = datetime.strptime(status_created_at_str, '%Y-%m-%dT%H:%M:%S.%fZ').replace(tzinfo=pytz.utc)
-
-                # CHANGEMENT ICI: Vérifie si le post est dans la période des DAYS_TO_FETCH derniers jours
-                if status_date_utc >= start_date_utc:
-                    job_fm = create_jekyll_md_file_and_get_data(status)
-                    if job_fm:
-                        processed_job_data_for_pdf.append(job_fm)
-                        processed_count += 1
-                else:
-                    # Si les posts sont triés par ordre décroissant, nous pouvons arrêter quand un post est trop ancien
-                    print(f"Post '{status.get('url')}' est plus ancien que la période de {DAYS_TO_FETCH} jours. Arrêt du traitement des posts API.")
-                    break
-                
-                time.sleep(0.5)
-            
-            if processed_count == 0:
-                print(f"Aucun nouveau post trouvé pour la période des {DAYS_TO_FETCH} derniers jours pour le profil '{MASTODON_USERNAME}'.")
-            else:
-                print(f"{processed_count} post(s) créé(s) dans '{OUTPUT_DIR}' pour la période des {DAYS_TO_FETCH} derniers jours.")
-        else:
-            print(f"Aucun statut trouvé pour le profil '{MASTODON_USERNAME}'.")
-    else:
-        print(f"Impossible de trouver l'ID numérique pour le profil '{MASTODON_USERNAME}'. Vérifiez le nom d'utilisateur et l'instance.")
-    
-    # --- Écrire les données des jobs dans un fichier JSON pour le PDF ---
-    if processed_job_data_for_pdf:
-        pdf_data_path = JOBS_DATA_FOR_PDF_FILE
-        # NOUVEAU: Tri des données pour le PDF par date (les plus récents d'abord si souhaité)
-        processed_job_data_for_pdf.sort(key=lambda x: x.get('date'), reverse=True) 
-        with open(pdf_data_path, "w", encoding="utf-8") as f:
-            json.dump(processed_job_data_for_pdf, f, ensure_ascii=False, indent=2)
-        print(f"Données de {len(processed_job_data_for_pdf)} jobs écrites dans {pdf_data_path} pour le PDF.")
-    else:
-        print(f"Aucune donnée de job du jour à écrire dans {JOBS_DATA_FOR_PDF_FILE}.")
-        with open(JOBS_DATA_FOR_PDF_FILE, "w", encoding="utf-8") as f:
-            json.dump([], f)
-
-
-    print("--- Processus Mastodon terminé ---")
+        except Exception
