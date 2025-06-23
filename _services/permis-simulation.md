@@ -10,7 +10,7 @@ buttons:
      text: Prendre RDV
      href: https://forms.gle/ShSoBQbjCkm1PNPp8
      icon: fa-solid fa-calendar-day
-     class: btn-btn-outline-dark text-decoration-none
+     class: btn btn-outline-dark text-decoration-none
      target: "_blank"
 sidebar: true
 ---
