@@ -8,42 +8,33 @@ import pytz
 import time
 from urllib.parse import urlparse
 import re
-import shutil # Ajouté, car utilisé dans clean_output_directory
+import shutil
 
-# --- Configuration ---
-MASTODON_INSTANCE = "mastodon.social" # L'instance Mastodon
+# --- Configuration (inchangée) ---
+MASTODON_INSTANCE = "mastodon.social"
 MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
-MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD") # Ou MASTODON_ACCESS_TOKEN (si utilisé pour auth API)
+MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD")
 
-OUTPUT_DIR = "_jobs"                  # Le dossier de votre collection Jekyll pour les jobs
+OUTPUT_DIR = "_jobs"
 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
-URL_REGEX = r"https?://[^\s]+" # Expression régulière pour trouver les URLs dans le texte
+URL_REGEX = r"https?://[^\s]+" 
 
-# NOUVEAU: Nombre de jours à récupérer
 DAYS_TO_FETCH = 7 
-# NOUVEAU: Limite de posts à récupérer par appel API (peut nécessiter pagination pour plus de jours/posts)
-API_FETCH_LIMIT = 200 # Augmenté pour couvrir plus de jours. Max typique est 40, mais certaines instances autorisent plus.
-                      # ATTENTION: Si ce n'est pas suffisant pour 7 jours de posts, la pagination sera nécessaire.
+API_FETCH_LIMIT = 200 
 
-# --- Fonctions de nettoyage ---
+# --- Fonctions de nettoyage (inchangées) ---
 def clean_output_directory(directory):
-    """
-    Supprime tous les fichiers et sous-dossiers dans le répertoire spécifié.
-    Recrée ensuite le répertoire vide.
-    """
     if os.path.exists(directory):
         print(f"Suppression du contenu existant dans '{directory}'...")
         shutil.rmtree(directory)
         print(f"Contenu de '{directory}' supprimé.")
-    
     os.makedirs(directory)
     print(f"Dossier '{directory}' recréé.")
 
-# --- Fonctions d'interaction avec l'API Mastodon ---
+# --- Fonctions d'interaction avec l'API Mastodon (inchangées) ---
 def get_account_id(instance, username):
-    """Récupère l'ID numérique d'un compte Mastodon à partir de son nom d'utilisateur."""
     url = f"https://{instance}/api/v1/accounts/lookup?acct={username}"
     try:
         response = requests.get(url)
@@ -57,18 +48,12 @@ def get_account_id(instance, username):
         return None
 
 def get_account_statuses(instance, account_id, limit=API_FETCH_LIMIT):
-    """Récupère les statuts (posts) récents d'un compte Mastodon."""
     url = f"https://{instance}/api/v1/accounts/{account_id}/statuses"
     params = {
         'limit': limit,
         'exclude_replies': True,
         'exclude_reblogs': True
     }
-    # Si vous utilisez un jeton d'accès (RECOMMANDÉ pour la sécurité):
-    # MASTODON_ACCESS_TOKEN = os.environ.get("MASTODON_ACCESS_TOKEN")
-    # headers = {'Authorization': f'Bearer {MASTODON_ACCESS_TOKEN}'}
-    # response = requests.get(url, params=params, headers=headers)
-    # else:
     try:
         response = requests.get(url, params=params) 
         response.raise_for_status()
@@ -80,22 +65,34 @@ def get_account_statuses(instance, account_id, limit=API_FETCH_LIMIT):
         print(f"Une erreur inattendue s'est produite lors de la récupération des statuts : {e}")
         return None
 
+# --- NOUVELLE FONCTION pour récupérer le code d'intégration (inchangée) ---
+def get_mastodon_oembed_html(instance_url, status_url):
+    """
+    Récupère le code HTML d'intégration (oEmbed) d'un statut Mastodon.
+    """
+    oembed_url = f"https://{instance_url}/api/oembed"
+    params = {'url': status_url, 'hide_thread': True, 'hide_media': False}
+    try:
+        response = requests.get(oembed_url, params=params)
+        response.raise_for_status()
+        oembed_data = response.json()
+        return oembed_data.get('html')
+    except requests.exceptions.RequestException as e:
+        print(f"Erreur lors de la récupération du code oEmbed pour {status_url} : {e}")
+        return None
+    except Exception as e:
+        print(f"Une erreur inattendue s'est produite lors de l'oEmbed pour {status_url} : {e}")
+        return None
+
+# --- Fonction principale de création des fichiers MD (modifiée) ---
 def create_jekyll_md_file_and_get_data(status_data):
-    """
-    Crée un fichier Markdown Jekyll à partir des données du statut Mastodon.
-    Les liens d'article et les premiers liens du toot sont conservés dans le front matter,
-    mais supprimés du corps du texte du post.
-    Retourne True si le fichier a été créé avec succès, False sinon.
-    """
     raw_content = status_data.get('content', '')
     h = html2text.HTML2Text()
-    h.ignore_links = True # Tente d'ignorer les balises HTML <a>
+    h.ignore_links = True
     h.ignore_images = True
     clean_content_raw_text = h.handle(raw_content).strip()
 
     # --- PARTIE 1: EXTRACTION DES LIENS ET INFOS POUR LE FRONT MATTER ---
-    # Ces liens sont extraits AVANT le nettoyage complet du texte pour s'assurer qu'on les capture
-    # pour le front matter, même s'ils seront retirés du corps du texte.
     url_article_reference = None
     domaine_article_reference = None
     card = status_data.get('card')
@@ -109,24 +106,22 @@ def create_jekyll_md_file_and_get_data(status_data):
             print(f"Avertissement : Impossible de parser le domaine pour {url_article_reference} (carte): {e}")
 
     first_toot_link = None
-    # Recherche du premier lien DIRECTEMENT dans le clean_content_raw_text
-    # pour le conserver dans le front matter.
     if clean_content_raw_text:
         matches = re.findall(URL_REGEX, clean_content_raw_text)
         if matches:
             first_toot_link = matches[0]
 
     # --- PARTIE 2: PRÉPARATION DU CONTENU TEXTUEL POUR LE CORPS DU POST ---
-    # C'est LA LIGNE CLÉ : Supprimer toutes les URLs du texte qui sera écrit dans le corps du Markdown.
-    content_for_markdown_body = re.sub(URL_REGEX, '', clean_content_raw_text).strip()
+    # Cette variable est toujours utile pour dériver titre et description,
+    # mais son contenu ne sera plus le corps du Markdown.
+    content_text_only = re.sub(URL_REGEX, '', clean_content_raw_text).strip()
 
     # --- PARTIE 3: DÉTERMINATION DU TITRE ET DE LA DESCRIPTION ---
     title = None
     if card and card.get('title'):
         title = card['title']
     else:
-        # Baser le titre sur le contenu sans URLs pour éviter un titre qui serait juste une URL
-        title_lines = [line.strip() for line in content_for_markdown_body.split('\n') if line.strip()]
+        title_lines = [line.strip() for line in content_text_only.split('\n') if line.strip()]
         if title_lines:
             title = title_lines[0]
         else:
@@ -136,8 +131,7 @@ def create_jekyll_md_file_and_get_data(status_data):
     if card and card.get('description'):
         description = card['description'].strip()
     if not description:
-        # La description est basée sur le contenu sans URLs
-        description = content_for_markdown_body
+        description = content_text_only
 
     pub_date_str = status_data.get('created_at')
     pub_date_utc = datetime.strptime(pub_date_str, '%Y-%m-%dT%H:%M:%S.%fZ').replace(tzinfo=pytz.utc)
@@ -149,11 +143,10 @@ def create_jekyll_md_file_and_get_data(status_data):
         tags.append("mastodon")
 
     # --- PARTIE 4: CONSTRUCTION DU FRONT MATTER (fm) ---
-    # Ici, nous incluons tous les liens que nous voulons conserver dans le front matter.
     fm = {
-        'layout': 'post', 
+        'layout': 'post',
         'title': title,
-        'description': description, 
+        'description': description,
         'date': jekyll_date,
         'tags': tags,
         'mastodon_id': status_data.get('id'),
@@ -161,12 +154,12 @@ def create_jekyll_md_file_and_get_data(status_data):
         'mastodon_account': status_data.get('account', {}).get('acct'),
     }
     
-    if url_article_reference: # Lien de la carte Mastodon (conservé dans le FM)
+    if url_article_reference:
         fm['url_article_reference'] = url_article_reference
     if domaine_article_reference:
         fm['domaine_article_reference'] = domaine_article_reference
     
-    if first_toot_link: # Premier lien trouvé dans le corps du toot (conservé dans le FM)
+    if first_toot_link:
         fm['first_toot_link'] = first_toot_link
         try:
             parsed_first_toot_link = urlparse(first_toot_link)
@@ -174,9 +167,22 @@ def create_jekyll_md_file_and_get_data(status_data):
         except Exception as e:
             print(f"Avertissement : Impossible de parser le domaine pour le premier lien du toot ({first_toot_link}): {e}")
 
-    # --- PARTIE 5: ASSEMBLAGE FINAL ET ÉCRITURE DU FICHIER ---
-    # Le corps du Markdown utilise le contenu nettoyé (sans URLs).
-    markdown_content = content_for_markdown_body + "\n\n"
+    # --- PARTIE 5: ASSEMBLAGE FINAL DU CONTENU ET ÉCRITURE DU FICHIER ---
+    # Récupération et ajout du code d'intégration du toot
+    toot_embed_html = get_mastodon_oembed_html(MASTODON_INSTANCE, status_data.get('url'))
+
+    markdown_content = "" # Initialise le corps du Markdown comme vide
+
+    if toot_embed_html:
+        markdown_content += "\n"
+        markdown_content += toot_embed_html + "\n\n"
+        markdown_content += "\n"
+    else:
+        # Fallback : Si l'intégration échoue, on remet le texte nettoyé pour éviter un post vide
+        print(f"Avertissement: Impossible de récupérer le code d'intégration pour le toot {status_data.get('url')}. Ajout du texte brut à la place.")
+        markdown_content += "\n"
+        markdown_content += content_text_only + "\n\n" # Utilise le texte nettoyé
+        markdown_content += "\n"
         
     filename_slug = str(status_data.get('id'))
     filename = f"{pub_date_local.strftime('%Y-%m-%d')}-{filename_slug}.md"
@@ -194,7 +200,7 @@ def create_jekyll_md_file_and_get_data(status_data):
         print(f"Erreur lors de l'écriture du fichier '{filename}': {e}")
         return False
 
-# --- Exécution principale ---
+# --- Exécution principale (inchangée) ---
 if __name__ == "__main__":
     print("--- Démarrage du processus de récupération des posts Mastodon ---")
     
