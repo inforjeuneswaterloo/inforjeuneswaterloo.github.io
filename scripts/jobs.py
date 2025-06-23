@@ -138,7 +138,7 @@ def create_jekyll_md_file_and_get_data(status_data):
             first_toot_link = matches[0]
     
     fm = {
-        'layout': 'job_post', 
+        'layout': 'post', 
         'title': title,
         'description': description, 
         'date': jekyll_date,
