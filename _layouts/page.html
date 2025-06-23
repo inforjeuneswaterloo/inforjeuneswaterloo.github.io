@@ -9,6 +9,17 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+    {% for btn in page.buttons %}
+    {% assign elmt=btn.btn %}
+    {% if elmt.enable %}
+      {% assign target=elmt.target | default: "_self" %}
+      <div class="d-flex flex-row-reverse mt-2">
+        <a class="{{elmt.class}}" href="{{elmt.href | relative_url}}" target="{{target}}">
+          {{elmt.text}}&nbsp;<i class="{{elmt.icon}}"></i>
+        </a>
+      </div>
+    {% endif%}
+  {% endfor %}
   </div>
 
 </article>

@@ -1,18 +1,17 @@
 ---
-layout: base
+layout: page
 title: Services
 permalink: /services/
 ---
 {% assign items=site.services %}
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+<div class="d-flex flex-row-center">
     {% if items.size>0 %}
-        {% include flexible-list.html list_data=items list_type="services" css_class="btn btn-dark text-decoration-none text-white" icon="fa-solid fa-signs-posts" %}
         {% for item in items %}
-                <div class="col">
-                    <a class="btn btn-dark text-decoration-none text-white" href="{{item.url | relative_url }}">
-                        {{item.title}}&nbsp; <i class="fa-solid fa-signs-post"></i>
-                    </a>
-                </div>
-        {% endfor %}
+            <div class="item p-2">
+                <a class="btn btn-dark text-white text-decoration-none btn-lg" href="{{item.url | relative_url}}">
+                    {{item.icon.text}}&nbsp;<i class="{{item.icon.fa}}"></i>
+                </a>
+            </div>
+        {% endfor %} 
     {% endif %}
 </div>

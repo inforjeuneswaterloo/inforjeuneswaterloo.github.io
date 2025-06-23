@@ -49,15 +49,6 @@ jobs:
           MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
           MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }} # Ou MASTODON_ACCESS_TOKEN
 
-      # --- Étape 2: Installer wkhtmltopdf (requis par pdfkit) ---
-      - name: Install wkhtmltopdf for PDF generation
-        run: sudo apt-get update && sudo apt-get install -y wkhtmltopdf
-
-      # --- Étape 3: Générer le PDF (sans envoi d'email) ---
-      # Ce script lit 'scripts/temp_jobs_for_pdf.json' et génère le PDF dans 'assets/downloads/jobs/archives/'.
-      - name: Generate Job Offers PDF
-        run: python scripts/generate_pdf.py 
-
       # --- ÉTAPE DE NETTOYAGE MENSUEL DES ARCHIVES PDF (SUPPRIMÉE) ---
       # L'étape suivante aurait été ici, mais elle est maintenant retirée.
 

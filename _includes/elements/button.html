@@ -1,9 +1,0 @@
-{% assign text=include.text %}
-{% assign href=include.link %}
-{% assign target=include.target %}
-{% assign class=include.class %}
-{% assign icon=include.icon %}
-
-<a role="button" class="{{class}}" href="{{href}}" target="{{target}}">
-    {{text}}&nbsp;{% if icon %}<i class="{{icon}}"></i>{% endif %}
-</a>

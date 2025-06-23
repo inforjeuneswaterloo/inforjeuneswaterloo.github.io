@@ -4,16 +4,35 @@
   {%- include head.html -%}
 
   <body>
-
+    {% assign sidebar=page.sidebar | default: false %}
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="container container-fluid">
+        {% if sidebar %}
+          <div class="row">
+            <div class="col-md-8 p-2">
+              {{content}}
+            </div>
+            <div class="col-md-4 border-start border-light-subtl">
+              {% if page.collection %}
+                {% assign current_url=page.url | remove_first: '/' %}
+                {% assign collection=site[page.collection] %}
+                {% if collection %}
+
+                {% endif %}
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        {% endif %}
       </div>
     </main>
 
     {%- include footer.html -%}
+    {% include sub-footer.html %}
 
   </body>
 

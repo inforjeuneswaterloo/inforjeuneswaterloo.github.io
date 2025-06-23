@@ -1,0 +1,81 @@
+<div class="col-4 border-start border-light ps-3"> {# Colonne latérale avec bordure et padding #}
+  <h4>Informations</h4> {# Titre générique pour la colonne latérale #}
+
+  {# --- DEBUG 1: Infos de la page actuelle --- #}
+  <p style="color: blue; font-weight: bold;">DEBUG: page.url = {{ page.url }}</p>
+  <p style="color: blue; font-weight: bold;">DEBUG: page.collection = {{ page.collection }}</p>
+  {% if page.collection %}
+    <p style="color: blue;">DEBUG: Page est bien dans une collection.</p>
+    {% if page.collection == 'posts' %}
+      <p style="color: blue;">DEBUG: Collection est 'posts'.</p>
+    {% else %}
+      <p style="color: blue;">DEBUG: Collection n'est PAS 'posts', c'est '{{ page.collection }}'.</p>
+    {% endif %}
+  {% else %}
+    <p style="color: red; font-weight: bold;">DEBUG: Page n'est PAS dans une collection (page.collection est vide/nil).</p>
+    <p style="color: red; font-weight: bold;">CAUSE POTENTIELLE: Le fichier Markdown n'est pas dans un dossier _collection/ ou la collection n'est pas configurée dans _config.yml.</p>
+  {% endif %}
+  {# --- FIN DEBUG 1 --- #}
+
+  {# --- Code pour les boutons (si existants dans le front matter de la page) --- #}
+  {% if page.buttons %}
+    <div class="page-buttons mt-3">
+      {% for button_item in page.buttons %}
+        {% assign btn = button_item.btn %}
+        {% if btn.enable %}
+          <a href="{{ btn.href }}" class="btn btn-primary d-block mb-2">
+            {% if btn.icon %}
+              <i class="{{ btn.icon }} me-2"></i>
+            {% endif %}
+            {{ btn.text }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  {# --- Fin code pour les boutons --- #}
+
+  {# --- Code pour lister les autres pages de la même collection --- #}
+  {% if page.collection and page.collection != 'posts' %}
+    <h4 class="mt-4">Autres pages de {{ page.collection | capitalize }}</h4>
+    <ul class="list-unstyled">
+      {% assign current_url = page.url | remove_first: '/' %}
+      <p style="color: blue;">DEBUG: current_url nettoyée = {{ current_url }}</p>
+
+      {# --- CORRECTION MAJEURE ICI --- #}
+      {% assign current_collection_obj = site[page.collection] %} {# Utilise la syntaxe du crochet [] #}
+
+      {# --- DEBUG 2: Vérification de l'objet collection --- #}
+      <p style="color: blue;">DEBUG: current_collection_obj est défini ? {% if current_collection_obj %}Oui{% else %}Non{% endif %}</p>
+      {% if current_collection_obj %}
+        <p style="color: blue;">DEBUG: Nombre d'éléments dans {{ page.collection }} : {{ current_collection_obj | size }}</p>
+      {% else %}
+        <p style="color: red; font-weight: bold;">DEBUG: current_collection_obj n'est PAS défini. Le 'site[page.collection]' a échoué.</p>
+        <p style="color: red; font-weight: bold;">CAUSE POTENTIELLE: La collection '{{ page.collection }}' n'est pas configurée ou n'a pas de documents valides.</p>
+      {% endif %}
+      {# --- FIN DEBUG 2 --- #}
+
+      {% if current_collection_obj %}
+        {% for item_in_collection in current_collection_obj %}
+          {% assign item_url = item_in_collection.url | remove_first: '/' %}
+
+          {# --- DEBUG 3: Comparaison des URLs dans la boucle --- #}
+          <p style="color: green; margin-left: 10px;">DEBUG LOOP: item_in_collection.url = {{ item_in_collection.url }}</p>
+          <p style="color: green; margin-left: 10px;">DEBUG LOOP: item_url (nettoyée) = {{ item_url }}</p>
+          <p style="color: green; margin-left: 10px;">DEBUG LOOP: Comparaison (item_url == current_url) = {% if item_url == current_url %}TRUE (sera exclu){% else %}FALSE (sera affiché){% endif %}</p>
+          {# --- FIN DEBUG 3 --- #}
+
+          {% unless item_url == current_url %}
+            <li>
+              <a href="{{ item_in_collection.url }}">{{ item_in_collection.title }}</a>
+            </li>
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    </ul>
+  {% else %}
+    <p style="color: blue;">DEBUG: Pas de liste de collection car 'page.collection' est vide ou est 'posts'.</p>
+  {% endif %}
+  {# --- Fin code pour lister les autres pages de la même collection --- #}
+
+</div>

@@ -6,16 +6,19 @@
       {% assign logo_ij='/assets/images/logos/ijw-carre-transparent.png' %}
       {% assign img_class='img-fluid' %}
       {% assign news_posts=site.news | sort: 'date' | reverse %}
+      {% assign blog_posts=site.posts | sort: 'date' | reverse %}
       {% assign footer_nav=site.data.footer_nav %}
       {% assign list_social=site.data.social %}
       <div class="col-12 col-md-3 mb-4 justify-content-center align-items-center">
-        <p class="display">Menu</p>
-        <ul class="list-group list-group-flush ms-0">
-          {% include flexible-list.html list_type="menu" list_data=footer_nav %}
+        <p class="display">
+          Posts
+        </p>
+        <ul class="list-group list-group-flush">
+           {% include flexible-list.html list_type="news" list_data=blog_posts limit=5 %}
         </ul>
      </div>
       <div class="col-12 col-md-4 justify-content-center align-items-center">
-        <p class="display"> Actualités </p>
+        <p class="display">Actualités </p>
         <ul class="list-group list-group-flush">
           {% include flexible-list.html list_type="news" list_data=news_posts limit=5 %}
         </ul>
@@ -35,6 +38,19 @@
           </div>
         {% endif %}
       </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light border-top border-light-subtle">
+    <div class="navbar bg-light">
+      <ul class="navbar-nav">
+        {% for item in site.data.footer_nav %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="item.permalink | relative_url">
+              {{item.title}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </footer>
