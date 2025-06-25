@@ -1,11 +1,25 @@
 ---
 layout: grid
-title: Les dernières offres de job
-permalink: /jobs/
+title: Les offres de la semaine
+notice: false
+social: 
+  user: '@job4student'
+pagination:
+  enabled: true
+  collection: 'jobs' 
+  per_page: 3
+  permalink: '/jobs/page/:num/' 
+  sort_field: 'date'
+  sort_reverse: true
 ---
-{% assign jobs=site.jobs| sort: 'date' | reverse %}
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-  {% for item in jobs %}
-    {% include grid.html item=item %}
-  {% endfor %}  
-</div>
+  {% if paginator.posts.size > 0 %}
+
+     {% for post in paginator.posts %}
+      <div class="col">
+        {{post.content}}
+      </div>
+    {% endfor %}
+  
+  {% else %}
+    <p class="muted">Aucun offre de job à afficher.</p>
+  {% endif %}

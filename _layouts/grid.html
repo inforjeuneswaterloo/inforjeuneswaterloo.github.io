@@ -1,14 +1,16 @@
 ---
 layout: fw
 ---
-<div class="header mt-5">
+<div class="header">
     <h1 class="page-heading">{{ page.title }}</h1>
 </div>
-<div class="container mb-2">
-    {{ content }}
+<div class="container container-fluid mb-2">
+    <div class="row row-cols-sm-1 row-cols-md-3 g-4">
+         {{ content }}
+    </div>
 </div>
 {% if paginator.total_pages > 1 %}
-    <div class="d-flex justify-content-center mb-4 mt-2">
+    <div class="d-flex justify-content-center mb-2 mt-2">
         {% include pagination.html pagination=paginator %}
     </div>
 {% endif %}

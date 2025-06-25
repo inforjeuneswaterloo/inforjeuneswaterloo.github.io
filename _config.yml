@@ -4,25 +4,14 @@ email: your-email@example.com
 description: "Infor Jeunes est un Centre d'information jeunesse agréé et subventionné par la [Fédération Wallonie-Bruxelles](http://www.cfwb.be). L'ASBL est également soutenue par l'échevinat de la Jeunesse de la ville de [Waterloo](https://waterloo.be)"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Pagination
-
+#Pagination
 pagination:
-  enabled: true           # Enable the pagination generator
-  per_page: 5            # Number of items per page (default: 10)
-  permalink: '/page/:num/' # Permalink structure for pagination pages
-                           # :num will be replaced by the page number
-  trail:
-    before: 2          # Nombre de pages avant la page actuelle dans la navigation
-    after: 3 
-  title: ':title - Page :num / :max' # Optional: Format for the title of paginated pages
-                           # :title - original page title
-                           # :num - current page number
-                           # :max - total number of pages
-  limit: 0                  # Optional: Limit the total number of pagination pages to generate (0 for all)
-  sort_field: 'date'        # Field to sort items by (default: date)
-  sort_reverse: true        # Reverse the sort order (default: false)
-
+  enabled: true
+  per_page: 5
+  permalink: /page/:num
+  sort_field: date
+  sort_reverse: true 
+  
 #Collections
 collections:
   jobs:
@@ -34,11 +23,8 @@ collections:
   services:
     output: true
     permalink: /services/:title
-  posts:
-    output: true
-    permalink: /posts/:title
 
-  
+
 jekyll-archives:
   enabled:
     - months
@@ -56,7 +42,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-archives
+  - jekyll-archives 
 
 
 # Exclude from processing.
