@@ -22,13 +22,25 @@
         {% endfor %}
     {% when 'news' %}
         {% assign post_limit=include.limit %}
-        {% for item in list_data limit: post_limit | default: 3 %}
-            <li class="list-group-item bg-light">
-                <a class="text-decoration-none text-black" href="{{item.url | relative_url}}">
-                    {{item.title}}
-                </a>
-            </li>
-        {% endfor %}
+        {% assign display=include.display %}
+        {% case display %}
+            {% when 'card' %}
+                {% for item in list_data limit: post_limit | default: 3 %}
+                    <li class="list-group-item bg-light">
+                        {{item.content}}
+                     </li>
+        
+                {% endfor %}
+            {% else %}
+                {% for item in list_data limit: post_limit | default:3 %}
+                     <li class="list-group-item bg-light">
+                        <a class="text-decoration-none" href="{{item.url | relative_url}}">
+                            {{item.title}}
+                        </a>
+                     </li>
+                {% endfor %}
+        {% endcase %}
+        
     {% when 'social' %}
         {% assign class=include.css_class %}
         {% for item in list_data %}
