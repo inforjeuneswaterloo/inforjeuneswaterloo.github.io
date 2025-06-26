@@ -1,7 +1,24 @@
 ---
-layout: grid-by-month
+layout: grid
 title: L'actu (ce qu'on en a retenu en tout cas)
-permalink: /news/
-listed: true
-draft: false
+notice: false
+social: 
+  - user: 'inforjeuneswaterloo.be'
+  - link: 'bsky.app/profile/inforjeuneswaterloo.be'
+pagination:
+  enabled: true
+  per_page: 6
+  sort_field: date
+  sort_reverse: true
+  collection: news
+  permalink: /news/page/:num
 ---
+{% if paginator.posts>0 %}
+    {%for post in paginator.posts %}
+        <div class="col">
+            {{post.content}}
+        </div>
+    {% endfor %}
+{%else%}
+    <p class="muted"> Rien de neuf sous le soleil!</p>
+{% endif %}

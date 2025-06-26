@@ -1,10 +1,17 @@
 ---
 layout: fw
 ---
+{% assign notice=page.notice | default:false %}
 <div class="header">
     <h1 class="page-heading">{{ page.title }}</h1>
 </div>
 <div class="container container-fluid mb-2">
+    {% if notice %}
+        {% assign collection=paginator.collection %}
+        <div class="alert alert-light">
+            
+        </div>
+    {% endif %}
     <div class="row row-cols-sm-1 row-cols-md-3 g-4">
          {{ content }}
     </div>
