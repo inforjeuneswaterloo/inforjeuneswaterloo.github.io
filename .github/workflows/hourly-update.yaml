@@ -51,8 +51,8 @@ jobs:
       - name: Run Bluesky Publisher Script
         run: python scripts/bsky.py
         env:
-          BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
-          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          MASTODON_IJ_USERNAME: ${{ secrets.MASTODON_IJ_USERNAME }}
+          MASTODON_IJ_PASSWORD: ${{ secrets.MASTODON_IJ_PASSWORD }}
 
       # --- Étape 3: Commiter tous les changements effectués par les scripts ---
       # Ce commit est fait par le robot GitHub Actions.
