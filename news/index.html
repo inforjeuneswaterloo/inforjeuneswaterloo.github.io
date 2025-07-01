@@ -2,18 +2,17 @@
 layout: grid
 title: L'actu (ce qu'on en a retenu en tout cas)
 notice: false
-social: 
-  - user: 'inforjeuneswaterloo.be'
-  - link: 'bsky.app/profile/inforjeuneswaterloo.be'
 pagination:
   enabled: true
-  per_page: 6
+  per_page: 2
   sort_field: date
   sort_reverse: true
   collection: news
   permalink: /news/page/:num
+listed: true
+permalink: /news/
 ---
-{% if paginator.posts>0 %}
+{% if paginator.posts.size>0 %}
     {%for post in paginator.posts %}
         <div class="col">
             {{post.content}}

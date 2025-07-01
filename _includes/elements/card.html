@@ -1,0 +1,22 @@
+{% assign item=include.item %}
+<a class="text-decoration-none" href="{{item.url | relative_url}}">
+    <div class="card h-100">
+        {% if item.image %}
+            <div class="card-img-top img-fluid">
+                <figure>
+                    <picture>
+                        <source srcset="{{item.image}}">
+                        <img src="{{item.image}}">
+                    </picture>
+                </figure>
+            </div>
+        {% endif %}
+        <div class="card-body">
+            <div class="card-heading mb-2">
+                <h5 class="heading">
+                    {{ item.title }}
+                </h5>
+            </div>
+        </div>
+    </div>
+</a>

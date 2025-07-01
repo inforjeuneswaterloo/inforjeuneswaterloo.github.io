@@ -2,9 +2,6 @@
 layout: grid
 title: Les offres de la semaine
 notice: false
-social: 
-  user: '@job4student'
-  link: 'mastodon/@job4student'
 pagination:
   enabled: true
   collection: 'jobs' 
@@ -12,6 +9,8 @@ pagination:
   permalink: '/jobs/page/:num/' 
   sort_field: 'date'
   sort_reverse: true
+permalink: '/jobs/'
+listed: true
 ---
   {% if paginator.posts.size > 0 %}
 

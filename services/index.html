@@ -3,6 +3,7 @@ layout: default
 direction: horizontal
 title: Services
 permalink: /services/
+listed: true
 ---
 {% assign items=site.services %}
 <ul class="list-group list-group-horizontal-md">
@@ -14,7 +15,6 @@ permalink: /services/
                     {{item.icon.text}}&nbsp;<i class="{{item.icon.fa}}"></i>
                 </a>
                 </h4>
-                
             </li>
         {% endfor %} 
     {% endif %}

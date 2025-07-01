@@ -7,6 +7,8 @@ slug: contrat-etudiant
 categories: ["Travail"]
 tags: ['Job étudiant','Réglementation', 'Contrat']
 image: /assets/images/posts/job-contrat.webp
+
+
 ---
 {% include elements/notice.html alert="warning" text="Il n’y a pas de définition légale du « statut étudiant », la règle à retenir est qu’étudier doit rester ton activité principale. Le travail doit donc être une activité secondaire. En cas de doute, contacte le CLS (Contrôle des Lois Sociales) au 02/235.55.60 ou à l’adresse **info.cls@emploi.belgique.be**." %}
 

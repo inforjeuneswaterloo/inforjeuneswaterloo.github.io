@@ -4,6 +4,31 @@ email: your-email@example.com
 description: "Infor Jeunes est un Centre d'information jeunesse agréé et subventionné par la [Fédération Wallonie-Bruxelles](http://www.cfwb.be). L'ASBL est également soutenue par l'échevinat de la Jeunesse de la ville de [Waterloo](https://waterloo.be)"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#Buttons
+buttons:
+  jobs:
+    href: '/job/'
+    text: 'Voir toutes les offres de jobs'
+    icon: 'bi bi-arrow-up-right'
+    class: 'btn btn-black btn-sm text-white text-decoration-none'
+  news:
+    href: '/job/'
+    text: 'Voir toutes les news'
+    icon: 'bi bi-arrow-up-right'
+    class: 'btn btn-black btn-sm text-white text-decoration-none'
+  services:
+    href: '/job/'
+    text: 'Voir tous les services'
+    icon: 'bi bi-arrow-up-right'
+    class: 'btn btn-black btn-sm text-white text-decoration-none'
+  posts:
+    href: '/job/'
+    text: 'Voir tous les articles'
+    icon: 'bi bi-arrow-up-right'
+    class: 'btn btn-black btn-sm text-white text-decoration-none'
+
+
 #Pagination
 pagination:
   enabled: true
@@ -23,7 +48,6 @@ collections:
   services:
     output: true
     permalink: /services/:title
-
 
 jekyll-archives:
   enabled:

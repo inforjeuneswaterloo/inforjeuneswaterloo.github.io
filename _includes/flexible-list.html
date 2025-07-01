@@ -1,5 +1,6 @@
 {% assign list_type=include.list_type %}
 {% assign list_data=include.list_data %}
+
 {% case list_type %}
     {% when 'menu' %}
         {% for item in list_data %}
@@ -9,38 +10,30 @@
                 </a>
             </li>
         {% endfor %}
-    {% when 'navbar' %}
-        {% for item in list_data %}
-            {% if item.output %}
-                {% assign item_url = item.permalink | replace: ":path", "" | replace: ":title", "" | replace: "//", "/" %}
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{ item_url | relative_url }}">
-                        {{ item.label | capitalize }}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
     {% when 'news' %}
         {% assign post_limit=include.limit %}
         {% assign display=include.display %}
         {% case display %}
             {% when 'card' %}
                 {% for item in list_data limit: post_limit | default: 3 %}
-                    <li class="list-group-item bg-light">
+                    <li class="list-group-item bg-light border-0 ms-0 mb-2">
                         {{item.content}}
                      </li>
-        
+                    
                 {% endfor %}
+
             {% else %}
                 {% for item in list_data limit: post_limit | default:3 %}
-                     <li class="list-group-item bg-light">
+                     <li class="list-group-item bg-light border-0 border-bottom border-bottom-secondary ms-0">
                         <a class="text-decoration-none" href="{{item.url | relative_url}}">
                             {{item.title}}
                         </a>
                      </li>
                 {% endfor %}
         {% endcase %}
-        
+        {% if button %}
+            <a class="btn btn-black text-white text-decoration-none" href=""
+        {% endif %}
     {% when 'social' %}
         {% assign class=include.css_class %}
         {% for item in list_data %}

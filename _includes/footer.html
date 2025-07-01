@@ -9,19 +9,43 @@
       {% assign blog_posts=site.posts | sort: 'date' | reverse %}
       {% assign footer_nav=site.data.footer_nav %}
       {% assign list_social=site.data.social %}
-      <div class="col-12 col-md-3 mb-4 justify-content-center align-items-center">
-        <p class="display">
+      {% assign list_jobs=site.jobs %}
+      {% assign btn_news=site.buttons.news%}
+      <div class="col-12 col-md-3 mb-4 justify-content-center">
+        <h6 class="heading">
           Posts
-        </p>
-        <ul class="list-group list-group-flush">
-           {% include flexible-list.html list_type="news" list_data=blog_posts limit=5 %}
+        </h6>
+        <ul class="list-group ms-0 W-100">
+           {% include 
+            flexible-list.html 
+            list_type="news" 
+            list_data=blog_posts 
+            limit=5 
+            %}
         </ul>
      </div>
       <div class="col-12 col-md-4 justify-content-center align-items-center">
-        <p class="display">Actualités </p>
-        <ul class="list-group">
-          {% include flexible-list.html list_type="news" list_data=news_posts limit=5 display='card' %}
-        </ul>
+        {% if page.url contains '/news/' %}
+          <H6 class="heading">Jobs étudiants</H6>
+          {% include 
+            flexible-list.html 
+            list_data=list_jobs 
+            list_type="news" 
+            limit=1 
+            display='card' 
+            button=formatted_button
+          %}
+        {% else %}
+          <h6 class="heading ms-0">Actualités </h6>
+          <ul class="list-group mb-2 ms-0 w-100">
+            {% include 
+              flexible-list.html 
+              list_type="news" 
+              list_data=news_posts 
+              limit=1 display='card' 
+              %}
+          </ul>
+        {% endif %}
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
         {% if page.url == homepage_url %}
@@ -34,23 +58,28 @@
         {% else %}
           <img src="{{ logo_ij }}" class="{{ img_class }}">
           <div class="d-flex mt-2 justify-content-center">
-            {% include flexible-list.html list_data=list_social list_type="social" css_class="btn btn-dark" %}
+            {% include 
+              flexible-list.html 
+              list_data=list_social 
+              list_type="social" 
+              css_class="btn btn-dark" 
+              %}
           </div>
         {% endif %}
       </div>
-    </div>
-  </div>
-  <div class="container-fluid bg-light border-top border-light-subtle">
-    <div class="navbar bg-light">
-      <ul class="navbar-nav">
-        {% for item in site.data.footer_nav %}
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="item.permalink | relative_url">
-              {{item.title}}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+      <div class="row justify-content-center border-top border-top-secondary">
+        <div class="navbar bg-light ">
+          <ul class="navbar-nav">
+            {% for item in site.data.footer_nav %}
+              <li class="nav-item">
+                <a class="nav-link text-decoration-none {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="item.permalink | relative_url">
+                  {{item.title}}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

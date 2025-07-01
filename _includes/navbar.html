@@ -1,9 +1,18 @@
-{% assign list_items=site.collections %}
 <div class="collapse navbar-collapse" id="navbarNav">
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        {% include flexible-list.html list_data=list_items list_type='navbar' %}
+        {% for item in site.collections %}
+                {% assign item_url = item.permalink | replace: ":path", "" | replace: ":title", "" | replace: "//", "/" %}
+                {% assign collection_label=item.label %}
+                {% unless collection_label=='posts' %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{ item_url | relative_url }}">
+                            {{ item.label | capitalize }}
+                        </a>
+                    </li>
+                {% endunless %}
+        {% endfor %}
     </ul>
 </div>

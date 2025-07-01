@@ -12,6 +12,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         {% include navbar.html %}
+        <div class="d-flex justify-content-end">
+            {% assign articles_page_url='/articles/' | relative_url %}
+            <a class="btn btn-sm btn-outline-dark me-2 {% if page.url contains articles_page_url %}active{% endif %}"  href="/articles/" type="button">Zone infos</a>
+            <a class="btn btn-sm btn-dark text-white"  href="#" type="button">Contact</a>
+        </div>
         {% if page.url==homepage_url %}
           <div class="d-flex flex-row-reverse ms-4">
             {% include flexible-list.html list_data=site.data.social list_type='social' css_class='btn btn-dark' %}
