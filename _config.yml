@@ -42,15 +42,9 @@ collections:
   jobs:
     output: true
     permalink: /jobs/:title
-  news:
-    output: true
-    permalink: /news/:title
   services:
     output: true
     permalink: /services/:title
-  infozone:
-    output: true
-    permalink: /infozone/:title
 
 jekyll-archives:
   enabled:
