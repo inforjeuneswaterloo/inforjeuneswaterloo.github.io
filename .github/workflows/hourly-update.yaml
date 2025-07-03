@@ -44,7 +44,7 @@ jobs:
         run: python scripts/jobs.py 
         env:
           MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
-          MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
+          MASTODON_PASSWORD: ${{ secrets.MASTODON_APP_PASSWORD }}
 
       # --- Étape 2: Exécuter le script Bluesky Publisher ---
       # Ce script nettoie '_news/', récupère les posts Bluesky et les crée dans '_news/'.
