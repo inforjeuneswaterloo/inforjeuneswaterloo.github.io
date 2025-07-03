@@ -1,23 +1,20 @@
 ---
 layout: grid
 title: L'actu (ce qu'on en a retenu en tout cas)
-notice: false
+display_content: false
+excerpt: true
+buttons:
+  - btn: 
+    enable: true
+    text: Lire l'article original
+    icon: fa-solid fa-arrow-right
 pagination:
   enabled: true
-  per_page: 2
-  sort_field: date
+  collection: 'news' 
+  per_page: 3
+  permalink: '/news/page/:num/' 
+  sort_field: 'date'
   sort_reverse: true
-  collection: news
-  permalink: /news/page/:num
-listed: true
-permalink: /news/
+permalink: '/news/'
 ---
-{% if paginator.posts.size>0 %}
-    {%for post in paginator.posts %}
-        <div class="col">
-            {{post.content}}
-        </div>
-    {% endfor %}
-{%else%}
-    <p class="muted"> Rien de neuf sous le soleil!</p>
-{% endif %}
+ 

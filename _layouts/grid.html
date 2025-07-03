@@ -1,13 +1,22 @@
 ---
 layout: fw
 ---
-{% assign notice=page.notice | default:false %}
 <div class="header">
     <h1 class="page-heading">{{ page.title }}</h1>
 </div>
 <div class="container container-fluid mb-2">
     <div class="row row-cols-sm-1 row-cols-md-3 g-4">
-         {{ content }}
+        {% if page.display_content %}
+            {% for post in paginator.posts %}
+                {{post.content}}
+            {% endfor %}
+        {% else %}
+            {% for post in paginator.posts %}
+                <div class="col">
+                    {% include elements/card.html item=post text=post.excerpt %}
+                </div>
+            {% endfor %}
+        {% endif %}
     </div>
 </div>
 {% if paginator.total_pages > 1 %}

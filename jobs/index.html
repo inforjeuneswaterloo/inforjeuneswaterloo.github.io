@@ -1,7 +1,7 @@
 ---
 layout: grid
 title: Les offres de la semaine
-notice: false
+display_content: true
 pagination:
   enabled: true
   collection: 'jobs' 
@@ -10,16 +10,5 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 permalink: '/jobs/'
-listed: true
 ---
-  {% if paginator.posts.size > 0 %}
-
-     {% for post in paginator.posts %}
-      <div class="col">
-        {{post.content}}
-      </div>
-    {% endfor %}
   
-  {% else %}
-    <p class="muted">Aucun offre de job à afficher.</p>
-  {% endif %}

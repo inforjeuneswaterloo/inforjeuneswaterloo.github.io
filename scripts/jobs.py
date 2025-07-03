@@ -6,22 +6,22 @@ from slugify import slugify
 import html2text
 import pytz
 import time
-from urllib.parse import urlparse # Encore nécessaire pour parsed_url si on la calcule même si pas dans FM
+from urllib.parse import urlparse
 import re
 import shutil
 
-# --- Configuration (inchangée) ---
+# --- Configuration ---
 MASTODON_INSTANCE = "mastodon.social"
-MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
-MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD")
+MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME") # CHANGEMENT ICI
+MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD") # CHANGEMENT ICI
 
-OUTPUT_DIR = "_jobs"
+OUTPUT_DIR = "_jobs" # Cible la collection _news
 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 URL_REGEX = r"https?://[^\s]+" 
 
-DAYS_TO_FETCH = 7 
+DAYS_TO_FETCH = 30 
 API_FETCH_LIMIT = 200 
 
 # --- Fonctions de nettoyage (inchangées) ---
@@ -30,6 +30,7 @@ def clean_output_directory(directory):
         print(f"Suppression du contenu existant dans '{directory}'...")
         shutil.rmtree(directory)
         print(f"Contenu de '{directory}' supprimé.")
+    
     os.makedirs(directory)
     print(f"Dossier '{directory}' recréé.")
 
@@ -73,15 +74,12 @@ def get_mastodon_oembed_html(instance_url, status_url):
     oembed_url = f"https://{instance_url}/api/oembed"
     params = {'url': status_url, 'hide_thread': True, 'hide_media': False}
     try:
-        response = requests.get(oembed_url, params=params)
+        response = requests.get(oembed_url, params=params, timeout=10)
         response.raise_for_status()
         oembed_data = response.json()
         html_embed = oembed_data.get('html')
         
         if html_embed:
-            # Injecter loading="lazy" dans la balise iframe.
-            # Cette regex cherche la première balise <iframe et insère l'attribut.
-            # Elle gère les attributs existants dans l'iframe.
             html_embed = re.sub(r'<iframe(?=\s|>)([^>]*)>', r'<iframe\1 loading="lazy">', html_embed, 1)
         
         return html_embed
@@ -92,7 +90,7 @@ def get_mastodon_oembed_html(instance_url, status_url):
         print(f"Une erreur inattendue s'est produite lors de l'oEmbed pour {status_url} : {e}")
         return None
 
-# --- Fonction principale de création des fichiers MD (modifiée) ---
+# --- Fonction principale de création des fichiers MD (inchangée dans sa logique) ---
 def create_jekyll_md_file_and_get_data(status_data):
     raw_content = status_data.get('content', '')
     h = html2text.HTML2Text()
@@ -101,25 +99,24 @@ def create_jekyll_md_file_and_get_data(status_data):
     clean_content_raw_text = h.handle(raw_content).strip()
 
     # PARTIE 1: Extraction des infos nécessaires pour le Front Matter
-    # (Même si on ne les stocke pas toutes, certaines sont utiles pour le titre/description fallback)
     url_article_reference = None
+    domaine_article_reference = None 
     card = status_data.get('card')
     if card and card.get('url'):
-        url_article_reference = card['url'] # On récupère pour le cas où le titre ou description en dépendrait
+        url_article_reference = card['url']
+        try:
+            parsed_url = urlparse(url_article_reference)
+            domaine_article_reference = parsed_url.netloc
+        except Exception as e:
+            print(f"Avertissement : Impossible de parser le domaine pour {url_article_reference} (carte): {e}")
     
-    first_toot_link = None
-    if clean_content_raw_text:
-        matches = re.findall(URL_REGEX, clean_content_raw_text)
-        if matches:
-            first_toot_link = matches[0]
-
-    # PARTIE 2: Préparation du contenu textuel pour le corps du post (fallback)
+    # PARTIE 2: Préparation du contenu textuel (pour le titre/fallback éventuel)
     content_text_only = re.sub(URL_REGEX, '', clean_content_raw_text).strip()
 
-    # PARTIE 3: Détermination du titre et de la description (pour le FM et fallback)
+    # PARTIE 3: Détermination du titre
     title = None
     if card and card.get('title'):
-        title = card['title']
+        title = card['title'] # Titre de l'article de référence (priorité)
     else:
         title_lines = [line.strip() for line in content_text_only.split('\n') if line.strip()]
         if title_lines:
@@ -127,66 +124,50 @@ def create_jekyll_md_file_and_get_data(status_data):
         else:
             title = f"Post Mastodon du {datetime.now().strftime('%Y-%m-%d')}"
 
-    # La description est nécessaire pour le Front Matter, même si l'utilisateur veut un FM minimal,
-    # car elle est utilisée pour les métadonnées SEO/aperçus.
-    # Je la garde donc calculée ici, même si elle n'est plus dans le FM final comme demandé.
     description = None 
     if card and card.get('description'):
         description = card['description'].strip()
     if not description:
         description = content_text_only
 
-
     pub_date_str = status_data.get('created_at')
     pub_date_utc = datetime.strptime(pub_date_str, '%Y-%m-%dT%H:%M:%S.%fZ').replace(tzinfo=pytz.utc)
     pub_date_local = pub_date_utc.astimezone(TARGET_TIMEZONE)
     jekyll_date = pub_date_local.strftime('%Y-%m-%d %H:%M:%S %z')
 
-    # PARTIE 4: CONSTRUCTION DU FRONT MATTER (fm) - SIMPLIFIÉE
+    # PARTIE 4: CONSTRUCTION DU FRONT MATTER (fm) - Minimal et Fonctionnel
     fm = {
-        'layout': 'posts', # CHANGEMENT ICI : layout 'single_job'
-        'title': title,         # Garde le titre
-        'date': jekyll_date,    # Garde la date
-        'mastodon_url': status_data.get('url'), # Garde l'URL du toot
-        'mastodon_id': status_data.get('id'), # Optionnel mais utile pour référence unique
-        'mastodon_account': status_data.get('account', {}).get('acct'), # Optionnel mais utile pour contexte
+        'layout': 'news_item', # Layout pour les articles d'actualité Mastodon
+        'title': title,        # Titre de l'article de référence (selon votre demande)
+        'date': jekyll_date,   # INDISPENSABLE pour Jekyll (tri, build)
+        'mastodon_id': status_data.get('id'), # ID du toot (selon votre demande)
+        'mastodon_url': status_data.get('url'), # URL complète du toot (nécessaire pour l'embed)
+        'mastodon_account': status_data.get('account', {}).get('acct'), # Compte de l'auteur (nécessaire pour l'embed)
+        'mastodon_instance': MASTODON_INSTANCE, # Instance Mastodon (nécessaire pour l'embed)
+        # 'description': description # Commenté pour minimalisme (si non utilisé dans layout)
+        # 'url_article_reference' et 'domaine_article_reference' ajoutés si vous les voulez dans le FM
     }
     
-    # SUPPRESSION : Les autres champs ne sont plus ajoutés au Front Matter pour minimalisme
-    # if url_article_reference:
-    #     fm['url_article_reference'] = url_article_reference
-    # if domaine_article_reference:
-    #     fm['domaine_article_reference'] = domaine_article_reference
-    # if first_toot_link:
-    #     fm['first_toot_link'] = first_toot_link
-    #     try:
-    #         parsed_first_toot_link = urlparse(first_toot_link)
-    #         fm['first_toot_link_domain'] = parsed_first_toot_link.netloc
-    #     except Exception as e:
-    #         print(f"Avertissement : Impossible de parser le domaine pour le premier lien du toot ({first_toot_link}): {e}")
-    # tags ne sont plus ajoutés au FM
-    # tags = [tag['name'] for tag in status_data.get('tags', [])]
-    # if "mastodon" not in tags:
-    #     tags.append("mastodon")
-    # fm['tags'] = tags
+    if url_article_reference:
+        fm['url_article_reference'] = url_article_reference
+    if domaine_article_reference:
+        fm['domaine_article_reference'] = domaine_article_reference
 
+    
     # PARTIE 5: Assemblage final du contenu et écriture du fichier
     toot_embed_html = get_mastodon_oembed_html(MASTODON_INSTANCE, status_data.get('url'))
 
-    markdown_content = "" # Initialise le corps du Markdown comme vide
+    markdown_content = "" # Le corps du Markdown est vide (rempli par le layout)
 
     if toot_embed_html:
-        markdown_content += "\n"
         markdown_content += '<div class="mastodon-embed-wrapper">\n'
         markdown_content += toot_embed_html + '\n'
-        markdown_content += '</div>\n'
-        markdown_content += "\n\n"
+        markdown_content += '</div>\n\n'
     else:
         print(f"Avertissement: Impossible de récupérer le code d'intégration pour le toot {status_data.get('url')}. Ajout du texte brut à la place.")
-        markdown_content += "\n"
         markdown_content += content_text_only + "\n\n"
-        markdown_content += "\n"
-        
+
+
     filename_slug = str(status_data.get('id'))
     filename = f"{pub_date_local.strftime('%Y-%m-%d')}-{filename_slug}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
@@ -203,10 +184,11 @@ def create_jekyll_md_file_and_get_data(status_data):
         print(f"Erreur lors de l'écriture du fichier '{filename}': {e}")
         return False
 
-# --- Exécution principale (inchangée) ---
+# --- Exécution principale ---
 if __name__ == "__main__":
     print("--- Démarrage du processus de récupération des posts Mastodon ---")
     
+    # CHANGEMENT ICI : Utilisation des noms de variables d'environnement mis à jour
     if not MASTODON_USERNAME or not MASTODON_PASSWORD:
         print("Erreur: Les variables MASTODON_USERNAME ou MASTODON_PASSWORD (token) ne sont pas définies en tant que variables d'environnement.")
         print("Veuillez les configurer dans les Secrets GitHub de votre dépôt.")
@@ -216,6 +198,7 @@ if __name__ == "__main__":
 
     print(f"Tentative de récupération des posts du profil '{MASTODON_USERNAME}' depuis l'instance '{MASTODON_INSTANCE}'.")
     
+    # CHANGEMENT ICI : Utilisation des noms de variables d'environnement mis à jour
     account_id = get_account_id(MASTODON_INSTANCE, MASTODON_USERNAME)
 
     if account_id:
