@@ -3,7 +3,6 @@ name: Mise à jour horaire
 on:
   schedule:
     # Exécute toutes les heures, à la 0ème minute de chaque heure (UTC).
-    # Pour Orp-Jauche (CEST - UTC+2 en été), cela correspondra à 2h00, 3h00, 4h00, etc. heure locale.
     - cron: '0 * * * *' 
 
   workflow_dispatch: # Permet de lancer ce workflow manuellement depuis l'onglet Actions
@@ -34,37 +33,33 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          # Installe les dépendances nécessaires (suppression de pdfkit si PDF non généré)
-          pip install requests python-frontmatter python-slugify pytz PyYAML atproto html2text 
+          # Installe les dépendances nécessaires pour le script Mastodon (requests, frontmatter, slugify, html2text, pytz)
+          # 'atproto' et 'PyYAML' ont été retirés car bsky.py est abandonné.
+          pip install requests python-frontmatter python-slugify pytz html2text 
 
-      # --- Étape 1: Exécuter le script Mastodon Jobs ---
-      # Ce script nettoie '_jobs/', récupère les posts Mastodon des 7 derniers jours et les crée dans '_jobs/'.
-      # Note: La génération de 'scripts/temp_jobs_for_pdf.json' et le PDF ont été retirés du script jobs.py.
-      - name: Run Mastodon Jobs script (job4student)
-        run: python scripts/jobs.py 
+      # --- Étape 1: Exécuter le script Mastodon (news/jobs) ---
+      # Ce script nettoie '_news/', récupère les posts Mastodon des 30 derniers jours et les crée dans '_news/'.
+      - name: Run Mastodon News script
+        run: python scripts/mastodon_news.py # Mettez le nom exact de votre fichier (ex: jobs.py si c'est son nom)
         env:
           MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
           MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
 
-      # --- Étape 2: Exécuter le script Bluesky Publisher ---
-      # Ce script nettoie '_news/', récupère les posts Bluesky et les crée dans '_news/'.
-      # Etape supprimée
-   
-      # --- Étape 3: Commiter tous les changements effectués par les scripts ---
+      # --- Étape 2: Commiter tous les changements effectués par les scripts ---
       # Ce commit est fait par le robot GitHub Actions.
       - name: Commit all content changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          # Ajoutez TOUS les dossiers que vos scripts peuvent modifier
-          git add _jobs/ _news/ 
+          # Ajoutez TOUS les dossiers que vos scripts peuvent modifier (ex: _news/ et _jobs/ si le script gère les deux)
+          # Le dossier _data/ n'est plus ajouté ici si bsky.py est abandonné.
+          git add _news/ _jobs/ 
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- Étape 4: Construire le site Jekyll ---
-      # Le code est déjà à jour localement grâce au commit précédent.
+      # --- Étape 3: Construire le site Jekyll ---
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -74,7 +69,8 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
-      # --- Étape 5: Déployer le site sur GitHub Pages ---
+      # --- Étape 4: Déployer le site sur GitHub Pages ---
+      # Ces actions sont celles qui publient réellement sur GitHub Pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
