@@ -53,7 +53,7 @@ jobs:
           git config --local user.name "GitHub Actions Bot"
           # Ajoutez TOUS les dossiers que vos scripts peuvent modifier (ex: _news/ et _jobs/ si le script gère les deux)
           # Le dossier _data/ n'est plus ajouté ici si bsky.py est abandonné.
-          git _jobs/ 
+          git add _jobs/ 
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
