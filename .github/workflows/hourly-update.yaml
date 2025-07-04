@@ -40,7 +40,7 @@ jobs:
       # --- Étape 1: Exécuter le script Mastodon (news/jobs) ---
       # Ce script nettoie '_news/', récupère les posts Mastodon des 30 derniers jours et les crée dans '_news/'.
       - name: Run Mastodon News script
-        run: python scripts/mastodon_news.py # Mettez le nom exact de votre fichier (ex: jobs.py si c'est son nom)
+        run: python scripts/jobs.py # Mettez le nom exact de votre fichier (ex: jobs.py si c'est son nom)
         env:
           MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
           MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
@@ -53,7 +53,7 @@ jobs:
           git config --local user.name "GitHub Actions Bot"
           # Ajoutez TOUS les dossiers que vos scripts peuvent modifier (ex: _news/ et _jobs/ si le script gère les deux)
           # Le dossier _data/ n'est plus ajouté ici si bsky.py est abandonné.
-          git add _news/ _jobs/ 
+          git _jobs/ 
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
