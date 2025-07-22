@@ -137,7 +137,7 @@ def create_jekyll_md_file_and_get_data(status_data):
 
     # PARTIE 4: CONSTRUCTION DU FRONT MATTER (fm) - Minimal et Fonctionnel
     fm = {
-        'layout': 'news_item', # Layout pour les articles d'actualité Mastodon
+        'layout': 'post', # Layout pour les articles d'actualité Mastodon
         'title': title,        # Titre de l'article de référence (selon votre demande)
         'date': jekyll_date,   # INDISPENSABLE pour Jekyll (tri, build)
         'mastodon_id': status_data.get('id'), # ID du toot (selon votre demande)

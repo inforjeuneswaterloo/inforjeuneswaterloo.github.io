@@ -5,28 +5,7 @@ description: "Infor Jeunes est un Centre d'information jeunesse agréé et subve
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-#Buttons
-buttons:
-  jobs:
-    href: '/job/'
-    text: 'Voir toutes les offres de jobs'
-    icon: 'bi bi-arrow-up-right'
-    class: 'btn btn-black btn-sm text-white text-decoration-none'
-  news:
-    href: '/job/'
-    text: 'Voir toutes les news'
-    icon: 'bi bi-arrow-up-right'
-    class: 'btn btn-black btn-sm text-white text-decoration-none'
-  services:
-    href: '/job/'
-    text: 'Voir tous les services'
-    icon: 'bi bi-arrow-up-right'
-    class: 'btn btn-black btn-sm text-white text-decoration-none'
-  posts:
-    href: '/job/'
-    text: 'Voir tous les articles'
-    icon: 'bi bi-arrow-up-right'
-    class: 'btn btn-black btn-sm text-white text-decoration-none'
+
 
 
 #Pagination

@@ -1,21 +1,16 @@
 ---
-layout: default
+layout: list
 direction: horizontal
 title: Services
 permalink: /services/
 listed: true
 ---
 {% assign items=site.services %}
-<ul class="list-group list-group-horizontal-md">
-    {% if items.size>0 %}
-        {% for item in items %}
-            <li class="list-group-item text-center">
-                <h6 class="heading">
-                    <a class="text-decoration-none" href="{{item.url | relative_url}}">
-                    {{item.icon.text}}&nbsp;<i class="{{item.icon.fa}}"></i>
-                </a>
-                </h4>
-            </li>
-        {% endfor %} 
-    {% endif %}
-</ul>
+{% for item in items %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span><h6 class="display">{{ item.title }}</h6></span>
+        <a class="btn btn-light text-decoration-none" href="{{item.url | relative_url}}">
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </li>
+{% endfor %}

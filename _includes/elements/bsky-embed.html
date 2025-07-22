@@ -1,0 +1,15 @@
+{% assign limit=include.limit | default: 5 %}
+{% assign load_more = include.load_more | defaut: false %}
+{% assign custom_style = include.custom_style | default:  nil %}
+<bsky-embed 
+    username="inforjeuneswaterloo.be"
+    limit="{{limit}}"
+    link-target="_blank"
+    {% if custom_style %}
+        custom-styles="{{custom_style}}"
+    {% endif %}
+    {% if load_more %}
+        load-more="true"
+    {% endif %}
+    >
+  </bsky-embed>

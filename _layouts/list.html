@@ -5,20 +5,7 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
 </div>
 <ul class="list-group list-group-flush card rounded mb-2">
-    {% for post in paginator.posts %}
-    <li class="list-group-item">                     
-        <div class="float-start align-items-center">
-            <div class="p-2">
-                <time class="dt-published bg-dark text-white p-1 rounded" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                    {%- assign date_format = site.minima.date_format | default: "%d/%m" %}
-                    {{ post.date | date: date_format }}
-                </time>&nbsp;
-                {{post.title }}&nbsp;
-            </div>
-        </div>
-        {% include button.html class='btn-light float-end' url=post.url icon='fa-solid fa-arrow-right' %}
-    </li>
-    {% endfor %}
+   {{ content }}
 </ul>
 {% if paginator.total_pages > 1 %}
     <div class="d-flex w-100 justify-row-center">

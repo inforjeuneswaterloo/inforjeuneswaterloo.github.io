@@ -37,12 +37,7 @@
         {% else %}
           <h6 class="heading ms-0">Actualités </h6>
           <ul class="list-group mb-2 ms-0 w-100">
-            {% include 
-              flexible-list.html 
-              list_type="news" 
-              list_data=news_posts 
-              limit=1 display='card' 
-              %}
+            {% include elements/bsky-embed.html limit=1 custom_style=".border-b{border:none}" %}
           </ul>
         {% endif %}
       </div>
@@ -56,14 +51,9 @@
           </div>
         {% else %}
           <img src="{{ logo_ij }}" class="{{ img_class }}">
-          <div class="d-flex mt-2 justify-content-center">
-            {% include 
-              flexible-list.html 
-              list_data=list_social 
-              list_type="social" 
-              css_class="btn btn-dark" 
-              %}
-          </div>
+          <ul class="list-group list-group-horizontal border-0 mt-0">
+              {% include navigation/social.html %}
+          </ul>
         {% endif %}
       </div>
       <div class="row justify-content-center border-top border-top-secondary">
@@ -71,7 +61,7 @@
           <ul class="navbar-nav">
             {% for item in site.data.footer_nav %}
               <li class="nav-item">
-                <a class="nav-link text-decoration-none {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="item.permalink | relative_url">
+                <a class="nav-link text-decoration-none {% if page.url contains item_url or page.collection == item.label %}active{% endif %}" href="{{item.permalink | relative_url}}">
                   {{item.title}}
                 </a>
               </li>
