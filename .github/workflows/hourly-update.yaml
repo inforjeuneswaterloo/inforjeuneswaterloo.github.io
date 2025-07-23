@@ -35,7 +35,7 @@ jobs:
           python -m pip install --upgrade pip
           # Installe les dépendances nécessaires pour le script Mastodon (requests, frontmatter, slugify, html2text, pytz)
           # 'atproto' et 'PyYAML' ont été retirés car bsky.py est abandonné.
-          pip install requests python-frontmatter python-slugify pytz html2text 
+          pip install requests python-frontmatter python-slugify pytz html2text atproto
 
       # --- Étape 1: Exécuter le script Mastodon (news/jobs) ---
       # Ce script nettoie '_news/', récupère les posts Mastodon des 30 derniers jours et les crée dans '_news/'.
