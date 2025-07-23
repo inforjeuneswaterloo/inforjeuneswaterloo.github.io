@@ -22,6 +22,7 @@
                   <ul class="list-group list-group-flush ms-0">
                     {% for item in collection %}
                     {% assign item_url=item.url | remove_first: '/' %}
+                    {% assign item_categories=item.categories %}
                     {% unless item_url==current_url %}
                       <li class="list-group-item ">
                         <a class="text-decoration-none" href="{{item.url | relative_url}}">

@@ -17,7 +17,7 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    
+    {% include elements/buttons.html %}
   </div>
   {% if page.shared_url %}
     <div class="d-flex">
@@ -30,3 +30,4 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{% include post-nav.html %}

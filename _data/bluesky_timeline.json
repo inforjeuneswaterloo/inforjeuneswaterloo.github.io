@@ -1,0 +1,180 @@
+{
+  "authenticated_user_handle": "inforjeuneswaterloo.be",
+  "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+  "posts": [
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lui36ys52u2c",
+      "cid": "bafyreiap2iixe7vodktthhgybpvm5v5z5o253lugz6wbo7twuzpifqtufu",
+      "text": "Fini les interdictions de conduite de 3 ou 6h après un test d’alcoolémie positif.  Toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis seulement après un test négatif. \n#mobilité #CodeDeLaRoute #justice #alcool\nbuff.ly/zpYRSgP",
+      "created_at": "2025-07-21T13:16:50.279Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtl.be/actu/belgique/societe/le-retrait-de-permis-de-3-heures-cest-termine-si-vous-etes-controle-positif/2025-07-19/article/757061",
+        "title": "Le retrait de permis de 3 heures, c’est terminé : si vous êtes contrôlé positif à l’alcool, la sanction immédiate sera plus sévère",
+        "description": "Fini les interdictions de conduite de quelques heures après un test d’alcoolémie positif : toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis…",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigpuhwj7hp3djeecfq3jzzkw7iov2r4tazoz6etxmv43bwowgfree@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltholdzyk22k",
+      "cid": "bafyreig5goycof2zalkxuw7o3u3lvp3pu7jjlsjrk6icmfmpw4btubccrq",
+      "text": "Bien que l'augmentation du seuil de réussite soit repris dans l'accord de majorité; pas encore de fumée blanche en vue... ce n'est donc pas pour tout de suite.\n#staytuned \n\nwww.rtbf.be/article/il-n...",
+      "created_at": "2025-07-08T16:05:55.393Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026",
+        "title": "Il n'y a pas encore d'accord sur un nouveau seuil de réussite pour le CEB, recadre le cabinet d'Elisabeth Degryse - RTBF Actus",
+        "description": "La ministre de l'Enseignement Valérie Glatigny (MR) avait indiqué vendredi et samedi dans différents médias que les...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiecgr2ssbcrezvo7yyxbth2k7xpqujc65ltliepstbzhpo5dccdya@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltehsmd2ss2f",
+      "cid": "bafyreihyy2kk4nl4mdmkrouzf3bmkb5euq73bzifntlvisvowk6jqzypnu",
+      "text": "CE1D et CESS seraient évidemment également soumis à ce nouveau seuil de réussite.",
+      "created_at": "2025-07-07T09:26:43.551Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 1,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": null
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k",
+      "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
+      "text": "La Ministre Valérie Glatigny (MR) a déposé un avant-projet de décret visant à augmenter le seuil de réussite du CEB.  Il passerait de 50 à 60%.  Cette initiative provoque est - évidemment - accueillie froidement par le monde de l'enseignement.\n#enseignement #fwb #staytuned\nbuff.ly/h0d77kr",
+      "created_at": "2025-07-05T16:28:31.194Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 1,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtl.be/actu/belgique/societe/bientot-plus-de-doubleurs-lecole-ce-projet-de-valerie-glatigny-pourrait-ne-pas/2025-07-05/article/755497",
+        "title": "Bientôt plus de doubleurs à l’école ? Ce projet de Valérie Glatigny pourrait ne pas plaire à beaucoup d’élèves",
+        "description": "La ministre de l’Éducation de la Fédération Wallonie-Bruxelles, Valérie Glatigny, a déposé un avant-projet de décret qui relève le seuil de réussite au CEB, CE1D, et CESS à 60 % au lieu de 50 %…",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigkhqidoh4t5gaavz2r7cydoc56kzmmoscnhne6lhgaogwkvy52tu@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lsgp4qlpo72u",
+      "cid": "bafyreia3ixzyfk3eliw6nyuauuiyhitpj47icsiuatstaekhmyp53qqyom",
+      "text": "Les hirondelles reviennent avec le printemps, les festival avec l'été. Piqûre de rappel sur ce qu'il ne faut pas prendre avec soi pour ne pas s'embrouiller avec les gros bras de la sécu.\n\n#viepratique #loisirs #festivals #summer \n\nbuff.ly/JsXu700",
+      "created_at": "2025-06-25T13:17:46.278Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 1,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792",
+        "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
+        "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrzgdkhwqs26",
+      "cid": "bafyreidcccjc7tukynxwve6k72eaifdff2ducmzzu62e4ogvbibugnc2om",
+      "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY",
+      "created_at": "2025-06-20T06:35:53.489Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise",
+        "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
+        "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrvcc6yjuq2k",
+      "cid": "bafyreih3l2ru5d5x6iiwkxlkq7pqjkmmhtxkwhvvfe4jufqx5fw2onee3q",
+      "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf",
+      "created_at": "2025-06-18T15:12:54.901Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/",
+        "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
+        "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrfdcxolt42i",
+      "cid": "bafyreibimwcjemlr3qffzyrgfqrafdm4lizbpanec6dx6e4d5wqhtngyx4",
+      "text": "L’IA est une alliée à condition de bien l’utiliser !  \nElle peut t’aider à résumer tes cours, créer des quiz ou reformuler des concepts difficiles.\n❗l’IA n’est pas infaillible.\n💡 utilise l’IA pour tester tes connaissances, pas pour tricher.  \n#IA #Enseignement \nbuff.ly/zkYoL9C",
+      "created_at": "2025-06-12T06:48:38.413Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/session-d-examens-comment-se-servir-de-l-intelligence-artificielle-pour-reviser-avertissements-et-mode-d-emploi-11560238",
+        "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
+        "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lqndedn2c52b",
+      "cid": "bafyreih6njrvop6mprcw3lbeqvechmuzfxdm6hur22gahinz6n6oyn35pe",
+      "text": "Dans le cadre de sa lutte contre le tabagisme, l'OMS propose l'interdiction mondiale des produits de tabacs aromatisés.  Elle pointe les arômes menthol, chewing gum et barbe à papa dont l'objectif est d'appâter les jeunes. Tout comme le packaging et la publicité.",
+      "created_at": "2025-06-02T17:45:30.775Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/YXgCsN5",
+        "title": "L’Organisation mondiale de la Santé veut interdire les produits de tabac aromatisés - RTBF Actus",
+        "description": "Étant donné le nombre de jeunes consommateurs de tabac, l’Organisation mondiale de la Santé a lancé samedi un appel...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibivhkjn24pukeft6moigg6e7skzuqx6dqtddjgv6w2yqwfvdgjj4@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybyggn72i",
+      "cid": "bafyreid6vxiv2uv7y33p25qwxhtp7rvv5jytpi5vu2r3znus6smidb3gbi",
+      "text": "Selon l’OCDE, interdire les écrans ou les #RéseauxSociaux n’a pas prouvé son efficacité. Le contexte, le contenu et le temps d’usage comptent davantage. Une approche éducative et équilibrée serait plus bénéfique que des interdictions strictes.\n#tech #rs #Internet\n\nbuff.ly/5IvhmB7",
+      "created_at": "2025-05-27T05:44:45.615Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/l-efficacite-de-l-interdiction-des-ecrans-ou-des-reseaux-sociaux-n-est-pas-demontree-selon-l-ocde-11547251",
+        "title": "L'efficacité de l'interdiction des écrans ou des réseaux sociaux n'est pas démontrée, selon l'OCDE - RTBF Actus",
+        "description": "Cette publication intervient alors que Jacqueline Galant, ministre en charge des Médias au sein de la Fédération Wallonie...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidrf4ydkm6vxjd2pk5egedydyv6z7ocmfel3l3i47fa5sj5lmwcqy@jpeg"
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@ slug: arret-etudes
 categories: ["Enseignement"]
 tags: ['Orientation','Arrêt']
 image: /assets/images/posts/abandon-etudes.webp
+sidebar: true
 ---
 Tu souhaites abandonner tes études ou changer ton fusil d’épaule? Cette capsule fait le tour des implications que peut avoir cette décision.
 

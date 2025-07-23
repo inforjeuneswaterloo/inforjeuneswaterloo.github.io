@@ -1,14 +1,15 @@
 
-- horaire:
+horaire:
   open: Du mardi au vendredi de 12 à 17h sans RDV
   icon: fa-solid fa-clock
-- tel:
+tel:
   number: +32 473 953 806
   icon: fa-solid fa-phone
-- mail:
+  whatsapp: fa-brands fa-whatsapp
+mail:
   mailto: info@inforjeuneswaterloo.be
   icon: fa-solid fa-envelope
-- adresse:
+adresse:
   location: Rue Théophile Delbar 18A - 1410 Waterloo
   icon: fa-solid fa-location-dot
 

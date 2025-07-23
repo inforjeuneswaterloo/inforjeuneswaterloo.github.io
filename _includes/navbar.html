@@ -3,6 +3,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        {% assign news="/news/" %}
         {% for item in site.collections %}
                 {% assign item_url = item.permalink | replace: ":path", "" | replace: ":title", "" | replace: "//", "/" %}
                 {% assign collection_label=item.label %}
@@ -14,5 +15,10 @@
                     </li>
                 {% endunless %}
         {% endfor %}
+        <li class="nav-item ">
+                        <a class="nav-link {% if page.url contains news %}active{% endif %}" href="{{ news | relative_url }}">
+                            L'actu (enfin ce qu'on en a retenu)
+                        </a>
+                    </li>
     </ul>
 </div>

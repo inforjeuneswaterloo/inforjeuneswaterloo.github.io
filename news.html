@@ -1,0 +1,44 @@
+---
+layout: fw
+title: "L'actu (enfin ce qu'on en a retenu)"
+permalink: /news/
+---
+<H1 class="page-title">{{page.title}}</H1>
+{% assign timeline=site.data.bluesky_timeline.posts %}
+{% if timeline %}
+  <div class="row row-cols-sm-1 row-cols-md-3 g-4 mb-4">
+    {% for post in timeline %}
+      {% if post.embed %}
+        {% assign post_image=post.embed.thumb %}
+        {% assign post_source=post.embed.uri %}
+        {% assign domain_with_path = post_source | replace: "http://", "" | replace: "https://", "" | replace: "www.", "" %}
+        {% assign domain_only = domain_with_path | split: "/" | first %}
+        {% assign final_domain = domain_only | split: ":" | first %}
+        {% assign post_title=post.embed.title %}
+      {% endif %}
+      <div class="col">
+        {% if post.embed %}
+        <div class="card h-100">
+          <img src="{{post_image}}" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">{{post_title}}</h5>
+            <p class="post-meta">
+                Pulié le:&nbsp;{{post.created_at | date:"%d %b %Y"}}
+            </p>
+            {{post.text | markdownify}}
+          </div>
+          <div class="mt-2 mb-2">
+            <div class="d-flex flex-row-reverse">
+              <div class="p-2">
+                <a class="btn btn-light text-decoration-none" href="{{post_source}}" target="_blank">
+                  {{final_domain}}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

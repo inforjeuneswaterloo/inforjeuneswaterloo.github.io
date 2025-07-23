@@ -6,6 +6,7 @@ slug: job-etudiant-fiscalite
 categories: ['Travail']
 tags: ['Job étudiant', 'réglementation', 'Fisaclité']
 image: /assets/images/posts/job-fisc.webp
+sidebar: true
 ---
 ## Quel montant de revenus ne dois-je pas dépasser pour rester fiscalement à charge de mes parents?
 
