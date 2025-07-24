@@ -4,8 +4,11 @@ title: "En route vers le supérieur: quelques dates clés à retenir"
 date: 2025-07-23
 update: 2025-07-23
 slug: dates-cles-enseignement-superieur
-categories: ["Enseignement"]
-tags: ['recours','dates clés','timeline']
+categories: 
+  - Enseignement
+tags: 
+  - Enseignement supérieur
+  - Dates 
 image: /assets/images/posts/dates-enseignement.webp
 sidebar: true
 buttons:

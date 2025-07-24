@@ -27,10 +27,12 @@ collections:
 
 jekyll-archives:
   enabled:
-    - months
-    - years
-  layout: archive # On utilisera un layout nommé 'archive.html'
+    - category
+    - year
+    - month
+  layout: archive-category # On utilisera un layout nommé 'archive.html'
   permalinks:
+    category: '/archives/category/:name/'
     years: '/archives/:year/'
     month: '/archives/:year/:month/' # Structure de l'URL, ex: /archives/2025/05/
 

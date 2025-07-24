@@ -4,8 +4,12 @@ title: Recours dans l'enseignement secondaire
 date: 2025-07-23
 update: 2025-07-23
 slug: recours-enseignement-secondaire
-categories: ["Enseignement"]
-tags: ['recours','enseignement secondaire']
+categories: 
+  - Enseignement
+tags: 
+  - Enseignement secondaire
+  - Recours
+  - Réglementation 
 image: /assets/images/posts/recours.webp
 sidebar: true
 buttons:

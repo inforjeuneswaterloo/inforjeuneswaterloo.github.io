@@ -4,8 +4,11 @@ title: Job étudiant - Le contrat d'occupation d'étudiant
 date: 2025-02-13
 update: 2025-02-27
 slug: contrat-etudiant
-categories: ["Travail"]
-tags: ['Job étudiant','Réglementation', 'Contrat']
+categories: 
+  - Travail
+tags:
+  - Job étudiant
+  - Contrat
 image: /assets/images/posts/job-contrat.webp
 sidebar: true
 ---

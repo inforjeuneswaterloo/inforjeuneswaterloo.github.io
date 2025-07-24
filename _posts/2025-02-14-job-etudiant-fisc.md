@@ -3,8 +3,12 @@ layout: post
 title: Job étudiant - Fiscalité
 date: 2025-02-14
 slug: job-etudiant-fiscalite
-categories: ['Travail']
-tags: ['Job étudiant', 'réglementation', 'Fisaclité']
+categories: 
+  - Travail
+tags: 
+  - Job étudiant
+  - Réglementation
+  - Fisaclité
 image: /assets/images/posts/job-fisc.webp
 sidebar: true
 ---

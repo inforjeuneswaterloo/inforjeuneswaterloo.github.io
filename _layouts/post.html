@@ -8,8 +8,21 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        <i class="fa-solid fa-clock"></i>&nbsp;{{ page.date | date: date_format }}
+        {% if page.update %}&nbsp;<i class="fa-solid fa-arrows-rotate"></i>&nbsp;{{page.update | date: date_format}}{% endif %}
       </time>
+      {% if page.categories or page.tags %}
+        {% assign categories=page.categories %}
+        {% assign tags=page.tags %}
+        <div class="dt-published">
+          {% if categories %}
+            <i class="fa-solid fa-folder-open"></i>&nbsp;
+            {% for category in categories %}
+              {{category}}&nbsp;
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>

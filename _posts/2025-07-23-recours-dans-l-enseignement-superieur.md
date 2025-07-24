@@ -4,8 +4,12 @@ title: Recours dans l'enseignement supérieur
 date: 2025-07-23
 update: 2025-07-23
 slug: recours-enseignement-superieur
-categories: ["Enseignement"]
-tags: ['recours','enseignement supérieur']
+categories:
+  - Enseignement
+tags: 
+  - Enseignement supérieur
+  - Recours
+  - Réglementation
 image: /assets/images/posts/recours-sup.webp
 sidebar: true
 buttons:

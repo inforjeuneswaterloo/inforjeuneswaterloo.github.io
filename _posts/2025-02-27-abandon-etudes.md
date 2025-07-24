@@ -3,8 +3,13 @@ layout: post
 title: Arrêt des études / Changement d'orientation
 date: 2025-02-27
 slug: arret-etudes
-categories: ["Enseignement"]
-tags: ['Orientation','Arrêt']
+categories: 
+  - Enseignement
+tags: 
+  - Enseignement supérieur
+  - orientation
+  - Abandon
+  - Arrêt
 image: /assets/images/posts/abandon-etudes.webp
 sidebar: true
 ---
