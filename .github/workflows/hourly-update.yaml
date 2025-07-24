@@ -82,7 +82,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./_site/ # Le dossier source local (le site Jekyll construit)
-          server-dir: sites/mtts.inforjeuneswaterloo.be/ # Le chemin de destination sur votre serveur FTP
+          server-dir: . # Le chemin de destination sur votre serveur FTP
           state-name: .ftp-deploy-state # Nom du fichier d'état pour le déploiement incrémental
           protocol: ftp # Ou 'ftps' pour FTPS, ou 'sftp' pour SFTP (nécessite un serveur SFTP configuré)
           exclude: | # Fichiers/dossiers à exclure du transfert FTP
