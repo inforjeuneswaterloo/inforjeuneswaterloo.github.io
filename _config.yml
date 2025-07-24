@@ -23,7 +23,7 @@ collections:
     permalink: /jobs/:title/
   services:
     output: true
-    permalink: /services/:name/
+    permalink: /services/:title.html
 
 jekyll-archives:
   enabled:
