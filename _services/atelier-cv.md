@@ -13,8 +13,6 @@ buttons:
      class:  btn btn-outline-dark text-decoration-none btn-sm
      target: "_blank"
 sidebar: true
-permalink: /services/atelier-cv
-
 ---
 L’atelier *Viens avec ton PC… et repars avec ton CV (et ton PC)!*, organisé en partenariat acec la Mission Régionale pour l’Emploi du Brabant wallon , a pour objectif de te donner les outils nécessaires pour proposer un CV qui retienne l’attention.
 
