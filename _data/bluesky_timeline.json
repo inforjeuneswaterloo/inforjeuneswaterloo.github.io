@@ -3,12 +3,48 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq6rrk7u32s",
+      "cid": "bafyreic7iwkdm6ereujcde6vlbvmom2uzqyocercon7offpfgampzvm4mu",
+      "text": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump. Après avoir dépensé $10 Mi pour les acheter, ils devraient débourser $160 k pour les incinérer... \n#Trump #USA #USAID",
+      "created_at": "2025-07-24T18:42:18.976Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 1,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/Y26GQYh",
+        "title": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump",
+        "description": "Les États-Unis ont financé pour près de 10 millions de dollars de contraceptifs, explique Reuters.",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigcqfhz3e6yp6s7otswphjoguwwjbfpqtnleqpxq7car2ruk7jvve@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq5uen4pg24",
+      "cid": "bafyreic4arojui2iwjqvfoldgh6n7afhx3k3el2secnwwdv43ipbeefbum",
+      "text": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne.  Les entreprises devront informer clairement et explicitement leurs clients 15 jours avant tout renouvellement; de manière à leur laisser le temps de la décision.  \n#consommation \nbuff.ly/UwmcIwZ",
+      "created_at": "2025-07-24T18:25:52.301Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtl.be/actu/belgique/societe/le-renouvellement-automatique-de-vos-abonnements-cest-termine-une-nouvelle-loi/2025-07-23/article/757389",
+        "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
+        "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lui36ys52u2c",
       "cid": "bafyreiap2iixe7vodktthhgybpvm5v5z5o253lugz6wbo7twuzpifqtufu",
       "text": "Fini les interdictions de conduite de 3 ou 6h après un test d’alcoolémie positif.  Toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis seulement après un test négatif. \n#mobilité #CodeDeLaRoute #justice #alcool\nbuff.ly/zpYRSgP",
       "created_at": "2025-07-21T13:16:50.279Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 0,
@@ -26,7 +62,7 @@
       "text": "Bien que l'augmentation du seuil de réussite soit repris dans l'accord de majorité; pas encore de fumée blanche en vue... ce n'est donc pas pour tout de suite.\n#staytuned \n\nwww.rtbf.be/article/il-n...",
       "created_at": "2025-07-08T16:05:55.393Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 0,
@@ -44,7 +80,7 @@
       "text": "CE1D et CESS seraient évidemment également soumis à ce nouveau seuil de réussite.",
       "created_at": "2025-07-07T09:26:43.551Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 1,
       "repost_count": 0,
       "like_count": 0,
@@ -56,7 +92,7 @@
       "text": "La Ministre Valérie Glatigny (MR) a déposé un avant-projet de décret visant à augmenter le seuil de réussite du CEB.  Il passerait de 50 à 60%.  Cette initiative provoque est - évidemment - accueillie froidement par le monde de l'enseignement.\n#enseignement #fwb #staytuned\nbuff.ly/h0d77kr",
       "created_at": "2025-07-05T16:28:31.194Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 1,
       "repost_count": 0,
       "like_count": 0,
@@ -74,7 +110,7 @@
       "text": "Les hirondelles reviennent avec le printemps, les festival avec l'été. Piqûre de rappel sur ce qu'il ne faut pas prendre avec soi pour ne pas s'embrouiller avec les gros bras de la sécu.\n\n#viepratique #loisirs #festivals #summer \n\nbuff.ly/JsXu700",
       "created_at": "2025-06-25T13:17:46.278Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 1,
@@ -92,7 +128,7 @@
       "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY",
       "created_at": "2025-06-20T06:35:53.489Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 0,
@@ -110,7 +146,7 @@
       "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf",
       "created_at": "2025-06-18T15:12:54.901Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 0,
@@ -128,7 +164,7 @@
       "text": "L’IA est une alliée à condition de bien l’utiliser !  \nElle peut t’aider à résumer tes cours, créer des quiz ou reformuler des concepts difficiles.\n❗l’IA n’est pas infaillible.\n💡 utilise l’IA pour tester tes connaissances, pas pour tricher.  \n#IA #Enseignement \nbuff.ly/zkYoL9C",
       "created_at": "2025-06-12T06:48:38.413Z",
       "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
       "reply_count": 0,
       "repost_count": 0,
       "like_count": 0,
@@ -138,42 +174,6 @@
         "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
         "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lqndedn2c52b",
-      "cid": "bafyreih6njrvop6mprcw3lbeqvechmuzfxdm6hur22gahinz6n6oyn35pe",
-      "text": "Dans le cadre de sa lutte contre le tabagisme, l'OMS propose l'interdiction mondiale des produits de tabacs aromatisés.  Elle pointe les arômes menthol, chewing gum et barbe à papa dont l'objectif est d'appâter les jeunes. Tout comme le packaging et la publicité.",
-      "created_at": "2025-06-02T17:45:30.775Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/YXgCsN5",
-        "title": "L’Organisation mondiale de la Santé veut interdire les produits de tabac aromatisés - RTBF Actus",
-        "description": "Étant donné le nombre de jeunes consommateurs de tabac, l’Organisation mondiale de la Santé a lancé samedi un appel...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibivhkjn24pukeft6moigg6e7skzuqx6dqtddjgv6w2yqwfvdgjj4@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybyggn72i",
-      "cid": "bafyreid6vxiv2uv7y33p25qwxhtp7rvv5jytpi5vu2r3znus6smidb3gbi",
-      "text": "Selon l’OCDE, interdire les écrans ou les #RéseauxSociaux n’a pas prouvé son efficacité. Le contexte, le contenu et le temps d’usage comptent davantage. Une approche éducative et équilibrée serait plus bénéfique que des interdictions strictes.\n#tech #rs #Internet\n\nbuff.ly/5IvhmB7",
-      "created_at": "2025-05-27T05:44:45.615Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtbf.be/article/l-efficacite-de-l-interdiction-des-ecrans-ou-des-reseaux-sociaux-n-est-pas-demontree-selon-l-ocde-11547251",
-        "title": "L'efficacité de l'interdiction des écrans ou des réseaux sociaux n'est pas démontrée, selon l'OCDE - RTBF Actus",
-        "description": "Cette publication intervient alors que Jacqueline Galant, ministre en charge des Médias au sein de la Fédération Wallonie...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidrf4ydkm6vxjd2pk5egedydyv6z7ocmfel3l3i47fa5sj5lmwcqy@jpeg"
       }
     }
   ]
