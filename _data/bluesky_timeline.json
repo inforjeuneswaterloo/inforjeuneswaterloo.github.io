@@ -3,6 +3,42 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luriwjemza2i",
+      "cid": "bafyreift4bsvnh3gs2bzpdj4viw2u6b75jyqmjiqy75weyobwqqahiwlge",
+      "text": "La Belgique a été le second pays au monde à autoriser le mariage homosexuel.  C'était en 2023. Mais ce droit n'est garanti que par une loi ordinaire. Son inscription dans la Constitution constituerait ainsi un verrou contre toute velléité réactionnaire.\n#lgbt #belgique #vieaffective",
+      "created_at": "2025-07-25T07:16:34.846Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/76OEn0C",
+        "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
+        "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lurindyg5b2m",
+      "cid": "bafyreiflqcazqhy2o3lhz73d5p3qzpi5tbtpdnk6d7cvqkofsgmo6pvl2a",
+      "text": "Tu paies ou tes données seront utilisées/vendues (Si c'est gratuit, c'est toi le produit). Meta préfère que tu optes pour la \"gratuité\" nettement plus rentable; la publicité représente 98% de son CA.  3e voie: opter pour une alternative\n#tech #socialmedia #réseauxsociaux #fediverse",
+      "created_at": "2025-07-25T07:11:27.856Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/fh0TG7e",
+        "title": "Payer ou être pisté : que cache le dilemme imposé par Facebook et Instagram ? - RTBF Actus",
+        "description": "Cela fait des années que la rumeur va et vient : 'Facebook va devenir payant'. Plaisanteries incrédules ou panique à...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiauxbocu2rxavpvk3wqdf6tockz7gzylqlokqny5sfvrbeywgif6m@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq6rrk7u32s",
       "cid": "bafyreic7iwkdm6ereujcde6vlbvmom2uzqyocercon7offpfgampzvm4mu",
       "text": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump. Après avoir dépensé $10 Mi pour les acheter, ils devraient débourser $160 k pour les incinérer... \n#Trump #USA #USAID",
@@ -138,42 +174,6 @@
         "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
         "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrvcc6yjuq2k",
-      "cid": "bafyreih3l2ru5d5x6iiwkxlkq7pqjkmmhtxkwhvvfe4jufqx5fw2onee3q",
-      "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf",
-      "created_at": "2025-06-18T15:12:54.901Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/",
-        "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
-        "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrfdcxolt42i",
-      "cid": "bafyreibimwcjemlr3qffzyrgfqrafdm4lizbpanec6dx6e4d5wqhtngyx4",
-      "text": "L’IA est une alliée à condition de bien l’utiliser !  \nElle peut t’aider à résumer tes cours, créer des quiz ou reformuler des concepts difficiles.\n❗l’IA n’est pas infaillible.\n💡 utilise l’IA pour tester tes connaissances, pas pour tricher.  \n#IA #Enseignement \nbuff.ly/zkYoL9C",
-      "created_at": "2025-06-12T06:48:38.413Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtbf.be/article/session-d-examens-comment-se-servir-de-l-intelligence-artificielle-pour-reviser-avertissements-et-mode-d-emploi-11560238",
-        "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
-        "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi@jpeg"
       }
     }
   ]
