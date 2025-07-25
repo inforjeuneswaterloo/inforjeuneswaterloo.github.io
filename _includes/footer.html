@@ -23,7 +23,7 @@
             %}
         </ul>
      </div>
-      <div class="col-12 col-md-4 justify-content-center align-items-center">
+      <div class="col-12 col-md-4">
         {% if page.url contains '/news/' %}
           <H6 class="heading">Jobs étudiants</H6>
           {% include 
@@ -36,9 +36,7 @@
           %}
         {% else %}
           <h6 class="heading ms-0">Actualités </h6>
-          <ul class="list-group mb-2 ms-0 w-100">
             {% include elements/bsky-embed.html limit=1 custom_style=".border-b{border:none}" %}
-          </ul>
         {% endif %}
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">

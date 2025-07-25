@@ -1,15 +1,4 @@
-{% assign limit=include.limit | default: 5 %}
-{% assign load_more = include.load_more | defaut: false %}
-{% assign custom_style = include.custom_style | default:  nil %}
-<bsky-embed 
-    username="inforjeuneswaterloo.be"
-    limit="{{limit}}"
-    link-target="_blank"
-    {% if custom_style %}
-        custom-styles="{{custom_style}}"
-    {% endif %}
-    {% if load_more %}
-        load-more="true"
-    {% endif %}
-    >
-  </bsky-embed>
+<script src="https://blueskytimeline.com/timeline.js" async data-handle="inforjeuneswaterloo.be" data-theme="light" 
+data-width="100%" data-height="500" data-lang="en" 
+data-ui="0" data-pin="1" data-rp="0" data-thread="1">
+</script>
