@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luy6mmfn5a2i",
+      "cid": "bafyreib7unjjyduubobicbbmlu2uhbjxzz4uixfdjvtchkv7farregt64a",
+      "text": "#bonplan",
+      "created_at": "2025-07-27T23:00:43.834Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/oEgsQfy",
+        "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
+        "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luriwjemza2i",
       "cid": "bafyreift4bsvnh3gs2bzpdj4viw2u6b75jyqmjiqy75weyobwqqahiwlge",
       "text": "La Belgique a été le second pays au monde à autoriser le mariage homosexuel.  C'était en 2023. Mais ce droit n'est garanti que par une loi ordinaire. Son inscription dans la Constitution constituerait ainsi un verrou contre toute velléité réactionnaire.\n#lgbt #belgique #vieaffective",
@@ -156,24 +174,6 @@
         "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
         "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrzgdkhwqs26",
-      "cid": "bafyreidcccjc7tukynxwve6k72eaifdff2ducmzzu62e4ogvbibugnc2om",
-      "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY",
-      "created_at": "2025-06-20T06:35:53.489Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise",
-        "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
-        "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici@jpeg"
       }
     }
   ]
