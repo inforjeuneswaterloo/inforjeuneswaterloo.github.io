@@ -79,8 +79,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5 # Utilisez la dernière version stable
         with:
           server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          username: ${{ secrets.FTP_ROOT_USERNAME }}
+          password: ${{ secrets.FTP_ROOT_PASSWORD }}
           local-dir: ./_site/ # Le dossier source local (le site Jekyll construit)
           server-dir: ./ # Le chemin de destination sur votre serveur FTP
           state-name: .ftp-deploy-state # Nom du fichier d'état pour le déploiement incrémental
