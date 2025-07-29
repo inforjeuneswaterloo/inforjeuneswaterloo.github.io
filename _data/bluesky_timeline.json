@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv4bl5ob2y2i",
+      "cid": "bafyreihgmjpod2iwfuadz6d7bpwyeeci733qblswc3jkiz5nnriazwgmwm",
+      "text": "Les universités et hautes écoles de la Fédération Wallonie-Bruxelles ne sont  plus obligées d’organiser les examens en fin de quadrimestre.  Le décret offre à chaque établissement la liberté de fixer ses propres périodes d’évaluation.\n#enseignement #fwb",
+      "created_at": "2025-07-29T14:04:14.624Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/DBW6Mwf",
+        "title": "Fin des examens imposés en janvier et juin ?",
+        "description": "Les unifs et hautes écoles peuvent désormais choisir leurs périodes d’examens. Bientôt la fin des sessions de janvier et juin ?",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaecjoffy7yc5sbpiexx75zazwlft3rexsuqfoqmukpmgi2u5s7h4@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv3xeiplzm2d",
       "cid": "bafyreid6q57yfkqo34xwoszmxtzdvy6d7rb6apqpzhtxu4lgu7qdu7kgpu",
       "text": "Voici la nouvelle timeline: d’ici environ 1 Md d’années le soleil deviendra trop chaud, l’augmentation de température fera bouillir les océans. 7 Md d'années plus tard, il engloutira la planète. \nBref il n'y a pas le feu au lac comme on dit.\n#sciences",
@@ -157,24 +175,6 @@
       "repost_count": 0,
       "like_count": 0,
       "embed": null
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k",
-      "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
-      "text": "La Ministre Valérie Glatigny (MR) a déposé un avant-projet de décret visant à augmenter le seuil de réussite du CEB.  Il passerait de 50 à 60%.  Cette initiative provoque est - évidemment - accueillie froidement par le monde de l'enseignement.\n#enseignement #fwb #staytuned\nbuff.ly/h0d77kr",
-      "created_at": "2025-07-05T16:28:31.194Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 1,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtl.be/actu/belgique/societe/bientot-plus-de-doubleurs-lecole-ce-projet-de-valerie-glatigny-pourrait-ne-pas/2025-07-05/article/755497",
-        "title": "Bientôt plus de doubleurs à l’école ? Ce projet de Valérie Glatigny pourrait ne pas plaire à beaucoup d’élèves",
-        "description": "La ministre de l’Éducation de la Fédération Wallonie-Bruxelles, Valérie Glatigny, a déposé un avant-projet de décret qui relève le seuil de réussite au CEB, CE1D, et CESS à 60 % au lieu de 50 %…",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigkhqidoh4t5gaavz2r7cydoc56kzmmoscnhne6lhgaogwkvy52tu@jpeg"
-      }
     }
   ]
 }
