@@ -3,6 +3,36 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2bgis52q",
+      "cid": "bafyreihn5jmcewha3tmrsqy2hwiwveobor5npbyi4ihxncvcqobna7ivge",
+      "text": "Si l'objectif est de collecter des données pour faire avancer la recherche sur des maladies telles qu'Alzheimer, Parkinson ou encore la sclérose en plaques; tu en reste le maître.  Le partage se fait sur base volontaire et tu peux revenir à tout moment sur ta décision.",
+      "created_at": "2025-07-31T15:43:24.566Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": null
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2a4ha22n",
+      "cid": "bafyreibpfhwnbqtr265ghlnkzf4h43ebiqy4ojd7lrj76yvpcocsfyp5ku",
+      "text": "Et si tu partageais tes données médicales pour faire avancer la recherche?  C'est ce qu'on appelle \"l'altruisme des données\" qui se concrétise via l’European Brain Data Hub, la première AISBL dédiée à l’altruisme des données en matière de santé mentale et du cerveau. \n#science \nbuff.ly/QX7Zft7",
+      "created_at": "2025-07-31T15:43:21.280Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 1,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/altruisme-des-donnees-pourquoi-et-comment-vos-donnees-de-sante-pourraient-soutenir-la-recherche-sur-le-cerveau-11521268?ebu_news_id=11521268&ebu_news_org=RTBF&ebu_news_language=fr#ebu_s_id8d54be1b-45df-4468-8ee3-1f6a20af1606",
+        "title": "'Altruisme des données' : pourquoi et comment vos données de santé pourraient soutenir la recherche sur le cerveau - RTBF Actus",
+        "description": "Et si vos données personnelles de santé permettaient de faire avancer la recherche contre certaines maladies ? Et si vous...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidkkssysrntsp7gcr7yov754n6niy4uyyfw3ebysfv433ijsaxebi@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv5tnzck2m2a",
       "cid": "bafyreifrdjlzoknyokf6s5sx5o4liev3nwhiehqlc2g2x5t2btl42kwf5a",
       "text": "Dès l’année prochaine, un conducteur provoquant pourra être jugé pour \"homicide dans le cadre de la circulation\".  Une qualification qui permet au juge de prononcer une peine allant jusqu'à 10 ans de prison en cas de conduite sous influence, sans permis, récidive...\n#justice #CPen",
@@ -144,42 +174,6 @@
         "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
         "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lui36ys52u2c",
-      "cid": "bafyreiap2iixe7vodktthhgybpvm5v5z5o253lugz6wbo7twuzpifqtufu",
-      "text": "Fini les interdictions de conduite de 3 ou 6h après un test d’alcoolémie positif.  Toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis seulement après un test négatif. \n#mobilité #CodeDeLaRoute #justice #alcool\nbuff.ly/zpYRSgP",
-      "created_at": "2025-07-21T13:16:50.279Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtl.be/actu/belgique/societe/le-retrait-de-permis-de-3-heures-cest-termine-si-vous-etes-controle-positif/2025-07-19/article/757061",
-        "title": "Le retrait de permis de 3 heures, c’est terminé : si vous êtes contrôlé positif à l’alcool, la sanction immédiate sera plus sévère",
-        "description": "Fini les interdictions de conduite de quelques heures après un test d’alcoolémie positif : toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis…",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigpuhwj7hp3djeecfq3jzzkw7iov2r4tazoz6etxmv43bwowgfree@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltholdzyk22k",
-      "cid": "bafyreig5goycof2zalkxuw7o3u3lvp3pu7jjlsjrk6icmfmpw4btubccrq",
-      "text": "Bien que l'augmentation du seuil de réussite soit repris dans l'accord de majorité; pas encore de fumée blanche en vue... ce n'est donc pas pour tout de suite.\n#staytuned \n\nwww.rtbf.be/article/il-n...",
-      "created_at": "2025-07-08T16:05:55.393Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026",
-        "title": "Il n'y a pas encore d'accord sur un nouveau seuil de réussite pour le CEB, recadre le cabinet d'Elisabeth Degryse - RTBF Actus",
-        "description": "La ministre de l'Enseignement Valérie Glatigny (MR) avait indiqué vendredi et samedi dans différents médias que les...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiecgr2ssbcrezvo7yyxbth2k7xpqujc65ltliepstbzhpo5dccdya@jpeg"
       }
     }
   ]
