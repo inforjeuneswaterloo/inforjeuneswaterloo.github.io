@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lve4wovmnz2y",
+      "cid": "bafyreif4nlgl637fpvncdgos4x2lbkxmxjxbwhtybxpioakfhqwryu26ui",
+      "text": "TikTok peut nuire aux jeunes, surtout les plus fragiles. En cause: l’algorithme qui pousse des contenus anxiogènes.  \n❗ : fatigue mentale, addiction, baisse de l’estime de soi, de l’attention. \n👍 : réduire le temps d'écran, faire preuve d'esprit critique\n#tiktok #tech #socialmedia\nbuff.ly/f9av9aE",
+      "created_at": "2025-08-01T17:02:31.090Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://buff.ly/f9av9aE",
+        "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
+        "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2bgis52q",
       "cid": "bafyreihn5jmcewha3tmrsqy2hwiwveobor5npbyi4ihxncvcqobna7ivge",
       "text": "Si l'objectif est de collecter des données pour faire avancer la recherche sur des maladies telles qu'Alzheimer, Parkinson ou encore la sclérose en plaques; tu en reste le maître.  Le partage se fait sur base volontaire et tu peux revenir à tout moment sur ta décision.",
@@ -156,24 +174,6 @@
         "title": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump",
         "description": "Les États-Unis ont financé pour près de 10 millions de dollars de contraceptifs, explique Reuters.",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigcqfhz3e6yp6s7otswphjoguwwjbfpqtnleqpxq7car2ruk7jvve@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq5uen4pg24",
-      "cid": "bafyreic4arojui2iwjqvfoldgh6n7afhx3k3el2secnwwdv43ipbeefbum",
-      "text": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne.  Les entreprises devront informer clairement et explicitement leurs clients 15 jours avant tout renouvellement; de manière à leur laisser le temps de la décision.  \n#consommation \nbuff.ly/UwmcIwZ",
-      "created_at": "2025-07-24T18:25:52.301Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtl.be/actu/belgique/societe/le-renouvellement-automatique-de-vos-abonnements-cest-termine-une-nouvelle-loi/2025-07-23/article/757389",
-        "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
-        "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm@jpeg"
       }
     }
   ]
