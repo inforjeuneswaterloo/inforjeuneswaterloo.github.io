@@ -1,0 +1,10 @@
+{% assign timeline=site.data.bluesky_timeline.posts | slice: 0,3 %}
+{% for item in timeline %}
+    {% assign item_title=item.embed.title %}
+    {% assign item_uri=item.embed.uri %}
+        <li class="list-group-item">
+            <a class="text-decoration-none" href="{{item_uri}}">
+                {{item_title}}
+            </a>
+        </li>
+{% endfor %}

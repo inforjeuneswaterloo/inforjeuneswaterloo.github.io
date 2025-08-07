@@ -1,0 +1,18 @@
+---
+layout: list
+title: Toutes les Catégories
+permalink: /categories/
+---
+{% assign categories=site.categories %}
+
+{% for category in categories %}
+    {% assign category_name= category | first %}
+    {% assign category_slug=category_name | slugify %}
+    {% assign posts_in_category =category | last %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span><h6 class="display">{{ category_name}}</h6></span>
+        <a class="btn btn-light text-decoration-none" href="{{'/categories/' | append:category_slug | '/'}}">
+            {{posts_in_category.size}}
+        </a>
+    </li>
+{% endfor %}

@@ -1,4 +1,6 @@
 - title: "About"
-  permalink: /about/
+  url: /about/
+- title: "Archives"
+  url: '/categories/'
 
 

@@ -12,7 +12,10 @@ buttons:
      icon: fa-solid fa-calendar-day
      class: btn btn-outline-dark text-decoration-none btn-sm
      target: _blank
-sidebar: true
+sidebar: 
+  - enabled: true
+  - show: all
+  - title: Dans la même section
 ---
 **Tu réfléchis à ton avenir ou tu n’es pas satisfait.e de ton choix?**
 

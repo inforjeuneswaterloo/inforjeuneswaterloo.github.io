@@ -11,7 +11,9 @@ tags:
   - Abandon
   - Arrêt
 image: /assets/images/posts/abandon-etudes.webp
-sidebar: true
+sidebar:
+  show: all
+  title: A lire
 ---
 Tu souhaites abandonner tes études ou changer ton fusil d’épaule? Cette capsule fait le tour des implications que peut avoir cette décision.
 

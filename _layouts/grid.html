@@ -11,11 +11,15 @@ layout: fw
                 {{post.content}}
             {% endfor %}
         {% else %}
-            {% for post in paginator.posts %}
-                <div class="col">
-                    {% include elements/card.html item=post text=post.excerpt %}
-                </div>
-            {% endfor %}
+            {%if paginator.posts %}
+                {% for post in paginator.posts %}
+                    <div class="col">
+                        {% include elements/card.html item=post text=post.excerpt %}
+                    </div>
+                {% endfor %}
+            {%else%}
+                   {{content}}
+            {%endif%}
         {% endif %}
     </div>
 </div>

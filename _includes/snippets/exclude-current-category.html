@@ -1,0 +1,9 @@
+{% assign current_url=include.current_url | default: page.url %}
+{%current_category=include.category_url% %}
+{%unless category_url==curren_url %}
+    <li class="list-group-item">
+        <a class="text-decoration-none" href="{{category_url}}">
+            {{category_name}}&nbsp;({{posts_in_category.size}})
+        </a>
+    </li>
+{%endunless %}

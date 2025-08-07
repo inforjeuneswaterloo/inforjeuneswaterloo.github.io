@@ -11,7 +11,9 @@ tags:
   - Recours
   - Réglementation
 image: /assets/images/posts/recours-sup.webp
-sidebar: true
+sidebar: 
+  show: all
+  title: A lire
 buttons:
   - btn:
      enable: true

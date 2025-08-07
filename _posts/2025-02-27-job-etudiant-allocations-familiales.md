@@ -12,7 +12,9 @@ tags:
   - Allocations familiales
   - Réglementation
 image: /assets/images/posts/job-af.webp
-sidebar: true
+sidebar: 
+  show: all
+  title: A lire
 ---
 {% include elements/notice.html alert="warning" text="Les règles expliquées ci-dessous ne sont valables que pour la Wallonie"%}
 

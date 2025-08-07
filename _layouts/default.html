@@ -5,10 +5,11 @@
 
   <body>
     {%- include header.html -%}
-    {% assign sidebar=page.sidebar | default: false %}
     <main class="page-content" aria-label="Content">
       <div class="container container-fluid">
-        {% if sidebar %}
+        {% if page.sidebar %}
+          {% assign sidebar_title=page.sidebar.title %}
+          {% assign sidebar_show=page.sidebar.show %}
           <div class="row">
             <div class="col-md-8 p-2">
               {{content}}
@@ -18,7 +19,7 @@
                 {% assign current_url=page.url | remove_first: '/' %}
                 {% assign collection=site[page.collection] %}
                 {% if collection %}
-                  <h4 class="diplay">Dans la même section</h4>
+                  <h4 class="diplay">{{sidebar_title}}</h4>
                   <ul class="list-group list-group-flush ms-0">
                     {% for item in collection %}
                     {% assign item_url=item.url | remove_first: '/' %}

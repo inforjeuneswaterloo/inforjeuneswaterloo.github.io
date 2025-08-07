@@ -10,7 +10,9 @@ tags:
   - Enseignement supérieur
   - Dates 
 image: /assets/images/posts/dates-enseignement.webp
-sidebar: true
+sidebar: 
+  show: all
+  title: A lire
 buttons:
   - btn:
      enable: false
@@ -28,14 +30,14 @@ buttons:
      class: "btn btn-outline-dark text-decoration-none"
 ---
 
-- **30 SEPTEMBRE** Date limite pour t’inscrire (certaines exceptions existent). 
+- **30 SEPTEMBRE** Date limite pour t’inscrire (certaines exceptions existent).
 {% include elements/notice.html alert="warning" text="Vérifie la date fixée par l’école dans son Règlement des études ou sur son site Internet, car elle pourrait être antérieure" %}
   
 - **ENTRE LE 30 SEPTEMBRE ET LE 31 OCTOBRE** Possibilité pour les étudiants de **bloc 1** de modifier leur inscription **sans** que cela ne soit considéré comme une **réorientation**
 
 - **31 OCTOBRE**
-   - Date limite pour payer l’acompte afin de valider ton inscription
-   - Date limite pour introduire ta demande de bourse d’études
+  - Date limite pour payer l’acompte afin de valider ton inscription
+  - Date limite pour introduire ta demande de bourse d’études
 
 - **01 FEVRIER** Date limite pour payer le solde de tes droits d’inscription
 

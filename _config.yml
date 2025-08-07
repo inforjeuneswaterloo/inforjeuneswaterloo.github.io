@@ -3,7 +3,7 @@ title-icon: "fa-solid fa-plane-departure"
 email: your-email@example.com
 description: "Infor Jeunes est un Centre d'information jeunesse agréé et subventionné par la [Fédération Wallonie-Bruxelles](http://www.cfwb.be). L'ASBL est également soutenue par l'échevinat de la Jeunesse de la ville de [Waterloo](https://waterloo.be)"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mtts.inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 
@@ -25,16 +25,6 @@ collections:
     output: true
     permalink: /services/:title/
 
-jekyll-archives:
-  enabled:
-    - category
-    - year
-    - month
-  layout: archive-category # On utilisera un layout nommé 'archive.html'
-  permalinks:
-    category: '/archives/category/:name/'
-    years: '/archives/:year/'
-    month: '/archives/:year/:month/' # Structure de l'URL, ex: /archives/2025/05/
 
 
 # Build settings
@@ -44,8 +34,14 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-archives 
+  - jekyll-archives
 
+jekyll-archives:
+  enabled:
+    - category
+  layout: archive-category # On utilisera un layout nommé 'archive.html'
+  permalinks:
+    category: /category/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
