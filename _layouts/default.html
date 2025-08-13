@@ -44,8 +44,9 @@
         {% endif %}
       </div>
     </main>
-
-    {%- include footer.html -%}
+    {% unless page.url contains '/yotm/'%}
+      {%- include footer.html -%}
+    {% endunless %}
     {% include sub-footer.html %}
 
   </body>

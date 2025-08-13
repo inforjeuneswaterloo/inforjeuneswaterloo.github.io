@@ -2,20 +2,21 @@
 layout: fw
 ---
 <!--<h1>Catégorie : {{ page.category | capitalize }}</h1>-->
-{% include snippets/category-querystring.html %}
-{% if res>0 %}
-  <div class="row">
-    <div class="col-md-8 p-2">
-      <div class="row">
-        {% for post in posts_in_category %}
-          <div class="col-md-4 mb-2"> 
-            {%include elements/card.html item=post %}
-          </div>
-        {% endfor %}
+{% assign show_sidebar=page.sidebar.enabled | defaut:true %}
+  {% include snippets/category-querystring.html %}
+  {% if res>0 %}
+    <div class="row">
+      <div class="col-md-8 p-2">
+        <div class="row">
+          {% for post in posts_in_category %}
+            <div class="col-md-4 mb-2"> 
+              {%include elements/card.html item=post %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-4 border-start border-light-subtl">
+        {% include sidebar/sidebar.html news=false %}
       </div>
     </div>
-    <div class="col-md-4 border-start border-light-subtl">
-      {% include sidebar/sidebar.html news=false exclude_current_category=true %}
-    </div>
-  </div>
-{% endif %}
+  {% endif %}

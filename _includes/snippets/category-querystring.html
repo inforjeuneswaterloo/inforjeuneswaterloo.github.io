@@ -1,2 +1,3 @@
-{% assign posts_in_category = site.posts | where_exp: "post", "post.categories contains page.category" %}
+{% assign category=include.category | default: page.category %}
+{% assign posts_in_category = site.posts | where_exp: "post", "post.categories contains category" %}
 {% assign res=posts_in_category.size %}

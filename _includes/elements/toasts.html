@@ -1,0 +1,24 @@
+{% assign alerts=include.alerts %}
+{% for alert in alerts %}
+      {%if alert.enabled%}
+        <div class="col-md-4">
+          <div class="card " role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="card-header bg-primary text-white">
+                    <strong class="me-auto">{{alert.title}}</strong>
+                </div>
+                <div class="card-body">
+                    {{ alert.message | markdowinfy }}
+                    {% if alert.button.enabled %}
+                        <div class="d-flex flex-row-reverse">
+                            <div class="p-2">
+                                <a class="btn btn-dark text-white text-decoration-none" href="{{alert.button.link}}">
+                                    {{alert.button.text}}&nbsp;<i class="{{alert.button.icon}}"></i>
+                                </a>
+                            </div>
+                        </div>
+                    {%endif%}
+                </div>
+          </div>
+        </div>
+      {%endif%}
+    {%endfor%}

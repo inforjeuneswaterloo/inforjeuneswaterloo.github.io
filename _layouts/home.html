@@ -27,5 +27,9 @@ layout: fw
           </div>
       </div>
     </div>
+  </div>
+  <div class="row mb-4">
+    {%assign alerts=site.data.toasts %}
+    {%include elements/toasts.html alerts=alerts%}
+  </div>
 </div>
-{% include elements/toast.html toasts=page.toasts%}

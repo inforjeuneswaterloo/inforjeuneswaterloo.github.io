@@ -1,0 +1,22 @@
+---
+layout: yotm/fw
+---
+<div class="row">
+    <div class="col-md-8 p-2">
+        <div class="row">
+            {% for post in paginator.posts %}
+                <div class="col-md-4 mb-2">
+                    {% include elements/card.html item=post text=post.excerpt %}
+                </div>
+            {% endfor %}
+            {% if paginator.total_pages > 1 %}
+            <div class="d-flex justify-content-center mb-2 mt-2">
+                {% include pagination.html pagination=paginator %}
+            </div>    
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-md-4 border-start border-light-subtl">
+        {% include sidebar/sidebar.html taxonomy=true tags=true news=true %}
+    </div>
+</div>

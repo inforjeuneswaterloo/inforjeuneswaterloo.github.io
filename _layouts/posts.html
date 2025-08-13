@@ -1,6 +1,12 @@
 ---
 layout: fw
 ---
+    {% assign sidebar=page.enabled | default: true %}
+    {% assign exclude_current_category= sidebar.exclude_current_category | default: true %}
+    {% assign taxonomy=sidebar.taxonomy | default: true %}
+    {% assign tags=sidebar.tags | default: false %}
+    {% assign exclude=sidebar.exclude | default: "" %}
+    {% assign news=page.news | default: false %}
 <div class="row">
     <div class="col-md-8 p-2">
         <div class="row">
@@ -17,6 +23,12 @@ layout: fw
         </div>
     </div>
     <div class="col-md-4 border-start border-light-subtl">
-        {% include sidebar/sidebar.html taxonomy=true tags=true news=true %}
+        {% include sidebar/sidebar.html 
+            exclude_current_category=exclude_current_category
+            tags=tags
+            taxonomy=taxonomy
+            news=news
+            sidebar=sidebar
+        %}
     </div>
 </div>

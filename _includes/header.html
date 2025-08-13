@@ -1,22 +1,15 @@
 <header role="banner">
   {% assign homepage_url='/'|relative_url %}
-  {% assign list_pages=site.pages %}
   {% assign list_collections=site.collections %}
   {% assign social_list=site.data.social %}
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-light-subtle ">
      <div class="container-fluid">
-        <a class="navbar-brand" href="{{homepage_url}}">
-          <i class="fa-solid fa-house"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        {% include navbar.html %}
-        <div class="d-flex justify-content-end">
-            {% assign articles_page_url='/posts/' | relative_url %}
-            <a class="btn btn-sm btn-outline-dark me-2 {% if page.url contains articles_page_url %}active{% endif %}"  href="{{articles_page_url}}" type="button">Infozone</a>
-            <a class="btn btn-sm btn-outline-dark {% if page.url contains '/contact/' %}active{% endif %}"  href="/contact/" type="button">Contact</a>
-        </div>
+        </button> -->
+          {% include navigation/navbar.html %}
+          {% include navigation/nav-primary-buttons.html %}
       </div>
   </nav>
 </header>

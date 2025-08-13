@@ -1,0 +1,15 @@
+{% assign nav-buttons = site.data.yotm.nav-buttons %}
+<div class="d-flex justify-content-end">
+    {% for item in nav-buttons %}     
+        {% if item.info %}
+            {% assign info=item.info %}
+        {% endif %}
+        <a class="{{item.css}} me-2" href="{{item.url | relative_url}}" title="{{info}}">
+            {%if item.icon %}
+                <i class="{{item.icon}}"></i>
+            {%else%}
+                {{item.title}}
+            {%endif%}
+        </a>
+    {% endfor %}
+</div>

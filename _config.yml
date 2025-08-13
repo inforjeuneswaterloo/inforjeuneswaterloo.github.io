@@ -24,6 +24,10 @@ collections:
   services:
     output: true
     permalink: /services/:title/
+  yotm:
+    output: true
+    permalink: /yotm/:title/
+
 
 
 

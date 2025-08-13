@@ -1,0 +1,11 @@
+- title: Infozone
+  url: /yotm/infozone/
+  css: 'btn btn-sm btn-outline-dark text-decoration-none'
+- title: Contact
+  url: /yotm/contact
+  css: 'btn btn-sm btn-outline-dark text-decoration-none'
+- title: Sortir
+  url: /
+  css: 'btn btn-sm btn-dark text-decoration-none text-white'
+  icon: "fa-solid fa-arrow-right-from-bracket"
+  info: "Revenir sur inforjeuneswaterloo.be"

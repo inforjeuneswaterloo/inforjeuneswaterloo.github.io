@@ -6,10 +6,8 @@
       {% assign logo_ij='/assets/images/logos/ijw-carre-transparent.png' %}
       {% assign img_class='img-fluid' %}
       {% assign blog_posts=site.posts | sort: 'date' | reverse %}
-      {% assign footer_nav=site.data.footer_nav %}
       {% assign list_social=site.data.social %}
       {% assign list_jobs=site.jobs %}
-      {% assign footer_nav=site.data.footer_nav %}
       {% assign btn_news=site.buttons.news%}
       <div class="col-12 col-md-3 mb-4 justify-content-center">
         <h6 class="heading">
@@ -25,13 +23,7 @@
         </ul>
         <h6 class="heading">Pages</h6>
         <ul class="list-group ms-0 w-100">
-          {% for item in footer_nav %}
-            <li class="list-group-item bg-light border-0 border-bottom border-bottom-secondary ms-0">
-              <a class="text-decoration-none" href="{{item.url|relative_url}}">
-                {{item.title}}
-              </a>
-            </li>
-          {% endfor %}
+          {% include navigation/footer-nav-list.html %}
         </ul>
      </div>
       <div class="col-12 col-md-4">

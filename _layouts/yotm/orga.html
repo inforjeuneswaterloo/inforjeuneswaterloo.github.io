@@ -1,0 +1,47 @@
+---
+layout: yotm/fw
+---
+<div class="row justify-content-center">
+    <div class="col-6 p-2">
+         <header class="post-header mb-4">
+             <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+        <div class="card">
+            <div card-body class="p-2">
+                {{ content }}
+                {% if page.attachments %}
+                {% assign file=page.attachements %}
+                            <div class="p-2">
+                                {%include button.html 
+                                    icon=site.data.config.dload 
+                                    class='btn-dark text-white' 
+                                    url=page.attachments 
+                                    text='Télécharger' 
+                                %}
+                            </div>
+                    </div>
+                {% endif %}
+            </div>
+            {% if page.social %}
+                <div class="d-flex flex-row-reverse">
+                    {% for item in page.social %}
+                        <div class="p-2">
+                            <a class="btn btn-dark"href="{{ item.link }}" target="_blank">
+                                {{item.name}}&nbsp;<i class="{{item.icon}}"></i>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <!--{% if page.image %}
+                <img src="{{page.image}}" class="img-fluid card-img-top p-2">
+            {% endif %}-->    
+    </div>
+    {% include navigation/post-nav.html %}
+</div>
+<div class="row justify-content-center mt-2 mb-4">
+    <div class="container">
+        {% include yotm/navigation/post-sub-nav.html  display=true collection=site.yotm %}
+    </div>
+</div>
+

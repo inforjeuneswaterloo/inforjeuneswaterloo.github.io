@@ -1,0 +1,7 @@
+{% for item in site.data.footer_nav %}
+    <li class="list-group-item bg-light border-0 border-bottom border-bottom-secondary ms-0">
+        <a class="text-decoration-none" href="{{item.url|relative_url}}">
+            {{item.title}}
+        </a>
+    </li>
+{% endfor %}

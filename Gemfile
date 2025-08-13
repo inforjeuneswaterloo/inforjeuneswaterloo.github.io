@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem 'jekyll-paginate-v2', '~> 3.0' # <-- Déplacé ici
   gem "atproto" # <-- Déplacé ici (atproto n'est pas un plugin Jekyll, mais il peut être utile de le mettre ici si un script de build Jekyll en dépend)
+  gem 'activesupport'
 end
 
 # ... (autres plateformes et gems) ...
