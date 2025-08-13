@@ -1,8 +1,16 @@
 {% assign alerts=include.alerts %}
 {% for alert in alerts %}
+    {%if alert.enabled %}
+            <h4 class="display">
+                <i class="fa-solid fa-bullhorn"></i>&nbsp; Oyez! Oyez!
+            </h4>
+        {%break%}
+    {%endif%}
+{% endfor %}
+{% for alert in alerts %}
       {%if alert.enabled%}
-        <div class="col-md-4">
-          <div class="card " role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="col-md-4 ms-0">
+          <div class="card mb-2" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="card-header bg-primary text-white">
                     <strong class="me-auto">{{alert.title}}</strong>
                 </div>
