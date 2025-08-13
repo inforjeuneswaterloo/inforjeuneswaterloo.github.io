@@ -9,9 +9,13 @@ layout: page
     <li class="list-group-item d-flex justify-content-between align items-center">
         <i class="{{contact.horaire.icon}}"></i>&nbsp;{{contact.horaire.open}}
     </li>
-    <li class="list-group-item d-flex justify-content-between align items-center">
-        <i class="{{contact.tel.icon}}"></i>&nbsp;{{contact.tel.number}}
-    </li>
+    {%for tel in contact.tel %}
+        {% if tel.enabled %}
+            <li class="list-group-item d-flex justify-content-between align items-center">
+                <i class="{{tel.icon}}"></i>{%if tel.who%}&nbsp; {{tel.who}}&nbsp;{%endif%}&nbsp;{{tel.number}}
+            </li>
+        {%endif%}
+    {% endfor %}
     <li class="list-group-item d-flex justify-content-between align items-center">
         <i class="{{contact.mail.icon}}"></i>&nbsp;{{contact.mail.mailto}}
     </li>
