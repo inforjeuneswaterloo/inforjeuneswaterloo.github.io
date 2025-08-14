@@ -39,15 +39,12 @@ jobs:
         env:
           BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD}}
-
-      - name: Run Job4U Feed script
-        run: python scripts/get_job4u_feed.py
       
       - name: Commit all content changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add _jobs/ _data/ categories/ _data/mastodon_feed.json
+          git add _jobs/ _data/ categories/ 
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
