@@ -47,7 +47,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add _jobs/ _data/ _categories/ _data/mastodon_feed.json
+          git add _jobs/ _data/ categories/ _data/mastodon_feed.json
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
