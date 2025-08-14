@@ -12,6 +12,7 @@ categories:
   - International
 author: "Infor Jeunes Waterloo"
 tags: 
+  - Carte-info
   - Séjours linguistiques
   - Programme
 buttons:

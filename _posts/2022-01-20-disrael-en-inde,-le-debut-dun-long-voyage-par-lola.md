@@ -7,6 +7,7 @@ title: "D’Israël en Inde, le début d’un long voyage… par Lola"
 date: 2022-01-20T13:27:24.000Z
 categories:
  - Témoignages
+ - International
 tags:
  - Récit
  - Inde

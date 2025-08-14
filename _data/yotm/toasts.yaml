@@ -1,4 +1,4 @@
-- id: construction
+- id: yotm
   enabled: true
   title: Section en constrution
   message: "La section 'yotm' est actuellement en construction.  Certaines parties ne sont pas encore accessibles. Nous sommes sur le coup!"
@@ -8,7 +8,7 @@
     link: /contact/
     class: btn btn-sm btn-dark text-white texte-decration-none
     icon: fa-solid fa-angle-right
-- id: témoins
+- id: yotm
   enabled: true
   title: Témoins recherchés!
   message: "Nous sommes à la recherche de jeunes bourligueurs.euses qui seraient OK pour partager leurs aventures. Intéressé.e? N'histe pas à prendre contact!"

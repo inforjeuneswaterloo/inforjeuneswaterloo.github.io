@@ -10,9 +10,22 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
-      </div>
+      </div>      
     </main>
-
+    <div class="container container-fluid">
+      {% if page.categories %}
+      <div class="row mb-2">
+            <h4 class="display">A lire également</h4>
+            {% include navigation/related_contents.html items=page.categories %}
+            {%assign items=result_posts|sample:3%}
+            {%for post in items%}
+                <div class="col-md-4">
+                  {% include elements/card.html item=post%}
+                </div>
+            {%endfor%}
+      </div>
+      {% endif %}
+    </div>
     {%- include footer.html -%}
 
     {%- include sub-footer.html -%}

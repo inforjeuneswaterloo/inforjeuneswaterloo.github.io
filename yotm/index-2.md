@@ -1,5 +1,5 @@
 ---
-layout: yotm/fw
+layout: yotm/page
 title: Quai d'embarquement
 permalink: /yotm/welcome/
 buttons:
@@ -10,4 +10,6 @@ buttons:
     text:
     href: 
 ---
-Cette section est actuellement en construction.
+{% assign list=site.data.yotm.welcome-list %}
+{%include elements/list.html items=list %}
+

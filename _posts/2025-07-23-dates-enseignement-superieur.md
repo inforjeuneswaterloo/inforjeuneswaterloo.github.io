@@ -7,6 +7,7 @@ slug: dates-cles-enseignement-superieur
 categories: 
   - Enseignement
 tags: 
+  - Carte-info
   - Enseignement supérieur
   - Dates 
 image: /assets/images/posts/dates-enseignement.webp

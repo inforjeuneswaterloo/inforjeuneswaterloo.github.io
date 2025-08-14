@@ -7,6 +7,7 @@ slug: contrat-etudiant
 categories: 
   - Travail
 tags:
+  - Carte-info
   - Job étudiant
   - Contrat
 image: /assets/images/posts/job-contrat.webp

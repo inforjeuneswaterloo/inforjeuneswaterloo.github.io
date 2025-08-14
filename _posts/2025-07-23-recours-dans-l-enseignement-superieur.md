@@ -7,6 +7,7 @@ slug: recours-enseignement-superieur
 categories:
   - Enseignement
 tags: 
+  - Carte-info
   - Enseignement supérieur
   - Recours
   - Réglementation

@@ -7,6 +7,7 @@ title: "Mon voyage au Danemark par Coline"
 date: 2022-01-26T14:41:05.000Z
 categories: 
   - Témoignages
+  - International
 tags:
   - Workaway
   - Solo-female travel

@@ -8,6 +8,7 @@ categories:
   - Travail
   - Protection sociale
 tags:
+  - Carte-info
   - Job étudiant
   - Allocations familiales
   - Réglementation

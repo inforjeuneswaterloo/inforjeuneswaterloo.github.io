@@ -13,6 +13,7 @@ categories:
   - International
 author: "Infor Jeunes Waterloo"
 tags:
+  - Carte-info
   - Jeune au pair
   - Programme
 draft: false

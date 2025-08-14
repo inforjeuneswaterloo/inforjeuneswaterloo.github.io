@@ -7,6 +7,7 @@ title: "Chems, volontaire en Lettonie"
 date: 2022-05-25T11:58:31.000Z
 categories: 
   - Témoignages
+  - International
 image: https://cdn-images-1.medium.com/max/1024/1*MjaJQ1o32_nU0a3SeZLXNg.jpeg
 ---
 

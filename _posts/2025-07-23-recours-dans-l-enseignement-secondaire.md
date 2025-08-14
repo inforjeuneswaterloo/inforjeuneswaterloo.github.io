@@ -7,6 +7,7 @@ slug: recours-enseignement-secondaire
 categories: 
   - Enseignement
 tags: 
+  - Carte-info
   - Enseignement secondaire
   - Recours
   - Réglementation 

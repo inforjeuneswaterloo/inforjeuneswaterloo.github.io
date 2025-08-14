@@ -6,6 +6,7 @@ slug: job-etudiant-fiscalite
 categories: 
   - Travail
 tags: 
+  - Carte-info
   - Job étudiant
   - Réglementation
   - Fisaclité

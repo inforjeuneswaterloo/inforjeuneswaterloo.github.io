@@ -1,7 +1,7 @@
 import requests
 import frontmatter
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone # Ajout de timezone
 from slugify import slugify
 import html2text
 import pytz
@@ -12,16 +12,16 @@ import shutil
 
 # --- Configuration ---
 MASTODON_INSTANCE = "mastodon.social"
-MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME") # CHANGEMENT ICI
-MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD") # CHANGEMENT ICI
+MASTODON_USERNAME = os.environ.get("MASTODON_USERNAME")
+MASTODON_PASSWORD = os.environ.get("MASTODON_PASSWORD")
 
-OUTPUT_DIR = "_jobs" # Cible la collection _news
+OUTPUT_DIR = "_jobs"
 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 URL_REGEX = r"https?://[^\s]+" 
 
-DAYS_TO_FETCH = 30 
+# La période de récupération est maintenant définie dans la logique de la boucle
 API_FETCH_LIMIT = 200 
 
 # --- Fonctions de nettoyage (inchangées) ---
@@ -90,15 +90,16 @@ def get_mastodon_oembed_html(instance_url, status_url):
         print(f"Une erreur inattendue s'est produite lors de l'oEmbed pour {status_url} : {e}")
         return None
 
-# --- Fonction principale de création des fichiers MD (inchangée dans sa logique) ---
+# --- Fonction principale de création des fichiers MD ---
 def create_jekyll_md_file_and_get_data(status_data):
+    # Le reste de cette fonction reste inchangé
+    # ...
     raw_content = status_data.get('content', '')
     h = html2text.HTML2Text()
     h.ignore_links = True
     h.ignore_images = True
     clean_content_raw_text = h.handle(raw_content).strip()
 
-    # PARTIE 1: Extraction des infos nécessaires pour le Front Matter
     url_article_reference = None
     domaine_article_reference = None 
     card = status_data.get('card')
@@ -110,13 +111,11 @@ def create_jekyll_md_file_and_get_data(status_data):
         except Exception as e:
             print(f"Avertissement : Impossible de parser le domaine pour {url_article_reference} (carte): {e}")
     
-    # PARTIE 2: Préparation du contenu textuel (pour le titre/fallback éventuel)
     content_text_only = re.sub(URL_REGEX, '', clean_content_raw_text).strip()
 
-    # PARTIE 3: Détermination du titre
     title = None
     if card and card.get('title'):
-        title = card['title'] # Titre de l'article de référence (priorité)
+        title = card['title']
     else:
         title_lines = [line.strip() for line in content_text_only.split('\n') if line.strip()]
         if title_lines:
@@ -135,17 +134,14 @@ def create_jekyll_md_file_and_get_data(status_data):
     pub_date_local = pub_date_utc.astimezone(TARGET_TIMEZONE)
     jekyll_date = pub_date_local.strftime('%Y-%m-%d %H:%M:%S %z')
 
-    # PARTIE 4: CONSTRUCTION DU FRONT MATTER (fm) - Minimal et Fonctionnel
     fm = {
-        'layout': 'post', # Layout pour les articles d'actualité Mastodon
-        'title': title,        # Titre de l'article de référence (selon votre demande)
-        'date': jekyll_date,   # INDISPENSABLE pour Jekyll (tri, build)
-        'mastodon_id': status_data.get('id'), # ID du toot (selon votre demande)
-        'mastodon_url': status_data.get('url'), # URL complète du toot (nécessaire pour l'embed)
-        'mastodon_account': status_data.get('account', {}).get('acct'), # Compte de l'auteur (nécessaire pour l'embed)
-        'mastodon_instance': MASTODON_INSTANCE, # Instance Mastodon (nécessaire pour l'embed)
-        # 'description': description # Commenté pour minimalisme (si non utilisé dans layout)
-        # 'url_article_reference' et 'domaine_article_reference' ajoutés si vous les voulez dans le FM
+        'layout': 'post',
+        'title': title,
+        'date': jekyll_date,
+        'mastodon_id': status_data.get('id'),
+        'mastodon_url': status_data.get('url'),
+        'mastodon_account': status_data.get('account', {}).get('acct'),
+        'mastodon_instance': MASTODON_INSTANCE,
     }
     
     if url_article_reference:
@@ -153,11 +149,9 @@ def create_jekyll_md_file_and_get_data(status_data):
     if domaine_article_reference:
         fm['domaine_article_reference'] = domaine_article_reference
 
-    
-    # PARTIE 5: Assemblage final du contenu et écriture du fichier
     toot_embed_html = get_mastodon_oembed_html(MASTODON_INSTANCE, status_data.get('url'))
 
-    markdown_content = "" # Le corps du Markdown est vide (rempli par le layout)
+    markdown_content = ""
 
     if toot_embed_html:
         markdown_content += '<div class="mastodon-embed-wrapper">\n'
@@ -166,7 +160,6 @@ def create_jekyll_md_file_and_get_data(status_data):
     else:
         print(f"Avertissement: Impossible de récupérer le code d'intégration pour le toot {status_data.get('url')}. Ajout du texte brut à la place.")
         markdown_content += content_text_only + "\n\n"
-
 
     filename_slug = str(status_data.get('id'))
     filename = f"{pub_date_local.strftime('%Y-%m-%d')}-{filename_slug}.md"
@@ -188,7 +181,6 @@ def create_jekyll_md_file_and_get_data(status_data):
 if __name__ == "__main__":
     print("--- Démarrage du processus de récupération des posts Mastodon ---")
     
-    # CHANGEMENT ICI : Utilisation des noms de variables d'environnement mis à jour
     if not MASTODON_USERNAME or not MASTODON_PASSWORD:
         print("Erreur: Les variables MASTODON_USERNAME ou MASTODON_PASSWORD (token) ne sont pas définies en tant que variables d'environnement.")
         print("Veuillez les configurer dans les Secrets GitHub de votre dépôt.")
@@ -198,13 +190,15 @@ if __name__ == "__main__":
 
     print(f"Tentative de récupération des posts du profil '{MASTODON_USERNAME}' depuis l'instance '{MASTODON_INSTANCE}'.")
     
-    # CHANGEMENT ICI : Utilisation des noms de variables d'environnement mis à jour
     account_id = get_account_id(MASTODON_INSTANCE, MASTODON_USERNAME)
 
     if account_id:
         print(f"ID numérique pour '{MASTODON_USERNAME}' : {account_id}")
         
         now_utc = datetime.now(timezone.utc)
+        
+        # --- LOGIQUE DE FILTRAGE DES 7 DERNIERS JOURS ---
+        DAYS_TO_FETCH = 7 # Ajout de cette variable
         start_date_utc = now_utc - timedelta(days=DAYS_TO_FETCH)
         start_date_utc = datetime(start_date_utc.year, start_date_utc.month, start_date_utc.day, 0, 0, 0, tzinfo=timezone.utc)
         

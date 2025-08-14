@@ -1,5 +1,5 @@
-- id: chaleur
-  enabled: true
+- id: ij
+  enabled: false
   title: Fortes chaleurs - Femeture de la permanence
   message: "En raisons des fortes chaleurs, notre permanence sera fermée les 13 et 14/08/25. Nos permanents sont accessibles via whatsapp de 12 à 17h."
   button:
@@ -9,7 +9,7 @@
     class: btn btn-sm btn-dark text-white texte-decration-none
     icon: fa-solid fa-angle-right
 
-- id: reaction-112
+- id: ij
   enabled: true
   title: Réaction 112 - Forme-toi au premiers secours!
   message: Le 27/10 de 9 à 16h à la Maison des Jeunes de Waterloo (Rue Théophile Delbar 18A)! Gratuit! Places limitées! Inscris-toi!

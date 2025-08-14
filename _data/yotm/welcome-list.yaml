@@ -1,0 +1,38 @@
+- section:
+    enabled: true
+    id: eurodesk
+    text: Centre de ressources Eurodesk 
+    button: 
+      link: /yotm/ressources/eurodesk/
+      class: btn btn-light text-decoration-none
+
+- section:
+    enabled: true
+    id: infozone
+    text: "A la recherche d'une info de base?"
+    button:
+      class: btn btn-light text-decoration-none
+      link: /yotm/infozone/
+ 
+- section:
+    enabled: true
+    text: Faire ton marché parmi les organismes?
+    button:
+      class: btn btn-light text-decoration-none
+      link: /yotm/organismes/
+
+- section:
+    enabled: true
+    id: témoignages
+    text: "Ils sont partis et partagent leurs aventures.  Histoire de te mettre dans le bain."
+    button:
+      class: btn btn-light text-decoration-none
+      link: /yotm/categories/temoignages/
+   
+- section:
+    enabled: true
+    id: contact
+    text: Besoin d'une info supplémentaire? Envie de partager ton expérience?
+    button:
+      class: btn btn-light text-decoration-none
+      link: /yotm/contact/

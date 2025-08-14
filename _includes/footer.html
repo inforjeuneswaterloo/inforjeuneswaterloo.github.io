@@ -3,44 +3,53 @@
   <div class="container container-fluid">
     <div class="row justify-content-center">
       {% assign homepage_url='/'| relative_url %}
+      {% assign yotm_url='/yotm/' | relative_url %}
       {% assign logo_ij='/assets/images/logos/ijw-carre-transparent.png' %}
-      {% assign img_class='img-fluid' %}
       {% assign blog_posts=site.posts | sort: 'date' | reverse %}
       {% assign list_social=site.data.social %}
-      {% assign list_jobs=site.jobs %}
-      {% assign btn_news=site.buttons.news%}
       <div class="col-12 col-md-3 mb-4 justify-content-center">
-        <h6 class="heading">
-          Posts
-        </h6>
-        <ul class="list-group ms-0 W-100 mb-4">
-           {% include 
-            flexible-list.html 
-            list_type="news" 
-            list_data=blog_posts 
-            limit=5 
-            %}
+        <h4 class="heading">Archives</h4>
+        <ul class="list-group list-group-flush ms-0 ">
+          {% assign categories=site.categories %}
+          {% assign exclude_current_category=include.exclude_current_category | default: false %}
+          {% for category in categories %}
+              {% assign category_name= category | first %}
+              {% assign category_slug=category_name | custom_slugify %}
+              {% assign category_url='/categories/'| append: category_slug | '/' %}
+              {% assign posts_in_category =category | last %}
+              <li class="list-group-item bg-light">
+                  <a class="text-decoration-none {%if page.url contains category_slug%}active{%endif%}" href="{{category_url}}">
+                    {{category_name}}&nbsp;({{posts_in_category.size}})
+                  </a>
+              </li>
+          {%endfor%}
         </ul>
-        <h6 class="heading">Pages</h6>
-        <ul class="list-group ms-0 w-100">
-          {% include navigation/footer-nav-list.html %}
-        </ul>
-     </div>
+      </div>
       <div class="col-12 col-md-4">
-        {% if page.url contains '/news/' %}
-          <H6 class="heading">Jobs étudiants</H6>
-          {% include 
-            flexible-list.html 
-            list_data=list_jobs 
-            list_type="news" 
-            limit=1 
-            display='card' 
-            button=formatted_button
-          %}
-        {% else %}
-          <h6 class="heading ms-0">Actualités </h6>
-            {% include elements/bsky-embed.html limit=1 custom_style=".border-b{border:none}" %}
-        {% endif %}
+        {% if page.url==homepage_url or page.url==yotm_url %}         
+        {%else%}
+          <h4>Oyez! Oyez!</h4>
+          {% assign alerts=site.data.toasts | limit: 3 %}
+          {%for alert in alerts %}
+            {% if alert.enabled %}
+              <div class="card mb-1">
+                <div class="card-header bg-primary text-white">
+                  <strong class="me-auto">{{alert.title}}</strong>
+                </div>
+                <div class="card-body bg-light">
+                    {{alert.message}}
+                    {%if alert.button.enabled %}
+                      <div class="d-flex flex-row-reverse">
+                        <a class="btn btn-sm btn-dark text-white text-decoration-none" href="{{alert.button.link}}">
+                          {{alert.button.text}}&nbsp; <i class="{{alert.button.icon}}"></i>
+                        </a>
+                      </div>
+                    {%endif%}
+                </div>
+              </div>
+            {%endif%}
+          {%endfor%}
+        {%endif%}
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
         {% if page.url == homepage_url %}
@@ -51,6 +60,9 @@
             {% include collabs.html %}
           </div>
         {% else %}
+          <div class="d-flex mb-2">
+            {{site.description|markdownify}}
+          </div>
           <img src="{{ logo_ij }}" class="{{ img_class }}">
           <ul class="list-group list-group-horizontal border-0 mt-0">
               {% include navigation/social.html %}

@@ -6,6 +6,7 @@ slug: arret-etudes
 categories: 
   - Enseignement
 tags: 
+  - Carte-info
   - Enseignement supérieur
   - orientation
   - Abandon

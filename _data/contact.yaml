@@ -9,12 +9,12 @@ tel:
     number: +32 473 953 806
     icon: fa-solid fa-phone
   - id: km
-    enabled: true
+    enabled: false
     who: Karine
     number: +32 472 021 953
     icon: fa-solid fa-user
   - id: md
-    enabled: true
+    enabled: false
     who: Muriel
     number: +32 0472 881 430
     icon: fa-solid fa-user

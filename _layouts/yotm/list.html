@@ -2,7 +2,12 @@
 layout: yotm/page
 ---
 <ul class="list-group list-group-flush card rounded mb-2">
-   {{ content }}
+   {%if page.list %}
+        {%assign list=page.list%}
+        {% include elements/list.html items=list %}
+   {%else%}
+        {{content}}
+   {%endif%}
 </ul>
 {% if paginator.total_pages > 1 %}
     <div class="d-flex w-100 justify-row-center">
