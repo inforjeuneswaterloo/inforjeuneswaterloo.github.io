@@ -56,16 +56,16 @@
           <div class="d-flex mt-4">
             {{ site.description | markdownify }}
           </div>
-          <div class="d-flex mt-4">
-            {% include collabs.html %}
-          </div>
+          <ul class="list-group list-group-horizontal border-0">
+            {% include supports.html %}
+          </ul>
         {% else %}
-          <div class="d-flex mb-2">
-            {{site.description|markdownify}}
-          </div>
           <img src="{{ logo_ij }}" class="{{ img_class }}">
-          <ul class="list-group list-group-horizontal border-0 mt-0">
+          <ul class="list-group list-group-horizontal border-0 mt-0 mb-2">
               {% include navigation/social.html %}
+          </ul>
+          <ul class="list-group list-group-horizontal border-0 mt-2">
+            {% include supports.html %}
           </ul>
         {% endif %}
       </div>

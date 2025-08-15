@@ -1,0 +1,6 @@
+{% assign supports=site.data.support%}
+{% for support in supports%}
+    <li class="list-group-item border-0 bg-light flex-fill p-2">
+        <img src="{{support.image}}" class="img-fluid">
+    <li>
+{%endfor%}

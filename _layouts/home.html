@@ -1,28 +1,27 @@
 ---
 layout: fw
 ---
+{% assign collabs=page.collabs%}
+{% assign id=page.id %}
 {% assign list_social=site.data.social %}
-{% assign jumbotron_img='/assets/images/logos/ijw-carre-transparent.png' %}
-{% assign img_class='img-fluid' %}
+{% assign jumbotron_img=page.image %}
+{% assign  buttons=page.buttons %}
+{% assign moto=page.moto %}
+{% assign curren_url=page.url %}
 <div class="container mb-2 mt-2">
   <div class="jumbotron jumbotron-fluid p-2">
     <div class="row align-items-center">
       <div class="col-12 col-sm-6 col-md-4">
-        <img class="{{img_class}}" src="{{jumbotron_img}}" >
+        <img class="img-fluid" src="{{jumbotron_img}}" >
       </div>
       <div class="col-12 col-md-8">
-          <h1 class="display-4">Informer. 
-          <span class="bg-black text-white p-1 rounded">Autonomiser.</span> Sans condition.</h1>
-          <div class="d-flex justify-content-center">
-            <div class="p-2">
-              <a href="/services/" class="btn btn-outline-secondary">Entrez!&nbsp;<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-            </div>
-            <div class="p-2">
-              <a href="https://wa.me/0032473953806" class="btn btn-success whatsapp-button text-white" target="_blank" rel="noopener noreferrer"> Nous contacter via <i class="fa-brands fa-whatsapp"></i>
-              </a>
-            </div>
-          </div>
-          <div class="d-flex flex-row-start">
+          <h1 class="display-4">{{moto}}</h1>
+            {% if page.buttons %}
+              <div class="d-flex justify-content-center">
+                {% include elements/buttons.html %}
+              </div>
+            {%endif%}
+            <div class="d-flex flex-row-start">
             {% include flexible-list.html list_data=list_social list_type="social" css_class="btn btn-outline-dark" %}
           </div>
       </div>
@@ -30,6 +29,19 @@ layout: fw
   </div>
   <div class="row mb-4">
     {%assign alerts=site.data.toasts %}
-    {%include elements/toasts.html alerts=alerts%}
+    {%include elements/toasts.html alerts=alerts id=page.id%}
   </div>
+  {%if collabs%}
+    <div class="d-flex justify-content-center aligin-items-centetr">
+      {%case collabs%}
+      {%when 'yotm'%}
+         {% for image in site.data.yotm.collabs %}
+          {% assign image=site.data.yotm.collabs.image %}
+            <div class="p-2">
+              <img class="img-fluid" src="{{image.image}}">
+            </div>
+        {% endfor %}
+      {%endcase%}
+    </div>
+  {%endif%}
 </div>
