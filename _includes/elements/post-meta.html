@@ -1,0 +1,30 @@
+{% assign post_date = page.date | date: "%d %B %Y" %}
+{% assign post_updated = page.update| date: "%d %B %Y" | default: page.date %}
+{% assign post_author = page.author | default: site.author %}
+{% assign categories =page.categories %}
+
+<div class="d-flex flex-wrap gap-2 text-muted small mt-4 mb-4 border-top pt-2">
+  <span class="d-flex align-items-center">
+    <i class="fa-solid fa-user me-1"></i>
+    Auteur: <strong>{{ post_author }}</strong>
+  </span>
+  <span class="d-flex align-items-center">
+    <i class="fa-solid fa-calendar me-1"></i>
+    Publié le: <strong>{{ post_date }}</strong>
+  </span>
+  {% if page.update %}
+  <span class="d-flex align-items-center">
+    <i class="fa-solid fa-clock-rotate-left me-1"></i>
+    Mis à jour le: <strong>{{ post-updated }}</strong>
+  </span>
+  {% endif %}
+  {% if page.categories %}
+  <span class="d-flex align-items-center">
+    <i class="fa-solid fa-folder me-1"></i>
+    Catégories:
+    {% for category in categories %}
+      <a href="/categories/{{ category | custom_slugify }}/" class="badge text-bg-secondary ms-1 text-decoration-none">{{ category }}</a>
+    {% endfor %}
+  </span>
+  {% endif %}
+</div>

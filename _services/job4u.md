@@ -1,5 +1,6 @@
 ---
 layout: page
+id: ij
 title: Offres de job étudiant
 icon: 
   fa: fa-solid fa-car-side

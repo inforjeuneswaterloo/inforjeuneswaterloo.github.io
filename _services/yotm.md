@@ -1,5 +1,6 @@
 ---
 layout: page
+id: ij
 title: "YOTM: YouthOnTheMove - Notre projet 'Mobilité internationale'"
 icon:
   fa: "fa-solid fa-plane-departure"

@@ -1,5 +1,6 @@
 ---
 layout: page
+section: ij
 title: Atelier d'aide à la réalisation d'un CV - Action Job Etudiant
 icon: 
   fa: fa-regular fa-file

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% assign section=page.section | default: 'default'%}
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 
   {%- include head.html -%}
