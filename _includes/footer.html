@@ -7,49 +7,38 @@
       {% assign logo_ij='/assets/images/logos/ijw-carre-transparent.png' %}
       {% assign blog_posts=site.posts | sort: 'date' | reverse %}
       {% assign list_social=site.data.social %}
+      {% assign alerts=site.data.toasts | limit: 3 %}
       <div class="col-12 col-md-3 mb-4 justify-content-center">
-        <h4 class="heading">Archives</h4>
+        <h4 class="heading">Navigation</h4>
         <ul class="list-group list-group-flush ms-0 ">
-          {% assign categories=site.categories %}
-          {% assign exclude_current_category=include.exclude_current_category | default: false %}
-          {% for category in categories %}
-              {% assign category_name= category | first %}
-              {% assign category_slug=category_name | custom_slugify %}
-              {% assign category_url='/categories/'| append: category_slug | '/' %}
-              {% assign posts_in_category =category | last %}
-              <li class="list-group-item bg-light">
-                  <a class="text-decoration-none {%if page.url contains category_slug%}active{%endif%}" href="{{category_url}}">
-                    {{category_name}}&nbsp;({{posts_in_category.size}})
-                  </a>
-              </li>
-          {%endfor%}
+          {% include navigation/footer-nav-list.html %}
         </ul>
       </div>
       <div class="col-12 col-md-4">
-        {% if page.url==homepage_url or page.url==yotm_url %}         
-        {%else%}
-          <h4>Oyez! Oyez!</h4>
-          {% assign alerts=site.data.toasts | limit: 3 %}
-          {%for alert in alerts %}
-            {% if alert.enabled %}
-              <div class="card mb-1">
-                <div class="card-header bg-primary text-white">
-                  <strong class="me-auto">{{alert.title}}</strong>
-                </div>
-                <div class="card-body bg-light">
-                    {{alert.message}}
-                    {%if alert.button.enabled %}
-                      <div class="d-flex flex-row-reverse">
-                        <a class="btn btn-sm btn-dark text-white text-decoration-none" href="{{alert.button.link}}">
-                          {{alert.button.text}}&nbsp; <i class="{{alert.button.icon}}"></i>
-                        </a>
-                      </div>
-                    {%endif%}
-                </div>
-              </div>
+        {%unless page.url contains '/notre-actu/'%}
+          {% for alert in alerts %}
+            {%if alert.enabled %}
+              <h4>Oyez! Oyez!</h4>
+              {%break%}
             {%endif%}
           {%endfor%}
-        {%endif%}
+          {% if page.url==homepage_url or page.url==yotm_url %}   
+              {%case page.url%} 
+                {%when homepage_url%}
+                  {% for alert in alerts %}
+                      {% include elements/toasts-card.html key='ij'%}
+                  {% endfor %}
+                {% else %}
+                  {% for alert in alerts %}
+                      {% include elements/toasts-card.html key='yotm' %}
+                  {%endfor%}
+              {%endcase%}     
+          {%else%}
+            {%for alert in alerts %}
+                {%include elements/toasts-card.html %}
+            {%endfor%}
+          {%endif%}
+        {%endunless%}
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
         {% if page.url == homepage_url %}

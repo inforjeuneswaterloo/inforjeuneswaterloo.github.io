@@ -1,0 +1,21 @@
+{% assign id=include.key | default:'all'%}
+{% unless id==alert.id %}
+    {% if alert.enabled %}
+        <div class="card mb-1">
+            <div class="card-header bg-primary text-white">
+                <strong class="me-auto">{{alert.title}}</strong>
+            </div>
+            <div class="card-body bg-light">
+                {{alert.message}}
+                {%if alert.button.enabled %}
+                    <div class="d-flex flex-row-reverse">
+                        <a class="btn btn-sm btn-dark text-white text-decoration-none" href="{{alert.button.link}}">
+                            {{alert.button.text}}&nbsp; <i class="{{alert.button.icon}}"></i>
+                        </a>
+                    </div>
+                {%endif%}
+            </div>
+        </div>
+    {%endif%}
+{%endunless%}
+ 

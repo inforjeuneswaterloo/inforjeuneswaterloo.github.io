@@ -2,18 +2,7 @@
 layout: page
 ---
 <ul class="list-group list-group-flush card rounded mb-2">
-   {% if page.list %}
-        {{page.list}}
-        {% assign list=page.list%}
-        {%for item in list.section %}
-        <li>
-            {{item.text}}
-        </li>
-        {%endfor%}
-        {%include elements/list.html items=page.list %}
-   {%else%}
-        {{content}}
-   {%endif%}
+  {{content}}
 </ul>
 {% if paginator.total_pages > 1 %}
     <div class="d-flex w-100 justify-row-center">

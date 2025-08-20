@@ -1,7 +1,7 @@
 ---
-layout: yotm/category_archive
+layout: category_archive
 title: Infozone
 category: 'International'
-permalink: '/yotm/infozone/'
+permalink: '/categories/international'
 sidebar: true
 ---

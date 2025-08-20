@@ -12,7 +12,7 @@
     text: "A la recherche d'une info de base?"
     button:
       class: btn btn-light text-decoration-none
-      link: /yotm/infozone/
+      link: /categories/international/
  
 - section:
     enabled: true
@@ -27,7 +27,7 @@
     text: "Ils sont partis et partagent leurs aventures.  Histoire de te mettre dans le bain."
     button:
       class: btn btn-light text-decoration-none
-      link: /yotm/categories/temoignages/
+      link: /categories/temoignages/
    
 - section:
     enabled: true

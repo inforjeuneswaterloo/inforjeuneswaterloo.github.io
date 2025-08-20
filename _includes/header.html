@@ -3,12 +3,19 @@
   {% assign list_collections=site.collections %}
   {% assign social_list=site.data.social %}
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-light-subtle ">
-     <div class="container-fluid">
-        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-          {% include navigation/navbar.html %}
-          {% include navigation/nav-primary-buttons.html %}
+    <div class="container-fluid">
+      {% assign topnav=site.data.top-nav %}
+      <a class="navbar-brand btn btn-danger btn-sem text-white" href="/">
+        <i class="fa-solid fa-home"></i>
+      </a>
+      <div class="d-flex justify-content-end">
+          {% for item in topnav %}
+            <a class="{{item.class}} {% if page.url contains item.url %}active{% endif %} text-decoration-none"  
+            href="{{item.url | relative_url}}" type="button">
+              {{item.title}}
+          </a>
+          {%endfor%}
       </div>
+    </div>
   </nav>
 </header>

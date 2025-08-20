@@ -5,20 +5,22 @@ layout: fw
     <h1 class="page-heading">{{ page.title }}</h1>
 </div>
 <div class="container container-fluid mb-2">
-    <div class="row row-cols-sm-1 row-cols-md-3 g-4">
+    <div class="row">
         {% if page.display_content %}
             {% for post in paginator.posts %}
+              <div class="col-md-4">
                 {{post.content}}
+              </div>
             {% endfor %}
         {% else %}
             {%if paginator.posts %}
                 {% for post in paginator.posts %}
-                    <div class="col">
+                    <div class="col-md-4">
                         {% include elements/card.html item=post text=post.excerpt %}
                     </div>
                 {% endfor %}
             {%else%}
-                   {{content}}
+                    {{content}}
             {%endif%}
         {% endif %}
     </div>

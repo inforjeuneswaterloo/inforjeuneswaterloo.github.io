@@ -1,7 +1,7 @@
 ---
-layout: yotm/category_archive
+layout: category_archive
 title: Témoignages
-permalink: '/yotm/categories/temoignages'
+permalink: '/categories/temoignage/'
 category: 'Témoignages'
 sidebar:
   enabled: true

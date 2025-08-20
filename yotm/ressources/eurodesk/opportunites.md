@@ -1,5 +1,5 @@
 ---
-layout: yotm/fw
+layout: fw
 title: Opportunity finder
 permalink: /yotm/ressources/eurodesk/opportunites/
 ---

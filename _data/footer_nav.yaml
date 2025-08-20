@@ -1,6 +1,37 @@
-- title: "About"
-  url: /about/
+- title: "Nos projets et services"
+  url: '/services/'
+  children:
+    - child:
+        enabled: true
+        title: Mobilité internationale
+        url: /services/yotm
+    - child:
+        enabled: true
+        title: "Jobs étudiants"
+        url: /services/job4u/
+    - child:
+        enabled: true
+        title: "Atelier CV"
+        url: /services/atelier-cv/
+    - child:
+        enabled: true
+        title: "Module d'orientation"
+        url: '/services/modules-orientation/'
+    - child:
+        enabled: true
+        title: "Permis de conduire"
+        url: '/services/permis-simulation/'
+    - child:
+        enable: true
+        title: Réaction 112 - Formation aux premiers secours
+        url: /services/reaction-112/
+- title: Mobilité internationale
+  url: /yotm/welcome/
+- title: Notre actu
+  url: /notre-actu/
 - title: "Archives"
   url: '/categories/'
+- title: "About"
+  url: '/about/'
 
 

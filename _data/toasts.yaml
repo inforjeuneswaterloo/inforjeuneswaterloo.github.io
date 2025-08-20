@@ -1,13 +1,3 @@
-- id: ij
-  enabled: false
-  title: Fortes chaleurs - Femeture de la permanence
-  message: "En raisons des fortes chaleurs, notre permanence sera fermée les 13 et 14/08/25. Nos permanents sont accessibles via whatsapp de 12 à 17h."
-  button:
-    enabled: true
-    text: Contact
-    link: /contact/
-    class: btn btn-sm btn-dark text-white texte-decration-none
-    icon: fa-solid fa-angle-right
 
 - id: ij
   enabled: true

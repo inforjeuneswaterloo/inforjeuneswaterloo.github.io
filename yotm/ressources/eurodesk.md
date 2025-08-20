@@ -1,5 +1,5 @@
 ---
-layout: yotm/page
+layout: page
 title: Eurodesk
 description: "Eurodesk est une association internationale à but non lucratif fondée en 1990. Elle a pour objet d'informer les jeunes sur les opportunités de mobilité, et les encourager à devenir des citoyens actifs et propose des dialogues et consultations européens.  Eurodesk dispose de 38 bureaux dans 36 pays."
 image: /assets/images/yotm/logos/eurodesk-logo.webp

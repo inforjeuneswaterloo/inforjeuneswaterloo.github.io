@@ -1,0 +1,11 @@
+---
+layout: grid
+title: Notre actu
+permalink: /notre-actu/
+---
+{% assign alerts=site.data.toasts %}
+{% for alert in alerts %}
+    <div class="col-md-4">
+        {% include elements/toasts-card.html %}
+    </div>
+{% endfor %}

@@ -1,5 +1,5 @@
 --- 
-layout: yotm/posts
+layout: grid
 title: Organismes
 permalink: /yotm/organismes/
 sidebar:

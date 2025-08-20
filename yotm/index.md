@@ -8,7 +8,7 @@ buttons:
   - btn:
      enable: true
      text: Entrez!
-     href: /services/
+     href: /yotm/welcome/
      icon: fa-solid fa-arrow-right-to-bracket
      class: btn btn-outline-dark text-decoration-none btn-sm
      target: _self
