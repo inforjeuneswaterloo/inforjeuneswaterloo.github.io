@@ -17,7 +17,7 @@ tags:
   - Enseignement supérieur
   - Recours
   - Réglementation
-image: /assets/images/posts/podcast-eurodesk-france.jpg
+image: /assets/images/posts/ressources.webp
 sidebar: 
   show: all
   title: A lire

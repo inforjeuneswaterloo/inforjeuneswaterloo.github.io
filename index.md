@@ -6,9 +6,9 @@ id: 'ij'
 buttons:
   - btn:
      enable: true
-     text: Entrez!
+     text: Nos projets et services
      href: /services/
-     icon: fa-solid fa-arrow-right-to-bracket
+     icon: fa-solid fa-cogs
      class: btn btn-dark text-decoration-none btn-sm text-white
      target: _self
   - btn:

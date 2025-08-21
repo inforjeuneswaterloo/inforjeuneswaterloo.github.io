@@ -16,7 +16,7 @@ tags:
   - Vidéo
   - La minute à Jaja
   - Vacances
-image: /assets/images/posts/vacances-jeunes.webp
+image: /assets/images/posts/yoga-man.webp
 sidebar: 
   show: all
   title: A lire
