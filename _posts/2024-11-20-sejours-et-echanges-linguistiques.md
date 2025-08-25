@@ -16,12 +16,13 @@ tags:
   - Séjours linguistiques
   - Programme
 buttons:
-    - btn: 
-      enable: true 
-      text: Norme NF EN 14804
-      href: https://www.gard.gouv.fr/contenu/telechargement/8920/53508/file/NFEN14804%20SejoursLinguistiques.pdf
-      icon: fa-solid fa-file-pdf
-draft: false
+  - btn: 
+     enable: true 
+     text: Norme NF EN 14804
+     href: https://www.gard.gouv.fr/contenu/telechargement/8920/53508/file/NFEN14804%20SejoursLinguistiques.pdf
+     icon: fa-solid fa-download
+     target: "_blank"
+     class: "btn btn-dark text-white text-decoration-none"
 ---
 L'échange linsquistique se base sur une formule d'hospitalité réciproque avec le bénéfice d'une immersion culturelle et linguistique.  
 

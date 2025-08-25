@@ -1,0 +1,24 @@
+{% assign categories=include.items %}
+{% assign shuffle=include.shuffle | default: 3 %}
+{% assign exclude_categories = include.exclude_categories | default: "" %}
+{% assign result_posts = "" | split: "|" %}
+  {% assign related_posts = '' | split: ',' %}
+  {% assign current_post_id = page.id %}
+  {% for category in page.categories %}
+    {% assign posts_by_category = site.posts | where_exp: "post", "post.categories contains category" %}
+    {% assign related_posts = related_posts | concat: posts_by_category %}
+  {% endfor %}
+  {% assign unique_related_posts = related_posts | uniq %}
+  {% assign final_related_posts = unique_related_posts | where_exp: "post", "post.id != current_post_id" %}
+  {% assign random_posts = final_related_posts | sample: shuffle %}
+
+  {% if random_posts.size > 0 %}
+  <div class="row mb-2">
+    <h4 class="display">À lire également</h4>
+    {% for post in random_posts %}
+      <div class="col-md-4">
+        {% include elements/card.html item=post %}
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}

@@ -2,7 +2,7 @@
 layout: base
 ---
 <div class="header">
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">{{ page.title | escape | markdownify}}</h1>
 </div>
 <article class="post">
 
@@ -14,3 +14,27 @@ layout: base
  </div>
  {% include navigation/post-nav.html %}
 </article>
+{% if page.collection %}
+  {% assign current_url = page.url | remove_first: '/' %}
+  {% assign collection_name = page.collection %}
+  {% assign collection = site[collection_name] %}
+  <div class="container p-3 mt-4 mb-2">
+      {% if collection and collection_name != 'posts' %}
+        <h6 class="display">Dans la même collection</h6>
+        <ul class="list-group list-group-flush card rounded">
+        {% for item in collection %}
+          {% assign item_url = item.url | remove_first: '/' %}
+          {% unless item_url == current_url %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span><h6 class="display">{{ item.title }}</h6></span>
+              <a class="btn btn-light text-decoration-none" href="{{ item.url | relative_url }}">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </li>
+          {% endunless %}
+        {% endfor %}
+        </ul>
+      {% endif %}
+  </div>
+{% endif %}
+

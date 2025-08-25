@@ -13,7 +13,7 @@ module Jekyll
       style = (parts[2] && !parts[2].empty? ? parts[2].gsub(/"/,'') : 'primary')
       icon = (parts[3] && !parts[3].empty? ? parts[3].gsub(/"/,'') : nil) # Récupérer l'icône
 
-      button_html = "<a href=\"#{url}\" class=\"btn btn-#{style}\">#{text}"
+      button_html = "<a href=\"#{url}\" class=\"btn btn-#{style}\ text-decoration-none">#{text}"
       button_html += " <i class=\"#{icon}\"></i>" if icon # Ajouter l'icône si elle est présente
       button_html += "</a>"
 

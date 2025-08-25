@@ -7,16 +7,16 @@ id: 'yotm'
 buttons:
   - btn:
      enable: true
-     text: Entrez!
+     text: Embarquement 
      href: /yotm/welcome/
-     icon: fa-solid fa-arrow-right-to-bracket
-     class: btn btn-outline-dark text-decoration-none btn-sm
+     icon: fa-solid fa-plane-departure
+     class: btn btn-primary text-white text-decoration-none 
      target: _self
   - btn: 
      enable: true
      text: Nous contacter
      href: https://wa.me/0032473953806
-     class: btn btn-success text-decoration-none btn-sm
+     class: btn btn-success text-decoration-none 
      icon: fa-brands fa-whatsapp
      target: _blank
 ---

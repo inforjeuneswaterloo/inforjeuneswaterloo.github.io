@@ -1,5 +1,5 @@
 ---
-layout: yotm/contact
+layout: contact
 title: Contact
 permalink: /yotm/contact/
 ---

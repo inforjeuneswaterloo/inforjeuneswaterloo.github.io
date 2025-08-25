@@ -1,7 +1,20 @@
+{% assign flex=include.flex %}
 {% for item in site.data.social %}
-    <li class="list-group-item border-0 p-1 mt-0 flex-fill bg-light ">
-        <a  type="button" href="{{item.url | relative_url}}" class="btn btn-dark tex-white text-decoration-none">
-            <i class="{{item.icon}}"></i>
-        </a>
-    </li> 
+    {% assign class=item.class | default: "btn btn-dark text-white text-decoration-none"%}
+    {% if flex %}
+        {%case flex %}
+            {%when 'd-flex'%}
+            <div class="p-1">
+                <a  type="button" href="{{item.url | relative_url}} " class="{{class}}">
+                    <i class="{{item.icon}}"></i>
+                </a>
+            </div>
+        {%endcase%}
+    {% else %}
+        <li class="list-group-item border-0 p-1 mt-0 flex-fill bg-light ">
+            <a  type="button" href="{{item.url | relative_url}}" class="{{class}}">
+                <i class="{{item.icon}}"></i>
+            </a>
+        </li> 
+    {%endif%}
 {% endfor %}

@@ -1,0 +1,18 @@
+{% if page.collection %}
+    {% assign current_url=page.url | remove_first: '/' %}
+    {% assign collection=site[page.collection] %}
+        {% if collection %}
+            {% for item in collection %}
+                {% assign item_url=item.url | remove_first: '/' %}
+                {% assign item_categories=item.categories %}
+                {% unless item_url==current_url %}
+                    <div class="col-md-4 ">
+                        <a class="btn btn-light text-decoration-none" href="{{item.url/relative_url}}">
+                            {{item.title}}
+                        </a>
+                    </div>
+                    {% endunless %}
+            {% endfor %}
+                  </ul>
+        {% endif %}
+{% endif %}

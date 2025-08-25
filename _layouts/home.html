@@ -16,12 +16,12 @@ layout: fw
       <div class="col-12 col-md-8">
           <h1 class="display-4">{{moto}}</h1>
             {% if page.buttons %}
-              <div class="d-flex flex-row-reverse">
+              <div class="d-flex flex-row-start mb-4">
                 {% include elements/buttons.html %}
               </div>
             {%endif%}
             <div class="d-flex flex-row-start">
-            {% include flexible-list.html list_data=list_social list_type="social" css_class="btn btn-outline-dark" %}
+            {% include navigation/social.html flex='d-flex' %}
           </div>
       </div>
     </div>

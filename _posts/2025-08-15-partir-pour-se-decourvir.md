@@ -11,12 +11,10 @@ slug: partir-pour-se-decouvrir
 categories:
   - International
   - Témoignages
+  - Ressources
 tags: 
   - Récit
-  - Vidéo
-  - Enseignement supérieur
-  - Recours
-  - Réglementation
+  - Podcast
 image: /assets/images/posts/ressources.webp
 sidebar: 
   show: all

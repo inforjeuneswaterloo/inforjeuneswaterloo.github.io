@@ -14,11 +14,3 @@
       class: btn btn-light text-decoration-none
       link: /yotm/ressources/eurodesk/centres/
       icon: fa-solid fa-arrow-right
-- section:
-    enabled: false
-    id: documentation
-    text: "Borchures accessibles au téléchargement"
-    button:
-      class: btn btn-light text-decoration-none
-      link: /yotm/ressources/eurodesk/telechargements/
-      icon: fa-solid fa-arrow-right

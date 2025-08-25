@@ -6,30 +6,30 @@ id: 'ij'
 buttons:
   - btn:
      enable: true
-     text: Nos projets et services
+     text: Services
      href: /services/
      icon: fa-solid fa-cogs
-     class: btn btn-dark text-decoration-none btn-sm text-white
+     class: btn btn-dark text-decoration-none text-white
      target: _self
   - btn:
      enable: true
      text: Orientation
      href: /services/modules-orientation/
      icon: fa-solid fa-compass
-     class: btn btn-sm btn-warning text-decoration-none text-white
+     class: btn btn-warning text-decoration-none text-white
      target: _self
   - btn:
      enable: true
      text: Jobs étudiants
      href: '/jobs/'
      icon: "fa-solid fa-binoculars"
-     class: btn btn-sm btn-primary text-white text-decoration-none
+     class: btn btn-primary text-white text-decoration-none
      target: _self
   - btn: 
-     enable: true
+     enable: false
      text: Nous contacter
      href: https://wa.me/0032473953806
-     class: btn btn-success text-decoration-none btn-sm
+     class: btn btn-success text-decoration-none
      icon: fa-brands fa-whatsapp
      target: _blank
 ---
