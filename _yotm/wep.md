@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "WEP - World Education Program"
 email: 
 image: "/assets/images/yotm/orga/wep.png"

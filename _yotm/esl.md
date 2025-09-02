@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "ESL"
 email: 
 image: "/assets/images/yorm/orga/esl.png"

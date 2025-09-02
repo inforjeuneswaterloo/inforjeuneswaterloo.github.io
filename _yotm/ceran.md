@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "CERAN"
 email: 
 image: "/assets/images/yotm/orga/ceran-22.webp"

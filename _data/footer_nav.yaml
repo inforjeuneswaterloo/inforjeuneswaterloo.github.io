@@ -2,6 +2,19 @@
   url: '/services/'
 - title: Mobilité internationale
   url: /yotm/welcome/
+  children:
+    - child:
+       enabled: true
+       title: Blog
+       url: '/categories/international/'
+    - child:
+       enabled: true
+       title: Explorer les opportunités
+       url: /yotm/ressources/eurodesk/opportunites/
+    - child: 
+       enabled: true
+       title: Trouver un point d'info Eurodesk
+       url: /yotm/ressources/eurodesk/points-infos/
 - title: Notre actu
   url: /notre-actu/
 - title: "Archives"

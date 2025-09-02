@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Quinoa"
 email: 
 image: "/assets/images/yotm/orga/quinoa.png"

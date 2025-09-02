@@ -1,5 +1,5 @@
 ---
-layout: yotm/fw
+layout: grid
 ---
 <div class="row justify-content-center">
     <div class="col-6 p-2">
@@ -33,9 +33,9 @@ layout: yotm/fw
                     {% endfor %}
                 </div>
             {% endif %}
-            <!--{% if page.image %}
+            {% if page.image %}
                 <img src="{{page.image}}" class="img-fluid card-img-top p-2">
-            {% endif %}-->    
+            {% endif %} 
     </div>
     {% include navigation/post-nav.html %}
 </div>

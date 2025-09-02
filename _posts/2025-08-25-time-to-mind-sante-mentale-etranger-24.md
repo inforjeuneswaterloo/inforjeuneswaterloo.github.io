@@ -12,7 +12,6 @@ categories:
   - International
   - Ressources
   - Téléchargements
-  - Travail
   - Santé
 tags: 
   - Brochures

@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Move & Study"
 email: 
 image: "/assets/images/yotm/orga/move-study.png"

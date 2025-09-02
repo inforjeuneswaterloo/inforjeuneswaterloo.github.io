@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: BAEF - Belgian American Educational Foundation
 email: johndoe@email.com
 image: /assets/images/yotm/orga/baef.jpg

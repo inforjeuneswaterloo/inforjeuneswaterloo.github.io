@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Rotary club Braine-l'Alleud"
 email: 
 image: "/assets/images/yotm/orga/rotary.png"

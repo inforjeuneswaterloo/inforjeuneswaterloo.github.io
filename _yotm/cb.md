@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Les compagnons bâtisseurs"
 email: 
 image: "/assets/images/yotm/orga/compagnons-batisseurs.webp"

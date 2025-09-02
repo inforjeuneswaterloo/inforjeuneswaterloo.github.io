@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "SCI - Projets internationaux"
 email: 
 image: "/assets/images/yotm/orga/sci.png"

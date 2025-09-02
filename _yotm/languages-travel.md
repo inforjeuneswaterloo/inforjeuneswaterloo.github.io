@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Languages and travel"
 email: 
 image: "/assets/images/yotm/orga/languages-travel.png"

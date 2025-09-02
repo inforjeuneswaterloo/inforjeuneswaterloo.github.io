@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Study Experience"
 email: 
 image: "/assets/images/yotm/orga/study-experience.png"

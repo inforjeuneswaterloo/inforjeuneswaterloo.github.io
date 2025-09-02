@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "Langues vivantes"
 email: 
 image: "/assets/images/yotm/orga/langues-vivantes.png"

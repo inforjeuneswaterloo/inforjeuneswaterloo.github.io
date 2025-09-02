@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: AFS - Programmes interculturels
 email: 
 image: /assets/images/yotm/orga/afs.png

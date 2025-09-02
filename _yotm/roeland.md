@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: Roeland vzw
 email: 
 image: /assets/images/yotm/orga/roeland.png

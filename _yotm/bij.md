@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: BIJ - Bureau International Jeunesse
 email: 
 image: /assets/images/yotm/orga/bij.png

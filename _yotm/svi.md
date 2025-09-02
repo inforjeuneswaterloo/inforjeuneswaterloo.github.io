@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "SVI - Service Volontaire International"
 email: 
 image: "/assets/images/yotm/orga/svi.webp"

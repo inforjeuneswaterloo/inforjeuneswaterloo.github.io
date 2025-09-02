@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "YFU - Youth For Understanding"
 email: 
 image: "/assets/images/yotm/orga/yfu.png"

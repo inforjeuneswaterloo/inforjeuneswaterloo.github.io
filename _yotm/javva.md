@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "JAVVA - Volontariat international"
 email: 
 image: "/assets/images/yotm/orga/javva.png"

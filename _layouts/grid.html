@@ -15,7 +15,7 @@ layout: fw
         {% else %}
             {%if paginator.posts %}
                 {% for post in paginator.posts %}
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-2">
                         {% include elements/card.html item=post text=post.excerpt %}
                     </div>
                 {% endfor %}

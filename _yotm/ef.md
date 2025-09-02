@@ -1,5 +1,5 @@
 ---
-layout: yotm/orga
+layout: orga
 title: "EF - Education First"
 email: 
 image: "/assets/images/yotm/orga/ef.png"
