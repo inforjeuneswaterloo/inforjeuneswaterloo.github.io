@@ -1,8 +1,10 @@
 ---
 layout: base
 ---
+{% assign draft=page.draft | default: false %}
+{%unless draft %}
 <div class="header">
-    <h1 class="page-heading">{{ page.title | escape | markdownify}}</h1>
+    <h1 class="page-heading">{{ page.title | escape | markdownify }}</h1>
 </div>
 <article class="post">
 
@@ -37,4 +39,5 @@ layout: base
       {% endif %}
   </div>
 {% endif %}
+{% endunless %}
 

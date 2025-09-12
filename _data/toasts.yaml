@@ -1,16 +1,6 @@
 
 - id: ij
   enabled: true
-  title: "Acti-débat: l'impact des réseaux sociaux"
-  message: "Viens partager ton opinion sur l'impact des réseaux sociaux sur la santé mentale, la vie privée... Ca se passe le 03/09 à la MJ"
-  button:
-    enabled: true
-    link: /services/acti-debat/
-    text: En savoir plus
-    class: btn btn-dark text-white text-decoration-none
-    icon: fa-solid fa-angle-right
-- id: ij
-  enabled: true
   title: Réaction 112 - Forme-toi au premiers secours!
   message: Le 27/10 de 9 à 16h à la Maison des Jeunes de Waterloo (Rue Théophile Delbar 18)! Gratuit! Places limitées! Inscris-toi!
   button:
@@ -20,21 +10,11 @@
     text: En savoir plus
     class: btn  btn-sm btn-dark text-white text-decoration-none btn-sm
     icon: fa-solid fa-angle-right
-
-- id: yotm
-  enabled: true
-  title: Section en constrution
-  message: "La section 'yotm' est actuellement en construction.  Certaines parties ne sont pas encore accessibles. Nous sommes sur le coup!"
-  button:
-    enabled: false
-    text: Contact
-    link: /contact/
-    class: btn btn-sm btn-dark text-white texte-decration-none
-    icon: fa-solid fa-angle-right
     
 - id: yotm
   enabled: true
-  title: Témoins recherchés!
+  is_alert: true
+  title: On recherche témoins!
   message: "Nous sommes à la recherche de jeunes bourligueurs.euses qui seraient OK pour partager leurs aventures. Intéressé.e? N'histe pas à prendre contact!"
   button:
     enabled: true

@@ -16,7 +16,7 @@ tags:
   - Site Internet
   - Agenga
   - Forem
-image: /assets/images/posts/ressources.webp
+image: /assets/images/posts/ressources-sites-internet.webp
 sidebar: 
   show: all
   title: A lire

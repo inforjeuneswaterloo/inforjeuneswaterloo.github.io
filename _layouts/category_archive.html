@@ -9,9 +9,12 @@ layout: fw
       <div class="col-md-8 p-2">
         <div class="row">
           {% for post in posts_in_category %}
-            <div class="col-md-4 mb-2"> 
-              {%include elements/card.html item=post %}
-            </div>
+            {% assign draft=post.draft | default: false %}
+            {%unless draft %}
+              <div class="col-md-4 mb-2"> 
+                {%include elements/card.html item=post %}
+              </div>
+            {%endunless%}
           {% endfor %}
         </div>
       </div>
