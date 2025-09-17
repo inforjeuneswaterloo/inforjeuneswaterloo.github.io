@@ -29,4 +29,4 @@ buttons:
      class: "btn btn-dark text-white text-decoration-none"
 ---
 D'origine anglaise le terme **WWOOF** signifie **_World Wide Opportunities on Organic Farms_**.  Il s’agit d’un **échange non monétaire** : tu aides dans une ferme bio (jardinage, maraîchage, etc.) en échange de **nourriture, hébergement et apprentissage**.
-Le _woofing_ est accessible à tous, sans condition d’âge, de nationalité ou de formation.
+Le _wwoofing_ est accessible à tous, sans condition d’âge, de nationalité ou de formation.
