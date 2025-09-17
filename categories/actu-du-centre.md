@@ -1,0 +1,14 @@
+---
+layout: category_archive
+title: Articles de la catégorie Actu du Centre
+permalink: /categories/actu-du-centre/
+category: Actu du Centre
+---
+Cette page liste tous les articles de la catégorie.
+<br><br>
+{% for post in site.posts %}
+  {% if post.categories contains page.category %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt }}</p>
+  {% endif %}
+{% endfor %}

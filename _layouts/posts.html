@@ -10,16 +10,29 @@ layout: fw
 <div class="row">
     <div class="col-md-8 p-2">
         <div class="row">
-            {% for post in paginator.posts %}
-                <div class="col-md-4 mb-2">
-                    {% include elements/card.html item=post text=post.excerpt %}
-                </div>
-            {% endfor %}
-            {% if paginator.total_pages > 1 %}
-            <div class="d-flex justify-content-center mb-2 mt-2">
-                {% include pagination.html pagination=paginator %}
-            </div>    
-            {% endif %}
+                {% for item in paginator.posts %}
+                    {% assign type=item.type | default: post %}
+                        <div class="col-md-4 mb-2">
+                           <a href="{{item.url | relative_url}}" class="text-decoration-none">
+                                <div class="card mb-2 p-1">
+                                    {% if item.image %}
+                                        <img src="{{item.image}}" class="card-img-top">
+                                    {% endif %}
+                                    <div class="card-body bg-dark mt-0 p-2 rounded-bottom text-white">
+                                      
+                                            <h5 class="card-title">
+                                                {{ item.title | markdownify }}
+                                            </h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                {% endfor %}
+                {% if paginator.total_pages > 1 %}
+                <div class="d-flex justify-content-center mb-2 mt-2">
+                    {% include pagination.html pagination=paginator %}
+                </div>    
+                {% endif %}
         </div>
     </div>
     <div class="col-md-4 border-start border-light-subtl">

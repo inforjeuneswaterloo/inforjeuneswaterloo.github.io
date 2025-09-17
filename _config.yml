@@ -27,9 +27,6 @@ collections:
   yotm:
     output: true
     permalink: /yotm/:title/
-  toasts:
-    output: true
-    permalink: /actu/:title/
 
 
 

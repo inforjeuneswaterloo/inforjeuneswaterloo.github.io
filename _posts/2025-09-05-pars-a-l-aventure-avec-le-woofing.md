@@ -19,10 +19,10 @@ sidebar:
   title: A lire
 buttons:
   - btn:
-     enable: false
-     text: Télécharger le document
-     href: https://agenda.leforem.be/?sort_order=ASC&combine=%22mobilite.internationale%22&fbclid=IwY2xjawMjYTtleHRuA2FlbQIxMAABHkV8jT_4wEn4IhIEMGwDs6Ec0WR59YzpiwUpGwOA6JTvfOX0MNqMHMe8taGk_aem_aK_6mCiZUhnWi9AZgyxCCQ 
-     icon: fa-solid fa-download
+     enable: true
+     text: Texte intégral
+     href: /wwoof/
+     icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
 draft: false
