@@ -37,7 +37,7 @@ layout: page
     {% endcase %}
     {%if page.disclaimer.enabled %}
       <div class="alert alert-light mt-4 mb-2">
-        {{page.disclaimer.text | markdownify}}
+        {% include elements/disclaimer.html%}
       </div>
     {%endif%}
   </div>

@@ -9,7 +9,7 @@ buttons:
   - btn:
      enable: true
      text: Prendre RDV
-     href: https://forms.gle/ShSoBQbjCkm1PNPp8
+     href: https://outlook.office.com/bookwithme/user/c24f3629f3e3486e9c1af8e7911c6e68%40inforjeuneswaterloo.be/meetingtype/0PUzYukB_E6w3bqMYTWE_Q2?anonymous&ismsaljsauthenabled
      icon: fa-solid fa-calendar-day
      class: btn btn-outline-dark text-decoration-none
      target: "_blank"

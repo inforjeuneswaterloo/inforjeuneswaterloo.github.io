@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Le Woofing"
+title: "Le Wwoofing"
 author: Infor Jeunes Waterloo
 disclaimer:
   enabled: false
@@ -23,7 +23,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger le document
-     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/EThlfNb-hrxJvJQYddnKUu8BzbRXm0b5_V8YbfuFjBeZ-w?e=T2bVNJ
+     href: /assets/files/ijwaterloo-wwhoof-25.pdf/
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

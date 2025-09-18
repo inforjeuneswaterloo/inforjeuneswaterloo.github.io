@@ -28,4 +28,6 @@ buttons:
       icon: fa-solid fa-angle-right
 draft: false
 ---
-Une expérience de mobilité internationale ça se prépare car les possibilités sont nombreuses. C'est pour cela que nous te proposons de venir poser tes questions auprès de professionnels actifs dans le domaine. Le tout dans une ambiance conviviale.
+C'est l'occasion pour toi de rencontrer et d'échanger avec des organismes actifs dans le secteur de la mobilité internationale comme par exemple [YFU](/yotm/yfu/), [AFS Programmes interculuturels](/yotm/afs/), le [Rotary](/yotm/rotary/)...
+
+Que ce soit pour un séjour linguistique, les possibilités offertes par Eurodesk, du volontariat ou encore un échange interculturel, tu pourras trouver des réponses à tes questions; le tout dans une ambiance conviviale.

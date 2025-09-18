@@ -24,8 +24,8 @@ buttons:
   - btn:
      enable: true
      text: Télécharger la brochure
-     href: https://drive.google.com/file/d/1D8Lk9Jo3eAmJQMRjAGxHXSu_c2MGpsfb/view?usp=sharing
-     icon: fa-solid fa-download
+     href: /assets/files/time-to-move-sante-mentale-24.pdf/
+     icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
 ---

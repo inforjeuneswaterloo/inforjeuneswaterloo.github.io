@@ -27,4 +27,4 @@ buttons:
       icon: fa-solid fa-angle-right
 draft: false
 ---
-Une expérience de mobilité internationale ça se prépare car les possibilités sont nombreuses. C'est pour cela que nous te proposons de venir poser tes questions auprès de professionnels actifs dans le domaine. Le tout dans une ambiance conviviale.
+Une permanence dédiée à la mobilité internationale. Nous serons à ta disposition pour te conseiller et t'orienter.  Entrée libre.

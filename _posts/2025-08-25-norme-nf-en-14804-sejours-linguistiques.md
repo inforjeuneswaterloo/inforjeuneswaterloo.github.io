@@ -26,7 +26,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger le document
-     href: https://drive.google.com/file/d/1K3bQBdOat-NF1jl4DInLMhlU08-jFP0g/view?usp=sharing
+     href: /assets/files/NF-EN-14804.pdf/
      icon: fa-solid fa-download
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

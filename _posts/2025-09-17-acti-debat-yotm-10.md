@@ -28,6 +28,4 @@ buttons:
       icon: fa-solid fa-angle-right
 draft: false
 ---
-Viens découvrir l'Europe en jouant!  Ses institutions, ses valeurs, ses drapeaux, sa culture...
-
-Ce sera aussi l'occasion d'aborder la mobilité internationale et de parler de tes envies de voyages.
+Après-midi d'échange et de découverte autour d'un jeu sur l'Europe.  C'est l'occasion idéale pour discuter des perspectives qui s'offrent à toi tels que, par exemple, [le PVT - aussi appelé le VVT ou encore WHV-](/pvt/), les [échanges linguistiques](/sejours-linguistiques/) ou le [volontariat](/le-corps-europeen-de-solidarite/).

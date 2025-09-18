@@ -24,8 +24,8 @@ buttons:
   - btn:
      enable: true
      text: Télécharger la brochure
-     href: https://drive.google.com/file/d/1atJ0ZtYd7PmTU8kaZYMpNMyKR1WoUF9m/view?usp=sharing
-     icon: fa-solid fa-download
+     href: /assets/files/cidj-rediger-son-cv-en-anglais-25.pdf/
+     icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
 ---
