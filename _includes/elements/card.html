@@ -1,19 +1,14 @@
 {% assign item=include.item %}
 {% assign text=include.text | default: false %}
-<a class="text-decoration-none" href="{{item.url | relative_url}}">
-    <div class="card h-100 mb-2 p-2">
+<a href="{{item.url | relative_url}}" class="text-decoration-none">
+    <div class="card mb-2 p-1">
         {% if item.image %}
             <img src="{{item.image}}" class="card-img-top">
         {% endif %}
-        <div class="card-body">
-            <div class="card-heading mb-2">
-                <h5 class="heading">
+            <div class="card-body bg-dark mt-0 p-2 rounded-bottom text-white">
+                <h5 class="card-title">
                     {{ item.title | markdownify }}
                 </h5>
-                {% if text %}
-                    {{content | markdownify }}
-                {% endif %}
             </div>
-        </div>
     </div>
 </a>

@@ -23,5 +23,4 @@ sidebar:
 La première étape, comme tu le sais, c’est de réussir le code! Nous te proposons un accès gratuit et illimité à des exercices et simulations d’examen
 
 - Gratuit
-- Le service est accessible uniquement sur RDV via le formulaire d’inscription .
-- Le service est accessible les **mardi, jeudi et vendredi** entre **10 et 12h** et entre **16 et 18h**; ainsi que le **mercredi** de **12 à 17h**
+- Le service est accessible uniquement sur RDV via le formulaire d’inscription.

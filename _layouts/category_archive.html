@@ -1,7 +1,7 @@
 ---
 layout: fw
 ---
-<h1 class="page-title"> Archives de la catégorie : {{ page.category | capitalize }}</h1>
+<h1 class="page-title"> Archives de la catégorie : {{ page.category | capitalize | markdonwify }}</h1>
 {% assign show_sidebar=page.sidebar.enabled | defaut:true %}
   {% include snippets/category-querystring.html %}
   {% if res>0 %}

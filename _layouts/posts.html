@@ -10,22 +10,10 @@ layout: fw
 <div class="row">
     <div class="col-md-8 p-2">
         <div class="row">
-                {% for item in paginator.posts %}
+                {% for post in paginator.posts %}
                     {% assign type=item.type | default: post %}
                         <div class="col-md-4 mb-2">
-                           <a href="{{item.url | relative_url}}" class="text-decoration-none">
-                                <div class="card mb-2 p-1">
-                                    {% if item.image %}
-                                        <img src="{{item.image}}" class="card-img-top">
-                                    {% endif %}
-                                    <div class="card-body bg-dark mt-0 p-2 rounded-bottom text-white">
-                                      
-                                            <h5 class="card-title">
-                                                {{ item.title | markdownify }}
-                                            </h5>
-                                    </div>
-                                </div>
-                            </a>
+                           {% include elements/card.html item=post %}
                         </div>
                 {% endfor %}
                 {% if paginator.total_pages > 1 %}
@@ -36,7 +24,7 @@ layout: fw
         </div>
     </div>
     <div class="col-md-4 border-start border-light-subtl">
-        {% include sidebar/sidebar.html 
+        {% include sidebar/sidebar.html
             exclude_current_category=exclude_current_category
             tags=tags
             taxonomy=taxonomy
