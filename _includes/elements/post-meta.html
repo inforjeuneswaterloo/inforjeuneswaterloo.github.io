@@ -1,8 +1,9 @@
 {% assign post_date = page.date | date: "%d %B %Y" %}
 {% assign post_update = page.update| date: "%d %B %Y" | default: page.date %}
 {% assign post_author = page.author| default: site.author %}
-{% assign author_description=page.disclaimer.presentation %}
-{% assign categories =page.categories %}
+{% assign author_bio=page.disclaimer.bio %}
+{% assign categories=page.categories %}
+{% assign source=page.disclaimer.source %}
 
 <div class="d-flex flex-wrap gap-2 text-muted small mt-4 mb-4 border-top pt-2">
   <span class="d-flex align-items-center">
@@ -27,5 +28,13 @@
       <a href="/categories/{{ category | custom_slugify }}/" class="badge text-bg-secondary ms-1 text-decoration-none">{{ category }}</a>&nbsp;
     {% endfor %}
   </span>&nbsp;
+  {% endif %}
+  {% if source %}
+    <span class="d-flex align-items-center">
+      <i class="fa-solid fa-asterisk"></i>&nbsp; 
+      <a href="{{source}}" target="_blank">
+        {{source | domain_only}}
+      </a>
+    </span>
   {% endif %}
 </div>
