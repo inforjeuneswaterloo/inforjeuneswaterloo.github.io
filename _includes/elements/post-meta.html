@@ -33,7 +33,7 @@
     <span class="d-flex align-items-center">
       <i class="fa-solid fa-asterisk"></i>&nbsp; 
       <a href="{{source}}" target="_blank">
-        {{source | domain_only}}
+        {{ source | split: "/" | slice: 2 }}
       </a>
     </span>
   {% endif %}
