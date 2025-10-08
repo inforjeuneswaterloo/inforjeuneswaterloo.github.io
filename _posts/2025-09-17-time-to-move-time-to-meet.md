@@ -2,6 +2,7 @@
 layout: post
 type: event
 is_alert: false
+enabled: true
 title: "Time to move: time to meet"
 image: /assets/images/toasts/time-to-meet-2025.webp
 date: 2025-09-17

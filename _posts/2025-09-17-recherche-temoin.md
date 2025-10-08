@@ -2,6 +2,7 @@
 layout: post
 is_alert: false
 pinned:  true
+enabled: true
 title: "On recherche des témoins!"
 image: /assets/images/toasts/wanted.png
 date: 2025-09-17

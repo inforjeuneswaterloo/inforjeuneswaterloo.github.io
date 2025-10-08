@@ -6,6 +6,10 @@
   url: https://mastodon.social/@inforjeuneswaterloo
   icon: "fa-brands fa-mastodon"
 
+- title: "tiktok"
+  url: https://tiktok.com/@inforjeuneswaterloo
+  icon: "fa-brands fa-tiktok"
+
 - title: "facebook"
   url: https://facebook.com/ijwaterloo
   icon: "fa-brands fa-facebook-f"

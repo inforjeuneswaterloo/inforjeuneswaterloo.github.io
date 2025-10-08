@@ -6,6 +6,7 @@ is_alert: false
 title: "Acti-débat: L'Europe"
 image: /assets/images/toasts/acti-debat-yotm-1001.webp
 slug: acti-debat-mobilite-internationale
+enabled: false 
 categories:
   - Actu du Centre
   - International

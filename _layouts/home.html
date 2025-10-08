@@ -31,21 +31,24 @@ layout: fw
     {%if actu_posts.size > 0 %}
       <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
       {% for post in actu_posts %}
-        <div class="col col-md-3">
-          <div class="card mb-2 p-1">
-            <img src="{{post.image}}" class="card-img-top">
-            <div class="header mt-0 p-2 rounded-bottom">
-              <strong class="me-auto">{{post.title | markdownify }}</strong>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-row-reverse">
-                 <a class="btn btn-dark text-white text-decoration-none" href="{{post.url | relative_url}}">
-                    En savoir plus&nbsp;<i class="fa-solid fa-chevron-right"></i>
-                  </a>
+        {% assign enabled=post.enabled | default: true %}
+          {% if enabled %}
+            <div class="col col-md-3">
+              <div class="card mb-2 p-1">
+                <img src="{{post.image}}" class="card-img-top">
+                <div class="header mt-0 p-2 rounded-bottom">
+                  <strong class="me-auto">{{post.title | markdownify }}</strong>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex flex-row-reverse">
+                    <a class="btn btn-dark btn-sm text-white text-decoration-none" href="{{post.url | relative_url}}">
+                        En savoir plus&nbsp;<i class="fa-solid fa-chevron-right"></i>
+                      </a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          {%endif%}
       {%endfor%}
     {%endif%}
   </div>

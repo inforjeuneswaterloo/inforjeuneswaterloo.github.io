@@ -2,6 +2,7 @@
 layout: post
 type: event
 is_alert: false
+enabled: true
 title: "Time to move: permanence"
 image: /assets/images/toasts/time-to-move-permanence.webp
 slug: time-to-move-permanence
