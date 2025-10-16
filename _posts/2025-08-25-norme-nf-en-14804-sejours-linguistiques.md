@@ -26,7 +26,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger le document
-     href: /files/NF-EN-14804.pdf/
+     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/EdpOg8bbKk1BqHPZ0dZ7xjQBu1sZE3BHQV4m7q_tB-aAGQ?e=6ElFhn
      icon: fa-solid fa-download
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

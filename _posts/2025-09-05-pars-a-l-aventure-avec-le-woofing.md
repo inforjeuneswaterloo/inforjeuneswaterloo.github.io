@@ -20,7 +20,8 @@ sidebar:
 buttons:
   - btn:
      enable: true
-     text: Texte i/files/ijwaterloo-wwhoof-25.pdf/
+     text: Texte intégral
+     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/EYdeObYH_V1Ih3z6mea8oCABy8Y9j5htcsK1_NkrjOnbNw?e=JI6X9N
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

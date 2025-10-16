@@ -24,7 +24,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger la brochure
-     href: /files/cidj-rediger-son-cv-en-anglais-25.pdf/
+     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/EaCtbqHTTtBDl6zSATPZjpQBDPWFFtkbU6ZNF734I2xYcA?e=Ev7wsW
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

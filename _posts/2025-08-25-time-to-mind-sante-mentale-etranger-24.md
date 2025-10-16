@@ -24,7 +24,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger la brochure
-     href: /files/time-to-move-sante-mentale-24.pdf/
+     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/Ee3uCA_nYKxJr_AjpryD0XMBvNRpD5BbR2dMF_MtGvcwLQ?e=xlWhCA
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
