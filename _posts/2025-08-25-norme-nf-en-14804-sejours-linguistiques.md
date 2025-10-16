@@ -26,7 +26,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger le document
-     href: /assets/files/NF-EN-14804.pdf/
+     href: /files/NF-EN-14804.pdf/
      icon: fa-solid fa-download
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

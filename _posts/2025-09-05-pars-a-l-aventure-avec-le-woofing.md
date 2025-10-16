@@ -20,8 +20,7 @@ sidebar:
 buttons:
   - btn:
      enable: true
-     text: Texte intégral
-     href: /wwoof/
+     text: Texte i/files/ijwaterloo-wwhoof-25.pdf/
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

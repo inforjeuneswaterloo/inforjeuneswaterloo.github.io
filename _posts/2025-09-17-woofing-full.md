@@ -23,7 +23,7 @@ buttons:
   - btn:
      enable: true
      text: Télécharger le document
-     href: /assets/files/ijwaterloo-wwhoof-25.pdf/
+     href: /files/ijwaterloo-wwhoof-25.pdf/
      icon: fa-solid fa-file-pdf
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
