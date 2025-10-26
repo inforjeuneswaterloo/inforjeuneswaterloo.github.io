@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m444bkel6c2a",
+      "cid": "bafyreid44jeq5dhrnh5gclfdwfh5me2bty3333chzopndxseij6xbsj3ue",
+      "text": "Du neuf pour les allocations familiales! Les AF inconditionnelles pour les 18-21 ans c'est fini! A partir de 2026 leur octroi sera conditionné àpd 18 ans à la poursuite des études, au suivi d'une formation ou d'un parcours d'insertion pro.\n#walgov #protectionsociale \nwww.wallonie.be/fr/actualite...",
+      "created_at": "2025-10-26T14:25:46.661Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026",
+        "title": "Présentation du budget régional 2026",
+        "description": "Économies structurellesLes efforts d'économies structurelles pour 2026 annoncés par le Gouvernement s'élève à 270,4 millions € (268 millions en 2025). Les économies se répartissent comme suit :",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreih4h25h7p6gxtxlakux4z2ue4lp2b24oolvd4nin6xzsvsu7vi22u@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvnfp3cmu52p",
       "cid": "bafyreidx6bbwfrqzx22yzne2detp2leloojrgohcifrkms2ffrifwo5vue",
       "text": "Spoiler: à partir de 15 ans.\n buff.ly/t4oQTiz",
@@ -156,24 +174,6 @@
         "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
         "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lurindyg5b2m",
-      "cid": "bafyreiflqcazqhy2o3lhz73d5p3qzpi5tbtpdnk6d7cvqkofsgmo6pvl2a",
-      "text": "Tu paies ou tes données seront utilisées/vendues (Si c'est gratuit, c'est toi le produit). Meta préfère que tu optes pour la \"gratuité\" nettement plus rentable; la publicité représente 98% de son CA.  3e voie: opter pour une alternative\n#tech #socialmedia #réseauxsociaux #fediverse",
-      "created_at": "2025-07-25T07:11:27.856Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/fh0TG7e",
-        "title": "Payer ou être pisté : que cache le dilemme imposé par Facebook et Instagram ? - RTBF Actus",
-        "description": "Cela fait des années que la rumeur va et vient : 'Facebook va devenir payant'. Plaisanteries incrédules ou panique à...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiauxbocu2rxavpvk3wqdf6tockz7gzylqlokqny5sfvrbeywgif6m@jpeg"
       }
     }
   ]
