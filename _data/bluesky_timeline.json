@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m44c3ejqcs2a",
+      "cid": "bafyreigghetfnybof5pl4jfhd7j7rmsken55q4d5h4lbkv4qqzgi5fi5t4",
+      "text": "A partir de 2026 le minerval standard passera de 835 à 1194€. A côté des étudiants boursiers (0€) et de condition modeste (375€) une catégorie intermédiaire sera créée (835€).  Près d'un étudiant/2 paiera tarif plein.\n#fwb #enseignementsupérieur #enseignement\nwww.rtbf.be/article/budg...",
+      "created_at": "2025-10-26T16:09:41.660Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/budget-2026-en-federation-wallonie-bruxelles-hausse-pour-tous-du-prix-du-minerval-dans-l-enseignement-superieur-11614175",
+        "title": "Le minerval bientôt plus cher pour un étudiant sur deux dans l'enseignement supérieur - RTBF Actus",
+        "description": "Au niveau de l’enseignement supérieur, le conclave budgétaire a décidé de réduire la part du budget de la...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiee3ckgdy65yop3oaxauklxolpjrgmxzeajw5hxmh2vn4geoo4uqi@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m444bkel6c2a",
       "cid": "bafyreid44jeq5dhrnh5gclfdwfh5me2bty3333chzopndxseij6xbsj3ue",
       "text": "Du neuf pour les allocations familiales! Les AF inconditionnelles pour les 18-21 ans c'est fini! A partir de 2026 leur octroi sera conditionné àpd 18 ans à la poursuite des études, au suivi d'une formation ou d'un parcours d'insertion pro.\n#walgov #protectionsociale \nwww.wallonie.be/fr/actualite...",
@@ -156,24 +174,6 @@
         "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
         "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luriwjemza2i",
-      "cid": "bafyreift4bsvnh3gs2bzpdj4viw2u6b75jyqmjiqy75weyobwqqahiwlge",
-      "text": "La Belgique a été le second pays au monde à autoriser le mariage homosexuel.  C'était en 2023. Mais ce droit n'est garanti que par une loi ordinaire. Son inscription dans la Constitution constituerait ainsi un verrou contre toute velléité réactionnaire.\n#lgbt #belgique #vieaffective",
-      "created_at": "2025-07-25T07:16:34.846Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/76OEn0C",
-        "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
-        "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu@jpeg"
       }
     }
   ]
