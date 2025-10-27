@@ -3,6 +3,24 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m464zrlsi525",
+      "cid": "bafyreifkmwwz2qwczlksrxqab3abqs4rxw6ri4soaalkot7nz6nx4d4pc4",
+      "text": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030 \n- Format numérique, accessible via 📱 \n- Validité: 10 ➡️ 15 ans\n- Réactivation instantanée d'un permis expiré\n- Décision de déchéance applicable dans toute l'UE\n#UE #Mobilité #PermisDeConduire #Europe\nbuff.ly/joMqhZz",
+      "created_at": "2025-10-27T09:44:37.325Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 1,
+      "embed": {
+        "type": "external",
+        "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/le-nouveau-permis-de-conduire-europeen-arrive-voici-tout-ce-qui-change-dici-2030",
+        "title": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030",
+        "description": "D’ici 2030, il va y avoir un gros changement pour le permis de conduire en Europe. Celui-ci va passer au format numérique. Il sera donc accessible sur smartphone, mais aussi valable plus longtemps et…",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiefc5mu566tez2qlwbbsdyaiupgugi5y56i55redgjm25chfxa2ky@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m44c3ejqcs2a",
       "cid": "bafyreigghetfnybof5pl4jfhd7j7rmsken55q4d5h4lbkv4qqzgi5fi5t4",
       "text": "A partir de 2026 le minerval standard passera de 835 à 1194€. A côté des étudiants boursiers (0€) et de condition modeste (375€) une catégorie intermédiaire sera créée (835€).  Près d'un étudiant/2 paiera tarif plein.\n#fwb #enseignementsupérieur #enseignement\nwww.rtbf.be/article/budg...",
@@ -156,24 +174,6 @@
         "title": "Une nouvelle étude prédit que la fin de l’univers surviendra bien plus vite que prévu… - RTBF Actus",
         "description": "Une équipe de l’université Radboud, aux Pays-Bas, a recalculé la durée de vie de l’univers en s’appuyant sur le...",
         "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibciopd6mstaon4vkgadtioplb7qr2t47wyky6hukydchjlxxaiku@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luy6mmfn5a2i",
-      "cid": "bafyreib7unjjyduubobicbbmlu2uhbjxzz4uixfdjvtchkv7farregt64a",
-      "text": "#bonplan",
-      "created_at": "2025-07-27T23:00:43.834Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/oEgsQfy",
-        "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
-        "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq@jpeg"
       }
     }
   ]
