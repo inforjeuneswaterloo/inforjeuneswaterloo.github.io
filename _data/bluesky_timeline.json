@@ -3,6 +3,54 @@
   "authenticated_user_did": "did:plc:rtnecm24l37p42guu4wwwwqq",
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fvvk4slk2j",
+      "cid": "bafyreie5ihnu55vkktfqvq7xgvumljxmetqaimsipacrc56dr2vqvhjiae",
+      "text": "Un poisson rouge ne peut pas fixer son attention plus de 8s. Les #millenials ne font guère mieux avec... 9s. Scroll infini, #FOMO (\"fear of missing out\"), dopamine à la demande et algorithme sur mesure, tout est fait pour que nous passions des plombes sur les médias sociaux.\n#digitaldetox #tech",
+      "created_at": "2025-10-30T11:58:18.685Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572",
+        "title": "Digital détox : trois applications pour réduire le temps passé sur nos écrans - RTBF Actus",
+        "description": "Des applications pour réduire notre temps d’écran ? L'idée peut sembler paradoxale, pourtant elle fait son chemin sur...",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibvw72ycnaa3tyeteycvgi5m5hnqv5h2x733wnl6btmyrqe5xemay@jpeg"
+      }
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3mhs2k2k",
+      "cid": "bafyreicllvci6f5rn3aoyjdwbbhpapize4rtekqzgddqdnrjmmpw7frxiy",
+      "text": "Si le fait de pouvoir se payer des Big Mac n'empêche pas les guerres; proposer un Mc Do - pour autant qu'il soit considéré comme l'idée la moins attrayante - pour sortir d'un blocage créatif est une piste à explorer.\n#ThéorieMacDo",
+      "created_at": "2025-10-30T11:25:51.979Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 0,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": null
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3jlykk2k",
+      "cid": "bafyreif2cnc5q2yxrw652unia5a57jxbgjot6leprjpc4xjh2me4tozvim",
+      "text": "La @lalibre.be revient sur une théorie datant de 1996 “Deux pays qui ont chacun un McDonald's ne se sont jamais fait la guerre” (Thomas Friedman). La prospérité économique de la classe moyenne est le nerf de la paix. \nC'est du flan. Les Big Mac ne font pas mieux que les colombes.\n#ThéorieMacDo",
+      "created_at": "2025-10-30T11:25:51.978Z",
+      "author_handle": "inforjeuneswaterloo.be",
+      "author_display_name": "M2TS (MaitenanTTuSais)",
+      "reply_count": 1,
+      "repost_count": 0,
+      "like_count": 0,
+      "embed": {
+        "type": "external",
+        "uri": "https://www.youtube.com/watch?v=uiluDXx1snM",
+        "title": "International Relations 101 (#35): The McDonald's Peace Theory",
+        "description": "YouTube video by William Spaniel",
+        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihr27xkmytxjhbzbclsfpmhrzkngywrneolgfobxc5kcceg3gjlla@jpeg"
+      }
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4awvmjpk22d",
       "cid": "bafyreif22ji6oaln5ucf3avojowvxftdz5kvrbmrwl2qvfs727zo4hmwwe",
       "text": "La FWB a décidé d'augmenter le minerval pour réduire ses dépenses.  Le Gouvernement flamand vise une économie de €83Mi.  L'association flamande des étudiants (VVS) estime qu'un étudiant boursier sur 3 pourrait perdre sa bourse. L'herbe n'est pas forcément plus verte ailleurs.\n#Enseignement",
@@ -121,60 +169,6 @@
       "repost_count": 0,
       "like_count": 0,
       "embed": null
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2a4ha22n",
-      "cid": "bafyreibpfhwnbqtr265ghlnkzf4h43ebiqy4ojd7lrj76yvpcocsfyp5ku",
-      "text": "Et si tu partageais tes données médicales pour faire avancer la recherche?  C'est ce qu'on appelle \"l'altruisme des données\" qui se concrétise via l’European Brain Data Hub, la première AISBL dédiée à l’altruisme des données en matière de santé mentale et du cerveau. \n#science \nbuff.ly/QX7Zft7",
-      "created_at": "2025-07-31T15:43:21.280Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 1,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://www.rtbf.be/article/altruisme-des-donnees-pourquoi-et-comment-vos-donnees-de-sante-pourraient-soutenir-la-recherche-sur-le-cerveau-11521268?ebu_news_id=11521268&ebu_news_org=RTBF&ebu_news_language=fr#ebu_s_id8d54be1b-45df-4468-8ee3-1f6a20af1606",
-        "title": "'Altruisme des données' : pourquoi et comment vos données de santé pourraient soutenir la recherche sur le cerveau - RTBF Actus",
-        "description": "Et si vos données personnelles de santé permettaient de faire avancer la recherche contre certaines maladies ? Et si vous...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidkkssysrntsp7gcr7yov754n6niy4uyyfw3ebysfv433ijsaxebi@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv5tnzck2m2a",
-      "cid": "bafyreifrdjlzoknyokf6s5sx5o4liev3nwhiehqlc2g2x5t2btl42kwf5a",
-      "text": "Dès l’année prochaine, un conducteur provoquant pourra être jugé pour \"homicide dans le cadre de la circulation\".  Une qualification qui permet au juge de prononcer une peine allant jusqu'à 10 ans de prison en cas de conduite sous influence, sans permis, récidive...\n#justice #CPen",
-      "created_at": "2025-07-30T05:00:36.771Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/VXK3kdj",
-        "title": "Un accident de la route pourra être qualifié d’un 'homicide dans le cadre de la circulation' : une victoire pour les victimes - RTBF Actus",
-        "description": "C’est un changement important dans le code pénal : dès l’année prochaine, le conducteur qui provoque un accident...",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibpmpb4aawzg5hr444g2h3ojoh46nvjjivwcfgj4mmzpkku7rbfjm@jpeg"
-      }
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv4bl5ob2y2i",
-      "cid": "bafyreihgmjpod2iwfuadz6d7bpwyeeci733qblswc3jkiz5nnriazwgmwm",
-      "text": "Les universités et hautes écoles de la Fédération Wallonie-Bruxelles ne sont  plus obligées d’organiser les examens en fin de quadrimestre.  Le décret offre à chaque établissement la liberté de fixer ses propres périodes d’évaluation.\n#enseignement #fwb",
-      "created_at": "2025-07-29T14:04:14.624Z",
-      "author_handle": "inforjeuneswaterloo.be",
-      "author_display_name": "M2TS (MaitenanTTuSais)",
-      "reply_count": 0,
-      "repost_count": 0,
-      "like_count": 0,
-      "embed": {
-        "type": "external",
-        "uri": "https://buff.ly/DBW6Mwf",
-        "title": "Fin des examens imposés en janvier et juin ?",
-        "description": "Les unifs et hautes écoles peuvent désormais choisir leurs périodes d’examens. Bientôt la fin des sessions de janvier et juin ?",
-        "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaecjoffy7yc5sbpiexx75zazwlft3rexsuqfoqmukpmgi2u5s7h4@jpeg"
-      }
     }
   ]
 }
