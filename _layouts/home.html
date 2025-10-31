@@ -40,6 +40,9 @@ layout: fw
                   <strong class="me-auto">{{post.title | markdownify }}</strong>
                 </div>
                 <div class="card-body">
+                  {% if post.accroche %}
+                    <p class="card-text">{{post.accroche | markdownify }}</p>
+                  {%endif%}
                   <div class="d-flex flex-row-reverse">
                     <a class="btn btn-dark btn-sm text-white text-decoration-none" href="{{post.url | relative_url}}">
                         En savoir plus&nbsp;<i class="fa-solid fa-chevron-right"></i>
