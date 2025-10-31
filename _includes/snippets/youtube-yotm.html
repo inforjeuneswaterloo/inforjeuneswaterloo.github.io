@@ -1,0 +1,57 @@
+<script>
+    // URL du flux RSS de votre playlist
+    const playlistRssUrl = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW';
+    
+    // Utilisation d'un proxy/convertisseur RSS vers JSON pour contourner le blocage CORS
+    const jsonProxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(playlistRssUrl)}`;
+    
+    const container = document.getElementById('youtube-videos-container');
+
+    function getVideoId(url) {
+        const match = url.match(/[?&]v=([^&]+)/);
+        return match ? match[1] : null;
+    }
+
+    // 1. Récupération du flux converti en JSON
+    fetch(jsonProxyUrl)
+        .then(response => response.json())
+        .then(data => {
+            // Vider le conteneur du message de chargement initial
+            container.innerHTML = ''; 
+
+            if (data.status !== 'ok' || data.items.length === 0) {
+                container.innerHTML = '<div class="col"><div class="alert alert-danger" role="alert">Erreur lors du chargement ou aucune vidéo trouvée.</div></div>';
+                return;
+            }
+
+            // 2. Boucle sur chaque élément du flux
+            data.items.forEach(item => {
+                const videoId = getVideoId(item.link);
+
+                if (videoId) {
+                    // Construction de l'URL de la vignette (HQ = Haute Qualité)
+                    const thumbnail_url = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+                    
+                    // 3. Création du code HTML utilisant les classes Bootstrap (col, card, card-img-top, card-body)
+                    const htmlContent = `
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <a href="${item.link}" target="_blank" rel="noopener noreferrer" title="${item.title}" class="text-decoration-none text-dark">
+                                    <img src="${thumbnail_url}" class="card-img-top" alt="Vignette de la vidéo: ${item.title}">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${item.title}</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    // Ajout au conteneur
+                    container.innerHTML += htmlContent;
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Erreur de réseau ou de conversion:', error);
+            container.innerHTML = '<div class="col"><div class="alert alert-danger" role="alert">Impossible de charger le flux. Veuillez vérifier la connexion ou l\'URL.</div></div>';
+        });
+</script>

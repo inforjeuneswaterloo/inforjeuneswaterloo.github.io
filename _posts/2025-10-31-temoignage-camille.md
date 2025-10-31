@@ -7,8 +7,8 @@ author: Camille
 disclaimer:
   enabled: true
 title: "Camille - Finlande et Australie"
-image: /assets/images/posts/giuseppe.webp
-date: 2025-10-17
+image: /assets/images/posts/video.png
+date: 2025-10-31
 slug: temoignage-camille
 accroche: Découvre le témoignage de Camille partie en Erasmus en Finlande et en PVT en Australie.
 categories:
@@ -20,6 +20,13 @@ buttons:
      enable: true
      text: Voir la vidéo
      href: /yotm/brilla/
+     icon: fa-solid fa-arrow-up-right-from-square
+     target: "_blank"
+     class: "btn btn-dark text-white text-decoration-none"
+  - btn:
+     enable: true
+     text: Voir toutes les vidéos de la playlist
+     href: https://www.youtube.com/watch?v=iTUs8AEspq8&list=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW
      icon: fa-solid fa-arrow-up-right-from-square
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"

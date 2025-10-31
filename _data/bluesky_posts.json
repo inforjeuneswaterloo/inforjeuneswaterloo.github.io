@@ -1,0 +1,951 @@
+{
+  "posts": [
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fvvk4slk2j",
+      "cid": "bafyreie5ihnu55vkktfqvq7xgvumljxmetqaimsipacrc56dr2vqvhjiae",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-30T11:58:18.685Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Des applications pour réduire notre temps d’écran ? L'idée peut sembler paradoxale, pourtant elle fait son chemin sur...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibvw72ycnaa3tyeteycvgi5m5hnqv5h2x733wnl6btmyrqe5xemay"
+              },
+              "mimeType": "image/jpeg",
+              "size": 674681
+            },
+            "title": "Digital détox : trois applications pour réduire le temps passé sur nos écrans - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "millenials"
+              }
+            ],
+            "index": {
+              "byteEnd": 76,
+              "byteStart": 65
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "FOMO"
+              }
+            ],
+            "index": {
+              "byteEnd": 130,
+              "byteStart": 125
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "digitaldetox"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 293
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "Un poisson rouge ne peut pas fixer son attention plus de 8s. Les #millenials ne font guère mieux avec... 9s. Scroll infini, #FOMO (\"fear of missing out\"), dopamine à la demande et algorithme sur mesure, tout est fait pour que nous passions des plombes sur les médias sociaux.\n#digitaldetox #tech"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572",
+          "title": "Digital détox : trois applications pour réduire le temps passé sur nos écrans - RTBF Actus",
+          "description": "Des applications pour réduire notre temps d’écran ? L'idée peut sembler paradoxale, pourtant elle fait son chemin sur...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibvw72ycnaa3tyeteycvgi5m5hnqv5h2x733wnl6btmyrqe5xemay@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-30T11:58:22.659Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3mhs2k2k",
+      "cid": "bafyreicllvci6f5rn3aoyjdwbbhpapize4rtekqzgddqdnrjmmpw7frxiy",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-30T11:25:51.979Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ThéorieMacDo"
+              }
+            ],
+            "index": {
+              "byteEnd": 237,
+              "byteStart": 223
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreif2cnc5q2yxrw652unia5a57jxbgjot6leprjpc4xjh2me4tozvim",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3jlykk2k"
+          },
+          "root": {
+            "cid": "bafyreif2cnc5q2yxrw652unia5a57jxbgjot6leprjpc4xjh2me4tozvim",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3jlykk2k"
+          }
+        },
+        "text": "Si le fait de pouvoir se payer des Big Mac n'empêche pas les guerres; proposer un Mc Do - pour autant qu'il soit considéré comme l'idée la moins attrayante - pour sortir d'un blocage créatif est une piste à explorer.\n#ThéorieMacDo"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-30T11:25:56.179Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4fu3jlykk2k",
+      "cid": "bafyreif2cnc5q2yxrw652unia5a57jxbgjot6leprjpc4xjh2me4tozvim",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-30T11:25:51.978Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "YouTube video by William Spaniel",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihr27xkmytxjhbzbclsfpmhrzkngywrneolgfobxc5kcceg3gjlla"
+              },
+              "mimeType": "image/jpeg",
+              "size": 695740
+            },
+            "title": "International Relations 101 (#35): The McDonald's Peace Theory",
+            "uri": "https://www.youtube.com/watch?v=uiluDXx1snM"
+          }
+        },
+        "facets": [
+          {
+            "$type": "app.bsky.richtext.facet",
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#mention",
+                "did": "did:plc:e6dbovlsokffoxeo7pdnzkap"
+              }
+            ],
+            "index": {
+              "byteEnd": 14,
+              "byteStart": 3
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ThéorieMacDo"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 289
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "La @lalibre.be revient sur une théorie datant de 1996 “Deux pays qui ont chacun un McDonald's ne se sont jamais fait la guerre” (Thomas Friedman). La prospérité économique de la classe moyenne est le nerf de la paix. \nC'est du flan. Les Big Mac ne font pas mieux que les colombes.\n#ThéorieMacDo"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.youtube.com/watch?v=uiluDXx1snM",
+          "title": "International Relations 101 (#35): The McDonald's Peace Theory",
+          "description": "YouTube video by William Spaniel",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihr27xkmytxjhbzbclsfpmhrzkngywrneolgfobxc5kcceg3gjlla@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-30T11:25:56.156Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4awvmjpk22d",
+      "cid": "bafyreif22ji6oaln5ucf3avojowvxftdz5kvrbmrwl2qvfs727zo4hmwwe",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-28T12:32:56.256Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "La Vlaamse Vereniging van Studenten (VVS), l’association flamande des étudiants, a mené une action mardi après-midi devant le siège du gouvernement flamand, sur la place des Martyrs, dans le centre de...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigu2njwnpo4ruscumiqaa2r2zjjogoblbshdgoyjdyujqr2wowqpy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 983544
+            },
+            "title": "Un millier de chaises vides devant le gouvernement flamand pour dénoncer les coupes dans l'enseignement - BX1",
+            "uri": "https://bx1.be/categories/news/un-millier-de-chaises-vides-devant-le-gouvernement-flamand-pour-denoncer-les-coupes-dans-lenseignement/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 287
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "La FWB a décidé d'augmenter le minerval pour réduire ses dépenses.  Le Gouvernement flamand vise une économie de €83Mi.  L'association flamande des étudiants (VVS) estime qu'un étudiant boursier sur 3 pourrait perdre sa bourse. L'herbe n'est pas forcément plus verte ailleurs.\n#Enseignement"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://bx1.be/categories/news/un-millier-de-chaises-vides-devant-le-gouvernement-flamand-pour-denoncer-les-coupes-dans-lenseignement/",
+          "title": "Un millier de chaises vides devant le gouvernement flamand pour dénoncer les coupes dans l'enseignement - BX1",
+          "description": "La Vlaamse Vereniging van Studenten (VVS), l’association flamande des étudiants, a mené une action mardi après-midi devant le siège du gouvernement flamand, sur la place des Martyrs, dans le centre de...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigu2njwnpo4ruscumiqaa2r2zjjogoblbshdgoyjdyujqr2wowqpy@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-28T12:33:01.056Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m464zrlsi525",
+      "cid": "bafyreifkmwwz2qwczlksrxqab3abqs4rxw6ri4soaalkot7nz6nx4d4pc4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-27T09:44:37.325Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "D’ici 2030, il va y avoir un gros changement pour le permis de conduire en Europe. Celui-ci va passer au format numérique. Il sera donc accessible sur smartphone, mais aussi valable plus longtemps et…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiefc5mu566tez2qlwbbsdyaiupgugi5y56i55redgjm25chfxa2ky"
+              },
+              "mimeType": "image/jpeg",
+              "size": 83510
+            },
+            "title": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030",
+            "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/le-nouveau-permis-de-conduire-europeen-arrive-voici-tout-ce-qui-change-dici-2030"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "UE"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 263
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Mobilité"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 267
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "PermisDeConduire"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 296
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/joMqhZz"
+              }
+            ],
+            "index": {
+              "byteEnd": 319,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030 \n- Format numérique, accessible via 📱 \n- Validité: 10 ➡️ 15 ans\n- Réactivation instantanée d'un permis expiré\n- Décision de déchéance applicable dans toute l'UE\n#UE #Mobilité #PermisDeConduire #Europe\nbuff.ly/joMqhZz"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/le-nouveau-permis-de-conduire-europeen-arrive-voici-tout-ce-qui-change-dici-2030",
+          "title": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030",
+          "description": "D’ici 2030, il va y avoir un gros changement pour le permis de conduire en Europe. Celui-ci va passer au format numérique. Il sera donc accessible sur smartphone, mais aussi valable plus longtemps et…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiefc5mu566tez2qlwbbsdyaiupgugi5y56i55redgjm25chfxa2ky@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-27T09:44:39.756Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m44c3ejqcs2a",
+      "cid": "bafyreigghetfnybof5pl4jfhd7j7rmsken55q4d5h4lbkv4qqzgi5fi5t4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-26T16:09:41.660Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Au niveau de l’enseignement supérieur, le conclave budgétaire a décidé de réduire la part du budget de la...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiee3ckgdy65yop3oaxauklxolpjrgmxzeajw5hxmh2vn4geoo4uqi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 947567
+            },
+            "title": "Le minerval bientôt plus cher pour un étudiant sur deux dans l'enseignement supérieur - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/budget-2026-en-federation-wallonie-bruxelles-hausse-pour-tous-du-prix-du-minerval-dans-l-enseignement-superieur-11614175"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "fwb"
+              }
+            ],
+            "index": {
+              "byteEnd": 240,
+              "byteStart": 236
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "enseignementsupérieur"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 241
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/budget-2026-en-federation-wallonie-bruxelles-hausse-pour-tous-du-prix-du-minerval-dans-l-enseignement-superieur-11614175"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 279
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "A partir de 2026 le minerval standard passera de 835 à 1194€. A côté des étudiants boursiers (0€) et de condition modeste (375€) une catégorie intermédiaire sera créée (835€).  Près d'un étudiant/2 paiera tarif plein.\n#fwb #enseignementsupérieur #enseignement\nwww.rtbf.be/article/budg..."
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/budget-2026-en-federation-wallonie-bruxelles-hausse-pour-tous-du-prix-du-minerval-dans-l-enseignement-superieur-11614175",
+          "title": "Le minerval bientôt plus cher pour un étudiant sur deux dans l'enseignement supérieur - RTBF Actus",
+          "description": "Au niveau de l’enseignement supérieur, le conclave budgétaire a décidé de réduire la part du budget de la...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiee3ckgdy65yop3oaxauklxolpjrgmxzeajw5hxmh2vn4geoo4uqi@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-26T16:09:45.663Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m444bkel6c2a",
+      "cid": "bafyreid44jeq5dhrnh5gclfdwfh5me2bty3333chzopndxseij6xbsj3ue",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-10-26T14:25:46.661Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Économies structurellesLes efforts d'économies structurelles pour 2026 annoncés par le Gouvernement s'élève à 270,4 millions € (268 millions en 2025). Les économies se répartissent comme suit :",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreih4h25h7p6gxtxlakux4z2ue4lp2b24oolvd4nin6xzsvsu7vi22u"
+              },
+              "mimeType": "image/jpeg",
+              "size": 975926
+            },
+            "title": "Présentation du budget régional 2026",
+            "uri": "https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "walgov"
+              }
+            ],
+            "index": {
+              "byteEnd": 251,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "protectionsociale"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 272
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "Du neuf pour les allocations familiales! Les AF inconditionnelles pour les 18-21 ans c'est fini! A partir de 2026 leur octroi sera conditionné àpd 18 ans à la poursuite des études, au suivi d'une formation ou d'un parcours d'insertion pro.\n#walgov #protectionsociale \nwww.wallonie.be/fr/actualite..."
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026",
+          "title": "Présentation du budget régional 2026",
+          "description": "Économies structurellesLes efforts d'économies structurelles pour 2026 annoncés par le Gouvernement s'élève à 270,4 millions € (268 millions en 2025). Les économies se répartissent comme suit :",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreih4h25h7p6gxtxlakux4z2ue4lp2b24oolvd4nin6xzsvsu7vi22u@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-10-26T14:25:51.162Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvnfp3cmu52p",
+      "cid": "bafyreidx6bbwfrqzx22yzne2detp2leloojrgohcifrkms2ffrifwo5vue",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-08-05T09:33:17.289Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Anna a un fils de 10 ans et se demande à partir de quel âge un enfant doit être en possession d’une carte d’identité ?",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifxyiimz3onbtgph4dvvry4dpt52nryuqbg6smpk6xaah74ydneiy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 134546
+            },
+            "title": "Carte d’identité : à quel âge est-il obligatoire de l’avoir sur soi ?",
+            "uri": "https://www.rtl.be/actu/belgique/societe/carte-didentite-quel-age-est-il-obligatoire-de-lavoir-sur-soi/2025-08-05/article/758829"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/t4oQTiz"
+              }
+            ],
+            "index": {
+              "byteEnd": 46,
+              "byteStart": 31
+            }
+          }
+        ],
+        "text": "Spoiler: à partir de 15 ans.\n buff.ly/t4oQTiz"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/societe/carte-didentite-quel-age-est-il-obligatoire-de-lavoir-sur-soi/2025-08-05/article/758829",
+          "title": "Carte d’identité : à quel âge est-il obligatoire de l’avoir sur soi ?",
+          "description": "Anna a un fils de 10 ans et se demande à partir de quel âge un enfant doit être en possession d’une carte d’identité ?",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifxyiimz3onbtgph4dvvry4dpt52nryuqbg6smpk6xaah74ydneiy@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-08-05T09:33:19.708Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lve4wovmnz2y",
+      "cid": "bafyreif4nlgl637fpvncdgos4x2lbkxmxjxbwhtybxpioakfhqwryu26ui",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-08-01T17:02:31.090Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna"
+              },
+              "mimeType": "image/jpeg",
+              "size": 121187
+            },
+            "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
+            "uri": "https://buff.ly/f9av9aE"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tiktok"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "socialmedia"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/f9av9aE"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "TikTok peut nuire aux jeunes, surtout les plus fragiles. En cause: l’algorithme qui pousse des contenus anxiogènes.  \n❗ : fatigue mentale, addiction, baisse de l’estime de soi, de l’attention. \n👍 : réduire le temps d'écran, faire preuve d'esprit critique\n#tiktok #tech #socialmedia\nbuff.ly/f9av9aE"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://buff.ly/f9av9aE",
+          "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
+          "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-08-01T17:02:34.014Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2bgis52q",
+      "cid": "bafyreihn5jmcewha3tmrsqy2hwiwveobor5npbyi4ihxncvcqobna7ivge",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "M2TS (MaitenanTTuSais)",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-07-31T15:43:24.566Z",
+        "reply": {
+          "parent": {
+            "cid": "bafyreibpfhwnbqtr265ghlnkzf4h43ebiqy4ojd7lrj76yvpcocsfyp5ku",
+            "commit": {
+              "cid": "bafyreiggmncs65b43sazybutqrkkep5bh6usod667ymn7h2iwi77dbendm",
+              "rev": "3lvbi2a4vus2n"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2a4ha22n",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreibpfhwnbqtr265ghlnkzf4h43ebiqy4ojd7lrj76yvpcocsfyp5ku",
+            "commit": {
+              "cid": "bafyreiggmncs65b43sazybutqrkkep5bh6usod667ymn7h2iwi77dbendm",
+              "rev": "3lvbi2a4vus2n"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lvbi2a4ha22n",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Si l'objectif est de collecter des données pour faire avancer la recherche sur des maladies telles qu'Alzheimer, Parkinson ou encore la sclérose en plaques; tu en reste le maître.  Le partage se fait sur base volontaire et tu peux revenir à tout moment sur ta décision."
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-07-31T15:43:24.931Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    }
+  ]
+}

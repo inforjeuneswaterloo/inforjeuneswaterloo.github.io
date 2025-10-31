@@ -1,0 +1,16 @@
+---
+layout: fw
+---
+<h1>{{page.title}}</h1>
+Les dernières vidéos de la playlist YouTube "Youth on the move":
+<div id="youtube-videos-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2 mb-2">
+    <div class="col">
+        <div class="alert alert-info" role="alert">
+            Chargement des vidéos...
+        </div>
+    </div>
+</div>
+{% include snippets/youtube-yotm.html %}
+<div class="d-flex flex-row-reverse mt-2 mb-2">
+    {% include elements/buttons.html %}
+</div>
