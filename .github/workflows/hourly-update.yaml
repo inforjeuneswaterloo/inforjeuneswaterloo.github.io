@@ -39,7 +39,7 @@ jobs:
         env:
           BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD}}
-          BLUESKY_DID_PLC: ${{ secrets.BSKY_DID_PLC }}
+          BSKY_DID_PLC: ${{ secrets.BSKY_DID_PLC }}
       
       - name: Commit all content changes
         run: |
