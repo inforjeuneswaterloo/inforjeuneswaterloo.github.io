@@ -7,7 +7,7 @@ from pprint import pprint
 # Lisez ces variables depuis le workflow YAML
 USERNAME = os.environ.get("BLUESKY_USERNAME")
 PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD") 
-BLUESKY_DID = os.environ.get("BLUESKY_DID") 
+BLUESKY_DID = os.environ.get("BSKY_DID_PLC") 
 
 # Endpoints
 API_PDS = "https://bsky.social"
