@@ -1,6 +1,96 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4zls7evv72u",
+      "cid": "bafyreiabdsmakfhchpethgevdfg5dmkdfljydvrn3hu5ncgakp73qfqwcm",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-07T07:50:42.818Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "'C’est une belle jeune femme… Maintenant, si vous utilisez le mot 'belle' aux États-Unis en parlant d’une femme,...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibnvhufhral3sxciuvty5vbmlv62nvgnv7f5qjklvaxuekdeycnim"
+              },
+              "mimeType": "image/jpeg",
+              "size": 101848
+            },
+            "title": "'La politesse est une forme de résistance douce' pour le philosophe Simon Brunfaut - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/la-politesse-est-une-forme-de-resistance-douce-pour-le-philosophe-simon-brunfaut-11617910"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ResistanceDouce"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Philo"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          }
+        ],
+        "text": "Dans un monde agressif la politesse est un acte de résistance.  Un geste démocratique ; « Je te respecte, même si je ne suis pas d’accord. Dans une société où l'invective est la norme, elle s'impose comme l'acte quotidien le plus moderne et le plus politique.\n#ResistanceDouce #Philo"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/la-politesse-est-une-forme-de-resistance-douce-pour-le-philosophe-simon-brunfaut-11617910",
+          "title": "'La politesse est une forme de résistance douce' pour le philosophe Simon Brunfaut - RTBF Actus",
+          "description": "'C’est une belle jeune femme… Maintenant, si vous utilisez le mot 'belle' aux États-Unis en parlant d’une femme,...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibnvhufhral3sxciuvty5vbmlv62nvgnv7f5qjklvaxuekdeycnim@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-07T07:50:45.257Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "image_url": null
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4vavo4jvs2v",
       "cid": "bafyreiag4nsmmrvnmaijutzyihknre3yrc3xcyvbyaalmif7mxlyj4c57u",
       "author": {
@@ -851,120 +941,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-08-05T09:33:19.708Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": [],
-      "image_url": null
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lve4wovmnz2y",
-      "cid": "bafyreif4nlgl637fpvncdgos4x2lbkxmxjxbwhtybxpioakfhqwryu26ui",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-08-01T17:02:31.090Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna"
-              },
-              "mimeType": "image/jpeg",
-              "size": 121187
-            },
-            "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
-            "uri": "https://buff.ly/f9av9aE"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tiktok"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "socialmedia"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/f9av9aE"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "TikTok peut nuire aux jeunes, surtout les plus fragiles. En cause: l’algorithme qui pousse des contenus anxiogènes.  \n❗ : fatigue mentale, addiction, baisse de l’estime de soi, de l’attention. \n👍 : réduire le temps d'écran, faire preuve d'esprit critique\n#tiktok #tech #socialmedia\nbuff.ly/f9av9aE"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/f9av9aE",
-          "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
-          "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 1,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-08-01T17:02:34.014Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
