@@ -85,7 +85,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -226,7 +227,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": true
       },
       "labels": [],
       "image_url": null
@@ -343,7 +345,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -437,7 +440,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -518,7 +522,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -644,7 +649,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -761,7 +767,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -866,7 +873,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
@@ -944,7 +952,8 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false
+        "embeddingDisabled": false,
+        "pinned": false
       },
       "labels": [],
       "image_url": null
