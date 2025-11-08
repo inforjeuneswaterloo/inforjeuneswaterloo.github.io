@@ -13,32 +13,9 @@
         <ul class="list-group list-group-flush ms-0 ">
           {% include navigation/footer-nav-list.html %}
         </ul>
+          <!--{% include navigation/social.html flex='d-flex' %} -->
       </div>
-      <div class="col-12 col-md-4">
-        <!--{%unless page.url contains '/notre-actu/'%}
-          {% for alert in alerts %}
-            {%if alert.enabled %}
-              <h4>Oyez! Oyez!</h4>
-              {%break%}
-            {%endif%}
-          {%endfor%}
-          {% if page.url==homepage_url or page.url==yotm_url %}   
-              {%case page.url%} 
-                {%when homepage_url%}
-                  {% for alert in alerts %}
-                      {% include elements/toasts-card.html key='ij'%}
-                  {% endfor %}
-                {% else %}
-                  {% for alert in alerts %}
-                      {% include elements/toasts-card.html key='yotm' %}
-                  {%endfor%}
-              {%endcase%}     
-          {%else%}
-            {%for alert in alerts %}
-                {%include elements/toasts-card.html %}
-            {%endfor%}
-          {%endif%}
-        {%endunless%}-->
+      <div class="col-12 col-md-6 mb-4 justify-content-center">
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
         {% if page.url == homepage_url %}
@@ -48,10 +25,15 @@
           <ul class="list-group list-group-horizontal border-0">
             {% include supports.html %}
           </ul>
+          <div class="mt-2">
+            <img src="https://app.greenweb.org/api/v3/greencheckimage/inforjeuneswaterloo.be?nocache=true" 
+        alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
+         width="200px" height="95px">
+          </div>
         {% else %}
           <img src="{{ logo_ij }}" class="{{ img_class }}">
           <ul class="list-group list-group-horizontal border-0 mt-0 mb-2">
-              {% include navigation/social.html %}
+              {% include navigation/social.html flex='d-flex' %}
           </ul>
           <ul class="list-group list-group-horizontal border-0 mt-2">
             {% include supports.html %}

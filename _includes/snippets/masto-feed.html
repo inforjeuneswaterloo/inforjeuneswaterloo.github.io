@@ -1,0 +1,23 @@
+{% assign mastodon_feed = site.data.mastodon_posts.posts %}
+
+{% if mastodon_feed %}
+    {% comment %} Affiche les 5 derniers posts {% endcomment %}
+    {% for post in mastodon_feed limit: 5 %}
+        <div class="card">
+            <h5 class="card-title">Post du {{ post.date | date: "%d/%m/%Y" }}</h5>
+            {% comment %} Si le post contient une carte (lien externe) {% endcomment %}
+            {% if post.card %}
+                {% assign card = post.card %}
+                <p>Lien partagé : <a href="{{ card.url }}">{{ card.title }} ({{ card.domaine }})</a></p>
+                {% if card.image %}
+                    <img src="{{ card.image }}" alt="{{ card.title }}" class="img-fluid">
+                {% endif %}
+            {% endif %}
+
+            <p class="card-text">{{ post.text }}</p>
+            <a href="{{ post.url }}" target="_blank">Voir le toot original</a>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>Le flux Mastodon n'a pas pu être chargé.</p>
+{% endif %}

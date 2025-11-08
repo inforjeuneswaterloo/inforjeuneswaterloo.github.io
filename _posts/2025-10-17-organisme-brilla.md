@@ -10,7 +10,6 @@ date: 2025-10-17
 slug: fiche-organisme-brilla
 categories:
   - International
-  - Actu du Centre
 buttons:
   - btn:
      enable: true

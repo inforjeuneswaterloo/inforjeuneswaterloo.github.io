@@ -13,13 +13,12 @@ slug: temoignage-camille
 accroche: Découvre le témoignage de Camille partie en Erasmus en Finlande et en PVT en Australie.
 categories:
   - International
-  - Actu du Centre
   - Témoignages
 buttons:
   - btn:
      enable: true
      text: Voir la vidéo
-     href: /yotm/brilla/
+     href: https://youtu.be/iTUs8AEspq8
      icon: fa-solid fa-arrow-up-right-from-square
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
