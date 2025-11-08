@@ -15,8 +15,8 @@
        enabled: true
        title: Trouver un point d'info Eurodesk
        url: /yotm/ressources/eurodesk/points-infos/
-- title: Notre actu
-  url: /categories/actu-du-centre
+- title: L'actu
+  url: /bluesky/
 - title: "Archives"
   url: '/categories/'
 - title: "About"

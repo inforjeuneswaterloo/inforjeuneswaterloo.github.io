@@ -4,59 +4,7 @@ title: L'actu en (dis)continu
 permalink: /bluesky/
 ---
 
-<h1>Derniers Posts Bluesky</h1>
+<h1>Keskisspasse ? La boîte à potins</h1>
 <div class="row mt-4 mb-2">
-    {% assign bluesky_feed = site.data.bluesky_posts.posts %}
-
-    {% if bluesky_feed %}
-        {% for post in bluesky_feed %}
-            {% assign post_record = post.record %}
-            
-            {% assign post_media_url = post.image_url %} 
-            
-            {% assign post_text = post_record.text %}
-            {% assign post_uri = post.uri %}
-            
-            {% assign post_external = post.embed.external %}
-            {% assign post_external_title=post_external.title | split: '-' | first | strip %}
-            {% assign post_external_uri = post_external.uri %}
-            {% assign extract_http = post_external_uri | remove : 'http://' | remove: 'https://' %}
-            {% assign extract_www = extract_http | remove: 'www.' %}
-            {% assign post_external_domain = extract_www | split: '/' | first %}
-            {% assign final_image_url = post_media_url %}
-            {% if post_external and post_external.thumb %}
-                {% assign final_image_url = post_external.thumb %}
-            {% endif %}
-
-            <div class="col-12 col-sm-3 mb-2 d-flex">
-                <div class="card p-2 mb-2 h-100 mb-2"> 
-                    
-                    {% if final_image_url %}
-                    <div class="card-header p-0 mb-2 border-0">
-                        <img src="{{ final_image_url }}" class="img-fluid rounded-top" alt="Image du post Bluesky">
-                    </div>
-                    {% endif %}
-                    
-                    <div class="card-body p-0">
-                        <h5 class="card-title h5">{{post_external_title}}</h5>
-                        <p class="card-text">{{ post_text | escape }}</p>
-                    </div>
-
-                    <div class="card-footer bg-white border-0 p-0 pt-2">
-                        <small class="text-muted">Publié le : {{ post_record.createdAt | date: "%d %b %Y à %H:%M" }}</small>
-                        <br>
-                        <div class="d-flex flex-row-reverse">
-                            <a href="{{post_external_uri}}" target="_blank" class="btn btn-sm btn-dark text-white mt-2">
-                            {{post_external_domain}}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-
-        {% endfor %}
-    {% else %}
-        <p class="col-12">Le flux Bluesky n'a pas pu être chargé ou est vide.</p>
-    {% endif %}
+    {%include snippets/bsky-feed.html limit=10 %}
 </div>

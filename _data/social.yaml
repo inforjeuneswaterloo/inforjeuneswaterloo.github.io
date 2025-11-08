@@ -2,9 +2,9 @@
   url: https://www.instagram.com/ijwaterloo
   icon: "fa-brands fa-instagram"
 
-- title: "mastodon"
-  url: https://mastodon.social/@inforjeuneswaterloo
-  icon: "fa-brands fa-mastodon"
+- title: "BLUESKY_USERNAME"
+  url: https://bsky.app/profile/inforjeuneswaterloo.be
+  icon: "fa-brands fa-bluesky"
 
 - title: "tiktok"
   url: https://tiktok.com/@inforjeuneswaterloo
