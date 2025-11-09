@@ -45,7 +45,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add _jobs/ _data/ categories/ 
+          git add _data/ categories/ 
           git commit -m "Automatisation: Mise à jour horaire du contenu du site" || echo "No content changes to commit"
           git push
         env:
