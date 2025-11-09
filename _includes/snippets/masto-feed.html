@@ -1,21 +1,42 @@
 {% assign mastodon_feed = site.data.mastodon_posts.posts %}
 
 {% if mastodon_feed %}
-    {% comment %} Affiche les 5 derniers posts {% endcomment %}
-    {% for post in mastodon_feed limit: 5 %}
-        <div class="card">
-            <h5 class="card-title">Post du {{ post.date | date: "%d/%m/%Y" }}</h5>
-            {% comment %} Si le post contient une carte (lien externe) {% endcomment %}
-            {% if post.card %}
+    {% for post in mastodon_feed %}
+        {% assign limit = include.limit | default: mastodon_feed.size %}
+        {% assign mastodon_feed = mastodon_feed | slice: 0, limit %}
+        {% if post.card %}
+            {% assign card = post.card %}
+        {% endif %}
+        <div class="col-12 col-sm-3 mb-2 d-flex">
+            <div class="card p-2 mb-2 h-100 mb-2">
                 {% assign card = post.card %}
-                <p>Lien partagé : <a href="{{ card.url }}">{{ card.title }} ({{ card.domaine }})</a></p>
-                {% if card.image %}
-                    <img src="{{ card.image }}" alt="{{ card.title }}" class="img-fluid">
-                {% endif %}
-            {% endif %}
-
-            <p class="card-text">{{ post.text }}</p>
-            <a href="{{ post.url }}" target="_blank">Voir le toot original</a>
+                {% assign card_domain=card.domaine | remove: 'www.' %}
+                <div class="card-header p-2 mb-2 border-0 bg-light">
+                    <h1 class="display">
+                        {{ post.date | date: "%d/%m/%Y" }}
+                    </h1>
+                </div>
+                
+                <div class="card-body p-0">
+                    <h5 class="card-title">{{ card.title }}</h5>
+                    <div class="card-text mt-2">
+                        {{ post.text | escape  | markdownify  }}
+                    </div>
+                </div>
+                <div class="card-footer border-0 p-0 pt-2 bg-white">
+                    <small class="text-muted">Publié le : 
+                        
+                            {{ post.date | date: "%d/%m/%Y" }}
+                        
+                    </small>
+                    <div class="d-flex flex-row-reverse">
+                         <a class="btn btn-dark text-white" 
+                         href="{%if card.url%}{{card.url}}{% else %} {{post.url}}{%endif%}" target="_blank">
+                                {% if card.domaine %}{{card_domain}}{%else%}{{post.id%}}{%endif%}&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                         </a>
+                    </div>
+                </div>
+            </div>
         </div>
     {% endfor %}
 {% else %}

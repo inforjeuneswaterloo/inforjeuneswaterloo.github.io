@@ -13,32 +13,41 @@
         <ul class="list-group list-group-flush ms-0 ">
           {% include navigation/footer-nav-list.html %}
         </ul>
-          <!--{% include navigation/social.html flex='d-flex' %} -->
       </div>
       <div class="col-12 col-md-6 mb-4 justify-content-center">
       </div>
       <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
-        {% if page.url == homepage_url %}
-          <div class="d-flex mt-4">
-            {{ site.description | markdownify }}
-          </div>
-          <ul class="list-group list-group-horizontal border-0">
-            {% include supports.html %}
-          </ul>
-          <div class="mt-2">
+
+            <p class="text-muted">{% include elements/site-description.html %}</p>
+
+          <div class="mt-2 text-center">
             <img src="https://app.greenweb.org/api/v3/greencheckimage/inforjeuneswaterloo.be?nocache=true" 
         alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
          width="200px" height="95px">
           </div>
-        {% else %}
-          <img src="{{ logo_ij }}" class="{{ img_class }}">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-row-reverse mt-2">
           <ul class="list-group list-group-horizontal border-0 mt-0 mb-2">
               {% include navigation/social.html flex='d-flex' %}
           </ul>
-          <ul class="list-group list-group-horizontal border-0 mt-2">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="d-flex flex-row-start mt-2 mb-2">
+          <ul class="list-group list-group-horizontal border-0 mb-2">
             {% include supports.html %}
           </ul>
-        {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mb-2">
+        <small class="text-muted">&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Tous droits réservés.</small>
       </div>
     </div>
   </div>

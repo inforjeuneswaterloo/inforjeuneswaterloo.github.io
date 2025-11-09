@@ -8,6 +8,7 @@ layout: fw
 {% assign moto=page.moto %}
 {% assign curren_url=page.url %}
 {% assign bluesky_feed = site.data.bluesky_posts.posts %}
+{% assign mastodon_feed=site.data.mastodon_posts %}
 <div class="container mb-2 mt-2">
   <div class="jumbotron jumbotron-fluid p-2">
     <div class="row align-items-center">
@@ -21,9 +22,12 @@ layout: fw
                 {% include elements/buttons.html %}
               </div>
             {%endif%}
-            <div class="d-flex flex-row-start">
-            {% include navigation/social.html flex='d-flex' %}
-          </div>
+            <div class="d-flex flex-row-start mb-2">
+              <div class=" alert alert-warning mt-2">
+                  Il y a <span class="display-6">{{ mastodon_feed.posts | size }}</span>&nbsp;offres de job à découvrir
+                  &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
+              </div>
+            </div>
       </div>
     </div>
   </div>

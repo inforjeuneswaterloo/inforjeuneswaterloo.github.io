@@ -1,7 +1,6 @@
 
 title-icon: "fa-solid fa-plane-departure"
-email: your-email@example.com
-description: "Infor Jeunes est un Centre d'information jeunesse agréé et subventionné par la [Fédération Wallonie-Bruxelles](http://www.cfwb.be). L'ASBL est également soutenue par l'échevinat de la Jeunesse de la ville de [Waterloo](https://waterloo.be)"
+email: info@inforjeuneswaterloo.be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -18,9 +17,6 @@ pagination:
   
 #Collections
 collections:
-  jobs:
-    output: true
-    permalink: /jobs/:title/
   services:
     output: true
     permalink: /services/:title/

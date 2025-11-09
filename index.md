@@ -19,14 +19,14 @@ buttons:
      class: btn btn-warning text-decoration-none text-white
      target: _self
   - btn:
-     enable: true
-     text: Jobs étudiants
-     href: '/jobs/'
-     icon: "fa-solid fa-binoculars"
-     class: btn btn-primary text-white text-decoration-none
-     target: _self
-  - btn: 
      enable: false
+     text: Nous contacter
+     href: 'https://wa.me/32473953806'
+     icon: "fa-brands fa-whatsapp"
+     class: btn btn-success text-white text-decoration-none
+     target: _blank
+  - btn: 
+     enable: true
      text: Nous contacter
      href: https://wa.me/0032473953806
      class: btn btn-success text-decoration-none
