@@ -1,29 +1,38 @@
 import requests
 import json
 import os
-from pprint import pprint
+import pytz
+import re
 
-# --- Configuration (Lue depuis GitHub Actions Secrets/ENV) ---
-# Lisez ces variables depuis le workflow YAML
+# --- Configuration Globale (Lue depuis GitHub Actions Secrets/ENV) ---
+# Assurez-vous que ces variables sont bien définies dans votre environnement d'exécution (ex: GitHub Secrets)
 USERNAME = os.environ.get("BLUESKY_USERNAME")
 PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD") 
-BLUESKY_DID = os.environ.get("BSKY_DID_PLC") 
+BLUESKY_DID = os.environ.get("BLUESKY_DID_PLC") # Utilisé comme identifiant de l'auteur
 
-# Endpoints
-API_PDS = "https://bsky.social"
-AUTH_URL = f"{API_PDS}/xrpc/com.atproto.server.createSession"
-FEED_URL = f"{API_PDS}/xrpc/app.bsky.feed.getAuthorFeed?actor={BLUESKY_DID}&limit=10"
-
-# Dossier de destination
+# Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
-OUTPUT_FILE = os.path.join(DATA_DIR, "bluesky_posts.json")
-# -----------------------------------------------------------
+TARGET_TAG = "yotm" # <--- TAG CIBLE
+OUTPUT_FILE = os.path.join(DATA_DIR, f"{TARGET_TAG}_posts.json") # <--- yotm_posts.json
+TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
+
+# URL de l'API et du Flux (définition globale)
+API_PDS = "https://bsky.social"
+FEED_LIMIT = 100 
+FEED_URL = f"{API_PDS}/xrpc/app.bsky.feed.getAuthorFeed?actor={BLUESKY_DID}&limit={FEED_LIMIT}"
+
+# Regex pour identifier les URLs
+URL_REGEX = r"https?://[^\s]+|www\.[^\s]+" 
+
+# --- Fonctions Utilitaires ---
+
+def clean_data_directory(directory):
+    """Crée le répertoire _data s'il n'existe pas."""
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 def get_post_image_url(post):
-    """
-    Tente d'extraire l'URL de la vignette d'un post Bluesky.
-    Gère les images intégrées, les médias avec citation, et les liens externes.
-    """
+    """Tente d'extraire l'URL de la vignette d'un post Bluesky."""
     embed = post.get('embed')
     if not embed:
         return None
@@ -45,92 +54,111 @@ def get_post_image_url(post):
                 return images[0].get('thumb')
     
     # Cas C : Post avec un lien externe (carte d'aperçu)
-    elif embed_type == 'app.bsky.embed.external':
+    elif embed_type == 'app.bsky.embed.external#view' or embed_type == 'app.bsky.embed.external':
         external = embed.get('external')
         if external and external.get('thumb'):
             return external.get('thumb')
             
     return None
 
+def post_has_tag(post, target_tag):
+    """
+    Vérifie si un post Bluesky contient le hashtag cible en utilisant les 'facets'.
+    C'est la méthode la plus fiable pour identifier les tags.
+    """
+    facets = post.get('record', {}).get('facets')
+    if not facets:
+        return False
+        
+    normalized_target_tag = target_tag.lower().lstrip('#')
+
+    for facet in facets:
+        for feature in facet.get('features', []):
+            if feature.get('$type') == 'app.bsky.richtext.facet#tag':
+                tag = feature.get('tag')
+                if tag and tag.lower() == normalized_target_tag:
+                    return True
+    return False
+
+
+def save_data_to_json(data_list, output_path):
+    """Sauvegarde la liste des posts dans le fichier JSON spécifié."""
+    clean_data_directory(DATA_DIR)
+    
+    try:
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump({'posts': data_list}, f, ensure_ascii=False, indent=2) 
+        
+        print(f"✅ Succès : {len(data_list)} posts sauvegardés dans {output_path}")
+        return True
+    except IOError as e:
+        print(f"❌ Erreur lors de l'écriture du fichier JSON '{output_path}': {e}")
+        return False
+
+# --- Fonction Principale ---
 def fetch_bluesky_feed():
-    """Authentifie l'utilisateur, récupère le flux, filtre les posts et sauvegarde les données."""
+    """Authentifie, récupère le flux, filtre par tag et sauvegarde."""
     
     # Vérification des variables d'environnement
     if not all([USERNAME, PASSWORD, BLUESKY_DID]):
-        print("❌ Erreur de configuration : Un ou plusieurs identifiants Bluesky (USERNAME, PASSWORD, ou DID) sont manquants.")
-        print(f"DEBUG: USERNAME={USERNAME}, PASSWORD={'***' if PASSWORD else 'None'}, DID={BLUESKY_DID}")
+        print("❌ Erreur de configuration : Un ou plusieurs identifiants Bluesky sont manquants.")
         return
 
     session = requests.Session()
-    
-    # 1. Authentification pour obtenir le token
-    print(f"Tentative d'authentification pour {USERNAME}...")
-    auth_payload = {
-        "identifier": USERNAME,
-        "password": PASSWORD
-    }
+    auth_url = f"{API_PDS}/xrpc/com.atproto.server.createSession"
+    auth_payload = {"identifier": USERNAME, "password": PASSWORD}
     
     try:
-        auth_response = session.post(AUTH_URL, json=auth_payload)
+        # 1. Authentification
+        auth_response = session.post(auth_url, json=auth_payload)
         auth_response.raise_for_status()
         auth_data = auth_response.json()
-        
         access_jwt = auth_data.get('accessJwt')
-        if not access_jwt:
-            print("❌ Authentification échouée : Token JWT non trouvé.")
-            return
-
-        # 2. Préparation de la requête de flux avec le token
-        headers = {
-            "Authorization": f"Bearer {access_jwt}"
-        }
+        headers = {"Authorization": f"Bearer {access_jwt}"}
         
-        print(f"✅ Authentification réussie. Récupération du flux pour DID: {BLUESKY_DID}...")
+        print(f"✅ Authentification réussie. Récupération du flux (limite: {FEED_LIMIT})...")
         
-        # 3. Appel API du flux
+        # 2. Appel API du flux
         feed_response = session.get(FEED_URL, headers=headers)
         feed_response.raise_for_status()
         data = feed_response.json()
         
-        # 4. Extraction, filtrage et sauvegarde des items
-        all_posts = []
+        # 3. Extraction, filtrage et nettoyage des posts
+        yotm_posts = [] # <--- LISTE SPÉCIFIQUE POUR LES POSTS FILTRÉS
 
         for item in data.get('feed', []):
             post = item.get('post')
             
-            # 🛑 FILTRAGE : Exclure les Reposts (reason) et les Réponses (reply)
-            
-            # Vérification 1 : Filtrer les Reposts (Partage d'un autre utilisateur)
-            if item.get('reason'):
+            # FILTRAGE 1 : Exclure les Reposts et les Réponses
+            if item.get('reason') or (post and post.get('record', {}).get('reply')):
                 continue 
             
-            # Vérification 2 : Filtrer les Réponses/Threads
-            if post and post.get('record', {}).get('reply'):
-                continue 
-
-            # Si le post a passé les filtres, on le traite
             if post:
-                # Ajout de l'URL de l'image simplifiée au niveau racine
+                # FILTRAGE 2 : Vérification du Tag Cible
+                if not post_has_tag(post, TARGET_TAG):
+                    continue # Passe au post suivant si le tag est absent
+
+                # --- Traitement des posts VALIDES ET FILTRÉS ---
+                
+                # Nettoyage du texte (suppression des URLs)
+                post_text = post['record']['text']
+                cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
+                post['record']['text'] = cleaned_text 
+
+                # Ajout de l'URL de l'image simplifiée
                 post['image_url'] = get_post_image_url(post)
-                all_posts.append(post)
+                
+                # Ajout à la liste finale (yotm_posts)
+                yotm_posts.append(post)
 
-        if not os.path.exists(DATA_DIR):
-            os.makedirs(DATA_DIR)
-        
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump({'posts': all_posts}, f, ensure_ascii=False, indent=2)
-
-        print(f"✅ Succès : {len(all_posts)} posts sauvegardés dans {OUTPUT_FILE}")
+        # 4. Sauvegarde finale du flux filtré dans yotm_posts.json
+        save_data_to_json(yotm_posts, OUTPUT_FILE)
 
     except requests.exceptions.HTTPError as e:
         print(f"❌ Erreur HTTP lors de l'authentification ou du flux : {e}")
-        try:
-            print("Réponse d'erreur du serveur :")
-            pprint(e.response.json())
-        except:
-            pass
     except Exception as e:
         print(f"❌ Une erreur inattendue s'est produite : {e}")
 
+# --- Point d'Entrée ---
 if __name__ == "__main__":
     fetch_bluesky_feed()
