@@ -8,7 +8,7 @@ import re
 # Assurez-vous que ces variables sont bien définies dans votre environnement d'exécution (ex: GitHub Secrets)
 USERNAME = os.environ.get("BLUESKY_USERNAME")
 PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD") 
-BLUESKY_DID = os.environ.get("BLUESKY_DID_PLC") # Utilisé comme identifiant de l'auteur
+BLUESKY_DID = os.environ.get("BSKY_DID_PLC") # Utilisé comme identifiant de l'auteur
 
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
