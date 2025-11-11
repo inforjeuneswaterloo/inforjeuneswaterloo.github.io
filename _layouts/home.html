@@ -33,7 +33,7 @@ layout: fw
   </div>
   <div class="row mb-4">
     <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
-    {%include snippets/bsky-feed.html limit=4 %}
+    {%include snippets/bsky-feed.html object=site.data.bluesky_posts limit=4 %}
   </div>
   {%if collabs%}
     <div class="d-flex justify-content-center aligin-items-centetr">

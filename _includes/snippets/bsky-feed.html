@@ -1,5 +1,6 @@
 
-    {% assign bluesky_feed = site.data.bluesky_posts.posts %}
+    
+    {% assign bluesky_feed = include.object %}
 
     {% if bluesky_feed %}
         {% assign limit = include.limit | default: bluesky_feed.size %}
