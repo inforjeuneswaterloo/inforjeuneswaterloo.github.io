@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gllae5w72l",
+      "cid": "bafyreibdvhynw32so7smwpq7c6o2hvsgey55nzrzuv3cncjbkn7jerysdy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T11:51:25.812Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
+              },
+              "mimeType": "image/png",
+              "size": 39972
+            },
+            "title": "Job Search | Indeed",
+            "uri": "https://Indeed.com"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "bwaterloo"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 264
+            }
+          }
+        ],
+        "text": "Poncho recherche des étudiants - 1410 Waterloo \n commis étudiants afin de gérer la mise en place et le service. \n- Sérieux, ponctuel et dynamique ;\n- Esprit d’équipe ;\n- Une formation hôtelière et/ou de l'expérience en horeca sont des atouts\n#jobstudent #bwaterloo"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T11:51:26.963Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": [],
+      "title": "Poncho recherche des étudiants - 1410 Waterloo",
+      "image_url": null
+    }
+  ]
+}
