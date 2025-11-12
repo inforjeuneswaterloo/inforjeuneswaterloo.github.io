@@ -13,7 +13,10 @@ BLUESKY_DID = os.environ.get("BSKY_DID_PLC") # Utilisé comme identifiant de l'a
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
 TARGET_TAG = "yotm" # <--- TAG CIBLE
-OUTPUT_FILE = os.path.join(DATA_DIR, f"{TARGET_TAG}_posts.json") # <--- yotm_posts.json
+# Fichier 1 : Le fichier filtré (nom basé sur le tag)
+OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"{TARGET_TAG}_posts.json") 
+# NOUVEAU FICHIER 2 : Le fichier de toutes les données
+OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_posts.json")
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 # URL de l'API et du Flux (définition globale)
@@ -86,6 +89,7 @@ def save_data_to_json(data_list, output_path):
     clean_data_directory(DATA_DIR)
     
     try:
+        # Note : On sauvegarde la liste sous la clé 'posts' pour faciliter l'accès Jekyll (site.data.fichier.posts)
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump({'posts': data_list}, f, ensure_ascii=False, indent=2) 
         
@@ -97,7 +101,7 @@ def save_data_to_json(data_list, output_path):
 
 # --- Fonction Principale ---
 def fetch_bluesky_feed():
-    """Authentifie, récupère le flux, filtre par tag et sauvegarde."""
+    """Authentifie, récupère le flux, filtre par tag et sauvegarde les deux fichiers."""
     
     # Vérification des variables d'environnement
     if not all([USERNAME, PASSWORD, BLUESKY_DID]):
@@ -123,10 +127,18 @@ def fetch_bluesky_feed():
         feed_response.raise_for_status()
         data = feed_response.json()
         
-        # 3. Extraction, filtrage et nettoyage des posts
-        yotm_posts = [] # <--- LISTE SPÉCIFIQUE POUR LES POSTS FILTRÉS
+        all_feed_items = data.get('feed', [])
+        
+        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes ---
+        # On extrait seulement le 'post' de chaque 'item' pour simplifier le JSON de sortie
+        all_posts_data = [item.get('post') for item in all_feed_items if item.get('post')]
+        save_data_to_json(all_posts_data, OUTPUT_ALL_FILE)
 
-        for item in data.get('feed', []):
+
+        # --- Traitement pour le Fichier 2 : Données filtrées ---
+        yotm_posts = [] 
+
+        for item in all_feed_items:
             post = item.get('post')
             
             # FILTRAGE 1 : Exclure les Reposts et les Réponses
@@ -151,8 +163,8 @@ def fetch_bluesky_feed():
                 # Ajout à la liste finale (yotm_posts)
                 yotm_posts.append(post)
 
-        # 4. Sauvegarde finale du flux filtré dans yotm_posts.json
-        save_data_to_json(yotm_posts, OUTPUT_FILE)
+        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré
+        save_data_to_json(yotm_posts, OUTPUT_FILTERED_FILE)
 
     except requests.exceptions.HTTPError as e:
         print(f"❌ Erreur HTTP lors de l'authentification ou du flux : {e}")
