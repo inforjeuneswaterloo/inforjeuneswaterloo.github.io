@@ -34,6 +34,13 @@ jobs:
           MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
           MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
 
+      - name: Rune Bluesky Job Timeline script
+        run: scripts/bsky-job.py
+        env:
+          BLUESKY_JOB_USERNAME: ${{ secrets.BLUESKY_JOB_USERNAME }}
+          BLUESKY_JOB_PASSWORD: ${{ secrets.BLUESKY_JOB_PASSWORD }}
+          BLUESKY_JOB_DID_PLC: ${{ secrets.BLUESKY_JOB_DID_PLC }}
+
       - name: Run Bluesky Timeline script
         run: python scripts/bsky.py
         env:
