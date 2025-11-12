@@ -6,9 +6,14 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
-  <script>
-     var _paq = window._paq = window._paq || [];
+  <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.inforjeuneswaterloo.be"]);
+  _paq.push(["setDomains", ["*.inforjeuneswaterloo.be","*.ij1410.be"]]);
+  _paq.push(["enableCrossDomainLinking"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -18,5 +23,8 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
-  </script>
+</script>
+<noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.inforjeuneswaterloo.be/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
 </head>
