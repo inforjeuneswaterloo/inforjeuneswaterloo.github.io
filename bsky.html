@@ -6,5 +6,6 @@ permalink: /bluesky/
 
 <h1>{{page.title}}</h1>
 <div class="row mt-4 mb-2">
-    {%include snippets/bsky-feed.html limit=10 %}
+    {% assign bluesky_feed = site.data.bluesky_posts.posts %}
+    {% include snippets/bsky-feed.html limit=10 %}
 </div>

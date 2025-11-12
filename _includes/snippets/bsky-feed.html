@@ -1,6 +1,5 @@
 
     
-
     {% if bluesky_feed %}
         {% assign limit = include.limit | default: bluesky_feed.size %}
         {% assign bluesky_feed = bluesky_feed | slice: 0, limit %}
