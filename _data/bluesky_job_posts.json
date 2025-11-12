@@ -1,0 +1,988 @@
+{
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn76loc24",
+      "cid": "bafyreiagpa325grrbwyyo6rrv7cfjfcl4f45azhrx5uhltzv3ggl7yl3ri",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:22:01.384Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot.",
+            "title": "Optioncarriere",
+            "uri": "https://www.optioncarriere.be/jobad/bef1f60e2683fb5b39a6801e8757db5b6b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 270
+            }
+          }
+        ],
+        "text": "Etudiant - Admin à Bruxelles  \nMission de 2 semaines . Motiver chauffeurs et ouvriers à participer à une enquête interne \n- Dispo3 jours/semaine du 12/11 au 21/11 \n- Véhiculé si possible (déplacements)\n- 13,9013€/h, CR 8€/j\n- Remboursement frais de transport\n#jobstudent"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/bef1f60e2683fb5b39a6801e8757db5b6b",
+          "title": "Optioncarriere",
+          "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:22:01.956Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn5ibnd2i",
+      "cid": "bafyreigpbhhmi3xxj7ekjf6p3n3jswgcb6vrlscwmqw7yvmabhmvncmeli",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:21:58.805Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Job étudiant en jardinerie",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5036429?JobId=5036429&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mYJAnLS"
+              }
+            ],
+            "index": {
+              "byteEnd": 258,
+              "byteStart": 243
+            }
+          }
+        ],
+        "text": "Job étudiant en jardinerie - Louvain-la-Neuve\n- Disponible deux fois par semaines tout au long de l'année académique ( semaine ou w-e de 10h à 18h30) \n- Un salaire allant de 10 euros à 13.80 euros brut de l'heure en fonction de ton âge \nbuff.ly/mYJAnLS"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5036429?JobId=5036429&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Job étudiant en jardinerie",
+          "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:22:00.555Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn2sxvk24",
+      "cid": "bafyreia2oogkbkrahcdiqowzjewplv2bbxollu3trveypbfj7cxahhf7xu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:21:56.296Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour l'un de nos clients situé à Wavre nous recherchons des étudiants pour assurer l'accueil d'un show-room automobileTâches :accueil des clients1ers renseignementsaccompagner lors des essais véhiculesorienter...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Informant étudiant.e",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5017113?JobId=5017113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/31BMoaz"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          }
+        ],
+        "text": "Informant étudiant.e - Accueil show-room automobile - Wavre\n - Accueil des clients, accompagner lors des essais véhicules, orienter vers les vendeurs expérimentés \n- Permis de conduire (obligatoire) \n- Sens relationnel\nTous les dimanches (4h) + vacances scolaires\n#jobstudent \nbuff.ly/31BMoaz"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5017113?JobId=5017113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Informant étudiant.e",
+          "description": "Pour l'un de nos clients situé à Wavre nous recherchons des étudiants pour assurer l'accueil d'un show-room automobileTâches :accueil des clients1ers renseignementsaccompagner lors des essais véhiculesorienter...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:21:57.059Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqmxhhhs24",
+      "cid": "bafyreihpyb7fe3pco5trea3h6mwcbqglandfguvaa6jntvokxsrpc3edua",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:21:53.155Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vos tâches :<br>- Caisse<br>- Réassort<br>- Polyvalence en fonction des besoins dans le magasin Profil Votre profil :<br>- Premièr...",
+            "title": "Etudiant caisse et réassort - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-caisse-et-reassort.D1-EW1H1A1518"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 257
+            }
+          }
+        ],
+        "text": "Etudiant caisse et réassort - Trovit Emploi (H/F/X)\n- Caisse\n- Réassort\n- Première expérience en vente\n- Bon contact client\n- Sérieux(se)\n- Polyvalence\n- Proactivité \n- Disponible pour travailler en WE (samedi et dimanche) + 1 ou 2 jours en semaine ?\n#jobstudent"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-caisse-et-reassort.D1-EW1H1A1518",
+          "title": "Etudiant caisse et réassort - Trovit Emploi",
+          "description": "Vos tâches :<br>- Caisse<br>- Réassort<br>- Polyvalence en fonction des besoins dans le magasin Profil Votre profil :<br>- Premièr..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:21:53.474Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqmwmata2c",
+      "cid": "bafyreihuglyfoyjjr57wupvsifdino7pbwjesnu3j2hi2yvy7ntkmf4jre",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:21:51.439Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description de fonction Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / G",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibvvau6w5v4frvwicpurmmpzouk4g7tf2hx5pj7nqzj7wf5rc32cm"
+              },
+              "mimeType": "image/webp",
+              "size": 5952
+            },
+            "title": "Etudiant Employé.e station service - Nivelles job with Actief Interim Nivelles | 10442366",
+            "uri": "https://jobs.references.be/offre-emploi/10442366/etudiant-employe-e-station-service/?TrackID=26145&utm_source=jbe&utm_medium=email&utm_campaign=DateUnknown&BatchID=3622&JobAlertId=1318504"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/uEebRzi"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Etudiant Employé.e station service - Nivelles \nNous recherchons des étudiants pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / Genappe). \n- Préparation de sandwiches, caisse, réassort...\n- Expérience souhaitée\n- Véhiculé(e), station inaccessible en TEC.\n#jobstudent  \nbuff.ly/uEebRzi"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.references.be/offre-emploi/10442366/etudiant-employe-e-station-service/?TrackID=26145&utm_source=jbe&utm_medium=email&utm_campaign=DateUnknown&BatchID=3622&JobAlertId=1318504",
+          "title": "Etudiant Employé.e station service - Nivelles job with Actief Interim Nivelles | 10442366",
+          "description": "Description de fonction Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / G",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibvvau6w5v4frvwicpurmmpzouk4g7tf2hx5pj7nqzj7wf5rc32cm@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:21:53.458Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gplskqac26",
+      "cid": "bafyreigsfxb53fexu4fms3uhatc47drhxjysznnbeuoek3s4soaosbtrre",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T13:03:19.799Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant caisse",
+            "uri": "https://buff.ly/cg8IIb5"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 206,
+              "byteStart": 195
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/cg8IIb5"
+              }
+            ],
+            "index": {
+              "byteEnd": 223,
+              "byteStart": 208
+            }
+          }
+        ],
+        "text": "Etudiant caisse - Tubize \n- Accueil de la clientèle, encaissement, facturation, SAV\n- Disponible tous les dimanches matin de 9h à 13h à partir du 20 avril\n- A l'aise avec l'outil informatique\n#jobstudent \nbuff.ly/cg8IIb5"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://buff.ly/cg8IIb5",
+          "title": "Etudiant caisse",
+          "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T13:03:21.458Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gmojo3dz2h",
+      "cid": "bafyreigiljkgi4sfki576uarpmwtr4w3bo77bl6zucxkebvhiphjqpd4ua",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T12:11:10.835Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.jooble.org/desc/6608394515188042092?ckey=weekendwerk+jobstudent%0a+%c3%a9tudiant%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=1&groupId=95167637&elckey=-5140457848467418073&p=1&avi=-5695643692342251780&jobAge=508&relb=110&brelb=110&bscr=47300.114772278444&scr=47300.114772278444&aid=7661390&lt=1&searchTestGroup=2_183_3&iid=1612944353999529213"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 256
+            }
+          }
+        ],
+        "text": "Serveur•se, Cuisinier•e, Plongeur•se - OngBa - Bruxelles \nPostes recherchés (H/F/X) : serveur, cuisinier, plongeur\nHoraires flexibles – Parfait pour concilier études et job étudiant. Tous les soirs de 17h-22h. Le weekend après-midi de 12h-15h \n#jobstudent"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.jooble.org/desc/6608394515188042092?ckey=weekendwerk+jobstudent%0a+%c3%a9tudiant%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=1&groupId=95167637&elckey=-5140457848467418073&p=1&avi=-5695643692342251780&jobAge=508&relb=110&brelb=110&bscr=47300.114772278444&scr=47300.114772278444&aid=7661390&lt=1&searchTestGroup=2_183_3&iid=1612944353999529213",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T12:11:11.158Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gllae5w72l",
+      "cid": "bafyreibdvhynw32so7smwpq7c6o2hvsgey55nzrzuv3cncjbkn7jerysdy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-12T11:51:25.812Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
+              },
+              "mimeType": "image/png",
+              "size": 39972
+            },
+            "title": "Job Search | Indeed",
+            "uri": "https://Indeed.com"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "bwaterloo"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 264
+            }
+          }
+        ],
+        "text": "Poncho recherche des étudiants - 1410 Waterloo \n commis étudiants afin de gérer la mise en place et le service. \n- Sérieux, ponctuel et dynamique ;\n- Esprit d’équipe ;\n- Une formation hôtelière et/ou de l'expérience en horeca sont des atouts\n#jobstudent #bwaterloo"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://Indeed.com",
+          "title": "Job Search | Indeed",
+          "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-12T11:51:26.963Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m57av4kt3v2d",
+      "cid": "bafyreiamombbabfjxrbht4i6qlrdr47pkmkdcsjpkhzanlthsyhup6sw5i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-09T13:51:28.914Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Winkelbediende",
+            "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 255
+            }
+          }
+        ],
+        "text": "- Samedis et dimanches de 6h à 14h\n- Assurer à la fois la vente et l’entretien du magasin \n- Disposer d’un véhicule pour vous rendre au magasin (non accessible en transports en commun).\n- Connaissances des règles HACCP\n- Mission de longue durée \n#jobstudent"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
+          "description": "Winkelbediende"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-09T13:51:29.658Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m57ac47lgi24",
+      "cid": "bafyreiazry7assqetfpg6yciji7xknptbtqpsh3zodvbm63fg4maevabiy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-09T13:40:50.103Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54"
+              },
+              "mimeType": "image/jpeg",
+              "size": 37226
+            },
+            "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
+            "uri": "https://app.talentsquare.com/job/60914-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 255
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/VG9Ht0B"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 267
+            }
+          }
+        ],
+        "text": "- Accueillir et conseiller les clients \n- Réapprovisionner les rayons pour garantir un magasin toujours attractif\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse \n- Veiller à la propreté et à l’ordre du point de vente\n#jobstudent\nbuff.ly/VG9Ht0B"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://app.talentsquare.com/job/60914-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet",
+          "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
+          "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-09T13:40:51.760Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m577l7cytg2i",
+      "cid": "bafyreibmiebkckvicjwrbmuuawtdhqjtp6qkhvn426stl65jxeshoza73q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-09T13:28:01.309Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
+              },
+              "mimeType": "image/png",
+              "size": 39972
+            },
+            "title": "Job Search | Indeed",
+            "uri": "https://Indeed.com"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ipLxo3E"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          }
+        ],
+        "text": "Vendeur 20h F/H étudiant(e) - 1400 Nivelles\n\n- Fournir un accueil personnalisé et chaleureux\n- Etre attentif aux besoins du client et assurer sa fidélisation\n- Gestion des stocks magasin\n- Participer à la mise en place du merchandising et des opérations commerciales\n#jobstudent\n\n buff.ly/ipLxo3E"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://Indeed.com",
+          "title": "Job Search | Indeed",
+          "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-09T13:28:02.957Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m577baasl32a",
+      "cid": "bafyreiaxro2fn63xwiuebaovysgsj6k3il2bxbjd3zfjbt3unp3kboykui",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-09T13:22:26.861Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
+              },
+              "mimeType": "image/png",
+              "size": 39972
+            },
+            "title": "Job Search | Indeed",
+            "uri": "https://Indeed.com"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 242,
+              "byteStart": 231
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/o7QVXMC"
+              }
+            ],
+            "index": {
+              "byteEnd": 259,
+              "byteStart": 244
+            }
+          }
+        ],
+        "text": "Job étudiant: vendeur/-se - 1050 Bruxelles Ixelles\n\n- Organiser l'acceuil de la clientèle et participer à la vente\n- Organiser les réassorts en fonction des ventes et des livraisons\n- Expérience dans la vente est avantageux. \n#jobstudent\n buff.ly/o7QVXMC"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://Indeed.com",
+          "title": "Job Search | Indeed",
+          "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-09T13:22:28.659Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    }
+  ]
+}
