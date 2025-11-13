@@ -39,12 +39,6 @@ jobs:
 
       # --- Étape 1: Exécuter le script Mastodon (news/jobs) ---
       # Ce script nettoie '_news/', récupère les posts Mastodon des 30 derniers jours et les crée dans '_news/'.
-      - name: Run Mastodon News script
-        run: python scripts/jobs.py # Mettez le nom exact de votre fichier (ex: jobs.py si c'est son nom)
-        env:
-          MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
-          MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
-
       - name: Run Bluesky Timeline script
         run: python scripts/bsky.py
         env:
