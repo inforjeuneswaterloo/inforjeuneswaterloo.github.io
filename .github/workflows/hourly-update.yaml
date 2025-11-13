@@ -28,12 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests python-frontmatter python-slugify pytz html2text atproto pyyaml feedparser
 
-      - name: Run Mastodon News script
-        run: python scripts/jobs.py
-        env:
-          MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
-          MASTODON_PASSWORD: ${{ secrets.MASTODON_PASSWORD }}
-
       - name: Rune Bluesky Job Timeline script
         run: python scripts/bsky-job.py
         env:
