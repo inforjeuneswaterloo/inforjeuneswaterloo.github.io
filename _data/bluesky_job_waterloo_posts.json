@@ -80,6 +80,33 @@
         "pinned": false
       },
       "labels": [],
+      "permalink": "https://bsky.app/profile/did:plc:ob2khl3reouin6l4dntfslex/post/3m5gllae5w72l",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "jobstudent"
+            }
+          ],
+          "index": {
+            "byteEnd": 263,
+            "byteStart": 252
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "bwaterloo"
+            }
+          ],
+          "index": {
+            "byteEnd": 274,
+            "byteStart": 264
+          }
+        }
+      ],
       "title": "Poncho recherche des étudiants - 1410 Waterloo",
       "image_url": null
     }
