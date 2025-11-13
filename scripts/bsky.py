@@ -14,7 +14,7 @@ BLUESKY_DID = os.environ.get("BSKY_DID_PLC") # Utilisé comme identifiant de l'a
 DATA_DIR = "_data"
 TARGET_TAG = "yotm" # <--- TAG CIBLE
 # Fichier 1 : Le fichier filtré (nom basé sur le tag)
-OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"{TARGET_TAG}_posts.json") 
+OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"bluesky_{TARGET_TAG}_posts.json") 
 # NOUVEAU FICHIER 2 : Le fichier de toutes les données
 OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_posts.json")
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 

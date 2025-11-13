@@ -6,8 +6,12 @@ layout: fw
 {% assign jumbotron_img=page.image %}
 {% assign  buttons=page.buttons %}
 {% assign moto=page.moto %}
-{% assign curren_url=page.url %}
-{% assign bluesky_feed = site.data.bluesky_posts.posts %}
+{% assign current_url=page.url %}
+{% if page.url=='/' %}
+  {% assign bluesky_feed = site.data.bluesky_posts.posts %}
+{% elsif page.url=='/yotm/'%}
+  {% assign bluesky_feed = site.data.bluesky_yotm_posts.posts%}
+{%endif%}
 {% assign bluesky_job_feed = site.data.bluesky_job_posts%}
 <div class="container mb-2 mt-2">
   <div class="jumbotron jumbotron-fluid p-2">
@@ -22,18 +26,24 @@ layout: fw
                 {% include elements/buttons.html %}
               </div>
             {%endif%}
-            <div class="d-flex flex-row-start mb-2">
-              <div class=" alert alert-warning mt-2">
-                  Il y a <span class="display-6">{{ bluesky_job_feed.posts | size }}</span>&nbsp;offres de job à découvrir
-                  &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
-              </div>
-            </div>
+            {% if page.url == '/' %}
+              {% if bluesky_job_feed.posts | size > 0 %}
+                <div class="d-flex flex-row-start mb-2">
+                  <div class=" alert alert-warning mt-2">
+                      Il y a <span class="display-6">{{ bluesky_job_feed.posts | size }}</span>&nbsp;offres de job à découvrir
+                      &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
+                  </div>
+                </div>
+              {% endif %}
+            {% endif %}
       </div>
     </div>
   </div>
   <div class="row mb-4">
-    <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
-    {%include snippets/bsky-feed.html limit=4 %}
+    {%if bluesky_feed | size > 0 %}
+      <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
+      {%include snippets/bsky-feed.html limit=4 %}
+    {%endif%}
   </div>
   {%if collabs%}
     <div class="d-flex justify-content-center aligin-items-centetr">
