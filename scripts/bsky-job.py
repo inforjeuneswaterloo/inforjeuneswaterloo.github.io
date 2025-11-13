@@ -12,7 +12,7 @@ BLUESKY_DID = os.environ.get("BLUESKY_JOB_DID_PLC")
 
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
-TARGET_TAG = "bwaterloo" 
+TARGET_TAG = "ij1410" 
 # Fichier 1 : Tous les posts (sans filtrage, pour l'audit)
 OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_job_posts.json") 
 # Fichier 2 : Posts filtrés par tag et date (pour l'affichage)
