@@ -14,7 +14,7 @@ BLUESKY_DID = os.environ.get("BLUESKY_JOB_DID_PLC")
 DATA_DIR = "_data"
 TARGET_TAG = "bwaterloo" 
 # Fichier 1 : Tous les posts (sans filtrage, pour l'audit)
-OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_job_posts.json") # <--- NOUVEAU FICHIER
+OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_job_posts.json") 
 # Fichier 2 : Posts filtrés par tag et date (pour l'affichage)
 OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, "bluesky_job_waterloo_posts.json") 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
@@ -81,6 +81,21 @@ def post_has_tag(post, target_tag):
                     return True
     return False
 
+def get_external_link_uri(post_facets):
+    """
+    Récupère l'URI de destination du premier lien externe trouvé dans les facets.
+    """
+    if not post_facets:
+        return None
+        
+    for facet in post_facets:
+        for feature in facet.get('features', []):
+            # Cible le type de feature qui représente un lien externe
+            if feature.get('$type') == 'app.bsky.richtext.facet#link':
+                # L'URI du lien est dans 'uri'
+                return feature.get('uri') 
+    return None
+
 
 def save_data_to_json(data_list, output_path):
     """Sauvegarde la liste des posts dans le fichier JSON spécifié (régénération)."""
@@ -88,8 +103,6 @@ def save_data_to_json(data_list, output_path):
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
-            # Assure que le fichier est écrasé/régénéré à chaque appel
-            # Note : Ici, nous sauvegardons la liste brute du feed pour le fichier "all_posts"
             json.dump({'posts': data_list}, f, ensure_ascii=False, indent=2) 
         
         print(f"✅ Succès : {len(data_list)} posts sauvegardés dans {output_path}")
@@ -131,7 +144,6 @@ def fetch_bluesky_feed():
         
         # 3. Sauvegarde immédiate du fichier "ALL POSTS"
         all_feed_items = data.get('feed', [])
-        # On extrait seulement le 'post' de chaque 'item' pour le fichier ALL POSTS afin de simplifier le JSON
         all_posts_data = [item.get('post') for item in all_feed_items if item.get('post')]
         save_data_to_json(all_posts_data, OUTPUT_ALL_FILE)
         
@@ -141,8 +153,36 @@ def fetch_bluesky_feed():
         for item in all_feed_items:
             post = item.get('post')
             
+            if not post:
+                continue
+
+            post_record = post.get('record', {})
+
+            # --- AJOUT CRUCIAL 1 : Extraction et ajout de l'URI/Permalink ---
+            post_uri = post.get('uri')
+            if post_uri:
+                post['uri'] = post_uri
+                post['permalink'] = post_uri.replace(
+                    "at://", "https://bsky.app/profile/"
+                ).replace(
+                    "/app.bsky.feed.post/", "/post/"
+                )
+            # --------------------------------------------------------------------------
+            
+            # --- AJOUT CRUCIAL 2 : Extraction et ajout des FACETS ---
+            post_facets = post_record.get('facets')
+            if post_facets:
+                post['facets'] = post_facets
+            # ----------------------------------------------------------------------
+            
+            # --- AJOUT CRUCIAL 3 : Extraction de l'URI d'un Lien Externe dans Facet ---
+            external_uri = get_external_link_uri(post_facets)
+            if external_uri:
+                post['external_link_uri'] = external_uri
+            # --------------------------------------------------------------------------
+
             # FILTRAGE 0 : Bornage temporel (moins de 7 jours)
-            created_at_str = post.get('record', {}).get('createdAt') if post else None
+            created_at_str = post_record.get('createdAt')
             if created_at_str:
                 try:
                     # Conversion de l'horodatage en datetime conscient du fuseau horaire (UTC)
@@ -154,34 +194,33 @@ def fetch_bluesky_feed():
                     continue # Skip si date invalide
             
             # FILTRAGE 1 : Exclure les Reposts et les Réponses
-            if item.get('reason') or (post and post.get('record', {}).get('reply')):
+            if item.get('reason') or post_record.get('reply'):
                 continue 
             
-            if post:
-                # FILTRAGE 2 : Vérification du Tag Cible (#bwaterloo)
-                if not post_has_tag(post, TARGET_TAG):
-                    continue 
+            # FILTRAGE 2 : Vérification du Tag Cible (#bwaterloo)
+            if not post_has_tag(post, TARGET_TAG):
+                continue 
 
-                # --- Traitement des posts VALIDES ET FILTRÉS ---
-                
-                # Nettoyage du texte (suppression des URLs)
-                post_text = post['record']['text']
-                cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
-                post['record']['text'] = cleaned_text 
+            # --- Traitement des posts VALIDES ET FILTRÉS ---
+            
+            # Nettoyage du texte (suppression des URLs)
+            post_text = post_record.get('text', '')
+            cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
+            post_record['text'] = cleaned_text 
 
-                # Extraction du titre (première ligne)
-                post['title'] = cleaned_text.split('\n', 1)[0].strip()
+            # Extraction du titre (première ligne)
+            post['title'] = cleaned_text.split('\n', 1)[0].strip()
 
-                # Suppression de l'embed d'article externe (pour ne pas garder titre/vignette)
-                embed_type = post.get('embed', {}).get('$type')
-                if embed_type in ['app.bsky.embed.external#view', 'app.bsky.embed.external'] and 'embed' in post:
-                    del post['embed'] 
+            # Suppression de l'embed d'article externe (pour ne pas garder titre/vignette)
+            embed_type = post.get('embed', {}).get('$type')
+            if embed_type in ['app.bsky.embed.external#view', 'app.bsky.embed.external'] and 'embed' in post:
+                del post['embed'] 
 
-                # Ajout de l'URL de l'image simplifiée
-                post['image_url'] = get_post_image_url(post)
-                
-                # Ajout à la liste finale 
-                filtered_posts.append(post)
+            # Ajout de l'URL de l'image simplifiée
+            post['image_url'] = get_post_image_url(post)
+            
+            # Ajout à la liste finale 
+            filtered_posts.append(post)
 
         # 5. Sauvegarde finale du flux filtré (régénération du fichier)
         save_data_to_json(filtered_posts, OUTPUT_FILTERED_FILE)
