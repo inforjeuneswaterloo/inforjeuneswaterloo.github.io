@@ -1,6 +1,168 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5jla2vctb2i",
+      "cid": "bafyreigegbqtx2b5ims7zsrcsjcsliul7yzitpcmt3mdhvmx5rcalr45fi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-13T16:23:11.064Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Overview Vous aimez le contact, débordez d’énergie et partagez une passion pour le café ? Souhaitez-vous gagner un revenu compl&e...",
+            "title": "Le job pour les passionnés de café! - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/le-job-pour-les-passionnes-de-cafe.l1Da1V1T1SG-?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "jobstudent"
+              }
+            ],
+            "index": {
+              "byteEnd": 244,
+              "byteStart": 233
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/x7uSrZS"
+              }
+            ],
+            "index": {
+              "byteEnd": 261,
+              "byteStart": 246
+            }
+          }
+        ],
+        "text": "Nespresso Coffee Advisor - Rixensart\nTâches: Acceuil, démonstration, conseil\nDispo: à partir de fin novembre, principalement les vendredis et/ou samedis \nUne première expérience dans la vente est un atout mais pas indispensable\n#jobstudent \nbuff.ly/x7uSrZS"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/le-job-pour-les-passionnes-de-cafe.l1Da1V1T1SG-?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Le job pour les passionnés de café! - Trovit Emploi",
+          "description": "Overview Vous aimez le contact, débordez d’énergie et partagez une passion pour le café ? Souhaitez-vous gagner un revenu compl&e..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-13T16:23:11.331Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5jl6mwdta25",
+      "cid": "bafyreieryxl6dr35isqaosccrbih7waex25iga7d4knc3g4ew33cnnhcyq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-13T16:22:22.864Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description de l'entrepriseNous sommes à la recherche d'étudiants disponibles pendant la période hivernale :Il s'agit d'un poste ...",
+            "title": "Etudiant(e) CDD d'hiver 35h - H&M Basilix - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiante-cdd-dhiver-35h-hm-basilix.d1wA1X1O1V1Sc?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Xg1ilfX"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 270
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 287
+            }
+          }
+        ],
+        "text": "Etudiant(e) - H&M Basilix Ganshoren\nDu 22/12 au 04/01\nPlier, suspendre, présenter et mettre en valeur les vêtements afin de maximiser les opportunités de vente.\nTraiter, stocker et réapprovisionner activement les vêtements sur la surface de vente et dans le stock.\nbuff.ly/Xg1ilfX \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiante-cdd-dhiver-35h-hm-basilix.d1wA1X1O1V1Sc?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Etudiant(e) CDD d'hiver 35h - H&M Basilix - Trovit Emploi",
+          "description": "Description de l'entrepriseNous sommes à la recherche d'étudiants disponibles pendant la période hivernale :Il s'agit d'un poste ..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-13T16:22:23.361Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn76loc24",
       "cid": "bafyreiagpa325grrbwyyo6rrv7cfjfcl4f45azhrx5uhltzv3ggl7yl3ri",
       "author": {
