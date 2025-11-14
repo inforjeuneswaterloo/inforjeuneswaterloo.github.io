@@ -1,6 +1,326 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5lx3gjdhb2c",
+      "cid": "bafyreibpardgs7cy2muoz3za3uveagbgrzz3i4zl37tkxdavejswzlkkqy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-14T15:00:39.747Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot.",
+            "title": "Optioncarriere",
+            "uri": "https://www.optioncarriere.be/jobad/be9b5810ddb2075a805465f789fd536f78"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.optioncarriere.be/jobad/be9b5810ddb2075a805465f789fd536f78"
+              }
+            ],
+            "index": {
+              "byteEnd": 260,
+              "byteStart": 223
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 262
+            }
+          }
+        ],
+        "text": "Etudiant vendeur grande surface (H/F/X) à Nivelles\nVous êtes LE candidat idéal si :\n- Vous êtes disponible en semaine\n- Vous avez le sens de l'accueil et conseil client\n- Vous voulez un job étudiant sur du long terme \nwww.optioncarriere.be/jobad/be9b58... \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be9b5810ddb2075a805465f789fd536f78",
+          "title": "Optioncarriere",
+          "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-14T15:00:40.062Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5lwa4sh3o2v",
+      "cid": "bafyreihv6g7cjg5m7l2uahac7vh63n6l2ylogv2eg2db2y77gfhoglad7u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-14T14:45:23.628Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ece299c890242564&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCd67I3qBSNGgTNpZ0LbzkdCdPP&xfps=f3b8c96f-5db4-43a4-ae79-953f57deef90&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoDx67M3r_T59_eryZ0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mttDUxp"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Étudiant en Vente JYSK Wavre\nL’ÉTUDIANT(E) IDÉAL(E):\n- Veut apprendre activement\n- S'engage à obtenir les meilleurs résultats\n- Est ouvert d'esprit, enthousiaste, prend des initiatives et aime parler aux clients\nN'aime pas rester assis et n'a pas peur du travail physique \nbuff.ly/mttDUxp \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ece299c890242564&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCd67I3qBSNGgTNpZ0LbzkdCdPP&xfps=f3b8c96f-5db4-43a4-ae79-953f57deef90&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoDx67M3r_T59_eryZ0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-14T14:45:24.980Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5lvja4mzc2h",
+      "cid": "bafyreidnfwxgiuqiym2mhpzojhcbhrvgzmqi6kvlotdb5sicycg4sbu2g4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-14T14:32:35.348Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=908fc1a8f93d1efa&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA067I3qBQezXTNz50LbzkdCdPP&xfps=7d5b7ccf-2eac-4d5e-82f1-c50650f8ede7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoBP67M3r_T598-ryZ0ZbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/04dOP7r"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Etudiant(e) Market Décembre + Janvier à Woluwé-St-Lambert\nUne expérience préalable dans le secteur alimentaire, horeca, retail ou catering serait un atout considérable\nDisponible pour travailler avec un horaire variable du lundi au samedi entre 6h et 20h (vendredi 21h)\nbuff.ly/04dOP7r \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=908fc1a8f93d1efa&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA067I3qBQezXTNz50LbzkdCdPP&xfps=7d5b7ccf-2eac-4d5e-82f1-c50650f8ede7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoBP67M3r_T598-ryZ0ZbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-14T14:32:35.661Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5luxmfcnt2v",
+      "cid": "bafyreicubo3fbxrz6g4kqwqgtxxdxdystpsoclglghylwl6m37rsxkqkbu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-14T14:22:44.248Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e29d050d40ba5999&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB-67I3qBe7cETDAh0LbzkdCdPP&xfps=963e3db1-cf6f-4b28-bdc8-0ab4dd644406&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoCS67M3r_T598-ryZ0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/V0ZlT54"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "TICH Café - JOB ETUDIANT à Bruxelles\nMax 6h par jour \nProfil\n- Vous avez le sens des responsabilités\n- Vous appréciez les rencontres et les contacts humains\n- Vous êtes à l’aise avec les autres, que ce soit la clientèle ou vos collègues\n- Plein d’ENERGIE et de MOTIVATION \nbuff.ly/V0ZlT54 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e29d050d40ba5999&q=Etudiant&l=Brussels&tk=1j9vdtdfpkdeb800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB-67I3qBe7cETDAh0LbzkdCdPP&xfps=963e3db1-cf6f-4b28-bdc8-0ab4dd644406&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1j9vdtdfpkdeb800&xkcb=SoCS67M3r_T598-ryZ0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-14T14:22:45.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5js45qwzq2l",
       "cid": "bafyreiahop7lqas5buztvpnkmhf5qfmgutbrzic6etx5nwwwmiqpa3mrwu",
       "author": {
