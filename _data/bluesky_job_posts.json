@@ -1,6 +1,430 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vsuuprkq2v",
+      "cid": "bafyreigm5hwkvcda2hmwl3yc34khuhcrewdurwrgdvaasu4dgg56bpr35m",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T13:12:04.187Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "- Accueil et conseil auprès des clients si besoin Profil Profil :<br>- Vous êtes dynamique et motivé(e)<br>- Vous êtes dispo...",
+            "title": "Caissier/ère étudiant - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/caissierere-etudiant.A1f1-1z1hU81e"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/enQPn5d"
+              }
+            ],
+            "index": {
+              "byteEnd": 217,
+              "byteStart": 202
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 225,
+              "byteStart": 219
+            }
+          }
+        ],
+        "text": "Etudiant caissier H/F à Ways\n Profil :\n- Vous êtes dynamique et motivé(e)\n- Vous êtes disponible rapidement\n- Vous possédez une première expérience similaire\n- Vous êtes disponible 1 WE sur 2 \n\nbuff.ly/enQPn5d \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/caissierere-etudiant.A1f1-1z1hU81e",
+          "title": "Caissier/ère étudiant - Trovit Emploi",
+          "description": "- Accueil et conseil auprès des clients si besoin Profil Profil :<br>- Vous êtes dynamique et motivé(e)<br>- Vous êtes dispo..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T13:12:04.562Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vs5vwh4a25",
+      "cid": "bafyreigtpfu27ugk2i3v2ms6agnimkb6ccykoksiuhv2lh26chgkla3psq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:59:13.630Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Responsabilités Mise en place et ouverture de la caisse. Accueil et conseil client. Réassort des rayons. Nous vous offrons Un job &eacut...",
+            "title": "Etudiant - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant.wSA1_1b131f19?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/w3itoe4"
+              }
+            ],
+            "index": {
+              "byteEnd": 170,
+              "byteStart": 155
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 178,
+              "byteStart": 172
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 186,
+              "byteStart": 179
+            }
+          }
+        ],
+        "text": "Etudiant caisse et réassort à Waterloo\nResponsabilités\n- Mise en place et ouverture de la caisse.\n- Accueil et conseil client.\n- Réassort des rayons. \nbuff.ly/w3itoe4 \n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant.wSA1_1b131f19?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Etudiant - Trovit Emploi",
+          "description": "Responsabilités Mise en place et ouverture de la caisse. Accueil et conseil client. Réassort des rayons. Nous vous offrons Un job &eacut..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:59:14.162Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vrvgkdvv2o",
+      "cid": "bafyreig7zvron2j7z7ydgzm64y4iauowpjg32lqybiwgtkfmwgamym5hqq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:54:29.053Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à...",
+            "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/jxIj8xS"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant Hôtellerie à La Hulpe\n- Assurer un service professionnel et souriant en salle et/ou au bar\n- Dresser et débarrasser les tables\n- Participer à la mise en place et au service des banquets, mariages ou séminaires\n- Maintenir la propreté et l’ordre des espaces de travail\nbuff.ly/jxIj8xS \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
+          "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:54:29.758Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vrnv5vqa2a",
+      "cid": "bafyreibroagt5t7ol3iy7owrjyqzehtax7flrj4q2m7l54ekmj355jadda",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:50:15.916Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En tant qu’étudiant(e) / Flexi, vos responsabilités seront les suivantes :<br><br> Accueillir les clients avec enthousiasme et un grand ...",
+            "title": "Vendeur(se) en Boulangerie | Student/Flexijobs (semaine) - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/vendeurse-en-boulangerie-studentflexijobs-semaine.1b1U1AU1q1m1en?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Cp0HKWs"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 287
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 310,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Etudiant(e) Vente en Boulangerie à Grez-Doiceau\nProfil\n- Bon contact avec la clientèle\n- Garder le rythme quand il y a du monde en boutique\n- À l’aise avec l’utilisation d’1 caisse\n- Respect des normes d’hygiène\n- Apprécie le travail en équipe et sait aussi être autonome\nbuff.ly/Cp0HKWs \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/vendeurse-en-boulangerie-studentflexijobs-semaine.1b1U1AU1q1m1en?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Vendeur(se) en Boulangerie | Student/Flexijobs (semaine) - Trovit Emploi",
+          "description": "En tant qu’étudiant(e) / Flexi, vos responsabilités seront les suivantes :<br><br> Accueillir les clients avec enthousiasme et un grand ..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:50:16.355Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vqyn5nk52l",
+      "cid": "bafyreiemzrnhjuncax2vr2uvwv2groir5ovryn572jbajx25gy23pie2vy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:38:22.810Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=da35f01f7be79ddb&q=Etudiant&l=Brabant-wallon&tk=1ja27cp83m5tc803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoC867I3qLUYvfTN4J0LbzkdCdPP&xfps=92d408e0-81fc-40ad-b630-f01dc04b00a3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ja27cp83m5tc803&xkcb=SoDq67M3qCG8ehUrQ50PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/e90X8Uz"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant(e) Carrefour Mont-Saint-Jean Waterloo\nProfil\n- Tu as déjà une expérience dans le secteur alimentaire, horeca, retail ou catering.\n- Tu attaches une grande importance à la propreté et l’ordre.\n- Tu es orienté client et service.\n- Dispo en semaine ou le samedi\nbuff.ly/e90X8Uz \n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=da35f01f7be79ddb&q=Etudiant&l=Brabant-wallon&tk=1ja27cp83m5tc803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoC867I3qLUYvfTN4J0LbzkdCdPP&xfps=92d408e0-81fc-40ad-b630-f01dc04b00a3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ja27cp83m5tc803&xkcb=SoDq67M3qCG8ehUrQ50PbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:38:23.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5lx3gjdhb2c",
       "cid": "bafyreibpardgs7cy2muoz3za3uveagbgrzz3i4zl37tkxdavejswzlkkqy",
       "author": {

@@ -1,3 +1,256 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vs5vwh4a25",
+      "cid": "bafyreigtpfu27ugk2i3v2ms6agnimkb6ccykoksiuhv2lh26chgkla3psq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:59:13.630Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Responsabilités Mise en place et ouverture de la caisse. Accueil et conseil client. Réassort des rayons. Nous vous offrons Un job &eacut...",
+            "title": "Etudiant - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant.wSA1_1b131f19?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/w3itoe4"
+              }
+            ],
+            "index": {
+              "byteEnd": 170,
+              "byteStart": 155
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 178,
+              "byteStart": 172
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 186,
+              "byteStart": 179
+            }
+          }
+        ],
+        "text": "Etudiant caisse et réassort à Waterloo\nResponsabilités\n- Mise en place et ouverture de la caisse.\n- Accueil et conseil client.\n- Réassort des rayons. \nbuff.ly/w3itoe4 \n#job4u #ij1410"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:59:14.162Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "permalink": "https://bsky.app/profile/did:plc:ob2khl3reouin6l4dntfslex/post/3m5vs5vwh4a25",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://buff.ly/w3itoe4"
+            }
+          ],
+          "index": {
+            "byteEnd": 170,
+            "byteStart": 155
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "job4u"
+            }
+          ],
+          "index": {
+            "byteEnd": 178,
+            "byteStart": 172
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ij1410"
+            }
+          ],
+          "index": {
+            "byteEnd": 186,
+            "byteStart": 179
+          }
+        }
+      ],
+      "external_link_uri": "https://buff.ly/w3itoe4",
+      "title": "Etudiant caisse et réassort à Waterloo",
+      "image_url": null
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vqyn5nk52l",
+      "cid": "bafyreiemzrnhjuncax2vr2uvwv2groir5ovryn572jbajx25gy23pie2vy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T12:38:22.810Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=da35f01f7be79ddb&q=Etudiant&l=Brabant-wallon&tk=1ja27cp83m5tc803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoC867I3qLUYvfTN4J0LbzkdCdPP&xfps=92d408e0-81fc-40ad-b630-f01dc04b00a3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ja27cp83m5tc803&xkcb=SoDq67M3qCG8ehUrQ50PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/e90X8Uz"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant(e) Carrefour Mont-Saint-Jean Waterloo\nProfil\n- Tu as déjà une expérience dans le secteur alimentaire, horeca, retail ou catering.\n- Tu attaches une grande importance à la propreté et l’ordre.\n- Tu es orienté client et service.\n- Dispo en semaine ou le samedi\nbuff.ly/e90X8Uz \n#job4u #ij1410"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T12:38:23.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "permalink": "https://bsky.app/profile/did:plc:ob2khl3reouin6l4dntfslex/post/3m5vqyn5nk52l",
+      "facets": [
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#link",
+              "uri": "https://buff.ly/e90X8Uz"
+            }
+          ],
+          "index": {
+            "byteEnd": 291,
+            "byteStart": 276
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "job4u"
+            }
+          ],
+          "index": {
+            "byteEnd": 299,
+            "byteStart": 293
+          }
+        },
+        {
+          "features": [
+            {
+              "$type": "app.bsky.richtext.facet#tag",
+              "tag": "ij1410"
+            }
+          ],
+          "index": {
+            "byteEnd": 307,
+            "byteStart": 300
+          }
+        }
+      ],
+      "external_link_uri": "https://buff.ly/e90X8Uz",
+      "title": "Etudiant(e) Carrefour Mont-Saint-Jean Waterloo",
+      "image_url": null
+    }
+  ]
 }
