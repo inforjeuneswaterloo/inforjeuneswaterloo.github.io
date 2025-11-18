@@ -1,6 +1,174 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m5veblfds42k",
+      "cid": "bafyreibyybav2rxlfvriz7jm26ldrc66pl2eunxsdi4osviiukwuobfoqe",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T08:50:41.476Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Coup de tonnerre pour les radars-tronçons : le tribunal de Vilvorde vient d’annuler une amende de 53 euros infligée à un automobiliste. Le juge a estimé que la délivrance d’une amende par un…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidbwwtok732yorc7rtk6hxdsvq6qjdhwrnnhislbeo77a5iqvj3d4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 177531
+            },
+            "title": "Un juge belge invalide les amendes des radars-tronçons : vers l’effondrement du modèle ?",
+            "uri": "https://gocar.be/fr/actu-auto/amende/un-juge-belge-invalide-les-amendes-des-radars-troncons-vers-leffondrement-du-modele"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Justice"
+              }
+            ],
+            "index": {
+              "byteEnd": 309,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Un juge fait droit à la contestation d'un automobiliste au motif qu'une amende ne peut être infligée par un opérateur privé. Toute une infraction, fût-elle détectée par un système automatique, doit être confirmée par un fonctionnaire compétent. Cette décision fera-t-elle jurisprudence ?\n#Justice"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://gocar.be/fr/actu-auto/amende/un-juge-belge-invalide-les-amendes-des-radars-troncons-vers-leffondrement-du-modele",
+          "title": "Un juge belge invalide les amendes des radars-tronçons : vers l’effondrement du modèle ?",
+          "description": "Coup de tonnerre pour les radars-tronçons : le tribunal de Vilvorde vient d’annuler une amende de 53 euros infligée à un automobiliste. Le juge a estimé que la délivrance d’une amende par un…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidbwwtok732yorc7rtk6hxdsvq6qjdhwrnnhislbeo77a5iqvj3d4@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T08:50:43.757Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m5vcywduqw2q",
+      "cid": "bafyreihvdjec33wlvjwhpgz7saawdxdmkxkyqgs3u7olgihsaqpt64gocu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-18T08:27:57.296Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le gouvernement fédéral s’apprête à réformer en profondeur le calcul des aides sociales. Dès la fin de l’année, le montant du revenu d’intégration perçu par un ménage dépendra aussi des revenus de…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicd7t42nd3bmfuwrfdsgsi62fwwb5ohx6oqhdwti4fq3brlkw4onu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 23023
+            },
+            "title": "Un énorme changement annoncé concernant les aides sociales : « Il va y avoir des effets pervers pour plein de ménages », rétorquent les CPAS",
+            "uri": "https://www.rtl.be/actu/belgique/politique/un-enorme-changement-annonce-concernant-les-aides-sociales-cest-inacceptable-que/2025-11-17/article/770683"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ProtectionSociale"
+              }
+            ],
+            "index": {
+              "byteEnd": 259,
+              "byteStart": 241
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Begov"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 260
+            }
+          }
+        ],
+        "text": "Le gouvernement a annoncé un changement dans l'octroi des aides sociales. Désormais le CPAS devra prendre en compte les ressources de tous les adultes vivant sous le même toit.  Entrée en vigueur dès la publication de l'arrêté-royal.\n#ProtectionSociale #Begov"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/politique/un-enorme-changement-annonce-concernant-les-aides-sociales-cest-inacceptable-que/2025-11-17/article/770683",
+          "title": "Un énorme changement annoncé concernant les aides sociales : « Il va y avoir des effets pervers pour plein de ménages », rétorquent les CPAS",
+          "description": "Le gouvernement fédéral s’apprête à réformer en profondeur le calcul des aides sociales. Dès la fin de l’année, le montant du revenu d’intégration perçu par un ménage dépendra aussi des revenus de…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicd7t42nd3bmfuwrfdsgsi62fwwb5ohx6oqhdwti4fq3brlkw4onu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-18T08:27:59.259Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m5tdd3lr742i",
       "cid": "bafyreibdjda32attll2wvidspmvdeqllbxwc4rhhyxqizuzhmc7gnkovay",
       "author": {
@@ -10791,336 +10959,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-20T09:51:09.547Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lg62rhzwl22t",
-      "cid": "bafyreigybij6ykv7ynbaohastanzqzwmc6igaqqrirn4jknf5ouxiplj4a",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-20T09:49:57.269Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "De toutes les attaques informatiques, celle dite du ransomware est sans doute l'une des pires puisqu'elle confronte les...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreierjnbbduwxzh6uvoykq6j774jo65fzrj7ttjc6jcvbwxxwvgwqn4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 243230
-            },
-            "title": "Le danger des nouveaux ransomwares dopés à l'IA",
-            "uri": "https://www.rtbf.be/article/le-danger-des-nouveaux-ransomware-dopes-a-l-ia-11490918"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ransomwares"
-              }
-            ],
-            "index": {
-              "byteEnd": 35,
-              "byteStart": 23
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 254,
-              "byteStart": 249
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "cybersecurity"
-              }
-            ],
-            "index": {
-              "byteEnd": 269,
-              "byteStart": 255
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
-              }
-            ],
-            "index": {
-              "byteEnd": 273,
-              "byteStart": 270
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/le-danger-des-nouveaux-ransomware-dopes-a-l-ia-11490918"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 274
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "Le danger des nouveaux #ransomwares dopés à l'IA \nActus \n- Ne jamais cliquer sur lien suspect dans un email\n- Màj régulière de l'OS\n- Ne pas ouvrir une pièce jointe inattendue ou au format inconnu\n- Eviter d'utiliser les réseaux wifi publics\n#mtts #cybersecurity #IA\nwww.rtbf.be/article/le-d..."
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.rtbf.be/article/le-danger-des-nouveaux-ransomware-dopes-a-l-ia-11490918",
-          "title": "Le danger des nouveaux ransomwares dopés à l'IA",
-          "description": "De toutes les attaques informatiques, celle dite du ransomware est sans doute l'une des pires puisqu'elle confronte les...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreierjnbbduwxzh6uvoykq6j774jo65fzrj7ttjc6jcvbwxxwvgwqn4@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-20T09:50:09.848Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lg62bgnmjc2z",
-      "cid": "bafyreifoobn4wijm5dqvr52qyfi5ovvfa3awydbauihxss7nh5mzi2ahbe",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-20T09:40:58.945Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Le patron de Meta a annoncé la fin du programme de fact-checking sur ses réseaux sociaux aux États-Unis car, selon lui, \"il y a trop d'erreurs\" et les fact-checkeurs \"ont détruit la confiance\". Mais s...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreif4zpj7ejz3duxodruhii43r2ighajztzsddzn333pg6borscthpa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 694897
-            },
-            "title": "Facebook : les fact-checkeurs font-ils vraiment \"trop d'erreurs\", comme l'affirme Mark Zuckerberg ?",
-            "uri": "https://www.francetvinfo.fr/replay-radio/le-vrai-du-faux/facebook-les-fact-checkeurs-font-ils-vraiment-trop-d-erreurs-comme-l-affirme-mark-zuckerberg_6981086.html"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Facebook"
-              }
-            ],
-            "index": {
-              "byteEnd": 9,
-              "byteStart": 0
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "factcheckeurs"
-              }
-            ],
-            "index": {
-              "byteEnd": 30,
-              "byteStart": 16
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "MarkZuckerberg"
-              }
-            ],
-            "index": {
-              "byteEnd": 98,
-              "byteStart": 83
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "meta"
-              }
-            ],
-            "index": {
-              "byteEnd": 120,
-              "byteStart": 115
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "factchecking"
-              }
-            ],
-            "index": {
-              "byteEnd": 155,
-              "byteStart": 142
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "rs"
-              }
-            ],
-            "index": {
-              "byteEnd": 167,
-              "byteStart": 164
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "USA"
-              }
-            ],
-            "index": {
-              "byteEnd": 176,
-              "byteStart": 172
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 239,
-              "byteStart": 234
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 245,
-              "byteStart": 240
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "reseauxsociaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 246
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.francetvinfo.fr/replay-radio/le-vrai-du-faux/facebook-les-fact-checkeurs-font-ils-vraiment-trop-d-erreurs-comme-l-affirme-mark-zuckerberg_6981086.html"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 262
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "#Facebook : les #factcheckeurs font-ils vraiment \"trop d'erreurs\", comme l'affirme #MarkZuckerberg ? \nLa patron de #meta a annoncé la fin du #factchecking sur ses #rs aux #USA. Un des arguments avancés: trop d'erreurs... Vraiment? \n#mtts #tech #reseauxsociaux\nwww.francetvinfo.fr/replay-radio..."
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.francetvinfo.fr/replay-radio/le-vrai-du-faux/facebook-les-fact-checkeurs-font-ils-vraiment-trop-d-erreurs-comme-l-affirme-mark-zuckerberg_6981086.html",
-          "title": "Facebook : les fact-checkeurs font-ils vraiment \"trop d'erreurs\", comme l'affirme Mark Zuckerberg ?",
-          "description": "Le patron de Meta a annoncé la fin du programme de fact-checking sur ses réseaux sociaux aux États-Unis car, selon lui, \"il y a trop d'erreurs\" et les fact-checkeurs \"ont détruit la confiance\". Mais s...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreif4zpj7ejz3duxodruhii43r2ighajztzsddzn333pg6borscthpa@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-20T09:41:35.049Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
