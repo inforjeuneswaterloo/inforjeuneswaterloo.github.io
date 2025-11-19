@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5yk7dz7zt2h",
+      "cid": "bafyreiewhftbeajtiiikt6lg6botjkjcmtqpf7arlxeqj4jhmolfcsyhpy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-19T15:14:53.062Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://dajobs.be/job-offers/JO-XEJM-FDVW"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/1MihCvj"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 249
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 266
+            }
+          }
+        ],
+        "text": "Etudiant vendeur comptoir boucherie (H/F/X) Nivelles\nProfil\n- Disponible le week-end\n- D'accord de travailler en boucherie et être en contact avec des carcasses\n- Sens de l'accueil et conseil client\n- Vous voulez un job étudiant sur du long terme\nbuff.ly/1MihCvj \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://dajobs.be/job-offers/JO-XEJM-FDVW",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-19T15:14:53.360Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5yjxgrcne26",
       "cid": "bafyreiflli6tupiljnq6pud4cnkqmrfufmr3oix3ctajom3rzjrt257tti",
       "author": {
