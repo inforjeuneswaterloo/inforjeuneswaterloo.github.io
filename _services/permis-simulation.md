@@ -1,5 +1,6 @@
 ---
 layout: page
+image: assets/images/services/permis-de-conduire.png
 id: ij
 title: Permis de conduire - simulation examen théorique
 icon: 
@@ -7,12 +8,12 @@ icon:
   text: Permis de conduire
 buttons:
   - btn:
-     enable: false
-     text: Prendre RDV
-     href: https://outlook.office.com/bookwithme/user/c24f3629f3e3486e9c1af8e7911c6e68%40inforjeuneswaterloo.be/meetingtype/0PUzYukB_E6w3bqMYTWE_Q2?anonymous&ismsaljsauthenabled
-     icon: fa-solid fa-calendar-day
-     class: btn btn-outline-dark text-decoration-none
-     target: "_blank"
+     enable: true
+     text: Contacte-nous pour fixer un RDV
+     href: /contact/
+     icon: 
+     class: btn btn-primary text-white text-decoration-none
+     target: "_self"
 sidebar: 
   - enabled: true
   - show: all
@@ -23,4 +24,4 @@ sidebar:
 La première étape, comme tu le sais, c’est de réussir le code! Nous te proposons un accès gratuit et illimité à des exercices et simulations d’examen
 
 - Gratuit
-- Le service est accessible uniquement sur RDV &nbsp;&rarr;&nbsp;[**nous contacter**](/contact/).
+- Le service est accessible uniquement sur RDV.

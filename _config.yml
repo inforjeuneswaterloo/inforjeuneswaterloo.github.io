@@ -24,7 +24,23 @@ collections:
     output: true
     permalink: /yotm/:title/
 
+# Définir des valeurs par défaut pour les collections
+defaults:
+  # Appliquer ces valeurs à toutes les pages de la collection 'services'
+  - scope:
+      path: ""
+      type: "services" # Nom de votre collection dans _config.yml
+    values:
+      show_post_nav: false # Nouvelle variable définie à 'false'
+      show_post_title: false
 
+  # Optionnel : Appliquer l'affichage par défaut (true) aux posts et autres collections
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_post_nav: true
+      show_post_title: true
 
 
 # Build settings

@@ -2,9 +2,10 @@
 layout: page
 id: ij
 title: "Acti-débat: fais entendre ta voix"
+image: /assets/images/services/group-arrows-rotate-solid-full.svg
 icon:
-  fa: "fa-solid fa-plane-departure"
-  text: Hello World!
+  fa: "fa-solid fa-comments"
+  text: "Acti-débat: On en parle"
 buttons:
   - btn:
       enable: true

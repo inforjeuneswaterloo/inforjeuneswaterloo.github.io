@@ -14,7 +14,9 @@ layout: base
 <div class="d-flex flex-row-reverse mt-2">
       {% include elements/buttons.html %}
  </div>
- {% include navigation/post-nav.html %}
+{% if page.show_post_nav %}
+  {% include navigation/post-nav.html post_title=page.show_post_title %}
+{% endif %}
 </article>
 {% if page.collection %}
   {% assign current_url = page.url | remove_first: '/' %}
@@ -22,17 +24,15 @@ layout: base
   {% assign collection = site[collection_name] %}
   <div class="container p-3 mt-4 mb-2">
       {% if collection and collection_name != 'posts' %}
-        <h6 class="display">Dans la même collection</h6>
-        <ul class="list-group list-group-flush card rounded">
+        <div class="d-flex justify-content-center">
         {% for item in collection %}
           {% assign item_url = item.url | remove_first: '/' %}
           {% unless item_url == current_url %}
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <span><h6 class="display">{{ item.title }}</h6></span>
-              <a class="btn btn-light text-decoration-none" href="{{ item.url | relative_url }}">
-                <i class="fa-solid fa-arrow-right"></i>
+            <div class="p-2">
+              <a class="btn btn-light text-decoration-none" href="{{ item.url | relative_url }}" target="_self" title="{{item.title}}">
+                <i class="{{item.icon.fa}}"></i>
               </a>
-            </li>
+            </div>
           {% endunless %}
         {% endfor %}
         </ul>

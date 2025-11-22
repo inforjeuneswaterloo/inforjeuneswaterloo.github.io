@@ -3,8 +3,8 @@ layout: page
 id: ij
 title: Réaction 112 - Forme-toi aux premiers secours!
 icon: 
-  fa: fa-solid fa-car-side
-  text: Permis de conduire
+  fa: fa-solid fa-kit-medical
+  text: "Réaction 112 : Formation premiers secours"
 buttons:
   - btn:
      enable: true

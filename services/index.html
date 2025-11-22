@@ -9,7 +9,7 @@ listed: true
     <li class="list-group-item d-flex justify-content-between align-items-center">
         <span><h6 class="display">{{ item.title }}</h6></span>
         <a class="btn btn-light text-decoration-none" href="{{item.url | relative_url}}">
-            <i class="fa-solid fa-arrow-right"></i>
+            <i class="{{item.icon.fa}}"></i>
         </a>
     </li>
 {% endfor %}

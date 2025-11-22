@@ -2,16 +2,17 @@
 layout: page
 section: ij
 title: Atelier d'aide à la réalisation d'un CV - Action Job Etudiant
+image: /assets/images/services/file-pen-solid-full.svg
 icon: 
-  fa: fa-regular fa-file
+  fa: "fa-solid fa-file-pen"
   text: Atelier CV
 buttons:
   - btn:
      enable: true
      text: S'inscrire
-     href: https://forms.gle/bzJ5td15w2PuKaxM6
+     href: https://forms.office.com/e/JzZq60DxWR
      icon: fa-solid fa-pen-to-square
-     class:  btn btn-outline-dark text-decoration-none btn-sm
+     class:  btn btn-primary text-white text-decoration-none btn-sm
      target: "_blank"
 sidebar: 
   show: all

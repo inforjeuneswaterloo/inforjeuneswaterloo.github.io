@@ -27,7 +27,7 @@ buttons:
      target: _blank
   - btn: 
      enable: true
-     text: Nous contacter
+     text: Contact
      href: https://wa.me/0032473953806
      class: btn btn-success text-decoration-none
      icon: fa-brands fa-whatsapp

@@ -7,11 +7,11 @@ icon:
   text: Modules d'orientation
 buttons:
   - btn:
-     enable: false
-     text: Demander un RDV
-     href: https://forms.gle/JUosedsMoRv8sFDE6
-     icon: fa-solid fa-calendar-day
-     class: btn btn-outline-dark text-decoration-none btn-sm
+     enable: true
+     text: Contacte-nous pour demander un RDV 
+     href: /contact/
+     icon: 
+     class: btn btn-primary text-white text-decoration-none btn-sm
      target: _blank
 sidebar: 
   - enabled: true
@@ -24,4 +24,4 @@ Nous te proposons des séances d’orientation gratuites et personnalisées pour
 
 - Gratuit
 - En ligne ou en présentiel
-- Sur RDV &nbsp;&rarr;&nbsp;[**nous contacter**](/contact/)
+- Sur RDV

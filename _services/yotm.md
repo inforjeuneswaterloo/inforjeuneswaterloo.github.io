@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: redirect
+permalink: /services/yotm/
+redirect_to: '/yotm/'
 id: ij
 title: "YOTM: YouthOnTheMove - Notre projet 'Mobilité internationale'"
 icon:

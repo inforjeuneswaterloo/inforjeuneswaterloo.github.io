@@ -1,9 +1,11 @@
 ---
-layout: page
+layout: redirect
+redirect_to: '/jobs/'
 id: ij
+image: /assets/images/services/helmet-safety-solid-full.svg
 title: Offres de job étudiant
 icon: 
-  fa: fa-solid fa-car-side
+  fa: "fa-solid fa-piggy-bank"
   text: Permis de conduire
 buttons:
   - btn:
