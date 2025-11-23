@@ -1,7 +1,7 @@
 
     {% assign bluesky_feed=include.bsky %}
     {% if bluesky_feed %}
-        {% assign limit = include.limit | default: bluesky_feed.size %}
+        {% assign limit = include.limit | default: 1 %}
         {% assign bluesky_feed = bluesky_feed | slice: 0, limit %}
         {% for post in bluesky_feed %}
             {% assign post_record = post.record %}
@@ -22,7 +22,6 @@
                 {% assign final_image_url = post_external.thumb %}
             {% endif %}
 
-            <div class="col-12 col-sm-3 mb-2 d-flex">
                 <div class="card p-2 mb-2 h-100 mb-2"> 
                     
                     {% if final_image_url %}
@@ -47,7 +46,6 @@
                         
                     </div>
                 </div>
-            </div>
 
         {% endfor %}
     {% else %}

@@ -9,6 +9,7 @@ layout: fw
 {% assign current_url=page.url %}
 {% if page.url=='/' %}
   {% assign bluesky_feed = site.data.bluesky_posts.posts %}
+  {% assign bluesky_top_skeet= site.data.bsky_posts_pinned %}
 {% elsif page.url=='/yotm/'%}
   {% assign bluesky_feed = site.data.bluesky_yotm_posts.posts%}
 {%endif%}
@@ -21,28 +22,43 @@ layout: fw
       </div>
       <div class="col-12 col-md-8">
           <h1 class="display-4">{{moto}}</h1>
-            {% if page.buttons %}
+          <div class="row">
+            <div class="col-6">
+              {% if page.buttons %}
               <div class="d-flex flex-row-start mb-4">
                 {% include elements/buttons.html %}
               </div>
-            {%endif%}
-            {% if page.url == '/' %}
-              {% if bluesky_job_feed.posts | size > 0 %}
-                <div class="d-flex flex-row-start mb-2">
-                  <div class=" alert alert-warning mt-2">
-                      Il y a <span class="display-6">{{ bluesky_job_feed.posts | size }}</span>&nbsp;offres de job à découvrir
-                      &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
+              {%endif%}
+              {% if page.url == '/' %}
+                {% if bluesky_job_feed.posts | size > 0 %}
+                  <div class="d-flex flex-row-start mb-2">
+                    <div class=" alert alert-warning mt-2">
+                        Il y a <span class="display-6">{{ bluesky_job_feed.posts | size }}</span>&nbsp;offres de job à découvrir
+                        &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
+                    </div>
                   </div>
-                </div>
+                {% endif %}
               {% endif %}
-            {% endif %}
+            </div>
+            <div class="col-6">
+              {% if page.url =='/' %}
+                {% if bluesky_top_skeet| size > 0 %}
+                  {% include snippets/bsky-top-post.html bsky=site.data.bsky_posts_pinned.posts %}
+                {% endif %}
+              {% endif %}
+            </div>
+          </div>
       </div>
     </div>
   </div>
   <div class="row mb-4">
-    {%if bluesky_feed | size > 0 %}
+    {%if bluesky_feed| size > 0 %}
       <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
-      {%include snippets/bsky-feed.html limit=4 %}
+      {% if page.url == '/' %}
+        {%include snippets/bsky-feed.html bsky=site.data.bluesky_posts.posts limit=4 %}
+      {% elsif page.url=='/yotm/' %}
+        {% include snippets/bsky-feed.html bsky=site.data.bluesky_yotm_posts.posts limit=4 %}
+      {% endif %}
     {%endif%}
   </div>
   {%if collabs%}
