@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m54svltmbk2q",
+      "cid": "bafyreicy6vblyrhdlq6ecjndtteykqcr55vral5qrbkls6sr26kjaf2zie",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-08T14:35:51.936Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu te poses des questions sur tes études,\ntu as entamé des études supérieures et tu réfléchis à les interrompre ?\nTu as jusqu'au 1er décembre pour te désinscrire !!\n\nNous sommes là pour répondre à…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby"
+              },
+              "mimeType": "image/jpeg",
+              "size": 16833
+            },
+            "title": "Abandon des études / Changement d'orientation",
+            "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 172,
+              "byteStart": 159
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc"
+              }
+            ],
+            "index": {
+              "byteEnd": 205,
+              "byteStart": 174
+            }
+          }
+        ],
+        "text": "Tu es étudiant en BAC1? Tu as jusqu'au 01/12 pour te désinscrire sans impact sur ta finançabilité. Cerise sur le gâteau tu récupèreras 90% du miverval.\n#enseignement"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc",
+          "title": "Abandon des études / Changement d'orientation",
+          "description": "Tu te poses des questions sur tes études,\ntu as entamé des études supérieures et tu réfléchis à les interrompre ?\nTu as jusqu'au 1er décembre pour te désinscrire !!\n\nNous sommes là pour répondre à…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-08T14:35:53.964Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": [],
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby@jpeg"
+    }
+  ]
+}
