@@ -25,12 +25,15 @@ FEED_URL = f"{API_PDS}/xrpc/app.bsky.feed.getAuthorFeed?actor={BLUESKY_DID}&limi
 # Regex pour identifier les URLs
 URL_REGEX = r"https?://[^\s]+|www\.[^\s]+" 
 
-# --- Fonctions Utilitaires (inchangées) ---
+# --- Fonctions Utilitaires ---
+
 def clean_data_directory(directory):
+    """Crée le répertoire _data s'il n'existe pas."""
     if not os.path.exists(directory):
         os.makedirs(directory)
 
 def get_post_image_url(post):
+    """Tente d'extraire l'URL de la vignette d'un post Bluesky."""
     embed = post.get('embed')
     if not embed:
         return None
@@ -52,6 +55,7 @@ def get_post_image_url(post):
     return None
 
 def post_has_tag(post, target_tag):
+    """Vérifie si un post Bluesky contient le hashtag cible en utilisant les 'facets'."""
     facets = post.get('record', {}).get('facets')
     if not facets:
         return False
@@ -65,6 +69,7 @@ def post_has_tag(post, target_tag):
     return False
 
 def save_data_to_json(data_list, output_path):
+    """Sauvegarde la liste des posts dans le fichier JSON spécifié."""
     clean_data_directory(DATA_DIR)
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -75,9 +80,7 @@ def save_data_to_json(data_list, output_path):
         print(f"❌ Erreur lors de l'écriture du fichier JSON '{output_path}': {e}")
         return False
 
-# -------------------------------------------------------------
 # 🚩 CORRECTION : AJOUT DE L'ARGUMENT 'headers'
-# -------------------------------------------------------------
 def get_pinned_post_uri(session, did, headers):
     """Récupère l'URI (at://...) du post épinglé d'un utilisateur depuis son profil."""
     profile_url = f"{API_PDS}/xrpc/app.bsky.actor.getProfile?actor={did}"
@@ -116,9 +119,7 @@ def fetch_bluesky_feed():
         
         print(f"✅ Authentification réussie. Récupération du flux (limite: {FEED_LIMIT})...")
 
-        # -------------------------------------------------------------
         # 🚩 CORRECTION : PASSAGE DE L'ARGUMENT 'headers'
-        # -------------------------------------------------------------
         pinned_post_uri = get_pinned_post_uri(session, BLUESKY_DID, headers)
         if pinned_post_uri:
             print(f"✅ URI du post épinglé trouvé : {pinned_post_uri}")
@@ -131,8 +132,6 @@ def fetch_bluesky_feed():
         data = feed_response.json()
         
         all_feed_items = data.get('feed', [])
-        
-        # ... Reste du code de traitement inchangé ...
         
         # Préparation des listes de sortie
         pinned_posts = [] 
@@ -155,24 +154,33 @@ def fetch_bluesky_feed():
             
             if post:
                 
-                # FILTRE 2 : Vérification du statut ÉPINGLÉ
+                # 🚩 CORRECTION : LOGIQUE ROBUSTE DE VÉRIFICATION DU PIN
                 is_pinned = False
+                
+                # Méthode A: Vérification par l'URI officielle (la plus fiable si getProfile a réussi)
                 if pinned_post_uri and post.get('uri') == pinned_post_uri:
-                    # Traitement du post épinglé pour cohérence
+                    is_pinned = True
+                
+                # Méthode B: Vérification par l'indicateur 'viewer.pinned' (méthode de secours)
+                elif post.get('viewer', {}).get('pinned') is True:
+                    is_pinned = True
+
+                # Traitement si le post est épinglé (méthodes A ou B)
+                if is_pinned:
+                    # Le post épinglé est traité et ajouté à sa liste dédiée
                     post_text = post['record']['text']
                     cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
                     post['record']['text'] = cleaned_text 
                     post['image_url'] = get_post_image_url(post)
                     
                     pinned_posts.append(post)
-                    is_pinned = True
+                    
+                    # On passe au post suivant car il a déjà été traité pour le pin
+                    continue 
                 
                 # FILTRAGE 3 : Vérification du Tag Cible
                 if not post_has_tag(post, TARGET_TAG):
-                    if not is_pinned:
-                        continue 
-                    else:
-                        continue
+                    continue 
 
                 # --- Traitement des posts VALIDES ET FILTRÉS (par tag) ---
                 
