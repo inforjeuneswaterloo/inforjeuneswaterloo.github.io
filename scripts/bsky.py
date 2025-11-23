@@ -5,7 +5,6 @@ import pytz
 import re
 
 # --- Configuration Globale (Lue depuis GitHub Actions Secrets/ENV) ---
-# Assurez-vous que ces variables sont bien définies dans votre environnement d'exécution (ex: GitHub Secrets)
 USERNAME = os.environ.get("BLUESKY_USERNAME")
 PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD") 
 BLUESKY_DID = os.environ.get("BSKY_DID_PLC") # Utilisé comme identifiant de l'auteur
@@ -15,8 +14,10 @@ DATA_DIR = "_data"
 TARGET_TAG = "yotm" # <--- TAG CIBLE
 # Fichier 1 : Le fichier filtré (nom basé sur le tag)
 OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"bluesky_{TARGET_TAG}_posts.json") 
-# NOUVEAU FICHIER 2 : Le fichier de toutes les données
+# Fichier 2 : Le fichier de toutes les données
 OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_posts.json")
+# [AJOUT] Fichier 3 : Le fichier des posts épinglés
+OUTPUT_PINNED_FILE = os.path.join(DATA_DIR, "bsky_posts_pinned.json") # <--- NOUVEAU FICHIER CIBLE
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 # URL de l'API et du Flux (définition globale)
@@ -99,9 +100,26 @@ def save_data_to_json(data_list, output_path):
         print(f"❌ Erreur lors de l'écriture du fichier JSON '{output_path}': {e}")
         return False
 
+# [NOUVELLE FONCTION]
+def get_pinned_post_uri(session, did):
+    """Récupère l'URI (at://...) du post épinglé d'un utilisateur depuis son profil."""
+    profile_url = f"{API_PDS}/xrpc/app.bsky.actor.getProfile?actor={did}"
+    try:
+        response = session.get(profile_url)
+        response.raise_for_status()
+        profile_data = response.json()
+        # Le champ 'pinnedPost' contient l'URI du post épinglé
+        return profile_data.get('pinnedPost') 
+    except requests.exceptions.HTTPError as e:
+        print(f"❌ Erreur lors de la récupération du profil pour le post épinglé : {e}")
+        return None
+    except Exception as e:
+        print(f"❌ Erreur inattendue lors de la récupération du post épinglé : {e}")
+        return None
+
 # --- Fonction Principale ---
 def fetch_bluesky_feed():
-    """Authentifie, récupère le flux, filtre par tag et sauvegarde les deux fichiers."""
+    """Authentifie, récupère le flux, filtre par tag, recherche le post épinglé et sauvegarde les trois fichiers."""
     
     # Vérification des variables d'environnement
     if not all([USERNAME, PASSWORD, BLUESKY_DID]):
@@ -121,21 +139,33 @@ def fetch_bluesky_feed():
         headers = {"Authorization": f"Bearer {access_jwt}"}
         
         print(f"✅ Authentification réussie. Récupération du flux (limite: {FEED_LIMIT})...")
+
+        # [AJOUT] 2. Récupération de l'URI du post épinglé AVANT d'appeler le flux
+        pinned_post_uri = get_pinned_post_uri(session, BLUESKY_DID)
+        if pinned_post_uri:
+            print(f"✅ URI du post épinglé trouvé : {pinned_post_uri}")
+        else:
+            # S'il y a une erreur ou aucun post épinglé, on continue sans cette fonctionnalité
+            print("ℹ️ Aucun post épinglé trouvé ou erreur lors de la récupération.")
         
-        # 2. Appel API du flux
+        # 3. Appel API du flux
         feed_response = session.get(FEED_URL, headers=headers)
         feed_response.raise_for_status()
         data = feed_response.json()
         
         all_feed_items = data.get('feed', [])
         
-        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes ---
+        # --- Préparation des listes de sortie ---
+        # [AJOUT] Liste pour les posts épinglés
+        pinned_posts = [] 
+        
         # On extrait seulement le 'post' de chaque 'item' pour simplifier le JSON de sortie
         all_posts_data = [item.get('post') for item in all_feed_items if item.get('post')]
+        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes ---
         save_data_to_json(all_posts_data, OUTPUT_ALL_FILE)
 
 
-        # --- Traitement pour le Fichier 2 : Données filtrées ---
+        # --- Traitement pour le Fichier 2 (filtré par tag) et Fichier 3 (épinglé) ---
         yotm_posts = [] 
 
         for item in all_feed_items:
@@ -146,11 +176,30 @@ def fetch_bluesky_feed():
                 continue 
             
             if post:
-                # FILTRAGE 2 : Vérification du Tag Cible
+                
+                # [AJOUT] FILTRE 2 : Vérification du statut ÉPINGLÉ
+                is_pinned = False
+                if pinned_post_uri and post.get('uri') == pinned_post_uri:
+                    # Traitement du post épinglé pour cohérence
+                    post_text = post['record']['text']
+                    cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
+                    post['record']['text'] = cleaned_text 
+                    post['image_url'] = get_post_image_url(post)
+                    
+                    pinned_posts.append(post)
+                    is_pinned = True
+                    # On continue la boucle pour que le post épinglé puisse également être filtré par tag s'il le possède
+                
+                # FILTRAGE 3 (Ancien FILTRE 2) : Vérification du Tag Cible
                 if not post_has_tag(post, TARGET_TAG):
-                    continue # Passe au post suivant si le tag est absent
+                    # Si le post n'est ni épinglé, ni le tag cible, on passe au suivant
+                    if not is_pinned:
+                        continue 
+                    else:
+                        # Si le post est épinglé, on l'a déjà traité dans 'pinned_posts', on passe au suivant
+                        continue
 
-                # --- Traitement des posts VALIDES ET FILTRÉS ---
+                # --- Traitement des posts VALIDES ET FILTRÉS (par tag) ---
                 
                 # Nettoyage du texte (suppression des URLs)
                 post_text = post['record']['text']
@@ -163,8 +212,15 @@ def fetch_bluesky_feed():
                 # Ajout à la liste finale (yotm_posts)
                 yotm_posts.append(post)
 
-        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré
+        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré (par tag)
         save_data_to_json(yotm_posts, OUTPUT_FILTERED_FILE)
+        
+        # [AJOUT] 5. Sauvegarde finale du Fichier 3 : Les posts épinglés
+        if pinned_posts:
+            save_data_to_json(pinned_posts, OUTPUT_PINNED_FILE)
+        else:
+             print(f"ℹ️ Aucune donnée à sauvegarder dans {OUTPUT_PINNED_FILE}. Fichier non créé.")
+
 
     except requests.exceptions.HTTPError as e:
         print(f"❌ Erreur HTTP lors de l'authentification ou du flux : {e}")
