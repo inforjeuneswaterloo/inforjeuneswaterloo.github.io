@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6esrylopi2i",
+      "cid": "bafyreian4gqknpj6wkn6tj4bxtdmvagcxoad6a2rrlblg6johhgawrvrgi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-24T12:20:21.723Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=250e5c7570fdb971&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&advn=949831433115865&adid=453843991&ad=-6NYlbfkN0DM71aRby4XXFu23IM0cwIowspnhdufHveIH-zd0rHtMYYsTIdVoCTTYNHojbE7EfumLeqrNLpiWhw9PbLNmlXzY6GptJkJ-k-Ar3daWkkjS95jb3VPqh9RlDcoPFpDl6xov_XDG8iaXgsIRld7009wWniUtREjMVzMDJwKIHy9ZvVLZEcr1A8SL7GMmHzyBNeFnlcSWkB8kyBGby4OGBILILN-KiOkLhXNONzvLiziYcUCwU3eUnNulhYZ8M2r-0yh-w60c2gfudVgKBnAMUy3dZz5f8qV85lxHI9ZU7Lie9xXBcxVtaAzBxxeHgZ-pLs5V-8KD2vXwxfASt41n7dAs9312pIVXu9i1J66bLbrYVylkCJqAQAxMb84131QKfQMeVt4Ff3WMOHARDbhaeinLoLcdi1JUPTDgPXAGJFMaPDsWzDbZkzfRb38Er7QzlVdWudui1xv8zryI9PvOGbLsBLY5YqyO1shtDysR86gSQ9iiUUrg-VlUTTo6AQuXKHqqQfjc0b2_r5GpWf1HWHXZUQAQbjh7HKe2FtmjpusU6dFk5gRYz7yN8sciyOuvqGgrveGQgNwRQ%3D%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XIH4Pv_6Tjcjw%3D%3D&xkcb=SoBA6_M3qaYrWSWlUJ0LbzkdCdPP&xpse=SoC46_I3qanV_gz42R0IbzkdCdPP&xfps=84a09e3c-a50c-4643-90ce-411a10bbb95a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QVQFU1r"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 238
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 261,
+              "byteStart": 255
+            }
+          }
+        ],
+        "text": "Job étudiant Ambassadeur de Marque MediaMarkt - Braine-l'Alleud\nDémos de produits pour enfants le vendredi 28/11 et le samedi 29/11 pendant 8 h.\nProfil : communicatif et sociable, se sentir à l'aise dans un environnement de magasin.  \nbuff.ly/QVQFU1r \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=250e5c7570fdb971&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&advn=949831433115865&adid=453843991&ad=-6NYlbfkN0DM71aRby4XXFu23IM0cwIowspnhdufHveIH-zd0rHtMYYsTIdVoCTTYNHojbE7EfumLeqrNLpiWhw9PbLNmlXzY6GptJkJ-k-Ar3daWkkjS95jb3VPqh9RlDcoPFpDl6xov_XDG8iaXgsIRld7009wWniUtREjMVzMDJwKIHy9ZvVLZEcr1A8SL7GMmHzyBNeFnlcSWkB8kyBGby4OGBILILN-KiOkLhXNONzvLiziYcUCwU3eUnNulhYZ8M2r-0yh-w60c2gfudVgKBnAMUy3dZz5f8qV85lxHI9ZU7Lie9xXBcxVtaAzBxxeHgZ-pLs5V-8KD2vXwxfASt41n7dAs9312pIVXu9i1J66bLbrYVylkCJqAQAxMb84131QKfQMeVt4Ff3WMOHARDbhaeinLoLcdi1JUPTDgPXAGJFMaPDsWzDbZkzfRb38Er7QzlVdWudui1xv8zryI9PvOGbLsBLY5YqyO1shtDysR86gSQ9iiUUrg-VlUTTo6AQuXKHqqQfjc0b2_r5GpWf1HWHXZUQAQbjh7HKe2FtmjpusU6dFk5gRYz7yN8sciyOuvqGgrveGQgNwRQ%3D%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XIH4Pv_6Tjcjw%3D%3D&xkcb=SoBA6_M3qaYrWSWlUJ0LbzkdCdPP&xpse=SoC46_I3qanV_gz42R0IbzkdCdPP&xfps=84a09e3c-a50c-4643-90ce-411a10bbb95a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-24T12:20:22.132Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6enmud5cl2l",
       "cid": "bafyreicj5pqfucl7sor4whhxrt4oifdpwcxkkfwgg2ac54av2xu6lvrdxi",
       "author": {
