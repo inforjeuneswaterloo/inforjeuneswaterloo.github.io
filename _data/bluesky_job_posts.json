@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6eu6caab72l",
+      "cid": "bafyreichfqeww4udsvmxnn4jgomj3g7d6gtszfuwcqxjamfe5c7j4i4alq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-24T12:45:08.255Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Winkelbediende",
+            "title": "job étudiant en magasin - Tubize | TUBIZE, Brabant Wallon",
+            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-tubize-tubize-brabant-wallon/386-41217-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0LoEtxp"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 261
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 278
+            }
+          }
+        ],
+        "text": "Job Etudiant magasin - Tubize\nMissions : caisse/réassort/facing/entretien du magasin\nProfil\n- Etudiant.e (avec encore min 200 h disponibles en 2025)\n- Motivé, sérieux et disponible\n- Majeur (manipulation d'argent)\n- 1ère expérience en caisse indispensable\nbuff.ly/0LoEtxp \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-tubize-tubize-brabant-wallon/386-41217-1&utm_source=Careerjet-Optioncarriere",
+          "title": "job étudiant en magasin - Tubize | TUBIZE, Brabant Wallon",
+          "description": "Winkelbediende"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-24T12:45:08.729Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6esrylopi2i",
       "cid": "bafyreian4gqknpj6wkn6tj4bxtdmvagcxoad6a2rrlblg6johhgawrvrgi",
       "author": {
