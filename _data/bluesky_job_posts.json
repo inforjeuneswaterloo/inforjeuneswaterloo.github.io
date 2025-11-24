@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6enmud5cl2l",
+      "cid": "bafyreicj5pqfucl7sor4whhxrt4oifdpwcxkkfwgg2ac54av2xu6lvrdxi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-24T10:48:00.793Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=635c619e6c1a8d13&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBV67I3qahlkez7bx0LbzkdCdPP&xfps=6daf3a30-85b1-4b1f-aa3d-b43ccd619150&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jaq88tpa20hd000&xkcb=SoDw67M3qaYrWHbOaZ0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/lvMLFNU"
+              }
+            ],
+            "index": {
+              "byteEnd": 190,
+              "byteStart": 175
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 198,
+              "byteStart": 192
+            }
+          }
+        ],
+        "text": "Job étudiant Lidl - Braine le Château\nMission :\n- Aide et conseil clientèle\n- Caisse\n- Réassort ...\nProfil :\n- Min. 16 ans.\n- Prévenant, fiable, désireux d'apprendre...\nbuff.ly/lvMLFNU \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=635c619e6c1a8d13&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBV67I3qahlkez7bx0LbzkdCdPP&xfps=6daf3a30-85b1-4b1f-aa3d-b43ccd619150&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jaq88tpa20hd000&xkcb=SoDw67M3qaYrWHbOaZ0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-24T10:48:01.338Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5yk7dz7zt2h",
       "cid": "bafyreiewhftbeajtiiikt6lg6botjkjcmtqpf7arlxeqj4jhmolfcsyhpy",
       "author": {
