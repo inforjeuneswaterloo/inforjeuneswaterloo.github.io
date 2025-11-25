@@ -23,7 +23,7 @@ layout: fw
       <div class="col-12 col-md-8">
           <h1 class="display-4">{{moto}}</h1>
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6">
               {% if page.buttons %}
               <div class="d-flex flex-row-start mb-4">
                 {% include elements/buttons.html %}
@@ -40,7 +40,7 @@ layout: fw
                 {% endif %}
               {% endif %}
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6">
               {% if page.url =='/' %}
                 {% if bluesky_top_skeet| size > 0 %}
                   {% include snippets/bsky-top-post.html bsky=site.data.bsky_posts_pinned.posts %}
