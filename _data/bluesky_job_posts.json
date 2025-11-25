@@ -1,6 +1,178 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6hjiawuum25",
+      "cid": "bafyreify6mtlx2eittswlx7a4ngap3xjp3tdxk27foxx6ryc6cbl42wohy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-25T14:11:50.499Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Här finns information om allt möjligt som du kan tänka dig. Skulle det saknas något så dröjer det inte länge innan det finns.",
+            "title": "Allt du kan tänka dig och lite till",
+            "uri": "https://Curieux.se"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://Curieux.se"
+              }
+            ],
+            "index": {
+              "byteEnd": 222,
+              "byteStart": 212
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/IaC2Ef5"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 275
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant.e Cuisine Manneken Pis Café - Bruxelles\nTâches : \n- Préparer les plats selon nos recettes\n- Mise en place, découpe, dressage\n- Hygiène de la cuisine\nProfil :\n- Dispo en journée, soirée et/ou WE\n- Curieux.se, motivé.e et prêt.e à mettre la main à la pâte\nbuff.ly/IaC2Ef5 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://Curieux.se",
+          "title": "Allt du kan tänka dig och lite till",
+          "description": "Här finns information om allt möjligt som du kan tänka dig. Skulle det saknas något så dröjer det inte länge innan det finns."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-25T14:11:50.935Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6hizh3lmg26",
+      "cid": "bafyreias73zxxm4bljfj2orc5wljap2rvtjjofpgx6buioeqdtcm3qnzxy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-25T14:03:33.620Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Forem's UI FrameWork",
+            "title": "Recherche offres",
+            "uri": "https://www.leforem.be/recherche-offres/offre-detail/1634705"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/uQkZ8P6"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant Grande distribution - GENAPPE\nMission :\n- Mise en place/ouverture de la caisse\n- Accueil/conseil client\n- Réassort\nProfil :\n- Rigoureux, ne pas avoir peur de manipuler de l'argent\n- Souriant et aimer le contact client\n- Aimer le travail en équipe, intégration facile\nbuff.ly/uQkZ8P6 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.leforem.be/recherche-offres/offre-detail/1634705",
+          "title": "Recherche offres",
+          "description": "Forem's UI FrameWork"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-25T14:03:34.341Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6eu6caab72l",
       "cid": "bafyreichfqeww4udsvmxnn4jgomj3g7d6gtszfuwcqxjamfe5c7j4i4alq",
       "author": {
