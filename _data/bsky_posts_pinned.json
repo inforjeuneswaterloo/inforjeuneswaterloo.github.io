@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m54svltmbk2q",
-      "cid": "bafyreicy6vblyrhdlq6ecjndtteykqcr55vral5qrbkls6sr26kjaf2zie",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6jxrunxfz2r",
+      "cid": "bafyreiam6ygmdg3pdespf6fef64i55hrhncd4c5qpxdyebpysurm4v2xae",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-08T14:35:51.936Z",
+        "createdAt": "2025-11-26T13:33:03.807Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Tu te poses des questions sur tes études,\ntu as entamé des études supérieures et tu réfléchis à les interrompre ?\nTu as jusqu'au 1er décembre pour te désinscrire !!\n\nNous sommes là pour répondre à…",
+            "description": "C’est la toute première fois dans l’histoire des COP que le sujet de l’intégrité de l’information est à...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby"
+                "$link": "bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq"
               },
               "mimeType": "image/jpeg",
-              "size": 16833
+              "size": 292267
             },
-            "title": "Abandon des études / Changement d'orientation",
-            "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc"
+            "title": "COP 30 : la Belgique signe la première déclaration internationale contre la désinformation climatique - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/cop-30-la-belgique-signe-la-premiere-declaration-internationale-contre-la-desinformation-climatique-11634743"
           }
         },
         "facets": [
@@ -44,36 +44,48 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
+                "tag": "COP30"
               }
             ],
             "index": {
-              "byteEnd": 172,
-              "byteStart": 159
+              "byteEnd": 272,
+              "byteStart": 266
             }
           },
           {
             "features": [
               {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc"
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "environnement"
               }
             ],
             "index": {
-              "byteEnd": 205,
-              "byteStart": 174
+              "byteEnd": 287,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "begov"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
             }
           }
         ],
-        "text": "Tu es étudiant en BAC1? Tu as jusqu'au 01/12 pour te désinscrire sans impact sur ta finançabilité. Cerise sur le gâteau tu récupèreras 90% du miverval.\n#enseignement"
+        "text": "La Belgique s'engage à promouvoir l’intégrité des informations relatives au changement climatique.  Jean-Luc Crucke, ministre fédéral du climat, a d'ailleurs annoncé le lancement d’un plan d’action national de lutte contre la désinformation climatique.\n#COP30 #environnement #begov"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc",
-          "title": "Abandon des études / Changement d'orientation",
-          "description": "Tu te poses des questions sur tes études,\ntu as entamé des études supérieures et tu réfléchis à les interrompre ?\nTu as jusqu'au 1er décembre pour te désinscrire !!\n\nNous sommes là pour répondre à…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby@jpeg"
+          "uri": "https://www.rtbf.be/article/cop-30-la-belgique-signe-la-premiere-declaration-internationale-contre-la-desinformation-climatique-11634743",
+          "title": "COP 30 : la Belgique signe la première déclaration internationale contre la désinformation climatique - RTBF Actus",
+          "description": "C’est la toute première fois dans l’histoire des COP que le sujet de l’intégrité de l’information est à...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -81,7 +93,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-11-08T14:35:53.964Z",
+      "indexedAt": "2025-11-26T13:33:05.730Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -89,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq@jpeg"
     }
   ]
 }
