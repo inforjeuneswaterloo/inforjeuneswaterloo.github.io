@@ -1,6 +1,134 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6jl2h5fl32u",
+      "cid": "bafyreihhmdshmhqftixfmatkc7tfuxjfcdlydesdgbpxtqh6uvud2hxct4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-26T09:45:13.334Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Il existe des dizaines d’options pour émigrer au Canada. Focus sur les nouveautés et les programmes les plus utilisés.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym"
+              },
+              "mimeType": "image/jpeg",
+              "size": 35756
+            },
+            "title": "Pour étudier au Canada, quel programme d’immigration choisir ?",
+            "uri": "https://etudiant.lefigaro.fr/article/etudes/pour-etudier-au-canada-quel-programme-d-immigration-choisir-20250804/"
+          }
+        },
+        "facets": [
+          {
+            "$type": "app.bsky.richtext.facet",
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#mention",
+                "did": "did:plc:znu3bmhx5mx2icucilix5rpa"
+              }
+            ],
+            "index": {
+              "byteEnd": 237,
+              "byteStart": 225
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "yotm"
+              }
+            ],
+            "index": {
+              "byteEnd": 244,
+              "byteStart": 239
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "helloworld"
+              }
+            ],
+            "index": {
+              "byteEnd": 256,
+              "byteStart": 245
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "MobilitéInternationale"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 257
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Canada"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 282
+            }
+          }
+        ],
+        "text": "Pour étudier au Canada, quel programme d’immigration choisir ? Le Figaro Étudiant fait le point sur les différentes possibilités qui s’offrent aux étudiants et jeunes professionnels qui souhaitent partir au Canada. \n@lefigaro.fr \n#yotm #helloworld #MobilitéInternationale #Canada"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://etudiant.lefigaro.fr/article/etudes/pour-etudier-au-canada-quel-programme-d-immigration-choisir-20250804/",
+          "title": "Pour étudier au Canada, quel programme d’immigration choisir ?",
+          "description": "Il existe des dizaines d’options pour émigrer au Canada. Focus sur les nouveautés et les programmes les plus utilisés.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-26T09:45:15.129Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": [],
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym@jpeg"
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4vavo4jvs2v",
       "cid": "bafyreiag4nsmmrvnmaijutzyihknre3yrc3xcyvbyaalmif7mxlyj4c57u",
       "author": {
