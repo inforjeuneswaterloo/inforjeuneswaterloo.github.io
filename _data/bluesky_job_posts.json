@@ -1,6 +1,258 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mp3ovf262i",
+      "cid": "bafyreibiinkcnv4p64xvnrv2rcztqmwdacfuvd27a4duj66zdwpmxnr4ta",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-27T15:35:30.058Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=57aeb403c5c036a4&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCb67I3qi1_huz4N50LbzkdCdPP&xfps=097d0bd6-fc35-41f0-872f-fc1302de3857&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBn67M3qiV8Pr0pHR0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EgKqCRE"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant(e) Animation commerciale Mascotte Le Roi du Matelas - Braine-l'Alleud \nMission: Mascotte. A l’aise en public, ne pas avoir peur d’avoir chaud sous un costume\nProfil :\n- Dispo du 3/1 au 31/1/26 les samedis de 14 à 18h\n- Compétences relationnelles et commerciales\nbuff.ly/EgKqCRE \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=57aeb403c5c036a4&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCb67I3qi1_huz4N50LbzkdCdPP&xfps=097d0bd6-fc35-41f0-872f-fc1302de3857&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBn67M3qiV8Pr0pHR0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-27T15:35:30.530Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mopke6kn2c",
+      "cid": "bafyreifav4juvgy2pbstyuoi2kyqenfqgaghymibbiy72765ylm7rlpp3u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-27T15:28:42.648Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=7dc415dc41c5b676&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBx67I3qi1vR_zDTZ0LbzkdCdPP&xfps=a3f0a0fa-822a-4406-b561-1f1e12b7a9ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBO67M3qiV8Pr0pHR0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/7oFWjaQ"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 262
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 286
+            }
+          }
+        ],
+        "text": "Etudiant Samedi 6-15h Carrefour - Waterloo\nTâches : Réassort/affichage des prix/Conseil clientèle/Caisse\nProfil\n- 1ère exp secteur alimentaire, retail...est un +\n- Attacher une importance à la propreté et l'ordre\n- Orienté clients/bonne communication/...\nbuff.ly/7oFWjaQ \n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=7dc415dc41c5b676&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBx67I3qi1vR_zDTZ0LbzkdCdPP&xfps=a3f0a0fa-822a-4406-b561-1f1e12b7a9ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBO67M3qiV8Pr0pHR0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-27T15:28:43.437Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mopgdon42o",
+      "cid": "bafyreihz5nahbopeirksrjti6jbdarjfmwj3vxybvyeaezeq4mycxc54ju",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-27T15:28:38.440Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://dajobs.be/job-offers/JO-RUZL-0MOW"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/AwQpHjM"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant(e) commis de salle - Tubize\nTâches : accueil/service en salle/ propreté et ordre de la salle ...\nProfil : \n- motivé, ponctuel et souriant\n- Bonne présentation/sens du contact\n- 1ère expérience en horeca est un +\n- Français (connaissance du néerl et angl est un +) \nbuff.ly/AwQpHjM \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://dajobs.be/job-offers/JO-RUZL-0MOW",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-27T15:28:38.835Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6hjiawuum25",
       "cid": "bafyreify6mtlx2eittswlx7a4ngap3xjp3tdxk27foxx6ryc6cbl42wohy",
       "author": {
