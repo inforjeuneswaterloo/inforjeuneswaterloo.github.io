@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6jxrunxfz2r",
-      "cid": "bafyreiam6ygmdg3pdespf6fef64i55hrhncd4c5qpxdyebpysurm4v2xae",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6mzpdiaub22",
+      "cid": "bafyreifb7ecnbcc22ohzsgh5jrzeukaeed46pixih75ybkviix25pmmp7e",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-26T13:33:03.807Z",
+        "createdAt": "2025-11-27T18:45:25.215Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "C’est la toute première fois dans l’histoire des COP que le sujet de l’intégrité de l’information est à...",
+            "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq"
+                "$link": "bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu"
               },
               "mimeType": "image/jpeg",
-              "size": 292267
+              "size": 64403
             },
-            "title": "COP 30 : la Belgique signe la première déclaration internationale contre la désinformation climatique - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/cop-30-la-belgique-signe-la-premiere-declaration-internationale-contre-la-desinformation-climatique-11634743"
+            "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
+            "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/"
           }
         },
         "facets": [
@@ -44,48 +44,60 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "COP30"
+                "tag": "genZ"
               }
             ],
             "index": {
-              "byteEnd": 272,
-              "byteStart": 266
+              "byteEnd": 13,
+              "byteStart": 8
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "environnement"
+                "tag": "quittoking"
               }
             ],
             "index": {
-              "byteEnd": 287,
-              "byteStart": 273
+              "byteEnd": 253,
+              "byteStart": 242
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "begov"
+                "tag": "travail"
               }
             ],
             "index": {
-              "byteEnd": 294,
-              "byteStart": 288
+              "byteEnd": 262,
+              "byteStart": 254
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "genZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 263
             }
           }
         ],
-        "text": "La Belgique s'engage à promouvoir l’intégrité des informations relatives au changement climatique.  Jean-Luc Crucke, ministre fédéral du climat, a d'ailleurs annoncé le lancement d’un plan d’action national de lutte contre la désinformation climatique.\n#COP30 #environnement #begov"
+        "text": "Pour la #genZ la priorité n'est plus le travail mais les conditions de vie.  Le travail n'est qu'un moyen de les améliorer. 92 % des jeunes diplômés accordent plus d'importance à la réussite de leur vie personnelle que professionnelle.\n#quittoking #travail #genZ"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.rtbf.be/article/cop-30-la-belgique-signe-la-premiere-declaration-internationale-contre-la-desinformation-climatique-11634743",
-          "title": "COP 30 : la Belgique signe la première déclaration internationale contre la désinformation climatique - RTBF Actus",
-          "description": "C’est la toute première fois dans l’histoire des COP que le sujet de l’intégrité de l’information est à...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq@jpeg"
+          "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/",
+          "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
+          "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -93,7 +105,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-11-26T13:33:05.730Z",
+      "indexedAt": "2025-11-27T18:45:27.532Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -101,7 +113,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu@jpeg"
     }
   ]
 }

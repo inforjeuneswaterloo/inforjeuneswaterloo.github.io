@@ -1,6 +1,120 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6mzpdiaub22",
+      "cid": "bafyreifb7ecnbcc22ohzsgh5jrzeukaeed46pixih75ybkviix25pmmp7e",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-27T18:45:25.215Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 64403
+            },
+            "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
+            "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "genZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 13,
+              "byteStart": 8
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "quittoking"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "travail"
+              }
+            ],
+            "index": {
+              "byteEnd": 262,
+              "byteStart": 254
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "genZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 263
+            }
+          }
+        ],
+        "text": "Pour la #genZ la priorité n'est plus le travail mais les conditions de vie.  Le travail n'est qu'un moyen de les améliorer. 92 % des jeunes diplômés accordent plus d'importance à la réussite de leur vie personnelle que professionnelle.\n#quittoking #travail #genZ"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/",
+          "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
+          "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-27T18:45:27.532Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6lqmqmtzq2o",
       "cid": "bafyreigzzqjdq6eh5kjac4b5wlthmuecdhrvarmaedmmmgfya4eqfk4a2i",
       "author": {
@@ -614,7 +728,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -10718,129 +10832,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-23T12:12:05.556Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgfqq3y6tu2j",
-      "cid": "bafyreieoytbdjjjloudy3i2g3z4qra5q2lt3pkf2yo2bq2tuomhtmcnpkm",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-23T11:11:31.365Z",
-        "embed": {
-          "$type": "app.bsky.embed.images",
-          "images": [
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 669,
-                "width": 1189
-              },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreidqvlskutqgedbatw2l5wlhmi3gmxxpzq6z7w4ugcdc27dgatq5uy"
-                },
-                "mimeType": "image/jpeg",
-                "size": 70356
-              }
-            }
-          ]
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "groenlandgate"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 246
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "usa"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 262
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
-              }
-            ],
-            "index": {
-              "byteEnd": 275,
-              "byteStart": 268
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/42l07Nu"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 277
-            }
-          }
-        ],
-        "text": "La réaction du chef du gouvernement du Groenland: \n\"Le Groenland (...) fait partie intégrante de notre pays et n'est pas à vendre. Laissez-moi vous le dire avec des mots que vous pourriez comprendre : Monsieur Trump, allez vous faire foutre\" \n#groenlandgate, #usa, #europe\n\nhttps://buff.ly/42l07Nu z"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.images#view",
-        "images": [
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidqvlskutqgedbatw2l5wlhmi3gmxxpzq6z7w4ugcdc27dgatq5uy@jpeg",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidqvlskutqgedbatw2l5wlhmi3gmxxpzq6z7w4ugcdc27dgatq5uy@jpeg",
-            "alt": "",
-            "aspectRatio": {
-              "height": 669,
-              "width": 1189
-            }
-          }
-        ]
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-23T11:11:33.056Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
