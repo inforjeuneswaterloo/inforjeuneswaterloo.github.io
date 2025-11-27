@@ -12,3 +12,37 @@ a{
 .border-slate-0 {
   border: none
 }
+/* Personnalisation de la Timeline */
+.timeline-icon {
+    z-index: 10;
+    font-size: 1.25rem;
+}
+
+.timeline-line {
+    width: 2px;
+    /* Couleur par défaut de la ligne */
+    background-color: #6c757d !important;
+}
+
+.timeline-item {
+    /* Utilisation de la grille Bootstrap avec des marges négatives pour le design */
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.post-root-card {
+    /* Style pour lier visuellement le post principal au début de la ligne verticale */
+    border-left: 5px solid #28a745;
+}
+
+/* Rendre le défilement horizontal des réponses agréable */
+.overflow-auto {
+    /* Ajoute un peu d'espace si l'utilisateur doit faire défiler horizontalement */
+    padding-bottom: 10px; 
+}
+
+.reply-card {
+    /* S'assure que chaque carte de réponse a une taille raisonnable mais n'est pas trop grande */
+    max-width: 350px;
+    min-width: 280px; 
+}

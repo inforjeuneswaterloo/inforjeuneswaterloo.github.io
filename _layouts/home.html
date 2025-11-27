@@ -52,10 +52,10 @@ layout: fw
     </div>
   </div>
   <div class="row mb-4">
-    {%if bluesky_feed| size > 0 %}
+    {%if bluesky_feed | size > 0 %}
       <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
       {% if page.url == '/' %}
-        {%include snippets/bsky-feed.html bsky=site.data.bluesky_posts.posts limit=4 %}
+        {%include snippets/bsky-feed-truncate.html bsky=site.data.bluesky_posts.posts limit=4%}
       {% elsif page.url=='/yotm/' %}
         {% include snippets/bsky-feed.html bsky=site.data.bluesky_yotm_posts.posts limit=4 %}
       {% endif %}

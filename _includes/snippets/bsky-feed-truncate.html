@@ -1,9 +1,10 @@
 
     {% assign bluesky_feed=include.bsky %}
     {% if bluesky_feed %}
-        {% assign limit = include.limit | default: bluesky_feed.size %}
-        {% assign bluesky_feed = bluesky_feed | slice: 0, limit %}
-        {% for post in bluesky_feed %}
+       {% assign bluesky_skeets = bluesky_feed | where: "record.reply", nil %}
+       {% assign limit=include.limit | default: bluesky_skeets.size %} 
+       {% assign bluesky_skeets = bluesky_skeets | slice : 0,limit %}
+       {% for post in bluesky_skeets %}
             {% assign post_cid = post.cid %}
             {% assign post_replies = post.replyCount %}
             {% assign post_record = post.record %}
@@ -53,8 +54,7 @@
                     </div>
                 </div>
             {%endif%}
-
         {% endfor %}
     {% else %}
-        <p class="col-12">Le flux Bluesky n'a pas pu être chargé ou est vide.</p>
-    {% endif %}
+         <p class="col-12">Le flux Bluesky n'a pas pu être chargé ou est vide.</p>
+    {%endif%}
