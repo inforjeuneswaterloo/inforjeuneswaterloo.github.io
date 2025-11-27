@@ -1,11 +1,10 @@
 ---
 layout: fw
 title: Keskisspasse ? La boîte à potins
-permalink: /bluesky/
+permalink: /actu/
 ---
 
 <h1>{{page.title}}</h1>
 <div class="row mt-4 mb-2">
-    {% assign bluesky_feed = site.data.bluesky_posts.posts %}
-    {% include snippets/bsky-feed.html limit=10 %}
+    {% include snippets/bsky-feed.html bsky=site.data.bluesky_posts.posts limit=10 %}
 </div>
