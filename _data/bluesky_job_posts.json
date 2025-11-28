@@ -1,6 +1,267 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6opew5cel2i",
+      "cid": "bafyreiefkaxq7pnfgwjswmbipxbwlearyvpxsu66tg4hpqttmoerhawflq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T10:45:58.288Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "OFFRE D\\u2019EMPLOI \\u2013 \\u00c9TUDIANT TRILINGUE (FR\\/EN\\/NL)R\\u00e9ception \\u2013 Braine-l\\u2019AlleudDates : 22,23, 29, 30 et 31 d\\u00e9cembre 2026Nous recherchons un(e) \\u00e9tudiant(e)…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiant.e réceptionniste trilingue",
+            "uri": "https://www.actief.be/fr/jobs/administration-et-secretariat/etudiante-receptionniste-trilingue/767984"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/jS2pkEX"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant(e) réceptionniste trilingue Braine-l'Alleud\n22,23, 29 au 31/12\n- Assurer l’accueil téléphonique et physique des visiteurs\n- Orienter les clients et fournisseurs\n- Gérer de petites tâches administratives\n- Garantir 1 image professionnelle et accueillante de la société\nbuff.ly/jS2pkEX\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.actief.be/fr/jobs/administration-et-secretariat/etudiante-receptionniste-trilingue/767984",
+          "title": "Etudiant.e réceptionniste trilingue",
+          "description": "OFFRE D\\u2019EMPLOI \\u2013 \\u00c9TUDIANT TRILINGUE (FR\\/EN\\/NL)R\\u00e9ception \\u2013 Braine-l\\u2019AlleudDates : 22,23, 29, 30 et 31 d\\u00e9cembre 2026Nous recherchons un(e) \\u00e9tudiant(e)…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T10:46:00.331Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6oovmxzze2a",
+      "cid": "bafyreieceqlvixptlgzlarzdqyu4mtbyn5uvoyzdrsckpm4nfembzhbohy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T10:37:26.201Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à...",
+            "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/e4NuGHb"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Etudiant(e) en hôtellerie à La Hulpe\n- Assurer un service professionnel en salle et/ou au bar\n- Dresser/débarrasser les tables\n- Participer à la mise en place et au service des banquets, mariages ou séminaires\n- Maintenir la propreté et l’ordre des espaces de travail\nbuff.ly/e4NuGHb \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
+          "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T10:37:26.656Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6onsennt224",
+      "cid": "bafyreifjg7bn4m2pj7we3sblwilmo3gjjrpjlzfulpsjkxgldosdgr6ilu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T10:17:43.067Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant - préparation de commandes H/F/XRéférence 5657724 |Créé le 21 novembre 2025Famille de mé...",
+            "title": "Job étudiant - préparation de commandes H/F/X - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/job-etudiant-preparation-de-commandes-hfx.61371vY1QU11?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/DBOLPiU"
+              }
+            ],
+            "index": {
+              "byteEnd": 280,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Job étudiant - préparation de commandes Waterloo\n- Dispo le samedi + en semaine pendant les vacances scolaires\n- Tu peux travailler sur deux horaires : 7h-15h ou 11h-19h\n- Une première expérience en préparation de commandes est un plus , mais pas obligatoire \nbuff.ly/DBOLPiU \n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/job-etudiant-preparation-de-commandes-hfx.61371vY1QU11?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Job étudiant - préparation de commandes H/F/X - Trovit Emploi",
+          "description": "Job étudiant - préparation de commandes H/F/XRéférence 5657724 |Créé le 21 novembre 2025Famille de mé..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T10:17:43.432Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6omkaz7ke2d",
       "cid": "bafyreifxuyzidunpi4mz2wxfco53scocbgsuhuak7togefyltml2hejcoe",
       "author": {
