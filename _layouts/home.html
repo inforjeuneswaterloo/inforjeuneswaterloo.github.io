@@ -32,10 +32,9 @@ layout: fw
               {% if page.url == '/' %}
                 {% if bluesky_job_feed.posts | size > 0 %}
                   <div class="d-flex flex-row-start mb-2">
-                    <div class=" alert alert-warning mt-2">
-                        Il y a <span class="display-6">{{ bluesky_job_feed.posts | size }}</span>&nbsp;offres de job à découvrir
-                        &nbsp;<a class="btn btn-primary text-white text-decoration-none" href="/jobs/" target="_self">ici</a>
-                    </div>
+                    <a class="btn btn-lg btn-primary text-white text-decoration-none" href="/jobs/" target="_self">
+                      Les dernières offres de job&nbsp;<i class="fa-solid fa-arrow-right"></i>
+                    </a>
                   </div>
                 {% endif %}
               {% endif %}
