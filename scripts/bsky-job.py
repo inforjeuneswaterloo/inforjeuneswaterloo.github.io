@@ -6,9 +6,9 @@ import re
 import datetime # ⬅️ Ajout de l'importation nécessaire pour la gestion des dates
 
 # --- Configuration Globale (Lue depuis GitHub Actions Secrets/ENV) ---
-USERNAME = os.environ.get("BLUESKY_USERNAME")
-PASSWORD = os.environ.get("BLUESKY_APP_PASSWORD") 
-BLUESKY_DID = os.environ.get("BSKY_DID_PLC") 
+USERNAME = os.environ.get("BLUESKY_JOB_USERNAME")
+PASSWORD = os.environ.get("BLUESKY_JOB_PASSWORD") 
+BLUESKY_DID = os.environ.get("BLUESKY_JOB_DID_PLC") 
 
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
