@@ -12,7 +12,7 @@ BLUESKY_DID = os.environ.get("BLUESKY_JOB_DID_PLC")
 
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
-TARGET_TAG = "yotm" 
+TARGET_TAG = "ij410" 
 OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"bluesky_{TARGET_TAG}_posts.json") 
 OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_posts.json")
 OUTPUT_PINNED_FILE = os.path.join(DATA_DIR, "bsky_posts_pinned.json") 
