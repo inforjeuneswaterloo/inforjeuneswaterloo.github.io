@@ -3,6 +3,7 @@ import json
 import os
 import pytz
 import re
+import datetime # ⬅️ Ajout de l'importation nécessaire pour la gestion des dates
 
 # --- Configuration Globale (Lue depuis GitHub Actions Secrets/ENV) ---
 USERNAME = os.environ.get("BLUESKY_USERNAME")
@@ -31,6 +32,23 @@ def clean_data_directory(directory):
     """Crée le répertoire _data s'il n'existe pas."""
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+# 🚩 NOUVEAU : Fonction utilitaire pour la conversion et localisation des dates
+def localize_bluesky_timestamp(timestamp_str, target_tz):
+    """Convertit une chaîne de temps Bluesky (UTC) en objet datetime localisé."""
+    try:
+        # 1. Parse la chaîne en un objet datetime (naive), en ignorant les millisecondes après le point
+        dt_utc_naive = datetime.datetime.strptime(timestamp_str.split('.')[0], '%Y-%m-%dT%H:%M:%S')
+        
+        # 2. Rend l'objet conscient (aware) qu'il est en UTC
+        dt_utc_aware = pytz.utc.localize(dt_utc_naive)
+        
+        # 3. Convertit l'heure UTC en l'heure cible
+        dt_localized = dt_utc_aware.astimezone(target_tz)
+        
+        return dt_localized
+    except Exception:
+        return None
 
 def get_post_image_url(post):
     """Tente d'extraire l'URL de la vignette d'un post Bluesky."""
@@ -80,12 +98,10 @@ def save_data_to_json(data_list, output_path):
         print(f"❌ Erreur lors de l'écriture du fichier JSON '{output_path}': {e}")
         return False
 
-# 🚩 CORRECTION : AJOUT DE L'ARGUMENT 'headers'
 def get_pinned_post_uri(session, did, headers):
     """Récupère l'URI (at://...) du post épinglé d'un utilisateur depuis son profil."""
     profile_url = f"{API_PDS}/xrpc/app.bsky.actor.getProfile?actor={did}"
     try:
-        # 🚩 CORRECTION : Passage de l'en-tête d'autorisation
         response = session.get(profile_url, headers=headers)
         response.raise_for_status()
         profile_data = response.json()
@@ -99,7 +115,7 @@ def get_pinned_post_uri(session, did, headers):
 
 # --- Fonction Principale ---
 def fetch_bluesky_feed():
-    """Authentifie, récupère le flux, filtre par tag, recherche le post épinglé et sauvegarde les trois fichiers."""
+    """Authentifie, récupère le flux, filtre par tag et temps, recherche le post épinglé et sauvegarde les trois fichiers."""
     
     if not all([USERNAME, PASSWORD, BLUESKY_DID]):
         print("❌ Erreur de configuration : Un ou plusieurs identifiants Bluesky sont manquants.")
@@ -119,7 +135,13 @@ def fetch_bluesky_feed():
         
         print(f"✅ Authentification réussie. Récupération du flux (limite: {FEED_LIMIT})...")
 
-        # 🚩 CORRECTION : PASSAGE DE L'ARGUMENT 'headers'
+        # 🚩 Bornage Temporel : Calcul de la date limite (-7 jours)
+        time_limit_days = 7 # ⬅️ Borne fixée à 7 jours
+        now_localized = datetime.datetime.now(TARGET_TIMEZONE)
+        time_cutoff = now_localized - datetime.timedelta(days=time_limit_days)
+        print(f"⏰ Bornage actif : Ne conserver que les posts postérieurs au {time_cutoff.strftime('%Y-%m-%d %H:%M:%S %Z')}.")
+
+        # 2. Récupération de l'URI du post épinglé
         pinned_post_uri = get_pinned_post_uri(session, BLUESKY_DID, headers)
         if pinned_post_uri:
             print(f"✅ URI du post épinglé trouvé : {pinned_post_uri}")
@@ -138,7 +160,7 @@ def fetch_bluesky_feed():
         
         # On extrait seulement le 'post' de chaque 'item' pour simplifier le JSON de sortie
         all_posts_data = [item.get('post') for item in all_feed_items if item.get('post')]
-        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes ---
+        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes (sans filtrage) ---
         save_data_to_json(all_posts_data, OUTPUT_ALL_FILE)
 
 
@@ -154,35 +176,44 @@ def fetch_bluesky_feed():
             
             if post:
                 
-                # 🚩 CORRECTION : LOGIQUE ROBUSTE DE VÉRIFICATION DU PIN
-                is_pinned = False
+                # 🚩 FILTRAGE 2 : Vérification du Bornage Temporel
+                created_at_str = post.get('record', {}).get('createdAt')
+                if not created_at_str:
+                    continue 
+
+                post_date = localize_bluesky_timestamp(created_at_str, TARGET_TIMEZONE)
                 
-                # Méthode A: Vérification par l'URI officielle (la plus fiable si getProfile a réussi)
+                if not post_date or post_date < time_cutoff:
+                    # Le post est trop ancien ou la date est invalide, on passe
+                    continue 
+                
+                # Ajout de la date localisée pour le JSON de sortie
+                post['created_at_localized'] = post_date.isoformat()
+
+
+                # FILTRAGE 3 : Logique de l'épingle (is_pinned)
+                is_pinned = False
                 if pinned_post_uri and post.get('uri') == pinned_post_uri:
                     is_pinned = True
-                
-                # Méthode B: Vérification par l'indicateur 'viewer.pinned' (méthode de secours)
                 elif post.get('viewer', {}).get('pinned') is True:
                     is_pinned = True
 
-                # Traitement si le post est épinglé (méthodes A ou B)
+                # Traitement si le post est épinglé
                 if is_pinned:
-                    # Le post épinglé est traité et ajouté à sa liste dédiée
                     post_text = post['record']['text']
                     cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
                     post['record']['text'] = cleaned_text 
                     post['image_url'] = get_post_image_url(post)
                     
+                    # Le post épinglé (s'il est récent) est ajouté ici
                     pinned_posts.append(post)
-                    
-                    # On passe au post suivant car il a déjà été traité pour le pin
                     continue 
                 
-                # FILTRAGE 3 : Vérification du Tag Cible
+                # FILTRAGE 4 : Vérification du Tag Cible
                 if not post_has_tag(post, TARGET_TAG):
                     continue 
 
-                # --- Traitement des posts VALIDES ET FILTRÉS (par tag) ---
+                # --- Traitement des posts VALIDES, FILTRÉS (par tag et temps) ---
                 
                 post_text = post['record']['text']
                 cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
@@ -192,10 +223,10 @@ def fetch_bluesky_feed():
                 
                 yotm_posts.append(post)
 
-        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré (par tag)
+        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré (par tag et temps)
         save_data_to_json(yotm_posts, OUTPUT_FILTERED_FILE)
         
-        # 5. Sauvegarde finale du Fichier 3 : Les posts épinglés
+        # 5. Sauvegarde finale du Fichier 3 : Les posts épinglés (qui sont récents)
         if pinned_posts:
             save_data_to_json(pinned_posts, OUTPUT_PINNED_FILE)
         else:
