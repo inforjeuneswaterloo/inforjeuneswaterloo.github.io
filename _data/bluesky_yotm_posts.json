@@ -126,8 +126,276 @@
         "pinned": false
       },
       "labels": [],
-      "created_at_localized": "2025-11-26T10:45:13+01:00",
       "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym@jpeg"
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m4vavo4jvs2v",
+      "cid": "bafyreiag4nsmmrvnmaijutzyihknre3yrc3xcyvbyaalmif7mxlyj4c57u",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-05T14:25:10.106Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "YouTube video by Infor Jeunes Waterloo ASBL",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 612972
+            },
+            "title": "Témoignage Malorie  : PVT en Australie",
+            "uri": "https://www.youtube.com/watch?v=NNUJnx9-_QQ&list=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "timetomove"
+              }
+            ],
+            "index": {
+              "byteEnd": 255,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "pvt"
+              }
+            ],
+            "index": {
+              "byteEnd": 260,
+              "byteStart": 256
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Australie"
+              }
+            ],
+            "index": {
+              "byteEnd": 271,
+              "byteStart": 261
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "yotm"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "helloworld"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "international"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 290
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "Découvre le témoignage de Malorie. Elle nous raconte comment elle a franchi le pas.  Elle nous parle de ses premières galères pour trouver un job, de la façon dont elle a appris l’anglais, de ses rencontres et des voyages en Australie .\n#timetomove #pvt #Australie #yotm #helloworld #international"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.youtube.com/watch?v=NNUJnx9-_QQ&list=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW",
+          "title": "Témoignage Malorie  : PVT en Australie",
+          "description": "YouTube video by Infor Jeunes Waterloo ASBL",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-05T14:25:13.659Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": [],
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i@jpeg"
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3llts6l2nrl2j",
+      "cid": "bafyreid4ygt34n5vrhizihxqlrn63lielx56duf2s4wdeyuxhkt4qbo6vi",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-04-02T16:20:43.905Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm"
+              },
+              "mimeType": "image/jpeg",
+              "size": 304602
+            },
+            "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
+            "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://youth.europa.eu/discovereu_fr"
+              }
+            ],
+            "index": {
+              "byteEnd": 213,
+              "byteStart": 184
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "mtts"
+              }
+            ],
+            "index": {
+              "byteEnd": 221,
+              "byteStart": 216
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "yotm"
+              }
+            ],
+            "index": {
+              "byteEnd": 227,
+              "byteStart": 222
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 235,
+              "byteStart": 228
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "discoverEu"
+              }
+            ],
+            "index": {
+              "byteEnd": 247,
+              "byteStart": 236
+            }
+          }
+        ],
+        "text": "900 jeunes Belges de 18 ans pourront tenter de recevoir un pass Interrail gratuit pour parcourir plus de 30 pays du continent en train. \nDate limite de candidature: 16/04 -12h.\n➡️ youth.europa.eu/discovereu_fr \n\n#mtts #yotm #europe #discoverEu"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570",
+          "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
+          "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-04-02T16:20:46.508Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": [],
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm@jpeg"
     }
   ]
 }
