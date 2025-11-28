@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6omkaz7ke2d",
+      "cid": "bafyreifxuyzidunpi4mz2wxfco53scocbgsuhuak7togefyltml2hejcoe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T09:55:16.274Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / Genappe)Votre tâche principale sera la préparation de sandwiches, vous...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant Employé.e station service",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5131150?JobId=5131150&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kVwTMmJ"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant Employé.e station service à Nivelles\n- Tâche principale: préparation de sandwiches mais aussi la caisse, le réassort ou au restaurant\nProfil\n- Vous êtes véhiculé(e)\n- Vous possédez une expérience similaire\n- Vous êtes disposés à travailler en horaires décalés\n\nbuff.ly/kVwTMmJ \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5131150?JobId=5131150&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Etudiant Employé.e station service",
+          "description": "Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / Genappe)Votre tâche principale sera la préparation de sandwiches, vous...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T09:55:21.132Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6olxnhcz42d",
+      "cid": "bafyreifjdb4snrutsrj5eimjghapuhidmmwycfy2lv5lzymg4kap3x7o6q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T09:44:51.784Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "ob étudiant – Communication digitale à Saintes (ZI 1480) Tu es étudiant(e) en communication et à l’aise avec les outils digitaux??Tu es bilingue néerlandais/ francais?Rejoins notre partenaire...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant en Communication",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5125104?JobId=5125104&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/KNxVKMk"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 283
+            }
+          }
+        ],
+        "text": "Etudiant en Communication ou Marketing à Saintes\n\n- Tes missions : création de tutoriels (photos/vidéos sur chantier) + archivage et classement + création de flyers\n- Très bon bilingue néerlandais/ français (critère indispensable)\n- Permis B indispensable \n\nbuff.ly/KNxVKMk \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5125104?JobId=5125104&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Etudiant en Communication",
+          "description": "ob étudiant – Communication digitale à Saintes (ZI 1480) Tu es étudiant(e) en communication et à l’aise avec les outils digitaux??Tu es bilingue néerlandais/ francais?Rejoins notre partenaire...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T09:44:53.030Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6oknra5y72l",
+      "cid": "bafyreifzlr6ycdaw6uhu5qwkm3e2743ogapvyfiwg2acvvof6ldv7o3tve",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T09:21:27.262Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=6b24346620f5a426&q=Etudiant&l=Brabant-wallon&tk=1jb4h0p4j20hd002&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBT67I3qk92HUT77h0LbzkdCdPP&xfps=c935ff7b-4c3c-4783-ad19-686e572d9dc2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb4h0p4j20hd002&xkcb=SoBD67M3qklMbHUpL50WbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/WqIHNmj"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 261
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 278
+            }
+          }
+        ],
+        "text": "Job étudiant : Préparateur/trice de commandes Braine-le-Château\n· Conditionner, emballer et étiqueter des produits pharmaceutiques\n· Respect des objectifs fixés en productivité\n· Traçabilité des opérations en cours dans les documents de fabrication\nbuff.ly/WqIHNmj \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=6b24346620f5a426&q=Etudiant&l=Brabant-wallon&tk=1jb4h0p4j20hd002&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBT67I3qk92HUT77h0LbzkdCdPP&xfps=c935ff7b-4c3c-4783-ad19-686e572d9dc2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb4h0p4j20hd002&xkcb=SoBD67M3qklMbHUpL50WbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T09:21:27.828Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mp3ovf262i",
       "cid": "bafyreibiinkcnv4p64xvnrv2rcztqmwdacfuvd27a4duj66zdwpmxnr4ta",
       "author": {
