@@ -1,6 +1,97 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6ob3jyixj2v",
+      "cid": "bafyreieddpkfzf4ud5eq3qauyixm24wpxhdd4zukdhzt225njfbbaq6g4u",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-11-28T06:30:11.072Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le mantra « rien à cacher » légitime une surveillance intrusive et biaisée. Nos données, même innocentes, peuvent discriminer, contrôler, manipuler. Défendre la vie privée, c’est préserver liberté,…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidhypfibu4bf453bo7w55kvjdirebxokzyzxtvp2r4n5wo7r6cbtq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 75371
+            },
+            "title": "L’imposture de l’innocence : pourquoi « je n’ai rien à cacher » est une capitulation démocratique",
+            "uri": "https://www.lesoir.be/711561/article/2025-11-18/limposture-de-linnocence-pourquoi-je-nai-rien-cacher-est-une-capitulation?noCookies=1"
+          }
+        },
+        "facets": [
+          {
+            "$type": "app.bsky.richtext.facet",
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#mention",
+                "did": "did:plc:4g47am3z64uj4f4jhxwqte3l"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "\"L’agrégation de données « innocentes » (...) peut servir à vous discriminer pour une assurance, vous refuser un emploi, vous placer sur une liste de surveillance. Vous n’aviez rien à cacher. Le système a créé quelque chose à vous reprocher.\"\nEdifiant. Glaçant.\n@amnesty.be \n#tech"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.lesoir.be/711561/article/2025-11-18/limposture-de-linnocence-pourquoi-je-nai-rien-cacher-est-une-capitulation?noCookies=1",
+          "title": "L’imposture de l’innocence : pourquoi « je n’ai rien à cacher » est une capitulation démocratique",
+          "description": "Le mantra « rien à cacher » légitime une surveillance intrusive et biaisée. Nos données, même innocentes, peuvent discriminer, contrôler, manipuler. Défendre la vie privée, c’est préserver liberté,…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidhypfibu4bf453bo7w55kvjdirebxokzyzxtvp2r4n5wo7r6cbtq@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-11-28T06:30:12.829Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6mzpdiaub22",
       "cid": "bafyreifb7ecnbcc22ohzsgh5jrzeukaeed46pixih75ybkviix25pmmp7e",
       "author": {
@@ -10742,96 +10833,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-27T11:28:09.448Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgfu4emqis22",
-      "cid": "bafyreihgywha67hjbk767r66sgrlysaleufbafjhr5prqvxifp22iv6gpm",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-23T12:12:04.501Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "groenlandgate"
-              }
-            ],
-            "index": {
-              "byteEnd": 186,
-              "byteStart": 172
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "usa"
-              }
-            ],
-            "index": {
-              "byteEnd": 191,
-              "byteStart": 187
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
-              }
-            ],
-            "index": {
-              "byteEnd": 199,
-              "byteStart": 192
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreieoytbdjjjloudy3i2g3z4qra5q2lt3pkf2yo2bq2tuomhtmcnpkm",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgfqq3y6tu2j"
-          },
-          "root": {
-            "cid": "bafyreieoytbdjjjloudy3i2g3z4qra5q2lt3pkf2yo2bq2tuomhtmcnpkm",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgfqq3y6tu2j"
-          }
-        },
-        "text": "Erratum: j'ai mal attribué les propos, ils ne sont pas du fait du premier ministre du Groenland, mais bien de @AndersVistisen, homme politique danois.\n❤️Love you bro!\n#groenlandgate #usa #europe"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-23T12:12:05.556Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
