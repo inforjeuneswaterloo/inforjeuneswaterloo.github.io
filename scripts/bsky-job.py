@@ -14,65 +14,65 @@ BLUESKY_DID = os.environ.get("BLUESKY_JOB_DID_PLC")
 
 # Configuration du fichier de sortie et du filtre
 DATA_DIR = "_data"
-TARGET_TAG = "ij410" 
-OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"bluesky_job_waterloo_posts.json") 
+TARGET_TAG = "ij1410" 
+OUTPUT_FILTERED_FILE = os.path.join(DATA_DIR, f"bluesky_jobs_waterloo_posts.json") 
 OUTPUT_ALL_FILE = os.path.join(DATA_DIR, "bluesky_job_posts.json")
+OUTPUT_PINNED_FILE = os.path.join(DATA_DIR, "bsky_posts_pinned.json") 
 TARGET_TIMEZONE = pytz.timezone('Europe/Brussels') 
 
 # URL de l'API et du Flux (définition globale)
 API_PDS = "https://bsky.social"
 FEED_LIMIT = 100 
+FEED_URL = f"{API_PDS}/xrpc/app.bsky.feed.getAuthorFeed?actor={BLUESKY_DID}&limit={FEED_LIMIT}"
 
 # Regex pour identifier les URLs
 URL_REGEX = r"https?://[^\s]+|www\.[^\s]+" 
 
-# --- Variables Globales pour le Jeton (à gérer par la fonction principale) ---
-global_access_jwt = None
-global_refresh_jwt = None
+# --- Fonctions Utilitaires ---
 
-# --- Fonctions Utilitaires (inchangées) ---
 def clean_data_directory(directory):
+    """Crée le répertoire _data s'il n'existe pas."""
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def localize_bluesky_timestamp(timestamp_str, target_tz):
-    try:
-        dt_utc_naive = datetime.datetime.strptime(timestamp_str.split('.')[0], '%Y-%m-%dT%H:%M:%S')
-        dt_utc_aware = pytz.utc.localize(dt_utc_naive)
-        dt_localized = dt_utc_aware.astimezone(target_tz)
-        return dt_localized
-    except Exception:
-        return None
-
 def get_post_image_url(post):
+    """Tente d'extraire l'URL de la vignette d'un post Bluesky."""
     embed = post.get('embed')
-    if not embed: return None
+    if not embed:
+        return None
     embed_type = embed.get('$type')
     if embed_type == 'app.bsky.embed.images':
         images = embed.get('images')
-        if images and len(images) > 0: return images[0].get('thumb') 
+        if images and len(images) > 0:
+            return images[0].get('thumb') 
     elif embed_type == 'app.bsky.embed.recordWithMedia':
         media = embed.get('media')
         if media and media.get('$type') == 'app.bsky.embed.images':
             images = media.get('images')
-            if images and len(images) > 0: return images[0].get('thumb')
+            if images and len(images) > 0:
+                return images[0].get('thumb')
     elif embed_type == 'app.bsky.embed.external#view' or embed_type == 'app.bsky.embed.external':
         external = embed.get('external')
-        if external and external.get('thumb'): return external.get('thumb')
+        if external and external.get('thumb'):
+            return external.get('thumb')
     return None
 
 def post_has_tag(post, target_tag):
+    """Vérifie si un post Bluesky contient le hashtag cible en utilisant les 'facets'."""
     facets = post.get('record', {}).get('facets')
-    if not facets: return False
+    if not facets:
+        return False
     normalized_target_tag = target_tag.lower().lstrip('#')
     for facet in facets:
         for feature in facet.get('features', []):
             if feature.get('$type') == 'app.bsky.richtext.facet#tag':
                 tag = feature.get('tag')
-                if tag and tag.lower() == normalized_target_tag: return True
+                if tag and tag.lower() == normalized_target_tag:
+                    return True
     return False
 
 def save_data_to_json(data_list, output_path):
+    """Sauvegarde la liste des posts dans le fichier JSON spécifié."""
     clean_data_directory(DATA_DIR)
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -83,37 +83,26 @@ def save_data_to_json(data_list, output_path):
         print(f"❌ Erreur lors de l'écriture du fichier JSON '{output_path}': {e}")
         return False
 
-# --- NOUVELLE FONCTION : Rafraîchissement du Jeton ---
-def refresh_session(session, current_refresh_jwt):
-    """Utilise le refresh token pour obtenir un nouvel access token."""
-    refresh_url = f"{API_PDS}/xrpc/com.atproto.server.refreshSession"
-    refresh_headers = {"Authorization": f"Bearer {current_refresh_jwt}"}
-    
+# 🚩 CORRECTION : AJOUT DE L'ARGUMENT 'headers'
+def get_pinned_post_uri(session, did, headers):
+    """Récupère l'URI (at://...) du post épinglé d'un utilisateur depuis son profil."""
+    profile_url = f"{API_PDS}/xrpc/app.bsky.actor.getProfile?actor={did}"
     try:
-        response = session.post(refresh_url, headers=refresh_headers)
+        # 🚩 CORRECTION : Passage de l'en-tête d'autorisation
+        response = session.get(profile_url, headers=headers)
         response.raise_for_status()
-        new_data = response.json()
-        
-        # Mettre à jour les jetons globaux
-        global global_access_jwt
-        global global_refresh_jwt
-
-        global_access_jwt = new_data.get('accessJwt')
-        # Le refresh token peut aussi être mis à jour
-        global_refresh_jwt = new_data.get('refreshJwt') or current_refresh_jwt
-        
-        print("✅ Jeton d'accès rafraîchi avec succès.")
-        return True
+        profile_data = response.json()
+        return profile_data.get('pinnedPost') 
     except requests.exceptions.HTTPError as e:
-        if e.response.status_code == 401:
-            print("❌ Échec du rafraîchissement : Jeton de rafraîchissement invalide ou expiré.")
-        else:
-            print(f"❌ Erreur HTTP lors du rafraîchissement du jeton : {e}")
-        return False
+        print(f"❌ Erreur lors de la récupération du profil pour le post épinglé : {e}")
+        return None
+    except Exception as e:
+        print(f"❌ Erreur inattendue lors de la récupération du post épinglé : {e}")
+        return None
 
-# --- Fonction Principale Modifiée ---
+# --- Fonction Principale ---
 def fetch_bluesky_feed():
-    """Authentifie, récupère le flux, filtre par tag et temps, recherche le post épinglé et sauvegarde les trois fichiers."""
+    """Authentifie, récupère le flux, filtre par tag, recherche le post épinglé et sauvegarde les trois fichiers."""
     
     if not all([USERNAME, PASSWORD, BLUESKY_DID]):
         print("❌ Erreur de configuration : Un ou plusieurs identifiants Bluesky sont manquants.")
@@ -123,88 +112,101 @@ def fetch_bluesky_feed():
     auth_url = f"{API_PDS}/xrpc/com.atproto.server.createSession"
     auth_payload = {"identifier": USERNAME, "password": PASSWORD}
     
-    global global_access_jwt
-    global global_refresh_jwt
-    
     try:
-        # 1. Authentification initiale (obtenir les deux jetons)
+        # 1. Authentification
         auth_response = session.post(auth_url, json=auth_payload)
         auth_response.raise_for_status()
         auth_data = auth_response.json()
+        access_jwt = auth_data.get('accessJwt')
+        headers = {"Authorization": f"Bearer {access_jwt}"}
         
-        global_access_jwt = auth_data.get('accessJwt')
-        global_refresh_jwt = auth_data.get('refreshJwt') # <-- Le jeton de rafraîchissement est essentiel!
-
         print(f"✅ Authentification réussie. Récupération du flux (limite: {FEED_LIMIT})...")
 
-        # 🚩 Bornage Temporel : Calcul de la date limite (-7 jours)
-        time_limit_days = 7 
-        now_localized = datetime.datetime.now(TARGET_TIMEZONE)
-        time_cutoff = now_localized - datetime.timedelta(days=time_limit_days)
-        print(f"⏰ Bornage actif : Ne conserver que les posts postérieurs au {time_cutoff.strftime('%Y-%m-%d %H:%M:%S %Z')}.")
-
+        # 🚩 CORRECTION : PASSAGE DE L'ARGUMENT 'headers'
+        pinned_post_uri = get_pinned_post_uri(session, BLUESKY_DID, headers)
+        if pinned_post_uri:
+            print(f"✅ URI du post épinglé trouvé : {pinned_post_uri}")
+        else:
+            print("ℹ️ Aucun post épinglé trouvé ou erreur lors de la récupération.")
         
-        # 2. Logique de Récupération du Flux avec Résilience (Retries)
+        # 3. Appel API du flux
+        feed_response = session.get(FEED_URL, headers=headers)
+        feed_response.raise_for_status()
+        data = feed_response.json()
         
-        max_attempts = 3
-        data = None
-        
-        for attempt in range(max_attempts):
-            
-            # Construire l'en-tête avec le jeton d'accès actuel
-            headers = {"Authorization": f"Bearer {global_access_jwt}"}
-            FEED_URL = f"{API_PDS}/xrpc/app.bsky.feed.getAuthorFeed?actor={BLUESKY_DID}&limit={FEED_LIMIT}"
-            
-            try:
-                # 3. Appel API du flux
-                feed_response = session.get(FEED_URL, headers=headers, timeout=15)
-                feed_response.raise_for_status()
-                data = feed_response.json()
-                print(f"✅ Flux récupéré à la tentative {attempt + 1}.")
-                break # Succès, sortir de la boucle
-
-            except requests.exceptions.HTTPError as e:
-                status = e.response.status_code
-                
-                if status == 401:
-                    # 🚨 GESTION DE L'EXPIRATION DU JWT : Tenter de rafraîchir
-                    print("⚠️ Erreur 401: Jeton expiré ou invalide. Tentative de rafraîchissement...")
-                    if global_refresh_jwt and refresh_session(session, global_refresh_jwt):
-                        # Le jeton a été rafraîchi, on continue la boucle pour réessayer immédiatement
-                        continue
-                    else:
-                        print("❌ Échec du rafraîchissement. Impossible de continuer.")
-                        return
-
-                elif status in [502, 503, 504]:
-                    # 🌐 GESTION DES ERREURS SERVEUR : Tenter de réessayer
-                    if attempt < max_attempts - 1:
-                        wait_time = 2 ** (attempt + 1)
-                        print(f"❌ Erreur HTTP {status} (Serveur). Nouvelle tentative dans {wait_time}s...")
-                        time.sleep(wait_time)
-                        continue
-                    else:
-                        print(f"❌ Échec persistant du serveur après {max_attempts} tentatives.")
-                        return
-                
-                else:
-                    # Autres erreurs non gérables (400, 404, etc.)
-                    print(f"❌ Erreur HTTP inattendue ({status}): {e}")
-                    return
-        
-        if not data:
-            print("❌ Aucune donnée de flux récupérée après toutes les tentatives.")
-            return
-
-        # --- DÉBUT DU TRAITEMENT DES DONNÉES (inchangé) ---
         all_feed_items = data.get('feed', [])
         
-        # Le reste de votre logique de filtrage et sauvegarde...
-        # ... (La suite du code pour le filtrage par pin et tag, tel que vous l'aviez)
-        # ...
+        # Préparation des listes de sortie
+        pinned_posts = [] 
         
+        # On extrait seulement le 'post' de chaque 'item' pour simplifier le JSON de sortie
+        all_posts_data = [item.get('post') for item in all_feed_items if item.get('post')]
+        # --- Sauvegarde du Fichier 1 : TOUTES les données brutes ---
+        save_data_to_json(all_posts_data, OUTPUT_ALL_FILE)
+
+
+        # --- Traitement pour le Fichier 2 (filtré par tag) et Fichier 3 (épinglé) ---
+        yotm_posts = [] 
+
+        for item in all_feed_items:
+            post = item.get('post')
+            
+            # FILTRAGE 1 : Exclure les Reposts et les Réponses
+            if item.get('reason') or (post and post.get('record', {}).get('reply')):
+                continue 
+            
+            if post:
+                
+                # 🚩 CORRECTION : LOGIQUE ROBUSTE DE VÉRIFICATION DU PIN
+                is_pinned = False
+                
+                # Méthode A: Vérification par l'URI officielle (la plus fiable si getProfile a réussi)
+                if pinned_post_uri and post.get('uri') == pinned_post_uri:
+                    is_pinned = True
+                
+                # Méthode B: Vérification par l'indicateur 'viewer.pinned' (méthode de secours)
+                elif post.get('viewer', {}).get('pinned') is True:
+                    is_pinned = True
+
+                # Traitement si le post est épinglé (méthodes A ou B)
+                if is_pinned:
+                    # Le post épinglé est traité et ajouté à sa liste dédiée
+                    post_text = post['record']['text']
+                    cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
+                    post['record']['text'] = cleaned_text 
+                    post['image_url'] = get_post_image_url(post)
+                    
+                    pinned_posts.append(post)
+                    
+                    # On passe au post suivant car il a déjà été traité pour le pin
+                    continue 
+                
+                # FILTRAGE 3 : Vérification du Tag Cible
+                if not post_has_tag(post, TARGET_TAG):
+                    continue 
+
+                # --- Traitement des posts VALIDES ET FILTRÉS (par tag) ---
+                
+                post_text = post['record']['text']
+                cleaned_text = re.sub(URL_REGEX, '', post_text, flags=re.IGNORECASE).strip()
+                post['record']['text'] = cleaned_text 
+
+                post['image_url'] = get_post_image_url(post)
+                
+                yotm_posts.append(post)
+
+        # 4. Sauvegarde finale du Fichier 2 : Le flux filtré (par tag)
+        save_data_to_json(yotm_posts, OUTPUT_FILTERED_FILE)
+        
+        # 5. Sauvegarde finale du Fichier 3 : Les posts épinglés
+        if pinned_posts:
+            save_data_to_json(pinned_posts, OUTPUT_PINNED_FILE)
+        else:
+             print(f"ℹ️ Aucune donnée à sauvegarder dans {OUTPUT_PINNED_FILE}. Fichier non créé.")
+
+
     except requests.exceptions.HTTPError as e:
-        print(f"❌ Erreur HTTP lors de l'authentification : {e}")
+        print(f"❌ Erreur HTTP lors de l'authentification ou du flux : {e}")
     except Exception as e:
         print(f"❌ Une erreur inattendue s'est produite : {e}")
 
