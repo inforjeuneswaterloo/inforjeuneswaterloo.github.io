@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wkhtsnng2v",
+      "cid": "bafyreiehgtayy3xaugijxz32rmmqrwxey4scnkfivrttbonitrdzjs3rjy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-01T13:39:26.544Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Verkoop / Marketing",
+            "title": "Vendeur(se) étudiant(e) – Décoration & art de la maison | GREZ-DOICEAU, Brabant Wallon",
+            "uri": "https://www.adecco.com/nl-be/vacatures/vendeurse-etudiante-decoration-art-de-la-maison-grez-doiceau-brabant-wallon/142-34627-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/YBsZWOB"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Job étudiant vente Déco, art de la maison période fêtes - GREZ-DOICEAU\n- Accueil/conseil\n- Présentation des produits\nProfil\n- Expérience obligatoire\n- Compétences relation client/sens du service\n- Dynamisme/sourire/sens de l'accueil\n- Motivé/autonome/ponctuel\n- ...\nbuff.ly/YBsZWOB \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/vendeurse-etudiante-decoration-art-de-la-maison-grez-doiceau-brabant-wallon/142-34627-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Vendeur(se) étudiant(e) – Décoration & art de la maison | GREZ-DOICEAU, Brabant Wallon",
+          "description": "Verkoop / Marketing"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-01T13:39:26.930Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wk2nbblx26",
+      "cid": "bafyreialalaylliqz76tioykfrc6o5oe7u3qakq7qy4wabrol3r43dcfce",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-01T13:32:02.355Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "\\u00cates-vous enthousiaste, proactif(ve) et pr\\u00eat(e) \\u00e0 travailler dans un cadre luxueux ?\\nLe Bar Pommery, situ\\u00e9 dans le Woluwe Shopping Center, recherche un(e) \\u00e9tudiant(e)…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Étudiant(e)",
+            "uri": "https://www.actief.be/nl/vacatures/horeca-en-toerisme/etudiante/770152"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ut5YDMv"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 309,
+              "byteStart": 303
+            }
+          }
+        ],
+        "text": "Job Étudiant Bar Pommery - Woluwe Shopping Center\nDispos obligatoires : 13, 14, 20, 21 et 27/12 de 9 à 14h\nTâches : Accueil/service clientèle\nProfil :\n- Présentation soignée, élégante et pro (pantalon ou jupe noire, chemise noire)\n- Dynamique/proactif(ve)/orienté(e) client...\nbuff.ly/ut5YDMv \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/horeca-en-toerisme/etudiante/770152",
+          "title": "Étudiant(e)",
+          "description": "\\u00cates-vous enthousiaste, proactif(ve) et pr\\u00eat(e) \\u00e0 travailler dans un cadre luxueux ?\\nLe Bar Pommery, situ\\u00e9 dans le Woluwe Shopping Center, recherche un(e) \\u00e9tudiant(e)…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-01T13:32:03.832Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wjnema4y24",
       "cid": "bafyreieacghk64kgpdgvfndhrex57ddyn6lgxpsfo6ujdi4d46lyfafczm",
       "author": {
