@@ -9,8 +9,7 @@ date: 2025-09-17
 update: 2025-09-17
 slug: wwoof
 categories:
-  - Ressources
-  - Téléchargements
+  - International
 tags: 
   - woofing
   - texte complet

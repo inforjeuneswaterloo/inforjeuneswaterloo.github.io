@@ -2,7 +2,7 @@
 layout: post
 title: Job étudiant - Les allocations familiales
 date: 2025-02-13
-update: 2025-02-27
+update: 2025-12-01
 slug: job-etudiant-allocations-familiales
 categories: 
   - Travail
@@ -23,18 +23,18 @@ sidebar:
 
 - Avant 18 ans Tu perçois tes allocations familiales de manière **inconditionnelle** jusqu’au **31 août** de l’année civile au cours de laquelle tu atteins tes **18 ans**
 - Entre **18 et 21 ans** Tu ne dois pas te trouver dans une situation d’obstacle (voir ci-dessous). Il s’agit donc d’un droit **semi-automatique**.
-- Entre **21 et 25 ans** Le bénéfice des allocations familiales est subordonné au respect de certaines **condtions** (études, inscription en tant que demandeur d’emploi, pas de situations d’obstacle)
+- Entre **21 et 25 ans** Le bénéfice des allocations familiales est subordonné au respect de certaines **condtions** (études, inscription en tant que demandeur d’emploi, pas de situations d’obstacle).
 
-{% include elements/notice.html alert="info" text="Ton droit aux allocations familiales s’éteint à la fin du mois au cours duquel tu atteins l’âge de 25 ans, même si tu étudies encore" %}
-
+{% include elements/notice.html alert="warning" text="Le [gouvernement wallon](https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026) a d'harmoniser le droit aux allocations familiales pour les 18-25 ans à partir de 2027."%}
+  
 ## Que se passe-t-il si je travaille ?
 
 Tu peux jober tout en continuant à bénéficier des allocations familiales si tu respectes les règles suivantes:
 
-- Tu travailles dans le cadre d’un contrat d’occupation d’étudiant : tu dois respecter le quota de 475 heures annuelles
+- Tu travailles dans le cadre d’un contrat d’occupation d’étudiant : tu dois respecter le quota annuel de **650 heures**.
 - Tu travailles sous contrat de travail ordinaire: tu ne peux pas dépasser la limite de 240 heures/trimestre
-Warning
-{% include elements/notice.html alert="warning" text="En cas de dépassement du quota annuel de 475h, tu perdra les allocations familiales pour le trimestre durant lequel ce dépassement a eu lieu." %}
+
+{% include elements/notice.html alert="warning" text="En cas de dépassement du quota annuel de 650h, tu perdra les allocations familiales pour le trimestre durant lequel ce dépassement a eu lieu." %}
 
 ## Quelles sont les différentes “situations obstacle” au bénéfice des allocations familiales?
 

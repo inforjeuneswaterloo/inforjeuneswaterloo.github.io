@@ -10,8 +10,6 @@ update: 2025-08-25
 slug: sejours-linguistiques-la-norme-europeenne-nf-en-14804
 categories:
   - International
-  - Ressources
-  - Téléchargements
 tags: 
   - Norme
   - Norme européenne

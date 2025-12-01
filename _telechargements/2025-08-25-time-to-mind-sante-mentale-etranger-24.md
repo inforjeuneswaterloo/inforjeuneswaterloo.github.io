@@ -10,8 +10,6 @@ update: 2025-08-25
 slug: time-to-mind-le-guide-pour-gerer-ta-sante-mentale-a-l-etranger
 categories:
   - International
-  - Ressources
-  - Téléchargements
   - Santé
 tags: 
   - Brochures

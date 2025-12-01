@@ -23,6 +23,9 @@ collections:
   yotm:
     output: true
     permalink: /yotm/:title/
+  telechargements:
+    output: true
+    permalink: /telechargements/:title/
 
 # Définir des valeurs par défaut pour les collections
 defaults:
