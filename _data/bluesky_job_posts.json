@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wjnema4y24",
+      "cid": "bafyreieacghk64kgpdgvfndhrex57ddyn6lgxpsfo6ujdi4d46lyfafczm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-01T13:24:38.190Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Stockbeheerder/ster",
+            "title": "Inventoriste/opérateur inventaire Etudiant dispo 3/4 jours/sem | LAEKEN, Bruxelles",
+            "uri": "https://www.adecco.com/nl-be/vacatures/inventoristeoperateur-inventaire-etudiant-dispo-34-jourssem-laeken-bruxelles/166-31828-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/nO6s6K7"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Inventoriste Etudiant dispo 3/4 jours/sem - Belgique\nFormation les 18 et 23/12 à Bruxelles\nMissions :\n- Comptage des stocks\n- Respecter les procédures internes (balisage, saisie,...).\nProfil :\n- Rigueur/sens du détail\n- Esprit d’équipe et communication\n- Flexibilité horaire \nbuff.ly/nO6s6K7 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/inventoristeoperateur-inventaire-etudiant-dispo-34-jourssem-laeken-bruxelles/166-31828-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Inventoriste/opérateur inventaire Etudiant dispo 3/4 jours/sem | LAEKEN, Bruxelles",
+          "description": "Stockbeheerder/ster"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-01T13:24:38.633Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wjbwuihg26",
+      "cid": "bafyreidincwk4j6pwqeernus6vujc2mtrtcw6bsaac57ol5fqegrtyct7q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-01T13:18:14.668Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Winkelbediende",
+            "title": "Etudiant(e)/caissier(e) | WAYS, Brabant Wallon",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiantecaissiere-ways-brabant-wallon/166-31853-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/2B0WlDH"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Etudiant(e) réassort rayon frais charcuterie - WAYS \n- Réception/contrôle livraisons\n- Mise en rayon/réassort\n- Propreté/respect normes d'hygiène \n- Accueil/conseil\n-...\nProfil\n- Dynamique et motivé(e)\n- Disponible rapidement 1 WE sur 2\n- 1ère expérience similaire\nbuff.ly/2B0WlDH \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiantecaissiere-ways-brabant-wallon/166-31853-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Etudiant(e)/caissier(e) | WAYS, Brabant Wallon",
+          "description": "Winkelbediende"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-01T13:18:15.431Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wgpouucx24",
+      "cid": "bafyreifkopkqk3w5cjitksis65tqbhredimlwxfe3njphzwvubxn34ftdm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-01T12:32:14.840Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Kassier(ster)",
+            "title": "Etudiant(e)/ flexijob vendeur(se) en boulangerie | SINT-GENESIUS-RODE, Brabant Flamand",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-flexijob-vendeurse-en-boulangerie-sint-genesius-rode-brabant-flamand/166-31830-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/BfJc3cd"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Job Etudiant vente boulangerie les WE - Rhode St Genèse\nTâches :\n- Accueil/conseil clients\n- Vente/Caisse\n- Entretien du comptoir et de la boutique\n- Réassort/gestion stocks\n- ...\nProfil\n- Techniques de vente/sens du service\n- Connaissance produits\n- Organisation et rapidité\nbuff.ly/BfJc3cd \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-flexijob-vendeurse-en-boulangerie-sint-genesius-rode-brabant-flamand/166-31830-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Etudiant(e)/ flexijob vendeur(se) en boulangerie | SINT-GENESIUS-RODE, Brabant Flamand",
+          "description": "Kassier(ster)"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-01T12:32:15.234Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6opew5cel2i",
       "cid": "bafyreiefkaxq7pnfgwjswmbipxbwlearyvpxsu66tg4hpqttmoerhawflq",
       "author": {
