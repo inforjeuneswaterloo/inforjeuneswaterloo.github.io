@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6yz5uczc52i",
+      "cid": "bafyreigu7mnpcod5novglb4uvmqxzm3l2eroa5njcg4oia7u75h2h3qbdi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-02T13:07:37.137Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "✨ A La Résidence Le Point du Jour , vous êtes les héros du quotidien !Vous avez le cœur sur la main et la passion dans le sang ? &...",
+            "title": "Etudiant Infirmier H/F - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-infirmier-hf.1Z141i8vj1K1K"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/TJD3EuX"
+              }
+            ],
+            "index": {
+              "byteEnd": 209,
+              "byteStart": 194
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 217,
+              "byteStart": 211
+            }
+          }
+        ],
+        "text": "Etudiant infirmier H/F à Wavre\nProfil\n- Diplôme d’Aide-Soignant et Visa\n- Les nouveaux diplômés sont les bienvenus\n- Tous nos postes sont ouverts aux travailleurs en situation de handicap\nbuff.ly/TJD3EuX \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-infirmier-hf.1Z141i8vj1K1K",
+          "title": "Etudiant Infirmier H/F - Trovit Emploi",
+          "description": "✨ A La Résidence Le Point du Jour , vous êtes les héros du quotidien !Vous avez le cœur sur la main et la passion dans le sang ? &..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-02T13:07:37.930Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6yykgb7wu2i",
+      "cid": "bafyreibf7acyy74gqufzc6cdal7d2gntte3ufwbxsmxuiv6mcwnpzae44u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-02T12:56:44.864Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=63ee11fbcfdb7871&q=Etudiant&l=Brussels&tk=1jbferp2emm5l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBy67I3qvqpgxTNU50LbzkdCdPP&xfps=cc104b06-366e-471b-9b3b-6985fe84fded&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jbferp2emm5l800&xkcb=SoDW67M3qvVgdjaCTB0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/u28EXTv"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 287
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 310,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Job  à l'année Commis de cuisine au MAKIFORNIA à Bruxelles\n- Min. 18 ans\n- Disposé à travailler au minimum deux fois semaine toute l'année durant\n- Avoir une première expérience dans l'horeca ou dans la vente\n- Respect strict des règles et procédures\n- Résistant(e) au stress\nbuff.ly/u28EXTv \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=63ee11fbcfdb7871&q=Etudiant&l=Brussels&tk=1jbferp2emm5l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBy67I3qvqpgxTNU50LbzkdCdPP&xfps=cc104b06-366e-471b-9b3b-6985fe84fded&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jbferp2emm5l800&xkcb=SoDW67M3qvVgdjaCTB0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-02T12:56:45.529Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wkhtsnng2v",
       "cid": "bafyreiehgtayy3xaugijxz32rmmqrwxey4scnkfivrttbonitrdzjs3rjy",
       "author": {
