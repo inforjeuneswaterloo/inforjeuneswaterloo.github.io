@@ -5,12 +5,6 @@ permalink: '/jobs/'
 ---
 <h1>{{page.title}}</h1>
     {% assign bluesky_feed=site.data.bluesky_job_posts.posts %}
-    {% assign bluesky_ij1410=site.data.bluesky_jobs_waterloo_posts.posts %}
-{% if bluesky_ij1410 | size > 0 %}
-    <div class="row mt-4 mb-2 p-2 rounded bg-light">
-        {% include snippets/bsky-job-feed-ij1410.html bsky_feed=site.data.bluesky_jobs_waterloo_posts.posts %}
-    </div>
-{% endif %}
 <div class="row mt-4 mb-2">
     {% include snippets/bsky-job-feed.html bsky_feed=site.data.bluesky_job_posts.posts%}
 </div>
