@@ -4,8 +4,6 @@
 - title: "HELLO WORLD!"
   url: '/yotm/'
   class: btn btn-sm btn-success me-2 text-white
-- title: "CONTACT"
-  url: '/contact'
-  class: btn btn-sm btn-warning me-2 text-white
+
 
 
