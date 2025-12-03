@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m733qejvu52r",
+      "cid": "bafyreiarhu67o6yth4l56ehhsq57m4mjacpzferae3yephwwhhr4oqplam",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-03T08:59:04.022Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey"
+              },
+              "mimeType": "image/jpeg",
+              "size": 53294
+            },
+            "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
+            "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "meta"
+              }
+            ],
+            "index": {
+              "byteEnd": 273,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "RS"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 280
+            }
+          }
+        ],
+        "text": "1953. Une étude établit la relation entre tabagisme et cancer du poumons.  Le business du tabac est en danger. L'industrie du tabac mène alors une politique négationniste en finançant des études tronquées et biaisées.  2025, Meta enterre le projet 'Mercure'. \n#meta #tech #RS"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes",
+          "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
+          "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-03T08:59:06.228Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m72w2aczze2k",
       "cid": "bafyreiftjz4y5hlizmkbcvepmkzmi6qgegddxvzl7qhavgipkid2n5bijq",
       "author": {
@@ -507,7 +609,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -10668,102 +10770,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-28T09:03:34.650Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgqmncunrk2m",
-      "cid": "bafyreigsgtqveobenoxxan4keh6vt5oglzbr3xdovdquiklbqhsyjufghy",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-27T18:57:40.278Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.br.de/nachrichten/wissen/darum-ist-es-gut-mit-der-hand-zu-schreiben-studien,UaPbtjm?ebu_news_id=UaPbtjm&ebu_news_org=BR&ebu_news_language=fr#ebu_s_id6e92f79e-20c7-443b-8d8c-612ac4c68a1e"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 259,
-              "byteStart": 254
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "science"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 260
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://br.social.yepnews.eu/LOFBB07WF7"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 269
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "Les études sont formelles: il faut écrire... à la main\n17 articulations plus de 30 muscles et 12 zones du cerveau s'activent quand on écrit. C'est est un entraînement complet pour le corps dont les effets positifs sur l'apprentissage sont prouvés. #mtts #science br.social.yepnews.eu/LOFBB07WF7"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.br.de/nachrichten/wissen/darum-ist-es-gut-mit-der-hand-zu-schreiben-studien,UaPbtjm?ebu_news_id=UaPbtjm&ebu_news_org=BR&ebu_news_language=fr#ebu_s_id6e92f79e-20c7-443b-8d8c-612ac4c68a1e",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-27T18:57:41.256Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

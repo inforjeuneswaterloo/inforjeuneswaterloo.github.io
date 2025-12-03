@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6mzpdiaub22",
-      "cid": "bafyreifb7ecnbcc22ohzsgh5jrzeukaeed46pixih75ybkviix25pmmp7e",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m733qejvu52r",
+      "cid": "bafyreiarhu67o6yth4l56ehhsq57m4mjacpzferae3yephwwhhr4oqplam",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-27T18:45:25.215Z",
+        "createdAt": "2025-12-03T08:59:04.022Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
+            "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu"
+                "$link": "bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey"
               },
               "mimeType": "image/jpeg",
-              "size": 64403
+              "size": 53294
             },
-            "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
-            "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/"
+            "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
+            "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes"
           }
         },
         "facets": [
@@ -44,60 +44,48 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "genZ"
+                "tag": "meta"
               }
             ],
             "index": {
-              "byteEnd": 13,
-              "byteStart": 8
+              "byteEnd": 273,
+              "byteStart": 268
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "quittoking"
+                "tag": "tech"
               }
             ],
             "index": {
-              "byteEnd": 253,
-              "byteStart": 242
+              "byteEnd": 279,
+              "byteStart": 274
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "travail"
+                "tag": "RS"
               }
             ],
             "index": {
-              "byteEnd": 262,
-              "byteStart": 254
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "genZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 263
+              "byteEnd": 283,
+              "byteStart": 280
             }
           }
         ],
-        "text": "Pour la #genZ la priorité n'est plus le travail mais les conditions de vie.  Le travail n'est qu'un moyen de les améliorer. 92 % des jeunes diplômés accordent plus d'importance à la réussite de leur vie personnelle que professionnelle.\n#quittoking #travail #genZ"
+        "text": "1953. Une étude établit la relation entre tabagisme et cancer du poumons.  Le business du tabac est en danger. L'industrie du tabac mène alors une politique négationniste en finançant des études tronquées et biaisées.  2025, Meta enterre le projet 'Mercure'. \n#meta #tech #RS"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/",
-          "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
-          "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu@jpeg"
+          "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes",
+          "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
+          "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -105,7 +93,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-11-27T18:45:27.532Z",
+      "indexedAt": "2025-12-03T08:59:06.228Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -113,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey@jpeg"
     }
   ]
 }
