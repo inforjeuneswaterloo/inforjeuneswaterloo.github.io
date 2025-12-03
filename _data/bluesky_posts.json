@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m72w2aczze2k",
+      "cid": "bafyreiftjz4y5hlizmkbcvepmkzmi6qgegddxvzl7qhavgipkid2n5bijq",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-03T07:17:12.314Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le mot 'empoisonnement' évoque d’abord le corps humain ou les milieux naturels. Mais il désigne aussi un phénomène en...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiamza5j7ac7jbhcvq256ssf5va4whuhr3mtxva5muiaixrxmf7irq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 206936
+            },
+            "title": "Qu’est-ce que l’'AI poisoning' ou empoisonnement de l’IA ? - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/qu-est-ce-que-l-ai-poisoning-ou-empoisonnement-de-l-ia-11633690"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "IA"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 267
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/UkK6vLO"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          }
+        ],
+        "text": "Le tendon d'Achille de l'IA c'est sa dépendance aux données. 2 recherches ont démontré qu'un nombre restreint de fichiers malveillants suffisent à contaminer un modèle.  L'empoisonnement de données est en outre réalisable et reproductible à grande échelle.\n#IA #tech\nbuff.ly/UkK6vLO"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/qu-est-ce-que-l-ai-poisoning-ou-empoisonnement-de-l-ia-11633690",
+          "title": "Qu’est-ce que l’'AI poisoning' ou empoisonnement de l’IA ? - RTBF Actus",
+          "description": "Le mot 'empoisonnement' évoque d’abord le corps humain ou les milieux naturels. Mais il désigne aussi un phénomène en...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamza5j7ac7jbhcvq256ssf5va4whuhr3mtxva5muiaixrxmf7irq@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-03T07:17:14.730Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6vsi6mska2r",
       "cid": "bafyreiajzzgrc5eyf7mmw4f2jklujqwrx2vfm2q6dor57ushtwzekqwexi",
       "author": {
@@ -10662,123 +10764,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-27T18:57:41.256Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgqecklvak2n",
-      "cid": "bafyreigyzitadlr6djolb53krw43suf7hehhomaox3uotexgu4el6skzqi",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-27T16:28:29.346Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Il y a plus d’une centaine d’années, le Titanic coulait dans l’océan Atlantique nord après avoir heurté un énorme iceberg. Récemment, des géographes ont retracé le parcours de cet iceberg par le biais...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidq5yg4pwyaoyzluqxnd2qq2ttmg2p3bak2ky5rhlftthqzgvhrxi"
-              },
-              "mimeType": "image/jpeg",
-              "size": 820090
-            },
-            "title": "D'où venait l'iceberg à l'origine du naufrage du Titanic ?",
-            "uri": "https://sciencepost.fr/dou-venait-liceberg-a-lorigine-naufrage-titanic/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Titanic"
-              }
-            ],
-            "index": {
-              "byteEnd": 59,
-              "byteStart": 51
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "groenlandgate"
-              }
-            ],
-            "index": {
-              "byteEnd": 134,
-              "byteStart": 120
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 140,
-              "byteStart": 135
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://sciencepost.fr/dou-venait-liceberg-a-lorigine-naufrage-titanic/"
-              }
-            ],
-            "index": {
-              "byteEnd": 172,
-              "byteStart": 142
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "D'où venait l'iceberg à l'origine du naufrage du #Titanic ? \nL'iceberg qui a coulé le Titanic était... groenlandais\n#groenlandgate #mtts\n\nsciencepost.fr/dou-venait-l..."
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://sciencepost.fr/dou-venait-liceberg-a-lorigine-naufrage-titanic/",
-          "title": "D'où venait l'iceberg à l'origine du naufrage du Titanic ?",
-          "description": "Il y a plus d’une centaine d’années, le Titanic coulait dans l’océan Atlantique nord après avoir heurté un énorme iceberg. Récemment, des géographes ont retracé le parcours de cet iceberg par le biais...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidq5yg4pwyaoyzluqxnd2qq2ttmg2p3bak2ky5rhlftthqzgvhrxi@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-27T16:28:33.349Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
