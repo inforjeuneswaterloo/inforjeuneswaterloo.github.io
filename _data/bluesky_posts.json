@@ -1,6 +1,133 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m737jk37i22l",
+      "cid": "bafyreidh5pki5w7bvgre3ilagaucxk7vwimshj677axzpl2bly7is73ehu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-03T10:06:51.160Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Après un test, mené par des chercheurs d’Anthropic, l’intelligence artificielle a prouvé qu’elle était notamment...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiflqsjufrwmdrkxwv4btjj423psuxsj73ejaqxvmnmjibwcbtmbrq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 578140
+            },
+            "title": "'Boire de la Javel ce n’est pas si grave' : l’IA Claude inquiète ses créateurs avec des comportements malveillants - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/boire-de-la-javel-ce-n-est-pas-si-grave-l-ia-claude-inquiete-ses-createurs-avec-des-comportements-malveillants-11640714"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "IA"
+              }
+            ],
+            "index": {
+              "byteEnd": 111,
+              "byteStart": 108
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 117,
+              "byteStart": 112
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Claude"
+              }
+            ],
+            "index": {
+              "byteEnd": 125,
+              "byteStart": 118
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/boire-de-la-javel-ce-n-est-pas-si-grave-l-ia-claude-inquiete-ses-createurs-avec-des-comportements-malveillants-11640714"
+              }
+            ],
+            "index": {
+              "byteEnd": 153,
+              "byteStart": 126
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreiftjz4y5hlizmkbcvepmkzmi6qgegddxvzl7qhavgipkid2n5bijq",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m72w2aczze2k"
+          },
+          "root": {
+            "cid": "bafyreiftjz4y5hlizmkbcvepmkzmi6qgegddxvzl7qhavgipkid2n5bijq",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m72w2aczze2k"
+          }
+        },
+        "text": "Jacques n'a pas dit \"buvez de l'eau de Javel\"! je répète, Jacques n'a pas dit \"buvez de l'eau de Javel!\" \n#IA #tech #Claude\nwww.rtbf.be/article/boir..."
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/boire-de-la-javel-ce-n-est-pas-si-grave-l-ia-claude-inquiete-ses-createurs-avec-des-comportements-malveillants-11640714",
+          "title": "'Boire de la Javel ce n’est pas si grave' : l’IA Claude inquiète ses créateurs avec des comportements malveillants - RTBF Actus",
+          "description": "Après un test, mené par des chercheurs d’Anthropic, l’intelligence artificielle a prouvé qu’elle était notamment...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiflqsjufrwmdrkxwv4btjj423psuxsj73ejaqxvmnmjibwcbtmbrq@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-03T10:07:00.730Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m733qejvu52r",
       "cid": "bafyreiarhu67o6yth4l56ehhsq57m4mjacpzferae3yephwwhhr4oqplam",
       "author": {
@@ -191,7 +318,7 @@
         }
       },
       "bookmarkCount": 0,
-      "replyCount": 0,
+      "replyCount": 1,
       "repostCount": 0,
       "likeCount": 1,
       "quoteCount": 0,
@@ -10680,96 +10807,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-28T09:38:19.857Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgs3vv7khb2y",
-      "cid": "bafyreieoowtun7iga7uhw5z327beiccj5fb76hoycyfqchfm7xr54p7nlu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-28T09:03:32.778Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Cela semble contradictoire, mais une étude américaine met en évidence un danger potentiel lié au port de vêtements fluorescents dans la circulation. Ils peuvent en effet perturber gravement les…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreib4u6zvrl36jeorvxf6y7sswyuegay3lbyv2sshj5bj4drmq7jffe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 89187
-            },
-            "title": "Gros couac des systèmes de freinage intelligents : la couleur fluorescente rend les piétons invisibles",
-            "uri": "https://buff.ly/4jAHtaI"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 136,
-              "byteStart": 131
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mobilité"
-              }
-            ],
-            "index": {
-              "byteEnd": 147,
-              "byteStart": 137
-            }
-          }
-        ],
-        "text": "Les gilets fluorescents  peuvent perturber les systèmes de freinage automatiques dixit une étude américaine\nLe Gilet ou la vie!\n#mtts #mobilité"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/4jAHtaI",
-          "title": "Gros couac des systèmes de freinage intelligents : la couleur fluorescente rend les piétons invisibles",
-          "description": "Cela semble contradictoire, mais une étude américaine met en évidence un danger potentiel lié au port de vêtements fluorescents dans la circulation. Ils peuvent en effet perturber gravement les…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib4u6zvrl36jeorvxf6y7sswyuegay3lbyv2sshj5bj4drmq7jffe@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-28T09:03:34.650Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
