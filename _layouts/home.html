@@ -13,7 +13,7 @@ layout: fw
 {% elsif page.url=='/yotm/'%}
   {% assign bluesky_feed = site.data.bluesky_yotm_posts.posts%}
 {%endif%}
-{% assign bluesky_job_feed = site.data.bluesky_job_posts%}
+{% assign bluesky_job_feed = site.data.bluesky_job_posts.posts%}
 <div class="container mb-2 mt-2">
   <div class="jumbotron jumbotron-fluid p-2">
     <div class="row align-items-center">
@@ -30,8 +30,21 @@ layout: fw
               </div>
               {%endif%}
               {% if page.url == '/' %}
-                {% if bluesky_job_feed.posts | size > 0 %}
-                  <div class="d-flex flex-row-start mb-2">
+                {% if bluesky_job_feed | size > 0 %}
+                  {% assign jobs=bluesky_job_feed | slice: 0,3 %}
+                  <div class="list-group">
+                    {% for job in jobs %}
+                       {% assign post_record = job.record %}
+                       {% assign post_external = job.embed.external %}
+                        <a href="{{post_external.uri}}" target="_blank" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <small>{{post_record.text}}</small>
+                          </div>
+                          <small class="text-muted">Publié le : {{ post_record.created_at_localized | default: post_record.createdAt | date: "%d %b %Y" }}</small>
+                        </a>
+                    {%endfor%}
+                  </div>
+                  <div class="d-flex flex-row-start mt-2 mb-2">
                     <a class="btn btn-lg btn-primary text-white text-decoration-none" href="/jobs/" target="_self">
                       Les dernières offres de job&nbsp;<i class="fa-solid fa-arrow-right"></i>
                     </a>
