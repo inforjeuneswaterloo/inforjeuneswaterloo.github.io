@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m76acimvkj24",
+      "cid": "bafyreidvs2lspxnyayydrkrn2hbohmmieu2whd3surck2er5tbbqek6rf4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-04T14:58:47.520Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "- Vous êtes encore dans votre quota de 600 h<br>- Vous êtes dynamique et appréciez le contact avec les clients.<br>- Vous ête...",
+            "title": "Etudiant. E vendeur. Se friterie| Wavre - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-e-vendeur-se-friterie-wavre.1w131N1WJ1G1yi"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Beoj08c"
+              }
+            ],
+            "index": {
+              "byteEnd": 203,
+              "byteStart": 188
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 211,
+              "byteStart": 205
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente en friterie Wavre\n- Il vous reste encore des heures étudiantes\n - Vous êtes disponible au minimum 2 soirs par weekends de 18h à 22h30 (vendredis, samedis, dimanches) \nbuff.ly/Beoj08c \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-e-vendeur-se-friterie-wavre.1w131N1WJ1G1yi",
+          "title": "Etudiant. E vendeur. Se friterie| Wavre - Trovit Emploi",
+          "description": "- Vous êtes encore dans votre quota de 600 h<br>- Vous êtes dynamique et appréciez le contact avec les clients.<br>- Vous ête..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-04T14:58:48.332Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m767qbiwhi25",
+      "cid": "bafyreie5dg63sdezzjoes557a4yggathqjnzpq55di3kxpckirzqretvda",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-04T14:48:36.076Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Winkelbediende",
+            "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-2&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0hswuGJ"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 288
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 305
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie à Loupoigne\n- Déjà 1 expérience dans la vente alimentaire, en boulangerie\n- Réactif(ve), proactif(ve) et aimez le contact avec les clients\n-  Dispo les WE de 6h à 14h, afin d’assurer la vente et l’entretien du magasin \n- En possession d’1 véhicule\nbuff.ly/0hswuGJ \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-2&utm_source=Careerjet-Optioncarriere",
+          "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
+          "description": "Winkelbediende"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-04T14:48:36.637Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m73urgokuh24",
       "cid": "bafyreick456tdmwqlc7shyvia43in7lbwt42ibcu3ofzfvh2koxptqq66y",
       "author": {
