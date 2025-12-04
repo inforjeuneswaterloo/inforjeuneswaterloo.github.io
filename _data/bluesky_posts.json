@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m76pld3zbs22",
+      "cid": "bafyreifpwlgcwpszlbwf5ghrc36seuozsqsgtmhw5g5kpcpaimsa5235ye",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-04T19:32:08.343Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L’IA va-t-elle finir par penser à notre place ? Au cœur des Entretiens de Valpré 2025 (1), la question interroge Catherine Marshall et Damien Larrouqué qui s’inquiètent du devenir de la recherche en…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifuvpfrek5clnoio2p2kcejmot4ezxjy73vkrvesbavj2nratfvam"
+              },
+              "mimeType": "image/jpeg",
+              "size": 160087
+            },
+            "title": "« Avec l’essor de l’IA, nous ne serons bientôt plus capables de distinguer le vrai du faux »",
+            "uri": "https://www.la-croix.com/a-vif/avec-l-essor-de-lia-nous-ne-serons-bientot-plus-capables-de-distinguer-le-vrai-du-faux-20251122"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "IA"
+              }
+            ],
+            "index": {
+              "byteEnd": 251,
+              "byteStart": 248
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 257,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "opinion"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 258
+            }
+          }
+        ],
+        "text": "L'IA participe de la démocratisation de la connaissance ; mais à une double condition: 1) négliger son impact écologique, 2) minimiser le risque de dégradation de facultés analytiques (\"abdication cognitive\" ou perte de la pensée critique).\n#IA #Tech #opinion"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.la-croix.com/a-vif/avec-l-essor-de-lia-nous-ne-serons-bientot-plus-capables-de-distinguer-le-vrai-du-faux-20251122",
+          "title": "« Avec l’essor de l’IA, nous ne serons bientôt plus capables de distinguer le vrai du faux »",
+          "description": "L’IA va-t-elle finir par penser à notre place ? Au cœur des Entretiens de Valpré 2025 (1), la question interroge Catherine Marshall et Damien Larrouqué qui s’inquiètent du devenir de la recherche en…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifuvpfrek5clnoio2p2kcejmot4ezxjy73vkrvesbavj2nratfvam@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-04T19:32:11.036Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m73d4bwrsp2g",
       "cid": "bafyreieizr5hh5nqcnaqami6qmtznunhlkbuo23ybn7h5uz4w7qdgjw3ga",
       "author": {
@@ -10645,120 +10747,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-28T15:04:03.154Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgsctzol4c2u",
-      "cid": "bafyreiel6wycluxskyk4ps2laukkcwbvfjqtwrtfiangptj5g5zpwh3tmi",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-28T11:07:47.582Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "servicecitoyen"
-              }
-            ],
-            "index": {
-              "byteEnd": 26,
-              "byteStart": 11
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "arizona"
-              }
-            ],
-            "index": {
-              "byteEnd": 91,
-              "byteStart": 83
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "begov"
-              }
-            ],
-            "index": {
-              "byteEnd": 98,
-              "byteStart": 92
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 104,
-              "byteStart": 99
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "belgique"
-              }
-            ],
-            "index": {
-              "byteEnd": 114,
-              "byteStart": 105
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreiaxqh4kptimjf2uevhe3vbhpdzeuj3rg6s6ygflnznt2ool37ybbe",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgs5tzvolo2v"
-          },
-          "root": {
-            "cid": "bafyreiaxqh4kptimjf2uevhe3vbhpdzeuj3rg6s6ygflnznt2ool37ybbe",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgs5tzvolo2v"
-          }
-        },
-        "text": "Update: le #servicecitoyen serait remplacé par... un service militaire volontaire\n#arizona #begov #mtts #belgique"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-28T11:07:48.554Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
