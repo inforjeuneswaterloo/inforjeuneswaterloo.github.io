@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7almrs6qz2c",
+      "cid": "bafyreihrnkuymhqtqaij6t7t6hlpntlwpfxz3miswo4uqiwtfaomwcxhya",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-05T13:26:43.319Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Stockbeheerder/ster",
+            "title": "Inventoriste/ opérateur inventaire | LAEKEN, Bruxelles",
+            "uri": "https://www.adecco.com/nl-be/vacatures/inventoriste-operateur-inventaire-laeken-bruxelles/166-31868-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wi61Alj"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Inventoriste à Laeken\n- Disponibilité impérative pour les deux journées de formation à Bruxelles (18/12 et 23/12)\n- Être mobile pour des interventions tôt le matin ou en soirée (jusqu’à 23h30), au départ du siège\n- Participer aux inventaires dans différents magasins \nbuff.ly/wi61Alj \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/inventoriste-operateur-inventaire-laeken-bruxelles/166-31868-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Inventoriste/ opérateur inventaire | LAEKEN, Bruxelles",
+          "description": "Stockbeheerder/ster"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-05T13:26:43.730Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m76acimvkj24",
       "cid": "bafyreidvs2lspxnyayydrkrn2hbohmmieu2whd3surck2er5tbbqek6rf4",
       "author": {
