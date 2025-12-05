@@ -315,7 +315,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": false
+        "pinned": true
       },
       "labels": []
     },
@@ -417,7 +417,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
