@@ -3,38 +3,8 @@ layout: page
 ---
 {% assign type=page.type | default:post %}
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    {% include elements/post-meta.html %}
-  </header>
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {% case type %}
-      {% when 'event'%}
-        {% assign event=page.event %}
-        {% assign start=event.start %}
-        {% assign end=event.end %}
-        {% assign icon_when=event.icon_when %}
-        {% assign icon_location=event.icon_location %}
-        {% assign icon_price=event.icon_price%}
-        {% assign venue=event.venue %}
-        {% assign adresse=event.adresse %}
-        {% assign price=event.price %}
-        {% assign visio=event.visio %}
-        <ul class="list-group">
-              <li class="list-group-item">
-                <i class="{{icon_when}}"></i>&nbsp;{{start}}&nbsp;&rarr;&nbsp;{{end}}
-              </li>
-              <li class="list-group-item">
-                <i class="{{icon_location}}"></i>&nbsp;{{venue}}<br/>{{adresse}}
-              </li>
-              <li class="list-group-item">
-                <i class="{{icon_price}}"></i>&nbsp;{{price}}
-              </li>
-        </ul>
-        <div class="card mt-2 mb-2 p-1">
-          <img src="{{page.image}}" class="card-img-top">
-        </div>
-    {% endcase %}
     {%if page.disclaimer.enabled %}
       <div class="alert alert-light mt-4 mb-2">
         {% include elements/disclaimer.html%}
