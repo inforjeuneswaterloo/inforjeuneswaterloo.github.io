@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m733qejvu52r",
-      "cid": "bafyreiarhu67o6yth4l56ehhsq57m4mjacpzferae3yephwwhhr4oqplam",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6vsi6mska2r",
+      "cid": "bafyreiajzzgrc5eyf7mmw4f2jklujqwrx2vfm2q6dor57ushtwzekqwexi",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-03T08:59:04.022Z",
+        "createdAt": "2025-12-01T06:30:06.815Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
+            "description": "La Commission européenne a annoncé mercredi une série de mesures visant à réduire le fardeau réglementaire dans le...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey"
+                "$link": "bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi"
               },
               "mimeType": "image/jpeg",
-              "size": 53294
+              "size": 186122
             },
-            "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
-            "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes"
+            "title": "L’UE veut assouplir ses règles sur l’IA et s’attaque aux bandeaux pour les cookies - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/l-ue-veut-assouplir-ses-regles-sur-l-ia-et-s-attaque-aux-bandeaux-pour-les-cookies-11634145"
           }
         },
         "facets": [
@@ -44,12 +44,24 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "meta"
+                "tag": "europe"
               }
             ],
             "index": {
-              "byteEnd": 273,
-              "byteStart": 268
+              "byteEnd": 278,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "IA"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 279
             }
           },
           {
@@ -60,40 +72,28 @@
               }
             ],
             "index": {
-              "byteEnd": 279,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RS"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 280
+              "byteEnd": 288,
+              "byteStart": 283
             }
           }
         ],
-        "text": "1953. Une étude établit la relation entre tabagisme et cancer du poumons.  Le business du tabac est en danger. L'industrie du tabac mène alors une politique négationniste en finançant des études tronquées et biaisées.  2025, Meta enterre le projet 'Mercure'. \n#meta #tech #RS"
+        "text": "L'Europe simplifie la réglementation relative à l'IA.  Il faut revenir dans la course.  Elle permet ainsi l'utilisation sans consentement de données personnelles pour entrainer des modèles IA. Au grand regret des défenseurs de la vie privée et des droits civiques.\n#europe #IA #tech"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes",
-          "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
-          "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey@jpeg"
+          "uri": "https://www.rtbf.be/article/l-ue-veut-assouplir-ses-regles-sur-l-ia-et-s-attaque-aux-bandeaux-pour-les-cookies-11634145",
+          "title": "L’UE veut assouplir ses règles sur l’IA et s’attaque aux bandeaux pour les cookies - RTBF Actus",
+          "description": "La Commission européenne a annoncé mercredi une série de mesures visant à réduire le fardeau réglementaire dans le...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi@jpeg"
         }
       },
       "bookmarkCount": 0,
       "replyCount": 0,
       "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-03T08:59:06.228Z",
+      "likeCount": 1,
+      "quoteCount": 1,
+      "indexedAt": "2025-12-01T06:30:09.430Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -101,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi@jpeg"
     }
   ]
 }
