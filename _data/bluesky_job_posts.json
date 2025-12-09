@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7kruhwvis2j",
+      "cid": "bafyreibplu44snjj5sdstlj6upzockqi4xgl5h6tgljo6iepmvhmqe5viu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-09T14:45:01.385Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://dajobs.be/job-offers/JO-BYVD-WEAP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/gV7DnBd"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 267
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 284
+            }
+          }
+        ],
+        "text": "Etudiant emballage alimentaire - Wavre\nMissions :\n- Emballer des produits alimentaires\n- Respect normes d’hygiène/sécurité\n- Travail précis et soigné\n- Propreté et organisation\nProfil :\n- Dispo en semaine\n- Dynamique/sérieux/motivé/ponctuel/organisé\n- ...\nbuff.ly/gV7DnBd \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://dajobs.be/job-offers/JO-BYVD-WEAP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T14:45:01.531Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7krudzfke24",
+      "cid": "bafyreicjnx6wufam7lvljsvlfduqmlm3fl3vlkemozhytcr7lxr2s7gocq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-09T14:44:56.471Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiebs4civ2fhzy7crovvom2m4djuc476hrmrx4w35amv4c4liorvwu"
+              },
+              "mimeType": "image/png",
+              "size": 4630
+            },
+            "title": "Job Étudiant",
+            "uri": "https://jobs.smartrecruiters.com/jysk/744000097377147-job-etudiant"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0kK9uYX"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Job Étudiant JYSK - Anderlecht \nTâches : \n- Vente, conseil clientèle\n- Caisse\n- Réassort/manutention\nProfil : \n- Ouvert d'esprit, enthousiaste, prise d'initiatives et aimer parler aux clients\n- Ne pas avoir peur du travail physique\n- Un + études en commerce/vente au détail\nbuff.ly/0kK9uYX \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.smartrecruiters.com/jysk/744000097377147-job-etudiant",
+          "title": "Job Étudiant",
+          "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiebs4civ2fhzy7crovvom2m4djuc476hrmrx4w35amv4c4liorvwu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T14:44:57.834Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7alu3zs6h2o",
       "cid": "bafyreieu4u3r7nxx3ydk75rytgypbmkp6dkmamb3zz32zzn2bon7fxa2tu",
       "author": {
