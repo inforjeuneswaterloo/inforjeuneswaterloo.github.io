@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m6vsi6mska2r",
-      "cid": "bafyreiajzzgrc5eyf7mmw4f2jklujqwrx2vfm2q6dor57ushtwzekqwexi",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7k3qkeoa726",
+      "cid": "bafyreifsfcpe5unwvjugtfijjgpbg76y7ogqdcbmlbbckjjmv4wajp7ada",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-01T06:30:06.815Z",
+        "createdAt": "2025-12-09T08:09:06.143Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "La Commission européenne a annoncé mercredi une série de mesures visant à réduire le fardeau réglementaire dans le...",
+            "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi"
+                "$link": "bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry"
               },
               "mimeType": "image/jpeg",
-              "size": 186122
+              "size": 20824
             },
-            "title": "L’UE veut assouplir ses règles sur l’IA et s’attaque aux bandeaux pour les cookies - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/l-ue-veut-assouplir-ses-regles-sur-l-ia-et-s-attaque-aux-bandeaux-pour-les-cookies-11634145"
+            "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
+            "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864"
           }
         },
         "facets": [
@@ -44,56 +44,68 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
+                "tag": "Belgique"
               }
             ],
             "index": {
-              "byteEnd": 278,
-              "byteStart": 271
+              "byteEnd": 264,
+              "byteStart": 255
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
+                "tag": "Wallonie"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "emploi"
               }
             ],
             "index": {
               "byteEnd": 282,
-              "byteStart": 279
+              "byteStart": 275
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
+                "tag": "walgov"
               }
             ],
             "index": {
-              "byteEnd": 288,
+              "byteEnd": 290,
               "byteStart": 283
             }
           }
         ],
-        "text": "L'Europe simplifie la réglementation relative à l'IA.  Il faut revenir dans la course.  Elle permet ainsi l'utilisation sans consentement de données personnelles pour entrainer des modèles IA. Au grand regret des défenseurs de la vie privée et des droits civiques.\n#europe #IA #tech"
+        "text": "L'accord conclu entre les régions wallonne et flamande prévoit, entre autres, le partage des annonces de job par les Forem & VDAB. Par ailleurs refuser un emploi proposé de l'autre côté de la frontière linguistique pourra entraîner des sanctions. \n#Belgique #Wallonie #emploi #walgov"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.rtbf.be/article/l-ue-veut-assouplir-ses-regles-sur-l-ia-et-s-attaque-aux-bandeaux-pour-les-cookies-11634145",
-          "title": "L’UE veut assouplir ses règles sur l’IA et s’attaque aux bandeaux pour les cookies - RTBF Actus",
-          "description": "La Commission européenne a annoncé mercredi une série de mesures visant à réduire le fardeau réglementaire dans le...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi@jpeg"
+          "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864",
+          "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
+          "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry@jpeg"
         }
       },
       "bookmarkCount": 0,
       "replyCount": 0,
       "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 1,
-      "indexedAt": "2025-12-01T06:30:09.430Z",
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T08:09:08.336Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -101,7 +113,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry@jpeg"
     }
   ]
 }

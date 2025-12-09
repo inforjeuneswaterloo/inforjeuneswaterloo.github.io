@@ -1,6 +1,324 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7k3qkeoa726",
+      "cid": "bafyreifsfcpe5unwvjugtfijjgpbg76y7ogqdcbmlbbckjjmv4wajp7ada",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-09T08:09:06.143Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry"
+              },
+              "mimeType": "image/jpeg",
+              "size": 20824
+            },
+            "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
+            "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Belgique"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 255
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Wallonie"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "emploi"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 275
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "walgov"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 283
+            }
+          }
+        ],
+        "text": "L'accord conclu entre les régions wallonne et flamande prévoit, entre autres, le partage des annonces de job par les Forem & VDAB. Par ailleurs refuser un emploi proposé de l'autre côté de la frontière linguistique pourra entraîner des sanctions. \n#Belgique #Wallonie #emploi #walgov"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864",
+          "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
+          "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T08:09:08.336Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7k2katdiy2k",
+      "cid": "bafyreifab7g52wqfzwgx4hoxmjp3qvs6tu7t6bpdvr3dgqfzd3pes5mgnu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-09T07:47:40.954Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le président américain Donald Trump a été nommé vendredi premier lauréat du nouveau 'Prix de la paix de la Fifa',...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidh4nzrx36wawus7o3krbdjm4v66oossy4g3hmuayxc5yyutjz6v4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 203176
+            },
+            "title": "Donald Trump reçoit le 'prix de la paix de la FIFA' : un prix controversé, taillé sur mesure pour le président américain - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/prive-de-prix-nobel-de-la-paix-donald-trump-se-voit-remettre-le-prix-de-la-paix-de-la-fifa-un-prix-taille-sur-mesure-pour-le-president-americain-11643459"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "fifa"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "trump"
+              }
+            ],
+            "index": {
+              "byteEnd": 286,
+              "byteStart": 280
+            }
+          }
+        ],
+        "text": "Il rêvait du Prix Nobel de la Paix - attribué à la vénézuélienne Maria Corina Machado.  Son ami et patron de la FIFA, Gianni Infantino, le console en lui décernant le premier 'Prix pour la paix de la FIFA'. Gageons qu'il ne briguera pas le prix Nobel de médecine...\n#fifa #trump"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/prive-de-prix-nobel-de-la-paix-donald-trump-se-voit-remettre-le-prix-de-la-paix-de-la-fifa-un-prix-taille-sur-mesure-pour-le-president-americain-11643459",
+          "title": "Donald Trump reçoit le 'prix de la paix de la FIFA' : un prix controversé, taillé sur mesure pour le président américain - RTBF Actus",
+          "description": "Le président américain Donald Trump a été nommé vendredi premier lauréat du nouveau 'Prix de la paix de la Fifa',...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidh4nzrx36wawus7o3krbdjm4v66oossy4g3hmuayxc5yyutjz6v4@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 2,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T07:47:43.833Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7k2k4dvqd2k",
+      "cid": "bafyreigfqurd6uzhviw5xxamgeldaa2sfvu2d2dwvy345v5iioorssbseq",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-09T07:47:36.119Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour arriver à cette amende de 120 millions d’euros, la Commission européenne a enquêté pendant deux ans. Elle a...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreichl5j2owkddv43gesv4c4su72oowikkphnz6jqpjh56bzrphpngi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 100185
+            },
+            "title": "120 millions d’amende infligés au réseau social X par l’Union européenne, 'une attaque contre le peuple américain' dit Rubio - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/120-millions-d-amende-infliges-au-reseau-social-x-par-l-union-europeenne-11643173"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 262
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "X"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "CE"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 279
+            }
+          }
+        ],
+        "text": "Dans le viseur: le manque de transparence et l'accès aux données publiques ; ainsi que les \"badges bleus\", ces comptes payants qui bénéficient d’une plus grande visibilité. La protection des internautes contre les contenus illicites n'est pas suffisante.\n#tech #X #Europe #CE"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/120-millions-d-amende-infliges-au-reseau-social-x-par-l-union-europeenne-11643173",
+          "title": "120 millions d’amende infligés au réseau social X par l’Union européenne, 'une attaque contre le peuple américain' dit Rubio - RTBF Actus",
+          "description": "Pour arriver à cette amende de 120 millions d’euros, la Commission européenne a enquêté pendant deux ans. Elle a...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreichl5j2owkddv43gesv4c4su72oowikkphnz6jqpjh56bzrphpngi@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-09T07:47:38.532Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m76pld3zbs22",
       "cid": "bafyreifpwlgcwpszlbwf5ghrc36seuozsqsgtmhw5g5kpcpaimsa5235ye",
       "author": {
@@ -621,7 +939,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -10429,324 +10747,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-01-31T11:56:24.848Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgx5urdeom2o",
-      "cid": "bafyreigsqibmbwafri7zmda35jpusxexlyeo6f5xav2pyirzdzerckzv3q",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-30T09:22:01.219Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "DeepSeek, le rival chinois de ChatGPT a surpris les analystes par sa capacité à égaler les performances de ses principaux concurrents américains, qui dominaient jusqu'à présent l'intelligence…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibm62fsn77nvhroboc4mm46jg5mehmhwmrmmr37lkspr4zw5nprpq"
-              },
-              "mimeType": "image/jpeg",
-              "size": 72910
-            },
-            "title": "Peut-on faire confiance à DeepSeek, la nouvelle IA chinoise? \"Vos données vont naviguer un peu partout\"",
-            "uri": "https://buff.ly/40EmET7"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "DeepSeek"
-              }
-            ],
-            "index": {
-              "byteEnd": 9,
-              "byteStart": 0
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "données"
-              }
-            ],
-            "index": {
-              "byteEnd": 24,
-              "byteStart": 15
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
-              }
-            ],
-            "index": {
-              "byteEnd": 117,
-              "byteStart": 114
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "sinophobie"
-              }
-            ],
-            "index": {
-              "byteEnd": 220,
-              "byteStart": 209
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 252,
-              "byteStart": 247
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 258,
-              "byteStart": 253
-            }
-          }
-        ],
-        "text": "#DeepSeek: vos #données vont naviguer (...) un peu partout (...). Elles pourraient être exploitées (...)\" \nLes #IA sont intentionnellement biaisés \"pour respecter certaines valeurs\"\nTout comme les autres. #sinophobie ? Ou méfiance légitime?\n#mtts #tech"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/40EmET7",
-          "title": "Peut-on faire confiance à DeepSeek, la nouvelle IA chinoise? \"Vos données vont naviguer un peu partout\"",
-          "description": "DeepSeek, le rival chinois de ChatGPT a surpris les analystes par sa capacité à égaler les performances de ses principaux concurrents américains, qui dominaient jusqu'à présent l'intelligence…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibm62fsn77nvhroboc4mm46jg5mehmhwmrmmr37lkspr4zw5nprpq@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-30T09:22:03.854Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgv5qcbviv2g",
-      "cid": "bafyreiecdhrbk3h6gfprwkjhz7lxgrxois4upsy4mkq5pj6w2nitvg5dcy",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-29T14:14:11.633Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Les arnaques par lettres, les abus de confiance, les faux trésors, ça existait déjà au dix-huitième siècle ! A...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiet6fdcwxgtforygzuqcm62qrch2hw5ht57yi7dvtue6twbvc74ea"
-              },
-              "mimeType": "image/jpeg",
-              "size": 424160
-            },
-            "title": "Des 'brouteurs' il y a 250 ans ou comment nos ancêtres se faisaient arnaquer",
-            "uri": "https://buff.ly/3Egvv5T"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 241,
-              "byteStart": 236
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "histoire"
-              }
-            ],
-            "index": {
-              "byteEnd": 251,
-              "byteStart": 242
-            }
-          }
-        ],
-        "text": "Juillet 1797. Le ministre de la police: \"Ces lettres connues ici sous le nom de Lettres de Jérusalem, ne sont que des pièges tendus par des fripons à la crédulité des personnes à qui elles sont adressées.\"\n2025. Rien n'a changé\n#mtts #histoire"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/3Egvv5T",
-          "title": "Des 'brouteurs' il y a 250 ans ou comment nos ancêtres se faisaient arnaquer",
-          "description": "Les arnaques par lettres, les abus de confiance, les faux trésors, ça existait déjà au dix-huitième siècle ! A...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiet6fdcwxgtforygzuqcm62qrch2hw5ht57yi7dvtue6twbvc74ea@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-29T14:14:13.747Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgsq2hyuvw2v",
-      "cid": "bafyreig52dn7bo2yvlms63lvn4hgjy2higj6jhs6mnbyggte4k4xs5elm4",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-28T15:04:01.164Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Les grèves ont renforcé la visibilité des problématiques structurelles dans l’enseignement (financements, surcharge administrative, conditions de",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigcqaokkfghojnw55fnskvwftlykhroshlxl74yqeeh4agmv57wty"
-              },
-              "mimeType": "image/jpeg",
-              "size": 425075
-            },
-            "title": "La grève des écoles va-t-elle servir à quelque chose? Pas sûr, quand on regarde l'histoire récente",
-            "uri": "https://buff.ly/3Eha6cQ"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 256,
-              "byteStart": 251
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 270,
-              "byteStart": 257
-            }
-          }
-        ],
-        "text": "La dernière fois que les enseignants ont fait plié le gouvernement c'était en 1990.\nDepuis si la contestation met en lumière les problématiques du secteur, on est plus dans le \"Beaucoup de bruit pour rien\" ou le \"Cause toujours tu m'intéresse\".\n#mtts #enseignement"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/3Eha6cQ",
-          "title": "La grève des écoles va-t-elle servir à quelque chose? Pas sûr, quand on regarde l'histoire récente",
-          "description": "Les grèves ont renforcé la visibilité des problématiques structurelles dans l’enseignement (financements, surcharge administrative, conditions de",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigcqaokkfghojnw55fnskvwftlykhroshlxl74yqeeh4agmv57wty@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-28T15:04:03.154Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
