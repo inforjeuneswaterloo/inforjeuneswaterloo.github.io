@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7n3qhau2y2f",
+      "cid": "bafyreicbzaijq2u3mwddyzsglm3h54trtk3rhxiscxyadem64wylnaxzoy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-10T12:47:03.235Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot.",
+            "title": "Optioncarriere",
+            "uri": "https://www.optioncarriere.be/jobad/bef320484b7ccc04028f277a3fa52564d3"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/9F5TMBD"
+              }
+            ],
+            "index": {
+              "byteEnd": 199,
+              "byteStart": 184
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 207,
+              "byteStart": 201
+            }
+          }
+        ],
+        "text": "Job étudiant KFC Bruxelles\n\nTâches\n- Offrir un service rapide et chaleureux\n- Prendre les commandes avec un grand sourire\n- Garder le restaurant propre, accueillant et bien rangé\n \nbuff.ly/9F5TMBD \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/bef320484b7ccc04028f277a3fa52564d3",
+          "title": "Optioncarriere",
+          "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-10T12:47:04.433Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7myixrpsh24",
       "cid": "bafyreibln5sktw2p7nehkin7w6nsfxcyisudcp7onuiuppm6dcc2bakoxy",
       "author": {
