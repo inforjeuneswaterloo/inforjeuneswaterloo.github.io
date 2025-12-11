@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7pbxzdend2z",
+      "cid": "bafyreidslunnvha6xnstqj4q7yt3tyrmdo2rjuq2zp5ylp5vzxp3ka3qte",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-11T09:43:59.002Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e0ca76354be32bb2&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAk67I3pGfvvUT4EJ0LbzkdCdPP&xfps=9e4a010f-3014-4b8d-a45f-78201700c0ca&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBi67M3pEFTtXQoxx0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/uNwj45W"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 255
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 272
+            }
+          }
+        ],
+        "text": "STUDENT pour l’année 2026 - Accueil (h,f,x) à Bruxelles\n- Contrat étudiant du 1/02 au 30/11/2026\n- Complétez votre candidature en ligne !\n- Être âgé de 18 ans à la date d’entrée en fonction,\n- Avoir remis sa candidature pour le 14/12/2025. \n\nbuff.ly/uNwj45W \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e0ca76354be32bb2&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAk67I3pGfvvUT4EJ0LbzkdCdPP&xfps=9e4a010f-3014-4b8d-a45f-78201700c0ca&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBi67M3pEFTtXQoxx0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-11T09:43:59.367Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7n3qhau2y2f",
       "cid": "bafyreicbzaijq2u3mwddyzsglm3h54trtk3rhxiscxyadem64wylnaxzoy",
       "author": {
