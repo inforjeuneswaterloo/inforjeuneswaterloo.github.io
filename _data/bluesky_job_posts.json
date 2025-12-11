@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7pqilskxb2i",
+      "cid": "bafyreibuy7ddd7k2wxoye5gd2r7eiqmnyl3nitb2p5dqx4ueiosop5g46i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-11T14:03:47.634Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=def6930d47c24b77&q=Etudiant&l=Brabant-wallon&tk=1jc6h21poh0d6802&from=ja&advn=5956207170814025&adid=454540501&ad=-6NYlbfkN0C9hAA_AISd6j_rt3w8b3z4vdGheAyRAsvrfXtqhxnSHNnWxaOw3PcuLuoI-eBADJ1D3x3XcNjJUWL6F3zt-h0I3-9EFMVqTLiyAcwJlwXHSnzxt4Wbw-Y29rk1n00z9gGpmxqZzeLrBDlJzwRo3lSUeXPTMfVPwJ3SPJ2bSSHW7hbXRU5YZAGywaPJTI_knFjAZsj9rB67r-wqQaSt-5lSJaC1033NrvK4djXXzT4wAf2uKBbnBSuOqGw9Do5Mmwd0Fks1D9SkU0S-sRnMP_4NOIvOO4mWZTJ6gXLUzq4-ewHtjgJefxxK4SbQh2oSbY1FTTokw-gafcOfIdRYx6qt4oCau7IwiHYqTmqEjSEA2jWIvMn7zL3pRj1sCMwoJwLJHjUaGbqBkZjM-hOXFk1U7iJ8ea7RamglD1vmKYUO7QxMG1ettsAVzZO0EvoNTCM_oZIPwfRz9bvBoySvCaW_yy298sfABPk82K9_QeSsxxDDi74wtCjYHsrcJ9UQYYwWlLqO0Hjk-1snOFYLJY8i5kT6qWSMKS6b0qIukZcHvEsohTpyuZU_hTcCm08cAzc%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLERGe_wv3jYQ%3D%3D&xkcb=SoB86_M3pGqHUERmAx0pbzkdCdPP&xpse=SoBh6_I3pG-8DlzNlJ0IbzkdCdPP&xfps=a433bf8d-f7cb-4525-a472-5dd23ac0caa7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/eflt9Ir"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 291
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 314,
+              "byteStart": 308
+            }
+          }
+        ],
+        "text": "Job étudiant serveur H/F Louvain-la-Neuve\n\nMissions :\n· Accueil et service client\n· Dressage de tables, mise en place de la salle, d’un bar, de l’office.\n· Rangement, remise en état de la salle de réception, redressage si nécessaire\nsous la responsabilité du Maître d'Hôtel. \n\nbuff.ly/eflt9Ir \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=def6930d47c24b77&q=Etudiant&l=Brabant-wallon&tk=1jc6h21poh0d6802&from=ja&advn=5956207170814025&adid=454540501&ad=-6NYlbfkN0C9hAA_AISd6j_rt3w8b3z4vdGheAyRAsvrfXtqhxnSHNnWxaOw3PcuLuoI-eBADJ1D3x3XcNjJUWL6F3zt-h0I3-9EFMVqTLiyAcwJlwXHSnzxt4Wbw-Y29rk1n00z9gGpmxqZzeLrBDlJzwRo3lSUeXPTMfVPwJ3SPJ2bSSHW7hbXRU5YZAGywaPJTI_knFjAZsj9rB67r-wqQaSt-5lSJaC1033NrvK4djXXzT4wAf2uKBbnBSuOqGw9Do5Mmwd0Fks1D9SkU0S-sRnMP_4NOIvOO4mWZTJ6gXLUzq4-ewHtjgJefxxK4SbQh2oSbY1FTTokw-gafcOfIdRYx6qt4oCau7IwiHYqTmqEjSEA2jWIvMn7zL3pRj1sCMwoJwLJHjUaGbqBkZjM-hOXFk1U7iJ8ea7RamglD1vmKYUO7QxMG1ettsAVzZO0EvoNTCM_oZIPwfRz9bvBoySvCaW_yy298sfABPk82K9_QeSsxxDDi74wtCjYHsrcJ9UQYYwWlLqO0Hjk-1snOFYLJY8i5kT6qWSMKS6b0qIukZcHvEsohTpyuZU_hTcCm08cAzc%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLERGe_wv3jYQ%3D%3D&xkcb=SoB86_M3pGqHUERmAx0pbzkdCdPP&xpse=SoBh6_I3pG-8DlzNlJ0IbzkdCdPP&xfps=a433bf8d-f7cb-4525-a472-5dd23ac0caa7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-11T14:03:48.129Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7phgyduxe2w",
       "cid": "bafyreidk4b4ixtfeu2pkqqylnzt5akypvgu7kj5o3km7xhvvbpcjlqut44",
       "author": {
