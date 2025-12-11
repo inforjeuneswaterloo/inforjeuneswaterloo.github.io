@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7k3qkeoa726",
-      "cid": "bafyreifsfcpe5unwvjugtfijjgpbg76y7ogqdcbmlbbckjjmv4wajp7ada",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7p3ot6lly2p",
+      "cid": "bafyreibazhdgxlsqhjoy6yevddw7k6v3oggngenftxgx2iymry65ahqxpy",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-09T08:09:06.143Z",
+        "createdAt": "2025-12-11T07:51:27.216Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
+            "description": "À partir de 14h heure belge, les jeunes australiens de moins de moins de 16 ans n’auront légalement plus accès aux réseaux sociaux.",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry"
+                "$link": "bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za"
               },
               "mimeType": "image/jpeg",
-              "size": 20824
+              "size": 23477
             },
-            "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
-            "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864"
+            "title": "La mesure fait parler depuis plusieurs jours, c’est maintenant chose faite : l’Australie interdit les réseaux sociaux aux moins de 16 ans dès ce mardi",
+            "uri": "https://www.rtl.be/actu/monde/international/la-mesure-fait-parler-depuis-plusieurs-jours-cest-maintenant-chose-faite/2025-12-09/article/772980"
           }
         },
         "facets": [
@@ -44,60 +44,60 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Belgique"
+                "tag": "tech"
               }
             ],
             "index": {
-              "byteEnd": 264,
-              "byteStart": 255
+              "byteEnd": 101,
+              "byteStart": 96
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Wallonie"
+                "tag": "RS"
               }
             ],
             "index": {
-              "byteEnd": 274,
-              "byteStart": 265
+              "byteEnd": 105,
+              "byteStart": 102
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "emploi"
+                "tag": "Australie"
               }
             ],
             "index": {
-              "byteEnd": 282,
-              "byteStart": 275
+              "byteEnd": 116,
+              "byteStart": 106
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "walgov"
+                "tag": "Internet"
               }
             ],
             "index": {
-              "byteEnd": 290,
-              "byteStart": 283
+              "byteEnd": 126,
+              "byteStart": 117
             }
           }
         ],
-        "text": "L'accord conclu entre les régions wallonne et flamande prévoit, entre autres, le partage des annonces de job par les Forem & VDAB. Par ailleurs refuser un emploi proposé de l'autre côté de la frontière linguistique pourra entraîner des sanctions. \n#Belgique #Wallonie #emploi #walgov"
+        "text": "Depuis le 09/12 14:00 les Australien.nes de moins se 16 ans sont interdits de réseaux sociaux.\n#tech #RS #Australie #Internet"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864",
-          "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
-          "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry@jpeg"
+          "uri": "https://www.rtl.be/actu/monde/international/la-mesure-fait-parler-depuis-plusieurs-jours-cest-maintenant-chose-faite/2025-12-09/article/772980",
+          "title": "La mesure fait parler depuis plusieurs jours, c’est maintenant chose faite : l’Australie interdit les réseaux sociaux aux moins de 16 ans dès ce mardi",
+          "description": "À partir de 14h heure belge, les jeunes australiens de moins de moins de 16 ans n’auront légalement plus accès aux réseaux sociaux.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -105,7 +105,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-12-09T08:09:08.336Z",
+      "indexedAt": "2025-12-11T07:51:29.329Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -113,7 +113,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za@jpeg"
     }
   ]
 }
