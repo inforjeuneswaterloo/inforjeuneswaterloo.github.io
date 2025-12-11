@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7phgyduxe2w",
+      "cid": "bafyreidk4b4ixtfeu2pkqqylnzt5akypvgu7kj5o3km7xhvvbpcjlqut44",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-11T11:21:50.001Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8a7ede4e6509c9c6&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBU67I3pGRoq8TCYZ0LbzkdCdPP&xfps=bf54b2b7-266d-4312-a51a-d419f25044df&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBn67M3pEFTtXwoxx0ebzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JXek9kh"
+              }
+            ],
+            "index": {
+              "byteEnd": 248,
+              "byteStart": 233
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 255,
+              "byteStart": 249
+            }
+          }
+        ],
+        "text": "Etudiant technicien de surface à Bruxelles\n\nOffre:\n\n· Un contrat étudiant\n\n· Avantages extra-légaux : chèques repas, intervention de l’abonnement STIB\n\n· Une excellente ambiance de travail au sein d’un splendide endroit.\n\nbuff.ly/JXek9kh\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8a7ede4e6509c9c6&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBU67I3pGRoq8TCYZ0LbzkdCdPP&xfps=bf54b2b7-266d-4312-a51a-d419f25044df&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBn67M3pEFTtXwoxx0ebzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-11T11:21:51.032Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7pbxzdend2z",
       "cid": "bafyreidslunnvha6xnstqj4q7yt3tyrmdo2rjuq2zp5ylp5vzxp3ka3qte",
       "author": {
