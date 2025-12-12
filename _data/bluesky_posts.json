@@ -1,6 +1,210 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7rqk7glsu2j",
+      "cid": "bafyreiciawlgkoaid3dm3qkdyp4nsazo34bxznqbaot3s44i2n2hjmie3q",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-12T09:10:00.264Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Les fêtes de fin d’année se rapprochent… et pour le chocolat, on peut faire confiance à nos voisins belges !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigwgn3uzcbeo7mxa4slymyijajerqyn4fw3tuxxf474jr3d25zawy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 93684
+            },
+            "title": "Le meilleur chocolat se trouve en Belgique",
+            "uri": "https://www.radiofrance.fr/francebleu/podcasts/ici-chez-nos-voisins/le-meilleur-chocolat-se-trouve-en-belgique-8903145"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "QualiteDeVie"
+              }
+            ],
+            "index": {
+              "byteEnd": 138,
+              "byteStart": 125
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "gastoronomie"
+              }
+            ],
+            "index": {
+              "byteEnd": 152,
+              "byteStart": 139
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "chocolat"
+              }
+            ],
+            "index": {
+              "byteEnd": 162,
+              "byteStart": 153
+            }
+          }
+        ],
+        "text": "Cocoricooo! Le meilleur chocolat se trouve en Belgique. Et quand les Français eux-mêmes le disent ça sonne encore mieux! \n#QualiteDeVie #gastoronomie #chocolat"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.radiofrance.fr/francebleu/podcasts/ici-chez-nos-voisins/le-meilleur-chocolat-se-trouve-en-belgique-8903145",
+          "title": "Le meilleur chocolat se trouve en Belgique",
+          "description": "Les fêtes de fin d’année se rapprochent… et pour le chocolat, on peut faire confiance à nos voisins belges !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwgn3uzcbeo7mxa4slymyijajerqyn4fw3tuxxf474jr3d25zawy@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-12T09:10:03.132Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7rocwt7ve2o",
+      "cid": "bafyreiesmbgq4wsjkfvzynbow7gtbeqywjgpesryaxwmno5lokva3fjat4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-12T08:30:08.344Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "'L’Europe doit faire très attention', a déclaré le président américain à la presse à la Maison Blanche, ajoutant :...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifkx5c2q7pwttcr5biezpszd2movuhjv4xwsrddzxof2mnebllzma"
+              },
+              "mimeType": "image/jpeg",
+              "size": 165411
+            },
+            "title": "L’Europe 'prend certaines mauvaises directions', affirme Trump - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/l-europe-prend-certaines-mauvaises-directions-affirme-trump-11644843"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "USA"
+              }
+            ],
+            "index": {
+              "byteEnd": 248,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Trump"
+              }
+            ],
+            "index": {
+              "byteEnd": 255,
+              "byteStart": 249
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 256
+            }
+          }
+        ],
+        "text": "Les USA ne veulent pas que l'Europe change autant. Et d'attaquer tous azimuts des décisions qui sapent la liberté politique, d'expression, qui répriment l’opposition politique...\nC'est un peu la parabole de la paille et de la poutre, non?\n#USA #Trump #Europe"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/l-europe-prend-certaines-mauvaises-directions-affirme-trump-11644843",
+          "title": "L’Europe 'prend certaines mauvaises directions', affirme Trump - RTBF Actus",
+          "description": "'L’Europe doit faire très attention', a déclaré le président américain à la presse à la Maison Blanche, ajoutant :...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifkx5c2q7pwttcr5biezpszd2movuhjv4xwsrddzxof2mnebllzma@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-12T08:30:11.130Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7q7pfqaz42y",
       "cid": "bafyreig7mtcgw762u3ggw3fd4jew73pzqauavexs3issshdncrqfp6nxry",
       "author": {
@@ -10380,209 +10584,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-02-05T15:24:17.464Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lh2bh7twgt2b",
-      "cid": "bafyreif7cazakjha2k7hfk3luxaehqnk3oq56txyhkmwq73tj5jcik6cgq",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-31T15:04:00.821Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "À peine débarqué en Europe, l’agent conversationnel chinois DeepSeek doit faire face à deux plaintes déposées à son...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidagmleweakxmza52l6oz47ck5pzysyw3o2l3wz7mvpp4czn2pjm4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 82030
-            },
-            "title": "DeepSeek, l’IA chinoise fait l’objet de deux plaintes déposées en Europe, dont l’une en Belgique",
-            "uri": "https://buff.ly/4gu6K3C"
-          }
-        },
-        "text": "DeepSeek, l’IA chinoise fait l’objet de deux plaintes déposées en Europe, dont l’une en Belgique"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/4gu6K3C",
-          "title": "DeepSeek, l’IA chinoise fait l’objet de deux plaintes déposées en Europe, dont l’une en Belgique",
-          "description": "À peine débarqué en Europe, l’agent conversationnel chinois DeepSeek doit faire face à deux plaintes déposées à son...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidagmleweakxmza52l6oz47ck5pzysyw3o2l3wz7mvpp4czn2pjm4@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-31T15:04:02.655Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lh23fmbkhs2n",
-      "cid": "bafyreic74mkudd2wllraisfzcih7hdc5snhwe5zh5vbgmreytlub2am4ya",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-01-31T13:15:45.476Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "À peine débarqué en Europe, l’agent conversationnel chinois DeepSeek doit faire face à deux plaintes déposées à son...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiau3vtjohxav7ubbdqqx4dniq55rt7jzo2arcv3vrgiqo5pmfh7gq"
-              },
-              "mimeType": "image/jpeg",
-              "size": 677748
-            },
-            "title": "DeepSeek, l’IA chinoise fait l’objet de deux plaintes déposées en Europe, dont l’une en Belgique",
-            "uri": "https://www.rtbf.be/article/deepseek-l-ia-chinoise-fait-l-objet-de-deux-plaintes-deposees-en-europe-dont-l-une-en-belgique-11496376?ebu_news_id=11496376&ebu_news_language=fr&ebu_news_org=RTBF"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "deepseek"
-              }
-            ],
-            "index": {
-              "byteEnd": 101,
-              "byteStart": 92
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 132,
-              "byteStart": 127
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 138,
-              "byteStart": 133
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
-              }
-            ],
-            "index": {
-              "byteEnd": 142,
-              "byteStart": 139
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/deepseek-l-ia-chinoise-fait-l-objet-de-deux-plaintes-deposees-en-europe-dont-l-une-en-belgique-11496376?ebu_news_id=11496376&ebu_news_language=fr&ebu_news_org=RTBF"
-              }
-            ],
-            "index": {
-              "byteEnd": 170,
-              "byteStart": 143
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreigsqibmbwafri7zmda35jpusxexlyeo6f5xav2pyirzdzerckzv3q",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgx5urdeom2o"
-          },
-          "root": {
-            "cid": "bafyreigsqibmbwafri7zmda35jpusxexlyeo6f5xav2pyirzdzerckzv3q",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lgx5urdeom2o"
-          }
-        },
-        "text": "2 plaintes relatives à l'utilisation des données personnelles déposées à l'encontre de #deepseek en Belgique et en Italie\n#mtts #tech #IA\nwww.rtbf.be/article/deep..."
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.rtbf.be/article/deepseek-l-ia-chinoise-fait-l-objet-de-deux-plaintes-deposees-en-europe-dont-l-une-en-belgique-11496376?ebu_news_id=11496376&ebu_news_language=fr&ebu_news_org=RTBF",
-          "title": "DeepSeek, l’IA chinoise fait l’objet de deux plaintes déposées en Europe, dont l’une en Belgique",
-          "description": "À peine débarqué en Europe, l’agent conversationnel chinois DeepSeek doit faire face à deux plaintes déposées à son...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau3vtjohxav7ubbdqqx4dniq55rt7jzo2arcv3vrgiqo5pmfh7gq@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-01-31T13:15:49.654Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
