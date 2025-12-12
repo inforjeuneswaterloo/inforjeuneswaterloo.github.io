@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7p3ot6lly2p",
-      "cid": "bafyreibazhdgxlsqhjoy6yevddw7k6v3oggngenftxgx2iymry65ahqxpy",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7rrnf4lw42j",
+      "cid": "bafyreid5rvexhoft5yebbvzxcil57k64o5fqf2m5nbnu7pl2tgwlloezgi",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-11T07:51:27.216Z",
+        "createdAt": "2025-12-12T09:29:40.118Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "À partir de 14h heure belge, les jeunes australiens de moins de moins de 16 ans n’auront légalement plus accès aux réseaux sociaux.",
+            "description": "La Chambre s’apprête à approuver aujourd’hui un ensemble de mesures fiscales qui toucheront directement la déclaration d’impôts de l’an prochain. Suppressions, réductions ou gels de plusieurs…",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za"
+                "$link": "bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy"
               },
               "mimeType": "image/jpeg",
-              "size": 23477
+              "size": 125454
             },
-            "title": "La mesure fait parler depuis plusieurs jours, c’est maintenant chose faite : l’Australie interdit les réseaux sociaux aux moins de 16 ans dès ce mardi",
-            "uri": "https://www.rtl.be/actu/monde/international/la-mesure-fait-parler-depuis-plusieurs-jours-cest-maintenant-chose-faite/2025-12-09/article/772980"
+            "title": "Ce qui change aujourd’hui pour vos impôts et combien cela peut vous coûter",
+            "uri": "https://www.7sur7.be/economie/ce-qui-change-aujourdhui-pour-vos-impots-et-combien-cela-peut-vous-couter~a04450ee8/"
           }
         },
         "facets": [
@@ -44,60 +44,36 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
+                "tag": "travail"
               }
             ],
             "index": {
-              "byteEnd": 101,
-              "byteStart": 96
+              "byteEnd": 269,
+              "byteStart": 261
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RS"
+                "tag": "emploi"
               }
             ],
             "index": {
-              "byteEnd": 105,
-              "byteStart": 102
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Australie"
-              }
-            ],
-            "index": {
-              "byteEnd": 116,
-              "byteStart": 106
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Internet"
-              }
-            ],
-            "index": {
-              "byteEnd": 126,
-              "byteStart": 117
+              "byteEnd": 277,
+              "byteStart": 270
             }
           }
         ],
-        "text": "Depuis le 09/12 14:00 les Australien.nes de moins se 16 ans sont interdits de réseaux sociaux.\n#tech #RS #Australie #Internet"
+        "text": "Job étudiants: le plafond de moyens de subsistance passe de 5.265 à 12.000 euros, tout en restant  fiscalement à charge des parents. \nFlexijobs: Le plafond de rémunération pour les flexi-jobbers non retraités est relevé de 12.000 à 18.000 euros par an.\n#travail #emploi"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.rtl.be/actu/monde/international/la-mesure-fait-parler-depuis-plusieurs-jours-cest-maintenant-chose-faite/2025-12-09/article/772980",
-          "title": "La mesure fait parler depuis plusieurs jours, c’est maintenant chose faite : l’Australie interdit les réseaux sociaux aux moins de 16 ans dès ce mardi",
-          "description": "À partir de 14h heure belge, les jeunes australiens de moins de moins de 16 ans n’auront légalement plus accès aux réseaux sociaux.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za@jpeg"
+          "uri": "https://www.7sur7.be/economie/ce-qui-change-aujourdhui-pour-vos-impots-et-combien-cela-peut-vous-couter~a04450ee8/",
+          "title": "Ce qui change aujourd’hui pour vos impôts et combien cela peut vous coûter",
+          "description": "La Chambre s’apprête à approuver aujourd’hui un ensemble de mesures fiscales qui toucheront directement la déclaration d’impôts de l’an prochain. Suppressions, réductions ou gels de plusieurs…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -105,7 +81,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-12-11T07:51:29.329Z",
+      "indexedAt": "2025-12-12T09:29:42.743Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -113,7 +89,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy@jpeg"
     }
   ]
 }
