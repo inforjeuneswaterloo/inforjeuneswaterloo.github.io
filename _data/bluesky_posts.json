@@ -1,6 +1,84 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7wvxfieho2p",
+      "cid": "bafyreifaai3iecydbaw2pw5ec4ca2ilt2as25kyitpmmmy7k4ah5vzxhme",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-14T10:30:09.902Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le nombre de burn-out chez les jeunes actifs a explosé de 136 % depuis 2018, selon une étude des Mutualités libres. Voici les causes avancées.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihrbcl75lpzlz3yh6iz3mda735agbmkblyvowv4mk6vzqn2zoje4i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 21373
+            },
+            "title": "Une augmentation de 136 % depuis 2018 : comment expliquer l’explosion du nombre de burn-out chez les jeunes travailleurs ?",
+            "uri": "https://www.rtl.be/actu/belgique/societe/une-augmentation-de-136-depuis-2018-comment-expliquer-lexplosion-du-nombre-de/2025-12-12/article/773299"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "santé"
+              }
+            ],
+            "index": {
+              "byteEnd": 192,
+              "byteStart": 185
+            }
+          }
+        ],
+        "text": "Les raisons invoquées incluent un manque de soutien social, une frontière floue entre vie privée et vie professionnelle, ainsi que le climat géopolitique international anxiogène. \n#santé"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/societe/une-augmentation-de-136-depuis-2018-comment-expliquer-lexplosion-du-nombre-de/2025-12-12/article/773299",
+          "title": "Une augmentation de 136 % depuis 2018 : comment expliquer l’explosion du nombre de burn-out chez les jeunes travailleurs ?",
+          "description": "Le nombre de burn-out chez les jeunes actifs a explosé de 136 % depuis 2018, selon une étude des Mutualités libres. Voici les causes avancées.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihrbcl75lpzlz3yh6iz3mda735agbmkblyvowv4mk6vzqn2zoje4i@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-14T10:30:12.129Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7wpav6ufp2o",
       "cid": "bafyreiftce3bzwbmvlk46ezitm2zjoetd2yvzzjxfw2tj7vuqq6diekgsi",
       "author": {
@@ -10516,70 +10594,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-02-14T17:02:44.247Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3li5oftlu7l2r",
-      "cid": "bafyreidxhr5uxktbgrhkesbdiv7wgnshwfgmzfsamgycsnst2ep4taoit4",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-14T16:59:03.974Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "La commission des Affaires sociales de la Chambre a adopté mercredi en première lecture une proposition de loi visant à...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreick7wpbzhexgbvop5kypd74tyt6yjxk7m623quoekv3z4w4u2y4um"
-              },
-              "mimeType": "image/jpeg",
-              "size": 212655
-            },
-            "title": "Travail étudiant : l’instauration du plafond de 650 heures / par an, validée en première lecture",
-            "uri": "https://buff.ly/42Ryfkn"
-          }
-        },
-        "text": "Travail étudiant : l’instauration du plafond de 650 heures / par an, validée en première lecture "
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/42Ryfkn",
-          "title": "Travail étudiant : l’instauration du plafond de 650 heures / par an, validée en première lecture",
-          "description": "La commission des Affaires sociales de la Chambre a adopté mercredi en première lecture une proposition de loi visant à...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreick7wpbzhexgbvop5kypd74tyt6yjxk7m623quoekv3z4w4u2y4um@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-14T16:59:05.754Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
