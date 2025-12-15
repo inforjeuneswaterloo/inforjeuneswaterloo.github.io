@@ -1,6 +1,84 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7z4ej75352y",
+      "cid": "bafyreicmxqhuauo74m76zkze2ksio3dlzvvzms3om6santa25hzkulze44",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-15T07:30:11.682Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Lors d'une réunion filmée, le président des États-Unis s'est mis à parler de la 6G sans savoir ce que c'est. La preuve en images. Donald Trump dans son",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiec4r3lq2c6acdzcu5acc7so5drauv7u44s7lsv5edjdhpvr5pilu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 122477
+            },
+            "title": "\"Ça permet de voir la peau de quelqu'un plus en détail ?\" : Donald Trump parle de la 6G sans avoir la moindre idée de ce dont il s'agit — Frandroid",
+            "uri": "https://www.frandroid.com/telecom/2906647_ca-permet-de-voir-la-peau-de-quelquun-plus-en-detail-donald-trump-parle-de-la-6g-sans-avoir-la-moindre-idee-de-ce-dont-il-sagit"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 108,
+              "byteStart": 103
+            }
+          }
+        ],
+        "text": "Le Président Trump confond la 6G avec la 6K. Il ne manquerait plus que la confusion survînt à 6H...\n#tech"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.frandroid.com/telecom/2906647_ca-permet-de-voir-la-peau-de-quelquun-plus-en-detail-donald-trump-parle-de-la-6g-sans-avoir-la-moindre-idee-de-ce-dont-il-sagit",
+          "title": "\"Ça permet de voir la peau de quelqu'un plus en détail ?\" : Donald Trump parle de la 6G sans avoir la moindre idée de ce dont il s'agit — Frandroid",
+          "description": "Lors d'une réunion filmée, le président des États-Unis s'est mis à parler de la 6G sans savoir ce que c'est. La preuve en images. Donald Trump dans son",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiec4r3lq2c6acdzcu5acc7so5drauv7u44s7lsv5edjdhpvr5pilu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-15T07:30:14.132Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7wvxfieho2p",
       "cid": "bafyreifaai3iecydbaw2pw5ec4ca2ilt2as25kyitpmmmy7k4ah5vzxhme",
       "author": {
@@ -10504,96 +10582,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-02-18T10:35:50.253Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3li5omdfow22i",
-      "cid": "bafyreihix6cphevkziyg6u7utmbcteu6l2mcc4jo4ddalrucatmvqtnr3q",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-14T17:02:42.993Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 179,
-              "byteStart": 174
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "TravailEtudiant"
-              }
-            ],
-            "index": {
-              "byteEnd": 196,
-              "byteStart": 180
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "travail"
-              }
-            ],
-            "index": {
-              "byteEnd": 205,
-              "byteStart": 197
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreidxhr5uxktbgrhkesbdiv7wgnshwfgmzfsamgycsnst2ep4taoit4",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3li5oftlu7l2r"
-          },
-          "root": {
-            "cid": "bafyreidxhr5uxktbgrhkesbdiv7wgnshwfgmzfsamgycsnst2ep4taoit4",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3li5oftlu7l2r"
-          }
-        },
-        "text": "La proposition prévoit une entrée en vigueur rétroactive au 1er janvier 2025, permettant aux étudiants d’utiliser le quota de 650 heures sur l’ensemble de l’année\n#mtts #TravailEtudiant #travail"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-14T17:02:44.247Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
