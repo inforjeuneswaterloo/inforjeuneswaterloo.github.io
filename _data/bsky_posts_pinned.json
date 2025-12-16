@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7rrnf4lw42j",
-      "cid": "bafyreid5rvexhoft5yebbvzxcil57k64o5fqf2m5nbnu7pl2tgwlloezgi",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ma4ajo2t6l2y",
+      "cid": "bafyreie6u3to5mmkcfh3xhwlr37cv4mtcrpcjgoeahazxsfggana5icxjm",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-12T09:29:40.118Z",
+        "createdAt": "2025-12-16T13:22:39.248Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "La Chambre s’apprête à approuver aujourd’hui un ensemble de mesures fiscales qui toucheront directement la déclaration d’impôts de l’an prochain. Suppressions, réductions ou gels de plusieurs…",
+            "description": "Entre 5 et 17 millions de téléphones déjà utilisés dorment dans les foyers belges. Bien que beaucoup les pensent sans valeur, ils sont pourtant une véritable ressource inexploitée et avec de la…",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy"
+                "$link": "bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy"
               },
               "mimeType": "image/jpeg",
-              "size": 125454
+              "size": 12666
             },
-            "title": "Ce qui change aujourd’hui pour vos impôts et combien cela peut vous coûter",
-            "uri": "https://www.7sur7.be/economie/ce-qui-change-aujourdhui-pour-vos-impots-et-combien-cela-peut-vous-couter~a04450ee8/"
+            "title": "Des millions de téléphones traînent dans nos tiroirs, mais peuvent encore valoir entre « 150 et 200 euros », voici pourquoi",
+            "uri": "https://www.rtl.be/actu/conso/des-millions-de-telephones-trainent-dans-nos-tiroirs-mais-peuvent-encore-valoir/2025-12-11/article/773196"
           }
         },
         "facets": [
@@ -44,36 +44,48 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "travail"
+                "tag": "consommation"
               }
             ],
             "index": {
-              "byteEnd": 269,
-              "byteStart": 261
+              "byteEnd": 280,
+              "byteStart": 267
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "emploi"
+                "tag": "environnement"
               }
             ],
             "index": {
-              "byteEnd": 277,
-              "byteStart": 270
+              "byteEnd": 295,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 296
             }
           }
         ],
-        "text": "Job étudiants: le plafond de moyens de subsistance passe de 5.265 à 12.000 euros, tout en restant  fiscalement à charge des parents. \nFlexijobs: Le plafond de rémunération pour les flexi-jobbers non retraités est relevé de 12.000 à 18.000 euros par an.\n#travail #emploi"
+        "text": "+17Mi 📱 inutilisés en 🇧🇪 . 5,7Mi revendables, valeur: € 150-200/p. Le solde c'est 646,4T de minerais comme Co et Au. Valeur: € 29,35Mi. 642Mi de téléphones inutilisés en Europe, 5000T Co, 431T Sn, 8.62T Au. Soit € 1.1Md.  Ca donne le tournis hein!\n#consommation #environnement #tech"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.7sur7.be/economie/ce-qui-change-aujourdhui-pour-vos-impots-et-combien-cela-peut-vous-couter~a04450ee8/",
-          "title": "Ce qui change aujourd’hui pour vos impôts et combien cela peut vous coûter",
-          "description": "La Chambre s’apprête à approuver aujourd’hui un ensemble de mesures fiscales qui toucheront directement la déclaration d’impôts de l’an prochain. Suppressions, réductions ou gels de plusieurs…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy@jpeg"
+          "uri": "https://www.rtl.be/actu/conso/des-millions-de-telephones-trainent-dans-nos-tiroirs-mais-peuvent-encore-valoir/2025-12-11/article/773196",
+          "title": "Des millions de téléphones traînent dans nos tiroirs, mais peuvent encore valoir entre « 150 et 200 euros », voici pourquoi",
+          "description": "Entre 5 et 17 millions de téléphones déjà utilisés dorment dans les foyers belges. Bien que beaucoup les pensent sans valeur, ils sont pourtant une véritable ressource inexploitée et avec de la…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -81,7 +93,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2025-12-12T09:29:42.743Z",
+      "indexedAt": "2025-12-16T13:22:41.534Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -89,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy@jpeg"
     }
   ]
 }
