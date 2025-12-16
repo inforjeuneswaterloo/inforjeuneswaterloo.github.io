@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma4gequqf62z",
+      "cid": "bafyreidt5svwtthnmgqr2t4dqtiw4is2de6tl4dbu7tzi3casawveadg24",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-16T15:07:17.907Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=1f1c2d11bd2ad04a&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB367I3pT9HKSz76J0LbzkdCdPP&xfps=72688ea5-f288-4f9d-8f24-b078e7160bc7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoD067M3pMKOkaa8tJ0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/HtdgTYx"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Etudiant(e) Chalet d'altitude à Bruxelles\n\nNous recherchons des étudiants motivés pour renforcer nos équipes pendant les fêtes.\n- Dates : 24 décembre, 31 décembre et 1er janvier (soirée/nuit) \n\nPostes à pourvoir :\n- Aide cuisine\n- Service en salle\n- Bar\n- Plonge \n\nbuff.ly/HtdgTYx \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=1f1c2d11bd2ad04a&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB367I3pT9HKSz76J0LbzkdCdPP&xfps=72688ea5-f288-4f9d-8f24-b078e7160bc7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoD067M3pMKOkaa8tJ0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-16T15:07:18.334Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7pqilskxb2i",
       "cid": "bafyreibuy7ddd7k2wxoye5gd2r7eiqmnyl3nitb2p5dqx4ueiosop5g46i",
       "author": {
