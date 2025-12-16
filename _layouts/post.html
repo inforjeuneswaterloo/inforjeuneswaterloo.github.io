@@ -5,11 +5,6 @@ layout: page
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {%if page.disclaimer.enabled %}
-      <div class="alert alert-light mt-4 mb-2">
-        {% include elements/disclaimer.html%}
-      </div>
-    {%endif%}
   </div>
 </article>
  
