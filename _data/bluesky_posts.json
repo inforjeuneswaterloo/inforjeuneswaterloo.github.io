@@ -1,6 +1,222 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ma4ajo2t6l2y",
+      "cid": "bafyreie6u3to5mmkcfh3xhwlr37cv4mtcrpcjgoeahazxsfggana5icxjm",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-16T13:22:39.248Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Entre 5 et 17 millions de téléphones déjà utilisés dorment dans les foyers belges. Bien que beaucoup les pensent sans valeur, ils sont pourtant une véritable ressource inexploitée et avec de la…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 12666
+            },
+            "title": "Des millions de téléphones traînent dans nos tiroirs, mais peuvent encore valoir entre « 150 et 200 euros », voici pourquoi",
+            "uri": "https://www.rtl.be/actu/conso/des-millions-de-telephones-trainent-dans-nos-tiroirs-mais-peuvent-encore-valoir/2025-12-11/article/773196"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "consommation"
+              }
+            ],
+            "index": {
+              "byteEnd": 280,
+              "byteStart": 267
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "environnement"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "+17Mi 📱 inutilisés en 🇧🇪 . 5,7Mi revendables, valeur: € 150-200/p. Le solde c'est 646,4T de minerais comme Co et Au. Valeur: € 29,35Mi. 642Mi de téléphones inutilisés en Europe, 5000T Co, 431T Sn, 8.62T Au. Soit € 1.1Md.  Ca donne le tournis hein!\n#consommation #environnement #tech"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtl.be/actu/conso/des-millions-de-telephones-trainent-dans-nos-tiroirs-mais-peuvent-encore-valoir/2025-12-11/article/773196",
+          "title": "Des millions de téléphones traînent dans nos tiroirs, mais peuvent encore valoir entre « 150 et 200 euros », voici pourquoi",
+          "description": "Entre 5 et 17 millions de téléphones déjà utilisés dorment dans les foyers belges. Bien que beaucoup les pensent sans valeur, ils sont pourtant une véritable ressource inexploitée et avec de la…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-16T13:22:41.534Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ma45hp5zba2o",
+      "cid": "bafyreibv2glcjr46t636x2n3bi3f2lbpuvj6hkcfktgsdpao3tdjq5lsue",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-16T12:27:51.776Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Dès le début de la tournée, le chargeur Stefan Di Cara insiste sur les règles de sécurité fondamentales....",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreib2kw4b337crffzdqq2xnkfhrlktye2qhmahwhwc4ate6ooh6kj3e"
+              },
+              "mimeType": "image/jpeg",
+              "size": 234190
+            },
+            "title": "Dans la peau d’un éboueur : découvrez les coulisses d’un métier indispensable et exigeant - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/dans-la-peau-d-un-eboueur-decouvrez-les-coulisses-d-un-metier-indispensable-et-exigeant-11645788"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "travail"
+              }
+            ],
+            "index": {
+              "byteEnd": 234,
+              "byteStart": 226
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "emploi"
+              }
+            ],
+            "index": {
+              "byteEnd": 242,
+              "byteStart": 235
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "reportage"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 243
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "danslapeaude"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 254
+            }
+          }
+        ],
+        "text": "12 km à pied, jusqu'à 18T de déchets collectés par personne et par jour. Ce n'est peut-être pas le plus beau métier du monde, mais son utilité est indéniable.\nPensons-y avant de s'impatienter et d'invectiver.\nRespect!\n#travail #emploi #reportage #danslapeaude"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.rtbf.be/article/dans-la-peau-d-un-eboueur-decouvrez-les-coulisses-d-un-metier-indispensable-et-exigeant-11645788",
+          "title": "Dans la peau d’un éboueur : découvrez les coulisses d’un métier indispensable et exigeant - RTBF Actus",
+          "description": "Dès le début de la tournée, le chargeur Stefan Di Cara insiste sur les règles de sécurité fondamentales....",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2kw4b337crffzdqq2xnkfhrlktye2qhmahwhwc4ate6ooh6kj3e@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-16T12:27:54.128Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3m7z4ej75352y",
       "cid": "bafyreicmxqhuauo74m76zkze2ksio3dlzvvzms3om6santa25hzkulze44",
       "author": {
@@ -10402,186 +10618,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-02-20T08:16:52.754Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lih2wlvnjs2y",
-      "cid": "bafyreificqsnkrzxccofp74gux2dvk7mlrxz6or7xv5isv7tnqb5oyfqk4",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-18T10:37:09.995Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 76,
-              "byteStart": 71
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 90,
-              "byteStart": 77
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreifjyilbdokajprk4pqci5scjabjwtt45n4vvfgzvfcix4lkvinijq",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lih2u6nj7c2y"
-          },
-          "root": {
-            "cid": "bafyreifjyilbdokajprk4pqci5scjabjwtt45n4vvfgzvfcix4lkvinijq",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lih2u6nj7c2y"
-          }
-        },
-        "text": "L'interdiction visera tous les élèves, de la maternelle à la rhéto\n#mtts #enseignement"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-18T10:37:11.552Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lih2u6nj7c2y",
-      "cid": "bafyreifjyilbdokajprk4pqci5scjabjwtt45n4vvfgzvfcix4lkvinijq",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-18T10:35:47.866Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L'usage pédagogique des smartphones en classe restera autorisé.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigix6h7e5zhmswfjlhbh2hzcuxgik42uq6fxgl2s7ic2hlpywdxzi"
-              },
-              "mimeType": "image/jpeg",
-              "size": 93166
-            },
-            "title": "Le Parlement a validé le projet: le téléphone portable sera bien interdit dans les classes dès la rentrée prochaine",
-            "uri": "https://buff.ly/3QlJmdE"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3QlJmdE"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 243
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 272,
-              "byteStart": 267
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 286,
-              "byteStart": 273
-            }
-          }
-        ],
-        "text": "La commission Education du parlement de la Fédération Wallonie-Bruxelles a approuvé lundi un projet de décret visant à interdire pour les élèves l'usage récréatif des téléphones portables et autres appareils connectés à l'école. https://buff.ly/3QlJmdE\n#mtts #enseignement"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/3QlJmdE",
-          "title": "Le Parlement a validé le projet: le téléphone portable sera bien interdit dans les classes dès la rentrée prochaine",
-          "description": "L'usage pédagogique des smartphones en classe restera autorisé.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigix6h7e5zhmswfjlhbh2hzcuxgik42uq6fxgl2s7ic2hlpywdxzi@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-18T10:35:50.253Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
