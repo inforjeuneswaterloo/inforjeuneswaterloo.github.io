@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma6zf466342g",
+      "cid": "bafyreihsd3tfvdla4cv5moqnvqsq2te4k4cydujcsopyeabzk6spyhs2xy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-17T15:52:50.318Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=d1cd0753d66d7910&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDm67I3pWX5m4gYID0LbzkdCdPP&xfps=7d5b310e-1cc5-42a3-ae29-4548938c42cc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoBL67M3pUrJmm2sIZ0EbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/yYOGZn1"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiants Agent de Gardiennage - Bruxelles\n\n- Tu auras ton ACG en juin prochain\n- Permis B + véhicule\n- Très flexible (prêt à travailler le jour, la nuit, les week-ends et les jours fériés)\n- Minimum 400 heures étudiantes restantes\n- Connaissance NL/EN est primordiale!\n\nbuff.ly/yYOGZn1\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=d1cd0753d66d7910&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDm67I3pWX5m4gYID0LbzkdCdPP&xfps=7d5b310e-1cc5-42a3-ae29-4548938c42cc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoBL67M3pUrJmm2sIZ0EbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-17T15:52:50.829Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma6z2j6svs26",
+      "cid": "bafyreifc6nwstkltcvekxktqj2xxkyyogz2glogfedginv2kw7bqdhvn6y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-17T15:46:54.877Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ef4310c56e655338&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD567I3pWXXfgzBBx0LbzkdCdPP&xfps=d1189a3c-f8e6-4cf1-8a52-f2840d331f14&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCL67M3pUrJmm2sIZ0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Uz7Ys5M"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Chauffeur livreur étudiant H/F à Bruxelles\n\n - La boulangerie Kenger recherche 1 étudiant(e) pour ses livraisons du weekend, sur Bruxelles principalement.\n- Horaires : 6H30 - 12H30 (heure de fin approximative)\n- Disponibilité : immédiate\n- Permis B\n- Rémunération : 15€/heure\n\nbuff.ly/Uz7Ys5M\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ef4310c56e655338&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD567I3pWXXfgzBBx0LbzkdCdPP&xfps=d1189a3c-f8e6-4cf1-8a52-f2840d331f14&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCL67M3pUrJmm2sIZ0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-17T15:46:55.233Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma6ylxaxm42g",
+      "cid": "bafyreifhmsbgyzpcvrjmjxotagjfxkvrnkruoh3gimqobwxixmwu5lwwmy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-17T15:38:46.307Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f901acc4e75c742e&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD267I3pWWCOfgYIT0LbzkdCdPP&xfps=0e6454e1-0355-41b1-a40f-5572a61713ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCi67M3pUrJmm2sIZ0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/FCpMWTY"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant Night&Day (H/F/X) le samedi à Braine-l'Alleud\n- Accueillir et conseiller les clients avec le sourire\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre\nbuff.ly/FCpMWTY\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f901acc4e75c742e&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD267I3pWWCOfgYIT0LbzkdCdPP&xfps=0e6454e1-0355-41b1-a40f-5572a61713ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCi67M3pUrJmm2sIZ0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-17T15:38:47.033Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma4i37awle2z",
       "cid": "bafyreiddkpbb32ot7t5ija3hdop3k46xxqe3wlij2ueevsga3g5gi667f4",
       "author": {
