@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3madun36abk2w",
+      "cid": "bafyreiffo5n35ijnbfqeoyimstdzso2iuasmlccfq37iekemzqbldt3ffq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-19T14:11:07.687Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=427eec38c26fd917&q=Etudiant&l=Brabant-wallon&tk=1jcr0dcq5gdbu803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAQ67I3pbWPu2TNsZ0KbzkdCdPP&xfps=71158f9a-cf8f-4903-996a-2e44147406f2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcr0dcq5gdbu803&xkcb=SoDk67M3pbI6MP7LoR0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/fKkG0dx"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 283
+            }
+          }
+        ],
+        "text": "Etudiant snack bar/sandwicherie Sacrée Simone - Perwez\nMissions\n- Accueil et service\n- Préparation et mise en place (sandwicherie / service / caisse )\n- Entretien \nProfil\n- Dynamique, souriant et motivé\n- Sens du contact et du service\n- Ponctuel/fiable\n- Rapide \nbuff.ly/fKkG0dx \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=427eec38c26fd917&q=Etudiant&l=Brabant-wallon&tk=1jcr0dcq5gdbu803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAQ67I3pbWPu2TNsZ0KbzkdCdPP&xfps=71158f9a-cf8f-4903-996a-2e44147406f2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcr0dcq5gdbu803&xkcb=SoDk67M3pbI6MP7LoR0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-19T14:11:08.041Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma6zf466342g",
       "cid": "bafyreihsd3tfvdla4cv5moqnvqsq2te4k4cydujcsopyeabzk6spyhs2xy",
       "author": {
