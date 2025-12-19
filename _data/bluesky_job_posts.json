@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3madv6wrfns2w",
+      "cid": "bafyreifc2qqyvxo37wa4usez32gtnj3df5keyg5mpdmr6s42lgdelsfkfi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-12-19T14:21:07.053Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=cd7bfd6837ae0403&q=Etudiant&l=Brussels&tk=1jcoqam91kc5a802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAl67I3pbWwkiT4V50LbzkdCdPP&xfps=0342703a-5625-4715-bca8-d4e6748200ba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcoqam91kc5a802&xkcb=SoAI67M3pY-dMcAImr3mbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/jVr7beu"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 259
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 276
+            }
+          }
+        ],
+        "text": "Etudiant accueil WE/jours fériés Résidence Arcadia - Molenbeek-St-Jean \nTâches\n- Accueil/Information/orientation\n- Accueil téléphonique \n- Transmettre les messages \nProfil\n- Capacité d’écoute, orienté solution, bonne communication\n- autonome\n- ...\nbuff.ly/jVr7beu \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=cd7bfd6837ae0403&q=Etudiant&l=Brussels&tk=1jcoqam91kc5a802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAl67I3pbWwkiT4V50LbzkdCdPP&xfps=0342703a-5625-4715-bca8-d4e6748200ba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcoqam91kc5a802&xkcb=SoAI67M3pY-dMcAImr3mbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-12-19T14:21:07.632Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3madun36abk2w",
       "cid": "bafyreiffo5n35ijnbfqeoyimstdzso2iuasmlccfq37iekemzqbldt3ffq",
       "author": {
