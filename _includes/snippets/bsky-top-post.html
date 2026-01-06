@@ -12,7 +12,7 @@
             {% assign post_uri = post.uri %}
             
             {% assign post_external = post.embed.external %}
-            {% assign post_external_title=post_external.title | split: '-' | first | strip %}
+            {% assign post_external_title=post_external.title %}
             {% assign post_external_uri = post_external.uri %}
             {% assign extract_http = post_external_uri | remove : 'http://' | remove: 'https://' %}
             {% assign extract_www = extract_http | remove: 'www.' %}
