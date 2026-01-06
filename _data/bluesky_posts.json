@@ -1,6 +1,150 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mbqxwshyf224",
+      "cid": "bafyreibd3jumxcqr2544va7botgyvj6pcjq5qltpi7p2miizcirxhxr73a",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "Keskisspasse?",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-06T12:40:03.740Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Eurodesk webpage",
+            "title": "Eurodesk",
+            "uri": "https://bitl.to/5WEB"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 232,
+              "byteStart": 225
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "erasmus"
+              }
+            ],
+            "index": {
+              "byteEnd": 241,
+              "byteStart": 233
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "yotm"
+              }
+            ],
+            "index": {
+              "byteEnd": 247,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "hw"
+              }
+            ],
+            "index": {
+              "byteEnd": 251,
+              "byteStart": 248
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "MobilitéInternationale"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "international"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://bitl.to/5WEB"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 292
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "text": "UK is back in 2027 ! Le Royaume-Uni sera associé au programme Eurasmus+.  Cette association offrira d'importantes opportunités aux citoyens du Royaume-Uni et de l'Union européenne, en particulier aux jeunes générations.\n#europe #erasmus #yotm #hw #MobilitéInternationale #international\nbitl.to/5WEB"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://bitl.to/5WEB",
+          "title": "Eurodesk",
+          "description": "Eurodesk webpage"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-06T12:40:04.434Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mbqltfhwq42e",
       "cid": "bafyreiczvadeis5a6uxvu4zsbky2pchtc6cj5lqpc6gpypaj226bkhrzt4",
       "author": {
@@ -10438,144 +10582,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-02-26T15:24:27.654Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lj3opnjnvd24",
-      "cid": "bafyreihd2yekyr6w2ctyx4bw2ez75omaqrew3shavkwqf7zl3lncfytg7e",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-26T15:24:25.456Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Le président ukrainien a déploré, mercredi, que son homologue américain, qui l’avait faussement accusé la veille d’être à l’origine de la guerre déclenchée par Moscou, vive dans « un espace de…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidpsixcg4t3tuz5mv56yw65c6naw2ordqo2bk5x24wnm3aq35jkt4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 101164
-            },
-            "title": "Donald Trump qualifie Volodymyr Zelensky de « dictateur sans élection »",
-            "uri": "https://buff.ly/4bk7c37"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Trump"
-              }
-            ],
-            "index": {
-              "byteEnd": 17,
-              "byteStart": 11
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Zelensky"
-              }
-            ],
-            "index": {
-              "byteEnd": 34,
-              "byteStart": 25
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "dictateur"
-              }
-            ],
-            "index": {
-              "byteEnd": 48,
-              "byteStart": 38
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 152,
-              "byteStart": 147
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "usa"
-              }
-            ],
-            "index": {
-              "byteEnd": 157,
-              "byteStart": 153
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/4bk7c37"
-              }
-            ],
-            "index": {
-              "byteEnd": 181,
-              "byteStart": 158
-            }
-          }
-        ],
-        "text": "Episode 1: #Trump traite #Zelensky de #dictateur. Cette prise de position provoque un mouvement d'indignation qui via les \"notes de communautés'\n\n#mtts #usa\nhttps://buff.ly/4bk7c37  "
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/4bk7c37",
-          "title": "Donald Trump qualifie Volodymyr Zelensky de « dictateur sans élection »",
-          "description": "Le président ukrainien a déploré, mercredi, que son homologue américain, qui l’avait faussement accusé la veille d’être à l’origine de la guerre déclenchée par Moscou, vive dans « un espace de…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpsixcg4t3tuz5mv56yw65c6naw2ordqo2bk5x24wnm3aq35jkt4@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-26T15:24:26.562Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
