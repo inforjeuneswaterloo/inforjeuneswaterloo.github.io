@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbsywqyrrc24",
+      "cid": "bafyreiamtcyahstb5lmzftvwulxicshlnkjcfgpwvvho5tscykkghlxmme",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-07T08:03:14.273Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour notre client, situé à Rhode-Saint-Genèse, nous recherchons un Etudiant Comptable (H/F/X) motivé.Il s'agit d'un renfort pour soutenir l'équipe 1 jour par semaine tout au long de l'année académi...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+              },
+              "mimeType": "image/png",
+              "size": 5817
+            },
+            "title": "Offre d'emploi de Etudiant Comptable à Sint-genesius-rode, Flemish Brabant",
+            "uri": "https://www.roberthalf.com/be/fr/emploi/sint-genesius-rode-flemish-brabant/etudiant-comptable/06740-0013352463-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/4p9mQCr"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant Comptable 1jour/semaine - Rhode St Genèse\nTâches : \n- Encodage des factures \n- Classement et organisation des documents comptables \n- Soutien administratif général\nProfil : \n- Etudiant en comptabilité ou finance \n- Maîtriser parfaitement le français\nbuff.ly/4p9mQCr \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.roberthalf.com/be/fr/emploi/sint-genesius-rode-flemish-brabant/etudiant-comptable/06740-0013352463-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
+          "title": "Offre d'emploi de Etudiant Comptable à Sint-genesius-rode, Flemish Brabant",
+          "description": "Pour notre client, situé à Rhode-Saint-Genèse, nous recherchons un Etudiant Comptable (H/F/X) motivé.Il s'agit d'un renfort pour soutenir l'équipe 1 jour par semaine tout au long de l'année académi...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-07T08:03:16.155Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3madv6wrfns2w",
       "cid": "bafyreifc2qqyvxo37wa4usez32gtnj3df5keyg5mpdmr6s42lgdelsfkfi",
       "author": {
