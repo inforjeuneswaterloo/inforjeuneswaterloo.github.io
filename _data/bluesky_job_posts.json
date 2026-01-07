@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbtuseynw62p",
+      "cid": "bafyreid27lht7mybkncmwdvdhinjdnrnyjukmyewhf57h3ktzqzm36txza",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-07T16:21:52.282Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Op zoek naar een job als Jardinier - Etudiant - Wavre  in Mont-Saint-Guibert met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+              },
+              "mimeType": "image/webp",
+              "size": 7670
+            },
+            "title": "Vacature Jardinier - Etudiant - Wavre  Mont-Saint-Guibert - Accent Jobs",
+            "uri": "https://accentjobs.be/fr/offredemploi/jardinier-etudiant-wavre-516364?utm_source=CRJ-NL&utm_medium=referral&utm_content=516364&utm_term=R254&igbTracker=858775121"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ZpSWKOZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant jardinier Wavre\n- Aider dans les travaux d’entretien: tonte, taille, désherbage, soufflage, nettoyage,...\n- Participer aux aménagements extérieurs : plantations, pose de paillis, petits travaux de terrassement, clôtures,...\n- Préparer, ranger et nettoyer le matériel\nbuff.ly/ZpSWKOZ \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://accentjobs.be/fr/offredemploi/jardinier-etudiant-wavre-516364?utm_source=CRJ-NL&utm_medium=referral&utm_content=516364&utm_term=R254&igbTracker=858775121",
+          "title": "Vacature Jardinier - Etudiant - Wavre  Mont-Saint-Guibert - Accent Jobs",
+          "description": "Op zoek naar een job als Jardinier - Etudiant - Wavre  in Mont-Saint-Guibert met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-07T16:21:53.835Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbtubr3kfm2i",
       "cid": "bafyreigjndt7cr6nu2krccwdcsr5goc5r4ywxazoafh3fbdym7sl4b3fmy",
       "author": {
