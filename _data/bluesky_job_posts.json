@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbwdi35cqx2z",
+      "cid": "bafyreiadhdevb3cbqrpnn7vok4wgqk63dmattk27lngp65q64kud4jlt4e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-08T15:49:51.787Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Ta mission Etudiant(e) motivé(e) comme jamais, il faudra veiller au bon déroulement du Burger King. Parce que tu es aussi chaud(e) qu’un Whopper, tu auras diverses missions en cuisine, en caisse et…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiblwlfobyqvkols6iuca3kry5537wg6yhoujyc5fomzjbggwtkakm"
+              },
+              "mimeType": "image/png",
+              "size": 65917
+            },
+            "title": "Etudiant(e)",
+            "uri": "https://jobs.burgerking.be/fr/etudiant-e-79371930"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/D1XAvoU"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant(e) Burger King Louvain-la-Neuve\n- À l’écoute du client, tu adoptes toujours une attitude commerciale\n- Ponctuel(le)\n- Aisance sociale\n- Résistance au stress\n- Dispo à temps partiel pendant les vacances scolaires, les week-ends ou en semaine, avec un horaire flexible \nbuff.ly/D1XAvoU\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.burgerking.be/fr/etudiant-e-79371930",
+          "title": "Etudiant(e)",
+          "description": "Ta mission Etudiant(e) motivé(e) comme jamais, il faudra veiller au bon déroulement du Burger King. Parce que tu es aussi chaud(e) qu’un Whopper, tu auras diverses missions en cuisine, en caisse et…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiblwlfobyqvkols6iuca3kry5537wg6yhoujyc5fomzjbggwtkakm@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-08T15:49:53.538Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbwcqenifq2m",
+      "cid": "bafyreidsigmxxpyp44uzcmknbinrnjimpkfc54zs3xc6duh2zyds5offue",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-08T15:36:37.571Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=28fc3ce36937a444&q=Etudiants&l=Brabant-wallon&tk=1jedu40eiiovh800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoA567I3oPPXzxz5bh0LbzkdCdPP&xfps=78cf5bfb-69a9-4ce4-9c22-47d78743db6a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jedu40eiiovh800&xkcb=SoAh67M3oN0fpURNhx0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/s42eNau"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Etudiant magasin LIDL - Jodoigne\nProfil\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/s42eNau\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=28fc3ce36937a444&q=Etudiants&l=Brabant-wallon&tk=1jedu40eiiovh800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoA567I3oPPXzxz5bh0LbzkdCdPP&xfps=78cf5bfb-69a9-4ce4-9c22-47d78743db6a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jedu40eiiovh800&xkcb=SoAh67M3oN0fpURNhx0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-08T15:36:37.975Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw62rcnza2z",
       "cid": "bafyreiasvleoih43grsgxg7jnjigvjvz7fxg4nsj22qrvex4x7ensrnuem",
       "author": {
