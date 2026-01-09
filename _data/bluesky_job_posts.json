@@ -1,6 +1,70 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbyocxzbmj2s",
+      "cid": "bafyreibiehg7ni3druhnm3d5xamt7qqcfs2evzzbgvrefdgzysmmcwsbtm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-09T14:09:12.506Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/x0jx2SO"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 275,
+              "byteStart": 269
+            }
+          }
+        ],
+        "text": "Etudiant Vendeur polyvalent Les idées à la pelle - Schaerbeek \nTâches :\n- réassort\n- caisse, \n- conseiller les clients et les orienter dans le magasin.\nAu niveau pratique : 8h/semaine le samedi matin . Salaire en accord avec les barèmes légaux. \nbuff.ly/x0jx2SO \n#job4u"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-09T14:09:12.833Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbykqeofkc26",
       "cid": "bafyreiftoryzhwsszoctrdkc6ciyuvad2ebnj34iroiph2eq2wp53xci34",
       "author": {
