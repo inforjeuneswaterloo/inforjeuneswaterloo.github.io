@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbygnhkjak2h",
+      "cid": "bafyreidmkiezoyyjvxixsylmwyezoda5jqln7ahdzoeker27qy3bxfwvsa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-09T11:51:53.768Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description de l'entreprise: Courir est le n°1 de la Sneaker en France ! Et l'enseigne préférée des Femmes.Avec plus de 2000 collaborateurs, 300 magasins à travers le monde. Courir vous propose un…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreih7yq5gt5jt5vw7efcki4zkyxqlblbeqcpqhksrkiqsvgrrnvnkbq"
+              },
+              "mimeType": "image/png",
+              "size": 5388
+            },
+            "title": "Job étudiant - Vendeuse / Vendeur - F/H",
+            "uri": "https://jobs.smartrecruiters.com/Courir/744000101865701-job-etudiant-vendeuse-vendeur-f-h"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/iDsBDTd"
+              }
+            ],
+            "index": {
+              "byteEnd": 313,
+              "byteStart": 298
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 321,
+              "byteStart": 315
+            }
+          }
+        ],
+        "text": "Job étudiant vente Courir - Bruxelles\nTâches :\n• Accueil/conseil clients\n• Proposer des produits complémentaires.\n• Connaître le programme de fidélité ...\nProfil :\n• Relationnel remarquable\n• Aimer se dépasser\n• Passion pr la mode et le commerce\n• Aimer le travail en équipe.\nbuff.ly/iDsBDTd \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.smartrecruiters.com/Courir/744000101865701-job-etudiant-vendeuse-vendeur-f-h",
+          "title": "Job étudiant - Vendeuse / Vendeur - F/H",
+          "description": "Description de l'entreprise: Courir est le n°1 de la Sneaker en France ! Et l'enseigne préférée des Femmes.Avec plus de 2000 collaborateurs, 300 magasins à travers le monde. Courir vous propose un…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreih7yq5gt5jt5vw7efcki4zkyxqlblbeqcpqhksrkiqsvgrrnvnkbq@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-09T11:51:55.137Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbwdi35cqx2z",
       "cid": "bafyreiadhdevb3cbqrpnn7vok4wgqk63dmattk27lngp65q64kud4jlt4e",
       "author": {
