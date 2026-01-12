@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcalm4hqka2g",
+      "cid": "bafyreiftzu2fqskns7ssnplu7qxy7vwsolxfnoimtmjbyurgxrz72xteku",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-12T17:41:55.159Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En tant qu’Employé étudiant (h/f/x), vous viendrez renforcer le département Customer Service.Vous apportez un soutien administratif essentiel au bon déroulement des opérations quotidiennes. Vous...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Employé Administratif Etudiant",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5302029?JobId=5302029&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mi1jFzL"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Employé Administratif Etudiant Braine-l'Alleud\n- En études supérieures (orientation administrative)\n- Très bonne maîtrise de la suite Microsoft Office\n- Autonome\n- 1 connaissance de l’anglais professionnel est 1 atout\n- Expérience souhaitée dans 1 fonction administrative\nbuff.ly/mi1jFzL\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5302029?JobId=5302029&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Employé Administratif Etudiant",
+          "description": "En tant qu’Employé étudiant (h/f/x), vous viendrez renforcer le département Customer Service.Vous apportez un soutien administratif essentiel au bon déroulement des opérations quotidiennes. Vous...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-12T17:41:56.141Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcakztievg2m",
+      "cid": "bafyreiddmpt6zyay3mvi7ig4kcjyervzlfxbc7cxvmttepuezbqlhdutuy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-12T17:31:40.330Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-en-charcuterie-genappe-brabant-wallon/166-32032-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/llWFUrt"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 282
+            }
+          }
+        ],
+        "text": "Etudiant vendeur en charcuterie Genappe\n\n- Réception et contrôle des livraisons de produits frais\n- Mise en rayon et réassortiment des produits\n- Rotation des stocks et gestion des dates de péremption\n- Suivi de la propreté et du respect des normes d'hygiène\n\nbuff.ly/llWFUrt\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-en-charcuterie-genappe-brabant-wallon/166-32032-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-12T17:31:42.830Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcajmp3aqz22",
       "cid": "bafyreid6b6zy5nl62fp6w6tswnmfpzgwk7e3gvrtkfrevso4mi57e5xpba",
       "author": {
