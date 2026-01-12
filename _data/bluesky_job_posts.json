@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcajmp3aqz22",
+      "cid": "bafyreid6b6zy5nl62fp6w6tswnmfpzgwk7e3gvrtkfrevso4mi57e5xpba",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-12T17:06:25.822Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/GIi37P1"
+              }
+            ],
+            "index": {
+              "byteEnd": 139,
+              "byteStart": 124
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 146,
+              "byteStart": 140
+            }
+          }
+        ],
+        "text": "Etudiant caisse et réassort Lillois\n\nPour travailler les samedis et dimanches.\nTâches :\n- Caisse\n- Réassort tout rayon \n\nbuff.ly/GIi37P1\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-12T17:06:28.749Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcaj2mlia72z",
+      "cid": "bafyreie3xaqx7bfynt2cibowog53vftqcelno3r6hg4ap6e2hkqxqkbe3q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-12T16:56:21.279Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=96c34d7070662a71&q=Etudiant&l=Brussels&tk=1jehnt19r21du000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCA67I3oZrR87T4V50LbzkdCdPP&xfps=2398075d-6be1-44b2-aa2d-e38b28dbe83c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jehnt19r21du000&xkcb=SoAj67M3oSOytnQCwx0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/spD1PlG"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Etudiant polyvalent Hector Chicken Bruxelles\n- Caisse, accueil et servir les commandes\n- Cuisine, mises en place\n- Répondre aux besoins des clients, les orienter\n- Maintenir la propreté : Débarrasser et nettoyer les tables, plonge, …\n- Réassort du comptoir et des frigos\nbuff.ly/spD1PlG\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=96c34d7070662a71&q=Etudiant&l=Brussels&tk=1jehnt19r21du000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCA67I3oZrR87T4V50LbzkdCdPP&xfps=2398075d-6be1-44b2-aa2d-e38b28dbe83c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jehnt19r21du000&xkcb=SoAj67M3oSOytnQCwx0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-12T16:56:21.636Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbyocxzbmj2s",
       "cid": "bafyreibiehg7ni3druhnm3d5xamt7qqcfs2evzzbgvrefdgzysmmcwsbtm",
       "author": {
