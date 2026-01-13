@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mccioky7pa2p",
+      "cid": "bafyreibdekjstl5z4oxwtxpxvsu5sgxq7ydzon3i3i7w7e7ubhsxx56lga",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-13T11:54:56.412Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ecbd0b28c44286d8&q=Etudiant&l=Brabant-wallon&tk=1jeqr1h7tgbd1800&from=ja&advn=5706852212601780&adid=455645635&ad=-6NYlbfkN0DSHoW9vhBNvBIZzZSu_BIrk_onUKIu6eqrWLnrvTJBfF1Lk-TMzvYaC9Ex_3aEoq8zUK_V8lwvKQyxAD9JUSlnqfyxw83oYhlIzNZrYemGVcZ76eIi8XBS6HcQLV8S_Xbn9qrFMzNO4DLISnKD-PWar-vWk3tojkXJua6sw5_jhqeGqMqBpNb7WGaU6MKKnQd6xp58nkjeOjS0dAL0sjJN7-TgDsJMnaiQdQA2v9M1ogC8PqsDbsrxhF1zSmzgCoyuGXplEySSIxIvuEDeUXc6TtsVKiiuJUSl9WRQrRl31YWyX2mobFsZ1C5GgjfjEKF32OUZoJQ8UN2mAfrhLHnAKkgfd08PYUYofFfZAcFg3Apubqszr1rkhr4xrN28xzd3rpoeT58ODfY1GkPpOuW-AG2DpgCBSoT1QQspryvOGwD-zwF_eT6zxXLG-q41nLqPPj_WRLhOdkeyfVD0R0BW4y8z6vxYugB9jLWGIyR8DNw4ZMlAMpoJHNPG-_j6CF6ShJUFvqAbo9KReP0s5oKytLZVQgRItWnsj0viU5W-1PRx6XsvUHpzVsSIqPVuu2g%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLKGjwq_y7u5g%3D%3D&xkcb=SoAu6_M3obV3JdW04p0LbzkdCdPP&xpse=SoAd6_I3obuE1MzCHh0PbzkdCdPP&xfps=86e002f0-649c-45f4-b0cd-a65bb4e8610c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0w2HPoO"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 259
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 275
+            }
+          }
+        ],
+        "text": "Mécanicien / Technicien automobile Nivelles\n– Expérience en mécanique automobile (étudiant / officine / indépendant)\n– Capacité à expliquer clairement l’état du véhicule au client\n– Disponible en soirée / week-end\n– Permis B (apprécié) \nbuff.ly/0w2HPoO\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ecbd0b28c44286d8&q=Etudiant&l=Brabant-wallon&tk=1jeqr1h7tgbd1800&from=ja&advn=5706852212601780&adid=455645635&ad=-6NYlbfkN0DSHoW9vhBNvBIZzZSu_BIrk_onUKIu6eqrWLnrvTJBfF1Lk-TMzvYaC9Ex_3aEoq8zUK_V8lwvKQyxAD9JUSlnqfyxw83oYhlIzNZrYemGVcZ76eIi8XBS6HcQLV8S_Xbn9qrFMzNO4DLISnKD-PWar-vWk3tojkXJua6sw5_jhqeGqMqBpNb7WGaU6MKKnQd6xp58nkjeOjS0dAL0sjJN7-TgDsJMnaiQdQA2v9M1ogC8PqsDbsrxhF1zSmzgCoyuGXplEySSIxIvuEDeUXc6TtsVKiiuJUSl9WRQrRl31YWyX2mobFsZ1C5GgjfjEKF32OUZoJQ8UN2mAfrhLHnAKkgfd08PYUYofFfZAcFg3Apubqszr1rkhr4xrN28xzd3rpoeT58ODfY1GkPpOuW-AG2DpgCBSoT1QQspryvOGwD-zwF_eT6zxXLG-q41nLqPPj_WRLhOdkeyfVD0R0BW4y8z6vxYugB9jLWGIyR8DNw4ZMlAMpoJHNPG-_j6CF6ShJUFvqAbo9KReP0s5oKytLZVQgRItWnsj0viU5W-1PRx6XsvUHpzVsSIqPVuu2g%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLKGjwq_y7u5g%3D%3D&xkcb=SoAu6_M3obV3JdW04p0LbzkdCdPP&xpse=SoAd6_I3obuE1MzCHh0PbzkdCdPP&xfps=86e002f0-649c-45f4-b0cd-a65bb4e8610c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-13T11:54:56.730Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mccgqg6wmu2f",
+      "cid": "bafyreiazi7copsadid3eoi7nyu2id3rwx3ftguna63ywvdtdyu6f25wply",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-13T11:20:11.020Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e663b632de1b4698&q=Etudiant&l=Brussels&tk=1jepmul85h0du804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCp67I3obVZeuTCMJ0KbzkdCdPP&xfps=3b925cb0-e2ed-4c52-816c-2d509ead9f32&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jepmul85h0du804&xkcb=SoAb67M3oaBOslUp3h0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/W5grtIY"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Etudiant Horeca avec permis B Bruxelles\n- Accueil des clients et service en salle\n- Gestion des commandes de boissons au bar\n- Préparation des commandes à emporter\n- Livraison des commandes\n- Tenue du restaurant et de la cuisine dans un état de propreté irréprochable \nbuff.ly/W5grtIY\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e663b632de1b4698&q=Etudiant&l=Brussels&tk=1jepmul85h0du804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCp67I3obVZeuTCMJ0KbzkdCdPP&xfps=3b925cb0-e2ed-4c52-816c-2d509ead9f32&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jepmul85h0du804&xkcb=SoAb67M3oaBOslUp3h0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-13T11:20:11.728Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcalm4hqka2g",
       "cid": "bafyreiftzu2fqskns7ssnplu7qxy7vwsolxfnoimtmjbyurgxrz72xteku",
       "author": {
