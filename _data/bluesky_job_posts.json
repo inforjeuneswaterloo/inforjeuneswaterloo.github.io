@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcfginiqra24",
+      "cid": "bafyreib4kehepsa7blurop5nmpmnfirahzazgdermgm4dpawggy5k4emrq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-14T15:53:48.586Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Op zoek naar een job als Job étudiant à l'année - Grande distribution - Genappe. in Baisy-Thy met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+              },
+              "mimeType": "image/webp",
+              "size": 7670
+            },
+            "title": "Vacature Job étudiant à l'année - Grande distribution - Genappe. Baisy-Thy - Accent Jobs",
+            "uri": "https://accentjobs.be/fr/offredemploi/job-etudiant-a-lannee-grande-distribution-genappe-525900?utm_source=CRJ-NL&utm_medium=jobboard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dJxvLUw"
+              }
+            ],
+            "index": {
+              "byteEnd": 208,
+              "byteStart": 193
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 215,
+              "byteStart": 209
+            }
+          }
+        ],
+        "text": "Job étudiant à l'année - Grande distribution - Genappe\n- Accueil et conseil client.\n- Mise en place de la caisse.\n- Réassort dans les différents rayons.\n- Ouverture/fermeture du magasin. \nbuff.ly/dJxvLUw\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://accentjobs.be/fr/offredemploi/job-etudiant-a-lannee-grande-distribution-genappe-525900?utm_source=CRJ-NL&utm_medium=jobboard",
+          "title": "Vacature Job étudiant à l'année - Grande distribution - Genappe. Baisy-Thy - Accent Jobs",
+          "description": "Op zoek naar een job als Job étudiant à l'année - Grande distribution - Genappe. in Baisy-Thy met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-14T15:53:49.832Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcffs2utsc2u",
+      "cid": "bafyreigrpchvvex67og3m7xxejomgeqyfbedam5rpsbu5zc63iz27noixq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-14T15:41:11.742Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=4dd1113c99f8bbbb&q=Etudiants&l=Brabant-wallon&tk=1jet745qrgh4g801&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAh67I3oesxokz4Zp0LbzkdCdPP&xfps=610ca965-c5c9-49a3-a90f-ca365ef955a6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jet745qrgh4g801&xkcb=SoAr67M3od-RcibSNB0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/PGNkAPM"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 261
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 277
+            }
+          }
+        ],
+        "text": "Etudiant(e) Night&Day Braine-l'Alleud\n- Accueillir et conseiller les clients\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre du point de vente\n buff.ly/PGNkAPM\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=4dd1113c99f8bbbb&q=Etudiants&l=Brabant-wallon&tk=1jet745qrgh4g801&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAh67I3oesxokz4Zp0LbzkdCdPP&xfps=610ca965-c5c9-49a3-a90f-ca365ef955a6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jet745qrgh4g801&xkcb=SoAr67M3od-RcibSNB0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-14T15:41:12.134Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mccioky7pa2p",
       "cid": "bafyreibdekjstl5z4oxwtxpxvsu5sgxq7ydzon3i3i7w7e7ubhsxx56lga",
       "author": {
