@@ -12,18 +12,19 @@ buttons:
      text: S'inscrire
      href: https://forms.office.com/e/JzZq60DxWR
      icon: fa-solid fa-pen-to-square
-     class:  btn btn-primary text-white text-decoration-none btn-sm
+     class:  btn btn-outline-dark text-decoration-none btn-sm
      target: "_blank"
-sidebar: 
-  show: all
-  title: Dans la même section
+sidebar:
+ enable: true
+ collection: true
+ collections: true
 ---
 L’atelier *Viens avec ton PC… et repars avec ton CV (et ton PC)!*, organisé en partenariat acec la Mission Régionale pour l’Emploi du Brabant wallon , a pour objectif de te donner les outils nécessaires pour proposer un CV qui retienne l’attention.
 
-- Gratuit
 - Durée de l’atelier: 4 heures
 - A partir de 15 ans
 - Amener son ordinateur (si possible). Si ce n’est pas possible, pas de bile! Nous mettons des ordinateurs à disposition
+- Ton CV (si tu en as un)
 
-{% include elements/notice.html alert="info" text="
-Tu peux venir avec ton CV. Attention! Veille a venir avec un périphérique de stockage externe et/ou tes identifiant et mot de passe si tu dois te connecter au cloud." %}
+
+<iframe width="100%" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=_LYAGlAbhEWsmrm5iuTQtlhXvoyWwVZBpjeQhFsniltUQ1VMUExDQjBUM1NKVDlYTVlWSFgxT0pXUi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
