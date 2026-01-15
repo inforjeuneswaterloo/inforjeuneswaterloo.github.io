@@ -1,6 +1,109 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mchj7kdmen26",
+      "cid": "bafyreiahusod5plvwrqwxhagbrfss2ez4y2ez3kisgdyzjamrqneg4cwje",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-15T11:47:43.924Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 6heures 1410 WATERLOO, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe : Faire…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 50342
+            },
+            "title": "Vendeur/euse Polyvalent Hors Meuble",
+            "uri": "https://buff.ly/AfcHHaM"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/AfcHHaM"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Job étudiant vente Maisons du Monde 6h/semaine - Waterloo\nTâches : \n- Accueil, accompagnement client\n- Gérer les commandes en click & collect\n- Caisse\n- Livraisons/réassort\n- ...\nProfil :\n- Aimer l’univers déco et ameublement\n- Motivé, dynamique, avenant\n- ...\nbuff.ly/AfcHHaM \n#Job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://buff.ly/AfcHHaM",
+          "title": "Vendeur/euse Polyvalent Hors Meuble",
+          "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 6heures 1410 WATERLOO, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe : Faire…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-15T11:47:45.530Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-01-15T12:47:43+01:00",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu@jpeg"
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw4rw262m22",
       "cid": "bafyreieot3lfqi7hqw3ktkec55iwrr6acspb6kuoujqdvrq6npos2hp764",
       "author": {
