@@ -1,6 +1,109 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcs3mzpgtp2j",
+      "cid": "bafyreih7brnklcqnllsam47g65lp46mthjjnqtdptkbrqp77zmki6333mq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T16:44:01.181Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En qualité d'Etudiant(e) ou FLEXI",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant.e / Flexi en boulangerie - Waterloo",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5327743?JobId=5327743&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/n6LbBfi"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Waterloo\n- Tu parles bien le français\n- A l’aise avec les clients\n- Expérience dans la vente ou en boulangerie = atout\n- Rapide, organisé(e) et tu sais garder ton calme\n- Tu sais utiliser 1 caisse ou tu es prêt(e) à apprendre autonome\nbuff.ly/n6LbBfi\n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5327743?JobId=5327743&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Etudiant.e / Flexi en boulangerie - Waterloo",
+          "description": "En qualité d'Etudiant(e) ou FLEXI",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T16:44:02.330Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-01-19T17:44:01+01:00",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mchj7kdmen26",
       "cid": "bafyreiahusod5plvwrqwxhagbrfss2ez4y2ez3kisgdyzjamrqneg4cwje",
       "author": {

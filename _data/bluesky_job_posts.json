@@ -1,6 +1,196 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcs3mzpgtp2j",
+      "cid": "bafyreih7brnklcqnllsam47g65lp46mthjjnqtdptkbrqp77zmki6333mq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T16:44:01.181Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En qualité d'Etudiant(e) ou FLEXI",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant.e / Flexi en boulangerie - Waterloo",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5327743?JobId=5327743&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/n6LbBfi"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Waterloo\n- Tu parles bien le français\n- A l’aise avec les clients\n- Expérience dans la vente ou en boulangerie = atout\n- Rapide, organisé(e) et tu sais garder ton calme\n- Tu sais utiliser 1 caisse ou tu es prêt(e) à apprendre autonome\nbuff.ly/n6LbBfi\n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5327743?JobId=5327743&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Etudiant.e / Flexi en boulangerie - Waterloo",
+          "description": "En qualité d'Etudiant(e) ou FLEXI",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T16:44:02.330Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcs2tqzcye2b",
+      "cid": "bafyreig32wdaxvzu43wfvfwwiqpwbfzv6aqdh56jlse3gsqgedqgop237i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T16:29:53.234Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "IntroductieOffre d’emploi étudiant – Support logistique et digitalisation des stocks (Nivelles)Nous avons une belle opportunité à te proposer dans une entreprise logistique située à Nivelles.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant en Logistique",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5325544?JobId=5325544&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/UTMGlfZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant(e) en logistique Nivelles\n- Étudiant(e) en supérieur\n- À l’aise avec les outils informatiques, notamment iPad et Excel\n- Dispo 2 jours/semaine afin de permettre la finalisation du projet  (mardi et jeudi)\n- Il te reste minimum 300 heures dans ton contingent étudiant. \nbuff.ly/UTMGlfZ\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5325544?JobId=5325544&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
+          "title": "Etudiant en Logistique",
+          "description": "IntroductieOffre d’emploi étudiant – Support logistique et digitalisation des stocks (Nivelles)Nous avons une belle opportunité à te proposer dans une entreprise logistique située à Nivelles.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T16:29:54.330Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrns2mrb32t",
       "cid": "bafyreibokxgvutaavrj6entjwpqbz7ae3bbrmwzgp6vpldixqwwxrc7mkq",
       "author": {
@@ -8093,184 +8283,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-09T13:51:29.658Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m57ac47lgi24",
-      "cid": "bafyreiazry7assqetfpg6yciji7xknptbtqpsh3zodvbm63fg4maevabiy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-09T13:40:50.103Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54"
-              },
-              "mimeType": "image/jpeg",
-              "size": 37226
-            },
-            "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-            "uri": "https://app.talentsquare.com/job/60914-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 255
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/VG9Ht0B"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 267
-            }
-          }
-        ],
-        "text": "- Accueillir et conseiller les clients \n- Réapprovisionner les rayons pour garantir un magasin toujours attractif\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse \n- Veiller à la propreté et à l’ordre du point de vente\n#jobstudent\nbuff.ly/VG9Ht0B"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://app.talentsquare.com/job/60914-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet",
-          "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-          "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-09T13:40:51.760Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m577baasl32a",
-      "cid": "bafyreiaxro2fn63xwiuebaovysgsj6k3il2bxbjd3zfjbt3unp3kboykui",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-09T13:22:26.861Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
-              },
-              "mimeType": "image/png",
-              "size": 39972
-            },
-            "title": "Job Search | Indeed",
-            "uri": "https://Indeed.com"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 242,
-              "byteStart": 231
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/o7QVXMC"
-              }
-            ],
-            "index": {
-              "byteEnd": 259,
-              "byteStart": 244
-            }
-          }
-        ],
-        "text": "Job étudiant: vendeur/-se - 1050 Bruxelles Ixelles\n\n- Organiser l'acceuil de la clientèle et participer à la vente\n- Organiser les réassorts en fonction des ventes et des livraisons\n- Expérience dans la vente est avantageux. \n#jobstudent\n buff.ly/o7QVXMC"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://Indeed.com",
-          "title": "Job Search | Indeed",
-          "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-09T13:22:28.659Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
