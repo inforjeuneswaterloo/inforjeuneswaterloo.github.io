@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrfwtork42u",
+      "cid": "bafyreicwvgs2k4zvxutdryoyxu3x4b6apq2o5aemoauiotjzhkhsmdjo7u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T10:15:48.851Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ab5a4e7d47804902&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&advn=6170070701742932&adid=391139699&ad=-6NYlbfkN0D320Gg09IY8PN6hZdY98ACYaB-qswj9ZeN116h4AlsWQc463J2X5UmxTI83YWxpZ-KZ8UTnbjO5N8QdHj6PTwnoB4OIt90vLO0MN2gjrsb0yFayUAO97AauO0h1CApcVa70iCsDgxrdlgIGiTw_w5zL32uKv9fdXnt8Q8dgh64r1yhduzyLRXN3rtkBBEt0CZT7IPa0m4nwlIjbRCw54TtRJ5u0TEOnEywIuvSNS_ZmO8ggZGusweXo_h-8wWx0uibIoUIOZdtXj_3j7NGPCGHsPA1sNdcEYaoQFJKr9RnKKDlLX5hyYIX3UkRV_oIzz949htru9q6ATSBKrlQzMCNiOiCPHDrNLMhgx4M-jgpiciJ3pqMbrzssUthPYQ6HXpbl1qwndKTLTvDgwDs5hSFXYICUitx_kyihtOuDcjN9B-IULhJfZAGrbUizwmk5n9GbDVFq9nC2PzNp7FVagmjWJ8Fl2jC5eP8QJ5d8c1FC1TfcU_LmAqvS046zB_6MAZGQby9Blnpa_AZEVud_H3AtkmlPpJhefOh3EUoA2Y8D7Z1DpWt2DK4&sjdu=0MCHOLaVUZbYHsBA1m6j8QIMETSTkD0gX0qbrmZiuT5BGWoMomI6jjdtA-tXP_7upObcWNxWJ8_RZwolFJeiqncvESvAKXrRPn-LJpsROkzkYCBCmufhlVBwf62fqCU6ZmUX17PNglBUQX_EPSvWEkI361Fev9ubQVczwwh2vkJNS166RWA30KRJB5RjFvPh&acatk=1jfarkmrp25g4002&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=CPChkbYSGj8RwySYc4mK3g%3D%3D&xkcb=SoD16_M3oqmj7JXc2h0EbzkdCdPP&xpse=SoCS6_I3oq_dAJgeuL0PbzkdCdPP&xfps=901aab92-1ceb-4183-b740-9c29eb8e607d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/HKlDrzx"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente en chocolaterie à Bruxelles\nProfil\n- Etudiant en supérieur\n- Maîtrise du fr/nl/en\n- Présentation irréprochable et attitude professionnelle en toute circonstance\n- Dynamique, souriant, aimant travailler en équipe\n- Toute expérience similaire est un atout. \nbuff.ly/HKlDrzx\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ab5a4e7d47804902&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&advn=6170070701742932&adid=391139699&ad=-6NYlbfkN0D320Gg09IY8PN6hZdY98ACYaB-qswj9ZeN116h4AlsWQc463J2X5UmxTI83YWxpZ-KZ8UTnbjO5N8QdHj6PTwnoB4OIt90vLO0MN2gjrsb0yFayUAO97AauO0h1CApcVa70iCsDgxrdlgIGiTw_w5zL32uKv9fdXnt8Q8dgh64r1yhduzyLRXN3rtkBBEt0CZT7IPa0m4nwlIjbRCw54TtRJ5u0TEOnEywIuvSNS_ZmO8ggZGusweXo_h-8wWx0uibIoUIOZdtXj_3j7NGPCGHsPA1sNdcEYaoQFJKr9RnKKDlLX5hyYIX3UkRV_oIzz949htru9q6ATSBKrlQzMCNiOiCPHDrNLMhgx4M-jgpiciJ3pqMbrzssUthPYQ6HXpbl1qwndKTLTvDgwDs5hSFXYICUitx_kyihtOuDcjN9B-IULhJfZAGrbUizwmk5n9GbDVFq9nC2PzNp7FVagmjWJ8Fl2jC5eP8QJ5d8c1FC1TfcU_LmAqvS046zB_6MAZGQby9Blnpa_AZEVud_H3AtkmlPpJhefOh3EUoA2Y8D7Z1DpWt2DK4&sjdu=0MCHOLaVUZbYHsBA1m6j8QIMETSTkD0gX0qbrmZiuT5BGWoMomI6jjdtA-tXP_7upObcWNxWJ8_RZwolFJeiqncvESvAKXrRPn-LJpsROkzkYCBCmufhlVBwf62fqCU6ZmUX17PNglBUQX_EPSvWEkI361Fev9ubQVczwwh2vkJNS166RWA30KRJB5RjFvPh&acatk=1jfarkmrp25g4002&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=CPChkbYSGj8RwySYc4mK3g%3D%3D&xkcb=SoD16_M3oqmj7JXc2h0EbzkdCdPP&xpse=SoCS6_I3oq_dAJgeuL0PbzkdCdPP&xfps=901aab92-1ceb-4183-b740-9c29eb8e607d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T10:15:49.232Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mckjtthemz26",
       "cid": "bafyreiai52o2guhxunex4gt73vc6zdi7r75av7pa3czpsqkezltgwgxw5u",
       "author": {
