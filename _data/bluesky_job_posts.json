@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrns2mrb32t",
+      "cid": "bafyreibokxgvutaavrj6entjwpqbz7ae3bbrmwzgp6vpldixqwwxrc7mkq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T12:36:18.288Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=a566947ed0c364a5&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDP67I3orPjQUT4XJ0LbzkdCdPP&xfps=8506f955-b975-4c79-b8d2-5dc07d51c94b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAV67M3oqmj4g64150HbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/90sg4m0"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant(e) Serveur / Commis de bar - Bruxelles\n\n- Statut d’étudiant(e) valide\n- Disponible en soirée, les we et jours fériés\n- Excellente présentation et un bon sens du service\n- Trilingue (FR/NL/EN) est un atout\n- Une première expérience en horeca (salle ou bar) est un plus\nbuff.ly/90sg4m0\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=a566947ed0c364a5&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDP67I3orPjQUT4XJ0LbzkdCdPP&xfps=8506f955-b975-4c79-b8d2-5dc07d51c94b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAV67M3oqmj4g64150HbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T12:36:18.733Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrmwso7no24",
       "cid": "bafyreid4xyfz4joowl2t3dkukixnhumyre2alfmcdiiahwuevtsbbqmbia",
       "author": {
