@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrmwso7no24",
+      "cid": "bafyreid4xyfz4joowl2t3dkukixnhumyre2alfmcdiiahwuevtsbbqmbia",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-19T12:21:03.986Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=a159769cc822e1f7&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCY67I3orN7H_zCJx0LbzkdCdPP&xfps=d13bc71e-096d-43cb-8e48-c4f99683a250&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAR67M3oqmj4ja4150JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/rt7sPxn"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 248
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 271,
+              "byteStart": 265
+            }
+          }
+        ],
+        "text": "Animateur étudiant H/F Laser Game Evolution Uccle\n- Assurer le suivi des clients au cours de leur partie de jeu\n- Vente au bar\n- Veiller au bon fonctionnement et à la bonne utilisation du matériel et des infrastructures\n- Nettoyage et entretien\nbuff.ly/rt7sPxn \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=a159769cc822e1f7&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCY67I3orN7H_zCJx0LbzkdCdPP&xfps=d13bc71e-096d-43cb-8e48-c4f99683a250&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAR67M3oqmj4ja4150JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-19T12:21:04.432Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrfwtork42u",
       "cid": "bafyreicwvgs2k4zvxutdryoyxu3x4b6apq2o5aemoauiotjzhkhsmdjo7u",
       "author": {
