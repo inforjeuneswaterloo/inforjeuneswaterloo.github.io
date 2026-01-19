@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mbqju4rgg42u",
-      "cid": "bafyreib7ht3ziy5gpt2ejcxgdbz26vj4yxqlxoqkhz5y6nlm7ofhitkbzy",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mchr6c24sp2b",
+      "cid": "bafyreiaiwov2uwwyvuzdi4fbcrvfczihqwiq4p6qsthcxsgol73n3kf7cy",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-06T08:28:00.150Z",
+        "createdAt": "2026-01-15T14:10:11.648Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "La France s’apprête à franchir un cap en matière de régulation numérique, dans le sillage de l’Australie. Quid chez nous ?",
+            "description": "La première étape, c’est de lister toutes tes rentrées d’argent : argent de poche, petit boulot, bourses, aides ou...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreibnxdkqpff33szzjhi2c3ofcjhkonxiemmwjnkc666kpvegznyla4"
+                "$link": "bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa"
               },
               "mimeType": "image/jpeg",
-              "size": 75491
+              "size": 184994
             },
-            "title": "Faut-il interdire les réseaux sociaux aux jeunes de moins de 15 ans? Après l'Australie et bientôt la France, la Belgique va devoir trancher en 2026",
-            "uri": "https://www.moustique.be/notre-selection/2026/01/02/faut-il-interdire-les-reseaux-sociaux-aux-jeunes-de-moins-de-15-ans-apres-laustralie-et-bientot-la-france-la-belgique-va-devoir-trancher-en-2026-SIPFCCYUPVALZGUAJ4BKDYPAMY/"
+            "title": "Recevoir ta première paie, c’est bien, mais comment la gérer ? - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/recevoir-ta-premiere-paie-c-est-bien-mais-comment-la-gerer-11658792"
           }
         },
         "facets": [
@@ -44,116 +44,44 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
+                "tag": "QualitéDeVie"
               }
             ],
             "index": {
-              "byteEnd": 223,
-              "byteStart": 218
+              "byteEnd": 77,
+              "byteStart": 63
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RS"
+                "tag": "VieQuotidienne"
               }
             ],
             "index": {
-              "byteEnd": 227,
-              "byteStart": 224
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "SN"
-              }
-            ],
-            "index": {
-              "byteEnd": 231,
-              "byteStart": 228
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "MajoritéNumérique"
-              }
-            ],
-            "index": {
-              "byteEnd": 252,
-              "byteStart": 232
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "multimedia"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 253
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "numérique"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tic"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "SocialMedia"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 282
+              "byteEnd": 93,
+              "byteStart": 78
             }
           }
         ],
-        "text": "Après l'Australie, la France entend interdire l'accès aux réseaux sociaux aux moins de 15 ans à partir du 01/09/2026. Et chez nous? L'idée de relever l'âge minimal, actuellement fixé à 13 ans, fait son chemin.\n#tech #RS #SN #MajoritéNumérique #multimedia #numérique #tic #SocialMedia"
+        "text": "- Principe de base: 50-30-20\n- Outil de base: un classeur Exel\n#QualitéDeVie #VieQuotidienne"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.moustique.be/notre-selection/2026/01/02/faut-il-interdire-les-reseaux-sociaux-aux-jeunes-de-moins-de-15-ans-apres-laustralie-et-bientot-la-france-la-belgique-va-devoir-trancher-en-2026-SIPFCCYUPVALZGUAJ4BKDYPAMY/",
-          "title": "Faut-il interdire les réseaux sociaux aux jeunes de moins de 15 ans? Après l'Australie et bientôt la France, la Belgique va devoir trancher en 2026",
-          "description": "La France s’apprête à franchir un cap en matière de régulation numérique, dans le sillage de l’Australie. Quid chez nous ?",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibnxdkqpff33szzjhi2c3ofcjhkonxiemmwjnkc666kpvegznyla4@jpeg"
+          "uri": "https://www.rtbf.be/article/recevoir-ta-premiere-paie-c-est-bien-mais-comment-la-gerer-11658792",
+          "title": "Recevoir ta première paie, c’est bien, mais comment la gérer ? - RTBF Actus",
+          "description": "La première étape, c’est de lister toutes tes rentrées d’argent : argent de poche, petit boulot, bourses, aides ou...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa@jpeg"
         }
       },
       "bookmarkCount": 0,
       "replyCount": 0,
       "repostCount": 0,
-      "likeCount": 1,
+      "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-01-06T08:28:02.631Z",
+      "indexedAt": "2026-01-15T14:10:13.334Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -161,7 +89,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibnxdkqpff33szzjhi2c3ofcjhkonxiemmwjnkc666kpvegznyla4@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa@jpeg"
     }
   ]
 }
