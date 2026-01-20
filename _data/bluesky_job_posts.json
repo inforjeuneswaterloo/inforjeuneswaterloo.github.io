@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcui6exqhy23",
+      "cid": "bafyreidbd6ayjmpixenjqma3m6ufnn3e4xx43i6edmcoxd7e6yxllqg36a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-20T15:33:48.563Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=0e90d5fe3bb88bb9&q=Etudiant&l=Brussels&tk=1jfd2o76ig2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBD67I3ouIXQ-TCVh0LbzkdCdPP&xfps=50e6d51e-7287-4f46-8499-7e1ee249bdba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfd2o76ig2jc800&xkcb=SoCB67M3otAeUR6CQJ0abzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/xvq07LP"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Etudiant – Magasin alimentaire à Laeken\nProfil\n- Âge minimum : 18 ans\n- Personne sérieuse, motivée et responsable\n- Bonne présentation et sens du service client\n- Ponctualité et fiabilité indispensables\n- De préférence domicilié(e) à proximité de Laeken \nbuff.ly/xvq07LP\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=0e90d5fe3bb88bb9&q=Etudiant&l=Brussels&tk=1jfd2o76ig2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBD67I3ouIXQ-TCVh0LbzkdCdPP&xfps=50e6d51e-7287-4f46-8499-7e1ee249bdba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfd2o76ig2jc800&xkcb=SoCB67M3otAeUR6CQJ0abzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-20T15:33:48.933Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mctpvcnyp52o",
       "cid": "bafyreielx2mmmfjlwam6ibo2zb5xrafjentvjglvhe3ohc3hobtsgactgm",
       "author": {
@@ -8218,95 +8298,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-12T12:11:11.158Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gllae5w72l",
-      "cid": "bafyreibdvhynw32so7smwpq7c6o2hvsgey55nzrzuv3cncjbkn7jerysdy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T11:51:25.812Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4"
-              },
-              "mimeType": "image/png",
-              "size": 39972
-            },
-            "title": "Job Search | Indeed",
-            "uri": "https://Indeed.com"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 263,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "bwaterloo"
-              }
-            ],
-            "index": {
-              "byteEnd": 274,
-              "byteStart": 264
-            }
-          }
-        ],
-        "text": "Poncho recherche des étudiants - 1410 Waterloo \n commis étudiants afin de gérer la mise en place et le service. \n- Sérieux, ponctuel et dynamique ;\n- Esprit d’équipe ;\n- Une formation hôtelière et/ou de l'expérience en horeca sont des atouts\n#jobstudent #bwaterloo"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://Indeed.com",
-          "title": "Job Search | Indeed",
-          "description": "With Indeed, you can search millions of jobs online to find the next step in your career. With tools for job search, resumes, company reviews and more, we're with you every step of the way.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig47dtc554fr7gzzeblefnnrjbbkdjy7oxmci5n7o3fox5qhl23t4@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T11:51:26.963Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
