@@ -1,6 +1,98 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mctpvcnyp52o",
+      "cid": "bafyreielx2mmmfjlwam6ibo2zb5xrafjentvjglvhe3ohc3hobtsgactgm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-20T08:19:14.351Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=b0b412fa3838ad31&q=Etudiant&l=Brabant-wallon&tk=1jfcqpk6sgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCJ67I3otGm_gT4XJ0LbzkdCdPP&xfps=ef198b5f-99ab-4687-83e3-0994a8db9645&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfcqpk6sgcal800&xkcb=SoCQ67M3otNZ737FUJ0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SbbZy8j"
+              }
+            ],
+            "index": {
+              "byteEnd": 271,
+              "byteStart": 256
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 286,
+              "byteStart": 279
+            }
+          }
+        ],
+        "text": "Barmaid et serveuse à Waterloo\n- Expérience obligatoire\n- Bonne connaissance des boissons, spiritueux et cocktails\n- Excellent relationnel et présentation soignée\n- Rapidité, organisation et capacité à travailler en équipe\n- Résistance au stress \nbuff.ly/SbbZy8j\n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=b0b412fa3838ad31&q=Etudiant&l=Brabant-wallon&tk=1jfcqpk6sgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCJ67I3otGm_gT4XJ0LbzkdCdPP&xfps=ef198b5f-99ab-4687-83e3-0994a8db9645&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfcqpk6sgcal800&xkcb=SoCQ67M3otNZ737FUJ0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-20T08:19:14.731Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcs3mzpgtp2j",
       "cid": "bafyreih7brnklcqnllsam47g65lp46mthjjnqtdptkbrqp77zmki6333mq",
       "author": {
@@ -8215,74 +8307,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-12T11:51:26.963Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m57av4kt3v2d",
-      "cid": "bafyreiamombbabfjxrbht4i6qlrdr47pkmkdcsjpkhzanlthsyhup6sw5i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-09T13:51:28.914Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Winkelbediende",
-            "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 255
-            }
-          }
-        ],
-        "text": "- Samedis et dimanches de 6h à 14h\n- Assurer à la fois la vente et l’entretien du magasin \n- Disposer d’un véhicule pour vous rendre au magasin (non accessible en transports en commun).\n- Connaissances des règles HACCP\n- Mission de longue durée \n#jobstudent"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
-          "description": "Winkelbediende"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-09T13:51:29.658Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
