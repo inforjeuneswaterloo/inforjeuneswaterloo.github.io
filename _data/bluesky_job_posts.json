@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwynj5baf2m",
+      "cid": "bafyreiapudtxlhenrik7o7mhfaukgdm7qaycxkltgu3omcprxa7vdvj33e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-21T15:33:53.717Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihqddhl3mb4mryhzauioedne5s4ss4nto643u536kla733sld3tom"
+              },
+              "mimeType": "image/jpeg",
+              "size": 37278
+            },
+            "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
+            "uri": "https://app.talentsquare.com/job/61843-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/FLv7eeZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Etudiant(e) Night&Day Nivelles\n- Accueillir et conseiller les clients avec le sourire\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre du point de vente\nbuff.ly/FLv7eeZ\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://app.talentsquare.com/job/61843-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet",
+          "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
+          "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihqddhl3mb4mryhzauioedne5s4ss4nto643u536kla733sld3tom@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-21T15:33:56.439Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwv4fok3i2o",
       "cid": "bafyreihecmcjmzf53apqoob434uavgstwmrokats4wdiffrmvfjdodl6f4",
       "author": {
@@ -8221,95 +8310,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-12T13:21:53.458Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gplskqac26",
-      "cid": "bafyreigsfxb53fexu4fms3uhatc47drhxjysznnbeuoek3s4soaosbtrre",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T13:03:19.799Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant caisse",
-            "uri": "https://buff.ly/cg8IIb5"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 206,
-              "byteStart": 195
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cg8IIb5"
-              }
-            ],
-            "index": {
-              "byteEnd": 223,
-              "byteStart": 208
-            }
-          }
-        ],
-        "text": "Etudiant caisse - Tubize \n- Accueil de la clientèle, encaissement, facturation, SAV\n- Disponible tous les dimanches matin de 9h à 13h à partir du 20 avril\n- A l'aise avec l'outil informatique\n#jobstudent \nbuff.ly/cg8IIb5"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/cg8IIb5",
-          "title": "Etudiant caisse",
-          "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T13:03:21.458Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
