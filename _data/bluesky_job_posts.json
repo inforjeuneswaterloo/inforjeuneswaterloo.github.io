@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwv4fok3i2o",
+      "cid": "bafyreihecmcjmzf53apqoob434uavgstwmrokats4wdiffrmvfjdodl6f4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-21T14:30:40.318Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=69332ccbfc0762ef&q=Etudiant&l=Brabant-wallon&tk=1jffbu4ocgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDA67I3owWOFPT4AB0LbzkdCdPP&xfps=f96db4bc-21be-43f2-bfae-6f6533d6dfe3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jffbu4ocgcal800&xkcb=SoCH67M3ovf3fQWJ9p0CbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mkPWQRA"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 268
+            }
+          }
+        ],
+        "text": "Etudiant(e) sandwicherie Perwez\n\nMissions\n- Accueil et service client\n- Préparation et mise en place (sandwicherie / service / caisse )\n- Maintien de la propreté et de l’organisation du poste de travail\n- Travail en équipe et bonne communication\n\nbuff.ly/mkPWQRA\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=69332ccbfc0762ef&q=Etudiant&l=Brabant-wallon&tk=1jffbu4ocgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDA67I3owWOFPT4AB0LbzkdCdPP&xfps=f96db4bc-21be-43f2-bfae-6f6533d6dfe3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jffbu4ocgcal800&xkcb=SoCH67M3ovf3fQWJ9p0CbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-21T14:30:40.637Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcui6exqhy23",
       "cid": "bafyreidbd6ayjmpixenjqma3m6ufnn3e4xx43i6edmcoxd7e6yxllqg36a",
       "author": {
@@ -8230,74 +8310,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-12T13:03:21.458Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gmojo3dz2h",
-      "cid": "bafyreigiljkgi4sfki576uarpmwtr4w3bo77bl6zucxkebvhiphjqpd4ua",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T12:11:10.835Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.jooble.org/desc/6608394515188042092?ckey=weekendwerk+jobstudent%0a+%c3%a9tudiant%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=1&groupId=95167637&elckey=-5140457848467418073&p=1&avi=-5695643692342251780&jobAge=508&relb=110&brelb=110&bscr=47300.114772278444&scr=47300.114772278444&aid=7661390&lt=1&searchTestGroup=2_183_3&iid=1612944353999529213"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 256
-            }
-          }
-        ],
-        "text": "Serveur•se, Cuisinier•e, Plongeur•se - OngBa - Bruxelles \nPostes recherchés (H/F/X) : serveur, cuisinier, plongeur\nHoraires flexibles – Parfait pour concilier études et job étudiant. Tous les soirs de 17h-22h. Le weekend après-midi de 12h-15h \n#jobstudent"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.jooble.org/desc/6608394515188042092?ckey=weekendwerk+jobstudent%0a+%c3%a9tudiant%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=1&groupId=95167637&elckey=-5140457848467418073&p=1&avi=-5695643692342251780&jobAge=508&relb=110&brelb=110&bscr=47300.114772278444&scr=47300.114772278444&aid=7661390&lt=1&searchTestGroup=2_183_3&iid=1612944353999529213",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T12:11:11.158Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
