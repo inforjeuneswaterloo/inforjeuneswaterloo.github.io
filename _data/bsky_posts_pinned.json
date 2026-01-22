@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mchr6c24sp2b",
-      "cid": "bafyreiaiwov2uwwyvuzdi4fbcrvfczihqwiq4p6qsthcxsgol73n3kf7cy",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mcr2p7ewxz24",
+      "cid": "bafyreif2xnc5ma6ad4xijgzet7stghicvm2oia64hbdnk3bqtokvtkfsnu",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-15T14:10:11.648Z",
+        "createdAt": "2026-01-19T06:54:40.522Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "La première étape, c’est de lister toutes tes rentrées d’argent : argent de poche, petit boulot, bourses, aides ou...",
+            "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa"
+                "$link": "bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
               },
               "mimeType": "image/jpeg",
-              "size": 184994
+              "size": 229599
             },
-            "title": "Recevoir ta première paie, c’est bien, mais comment la gérer ? - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/recevoir-ta-premiere-paie-c-est-bien-mais-comment-la-gerer-11658792"
+            "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730"
           }
         },
         "facets": [
@@ -44,36 +44,36 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "QualitéDeVie"
+                "tag": "citoyenneté"
               }
             ],
             "index": {
-              "byteEnd": 77,
-              "byteStart": 63
+              "byteEnd": 277,
+              "byteStart": 264
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "VieQuotidienne"
+                "tag": "extremedroite"
               }
             ],
             "index": {
-              "byteEnd": 93,
-              "byteStart": 78
+              "byteEnd": 292,
+              "byteStart": 278
             }
           }
         ],
-        "text": "- Principe de base: 50-30-20\n- Outil de base: un classeur Exel\n#QualitéDeVie #VieQuotidienne"
+        "text": "L'Extrême droite se situe... à l’extrême du spectre idéologique de la droite. Elle possède 3 caractéristiques qui la distingue de la droite traditionnelle  : le nativisme, l’autoritarisme et une conception particulière de l'Etat et de la démocratie.  \n#citoyenneté #extremedroite"
       },
       "embed": {
         "$type": "app.bsky.embed.external#view",
         "external": {
-          "uri": "https://www.rtbf.be/article/recevoir-ta-premiere-paie-c-est-bien-mais-comment-la-gerer-11658792",
-          "title": "Recevoir ta première paie, c’est bien, mais comment la gérer ? - RTBF Actus",
-          "description": "La première étape, c’est de lister toutes tes rentrées d’argent : argent de poche, petit boulot, bourses, aides ou...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa@jpeg"
+          "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730",
+          "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
+          "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi@jpeg"
         }
       },
       "bookmarkCount": 0,
@@ -81,7 +81,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-01-15T14:10:13.334Z",
+      "indexedAt": "2026-01-19T06:54:42.332Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -89,7 +89,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi@jpeg"
     }
   ]
 }
