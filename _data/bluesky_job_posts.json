@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mczkbbojtf2o",
+      "cid": "bafyreigsvnarzx3spwniy3ci5dypos2xwropn35yqebkp3osn7r5u72coa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-22T15:54:31.948Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Un supermarché à Court-Saint-Étienne recherche un étudiant pour un emploi polyvalent en vente. Vous serez formé aux...",
+            "title": "Étudiant Polyvalent Vente — Horaires Matin/Weekends - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-vente-horaires-matinweekends.t1K18mI1G1S1a?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/bzCRit4"
+              }
+            ],
+            "index": {
+              "byteEnd": 209,
+              "byteStart": 194
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 216,
+              "byteStart": 210
+            }
+          }
+        ],
+        "text": "Étudiant(e) Polyvalent(e) Vente Supermarché à Court-Saint-Etienne\n- réassort des rayons et encaissement\n- être disponible à 6h et avoir des journées libres en semaine en plus du week-end\nbuff.ly/bzCRit4\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-vente-horaires-matinweekends.t1K18mI1G1S1a?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Étudiant Polyvalent Vente — Horaires Matin/Weekends - Trovit Emploi",
+          "description": "Un supermarché à Court-Saint-Étienne recherche un étudiant pour un emploi polyvalent en vente. Vous serez formé aux..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-22T15:54:32.432Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mczjvwpq4y2e",
+      "cid": "bafyreiar73kfbspnqllpe2dgrertcbw7qz6mt2vpwm4jlbepeux5awyeee",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-22T15:48:10.476Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour une bijouterie, nous recherchons un(e) \\u00e9tudiant(e) majeur(e) et v\\u00e9hicul\\u00e9(e) afin d\\u2019assurer un renfort en caisse de mani\\u00e8re ponctuelle (remplacements lors de maladies,…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Étudiant(e) renfort caisse en bijouterie",
+            "uri": "https://buff.ly/hjpg7Rz"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/hjpg7Rz"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Étudiant(e) renfort caisse en bijouterie Nivelles\nProfil\n- Étudiant(e) majeur(e)\n- Véhiculé(e) (déplacements requis selon les besoins)\n- À l’aise avec le contact client\n- Fiable, souriant(e) et discret(e)\n- Une première expérience en vente ou en caisse est un atout \nbuff.ly/hjpg7Rz\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://buff.ly/hjpg7Rz",
+          "title": "Étudiant(e) renfort caisse en bijouterie",
+          "description": "Pour une bijouterie, nous recherchons un(e) \\u00e9tudiant(e) majeur(e) et v\\u00e9hicul\\u00e9(e) afin d\\u2019assurer un renfort en caisse de mani\\u00e8re ponctuelle (remplacements lors de maladies,…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-22T15:48:11.835Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwynj5baf2m",
       "cid": "bafyreiapudtxlhenrik7o7mhfaukgdm7qaycxkltgu3omcprxa7vdvj33e",
       "author": {
@@ -8153,163 +8322,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-12T13:21:57.059Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqmxhhhs24",
-      "cid": "bafyreihpyb7fe3pco5trea3h6mwcbqglandfguvaa6jntvokxsrpc3edua",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T13:21:53.155Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vos tâches :<br>- Caisse<br>- Réassort<br>- Polyvalence en fonction des besoins dans le magasin Profil Votre profil :<br>- Premièr...",
-            "title": "Etudiant caisse et réassort - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-caisse-et-reassort.D1-EW1H1A1518"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 257
-            }
-          }
-        ],
-        "text": "Etudiant caisse et réassort - Trovit Emploi (H/F/X)\n- Caisse\n- Réassort\n- Première expérience en vente\n- Bon contact client\n- Sérieux(se)\n- Polyvalence\n- Proactivité \n- Disponible pour travailler en WE (samedi et dimanche) + 1 ou 2 jours en semaine ?\n#jobstudent"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-caisse-et-reassort.D1-EW1H1A1518",
-          "title": "Etudiant caisse et réassort - Trovit Emploi",
-          "description": "Vos tâches :<br>- Caisse<br>- Réassort<br>- Polyvalence en fonction des besoins dans le magasin Profil Votre profil :<br>- Premièr..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T13:21:53.474Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqmwmata2c",
-      "cid": "bafyreihuglyfoyjjr57wupvsifdino7pbwjesnu3j2hi2yvy7ntkmf4jre",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T13:21:51.439Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Description de fonction Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / G",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibvvau6w5v4frvwicpurmmpzouk4g7tf2hx5pj7nqzj7wf5rc32cm"
-              },
-              "mimeType": "image/webp",
-              "size": 5952
-            },
-            "title": "Etudiant Employé.e station service - Nivelles job with Actief Interim Nivelles | 10442366",
-            "uri": "https://jobs.references.be/offre-emploi/10442366/etudiant-employe-e-station-service/?TrackID=26145&utm_source=jbe&utm_medium=email&utm_campaign=DateUnknown&BatchID=3622&JobAlertId=1318504"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/uEebRzi"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Etudiant Employé.e station service - Nivelles \nNous recherchons des étudiants pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / Genappe). \n- Préparation de sandwiches, caisse, réassort...\n- Expérience souhaitée\n- Véhiculé(e), station inaccessible en TEC.\n#jobstudent  \nbuff.ly/uEebRzi"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://jobs.references.be/offre-emploi/10442366/etudiant-employe-e-station-service/?TrackID=26145&utm_source=jbe&utm_medium=email&utm_campaign=DateUnknown&BatchID=3622&JobAlertId=1318504",
-          "title": "Etudiant Employé.e station service - Nivelles job with Actief Interim Nivelles | 10442366",
-          "description": "Description de fonction Nous recherchons des étudiants employé(e)s de station service pour diverses régions (Nivelles / Braine-l'alleud / Waterloo / G",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibvvau6w5v4frvwicpurmmpzouk4g7tf2hx5pj7nqzj7wf5rc32cm@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T13:21:53.458Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
