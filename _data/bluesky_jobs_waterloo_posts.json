@@ -1,6 +1,100 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdcz6rvuuj2o",
+      "cid": "bafyreidrvs2glhlsvvyuwofvoddp4uqrzsdtxneaggqx3uymexi7qdauhq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-26T10:15:32.066Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=408068b3fe28554d&q=Etudiant&l=Brussels&tk=1jfsfmrho23d6000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC-67I3o8xJI3T4Cx0LbzkdCdPP&xfps=a02eb524-5d9b-40fe-a701-dc5a37e3b30f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfsfmrho23d6000&xkcb=SoCS67M3o8_W1uzBrB0MbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/zpAU4pm"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 270
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Job étudiant permis B Thaï Café - Waterloo\nTâches : \n- Accueil/service en salle\n- Gestion commandes de boissons au bar\n- Préparation des commandes\n- Entretien restaurant et cuisine\nProfil\n- Polyvalent tant en salle qu'en plonge,....\n- Permis B depuis plus de 2 ans\nbuff.ly/zpAU4pm\n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=408068b3fe28554d&q=Etudiant&l=Brussels&tk=1jfsfmrho23d6000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC-67I3o8xJI3T4Cx0LbzkdCdPP&xfps=a02eb524-5d9b-40fe-a701-dc5a37e3b30f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfsfmrho23d6000&xkcb=SoCS67M3o8_W1uzBrB0MbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-26T10:15:32.352Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-01-26T11:15:32+01:00",
+      "image_url": null
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mctpvcnyp52o",
       "cid": "bafyreielx2mmmfjlwam6ibo2zb5xrafjentvjglvhe3ohc3hobtsgactgm",
       "author": {

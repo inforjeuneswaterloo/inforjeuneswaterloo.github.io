@@ -1,6 +1,162 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdcz6rvuuj2o",
+      "cid": "bafyreidrvs2glhlsvvyuwofvoddp4uqrzsdtxneaggqx3uymexi7qdauhq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-26T10:15:32.066Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=408068b3fe28554d&q=Etudiant&l=Brussels&tk=1jfsfmrho23d6000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC-67I3o8xJI3T4Cx0LbzkdCdPP&xfps=a02eb524-5d9b-40fe-a701-dc5a37e3b30f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfsfmrho23d6000&xkcb=SoCS67M3o8_W1uzBrB0MbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/zpAU4pm"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 270
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Job étudiant permis B Thaï Café - Waterloo\nTâches : \n- Accueil/service en salle\n- Gestion commandes de boissons au bar\n- Préparation des commandes\n- Entretien restaurant et cuisine\nProfil\n- Polyvalent tant en salle qu'en plonge,....\n- Permis B depuis plus de 2 ans\nbuff.ly/zpAU4pm\n#job4u #ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=408068b3fe28554d&q=Etudiant&l=Brussels&tk=1jfsfmrho23d6000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC-67I3o8xJI3T4Cx0LbzkdCdPP&xfps=a02eb524-5d9b-40fe-a701-dc5a37e3b30f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfsfmrho23d6000&xkcb=SoCS67M3o8_W1uzBrB0MbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-26T10:15:32.352Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdcyvtwrpu2n",
+      "cid": "bafyreic5o73hz2zkvcwlvrpolexer446mwg75d4w4w46f62vexw7bm43ve",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-26T10:10:32.207Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Hok5PPe"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Job étudiant Service KaraFun Bar - Bruxelles\nProfil :\n- Dynamique, autonome\n- Sens de l'accueil, poli\n- Organisé/réactif\n- Bonne communication\nRôles :\n- Accueil/conseil/accompagnement clientèle\n- Service (boissons, cocktails)/plonge\n- Préparer/nettoyer salle et boxes karaoke\nbuff.ly/Hok5PPe \n#job4u"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-26T10:10:32.653Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3md3wobdtvs2j",
       "cid": "bafyreif57ydaxk2g55cmglhmikqoc2mdufnzohrcyfxadfigf3pst6quem",
       "author": {
@@ -8168,151 +8324,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-13T16:22:23.361Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn76loc24",
-      "cid": "bafyreiagpa325grrbwyyo6rrv7cfjfcl4f45azhrx5uhltzv3ggl7yl3ri",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T13:22:01.384Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot.",
-            "title": "Optioncarriere",
-            "uri": "https://www.optioncarriere.be/jobad/bef1f60e2683fb5b39a6801e8757db5b6b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 270
-            }
-          }
-        ],
-        "text": "Etudiant - Admin à Bruxelles  \nMission de 2 semaines . Motiver chauffeurs et ouvriers à participer à une enquête interne \n- Dispo3 jours/semaine du 12/11 au 21/11 \n- Véhiculé si possible (déplacements)\n- 13,9013€/h, CR 8€/j\n- Remboursement frais de transport\n#jobstudent"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/bef1f60e2683fb5b39a6801e8757db5b6b",
-          "title": "Optioncarriere",
-          "description": "Nos systèmes ont détecté un trafic inhabituel provenant de votre réseau informatique. Cette page vérifie si c'est vraiment vous qui envoyez les requêtes, et non un robot."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T13:22:01.956Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5gqn5ibnd2i",
-      "cid": "bafyreigpbhhmi3xxj7ekjf6p3n3jswgcb6vrlscwmqw7yvmabhmvncmeli",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-12T13:21:58.805Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Job étudiant en jardinerie",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5036429?JobId=5036429&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mYJAnLS"
-              }
-            ],
-            "index": {
-              "byteEnd": 258,
-              "byteStart": 243
-            }
-          }
-        ],
-        "text": "Job étudiant en jardinerie - Louvain-la-Neuve\n- Disponible deux fois par semaines tout au long de l'année académique ( semaine ou w-e de 10h à 18h30) \n- Un salaire allant de 10 euros à 13.80 euros brut de l'heure en fonction de ton âge \nbuff.ly/mYJAnLS"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5036429?JobId=5036429&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Job étudiant en jardinerie",
-          "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-12T13:22:00.555Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
