@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkrs2me6s2e",
+      "cid": "bafyreib3g2xrxpjupiievhqr3ddcvq2ygqtgv5h5bgcg65o6u3xq7ovvmq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-29T12:24:26.690Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=a56c62715968dac0&q=Etudiant&l=Brussels&tk=1jg3ub253g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDV67I3nE69dwTCN50LbzkdCdPP&xfps=ade105a2-39d4-4372-be5f-8fa10c201267&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg3ub253g2jc800&xkcb=SoDL67M3nD0jikRl4B0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/L0lJO3Q"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Student Brussels Airport\nPostes:\n- Production\n- Économat (réassort, gestion des stocks)\n- Logistique interne\n- Allround student (polyvalent, support opérationnel)\n- Service en salle dans nos restaurants service à table\n- Barista, caisse, accueil client\n- Support back‑of‑house \nbuff.ly/L0lJO3Q\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=a56c62715968dac0&q=Etudiant&l=Brussels&tk=1jg3ub253g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDV67I3nE69dwTCN50LbzkdCdPP&xfps=ade105a2-39d4-4372-be5f-8fa10c201267&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg3ub253g2jc800&xkcb=SoDL67M3nD0jikRl4B0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-29T12:24:27.050Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkjdsqsrc2n",
       "cid": "bafyreigygvfkgom6qnxibgyufwnksbd3n2clcdevqtte7dfujdyaz4m42a",
       "author": {
@@ -8265,83 +8345,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-14T14:22:45.161Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5js45qwzq2l",
-      "cid": "bafyreiahop7lqas5buztvpnkmhf5qfmgutbrzic6etx5nwwwmiqpa3mrwu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-13T18:26:14.846Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Etudiant VILA Nivelles",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigyu2tf6a5km2wfn4q2qrb6h2pz3znhf3vclelrf5nj4puaojxlny"
-              },
-              "mimeType": "image/jpeg",
-              "size": 106322
-            },
-            "title": "Etudiant VILA Nivelles",
-            "uri": "https://bestseller.com/careers/jobs/job-detail-vila/24714?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 261
-            }
-          }
-        ],
-        "text": "Vente - Boutique de vêtements - Nivelles\nCréer une atmosphère agréable dans le magasin, veiller à sa propreté et à son approvisionnement. Participer au traitement des livraisons quotidiennes. \nFlexible: dispo en semaine et/le WE et pendant les vacances.\n#job4u\nLhttps://buff.ly/6alqeNo"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://bestseller.com/careers/jobs/job-detail-vila/24714?utm_source=Indeed&utm_medium=organic&utm_campaign=Indeed",
-          "title": "Etudiant VILA Nivelles",
-          "description": "Etudiant VILA Nivelles",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigyu2tf6a5km2wfn4q2qrb6h2pz3znhf3vclelrf5nj4puaojxlny@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-13T18:26:16.858Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
