@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkjdsqsrc2n",
+      "cid": "bafyreigygvfkgom6qnxibgyufwnksbd3n2clcdevqtte7dfujdyaz4m42a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-01-29T09:53:18.080Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nous recherchons un",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
+              },
+              "mimeType": "image/png",
+              "size": 16268
+            },
+            "title": "Vendeur  en boulangerie (étudiant / flexi)",
+            "uri": "https://www.jobat.be/fr/emplois/vendeur-en-boulangerie-etudiant-flexi/job_5359984?filter=ZnVuY3Rpb250eXBlPTY2JnJlZ2lvbj0xMzE="
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/LUp2WLW"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Ottignies- Louvain-la-Neuve\nTâches\n- Accueillir et servir les clients avec professionnalisme et convivialité\n- Encaisser les ventes et gérer la caisse \n- Maintenir la propreté et l’ordre de l’espace de vente\n- Assurer la mise en rayon des produits\nbuff.ly/LUp2WLW\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/vendeur-en-boulangerie-etudiant-flexi/job_5359984?filter=ZnVuY3Rpb250eXBlPTY2JnJlZ2lvbj0xMzE=",
+          "title": "Vendeur  en boulangerie (étudiant / flexi)",
+          "description": "Nous recherchons un",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-01-29T09:53:19.353Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdfrn6gwz42m",
       "cid": "bafyreia5gm6dzy4j2scpdlkg3vz4zve4a2p73mziow4ue3n6mznw7afjui",
       "author": {
@@ -8253,86 +8342,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-13T18:26:16.858Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5jla2vctb2i",
-      "cid": "bafyreigegbqtx2b5ims7zsrcsjcsliul7yzitpcmt3mdhvmx5rcalr45fi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-13T16:23:11.064Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Overview Vous aimez le contact, débordez d’énergie et partagez une passion pour le café ? Souhaitez-vous gagner un revenu compl&e...",
-            "title": "Le job pour les passionnés de café! - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/le-job-pour-les-passionnes-de-cafe.l1Da1V1T1SG-?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jobstudent"
-              }
-            ],
-            "index": {
-              "byteEnd": 244,
-              "byteStart": 233
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/x7uSrZS"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 246
-            }
-          }
-        ],
-        "text": "Nespresso Coffee Advisor - Rixensart\nTâches: Acceuil, démonstration, conseil\nDispo: à partir de fin novembre, principalement les vendredis et/ou samedis \nUne première expérience dans la vente est un atout mais pas indispensable\n#jobstudent \nbuff.ly/x7uSrZS"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/le-job-pour-les-passionnes-de-cafe.l1Da1V1T1SG-?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Le job pour les passionnés de café! - Trovit Emploi",
-          "description": "Overview Vous aimez le contact, débordez d’énergie et partagez une passion pour le café ? Souhaitez-vous gagner un revenu compl&e..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-13T16:23:11.331Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
