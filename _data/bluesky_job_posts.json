@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mduwjdch332j",
+      "cid": "bafyreibcbuuac22pk6rpaypcwu5ac3ofwbr2umndei23oowgykpckwiijm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-02T13:15:39.908Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Une entreprise de vente au détail située à Braine l'Alleud ou à Waterloo recherche un(e) étudiant(e) dynamique pour...",
+            "title": "Vendeur Étudiant – Matinées, Polyvalent, Supermarché - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/vendeur-etudiant-matinees-polyvalent-supermarche.E1r171f1Y1GN9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/tyjQmGr"
+              }
+            ],
+            "index": {
+              "byteEnd": 245,
+              "byteStart": 230
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 247
+            }
+          }
+        ],
+        "text": "Vendeur étudiant polyvalent H/F Braine-l'Alleud/Waterloo\n- être disponible certains matins dès 6h et pouvoir travailler toute l'année.\n Tâches:\n- la mise en rayon\n- l'encaissement\n- la vérification des dates de péremption \nbuff.ly/tyjQmGr \n#job4u #1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/vendeur-etudiant-matinees-polyvalent-supermarche.E1r171f1Y1GN9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Vendeur Étudiant – Matinées, Polyvalent, Supermarché - Trovit Emploi",
+          "description": "Une entreprise de vente au détail située à Braine l'Alleud ou à Waterloo recherche un(e) étudiant(e) dynamique pour..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-02T13:15:40.254Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdutn4ha7o2m",
       "cid": "bafyreidf5qocqimlo6qbpjoqper6bdnlzumc33moei6husu6axw7ggnvqi",
       "author": {
@@ -8271,98 +8351,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-18T12:50:16.355Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vqyn5nk52l",
-      "cid": "bafyreiemzrnhjuncax2vr2uvwv2groir5ovryn572jbajx25gy23pie2vy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-18T12:38:22.810Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=da35f01f7be79ddb&q=Etudiant&l=Brabant-wallon&tk=1ja27cp83m5tc803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoC867I3qLUYvfTN4J0LbzkdCdPP&xfps=92d408e0-81fc-40ad-b630-f01dc04b00a3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ja27cp83m5tc803&xkcb=SoDq67M3qCG8ehUrQ50PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/e90X8Uz"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant(e) Carrefour Mont-Saint-Jean Waterloo\nProfil\n- Tu as déjà une expérience dans le secteur alimentaire, horeca, retail ou catering.\n- Tu attaches une grande importance à la propreté et l’ordre.\n- Tu es orienté client et service.\n- Dispo en semaine ou le samedi\nbuff.ly/e90X8Uz \n#job4u #ij1410"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=da35f01f7be79ddb&q=Etudiant&l=Brabant-wallon&tk=1ja27cp83m5tc803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoC867I3qLUYvfTN4J0LbzkdCdPP&xfps=92d408e0-81fc-40ad-b630-f01dc04b00a3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ja27cp83m5tc803&xkcb=SoDq67M3qCG8ehUrQ50PbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-18T12:38:23.161Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
