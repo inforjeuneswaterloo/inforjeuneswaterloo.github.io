@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdx426wvoc2p",
+      "cid": "bafyreibzvrd4bh7iupmpncu3m4spcgwb2wwu6kojs7xlvexxfg72fvx2v4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-03T09:59:53.228Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "ACTION : JOB ETUDIANT (H/F/X)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
+              },
+              "mimeType": "image/png",
+              "size": 9337
+            },
+            "title": "ACTION : JOB ETUDIANT (H/F/X) – LEM Interim",
+            "uri": "https://www.leminterim.be/offre/action-job-etudiant-h-f-x-2/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kpipHjq"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Job étudiant chez Action\nTâches:\n- Réassortir les rayons et t’assurer qu’ils soient bien rangés\n- Accueillir la clientèle et la renseigner\n- Gérer la caisse cash ou par carte\n- Veiller à la bonne tenue du magasin\n- Procéder au nettoyage du magasin en fin de journée \nbuff.ly/kpipHjq\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.leminterim.be/offre/action-job-etudiant-h-f-x-2/",
+          "title": "ACTION : JOB ETUDIANT (H/F/X) – LEM Interim",
+          "description": "ACTION : JOB ETUDIANT (H/F/X)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-03T09:59:54.951Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mduwjdch332j",
       "cid": "bafyreibcbuuac22pk6rpaypcwu5ac3ofwbr2umndei23oowgykpckwiijm",
       "author": {
@@ -8271,86 +8360,6 @@
       "likeCount": 1,
       "quoteCount": 0,
       "indexedAt": "2025-11-18T12:54:29.758Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vrnv5vqa2a",
-      "cid": "bafyreibroagt5t7ol3iy7owrjyqzehtax7flrj4q2m7l54ekmj355jadda",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-18T12:50:15.916Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant qu’étudiant(e) / Flexi, vos responsabilités seront les suivantes :<br><br> Accueillir les clients avec enthousiasme et un grand ...",
-            "title": "Vendeur(se) en Boulangerie | Student/Flexijobs (semaine) - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/vendeurse-en-boulangerie-studentflexijobs-semaine.1b1U1AU1q1m1en?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Cp0HKWs"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 287
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 310,
-              "byteStart": 304
-            }
-          }
-        ],
-        "text": "Etudiant(e) Vente en Boulangerie à Grez-Doiceau\nProfil\n- Bon contact avec la clientèle\n- Garder le rythme quand il y a du monde en boutique\n- À l’aise avec l’utilisation d’1 caisse\n- Respect des normes d’hygiène\n- Apprécie le travail en équipe et sait aussi être autonome\nbuff.ly/Cp0HKWs \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/vendeurse-en-boulangerie-studentflexijobs-semaine.1b1U1AU1q1m1en?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Vendeur(se) en Boulangerie | Student/Flexijobs (semaine) - Trovit Emploi",
-          "description": "En tant qu’étudiant(e) / Flexi, vos responsabilités seront les suivantes :<br><br> Accueillir les clients avec enthousiasme et un grand ..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-18T12:50:16.355Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
