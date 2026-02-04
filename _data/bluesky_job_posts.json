@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdzl7s5gli23",
+      "cid": "bafyreiemf7cha66aixuzbry7rkpgx4hip3knlgu3h6eyu7vhxuaiy34t4m",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-04T09:36:47.462Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=fc96c92f30a377c0&q=Etudiant&l=Brussels&tk=1jgi8dcaqg2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB567I3nT3GNVT4zJ0LbzkdCdPP&xfps=964173d3-430b-4768-821c-9cf16ad51fd4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgi8dcaqg2jc800&xkcb=SoD367M3nSY6QpRQjZ0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/s3VTlrC"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 275
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Etudiant Animation de jeu Quiveutpister - Bruxelles \nMissions :\n- Préparation du matériel\n- Accueil/présentation des règles...\nProfil :\n- Dispo min. 2 WE/mois (mars à novembre)\n- Fiable, sérieux, conscience professionnelle\n- Curieux, polyvalent, sang-froid, écoute...\nbuff.ly/s3VTlrC\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=fc96c92f30a377c0&q=Etudiant&l=Brussels&tk=1jgi8dcaqg2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB567I3nT3GNVT4zJ0LbzkdCdPP&xfps=964173d3-430b-4768-821c-9cf16ad51fd4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgi8dcaqg2jc800&xkcb=SoD367M3nSY6QpRQjZ0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-04T09:36:47.753Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdx426wvoc2p",
       "cid": "bafyreibzvrd4bh7iupmpncu3m4spcgwb2wwu6kojs7xlvexxfg72fvx2v4",
       "author": {
@@ -8280,86 +8360,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-18T12:59:14.162Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vrvgkdvv2o",
-      "cid": "bafyreig7zvron2j7z7ydgzm64y4iauowpjg32lqybiwgtkfmwgamym5hqq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-18T12:54:29.053Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à...",
-            "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/jxIj8xS"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Etudiant Hôtellerie à La Hulpe\n- Assurer un service professionnel et souriant en salle et/ou au bar\n- Dresser et débarrasser les tables\n- Participer à la mise en place et au service des banquets, mariages ou séminaires\n- Maintenir la propreté et l’ordre des espaces de travail\nbuff.ly/jxIj8xS \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-flexi-extra-hotellerie.131De151d15hR?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Etudiant / Flexi / Extra - Hotêllerie - Trovit Emploi",
-          "description": "Responsabilités Assurer un service professionnel et souriant en salle et/ou au bar Dresser et débarrasser les tables Participer à..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-18T12:54:29.758Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
