@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me45wc5y3t2o",
+      "cid": "bafyreicopz7ge7yyxcydpb2o65d36numnvimtykkvs3pd7pb457uysuqjm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-05T10:16:48.760Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Employé étudiant",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5401514?JobId=5401514&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/bwQH6M1"
+              }
+            ],
+            "index": {
+              "byteEnd": 309,
+              "byteStart": 294
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 316,
+              "byteStart": 310
+            }
+          }
+        ],
+        "text": "Etudiant administratif H/F à Tubize\n- Être à l’aise avec les tâches répétitives d’archivage\n- Bilingue français – néerlandais\n- En cours d’études supérieures (Secrétariat de direction, Communication, Marketing ou équivalent)\n- Min. 300h étudiantes dispo\n- Dispo 8h/semaine\nbuff.ly/bwQH6M1\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5401514?JobId=5401514&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f",
+          "title": "Employé étudiant",
+          "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-05T10:16:49.552Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdzl7s5gli23",
       "cid": "bafyreiemf7cha66aixuzbry7rkpgx4hip3knlgu3h6eyu7vhxuaiy34t4m",
       "author": {
@@ -8268,98 +8357,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-18T13:12:04.562Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5vs5vwh4a25",
-      "cid": "bafyreigtpfu27ugk2i3v2ms6agnimkb6ccykoksiuhv2lh26chgkla3psq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-18T12:59:13.630Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Responsabilités Mise en place et ouverture de la caisse. Accueil et conseil client. Réassort des rayons. Nous vous offrons Un job &eacut...",
-            "title": "Etudiant - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant.wSA1_1b131f19?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/w3itoe4"
-              }
-            ],
-            "index": {
-              "byteEnd": 170,
-              "byteStart": 155
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 178,
-              "byteStart": 172
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 186,
-              "byteStart": 179
-            }
-          }
-        ],
-        "text": "Etudiant caisse et réassort à Waterloo\nResponsabilités\n- Mise en place et ouverture de la caisse.\n- Accueil et conseil client.\n- Réassort des rayons. \nbuff.ly/w3itoe4 \n#job4u #ij1410"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant.wSA1_1b131f19?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Etudiant - Trovit Emploi",
-          "description": "Responsabilités Mise en place et ouverture de la caisse. Accueil et conseil client. Réassort des rayons. Nous vous offrons Un job &eacut..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-18T12:59:14.162Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
