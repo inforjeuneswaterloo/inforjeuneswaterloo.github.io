@@ -1,6 +1,326 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me72gblqup2o",
+      "cid": "bafyreiebxnqmvnkg4hyii6vketvyyazftccjc74ge3jkjwgrrns7kqyy3i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-06T13:52:09.799Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=bc786951b2372277&q=Etudiant&l=Brussels&tk=1jgpj4331g9si804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3nZuoBzzDR50LbzkdCdPP&xfps=b04c3b42-eb0e-45b5-97ce-deedd319b4b1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgpj4331g9si804&xkcb=SoD267M3nZufrkarT50LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/5EX6xrY"
+              }
+            ],
+            "index": {
+              "byteEnd": 273,
+              "byteStart": 258
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 280,
+              "byteStart": 274
+            }
+          }
+        ],
+        "text": "Étudiant(e) – Agent de prospection \"commerce sur terrain\" (H/F) – Bruxelles\nProfil recherché :\n- Étudiant(e) motivé(e), dynamique et à l’aise à l’oral\n- Bon relationnel et sens du contact\n- Autonome, persévérant(e) et orienté(e) résultats \nbuff.ly/5EX6xrY\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=bc786951b2372277&q=Etudiant&l=Brussels&tk=1jgpj4331g9si804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3nZuoBzzDR50LbzkdCdPP&xfps=b04c3b42-eb0e-45b5-97ce-deedd319b4b1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgpj4331g9si804&xkcb=SoD267M3nZufrkarT50LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-06T13:52:10.251Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6ztqadbd2m",
+      "cid": "bafyreiap2zlc3zamjjlvx73uzivzx4zqcgcjy5cpgexr3tkqfe5ks5t3xa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-06T13:41:47.618Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description de l’emploiEn tant qu'étudiant fixe réassort pour le frais, vous serez responsable:Déchargement des camionsTriage des...",
+            "title": "Job étudiant - Genappe -Dimanche (H/F/X) - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/job-etudiant-genappe-dimanche-hfx.fDm1K1R1eB10?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/9kcJGig"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 284
+            }
+          }
+        ],
+        "text": "Job étudiant Dimanche (H/F/X) Genappe\n- Vous êtes disponible TOUS les dimanches de 6h à 12h.\n- Vous disposez du statut étudiant.\n- Vous savez vous rendre facilement sur Genappe, l'horaire tôt du dimanche matin ne permet pas de disposer des transports en commun. \nbuff.ly/9kcJGig\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/job-etudiant-genappe-dimanche-hfx.fDm1K1R1eB10?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Job étudiant - Genappe -Dimanche (H/F/X) - Trovit Emploi",
+          "description": "Description de l’emploiEn tant qu'étudiant fixe réassort pour le frais, vous serez responsable:Déchargement des camionsTriage des..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-06T13:41:48.054Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6yh2hknk2j",
+      "cid": "bafyreih3wsbdvezmkjxmvcjnlinjnkrseqr5fsment62rodxkfwf3cks5i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-06T13:16:48.393Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=5b9a581a003d0cbf&q=Etudiant&l=Brabant-wallon&tk=1jgoleqm2g9tp800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoB267I3nZqDyIzCXp0LbzkdCdPP&xfps=e5b279b1-dad3-4ac3-b6bb-28e02cbdd7c7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgoleqm2g9tp800&xkcb=SoDW67M3nYi0vker1Z0FbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QUU2uVs"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 291
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 313,
+              "byteStart": 307
+            }
+          }
+        ],
+        "text": "Etudiant Superviseur nettoyage chambres - Jodoigne\n- Permis de conduire obligatoire (déplacements nécessaires)\n- Expérience en housekeeping ou nettoyage hôtelier appréciée\n- Personne autonome, fiable et organisée\n- À l’aise sur le terrain\n- Bon relationnel et esprit d’équipe  \nbuff.ly/QUU2uVs\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=5b9a581a003d0cbf&q=Etudiant&l=Brabant-wallon&tk=1jgoleqm2g9tp800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoB267I3nZqDyIzCXp0LbzkdCdPP&xfps=e5b279b1-dad3-4ac3-b6bb-28e02cbdd7c7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgoleqm2g9tp800&xkcb=SoDW67M3nYi0vker1Z0FbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-06T13:16:48.950Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6xulwx5o2e",
+      "cid": "bafyreic7zcr7w5pxjlyl4ijwvt5ngdjhciiho42arhojgku5udfqpuifqa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-06T13:06:29.193Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=05da25958d8ac800&q=Etudiant&l=Brussels&tk=1jgnacli5g9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCH67I3nZo-n3geob0LbzkdCdPP&xfps=550eafb7-eb63-4b74-8c85-9020f7bbdfd5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgnacli5g9si800&xkcb=SoBW67M3nXc9HWQSbx0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/4YXmtyQ"
+              }
+            ],
+            "index": {
+              "byteEnd": 259,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 260
+            }
+          }
+        ],
+        "text": "Etudiant Serveur Brasserie (H/F/X) Anderlecht\n- Accueillir, conseiller et servir les clients\n- Travailler à la caisse\n- Maintenir un environnement de travail propre et organisé\n- Suivre les protocoles d'hygiène et de sécurité alimentaire \nbuff.ly/4YXmtyQ\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=05da25958d8ac800&q=Etudiant&l=Brussels&tk=1jgnacli5g9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCH67I3nZo-n3geob0LbzkdCdPP&xfps=550eafb7-eb63-4b74-8c85-9020f7bbdfd5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgnacli5g9si800&xkcb=SoBW67M3nXc9HWQSbx0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-06T13:06:29.551Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me4qfkj5rq2o",
       "cid": "bafyreid32kcbwxghhcnlcf4jx2xt4w56a3tnwci77bkliw45kfobezorqa",
       "author": {
@@ -8049,326 +8369,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-24T12:45:08.729Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6esrylopi2i",
-      "cid": "bafyreian4gqknpj6wkn6tj4bxtdmvagcxoad6a2rrlblg6johhgawrvrgi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-24T12:20:21.723Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=250e5c7570fdb971&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&advn=949831433115865&adid=453843991&ad=-6NYlbfkN0DM71aRby4XXFu23IM0cwIowspnhdufHveIH-zd0rHtMYYsTIdVoCTTYNHojbE7EfumLeqrNLpiWhw9PbLNmlXzY6GptJkJ-k-Ar3daWkkjS95jb3VPqh9RlDcoPFpDl6xov_XDG8iaXgsIRld7009wWniUtREjMVzMDJwKIHy9ZvVLZEcr1A8SL7GMmHzyBNeFnlcSWkB8kyBGby4OGBILILN-KiOkLhXNONzvLiziYcUCwU3eUnNulhYZ8M2r-0yh-w60c2gfudVgKBnAMUy3dZz5f8qV85lxHI9ZU7Lie9xXBcxVtaAzBxxeHgZ-pLs5V-8KD2vXwxfASt41n7dAs9312pIVXu9i1J66bLbrYVylkCJqAQAxMb84131QKfQMeVt4Ff3WMOHARDbhaeinLoLcdi1JUPTDgPXAGJFMaPDsWzDbZkzfRb38Er7QzlVdWudui1xv8zryI9PvOGbLsBLY5YqyO1shtDysR86gSQ9iiUUrg-VlUTTo6AQuXKHqqQfjc0b2_r5GpWf1HWHXZUQAQbjh7HKe2FtmjpusU6dFk5gRYz7yN8sciyOuvqGgrveGQgNwRQ%3D%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XIH4Pv_6Tjcjw%3D%3D&xkcb=SoBA6_M3qaYrWSWlUJ0LbzkdCdPP&xpse=SoC46_I3qanV_gz42R0IbzkdCdPP&xfps=84a09e3c-a50c-4643-90ce-411a10bbb95a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/QVQFU1r"
-              }
-            ],
-            "index": {
-              "byteEnd": 253,
-              "byteStart": 238
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 255
-            }
-          }
-        ],
-        "text": "Job étudiant Ambassadeur de Marque MediaMarkt - Braine-l'Alleud\nDémos de produits pour enfants le vendredi 28/11 et le samedi 29/11 pendant 8 h.\nProfil : communicatif et sociable, se sentir à l'aise dans un environnement de magasin.  \nbuff.ly/QVQFU1r \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=250e5c7570fdb971&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&advn=949831433115865&adid=453843991&ad=-6NYlbfkN0DM71aRby4XXFu23IM0cwIowspnhdufHveIH-zd0rHtMYYsTIdVoCTTYNHojbE7EfumLeqrNLpiWhw9PbLNmlXzY6GptJkJ-k-Ar3daWkkjS95jb3VPqh9RlDcoPFpDl6xov_XDG8iaXgsIRld7009wWniUtREjMVzMDJwKIHy9ZvVLZEcr1A8SL7GMmHzyBNeFnlcSWkB8kyBGby4OGBILILN-KiOkLhXNONzvLiziYcUCwU3eUnNulhYZ8M2r-0yh-w60c2gfudVgKBnAMUy3dZz5f8qV85lxHI9ZU7Lie9xXBcxVtaAzBxxeHgZ-pLs5V-8KD2vXwxfASt41n7dAs9312pIVXu9i1J66bLbrYVylkCJqAQAxMb84131QKfQMeVt4Ff3WMOHARDbhaeinLoLcdi1JUPTDgPXAGJFMaPDsWzDbZkzfRb38Er7QzlVdWudui1xv8zryI9PvOGbLsBLY5YqyO1shtDysR86gSQ9iiUUrg-VlUTTo6AQuXKHqqQfjc0b2_r5GpWf1HWHXZUQAQbjh7HKe2FtmjpusU6dFk5gRYz7yN8sciyOuvqGgrveGQgNwRQ%3D%3D&alid=56b55072e4b078c137fc0296&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XIH4Pv_6Tjcjw%3D%3D&xkcb=SoBA6_M3qaYrWSWlUJ0LbzkdCdPP&xpse=SoC46_I3qanV_gz42R0IbzkdCdPP&xfps=84a09e3c-a50c-4643-90ce-411a10bbb95a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-24T12:20:22.132Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6enmud5cl2l",
-      "cid": "bafyreicj5pqfucl7sor4whhxrt4oifdpwcxkkfwgg2ac54av2xu6lvrdxi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-24T10:48:00.793Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=635c619e6c1a8d13&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBV67I3qahlkez7bx0LbzkdCdPP&xfps=6daf3a30-85b1-4b1f-aa3d-b43ccd619150&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jaq88tpa20hd000&xkcb=SoDw67M3qaYrWHbOaZ0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/lvMLFNU"
-              }
-            ],
-            "index": {
-              "byteEnd": 190,
-              "byteStart": 175
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 198,
-              "byteStart": 192
-            }
-          }
-        ],
-        "text": "Job étudiant Lidl - Braine le Château\nMission :\n- Aide et conseil clientèle\n- Caisse\n- Réassort ...\nProfil :\n- Min. 16 ans.\n- Prévenant, fiable, désireux d'apprendre...\nbuff.ly/lvMLFNU \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=635c619e6c1a8d13&q=Etudiant&l=Brabant-wallon&tk=1jaq88tpa20hd000&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBV67I3qahlkez7bx0LbzkdCdPP&xfps=6daf3a30-85b1-4b1f-aa3d-b43ccd619150&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jaq88tpa20hd000&xkcb=SoDw67M3qaYrWHbOaZ0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-24T10:48:01.338Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5yk7dz7zt2h",
-      "cid": "bafyreiewhftbeajtiiikt6lg6botjkjcmtqpf7arlxeqj4jhmolfcsyhpy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-19T15:14:53.062Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://dajobs.be/job-offers/JO-XEJM-FDVW"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/1MihCvj"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 249
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 272,
-              "byteStart": 266
-            }
-          }
-        ],
-        "text": "Etudiant vendeur comptoir boucherie (H/F/X) Nivelles\nProfil\n- Disponible le week-end\n- D'accord de travailler en boucherie et être en contact avec des carcasses\n- Sens de l'accueil et conseil client\n- Vous voulez un job étudiant sur du long terme\nbuff.ly/1MihCvj \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://dajobs.be/job-offers/JO-XEJM-FDVW",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-19T15:14:53.360Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m5yjxgrcne26",
-      "cid": "bafyreiflli6tupiljnq6pud4cnkqmrfufmr3oix3ctajom3rzjrt257tti",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-19T15:10:27.498Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Kaashandelaar(ster)",
-            "title": "Job étudiant en fromagerie - Rixensart - Vendredi et samedi | RIXENSART, Brabant Wallon",
-            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-fromagerie-rixensart-vendredi-et-samedi-rixensart-brabant-wallon/386-41166-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/qd5MBpg"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 304,
-              "byteStart": 298
-            }
-          }
-        ],
-        "text": "Job étudiant en fromagerie - Rixensart - Vendredi et samedi\n- Impérativement avoir des heures étudiantes disponibles (au moins 120h restantes)\n- Disponible le samedi et vendredi après-midi et durant les fêtes\n- 1 expérience en vente en secteur alimentaire est un gros atout \nbuff.ly/qd5MBpg \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-fromagerie-rixensart-vendredi-et-samedi-rixensart-brabant-wallon/386-41166-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Job étudiant en fromagerie - Rixensart - Vendredi et samedi | RIXENSART, Brabant Wallon",
-          "description": "Kaashandelaar(ster)"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-19T15:10:27.858Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
