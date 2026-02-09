@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meggwdlt4d2e",
+      "cid": "bafyreib23xxex7ed3ag7avvwxfppe4inbwtvd2yw454vpazclknspea5hy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-09T12:24:31.959Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=53b4475ebb5fd6a6&q=Etudiants&l=Brabant-wallon&tk=1jh063oo4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDL67I3nhN1HFzCXp0LbzkdCdPP&xfps=37e82f75-7dd8-45fc-96a5-cc75a1cc0a60&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jh063oo4j91i800&xkcb=SoC767M3ngEA_F5I450BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/vRSLddh"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Job étudiant vente comptoir les samedis et pdt les vacances scolaires Boucherie Gorissen - Beauvechain\nSi tu aimes le contact client et les bons petits plats, viens partager ta passion. Rémunération à partir de 10€/h\nAvantages : Uniforme fourni. Capacité à faire le trajet.\nbuff.ly/vRSLddh \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=53b4475ebb5fd6a6&q=Etudiants&l=Brabant-wallon&tk=1jh063oo4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDL67I3nhN1HFzCXp0LbzkdCdPP&xfps=37e82f75-7dd8-45fc-96a5-cc75a1cc0a60&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jh063oo4j91i800&xkcb=SoC767M3ngEA_F5I450BbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-09T12:24:32.152Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meggw7tdm62o",
+      "cid": "bafyreigd3s625l7m75xju7oqc3yquzahflcloqmlrxfp2cy56ypu4o4moa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-09T12:24:26.893Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Walibi Belgique - We are recruiting for the following position: Job d’étudiant - Saison 2026 from Other - Specific schedule until Bd de l'Europe, Wavre, Belgique. View the detailed advert here.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreida25uizoc4vhjtt4qyhrs336vdnhnwagwfny4hikaavm5gi57gcu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 128170
+            },
+            "title": "Walibi Belgique | Job d’étudiant - Saison 2026",
+            "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/80vtkm?source=carriere&utm_source=carriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/BBqFk0k"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Job étudiant Saison 2026 Walibi - Wavre\nWalibi : Agent d’accueil/Opérateur attractions/Collaborateur en restauration/Vendeur/Agent de propreté et d’entretien/Logisticien/Collaborateur costumerie/Technicien de maintenance\nAqualibi : Agent d’accueil/Maître-nageur/Vestiairiste\nbuff.ly/BBqFk0k \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/80vtkm?source=carriere&utm_source=carriere",
+          "title": "Walibi Belgique | Job d’étudiant - Saison 2026",
+          "description": "Walibi Belgique - We are recruiting for the following position: Job d’étudiant - Saison 2026 from Other - Specific schedule until Bd de l'Europe, Wavre, Belgique. View the detailed advert here.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreida25uizoc4vhjtt4qyhrs336vdnhnwagwfny4hikaavm5gi57gcu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-09T12:24:28.254Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3megchr7rts2u",
       "cid": "bafyreib2nnq2gjrzeji4pwp2gwrxpwrm6yk6lbbik43g5l46tmupbt3cgm",
       "author": {
@@ -8206,178 +8375,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-27T15:28:38.835Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6hjiawuum25",
-      "cid": "bafyreify6mtlx2eittswlx7a4ngap3xjp3tdxk27foxx6ryc6cbl42wohy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-25T14:11:50.499Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Här finns information om allt möjligt som du kan tänka dig. Skulle det saknas något så dröjer det inte länge innan det finns.",
-            "title": "Allt du kan tänka dig och lite till",
-            "uri": "https://Curieux.se"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://Curieux.se"
-              }
-            ],
-            "index": {
-              "byteEnd": 222,
-              "byteStart": 212
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/IaC2Ef5"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 275
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 292
-            }
-          }
-        ],
-        "text": "Etudiant.e Cuisine Manneken Pis Café - Bruxelles\nTâches : \n- Préparer les plats selon nos recettes\n- Mise en place, découpe, dressage\n- Hygiène de la cuisine\nProfil :\n- Dispo en journée, soirée et/ou WE\n- Curieux.se, motivé.e et prêt.e à mettre la main à la pâte\nbuff.ly/IaC2Ef5 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://Curieux.se",
-          "title": "Allt du kan tänka dig och lite till",
-          "description": "Här finns information om allt möjligt som du kan tänka dig. Skulle det saknas något så dröjer det inte länge innan det finns."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-25T14:11:50.935Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6hizh3lmg26",
-      "cid": "bafyreias73zxxm4bljfj2orc5wljap2rvtjjofpgx6buioeqdtcm3qnzxy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-25T14:03:33.620Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Forem's UI FrameWork",
-            "title": "Recherche offres",
-            "uri": "https://www.leforem.be/recherche-offres/offre-detail/1634705"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/uQkZ8P6"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Etudiant Grande distribution - GENAPPE\nMission :\n- Mise en place/ouverture de la caisse\n- Accueil/conseil client\n- Réassort\nProfil :\n- Rigoureux, ne pas avoir peur de manipuler de l'argent\n- Souriant et aimer le contact client\n- Aimer le travail en équipe, intégration facile\nbuff.ly/uQkZ8P6 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.leforem.be/recherche-offres/offre-detail/1634705",
-          "title": "Recherche offres",
-          "description": "Forem's UI FrameWork"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-25T14:03:34.341Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
