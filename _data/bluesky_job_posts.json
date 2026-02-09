@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3megchr7rts2u",
+      "cid": "bafyreib2nnq2gjrzeji4pwp2gwrxpwrm6yk6lbbik43g5l46tmupbt3cgm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-09T11:04:46.197Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant(e) comptoir charcuterie | GENAPPE, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiante-comptoir-charcuterie-genappe-brabant-wallon/166-32138-1&utm_source=Careerjet-Optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/VLagQyn"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant(e) comptoir charcuterie - Genappe\nTâches :\n- Réception/contrôle livraisons\n- Mise en comptoir\n- Suivi propreté, respect des normes d'hygiène\n- Accueil/conseil clientèle\nProfil :\n- Dynamique, motivé(e)\n- Dispo rapidement ts les WE\n- 1ère exp. similaire avec trancheuse\nbuff.ly/VLagQyn \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiante-comptoir-charcuterie-genappe-brabant-wallon/166-32138-1&utm_source=Careerjet-Optioncarriere",
+          "title": "Etudiant(e) comptoir charcuterie | GENAPPE, Brabant Wallon",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-09T11:04:48.955Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me72gblqup2o",
       "cid": "bafyreiebxnqmvnkg4hyii6vketvyyazftccjc74ge3jkjwgrrns7kqyy3i",
       "author": {
@@ -8289,86 +8378,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-25T14:03:34.341Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6eu6caab72l",
-      "cid": "bafyreichfqeww4udsvmxnn4jgomj3g7d6gtszfuwcqxjamfe5c7j4i4alq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-24T12:45:08.255Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Winkelbediende",
-            "title": "job étudiant en magasin - Tubize | TUBIZE, Brabant Wallon",
-            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-tubize-tubize-brabant-wallon/386-41217-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/0LoEtxp"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 261
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 278
-            }
-          }
-        ],
-        "text": "Job Etudiant magasin - Tubize\nMissions : caisse/réassort/facing/entretien du magasin\nProfil\n- Etudiant.e (avec encore min 200 h disponibles en 2025)\n- Motivé, sérieux et disponible\n- Majeur (manipulation d'argent)\n- 1ère expérience en caisse indispensable\nbuff.ly/0LoEtxp \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-tubize-tubize-brabant-wallon/386-41217-1&utm_source=Careerjet-Optioncarriere",
-          "title": "job étudiant en magasin - Tubize | TUBIZE, Brabant Wallon",
-          "description": "Winkelbediende"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-24T12:45:08.729Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
