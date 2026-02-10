@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meis3adkjm2l",
+      "cid": "bafyreib4qn6rwact7lyzyik4qe7lr7cdh6p3ewrazauf2od2danvi2mzaq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-10T10:49:26.119Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tes missions (selon ton profil)Service en salle / restaurantAide en cuisineHousekeeping (chambres & espaces communs)Accueil, réception ou support événementielLogistique & bagages lors d’événementsLes...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Job étudiant en hôtellerie & horeca (H/F/X)",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5404623?JobId=5404623&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dRveTgY"
+              }
+            ],
+            "index": {
+              "byteEnd": 260,
+              "byteStart": 245
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 262
+            }
+          }
+        ],
+        "text": "Job étudiant en hôtellerie & horeca La Hulpe\nMissions:\n- Service en salle / restaurant\n- Aide en cuisine\n- Housekeeping (chambres & espaces communs)\n- Accueil, réception ou support événementiel\n- Logistique & bagages lors d’événements \nbuff.ly/dRveTgY \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5404623?JobId=5404623&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Job étudiant en hôtellerie & horeca (H/F/X)",
+          "description": "Tes missions (selon ton profil)Service en salle / restaurantAide en cuisineHousekeeping (chambres & espaces communs)Accueil, réception ou support événementielLogistique & bagages lors d’événementsLes...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-10T10:49:27.253Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meggwdlt4d2e",
       "cid": "bafyreib23xxex7ed3ag7avvwxfppe4inbwtvd2yw454vpazclknspea5hy",
       "author": {
@@ -8295,86 +8384,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-27T15:28:43.437Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mopgdon42o",
-      "cid": "bafyreihz5nahbopeirksrjti6jbdarjfmwj3vxybvyeaezeq4mycxc54ju",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-27T15:28:38.440Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://dajobs.be/job-offers/JO-RUZL-0MOW"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/AwQpHjM"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant(e) commis de salle - Tubize\nTâches : accueil/service en salle/ propreté et ordre de la salle ...\nProfil : \n- motivé, ponctuel et souriant\n- Bonne présentation/sens du contact\n- 1ère expérience en horeca est un +\n- Français (connaissance du néerl et angl est un +) \nbuff.ly/AwQpHjM \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://dajobs.be/job-offers/JO-RUZL-0MOW",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-27T15:28:38.835Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
