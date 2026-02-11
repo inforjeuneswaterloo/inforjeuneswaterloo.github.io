@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mel3wlymyy2j",
+      "cid": "bafyreif4jozrqibgjlckcgs7myfivcf5gw5nc2wapczukbqyoph3dlrk6q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-11T08:51:08.175Z",
+        "text": "Etudiant agent d'accueil centre culturel Waterloo\nAccueil/accompagnement visiteurs\n• Compétences communication/relation client\n• Intérêt pr la culture, le patrimoine, la réalité virtuelle\n• Fr/ang ; une autre langue est un +\n• Libre des jours du me au di de 9h30 à 17h\ncontact waterloo@napoleonvr.co"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-11T08:51:08.557Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meiw5j7l3d23",
       "cid": "bafyreie7cfpt4uhy5q4o2usobp37u3blakn6rii3xkg2cotebuu37nuuf4",
       "author": {
@@ -8301,86 +8339,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-11-28T09:21:27.828Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6mp3ovf262i",
-      "cid": "bafyreibiinkcnv4p64xvnrv2rcztqmwdacfuvd27a4duj66zdwpmxnr4ta",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-11-27T15:35:30.058Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=57aeb403c5c036a4&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCb67I3qi1_huz4N50LbzkdCdPP&xfps=097d0bd6-fc35-41f0-872f-fc1302de3857&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBn67M3qiV8Pr0pHR0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/EgKqCRE"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant(e) Animation commerciale Mascotte Le Roi du Matelas - Braine-l'Alleud \nMission: Mascotte. A l’aise en public, ne pas avoir peur d’avoir chaud sous un costume\nProfil :\n- Dispo du 3/1 au 31/1/26 les samedis de 14 à 18h\n- Compétences relationnelles et commerciales\nbuff.ly/EgKqCRE \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=57aeb403c5c036a4&q=Etudiant&l=Brabant-wallon&tk=1jb2essk920hd003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCb67I3qi1_huz4N50LbzkdCdPP&xfps=097d0bd6-fc35-41f0-872f-fc1302de3857&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jb2essk920hd003&xkcb=SoBn67M3qiV8Pr0pHR0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-11-27T15:35:30.530Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
