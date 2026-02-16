@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mexwpufm3u2p",
+      "cid": "bafyreiawvag42nxxbeiqab27247f7v7dnjx5b7ckdfbyjcrcu44s5rqtve",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-16T11:22:29.994Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=1c2e56636798ebc8&q=Etudiants&l=Brabant-wallon&tk=1jhco58t4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAl67I3nzNa_hzNUR0LbzkdCdPP&xfps=3c699028-8d23-497c-860e-d93b7516da54&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhco58t4j91i800&xkcb=SoCe67M3ns4a5Mb3Vh0fbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/cxkeCub"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant(e) H&M Aide du Samedi 6h - Waterloo\n- Dispo à travailler 35h/sem pendant les vacances de printemps\n- Plier, suspendre, présenter et mettre en valeur les vêtements\n- Traiter/stocker/réapprovisionner activement les vêtements\n- Ouvrir/déballer/antivoler les marchandises \nbuff.ly/cxkeCub\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=1c2e56636798ebc8&q=Etudiants&l=Brabant-wallon&tk=1jhco58t4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAl67I3nzNa_hzNUR0LbzkdCdPP&xfps=3c699028-8d23-497c-860e-d93b7516da54&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhco58t4j91i800&xkcb=SoCe67M3ns4a5Mb3Vh0fbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-16T11:22:30.455Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meobvbko7e2q",
       "cid": "bafyreibmfaueba3zjd5wg2lv7luq6nmga6kpls3cane4esqkqe2jh264ee",
       "author": {
@@ -8283,86 +8363,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-01T13:32:03.832Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6wjnema4y24",
-      "cid": "bafyreieacghk64kgpdgvfndhrex57ddyn6lgxpsfo6ujdi4d46lyfafczm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-01T13:24:38.190Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Stockbeheerder/ster",
-            "title": "Inventoriste/opérateur inventaire Etudiant dispo 3/4 jours/sem | LAEKEN, Bruxelles",
-            "uri": "https://www.adecco.com/nl-be/vacatures/inventoristeoperateur-inventaire-etudiant-dispo-34-jourssem-laeken-bruxelles/166-31828-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/nO6s6K7"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Inventoriste Etudiant dispo 3/4 jours/sem - Belgique\nFormation les 18 et 23/12 à Bruxelles\nMissions :\n- Comptage des stocks\n- Respecter les procédures internes (balisage, saisie,...).\nProfil :\n- Rigueur/sens du détail\n- Esprit d’équipe et communication\n- Flexibilité horaire \nbuff.ly/nO6s6K7 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/inventoristeoperateur-inventaire-etudiant-dispo-34-jourssem-laeken-bruxelles/166-31828-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Inventoriste/opérateur inventaire Etudiant dispo 3/4 jours/sem | LAEKEN, Bruxelles",
-          "description": "Stockbeheerder/ster"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-01T13:24:38.633Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
