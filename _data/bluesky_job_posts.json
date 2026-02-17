@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf2ojbqwvv2q",
+      "cid": "bafyreibgoesn7oeqky2dnlonabentcl43xc7xame2db5omic6gu3lmgnk4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-17T13:33:37.388Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreie7qgqd355pxigetybgk2psxpe3lcsb5rc7fjhf37l7jah6gqgw2a"
+              },
+              "mimeType": "image/png",
+              "size": 280954
+            },
+            "title": "Job étudiant comptabilité",
+            "uri": "https://jobs.be.athora.com/fr/jobs/job-etudiant-comptabilite-3eda9144?utm_source=careerjet&utm_medium=xml_feed"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/18V0WiE"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Job étudiant comptabilité - Ixelles \nTâches :\n- Suivi, encodage et contrôle des paiements\n- Encodage des factures et des achats\n- Suivi des comptes fournisseurs\n- ...\nProfil\n- Etudiant.e Bac (gestion/finance)\n- Excellente connaissance du FR ou du NLDS (ANG est un +)\n- ...\nbuff.ly/18V0WiE \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.be.athora.com/fr/jobs/job-etudiant-comptabilite-3eda9144?utm_source=careerjet&utm_medium=xml_feed",
+          "title": "Job étudiant comptabilité",
+          "description": "Job étudiant",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreie7qgqd355pxigetybgk2psxpe3lcsb5rc7fjhf37l7jah6gqgw2a@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-17T13:33:39.555Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mey56r53uw2o",
       "cid": "bafyreibpnycx3sx5ot72okesgzhxkvod3izbm4lhtqn2iqrgqiptyb7tum",
       "author": {
@@ -8274,86 +8363,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-02T13:07:37.930Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m6yykgb7wu2i",
-      "cid": "bafyreibf7acyy74gqufzc6cdal7d2gntte3ufwbxsmxuiv6mcwnpzae44u",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-02T12:56:44.864Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=63ee11fbcfdb7871&q=Etudiant&l=Brussels&tk=1jbferp2emm5l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBy67I3qvqpgxTNU50LbzkdCdPP&xfps=cc104b06-366e-471b-9b3b-6985fe84fded&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jbferp2emm5l800&xkcb=SoDW67M3qvVgdjaCTB0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/u28EXTv"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 287
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 310,
-              "byteStart": 304
-            }
-          }
-        ],
-        "text": "Job  à l'année Commis de cuisine au MAKIFORNIA à Bruxelles\n- Min. 18 ans\n- Disposé à travailler au minimum deux fois semaine toute l'année durant\n- Avoir une première expérience dans l'horeca ou dans la vente\n- Respect strict des règles et procédures\n- Résistant(e) au stress\nbuff.ly/u28EXTv \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=63ee11fbcfdb7871&q=Etudiant&l=Brussels&tk=1jbferp2emm5l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBy67I3qvqpgxTNU50LbzkdCdPP&xfps=cc104b06-366e-471b-9b3b-6985fe84fded&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jbferp2emm5l800&xkcb=SoDW67M3qvVgdjaCTB0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-02T12:56:45.529Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
