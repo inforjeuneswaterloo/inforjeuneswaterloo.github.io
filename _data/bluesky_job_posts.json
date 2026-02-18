@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf53roocdw2k",
+      "cid": "bafyreibrvdj26plp3fktmukjbpreuvsxkeyqvcxp7qxd5grmuw3wbtrk74",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-18T12:36:17.852Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant/Flexi boulangerie (samedi)",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452351?JobId=5452351&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/7n015R6"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant(e) boulangerie samedi à Grez-Doiceau\nProfil\n- Dynamique, motivé et doté d’un bon contact client Intérêt pour le secteur de la boulangerie et le travail en équipe\n- Sérieux, ponctuel et fiable\n- Disponible pour un job à l’année (statut étudiant ou flexi) \nbuff.ly/7n015R6 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452351?JobId=5452351&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Etudiant/Flexi boulangerie (samedi)",
+          "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-18T12:36:18.850Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf4oq2po4n26",
       "cid": "bafyreicjea4ldrkhjdk7zredr663sydnezccbl3npladxinnz6slo65yqa",
       "author": {
@@ -8283,95 +8372,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-03T16:27:05.232Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m73csghjbe2d",
-      "cid": "bafyreid56wmsbaibvn5kzcjkn7sjw6pvljwcgokp5krvwbca2krlr5r2au",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-03T11:05:29.648Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour notre client qui est un grossiste en pièces détachées pour chauffage et sanitaire.Dans le cadre de son évolution digitale, l’entreprise souhaite intégrer des solutions d’intelligence artificielle...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant.e en informatique",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5143782?JobId=5143782&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3cbanof"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant(e) en informatique à Wavre\n- Bachelier en informatique\n- Compréhension des technologies d’IA, en intégration web et/ou développement logiciel\n - Capacité à configurer et adapter des solutions IA existantes\n- Connaissance en sécurité/confidentialité des données \nbuff.ly/3cbanof \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5143782?JobId=5143782&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Etudiant.e en informatique",
-          "description": "Pour notre client qui est un grossiste en pièces détachées pour chauffage et sanitaire.Dans le cadre de son évolution digitale, l’entreprise souhaite intégrer des solutions d’intelligence artificielle...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-03T11:05:31.030Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
