@@ -1,6 +1,187 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf54g6ausg2k",
+      "cid": "bafyreifrxbo5vcd5zn72ax2el44yzyyexfsifog6gkx3ezs66icheldpjm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-18T12:47:45.953Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=fbed6af9bb1704fc&q=Etudiant&l=Brabant-wallon&tk=1jhnqkamsg2j3800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCk67I3n4QntfzCBB0LbzkdCdPP&xfps=e846c5e7-8969-4d2b-8248-bb7dff0fa03d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhnqkamsg2j3800&xkcb=SoCQ67M3n39eQN7Pp50LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/NhIO2bq"
+              }
+            ],
+            "index": {
+              "byteEnd": 228,
+              "byteStart": 213
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 235,
+              "byteStart": 229
+            }
+          }
+        ],
+        "text": "Etudiant - Préparateur de commandes Nivelles\nTâches:\n- Réceptionner et ranger les marchandises\n- Scanner les produits et préparer les colis\n- Emballer les commandes et les expédier\n- Étiqueter les articles \nbuff.ly/NhIO2bq\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=fbed6af9bb1704fc&q=Etudiant&l=Brabant-wallon&tk=1jhnqkamsg2j3800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCk67I3n4QntfzCBB0LbzkdCdPP&xfps=e846c5e7-8969-4d2b-8248-bb7dff0fa03d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhnqkamsg2j3800&xkcb=SoCQ67M3n39eQN7Pp50LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-18T12:47:46.252Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf547ne6pe2s",
+      "cid": "bafyreifhjdgribo6fxbueqcfd4i37hnraxbfdj2fltg3taldsm26ak33yi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-18T12:44:06.239Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant/Flexi boulangerie (samedi)",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452318?JobId=5452318&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0EKjiY5"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Etudiant(e) boulangerie Waterloo\n- Accueillir les clients et assurer un service de qualité\n- Conseiller la clientèle sur les produits\n - Prendre les commandes et effectuer le service au comptoir \n- Veiller à la bonne présentation des produits et à la propreté\nbuff.ly/0EKjiY5 \n#job4u\n#ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452318?JobId=5452318&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Etudiant/Flexi boulangerie (samedi)",
+          "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-18T12:44:07.355Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf53roocdw2k",
       "cid": "bafyreibrvdj26plp3fktmukjbpreuvsxkeyqvcxp7qxd5grmuw3wbtrk74",
       "author": {
@@ -8212,166 +8393,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-04T14:58:48.332Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m767qbiwhi25",
-      "cid": "bafyreie5dg63sdezzjoes557a4yggathqjnzpq55di3kxpckirzqretvda",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-04T14:48:36.076Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Winkelbediende",
-            "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-2&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/0hswuGJ"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 288
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie à Loupoigne\n- Déjà 1 expérience dans la vente alimentaire, en boulangerie\n- Réactif(ve), proactif(ve) et aimez le contact avec les clients\n-  Dispo les WE de 6h à 14h, afin d’assurer la vente et l’entretien du magasin \n- En possession d’1 véhicule\nbuff.ly/0hswuGJ \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-ou-flexi-jobber-vendeurse-en-boulangerie-loupoigne-brabant-wallon/142-34591-2&utm_source=Careerjet-Optioncarriere",
-          "title": "Etudiant.e ou flexi-jobber vendeur.se en boulangerie | LOUPOIGNE, Brabant Wallon",
-          "description": "Winkelbediende"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-04T14:48:36.637Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m73urgokuh24",
-      "cid": "bafyreick456tdmwqlc7shyvia43in7lbwt42ibcu3ofzfvh2koxptqq66y",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-03T16:27:04.431Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Kassier(ster)",
-            "title": "Caissier/e Etudiant, flexijob | NIVELLES, Brabant Wallon",
-            "uri": "https://www.adecco.com/nl-be/vacatures/caissiere-etudiant-flexijob-nivelles-brabant-wallon/166-31855-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/MJ9361x"
-              }
-            ],
-            "index": {
-              "byteEnd": 181,
-              "byteStart": 166
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 189,
-              "byteStart": 183
-            }
-          }
-        ],
-        "text": "Etudiants caissiers à Nivelles\nPour travailler les week-ends et les jours fériés avec des disponibilités en semaine.\n\nTâches :\n- Caisse\n- Réassort tout rayon \n\nbuff.ly/MJ9361x \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/caissiere-etudiant-flexijob-nivelles-brabant-wallon/166-31855-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Caissier/e Etudiant, flexijob | NIVELLES, Brabant Wallon",
-          "description": "Kassier(ster)"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-03T16:27:05.232Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
