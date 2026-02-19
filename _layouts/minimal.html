@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-{% include elements/head.html %}
-  <main class="page-content">
+<head>
+  {% include elements/head.html %}
+  
+  {% comment %} 
+    Lien vers ton fichier CSS centralisé. 
+    L'utilisation de relative_url permet d'éviter les erreurs de chemin sur GitHub Pages.
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
+  
+  {% comment %} 
+    Si tu as des polices Google Fonts, c'est ici qu'il faut les ajouter. 
+  {% endcomment %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  {% comment %} Le menu hamburger (sans JS) est inclus dans le header {% endcomment %}
+  {% include elements/header.html %}
+
+  <main id="main-content" role="main">
+    {% comment %} 
+      C'est ici que Jekyll injecte le contenu du layout enfant (minimal.html) 
+      ou directement le contenu de tes pages Markdown.
+    {% endcomment %}
     {{ content }}
   </main>
+
+  {% comment %} 
+    Puisque ton menu est 100% CSS, tu n'as techniquement pas besoin de JS ici.
+    Mais si tu en ajoutes plus tard, place les scripts avant la fermeture du body.
+  {% endcomment %}
+
 </body>
 </html>
