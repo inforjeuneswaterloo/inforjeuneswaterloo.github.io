@@ -1,0 +1,29 @@
+---
+layout: minimal
+---
+{% assign category_name = page.categories | first %}
+{% assign slug = category_name | slugify %}
+{% assign cat_color = site.data.categories[slug] | default: site.data.categories.default %}
+
+<article class="post-container" style="--post-accent: #{{ cat_color }};">
+  <header class="post-header">
+    <div class="post-tags-container">
+      {% for cat in page.categories %}
+        {% assign tag_slug = cat | slugify %}
+        {% assign tag_hex = site.data.categories[tag_slug] | default: site.data.categories.default %}
+        <a href="/categories/{{ tag_slug }}/" class="cat-tag" style="--tag-color: #{{ tag_hex }};">
+          {{ cat }}
+        </a>
+      {% endfor %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  <footer class="post-footer">
+    <a href="/categories/{{ slug }}/" class="back-link">← Retour à {{ category_name }}</a>
+  </footer>
+</article>
