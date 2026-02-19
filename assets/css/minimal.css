@@ -1,0 +1,186 @@
+/* ==========================================================================
+   VARIABLES ET CONFIGURATION DE BASE
+   ========================================================================== */
+:root {
+  --post-accent: #00a46f; /* Couleur par défaut si rien n'est trouvé */
+  --text-dark: #2c3e50;
+  --text-light: #666666;
+  --bg-soft: #f9f9f9;
+  --white: #ffffff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   LAYOUT DE L'ARTICLE (POST)
+   ========================================================================== */
+.post-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  /* La bordure supérieure utilise la couleur de la catégorie principale */
+  border-top: 10px solid var(--post-accent);
+}
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--post-accent);
+  line-height: 1.1;
+  margin: 15px 0;
+}
+
+.post-meta {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   SYSTÈME DE BADGES MULTI-CATÉGORIES
+   ========================================================================== */
+.post-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.tags-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-light);
+  margin-right: 5px;
+}
+
+.cat-tag {
+  /* --tag-color est injectée par Jekyll dans le style inline HTML */
+  background-color: var(--tag-color);
+  color: var(--white) !important;
+  padding: 4px 14px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.cat-tag:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   NAVIGATION DES THÉMATIQUES (ARCHIVE)
+   ========================================================================== */
+.category-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin: 40px 0;
+}
+
+.cat-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: var(--white);
+  border: 1px solid #eee;
+  border-left: 6px solid var(--cat-color); /* Couleur spécifique par thématique */
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cat-button:hover {
+  background: var(--bg-soft);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateX(5px);
+}
+
+.cat-badge {
+  background: var(--cat-color);
+  color: var(--white);
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+/* ==========================================================================
+   ZONE DE CONTENU
+   ========================================================================== */
+.post-content {
+  font-size: 1.15rem;
+  margin-top: 40px;
+}
+
+.post-content a {
+  color: var(--post-accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.post-content blockquote {
+  border-left: 4px solid var(--post-accent);
+  background: var(--bg-soft);
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   ARTICLES LIÉS (RELATED POSTS)
+   ========================================================================== */
+.related-posts {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid #eee;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.related-card {
+  display: block;
+  padding: 20px;
+  background: var(--bg-soft);
+  border-top: 4px solid var(--post-accent);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.related-card:hover {
+  transform: scale(1.02);
+}
+
+.related-post-title {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: var(--post-accent);
+}
+
+/* ==========================================================================
+   MOBILE RESPONSIVE
+   ========================================================================== */
+@media (max-width: 600px) {
+  .post-title { font-size: 2rem; }
+  .related-grid { grid-template-columns: 1fr; }
+  .category-nav { grid-template-columns: 1fr; }
+}
