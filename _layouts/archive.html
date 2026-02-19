@@ -1,0 +1,28 @@
+---
+layout: minimal
+---
+
+{% assign cat_slug = page.category | slugify %}
+{% assign cat_color = site.data.categories[cat_slug] | default: "888888" %}
+{% assign posts_count = site.categories[page.category] | size %}
+
+<div class="category-view" style="--c: #{{ cat_color }};">
+  
+  <a href="/categories/" class="back-link">← Retour aux catégories</a>
+
+  <header class="category-header">
+    <h1 class="category-title">
+      {{ page.category }}
+      <span class="category-count">{{ posts_count }} article{% if posts_count > 1 %}s{% endif %} publié{% if posts_count > 1 %}s{% endif %}</span>
+    </h1>
+  </header>
+
+  <div class="post-grid">
+    {% for post in site.categories[page.category] %}
+      <a href="{{ post.url | relative_url }}" class="post-card">
+        <h2 class="post-card-title">{{ post.title }}</h2>
+        <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</div>

@@ -14,10 +14,30 @@
 <body>
 
   <main>
-    <header style="padding: 2rem 0; text-align: center;">
-  <a href="/" style="text-decoration: none; font-weight: bold; font-family: sans-serif; letter-spacing: -1px; font-size: 1.2rem;">
-    {{ site.title }}
-  </a>
+   <header class="site-header">
+  <div class="header-spacer"></div>
+
+  <div class="brand-container">
+    <a href="{{ '/' | relative_url }}" class="logo-link">
+      <img src="{{ '/assets/images/logos/ijw-banner-transparent.webp' | relative_url }}" alt="{{ site.title }}" class="site-logo">
+    </a>
+    <p class="site-slogan">{{ site.description }}</p>
+  </div>
+
+  <div class="nav-container">
+    <input type="checkbox" id="menu-cb" class="menu-checkbox">
+    <label for="menu-cb" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+    <label for="menu-cb" class="menu-overlay-screen"></label>
+    <nav class="nav-overlay">
+      <div class="nav-content">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <a href="{{ '/categories/' | relative_url }}">Catégories</a>
+        <a href="{{ '/about/' | relative_url }}">À propos</a>
+      </div>
+    </nav>
+  </div>
 </header>
 
     {{ content }}
