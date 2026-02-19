@@ -1,5 +1,5 @@
 ---
-layout: category_archive
+layout: category-single
 title: Articles de la catégorie Témoignages
 permalink: /categories/temoignages/
 category: Témoignages

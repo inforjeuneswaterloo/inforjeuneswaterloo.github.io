@@ -1,5 +1,5 @@
 ---
-layout: category-list
+layout: category-single
 title: Articles de la catégorie Enseignement
 permalink: /categories/enseignement/
 category: Enseignement

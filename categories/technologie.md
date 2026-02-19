@@ -1,5 +1,5 @@
 ---
-layout: category_archive
+layout: category-single
 title: "Articles de la catégorie _Technologie_"
 permalink: /categories/technologie/
 category: Technologie

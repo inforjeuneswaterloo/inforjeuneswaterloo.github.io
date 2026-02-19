@@ -1,5 +1,5 @@
 ---
-layout: category-list
+layout: category-single
 title: Articles de la catégorie Protection sociale
 permalink: /categories/protection-sociale/
 category: Protection sociale
