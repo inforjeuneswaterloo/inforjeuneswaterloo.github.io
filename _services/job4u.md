@@ -1,6 +1,6 @@
 ---
 layout: redirect
-redirect_to: 'job4u/'
+redirect_to: 'job4u'
 id: ij
 image: /assets/images/services/helmet-safety-solid-full.svg
 title: Offres de job étudiant
@@ -11,7 +11,7 @@ buttons:
   - btn:
      enable: true
      text: Consulter les dernières offres
-     href: /job4u/
+     href: job4u
      icon: fa-solid fa-arrow-right
      class: btn btn-outline-dark text-decoration-none
      target: "_self"
