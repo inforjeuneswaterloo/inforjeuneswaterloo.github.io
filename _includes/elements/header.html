@@ -4,9 +4,11 @@
       <img src="/assets/images/logos/ijw-banner-transparent.webp" alt="Infor Jeunes">
     </a>
 
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <input type="checkbox" id="menu-cb" class="menu-checkbox">
+    
+    <label for="menu-cb" class="menu-toggle">
       <span class="hamburger"></span>
-    </button>
+    </label>
 
     <nav class="main-nav">
       <ul class="nav-list">
@@ -17,5 +19,7 @@
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </nav>
+
+    <label for="menu-cb" class="menu-overlay"></label>
   </div>
 </header>
