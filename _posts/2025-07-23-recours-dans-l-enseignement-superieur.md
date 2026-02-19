@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-single
 title: Recours dans l'enseignement supérieur
 date: 2025-07-23
 update: 
