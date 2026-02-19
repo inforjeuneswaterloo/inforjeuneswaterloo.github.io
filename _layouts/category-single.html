@@ -7,19 +7,17 @@ layout: minimal
 <div class="post-container" style="--post-accent: #{{ cat_hex }};">
   <header class="post-header">
     <h1 class="post-title">Thématique : {{ page.category }}</h1>
-    <p>Retrouvez tous nos articles liés à {{ page.category }}.</p>
+    <p style="color: #666; font-size: 1.1rem;">Retrouvez tous nos articles liés à {{ page.category }}.</p>
   </header>
 
   <div class="category-grid">
     {% for post in site.categories[page.category] %}
-      <a href="{{ post.url | relative_url }}" class="cat-button" style="--cat-color: #{{ cat_hex }}; width: 100%; margin: 10px 0;">
+      <a href="{{ post.url | relative_url }}" class="cat-button" style="--cat-color: #{{ cat_hex }};">
         <span class="cat-name">{{ post.title }}</span>
         <span class="cat-date">{{ post.date | date: "%d/%m/%Y" }}</span>
       </a>
     {% endfor %}
   </div>
 
-  <footer class="post-footer">
-    <a href="/categories/" class="back-link">← Voir toutes les thématiques</a>
-  </footer>
+  <a href="/categories/" class="back-link">← Voir toutes les thématiques</a>
 </div>

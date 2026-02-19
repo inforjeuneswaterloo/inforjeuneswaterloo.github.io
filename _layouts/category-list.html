@@ -3,17 +3,15 @@ layout: minimal
 ---
 <div class="post-container">
   <header class="post-header">
-    <h1 class="post-title" style="color: var(--text-dark);">Nos Thématiques</h1>
+    <h1 class="post-title" style="color: var(--text-dark);">Thématiques</h1>
   </header>
-
   <nav class="category-nav">
-    {% assign sorted_categories = site.categories | sort %}
-    {% for category in sorted_categories %}
+    {% assign categories = site.categories %}
+    {% for category in categories %}
       {% assign cat_name = category | first %}
       {% assign cat_slug = cat_name | slugify %}
       {% assign posts_count = category | last | size %}
       {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
-
       <a href="/categories/{{ cat_slug }}/" class="cat-button" style="--cat-color: #{{ hex }};">
         <span class="cat-name">{{ cat_name }}</span>
         <span class="cat-badge">{{ posts_count }}</span>
