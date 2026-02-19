@@ -1,196 +1,34 @@
-/* ==========================================================================
+//* ==========================================================================
    VARIABLES ET CONFIGURATION DE BASE
    ========================================================================== */
 :root {
-  --post-accent: #00a46f; /* Couleur par défaut si rien n'est trouvé */
+  --post-accent: #00a46f; /* Couleur par défaut */
   --text-dark: #2c3e50;
   --text-light: #666666;
-  --bg-soft: #f9f9f9;
+  --bg-body: #f4f7f6;
+  --bg-card: #ffffff;
   --white: #ffffff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-body);
   color: var(--text-dark);
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* ==========================================================================
-   LAYOUT DE L'ARTICLE (POST)
+   NAVIGATION (HAMBURGER PARTOUT & SANS JS)
    ========================================================================== */
-.post-container {
-  max-width: 850px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  /* La bordure supérieure utilise la couleur de la catégorie principale */
-  border-top: 10px solid var(--post-accent);
-}
-
-.post-header {
-  margin-bottom: 30px;
-}
-
-.post-title {
-  font-size: 2.8rem;
-  font-weight: 800;
-  color: var(--post-accent);
-  line-height: 1.1;
-  margin: 15px 0;
-}
-
-.post-meta {
-  color: var(--text-light);
-  font-size: 0.95rem;
-}
-
-/* ==========================================================================
-   SYSTÈME DE BADGES MULTI-CATÉGORIES
-   ========================================================================== */
-.post-tags-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.tags-label {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text-light);
-  margin-right: 5px;
-}
-
-.cat-tag {
-  /* --tag-color est injectée par Jekyll dans le style inline HTML */
-  background-color: var(--tag-color);
-  color: var(--white) !important;
-  padding: 4px 14px;
-  border-radius: 30px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.2s ease, filter 0.2s ease;
-}
-
-.cat-tag:hover {
-  filter: brightness(1.1);
-  transform: translateY(-2px);
-}
-
-/* ==========================================================================
-   NAVIGATION DES THÉMATIQUES (ARCHIVE)
-   ========================================================================== */
-.category-nav {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 15px;
-  margin: 40px 0;
-}
-
-.cat-button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
+.site-header {
   background: var(--white);
-  border: 1px solid #eee;
-  border-left: 6px solid var(--cat-color); /* Couleur spécifique par thématique */
-  text-decoration: none;
-  color: var(--text-dark);
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.cat-button:hover {
-  background: var(--bg-soft);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transform: translateX(5px);
-}
-
-.cat-badge {
-  background: var(--cat-color);
-  color: var(--white);
-  padding: 2px 10px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-}
-
-/* ==========================================================================
-   ZONE DE CONTENU
-   ========================================================================== */
-.post-content {
-  font-size: 1.15rem;
-  margin-top: 40px;
-}
-
-.post-content a {
-  color: var(--post-accent);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.post-content blockquote {
-  border-left: 4px solid var(--post-accent);
-  background: var(--bg-soft);
-  margin: 20px 0;
-  padding: 10px 20px;
-  font-style: italic;
-}
-
-/* ==========================================================================
-   ARTICLES LIÉS (RELATED POSTS)
-   ========================================================================== */
-.related-posts {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 2px solid #eee;
-}
-
-.related-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.related-card {
-  display: block;
-  padding: 20px;
-  background: var(--bg-soft);
-  border-top: 4px solid var(--post-accent);
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease;
-}
-
-.related-card:hover {
-  transform: scale(1.02);
-}
-
-.related-post-title {
-  margin: 10px 0;
-  font-size: 1.2rem;
-  color: var(--post-accent);
-}
-
-/* ==========================================================================
-   MOBILE RESPONSIVE
-   ========================================================================== */
-@media (max-width: 600px) {
-  .post-title { font-size: 2rem; }
-  .related-grid { grid-template-columns: 1fr; }
-  .category-nav { grid-template-columns: 1fr; }
-}
-/* ==========================================================================
-   NAVIGATION & HEADER (100% CSS)
-   ========================================================================== */
-
-/* --- Configuration du Header --- */
-.site-header {
-  background: var(--white, #ffffff);
   border-bottom: 1px solid #eeeeee;
   position: sticky;
   top: 0;
@@ -210,119 +48,13 @@ body {
   padding: 0 20px;
 }
 
-/* --- Logo --- */
-.site-logo img {
-  height: 45px;
-  display: block;
-}
+.site-logo img { height: 45px; }
 
-/* --- Checkbox Hack (Invisible) --- */
-.menu-checkbox {
-  display: none;
-}
+/* Checkbox Hack */
+.menu-checkbox { display: none; }
 
-/* --- Menu Desktop --- */
-.nav-list {
-  display: flex;
-  list-style: none;
-  gap: 25px;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: var(--text-dark, #2c3e50);
-  font-weight: 600;
-  font-size: 0.95rem;
-  transition: color 0.2s;
-}
-
-.nav-list a:hover {
-  color: var(--post-accent, #00a46f);
-}
-
-/* --- Bouton Hamburger (Mobile uniquement) --- */
 .menu-toggle {
-  display: none;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 1002; /* Au-dessus de tout */
-}
-
-.hamburger {
   display: block;
-  width: 25px;
-  height: 2px;
-  background: var(--text-dark, #2c3e50);
-  position: relative;
-  transition: all 0.3s ease;
-}
-
-.hamburger::before,
-.hamburger::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 2px;
-  background: var(--text-dark, #2c3e50);
-  transition: all 0.3s ease;
-}
-
-.hamburger::before { top: -8px; }
-.hamburger::after { bottom: -8px; }
-
-/* --- Overlay (Voile sombre) --- */
-.menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-  z-index: 1000;
-}
-
-/* ==========================================================================
-   NAVIGATION UNIFIÉE (HAMBURGER PARTOUT)
-   ========================================================================== */
-
-.site-header {
-  background: var(--white, #ffffff);
-  border-bottom: 1px solid #eeeeee;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-  display: flex;
-  align-items: center;
-}
-
-.header-container {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.site-logo img {
-  height: 45px;
-}
-
-/* --- Logique Checkbox (Indispensable) --- */
-.menu-checkbox {
-  display: none;
-}
-
-/* --- Bouton Hamburger (Toujours visible) --- */
-.menu-toggle {
-  display: block; /* Forcé sur PC et Mobile */
   cursor: pointer;
   padding: 10px;
   z-index: 1002;
@@ -332,36 +64,33 @@ body {
   display: block;
   width: 25px;
   height: 2px;
-  background: var(--text-dark, #2c3e50);
+  background: var(--text-dark);
   position: relative;
-  transition: all 0.3s ease;
+  transition: 0.3s ease;
 }
 
-.hamburger::before,
-.hamburger::after {
+.hamburger::before, .hamburger::after {
   content: "";
   position: absolute;
   width: 25px;
   height: 2px;
-  background: var(--text-dark, #2c3e50);
-  transition: all 0.3s ease;
+  background: var(--text-dark);
+  transition: 0.3s ease;
 }
-
 .hamburger::before { top: -8px; }
 .hamburger::after { bottom: 8px; }
 
-/* --- Le Panneau de Navigation (Masqué à droite) --- */
+/* Panneau de Navigation Lateral */
 .main-nav {
   position: fixed;
   top: 0;
-  right: -100%; /* Sorti de l'écran */
-  width: 320px; /* Largeur fixe pour PC et Mobile */
+  right: -100%;
+  width: 320px;
   height: 100vh;
-  background: var(--white, #ffffff);
+  background: var(--white);
   z-index: 1001;
   transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   padding: 100px 40px;
-  box-sizing: border-box;
   box-shadow: -10px 0 30px rgba(0,0,0,0.1);
 }
 
@@ -376,17 +105,15 @@ body {
 
 .nav-list a {
   text-decoration: none;
-  color: var(--text-dark, #2c3e50);
+  color: var(--text-dark);
   font-weight: 600;
-  font-size: 1.3rem; /* Plus grand pour le mode plein écran */
+  font-size: 1.4rem;
   transition: color 0.2s;
 }
 
-.nav-list a:hover {
-  color: var(--post-accent, #00a46f);
-}
+.nav-list a:hover { color: var(--post-accent); }
 
-/* --- Overlay Sombre --- */
+/* Overlay Sombre */
 .menu-overlay {
   position: fixed;
   top: 0;
@@ -398,56 +125,78 @@ body {
   visibility: hidden;
   transition: opacity 0.4s ease;
   z-index: 1000;
-  cursor: pointer;
 }
+
+/* Logique d'ouverture */
+.menu-checkbox:checked ~ .main-nav { right: 0; }
+.menu-checkbox:checked ~ .menu-overlay { opacity: 1; visibility: visible; }
+.menu-checkbox:checked ~ .menu-toggle .hamburger { background: transparent; }
+.menu-checkbox:checked ~ .menu-toggle .hamburger::before { transform: rotate(45deg); top: 0; }
+.menu-checkbox:checked ~ .menu-toggle .hamburger::after { transform: rotate(-45deg); bottom: 0; }
+
+/* Animation Cascade des liens */
+.nav-list li { opacity: 0; transform: translateY(20px); transition: all 0.4s ease; }
+.menu-checkbox:checked ~ .main-nav .nav-list li { opacity: 1; transform: translateY(0); }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(1) { transition-delay: 0.1s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(2) { transition-delay: 0.15s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(3) { transition-delay: 0.2s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(4) { transition-delay: 0.25s; }
 
 /* ==========================================================================
-   ÉTATS D'OUVERTURE (CHECKBOX COCHÉE)
+   CONTENEUR ET CARTES (LAYOUT ÉLÉGANT)
    ========================================================================== */
-
-/* Faire glisser le menu */
-.menu-checkbox:checked ~ .main-nav {
-  right: 0;
+.post-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: var(--bg-card);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border-top: 8px solid var(--post-accent);
 }
 
-/* Afficher le voile sombre */
-.menu-checkbox:checked ~ .menu-overlay {
-  opacity: 1;
-  visibility: visible;
+.post-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--post-accent);
+  margin-bottom: 10px;
+  letter-spacing: -1px;
 }
 
-/* Animation de la croix */
-.menu-checkbox:checked ~ .menu-toggle .hamburger {
-  background: transparent;
+/* Grille des articles/thématiques en cartes */
+.category-grid, .category-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
 }
 
-.menu-checkbox:checked ~ .menu-toggle .hamburger::before {
-  transform: rotate(45deg);
-  top: 0;
+.cat-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  background: #fdfdfd;
+  border: 1px solid #eeeeee;
+  border-left: 5px solid var(--cat-color, var(--post-accent));
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.menu-checkbox:checked ~ .menu-toggle .hamburger::after {
-  transform: rotate(-45deg);
-  bottom: 0;
-}
-/* --- 1. État initial des liens (cachés et légèrement décalés vers le bas) --- */
-.nav-list li {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.4s ease;
+.cat-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  background: var(--white);
+  border-color: transparent;
 }
 
-/* --- 2. État quand le menu est ouvert --- */
-.menu-checkbox:checked ~ .main-nav .nav-list li {
-  opacity: 1;
-  transform: translateY(0);
-}
+.cat-name { font-weight: 600; font-size: 1.1rem; }
+.cat-date, .cat-badge { font-size: 0.9rem; color: var(--text-light); }
 
-/* --- 3. Décalage (Delay) pour chaque lien --- */
-/* On crée une apparition en cascade : le 1er lien d'abord, puis le 2e, etc. */
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(1) { transition-delay: 0.1s; }
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(2) { transition-delay: 0.2s; }
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(3) { transition-delay: 0.3s; }
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(4) { transition-delay: 0.4s; }
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(5) { transition-delay: 0.5s; }
-.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(6) { transition-delay: 0.6s; }
+.cat-badge {
+  background: var(--cat-color, var(--post-accent));
+  color: var(--white);
+  padding: 4px 12px;
+  border-radius
