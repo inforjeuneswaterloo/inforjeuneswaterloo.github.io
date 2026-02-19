@@ -1,25 +1,19 @@
 <header class="site-header">
   <div class="header-container">
-    <a href="/" class="site-logo">
-      <img src="/assets/images/logos/ijw-banner-transparent.webp" alt="Infor Jeunes">
+    <a class="site-logo" href="/">
+      <img src="{{ site.logo | relative_url }}" alt="Logo">
     </a>
-
-    <input type="checkbox" id="menu-cb" class="menu-checkbox">
     
-    <label for="menu-cb" class="menu-toggle">
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    
+    <label for="menu-toggle" class="menu-toggle">
       <span class="hamburger"></span>
     </label>
-
+    
     <nav class="main-nav">
       <ul class="nav-list">
-        <li><a href="/">Accueil</a></li>
         <li><a href="/categories/">Thématiques</a></li>
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/jobs/">Jobs</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
+        </ul>
     </nav>
-
-    <label for="menu-cb" class="menu-overlay"></label>
   </div>
 </header>
