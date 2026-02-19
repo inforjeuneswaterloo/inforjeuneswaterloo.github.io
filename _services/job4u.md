@@ -1,6 +1,6 @@
 ---
 layout: redirect
-redirect_to: '/jobs/'
+redirect_to: '/job4u/'
 id: ij
 image: /assets/images/services/helmet-safety-solid-full.svg
 title: Offres de job étudiant
