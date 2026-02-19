@@ -1,6 +1,5 @@
 ---
-layout: home
-image: /assets/images/logos/ijw-carre-transparent.png
+layout: miminal
 moto: Informer. Automoniser. Sans condition.
 id: 'ij'
 buttons:

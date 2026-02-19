@@ -1,12 +1,16 @@
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
+    {% assign cat_slug = page.categories | first | slugify %}
+    {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
 
-<link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
-{% assign cat_slug = page.categories | first | slugify %}
-{% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
+    <meta property="og:title" content="{{ page.title }}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% else %}
+    <meta property="og:image" content="https://placehold.jp/{{ hex }}/ffffff/1200x630.png?text={{ page.title | url_encode }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    {%include elements/header.html%}
 
-<meta property="og:title" content="{{ page.title }}">
-{% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
-{% else %}
-  <meta property="og:image" content="https://placehold.jp/{{ hex }}/ffffff/1200x630.png?text={{ page.title | url_encode }}">
-{% endif %}
-<meta name="twitter:card" content="summary_large_image">
