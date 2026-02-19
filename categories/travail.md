@@ -1,5 +1,5 @@
 ---
-layout: category_archive
+layout: category-list
 title: Articles de la catégorie Travail
 permalink: /categories/travail/
 category: Travail
