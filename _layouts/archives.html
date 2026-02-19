@@ -1,0 +1,30 @@
+---
+layout: minimal
+---
+<h1 style="font-family: var(--font-main); font-weight: 400; margin-bottom: 2rem; opacity: 0.8;">
+  Index des thèmes
+</h1>
+<div class="category-nav">
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    {% assign cat_name = category | first %}
+    {% assign cat_slug = cat_name | slugify %}
+    {% assign posts_count = category | last | size %}
+    
+    {% comment %} 
+       On récupère la couleur dans _data/categories.yml via le slug.
+       Si absent, on utilise une couleur grise par défaut.
+    {% endcomment %}
+    {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
+
+    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" 
+       class="cat-button" 
+       style="--color-cat: #{{ hex }};">
+      <span class="cat-name">{{ cat_name }}</span>
+      
+      <span class="cat-badge">
+        {{ posts_count | default: 0 }}
+      </span>
+    </a>
+  {% endfor %}
+</div>

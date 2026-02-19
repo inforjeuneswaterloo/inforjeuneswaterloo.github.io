@@ -3,6 +3,7 @@ title-icon: "fa-solid fa-plane-departure"
 email: info@inforjeuneswaterloo.be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
+title: Infor Jeunes Waterloo
 
 
 

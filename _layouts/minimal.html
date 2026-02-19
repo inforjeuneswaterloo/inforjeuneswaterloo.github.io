@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 <head>
-  {% include elements/head.html %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  {% comment %} 
-    Lien vers ton fichier CSS centralisé. 
-    L'utilisation de relative_url permet d'éviter les erreurs de chemin sur GitHub Pages.
-  {% endcomment %}
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  
   <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
   
-  {% comment %} 
-    Si tu as des polices Google Fonts, c'est ici qu'il faut les ajouter. 
-  {% endcomment %}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
+  {% feed_meta %} </head>
+
 <body>
 
-  {% comment %} Le menu hamburger (sans JS) est inclus dans le header {% endcomment %}
-  {% include elements/header.html %}
+  <main>
+    <header style="padding: 2rem 0; text-align: center;">
+  <a href="/" style="text-decoration: none; font-weight: bold; font-family: sans-serif; letter-spacing: -1px; font-size: 1.2rem;">
+    {{ site.title }}
+  </a>
+</header>
 
-  <main id="main-content" role="main">
-    {% comment %} 
-      C'est ici que Jekyll injecte le contenu du layout enfant (minimal.html) 
-      ou directement le contenu de tes pages Markdown.
-    {% endcomment %}
     {{ content }}
-  </main>
 
-  {% comment %} 
-    Puisque ton menu est 100% CSS, tu n'as techniquement pas besoin de JS ici.
-    Mais si tu en ajoutes plus tard, place les scripts avant la fermeture du body.
-  {% endcomment %}
+    <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid rgba(128,128,128,0.1); font-size: 0.8rem; opacity: 0.5; font-family: sans-serif;">
+      <p>&copy; {{ "now" | date: "%Y" }} — {{ site.title }}</p>
+    </footer>
+  </main>
 
 </body>
 </html>

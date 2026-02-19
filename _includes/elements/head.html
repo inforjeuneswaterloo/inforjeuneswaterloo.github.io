@@ -1,5 +1,12 @@
 
-    {% assign cat_slug = page.categories | first | slugify %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
+  {% assign cat_slug = page.categories | first | slugify %}
     {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
 
     <meta property="og:title" content="{{ page.title }}">
@@ -9,6 +16,15 @@
     <meta property="og:image" content="https://placehold.jp/{{ hex }}/ffffff/1200x630.png?text={{ page.title | url_encode }}">
     {% endif %}
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
 
-
+  {% seo %}
+  <script>
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    }
+    // Si pas de sauvegarde, le CSS (media query) prend le relais automatiquement.
+  })();
+</script>
+</head>

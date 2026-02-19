@@ -1,23 +1,45 @@
 ---
 layout: minimal
 ---
-{% assign cat_slug = page.category | slugify %}
-{% assign cat_hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
 
-<div class="post-container" style="--post-accent: #{{ cat_hex }};">
-  <header class="post-header">
-    <h1 class="post-title">Thématique : {{ page.category }}</h1>
-    <p style="color: #666; font-size: 1.1rem;">Retrouvez tous nos articles liés à {{ page.category }}.</p>
-  </header>
+{% comment %} 
+   Extraction simplifiée du slug et de la couleur
+{% endcomment %}
+{% assign cat_slug = page.slug %}
+{% assign cat_data = site.data.categories[cat_slug] %}
+{% assign cat_color = cat_data.color | default: "#1d1d1f" %}
 
-  <div class="category-grid">
-    {% for post in site.categories[page.category] %}
-      <a href="{{ post.url | relative_url }}" class="cat-button" style="--cat-color: #{{ cat_hex }};">
-        <span class="cat-name">{{ post.title }}</span>
-        <span class="cat-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-      </a>
-    {% endfor %}
+<div class="category-page" style="--c: #{{ cat_color }};">
+  
+  <div class="container"> 
+    
+    <a href="/categories" class="back-link">← Retour aux thématiques</a>
+
+    <header class="category-header">
+      <h1><span>{{ page.title }}</span></h1>
+      {% if cat_data.description %}
+        <p class="category-description">{{ cat_data.description }}</p>
+      {% endif %}
+    </header>
+
+    <div class="post-list">
+      {% comment %} Filtrage direct sur la catégorie de l'article {% endcomment %}
+      {% assign filtered_posts = site.posts | where: "categories", page.category %}
+      
+      {% if filtered_posts.size > 0 %}
+        {% for post in filtered_posts %}
+          <a href="{{ post.url | relative_url }}" class="post-card">
+            <time class="post-date">{{ post.date | date: "%d.%m.%y" }}</time>
+            <h2>{{ post.title }}</h2>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+            {% endif %}
+          </a>
+        {% endfor %}
+      {% else %}
+        <p class="empty-state">Aucun article publié dans cette thématique.</p>
+      {% endif %}
+    </div>
+
   </div>
-
-  <a href="/categories/" class="back-link">← Voir toutes les thématiques</a>
 </div>

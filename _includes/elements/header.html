@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="header-container">
     <a class="site-logo" href="/">
-      <img src="{{ site.logo | relative_url }}" alt="Logo">
+      <img src="/assets/images/logos/ijw-banner-transparent.webp" alt="Logo">
     </a>
     
     <input type="checkbox" id="menu-toggle" class="menu-checkbox">
@@ -10,10 +10,19 @@
       <span class="hamburger"></span>
     </label>
     
-    <nav class="main-nav">
-      <ul class="nav-list">
-        <li><a href="/categories/">Thématiques</a></li>
-        </ul>
+ <body>
+  <input type="checkbox" id="theme-switch" class="theme-switch">
+  
+  <div class="wrapper">
+    <nav class="nav-main">
+      <a href="/" class="site-title">{{ site.title }}</a>
+      <label for="theme-switch" class="switch-label">◐</label>
     </nav>
+
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
   </div>
 </header>

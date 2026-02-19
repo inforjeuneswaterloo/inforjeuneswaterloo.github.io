@@ -1,161 +1,161 @@
 /* ==========================================================================
-   1. BASE & TYPO (SÉCURITÉ SYSTÈME)
+   CONFIGURATIONS & VARIABLES
    ========================================================================== */
 :root {
-  --bg-page: #ffffff;
-  --bg-card: #ffffff;
-  --text: #1a1a1a;
-  --accent: #00a46f;
-  --border: #f2f2f7;
+  /* Couleurs - Mode Clair */
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --link-color: #555555;
+  --border-color: rgba(0, 0, 0, 0.1);
+
+  /* Typographie Système (Zéro chargement, Performance max) */
+  --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Rythme visuel */
+  --lh-body: 1.75;      /* Interlignage aéré pour la lecture */
+  --lh-titles: 1.25;    /* Interlignage serré pour les titres */
+  --max-width: 680px;   /* Largeur idéale pour le confort visuel */
 }
 
+/* Mode Sombre Automatique */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-page: #0a0a0a;
-    --bg-card: #1c1c1e;
-    --text: #f5f5f7;
-    --border: #2c2c2e;
+    --bg-color: #1a1a1a;
+    --text-color: #eeeeee;
+    --link-color: #aaaaaa;
+    --border-color: rgba(255, 255, 255, 0.1);
   }
 }
 
-* { box-sizing: border-box; }
-
+/* ==========================================================================
+   BASE & STRUCTURE
+   ========================================================================== */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-  background-color: var(--bg-page);
-  color: var(--text);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-system);
+  line-height: var(--lh-body);
+  font-size: 1.15rem;
   margin: 0;
-  line-height: 1.6;
-  overflow-x: hidden;
-}
-
-/* ==========================================================================
-   2. HEADER & LOGO (ANCRAGE GAUCHE)
-   ========================================================================== */
-.site-header {
-  height: 80px;
-  background: var(--bg-page);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  padding: 0;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
 }
 
-.header-container {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  position: relative; /* IMPORTANT pour le positionnement du bouton */
-}
-
-.site-logo img {
-  height: 50px !important;
-  width: auto !important;
-  display: block;
+main {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 60px 0 100px 0;
 }
 
 /* ==========================================================================
-   3. LE HAMBURGER (FIXÉ À DROITE - MÉTHODE ABSOLUE)
+   TYPOGRAPHIE
    ========================================================================== */
-.menu-checkbox { display: none !important; }
-
-.menu-toggle {
-  /* On l'arrache du flux et on le colle à droite */
-  position: absolute !important; 
-  right: 20px !important; 
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  cursor: pointer !important;
-  z-index: 3000 !important; /* Passe au dessus de tout */
-  padding: 10px;
+h1, h2, h3, h4 {
+  line-height: var(--lh-titles);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.hamburger, .hamburger::before, .hamburger::after {
-  content: "";
-  display: block !important;
-  width: 26px !important;
-  height: 2px !important;
-  background: var(--text) !important;
-  position: relative;
-  transition: 0.3s;
-}
-.hamburger::before { position: absolute; top: -8px; }
-.hamburger::after { position: absolute; bottom: -8px; }
+h1 { font-size: 2.2rem; }
 
-/* Animation au clic */
-#menu-toggle:checked ~ .menu-toggle .hamburger { background: transparent !important; }
-#menu-toggle:checked ~ .menu-toggle .hamburger::before { transform: rotate(45deg); top: 0; }
-#menu-toggle:checked ~ .menu-toggle .hamburger::after { transform: rotate(-45deg); bottom: 0; }
+p { margin-bottom: 1.6rem; }
 
-/* ==========================================================================
-   4. MENU TIROIR (PREMIUM GLASS)
-   ========================================================================== */
-.main-nav {
-  position: fixed !important;
-  top: 0 !important;
-  right: -320px !important; /* Sorti de l'écran */
-  width: 300px !important;
-  height: 100vh !important;
-  background: rgba(var(--bg-card), 0.95) !important;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  z-index: 2500 !important;
-  transition: right 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
-  padding: 100px 30px !important;
-  box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
 }
 
-#menu-toggle:checked ~ .main-nav {
-  right: 0 !important; /* Glisse vers l'intérieur */
-}
-
-.nav-list { list-style: none; padding: 0; margin: 0; }
-.nav-list li { margin-bottom: 25px; }
-.nav-list a { 
-  font-size: 1.4rem; 
-  font-weight: 700; 
-  text-decoration: none; 
-  color: var(--text);
+a:hover {
+  color: var(--text-color);
 }
 
 /* ==========================================================================
-   5. LAYOUT ZEN & BOUTONS (WRITEFREELY STYLE)
+   NAVIGATION DES CATÉGORIES (PILLS & BADGES)
    ========================================================================== */
-.article-content {
-  max-width: 35em !important;
-  margin: 50px auto !important;
-  padding: 0 20px;
-}
-
 .category-nav {
-  max-width: 1100px;
-  margin: 40px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 3rem;
 }
 
 .cat-button {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  padding: 22px 28px !important;
-  background: var(--bg-card) !important;
-  border-radius: 16px !important;
-  border-left: 8px solid var(--c) !important;
-  box-shadow: 0 4px 15px var(--shadow) !important;
-  font-weight: 700;
-  color: var(--text) !important;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.cat-button:hover {
+  border-color: var(--text-color);
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+.cat-name {
+  margin-right: 8px;
 }
 
 .cat-badge {
-  background: var(--c) !important;
-  color: #fff !important;
-  padding: 3px 12px !important;
-  border-radius: 50px !important;
-  font-size: 0.85rem !important;
+  /* La variable --color-cat est injectée par le style inline en HTML */
+  background-color: var(--color-cat);
+  color: #ffffff;
+  padding: 1px 9px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  min-width: 18px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   ÉLÉMENTS DE POSTS
+   ========================================================================== */
+.post-item {
+  margin-bottom: 2.5rem;
+  list-style: none;
+}
+
+.post-meta {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-bottom: 0.2rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+/* Code & Citations */
+blockquote {
+  border-left: 3px solid var(--border-color);
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+  background: rgba(128, 128, 128, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
 }
