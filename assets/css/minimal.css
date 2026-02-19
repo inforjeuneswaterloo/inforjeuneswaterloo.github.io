@@ -430,3 +430,24 @@ body {
   transform: rotate(-45deg);
   bottom: 0;
 }
+/* --- 1. État initial des liens (cachés et légèrement décalés vers le bas) --- */
+.nav-list li {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+/* --- 2. État quand le menu est ouvert --- */
+.menu-checkbox:checked ~ .main-nav .nav-list li {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- 3. Décalage (Delay) pour chaque lien --- */
+/* On crée une apparition en cascade : le 1er lien d'abord, puis le 2e, etc. */
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(1) { transition-delay: 0.1s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(2) { transition-delay: 0.2s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(3) { transition-delay: 0.3s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(4) { transition-delay: 0.4s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(5) { transition-delay: 0.5s; }
+.menu-checkbox:checked ~ .main-nav .nav-list li:nth-child(6) { transition-delay: 0.6s; }
