@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfc4bhoagu2w",
+      "cid": "bafyreiaikudo5bg5qx3ekv6dldgvmq2gut5oleziv6bp2xnvx4vljzbtja",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-20T12:28:25.933Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?\\nNotre client n'attend plus que toi…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiant polyvalent",
+            "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiant-polyvalent/813007"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SgXLsxc"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 275,
+              "byteStart": 269
+            }
+          }
+        ],
+        "text": "Etudiant polyvalent - Bierges\n- Attrait pour le secteur de la fabrication et de la transformation du métal\n- Souhait de bosser sur différents projets/se rendre utile/...\nNous t'offrons un job stimulant, tu vas pouvoir développer ton savoir faire...\nbuff.ly/SgXLsxc \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiant-polyvalent/813007",
+          "title": "Etudiant polyvalent",
+          "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?\\nNotre client n'attend plus que toi…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-20T12:28:27.156Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfbvjbijyh2c",
       "cid": "bafyreihhnnu5bi7665j42vsv6wtgbsrvkxksykobx7ddmt2aast67ni3qm",
       "author": {
@@ -8319,86 +8408,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-10T11:42:03.732Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7kruhwvis2j",
-      "cid": "bafyreibplu44snjj5sdstlj6upzockqi4xgl5h6tgljo6iepmvhmqe5viu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-09T14:45:01.385Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://dajobs.be/job-offers/JO-BYVD-WEAP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/gV7DnBd"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 267
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 284
-            }
-          }
-        ],
-        "text": "Etudiant emballage alimentaire - Wavre\nMissions :\n- Emballer des produits alimentaires\n- Respect normes d’hygiène/sécurité\n- Travail précis et soigné\n- Propreté et organisation\nProfil :\n- Dispo en semaine\n- Dynamique/sérieux/motivé/ponctuel/organisé\n- ...\nbuff.ly/gV7DnBd \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://dajobs.be/job-offers/JO-BYVD-WEAP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-09T14:45:01.531Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
