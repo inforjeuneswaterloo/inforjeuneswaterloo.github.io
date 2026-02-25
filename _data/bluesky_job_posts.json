@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfoipd2mxd22",
+      "cid": "bafyreietyhxy6rkcyr6zmmhomgogbiarzvfefz6phxaxlfavdemccm4ni4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-25T10:42:52.894Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous cherchez un job en tant que Employé-e plonge (h/f) sur la région de Ixelles, postulez aux emplois en cuisine et en salle.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifablgwto5xmsqhtetoakwgoke6inbf3pnkljktz7mizeym5xwjty"
+              },
+              "mimeType": "image/jpeg",
+              "size": 13099
+            },
+            "title": "Employé-e plonge (h/f), Ixelles",
+            "uri": "https://www.misterhoreca.be/offre-emploi-Employ%C3%A9-e-plonge-h-f-Frasca-Ixelles--24448.aspx?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/aKnv5as"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Job Etudiant plonge - Bruxelles\nTâches :\n- Laver/ranger la vaisselle\n- Organiser les stocks (produits et linge)\n- Evacuer les déchets/nettoyage\n- Respect règles hygiène et sécurité alimentaire\nProfil\n- Dispo les soirs 3 à 5 fois/sem\n- Sérieux/rapide/organisé et efficace\n- ...\nbuff.ly/aKnv5as\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.misterhoreca.be/offre-emploi-Employ%C3%A9-e-plonge-h-f-Frasca-Ixelles--24448.aspx?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble",
+          "title": "Employé-e plonge (h/f), Ixelles",
+          "description": "Vous cherchez un job en tant que Employé-e plonge (h/f) sur la région de Ixelles, postulez aux emplois en cuisine et en salle.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifablgwto5xmsqhtetoakwgoke6inbf3pnkljktz7mizeym5xwjty@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-25T10:42:54.251Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfm2yjnquy2v",
       "cid": "bafyreibpphefrpkcs4zwvw7ao3h7fkvyidyzxottv5z6an6i5tlw6om5ve",
       "author": {
@@ -8343,86 +8432,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-11T14:03:48.129Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3m7phgyduxe2w",
-      "cid": "bafyreidk4b4ixtfeu2pkqqylnzt5akypvgu7kj5o3km7xhvvbpcjlqut44",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-11T11:21:50.001Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8a7ede4e6509c9c6&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBU67I3pGRoq8TCYZ0LbzkdCdPP&xfps=bf54b2b7-266d-4312-a51a-d419f25044df&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBn67M3pEFTtXwoxx0ebzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JXek9kh"
-              }
-            ],
-            "index": {
-              "byteEnd": 248,
-              "byteStart": 233
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 255,
-              "byteStart": 249
-            }
-          }
-        ],
-        "text": "Etudiant technicien de surface à Bruxelles\n\nOffre:\n\n· Un contrat étudiant\n\n· Avantages extra-légaux : chèques repas, intervention de l’abonnement STIB\n\n· Une excellente ambiance de travail au sein d’un splendide endroit.\n\nbuff.ly/JXek9kh\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8a7ede4e6509c9c6&q=Etudiant&l=Brussels&tk=1jc46mvtekc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBU67I3pGRoq8TCYZ0LbzkdCdPP&xfps=bf54b2b7-266d-4312-a51a-d419f25044df&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jc46mvtekc5a800&xkcb=SoBn67M3pEFTtXwoxx0ebzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-11T11:21:51.032Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
