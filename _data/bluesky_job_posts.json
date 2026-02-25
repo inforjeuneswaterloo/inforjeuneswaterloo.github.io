@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfpfkav6q52k",
+      "cid": "bafyreiap2bbggsvbpbmtrmupy3pyfy62k7vbd3fdxvd3wjdrls2ccvudf4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-25T19:19:00.923Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y"
+              },
+              "mimeType": "image/jpeg",
+              "size": 102033
+            },
+            "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – WATERLOO | Triangle RH",
+            "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-waterloo-azxjr8wyhbv3upnz/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/TPx6akX"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant vente en boulangerie en semaine (H/F/X) - WATERLOO\nTâches :\n- accueil/conseil clientèle\n- Gestion commandes/caisse/réassort\n- Entretien zone de vente\nProfil :\n- 1ère expérience\n- Excellent contact clientèle\n- Rapide, efficace, autonome\n- Dispo en semaine et le WE ...\nbuff.ly/TPx6akX\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-waterloo-azxjr8wyhbv3upnz/",
+          "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – WATERLOO | Triangle RH",
+          "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-25T19:19:02.456Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfoyzjbhsh22",
       "cid": "bafyreib6tjxeu7fv7cac3xn42apf4szuhhatsxd2zyf6bovxwlyqmkpmkm",
       "author": {
@@ -8370,86 +8459,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-16T15:22:02.830Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma4gtpuvtf24",
-      "cid": "bafyreiaqi72i3cgculw36ayxmydy4zscalnnvncubujkwby4q54svomg34",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-16T15:15:40.162Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8c458851e429bab4&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3pT_Oadz4Zp0LbzkdCdPP&xfps=9f51cda9-d9e2-4797-ad04-a4e263ca9468&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoCp67M3pMKOkaa8tJ0DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/F4gofjb"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant serveur à la Taverne du Passage  à Bruxelles\n\nProfil\n- Expérience en salle obligatoire : savoir porter trois assiettes\n- Être aimable et d'excellente tenue\n- Rapidité et précision\n- Bilingue FR/EN. La connaissance du néerlandais représente un sérieux atout.\n\nbuff.ly/F4gofjb \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8c458851e429bab4&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3pT_Oadz4Zp0LbzkdCdPP&xfps=9f51cda9-d9e2-4797-ad04-a4e263ca9468&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoCp67M3pMKOkaa8tJ0DbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-16T15:15:40.687Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
