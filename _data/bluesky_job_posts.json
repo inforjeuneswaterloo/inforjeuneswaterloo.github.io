@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrhaebhgz24",
+      "cid": "bafyreicb5rnth45mr6papzsnmu3ywskxghedalmirvf4lsgevgu3vk3kpm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-26T14:54:36.844Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "Account Suspended",
+            "uri": "https://Vendeur.se"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/t5s1SN3"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Job Photo/Vente/Mascotte Mini-Europe - Bruxelles\nPhotographe : prendre en photo les visiteurs, gérer l’équipement,...\nVente : accueil, présenter les photos, ventes,...\nMascotte : animer le parc\nProfil : \n- Souriant, dynamique, ...\n- Maîtrise du FR, ENG et NLDS est un +\nbuff.ly/t5s1SN3 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://Vendeur.se",
+          "title": "Account Suspended",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-26T14:54:37.652Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrgs4i2cl2w",
+      "cid": "bafyreiepvh2n35chn4qhpkqoc5asyfk7biyq3ndkoy5jn24griarjbzqki",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-26T14:46:38.136Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L'équipe Heetch Belgique (POSTULE UNIQUEMENT SI TU ES DISPONIBLE POUR AU MOINS 6 MOIS) Heetch est plus qu’une application, notre mission est de rendre la vie des chauffeurs plus facile et plus rose.…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihjiedxplov73keexpyawf3goa7fzt5eys6tc2j66rsbsru7jwjnq"
+              },
+              "mimeType": "image/png",
+              "size": 37476
+            },
+            "title": "Heetch - Student job - Care Officer",
+            "uri": "https://jobs.lever.co/heetch/0c7aca03-9526-4513-8f98-4d7256f6619a?lever-source=Careerjet"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/LLfpAEE"
+              }
+            ],
+            "index": {
+              "byteEnd": 315,
+              "byteStart": 300
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 323,
+              "byteStart": 317
+            }
+          }
+        ],
+        "text": "Student job chargé·e d’opérations 16 h/sem, lu au sa Heetch - Bruxelles\nTâches : \n• Veiller au bien-être des utilisateurs\n• Accueil/accompagnement des chauffeurs ...\nProfil :\n• À l’aise à l’oral, à l'écrit et pédagogue\n• Organisé/rigoureux/autonome\n• Empathie et patience \nbuff.ly/LLfpAEE \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.lever.co/heetch/0c7aca03-9526-4513-8f98-4d7256f6619a?lever-source=Careerjet",
+          "title": "Heetch - Student job - Care Officer",
+          "description": "L'équipe Heetch Belgique (POSTULE UNIQUEMENT SI TU ES DISPONIBLE POUR AU MOINS 6 MOIS) Heetch est plus qu’une application, notre mission est de rendre la vie des chauffeurs plus facile et plus rose.…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihjiedxplov73keexpyawf3goa7fzt5eys6tc2j66rsbsru7jwjnq@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-26T14:46:39.652Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrgbqxm362n",
+      "cid": "bafyreieqssyfg6rriqmjyrwicrjk3chwggmittcejo4m74ar3dkcqk42qy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-02-26T14:37:27.956Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/job-étudiant-supermarché-à-brainelechateau-braine-le-château-brabant-wallon/386-42267-1"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/YGD3ePE"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          }
+        ],
+        "text": "Job étudiant Supermarché à Braine-le-Chateau\nVous travaillerez en caisse et en réassort. Il s'agit d'un job à l'année.\nProfil :\n- Vous êtes libre en semaine et le weekend\n- Vous avez obligatoirement de l'expérience en caisse\n- Vous êtes autonome et dynamique \nbuff.ly/YGD3ePE \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/job-étudiant-supermarché-à-brainelechateau-braine-le-château-brabant-wallon/386-42267-1",
+          "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-02-26T14:37:30.256Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfpfkav6q52k",
       "cid": "bafyreiap2bbggsvbpbmtrmupy3pyfy62k7vbd3fdxvd3wjdrls2ccvudf4",
       "author": {
@@ -8210,255 +8468,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-12-17T15:46:55.233Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma6ylxaxm42g",
-      "cid": "bafyreifhmsbgyzpcvrjmjxotagjfxkvrnkruoh3gimqobwxixmwu5lwwmy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-17T15:38:46.307Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=f901acc4e75c742e&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD267I3pWWCOfgYIT0LbzkdCdPP&xfps=0e6454e1-0355-41b1-a40f-5572a61713ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCi67M3pUrJmm2sIZ0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/FCpMWTY"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 292
-            }
-          }
-        ],
-        "text": "Etudiant Night&Day (H/F/X) le samedi à Braine-l'Alleud\n- Accueillir et conseiller les clients avec le sourire\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre\nbuff.ly/FCpMWTY\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=f901acc4e75c742e&q=Etudiant&l=Brussels&tk=1jckhhff4kc5a801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD267I3pWWCOfgYIT0LbzkdCdPP&xfps=0e6454e1-0355-41b1-a40f-5572a61713ee&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jckhhff4kc5a801&xkcb=SoCi67M3pUrJmm2sIZ0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-17T15:38:47.033Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma4i37awle2z",
-      "cid": "bafyreiddkpbb32ot7t5ija3hdop3k46xxqe3wlij2ueevsga3g5gi667f4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-16T15:37:44.176Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant caisse",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5195192?JobId=5195192&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/AnwUYa8"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant caisse H/F à Tubize\n\nProfil\n- Être disponible tous les dimanches de 9h à 13h à partir du 20 avril\n- Disposer du statut étudiant\n- Être à l'aise avec l'outil informatique\n-  Poli, souriant et aimable avec la clientèle\n- On peut compter sur vous toutes les semaines\n\nbuff.ly/AnwUYa8 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5195192?JobId=5195192&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Etudiant caisse",
-          "description": "En tant qu'étudiant caisse vous serez responsable de: - Accueil de la clientèle, vous êtes le premier visage du magasin.- Encaissement client.- Réalisation des factures clients.-Service après-vente.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-16T15:37:45.636Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ma4h73yuvq2m",
-      "cid": "bafyreihhwhsfrqhg3jwyo6fypdzazbh5wjhl32vqmvftw4nwddd3shdhky",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-16T15:22:01.987Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=eaca6396f140fdeb&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDr67I3pT_T_pT4i50LbzkdCdPP&xfps=99ba3571-0df2-4c99-a91c-66400340f445&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoCA67M3pMKOkaa8tJ0BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/BTS83I2"
-              }
-            ],
-            "index": {
-              "byteEnd": 204,
-              "byteStart": 189
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 212,
-              "byteStart": 206
-            }
-          }
-        ],
-        "text": "Etudian Vendeur H/F Temps partiel Jules à Anderlecht \n\n- Disponible tout de suite et ayant des disponibilités en semaine et le week-end.\n- Salaire en fonction de la CP 311 selon l'âge.\n\nbuff.ly/BTS83I2 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=eaca6396f140fdeb&q=Etudiant&l=Brussels&tk=1jcc104slkc5a800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDr67I3pT_T_pT4i50LbzkdCdPP&xfps=99ba3571-0df2-4c99-a91c-66400340f445&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcc104slkc5a800&xkcb=SoCA67M3pMKOkaa8tJ0BbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-16T15:22:02.830Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
