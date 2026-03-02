@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg3m2ceill2z",
+      "cid": "bafyreihyjvkkx4u463giqnqqryccdz5xapbk74x4hx6sj6n3waqkodmr2q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-02T15:47:19.628Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8842a1f527fa5707&q=Etudiants&l=Brabant-wallon&tk=1jinhrvp1h2bm800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAN67I3mXuZZigepL0LbzkdCdPP&xfps=08aff2f5-d29b-44a0-8e0a-a12cf3183ec1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jinhrvp1h2bm800&xkcb=SoCN67M3mXr_xi0CFh0IbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/n4WzSYr"
+              }
+            ],
+            "index": {
+              "byteEnd": 244,
+              "byteStart": 229
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 251,
+              "byteStart": 245
+            }
+          }
+        ],
+        "text": "Etudiant(s) Bois des Rêves à Ottignies\nProfil:\n- Vous êtes étudiant ;\n- Vous avez minimum 18 ans ;\n- Vous maîtrisez le français et avez des connaissances en anglais et néerlandais ou autres langues (constitue un atout) ; \nbuff.ly/n4WzSYr\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8842a1f527fa5707&q=Etudiants&l=Brabant-wallon&tk=1jinhrvp1h2bm800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAN67I3mXuZZigepL0LbzkdCdPP&xfps=08aff2f5-d29b-44a0-8e0a-a12cf3183ec1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jinhrvp1h2bm800&xkcb=SoCN67M3mXr_xi0CFh0IbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-02T15:47:19.954Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg366h5gdj26",
       "cid": "bafyreift7jqwbvqxfpmq2cyy65q4zibqg57kcpj7vziq3bpoclhpqo6mku",
       "author": {
@@ -8400,86 +8480,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-07T16:21:53.835Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbtubr3kfm2i",
-      "cid": "bafyreigjndt7cr6nu2krccwdcsr5goc5r4ywxazoafh3fbdym7sl4b3fmy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-07T16:12:35.441Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/beff9e0e6b7a99a40cae65961b03e146e3"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Lk1broQ"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant(e) Decathlon Wavre\nProfil\n- Sportif passionné et polyvalent\n- Avenant avec nos clients\n- Tu es autonome et vois ce qu'il faut faire autour de toi\n- 1 vrai teamplayer, tu oses prendre des initiatives\n- Exigeant, tu as l'oeil du détail\n- Dispo le mercredi et le samedi\nbuff.ly/Lk1broQ\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/beff9e0e6b7a99a40cae65961b03e146e3",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-07T16:12:35.838Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
