@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg352mvnjj2n",
+      "cid": "bafyreih3o35v47nzxtd2cna25ujl26pueek4tfn5gs5l4psuxvclqoigze",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-02T11:19:03.914Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiesaiqy5agyjaxouzn4wmztr5xscphn5ro2rghd6osuq4jbanig6q"
+              },
+              "mimeType": "image/png",
+              "size": 4464
+            },
+            "title": "Emploi Étudiant en Vente",
+            "uri": "https://jobs.smartrecruiters.com/jysk/744000111987017-emploi-etudiant-en-vente-"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/fQpSrCj"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) en vente JYSK Nivelles\nTâches:\n- Tu parles aux clients avec un sourire\n- Tu encaisses les produits au comptoir\n- Tu aides à remplir les rayons pour que le magasin soit impeccable\n- Tu aides le responsable logistique à emballer et à déballer les marchandises \nbuff.ly/fQpSrCj\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://jobs.smartrecruiters.com/jysk/744000111987017-emploi-etudiant-en-vente-",
+          "title": "Emploi Étudiant en Vente",
+          "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiesaiqy5agyjaxouzn4wmztr5xscphn5ro2rghd6osuq4jbanig6q@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-02T11:19:05.055Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg34add6nh2b",
+      "cid": "bafyreifaolvcldhcrpfv75jzgskylrmbkv5okjqfqj6svklortprpoxekq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-02T11:04:22.084Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Forem's UI FrameWork",
+            "title": "Recherche offres",
+            "uri": "https://www.leforem.be/recherche-offres/offre-detail/1807482?jd_clkid=3b15468a2eeb2ca9d4189e12cf7969ba"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/44cdALF"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant caissier H/F/X à Ottignies\nProfil:\n- Étudiant/e disponible les week-ends et/ou certains jours de semaine\n- Sourire, sens du service et aisance avec le contact client\n- Fiabilité, ponctualité et esprit d’équipe\n- Une première expérience en caisse est demandée \nbuff.ly/44cdALF\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.leforem.be/recherche-offres/offre-detail/1807482?jd_clkid=3b15468a2eeb2ca9d4189e12cf7969ba",
+          "title": "Recherche offres",
+          "description": "Forem's UI FrameWork"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-02T11:04:22.759Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg2zrjsjnf2c",
       "cid": "bafyreifml7srjvuzxzobkm23cettygjwy2bvu5sze75sj6drkejky4ygpe",
       "author": {
@@ -8320,175 +8489,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-07T16:03:11.437Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbsywqyrrc24",
-      "cid": "bafyreiamtcyahstb5lmzftvwulxicshlnkjcfgpwvvho5tscykkghlxmme",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-07T08:03:14.273Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour notre client, situé à Rhode-Saint-Genèse, nous recherchons un Etudiant Comptable (H/F/X) motivé.Il s'agit d'un renfort pour soutenir l'équipe 1 jour par semaine tout au long de l'année académi...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
-              },
-              "mimeType": "image/png",
-              "size": 5817
-            },
-            "title": "Offre d'emploi de Etudiant Comptable à Sint-genesius-rode, Flemish Brabant",
-            "uri": "https://www.roberthalf.com/be/fr/emploi/sint-genesius-rode-flemish-brabant/etudiant-comptable/06740-0013352463-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/4p9mQCr"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 289
-            }
-          }
-        ],
-        "text": "Etudiant Comptable 1jour/semaine - Rhode St Genèse\nTâches : \n- Encodage des factures \n- Classement et organisation des documents comptables \n- Soutien administratif général\nProfil : \n- Etudiant en comptabilité ou finance \n- Maîtriser parfaitement le français\nbuff.ly/4p9mQCr \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.roberthalf.com/be/fr/emploi/sint-genesius-rode-flemish-brabant/etudiant-comptable/06740-0013352463-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
-          "title": "Offre d'emploi de Etudiant Comptable à Sint-genesius-rode, Flemish Brabant",
-          "description": "Pour notre client, situé à Rhode-Saint-Genèse, nous recherchons un Etudiant Comptable (H/F/X) motivé.Il s'agit d'un renfort pour soutenir l'équipe 1 jour par semaine tout au long de l'année académi...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-07T08:03:16.155Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3madv6wrfns2w",
-      "cid": "bafyreifc2qqyvxo37wa4usez32gtnj3df5keyg5mpdmr6s42lgdelsfkfi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-12-19T14:21:07.053Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=cd7bfd6837ae0403&q=Etudiant&l=Brussels&tk=1jcoqam91kc5a802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAl67I3pbWwkiT4V50LbzkdCdPP&xfps=0342703a-5625-4715-bca8-d4e6748200ba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcoqam91kc5a802&xkcb=SoAI67M3pY-dMcAImr3mbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/jVr7beu"
-              }
-            ],
-            "index": {
-              "byteEnd": 274,
-              "byteStart": 259
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 276
-            }
-          }
-        ],
-        "text": "Etudiant accueil WE/jours fériés Résidence Arcadia - Molenbeek-St-Jean \nTâches\n- Accueil/Information/orientation\n- Accueil téléphonique \n- Transmettre les messages \nProfil\n- Capacité d’écoute, orienté solution, bonne communication\n- autonome\n- ...\nbuff.ly/jVr7beu \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=cd7bfd6837ae0403&q=Etudiant&l=Brussels&tk=1jcoqam91kc5a802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAl67I3pbWwkiT4V50LbzkdCdPP&xfps=0342703a-5625-4715-bca8-d4e6748200ba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jcoqam91kc5a802&xkcb=SoAI67M3pY-dMcAImr3mbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-12-19T14:21:07.632Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
