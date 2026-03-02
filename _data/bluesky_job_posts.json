@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg366h5gdj26",
+      "cid": "bafyreift7jqwbvqxfpmq2cyy65q4zibqg57kcpj7vziq3bpoclhpqo6mku",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-02T11:39:06.466Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/be7bd92c09452ab51acf0032df849d06d2"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/9VPs6or"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant(e) au Quick La Hulpe\nTâches:\n- En caisse, tu garantis une bonne vente de notre assortiment.\n- En cuisine, tu prépares les produits, tout en garantissant la qualité et le goût.\n- Tu maintiens la salle en excellent état, tout en veillant à la satisfaction du client.\nbuff.ly/9VPs6or\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be7bd92c09452ab51acf0032df849d06d2",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-02T11:39:07.051Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg352mvnjj2n",
       "cid": "bafyreih3o35v47nzxtd2cna25ujl26pueek4tfn5gs5l4psuxvclqoigze",
       "author": {
@@ -8400,95 +8480,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-07T16:12:35.838Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbttqwkdtz23",
-      "cid": "bafyreid265hojfnfbgcrov5lbplhrx2nxs56riurkwqvoi3okktjenc6qa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-07T16:03:10.057Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiesaiqy5agyjaxouzn4wmztr5xscphn5ro2rghd6osuq4jbanig6q"
-              },
-              "mimeType": "image/png",
-              "size": 4464
-            },
-            "title": "Emploi Étudiant en Vente",
-            "uri": "https://jobs.smartrecruiters.com/jysk/744000101492957-emploi-etudiant-en-vente-"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kB3BFix"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 289
-            }
-          }
-        ],
-        "text": "Etudiant vente à Nivelles\nTâches:\n- Contribuer à augmenter les ventes grâce aux connaissances acquises lors de nos formations\n- Encaisser les produits au comptoir\n- Remplir les rayons pour que le magasin soit impeccable\n- Aider à emballer/déballer les marchandises \nbuff.ly/kB3BFix \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://jobs.smartrecruiters.com/jysk/744000101492957-emploi-etudiant-en-vente-",
-          "title": "Emploi Étudiant en Vente",
-          "description": "Description du poste: Tu cherches un job d'étudiant amusant dans une équipe sympa ? Aimes-tu la variété et la collaboration ?Alors viens travailler en tant qu'étudiant en emploi chez JYSK !  🤩WHAT’S…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiesaiqy5agyjaxouzn4wmztr5xscphn5ro2rghd6osuq4jbanig6q@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-07T16:03:11.437Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
