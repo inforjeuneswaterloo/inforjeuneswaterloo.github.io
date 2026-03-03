@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5qto3ckv2q",
+      "cid": "bafyreichkqjclrngrojyv7tkvupbm54d7mdhflsyjaujpbddp3kpauvm5i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-03T12:18:25.213Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu es étudiante en esthétique et tu cherches une expérience concrète en institut pour développer tes compéte...",
+            "title": "Etudiant. E en esthétique (H/F/X) - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-e-en-esthetique-hfx.U1vG1E121DRw?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/l9HVCLl"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) en esthétique à Genappe\nProfil:\n- Déjà un peu à l'aise en pratique (stages, école, premières expériences)\n- Sens du service et tu aimes prendre soin des clientes\n- Présentation soignée et professionnelle\n- Motivée, sérieuse et tu as envie d'apprendre \nbuff.ly/l9HVCLl\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-e-en-esthetique-hfx.U1vG1E121DRw?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Etudiant. E en esthétique (H/F/X) - Trovit Emploi",
+          "description": "Tu es étudiante en esthétique et tu cherches une expérience concrète en institut pour développer tes compéte..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-03T12:18:25.851Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5j2kn2pd2w",
       "cid": "bafyreica2v35keabezunqmjlwpikov323slkx2rzcr2j5uudnqkou3xsoq",
       "author": {
@@ -8400,86 +8480,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-08T13:50:07.536Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw4cz3mhh2g",
-      "cid": "bafyreihunv5gnf2376gfh7dovgbcahhs2du32cua7aemefbfe4js4sf7eu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-08T13:41:46.803Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=197df3057d64670a&q=Etudiants&l=Brabant-wallon&tk=1jebr4petiovh801&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCV67I3oOyuFnz5bZ0LbzkdCdPP&xfps=39ec3a2a-2fb8-4f75-9a79-020f30ab3db4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jebr4petiovh801&xkcb=SoBs67M3oL-cjN0J450JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/rq3ihJ2"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Etudiant(e) bijouterie Ottignies\n- Forte volonté d'aider et de guider les clients\n- Motivation et volonté d'obtenir d'excellents résultats\n- Sens de la mode et connaissances des dernières tendances\n- Solide expérience dans un environnement de face-à-face avec les clients \nbuff.ly/rq3ihJ2 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=197df3057d64670a&q=Etudiants&l=Brabant-wallon&tk=1jebr4petiovh801&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCV67I3oOyuFnz5bZ0LbzkdCdPP&xfps=39ec3a2a-2fb8-4f75-9a79-020f30ab3db4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jebr4petiovh801&xkcb=SoBs67M3oL-cjN0J450JbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-08T13:41:47.135Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
