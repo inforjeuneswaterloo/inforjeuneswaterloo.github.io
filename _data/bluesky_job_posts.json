@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5s46liol2q",
+      "cid": "bafyreidhfjqztghjm7cwg746fae2ba3bua4u2xrxvw7tnrmksibws7qqv4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-03T12:41:03.948Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour notre client à WAVRE nous recherchons activement des étudiants dynamiques et enthousiastes pour animer et gérer des stands de jeux Vos tâches : Gestion d'un stand de jeux (type pêches aux…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
+              },
+              "mimeType": "image/png",
+              "size": 16268
+            },
+            "title": "Etudiant Vendeur",
+            "uri": "https://www.jobat.be/nl/jobs/etudiant-vendeur/job_5502761"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/1xu0bCN"
+              }
+            ],
+            "index": {
+              "byteEnd": 205,
+              "byteStart": 190
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 212,
+              "byteStart": 206
+            }
+          }
+        ],
+        "text": "Etudiant vendeur à Wavre\nTâches:\n- Gestion d'un stand de jeux (type pêches aux canards, tirs à l'arc, ....)\n- Expliquer les règles et motiver les clients à jouer\n- Booster les ventes \nbuff.ly/1xu0bCN\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/nl/jobs/etudiant-vendeur/job_5502761",
+          "title": "Etudiant Vendeur",
+          "description": "Pour notre client à WAVRE nous recherchons activement des étudiants dynamiques et enthousiastes pour animer et gérer des stands de jeux Vos tâches : Gestion d'un stand de jeux (type pêches aux…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-03T12:41:05.350Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5rtoi2la2c",
+      "cid": "bafyreifnwtg6fbnmvfgzk4zpre4eiczg3e7xpnzurdocvg6oilsz5hggbe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-03T12:36:19.369Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=3915f8ab388b9494&q=%C3%A9tudiant&l=Waterloo&tk=1jino0qth20hb000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB067I3mZ9tpfzBCx0LbzkdCdPP&xfps=dd557036-e045-4a39-80ba-7951c7fad06c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jino0qth20hb000&xkcb=SoDk67M3mX4MsH0ebh0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/U3yRW0D"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Job étudiant - Equipier polyvalent restauration rapide H/F/X Bruxelles\nVous êtes:\n- dynamique et aimez les défis\n- organisé, rapide et efficace\n- souriant et de bonne présentation\n- orienté client et apportez des solutions pertinentes et adaptées à son besoin \nbuff.ly/U3yRW0D\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=3915f8ab388b9494&q=%C3%A9tudiant&l=Waterloo&tk=1jino0qth20hb000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB067I3mZ9tpfzBCx0LbzkdCdPP&xfps=dd557036-e045-4a39-80ba-7951c7fad06c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jino0qth20hb000&xkcb=SoDk67M3mX4MsH0ebh0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-03T12:36:20.260Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5qto3ckv2q",
       "cid": "bafyreichkqjclrngrojyv7tkvupbm54d7mdhflsyjaujpbddp3kpauvm5i",
       "author": {
@@ -8308,178 +8477,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-08T14:07:05.532Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw57xrk622u",
-      "cid": "bafyreigc23ibfwau6rufkly4qbkzj5y3gz7iuzcvldsqb2oycndivoyo4i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-08T13:57:58.499Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=2f0631123779b504&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCl67I3oO0JpHzFxp0LbzkdCdPP&xfps=5d831d97-fcc5-424e-9cde-5e3d8779a8bd&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoB_67M3oNBc3YR6YR0PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/9JfcE8G"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 274,
-              "byteStart": 268
-            }
-          }
-        ],
-        "text": "Etudiant ambassadeur showroom H/F Bruxelles\nMissions\n- Guider les clients dans notre collection\n- Incarner l’esprit polette\n- Collaborer avec l’équipe en boutique\n- Maintenir un espace aussi impeccable que dynamique, aussi stylé qu’efficace.  \nbuff.ly/9JfcE8G\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=2f0631123779b504&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCl67I3oO0JpHzFxp0LbzkdCdPP&xfps=5d831d97-fcc5-424e-9cde-5e3d8779a8bd&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoB_67M3oNBc3YR6YR0PbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-08T13:57:59.234Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw4rw262m22",
-      "cid": "bafyreieot3lfqi7hqw3ktkec55iwrr6acspb6kuoujqdvrq6npos2hp764",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-08T13:50:06.925Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=edd20a842528f027&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCf67I3oOzb2AT4lB0LbzkdCdPP&xfps=0202cd4c-ae7d-4a33-a581-f61ff5ea544b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDi67M3oNBc3Zx6YR0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/6zMTGbs"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 313,
-              "byteStart": 306
-            }
-          }
-        ],
-        "text": "Aide cuisine plonge H/F  Waterloo\nProfil recherché :\n- Étudiant(e) sérieux(se) et ponctuel(le)\n- Dynamique, motivé(e) et ayant l’esprit d’équipe\n- Aucune expérience exigée (formation assurée)\n- Horaires compatibles avec les études\n- Environnement de travail chaleureux\nbuff.ly/6zMTGbs \n#job4u #ij1410"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=edd20a842528f027&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCf67I3oOzb2AT4lB0LbzkdCdPP&xfps=0202cd4c-ae7d-4a33-a581-f61ff5ea544b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDi67M3oNBc3Zx6YR0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-08T13:50:07.536Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
