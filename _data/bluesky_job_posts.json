@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5j2kn2pd2w",
+      "cid": "bafyreica2v35keabezunqmjlwpikov323slkx2rzcr2j5uudnqkou3xsoq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-03T09:59:05.992Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
+              },
+              "mimeType": "image/png",
+              "size": 3317
+            },
+            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+            "uri": "https://www.jobted.be/fr?viewjob=37166ea49f90d0b170c38f8fc22f8d6c&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/nKloJkF"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Job étudiant Aide-cuisinier – Événements Bruxelles & Région wallonne\n- Aider à la préparation des plats et buffets\n- Appliquer les consignes et respecter les recettes\n- Maintenir la cuisine propre et organisée\n- Respecter les normes d’hygiène et de sécurité alimentaire\nbuff.ly/nKloJkF\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobted.be/fr?viewjob=37166ea49f90d0b170c38f8fc22f8d6c&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
+          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-03T09:59:07.454Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg3m2ceill2z",
       "cid": "bafyreihyjvkkx4u463giqnqqryccdz5xapbk74x4hx6sj6n3waqkodmr2q",
       "author": {
@@ -8391,95 +8480,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-08T13:41:47.135Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbtuseynw62p",
-      "cid": "bafyreid27lht7mybkncmwdvdhinjdnrnyjukmyewhf57h3ktzqzm36txza",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-07T16:21:52.282Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Op zoek naar een job als Jardinier - Etudiant - Wavre  in Mont-Saint-Guibert met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
-              },
-              "mimeType": "image/webp",
-              "size": 7670
-            },
-            "title": "Vacature Jardinier - Etudiant - Wavre  Mont-Saint-Guibert - Accent Jobs",
-            "uri": "https://accentjobs.be/fr/offredemploi/jardinier-etudiant-wavre-516364?utm_source=CRJ-NL&utm_medium=referral&utm_content=516364&utm_term=R254&igbTracker=858775121"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ZpSWKOZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Etudiant jardinier Wavre\n- Aider dans les travaux d’entretien: tonte, taille, désherbage, soufflage, nettoyage,...\n- Participer aux aménagements extérieurs : plantations, pose de paillis, petits travaux de terrassement, clôtures,...\n- Préparer, ranger et nettoyer le matériel\nbuff.ly/ZpSWKOZ \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://accentjobs.be/fr/offredemploi/jardinier-etudiant-wavre-516364?utm_source=CRJ-NL&utm_medium=referral&utm_content=516364&utm_term=R254&igbTracker=858775121",
-          "title": "Vacature Jardinier - Etudiant - Wavre  Mont-Saint-Guibert - Accent Jobs",
-          "description": "Op zoek naar een job als Jardinier - Etudiant - Wavre  in Mont-Saint-Guibert met Possibilité fixe. Bekijk de vacature en solliciteer snel online! - Accent Jobs",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-07T16:21:53.835Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
