@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgan57fs4c2q",
+      "cid": "bafyreiftmf3b4gztwmqlqapj3tutjbm2ruw3vkqysoeairbhiwowosmgyu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-04T15:50:09.015Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "STUDENT EN BOULANGERIE (H/F/X)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
+              },
+              "mimeType": "image/png",
+              "size": 9337
+            },
+            "title": "STUDENT EN BOULANGERIE (H/F/X) – LEM Interim",
+            "uri": "https://www.leminterim.be/offre/student-en-boulangerie-h-f-x/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JAoWMis"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 288
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 310,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie à Waterloo\n- Compétences en service à la clientèle\n- Travailler efficacement dans un environnement rapide et sous pression\n- Suivre les normes d’hygiène et de sécurité alimentaire\n- Travailler de manière autonome et en équipe\n- Flexibilité horaire \nbuff.ly/JAoWMis\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.leminterim.be/offre/student-en-boulangerie-h-f-x/",
+          "title": "STUDENT EN BOULANGERIE (H/F/X) – LEM Interim",
+          "description": "STUDENT EN BOULANGERIE (H/F/X)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-04T15:50:10.170Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg7vbzad3r2b",
       "cid": "bafyreifjtmru7jvbfr2lwbt6r3ppogflv66635srvx4cwfgoueqzanwnou",
       "author": {
@@ -8397,86 +8486,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-08T15:36:37.975Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw62rcnza2z",
-      "cid": "bafyreiasvleoih43grsgxg7jnjigvjvz7fxg4nsj22qrvex4x7ensrnuem",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-08T14:12:57.689Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=7f4dad8962e378a4&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBG67I3oO14WSTNyx0LbzkdCdPP&xfps=d0f617b4-bddd-4efe-a3dc-32d50a83e80e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDY67M3oNBc3Zx6YR0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/IKXhE90"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Etudiants agents de gardiennage Brabant Wallon\n- Assurer 1 accueil convivial et veiller à ce que toutes les procédures soient respectées\n- Identifier les situations dangereuses et effectuer des rondes de contrôle\n- Collaborer avec les collègues\n- Tâches administratives\nbuff.ly/IKXhE90 \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=7f4dad8962e378a4&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBG67I3oO14WSTNyx0LbzkdCdPP&xfps=d0f617b4-bddd-4efe-a3dc-32d50a83e80e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDY67M3oNBc3Zx6YR0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-08T14:12:58.040Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
