@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg7vbzad3r2b",
+      "cid": "bafyreifjtmru7jvbfr2lwbt6r3ppogflv66635srvx4cwfgoueqzanwnou",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-04T08:43:21.112Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8d38a44982fca189&q=Etudiant&l=Brussels&tk=1jiq4c7t2hb6l801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3mb02_XTC1J0LbzkdCdPP&xfps=ce078a71-83ed-4c88-b994-347c4e45b715&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiq4c7t2hb6l801&xkcb=SoBH67M3maA-xuAsFD0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/hJjmobw"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant(e) étude notariale à Bruxelles\n- Ouverture des dossiers, contacts clients/comptables et secrétariat téléphonique\n- Effectuer recherches et formalités nécessaires, rédiger des actes courants (après une période de formation)\n- Publication au Moniteur Belge des actes \nbuff.ly/hJjmobw\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8d38a44982fca189&q=Etudiant&l=Brussels&tk=1jiq4c7t2hb6l801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3mb02_XTC1J0LbzkdCdPP&xfps=ce078a71-83ed-4c88-b994-347c4e45b715&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiq4c7t2hb6l801&xkcb=SoBH67M3maA-xuAsFD0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-04T08:43:21.560Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5s46liol2q",
       "cid": "bafyreidhfjqztghjm7cwg746fae2ba3bua4u2xrxvw7tnrmksibws7qqv4",
       "author": {
@@ -8397,86 +8477,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-08T14:12:58.040Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbw5qb4oye2s",
-      "cid": "bafyreie6sb4n7sh5muoxqot7edci2bbi2fgtyx6jmwo22nkmceqaolefz4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-08T14:07:05.172Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=b7b22f9616b6ca51&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDJ67I3oO020dzNbh0LbzkdCdPP&xfps=47bfb6da-18b9-4321-9322-527d8e8458c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDL67M3oNBc3Zx6YR0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/849O9cq"
-              }
-            ],
-            "index": {
-              "byteEnd": 147,
-              "byteStart": 132
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 154,
-              "byteStart": 148
-            }
-          }
-        ],
-        "text": "Etudiant Vendeur polyvalent H/F Schaerbeek\nDescription\n- Réassort et caisse\n- Conseiller et orienter les clients dans le magasin. \nbuff.ly/849O9cq\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=b7b22f9616b6ca51&q=Etudiant&l=Brussels&tk=1jed4kl9tija0800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDJ67I3oO020dzNbh0LbzkdCdPP&xfps=47bfb6da-18b9-4321-9322-527d8e8458c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jed4kl9tija0800&xkcb=SoDL67M3oNBc3Zx6YR0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-08T14:07:05.532Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
