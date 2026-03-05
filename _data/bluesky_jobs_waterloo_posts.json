@@ -1,6 +1,194 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgd5xoz6gz2v",
+      "cid": "bafyreibwakdq4qnuvgqq2ahkfjutwe4y54s264cazlw3dvpd4qynxvqgxq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-05T15:56:37.738Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=bf18eb7c85bb0710&q=Etudiant&l=Brabant-wallon&tk=1jisqvg0vgbd4800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCG67I3mfeqq2zDa50LbzkdCdPP&xfps=d3ea6add-181e-4e18-9857-998a842c6df9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jisqvg0vgbd4800&xkcb=SoBh67M3mc9xyi6wY50JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/uSrXlKR"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Job étudiant avec permis B\nThaï Café Waterloo\nTâches:\n- accueil des clients et le service en salle\n- gestion des commandes de boissons au bar\n- préparation des commandes à emporter\n- tenue du restaurant et de la cuisine dans un état de propreté irréprochable \nbuff.ly/uSrXlKR\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=bf18eb7c85bb0710&q=Etudiant&l=Brabant-wallon&tk=1jisqvg0vgbd4800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCG67I3mfeqq2zDa50LbzkdCdPP&xfps=d3ea6add-181e-4e18-9857-998a842c6df9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jisqvg0vgbd4800&xkcb=SoBh67M3mc9xyi6wY50JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-05T15:56:38.261Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-03-05T16:56:37+01:00",
+      "image_url": null
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgd5ptl3bc2q",
+      "cid": "bafyreigdui7ndzb4intxcerk5oqps3m3z2zawwouaup2orngnt4tjwg7ri",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-05T15:52:14.076Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=af8bbcaf4efe55fa&q=Etudiant&l=Brussels&tk=1jiv0l4bghb6l802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBB67I3mfd6PDz5QR0LbzkdCdPP&xfps=39bb3f4e-37d2-4ae9-8c81-45572f3e16a2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiv0l4bghb6l802&xkcb=SoAU67M3mfJbRD7KcR0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Hcp9k8n"
+              }
+            ],
+            "index": {
+              "byteEnd": 269,
+              "byteStart": 254
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 270
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 277
+            }
+          }
+        ],
+        "text": "Vendeur étudiant H/F à Waterloo\nBureau Vallée cherche 1 étudiant(e) disponible au minimum les lundis et jeudis \nMissions\n- Renseignements clients\n- Vente en magasin\n- Encaissements\n- Accueil des livraisons\n- Rangement des rayons et des marchandises \nbuff.ly/Hcp9k8n\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=af8bbcaf4efe55fa&q=Etudiant&l=Brussels&tk=1jiv0l4bghb6l802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBB67I3mfd6PDz5QR0LbzkdCdPP&xfps=39bb3f4e-37d2-4ae9-8c81-45572f3e16a2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiv0l4bghb6l802&xkcb=SoAU67M3mfJbRD7KcR0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-05T15:52:14.456Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-03-05T16:52:14+01:00",
+      "image_url": null
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfttg4fdbh2n",
       "cid": "bafyreif3jhx7yl7olcwkpqtwo27ri2kpwgqbjfsi3nrnngrmbvxadgp2qi",
       "author": {
