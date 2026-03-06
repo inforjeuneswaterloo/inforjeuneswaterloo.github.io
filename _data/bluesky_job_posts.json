@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgfkjnylg624",
+      "cid": "bafyreiazluph2hyrw6l5idoeyi6nkcjxgblbvloxjs3mwz3vug64hly6uu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-06T14:46:43.132Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Caissier/ère",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Employé(e) polyvalent(e) en supermarché (job étudiant) | GENAPPE, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-epolyvalenteensupermarch-job-tudiant-genappe-brabant-wallon/166-32194-2?utm_source=jooble&utm_medium=Paid&igbTracker=884933987&utm_campaign=quest_1520&utm_content=Employ%C3%A9%28e%29+polyvalent%28e%29+en+supermarch%C3%A9+%28job+%C3%A9tudiant%29+%28166-32194-2%29+%5B884933987%5D%5Bad83baf950a417bd_513d58c32702c%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/BCQ5X1u"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 275,
+              "byteStart": 269
+            }
+          }
+        ],
+        "text": "Etudiant(e) Employé(e) polyvalent(e) en supermarché  à Genappe\n- Expérience : Une première expérience en caisse ou en vente est un atout pour ce job étudiant\n- Disponibilité : Horaires flexibles, travail le week-end et jours fériés possible \nbuff.ly/BCQ5X1u \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-epolyvalenteensupermarch-job-tudiant-genappe-brabant-wallon/166-32194-2?utm_source=jooble&utm_medium=Paid&igbTracker=884933987&utm_campaign=quest_1520&utm_content=Employ%C3%A9%28e%29+polyvalent%28e%29+en+supermarch%C3%A9+%28job+%C3%A9tudiant%29+%28166-32194-2%29+%5B884933987%5D%5Bad83baf950a417bd_513d58c32702c%5D",
+          "title": "Employé(e) polyvalent(e) en supermarché (job étudiant) | GENAPPE, Brabant Wallon",
+          "description": "Caissier/ère",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu@jpeg"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-06T14:46:45.452Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgd5xoz6gz2v",
       "cid": "bafyreibwakdq4qnuvgqq2ahkfjutwe4y54s264cazlw3dvpd4qynxvqgxq",
       "author": {
@@ -8412,95 +8501,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-09T13:05:07.535Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbygnhkjak2h",
-      "cid": "bafyreidmkiezoyyjvxixsylmwyezoda5jqln7ahdzoeker27qy3bxfwvsa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu@jpeg",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-09T11:51:53.768Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Description de l'entreprise: Courir est le n°1 de la Sneaker en France ! Et l'enseigne préférée des Femmes.Avec plus de 2000 collaborateurs, 300 magasins à travers le monde. Courir vous propose un…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreih7yq5gt5jt5vw7efcki4zkyxqlblbeqcpqhksrkiqsvgrrnvnkbq"
-              },
-              "mimeType": "image/png",
-              "size": 5388
-            },
-            "title": "Job étudiant - Vendeuse / Vendeur - F/H",
-            "uri": "https://jobs.smartrecruiters.com/Courir/744000101865701-job-etudiant-vendeuse-vendeur-f-h"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/iDsBDTd"
-              }
-            ],
-            "index": {
-              "byteEnd": 313,
-              "byteStart": 298
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 321,
-              "byteStart": 315
-            }
-          }
-        ],
-        "text": "Job étudiant vente Courir - Bruxelles\nTâches :\n• Accueil/conseil clients\n• Proposer des produits complémentaires.\n• Connaître le programme de fidélité ...\nProfil :\n• Relationnel remarquable\n• Aimer se dépasser\n• Passion pr la mode et le commerce\n• Aimer le travail en équipe.\nbuff.ly/iDsBDTd \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://jobs.smartrecruiters.com/Courir/744000101865701-job-etudiant-vendeuse-vendeur-f-h",
-          "title": "Job étudiant - Vendeuse / Vendeur - F/H",
-          "description": "Description de l'entreprise: Courir est le n°1 de la Sneaker en France ! Et l'enseigne préférée des Femmes.Avec plus de 2000 collaborateurs, 300 magasins à travers le monde. Courir vous propose un…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreih7yq5gt5jt5vw7efcki4zkyxqlblbeqcpqhksrkiqsvgrrnvnkbq@jpeg"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-09T11:51:55.137Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
