@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
 title: Infor Jeunes Waterloo
 description: "Informer. Autonomiser. Sans condition."
-
+slugify_mode: ascii
 
 
 

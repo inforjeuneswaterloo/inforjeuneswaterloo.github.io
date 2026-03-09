@@ -4,7 +4,7 @@
 :root {
   /* Mode Clair */
   --bg-color: #ffffff;
-  --text-color: #111111;
+  --text-color: #666666;
   --link-color: #555555;
   --border-color: rgba(0, 0, 0, 0.1);
   
@@ -273,12 +273,26 @@ footer {
 /* ==========================================================================
    PAGE CATÉGORIE : TITRE ET COMPTEUR
    ========================================================================== */
+.category-view .back-link {
+  display: inline-block;
+  color: var(--c) !important;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
 
-.category-header {
+.category-count {
+  display: block; font-size: 0.85rem; color: var(--text-color);
+  opacity: 0.5; text-transform: uppercase; margin-top: 5px;
+}
+
+   .category-header {
   margin-bottom: 3.5rem;
 }
 
 .category-title {
+  color: var(--c) !important;
   display: flex;
   flex-direction: column; /* Le compteur s'affiche sous le titre */
   gap: 8px;
@@ -295,6 +309,34 @@ footer {
   letter-spacing: 0.05em;
   color: var(--text-color);
   opacity: 0.5; /* Plus discret que le nom de la catégorie */
+}
+
+/* ==========================================================================
+   LIENS DANS LES ARTICLES (POST-SINGLE)
+   ========================================================================== */
+
+.post-content a {
+  /* Utilise la couleur de la catégorie injectée via le style inline */
+  color: var(--c) !important;
+  
+  /* Supprime le soulignement par défaut */
+  text-decoration: none !important;
+  
+  /* Style optionnel pour une meilleure immersion */
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.post-content a:hover {
+  opacity: 0.7;
+  /* On peut ajouter un soulignement fin uniquement au survol si vous le souhaitez */
+ 
+}
+
+/* Style des titres dans l'article pour la cohérence */
+.post-single h2, .post-single h3 {
+  color: var(--text-color);
+  margin-top: 2.5rem;
 }
 
 /* ==========================================================================

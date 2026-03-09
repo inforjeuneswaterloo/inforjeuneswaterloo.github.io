@@ -1,5 +1,5 @@
 ---
-layout: category-single
+layout: archive
 title: Articles de la catégorie International
 permalink: /categories/international/
 category: International
