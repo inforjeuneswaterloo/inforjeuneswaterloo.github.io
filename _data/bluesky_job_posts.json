@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgmr6ujtkb22",
+      "cid": "bafyreihy62m64e2u5smy6xlr7geb4hq6wrkf53rne77d7odjuofdd3ehpu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-09T11:34:36.331Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "En tant que student vendeur- vendeuse chez SportsDirect, votre talent sera mis en valeur pour atteindre votre plein potentiel et explorer tout un monde de possibilités.·",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant Vendeur",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5526684?JobId=5526684&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/UJYyvU9"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant vendeur H/F SportsDirect Bruxelles\nProfil\n- Passionné(e) par la vente, les contacts clients et la qualité de service\n- Capable de promouvoir les valeurs de SportsDirect : Ambition, Esprit d’équipe, Agir avec détermination\n- Dispo min. 1 jr/sem. en dehors du week-end \nbuff.ly/UJYyvU9 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5526684?JobId=5526684&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Etudiant Vendeur",
+          "description": "En tant que student vendeur- vendeuse chez SportsDirect, votre talent sera mis en valeur pour atteindre votre plein potentiel et explorer tout un monde de possibilités.·",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-09T11:34:37.456Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgfkjnylg624",
       "cid": "bafyreiazluph2hyrw6l5idoeyi6nkcjxgblbvloxjs3mwz3vug64hly6uu",
       "author": {
@@ -8412,95 +8501,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-09T14:09:12.833Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbykqeofkc26",
-      "cid": "bafyreiftoryzhwsszoctrdkc6ciyuvad2ebnj34iroiph2eq2wp53xci34",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-09T13:05:06.293Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vous jouez un rôle clé dans le bon fonctionnement quotidien du parking :Veiller à la propreté et à l’ordre des lieuxAccueillir, informer et aider les clients en cas de problème (accès, paiement,...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Job étudiant - Technicien de parking",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5291949?JobId=5291949&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/j9UqPDe"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 287
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 309,
-              "byteStart": 303
-            }
-          }
-        ],
-        "text": "Job étudiant Technicien de parking - Anderlecht\nTâches :\n- Veiller à la propreté et à l’ordre\n- Accueillir, informer, aider les clients en cas de problème\n- Travailler en collaboration avec l’équipe\nProfil\n- Excellent contact client, sens du service\n- Fiable, dispo, flexible\nbuff.ly/j9UqPDe\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5291949?JobId=5291949&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Job étudiant - Technicien de parking",
-          "description": "Vous jouez un rôle clé dans le bon fonctionnement quotidien du parking :Veiller à la propreté et à l’ordre des lieuxAccueillir, informer et aider les clients en cas de problème (accès, paiement,...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-09T13:05:07.535Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
