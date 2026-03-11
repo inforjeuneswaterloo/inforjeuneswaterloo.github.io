@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
-  {% assign cat_slug = page.categories | first | slugify %}
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"/>
+  {% assign cat_slug = page.categories | first | custom_slugify %}
     {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
 
     <meta property="og:title" content="{{ page.title }}">

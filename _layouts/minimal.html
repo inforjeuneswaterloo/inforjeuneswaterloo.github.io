@@ -39,13 +39,15 @@
     </nav>
   </div>
 </header>
-
     {{ content }}
 
     <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid rgba(128,128,128,0.1); font-size: 0.8rem; opacity: 0.5; font-family: sans-serif;">
       <p>&copy; {{ "now" | date: "%Y" }} — {{ site.title }}</p>
     </footer>
   </main>
-
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 </body>
 </html>

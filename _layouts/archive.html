@@ -9,18 +9,28 @@ layout: minimal
   <a href="/categories/" class="back-link" style="--c: #{{cat_color}}">← Retour aux catégories</a>
 
   <header class="category-header">
-    <h1 class="category-title" style="--c: #{{cat_color}}">
+    <!--<h1 class="category-title" style="--c: #{{cat_color}}">
       {{ page.category }}
       <span class="category-count">{{ posts_count }} article{% if posts_count > 1 %}s{% endif %} publié{% if posts_count > 1 %}s{% endif %}</span>
-    </h1>
+    </h1>-->
+    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" 
+       class="cat-button" 
+       style="--color-cat: #{{ cat_color }};">
+      <span class="cat-name">{{ page.category }}</span>
+      
+      <span class="cat-badge">
+        {{ posts_count | default: 0 }}
+
+      </span>
+    </a>
   </header>
 
   
     <ul class="post-list">
       {% for post in site.categories[page.category] %}
       <li style="list-style-type: none">
-         <a  class="cat-button" style="margin-bottom: 1rem; color:#888888; border:none; --c: #{{cat_color}}" href="{{ post.url | relative_url }}">
-          <h2 class="post-card-title">{{ post.title }}</h2>
+         <a  class="cat-button" style="color:#666666; border:none" href="{{ post.url | relative_url }}">
+          <h3>{{ post.title}}</h3>
           <!--<span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>-->
         </a>
       </li>

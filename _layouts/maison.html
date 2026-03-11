@@ -2,28 +2,24 @@
 layout: minimal
 title: Infor Jeunes Waterloo
 ---
-
-<div class="posts-list">
-  {% for post in site.posts %}
-    <article class="post-item">
-      <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-      <h2 class="post-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-    </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<nav class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Précédent</a>
-  {% endif %}
+<section class="home-hero">
+  <h1>Besoin d'une info <span class="highlight">claire</span> ?</h1>
+  <!--<p class="subtitle">Orientation, droit, travail ou santé : nous centralisons l'essentiel pour les jeunes à Waterloo (et d'ailleurs).</p>-->
   
-  <span>Page {{ paginator.page }} sur {{ paginator.total_pages }}</span>
+  <div class="hero-contact">
+  <a class="cat-button">
+    <i data-lucide="phone"></i>&nbsp;
+    <span>0473/95 38 06</span>
+  </a>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Suivant &raquo;</a>
-  {% endif %}
-</nav>
-{% endif %}
+  <a href="mailto:info@exemple.be" class="cat-button">
+    <i data-lucide="send"></i>&nbsp;
+    <span>Nous écrire</span>
+  </a>
+
+  <div class="cat-button">
+    <i data-lucide="map-pin"></i>&nbsp;
+    <span>Rue Théophile Delbar, 18A - 1410 Waterloo</span>
+  </div>
+</div>
+</section>
