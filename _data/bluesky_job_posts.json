@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6zjiivu2w",
+      "cid": "bafyreieztk4wuxxvlqzpezz6y5xqg2rk5y7lphpvb4up2yraa35km2mv5a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-11T15:25:28.883Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le Golf de Rigenée recherche un(e) étudiant(e) (18 ans min.) pour renforcer son équipe d’accueil.👉 Tu es souriant(e), fiable et &...",
+            "title": "Job étudiant - Accueil Golf - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/job-etudiant-accueil-golf.R17L1x1K1-Z1x"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/5QcR1fR"
+              }
+            ],
+            "index": {
+              "byteEnd": 250,
+              "byteStart": 235
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 257,
+              "byteStart": 251
+            }
+          }
+        ],
+        "text": "Job étudiant - Accueil Golf Villers-la-Ville\nProfil\n- min. 18 ans\n- à l’aise avec le contact client\n- disponible principalement les week-ends et jours fériés\n- tu joues au golf ou tu t’intéresses au milieu sportif (atout ++) \nbuff.ly/5QcR1fR\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/job-etudiant-accueil-golf.R17L1x1K1-Z1x",
+          "title": "Job étudiant - Accueil Golf - Trovit Emploi",
+          "description": "Le Golf de Rigenée recherche un(e) étudiant(e) (18 ans min.) pour renforcer son équipe d’accueil.👉 Tu es souriant(e), fiable et &..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-11T15:25:29.260Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6pcdyq52z",
+      "cid": "bafyreic6xc3zxzegq4bbx7kl7afxnj3c3o5qfki3xa6k2sv6yk45757nim",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-11T15:19:45.844Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Découvrez toutes les offres d'emploi publiées par le Forem et ses partenaires",
+            "title": "Offres d'emploi | Le Forem",
+            "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) manutentionnaire Ottignies Louvain-la-Neuve\nCe poste est fait pour toi si tu: \n- peux porter des charges lourdes\n- es disponible le week-end et au moins 1 ou 2 jours en semaine\n- as un intérêt marqué pour les plantes\n- cherches un job assez physique \nwww.leforem.be/recherche-of...\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021",
+          "title": "Offres d'emploi | Le Forem",
+          "description": "Découvrez toutes les offres d'emploi publiées par le Forem et ses partenaires"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-11T15:19:46.370Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6ch3z5r26",
+      "cid": "bafyreighlnqsqiypvkzg4vyaiqfjhenqn55xssnm6u5ukcnplfgfipqkdq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-11T15:12:34.619Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=93de4cd7b558ad30&q=etudiant&l=brabant+wallon&tk=1jj9o0qbrga18800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDc67I3mumIaYz41B0LbzkdCdPP&xfps=d64dc7d6-8e12-4037-a25d-5d2527173ca5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jj9o0qbrga18800&xkcb=SoDS67M3mp4MuUWilx0PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/LffSnXF"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 282
+            }
+          }
+        ],
+        "text": "Etudiant H/F Lidl Jodoigne\nProfil\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/LffSnXF\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=93de4cd7b558ad30&q=etudiant&l=brabant+wallon&tk=1jj9o0qbrga18800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDc67I3mumIaYz41B0LbzkdCdPP&xfps=d64dc7d6-8e12-4037-a25d-5d2527173ca5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jj9o0qbrga18800&xkcb=SoDS67M3mp4MuUWilx0PbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-11T15:12:34.956Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgmr6ujtkb22",
       "cid": "bafyreihy62m64e2u5smy6xlr7geb4hq6wrkf53rne77d7odjuofdd3ehpu",
       "author": {
@@ -8268,239 +8508,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-12T17:31:42.830Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcajmp3aqz22",
-      "cid": "bafyreid6b6zy5nl62fp6w6tswnmfpzgwk7e3gvrtkfrevso4mi57e5xpba",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-12T17:06:25.822Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/GIi37P1"
-              }
-            ],
-            "index": {
-              "byteEnd": 139,
-              "byteStart": 124
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 146,
-              "byteStart": 140
-            }
-          }
-        ],
-        "text": "Etudiant caisse et réassort Lillois\n\nPour travailler les samedis et dimanches.\nTâches :\n- Caisse\n- Réassort tout rayon \n\nbuff.ly/GIi37P1\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-12T17:06:28.749Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcaj2mlia72z",
-      "cid": "bafyreie3xaqx7bfynt2cibowog53vftqcelno3r6hg4ap6e2hkqxqkbe3q",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-12T16:56:21.279Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=96c34d7070662a71&q=Etudiant&l=Brussels&tk=1jehnt19r21du000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCA67I3oZrR87T4V50LbzkdCdPP&xfps=2398075d-6be1-44b2-aa2d-e38b28dbe83c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jehnt19r21du000&xkcb=SoAj67M3oSOytnQCwx0BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/spD1PlG"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent Hector Chicken Bruxelles\n- Caisse, accueil et servir les commandes\n- Cuisine, mises en place\n- Répondre aux besoins des clients, les orienter\n- Maintenir la propreté : Débarrasser et nettoyer les tables, plonge, …\n- Réassort du comptoir et des frigos\nbuff.ly/spD1PlG\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=96c34d7070662a71&q=Etudiant&l=Brussels&tk=1jehnt19r21du000&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCA67I3oZrR87T4V50LbzkdCdPP&xfps=2398075d-6be1-44b2-aa2d-e38b28dbe83c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jehnt19r21du000&xkcb=SoAj67M3oSOytnQCwx0BbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-12T16:56:21.636Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mbyocxzbmj2s",
-      "cid": "bafyreibiehg7ni3druhnm3d5xamt7qqcfs2evzzbgvrefdgzysmmcwsbtm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-09T14:09:12.506Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/x0jx2SO"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 275,
-              "byteStart": 269
-            }
-          }
-        ],
-        "text": "Etudiant Vendeur polyvalent Les idées à la pelle - Schaerbeek \nTâches :\n- réassort\n- caisse, \n- conseiller les clients et les orienter dans le magasin.\nAu niveau pratique : 8h/semaine le samedi matin . Salaire en accord avec les barèmes légaux. \nbuff.ly/x0jx2SO \n#job4u"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-09T14:09:12.833Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
