@@ -1,0 +1,39 @@
+{% assign section = include.section %}
+
+{% case section %}
+    {% when 'archives' %}
+        {% assign sorted_items = site.categories | sort %}
+    {% when 'services' %}
+        {% assign sorted_items = site.services %}
+{% endcase %}
+
+{% for item in sorted_items %}
+    {% case section %}
+        {% when 'archives' %}
+            {% assign cat_name = item | first %}
+            {% assign cat_slug = cat_name | custom_slugify %}
+            {% assign posts_count = item | last | size %}
+            {% assign hex = site.data.categories[cat_slug] | default: "888888" %}
+            {% assign final_url = '/categories/' | append: cat_slug | append: '/' | relative_url %}
+        {% when 'services' %}
+            {% assign cat_name = item.title %}
+            {% assign cat_slug = item.title | custom_slugify %}
+            {% assign hex = item.color | default: "27ae60" %}
+            {% assign final_url = item.url | relative_url %}
+    {% endcase %}
+
+    <a href="{{ final_url }}" 
+       class="cat-button" 
+       style="--c: #{{ hex }};">
+      
+      {% if section == 'services' %}
+        <i data-lucide="{{ item.icon | default: 'rocket' }}"></i>
+      {% endif %}
+
+      <span class="cat-name">{{ cat_name }}</span>
+      
+      {% if section == 'archives' %}
+        <span class="cat-badge">{{ posts_count | default: 0 }}</span>
+      {% endif %}
+    </a>
+{% endfor %}

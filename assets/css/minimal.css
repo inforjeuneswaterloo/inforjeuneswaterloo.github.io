@@ -265,7 +265,119 @@ main {
     font-size: 1.1rem;
   }
 }
+/* ==========================================================================
+   SECTION CTA EN TRIANGLE (INFO, PROJETS, JOBS)
+   ========================================================================== */
 
+/* Conteneur principal */
+.home-cta-triangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: -1.5rem 0 4rem 0; /* Remonte légèrement pour chevaucher le hero */
+  position: relative;
+  z-index: 10;
+}
+
+/* Lignes du triangle */
+.cta-row-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cta-row-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Style de base commun à tous les boutons principaux */
+.btn-main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 28px;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.btn-main i, .btn-main svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.5px;
+}
+
+/* --- BOUTON JOBS (Sommet du triangle) --- */
+.btn-jobs {
+  background-color: #f8b700; /* Orange logo / Action */
+  box-shadow: 0 10px 20px rgba(230, 126, 34, 0.2);
+}
+
+.btn-jobs:hover {
+  background-color: #d35400;
+  box-shadow: 0 15px 25px rgba(230, 126, 34, 0.3);
+}
+
+/* --- BOUTON INFO (Base gauche) --- */
+.btn-info {
+  background-color: #2ca4dd; /* Bleu foncé logo / Institutionnel */
+}
+
+.btn-info:hover {
+  background-color: #1a252f;
+  box-shadow: 0 12px 25px rgba(44, 62, 80, 0.25);
+}
+
+/* --- BOUTON PROJETS (Base droite) --- */
+.btn-projets {
+  background-color: #00a46f; /* Vert logo / Services */
+}
+
+.btn-projets:hover {
+  background-color: #1e8449;
+  box-shadow: 0 12px 25px rgba(39, 174, 96, 0.25);
+}
+
+/* ==========================================================================
+   RESPONSIVE (MOBILE)
+   ========================================================================== */
+
+@media (max-width: 650px) {
+  .home-cta-triangle {
+    margin: 1rem 0 3rem 0; /* On annule le chevauchement sur mobile */
+    gap: 12px;
+  }
+
+  .cta-row-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn-main {
+    width: 100%;       /* Prend toute la largeur disponible */
+    max-width: 320px;  /* Garde une taille lisible */
+    min-width: auto;
+    padding: 12px 20px;
+  }
+}
 /* ==========================================================================
    4. CONTENU (TITRES & CATÉGORIES)
    ========================================================================== */
@@ -375,33 +487,7 @@ footer {
   opacity: 0.5; /* Plus discret que le nom de la catégorie */
 }
 
-/* ==========================================================================
-   LIENS DANS LES ARTICLES (POST-SINGLE)
-   ========================================================================== */
 
-.post-content a {
-  /* Utilise la couleur de la catégorie injectée via le style inline */
-  color: var(--c) !important;
-  
-  /* Supprime le soulignement par défaut */
-  text-decoration: none !important;
-  
-  /* Style optionnel pour une meilleure immersion */
-  font-weight: 500;
-  transition: opacity 0.2s ease;
-}
-
-.post-content a:hover {
-  opacity: 0.7;
-  /* On peut ajouter un soulignement fin uniquement au survol si vous le souhaitez */
- 
-}
-
-/* Style des titres dans l'article pour la cohérence */
-.post-single h2, .post-single h3 {
-  color: var(--text-color);
-  margin-top: 2.5rem;
-}
 
 /* ==========================================================================
    GRILLE ET CARTES (RAPPEL)
