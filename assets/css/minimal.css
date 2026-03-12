@@ -434,7 +434,52 @@ p {
   color: inherit;       /* L'icône prend la couleur du texte */
 }
 
+/* ==========================================================================
+   5. LAYOUT ARTICLE / SERVICE (POST-CONTAINER)
+   ========================================================================== */
+.post-container {
+  padding: 2rem 0;
+}
 
+.post-header {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
+}
+
+.service-title-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.post-title {
+  font-size: 2.5rem;
+  margin: 0;
+  color: var(--c); /* Hérite du Front Matter */
+}
+
+.main-icon {
+  width: 42px;
+  height: 42px;
+  stroke: var(--c);
+  stroke-width: 2px;
+}
+
+/* --- LIENS DANS LE CONTENU (HÉRITAGE) --- */
+.post-content a {
+  color: var(--c); /* COULEUR DYNAMIQUE DU SERVICE */
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+  border-bottom: 1px solid var(--c);
+  opacity: 0.8;
+}
 
 /* ==========================================================================
    5. FOOTER
@@ -447,6 +492,90 @@ footer {
   opacity: 0.5;
 }
 /* ==========================================================================
+   FOOTER DE L'ARTICLE (SERVICES & PROJETS)
+   ========================================================================== */
+
+.service-footer {
+  margin-top: 5rem;      /* Espace généreux après le contenu */
+  padding-top: 3rem;
+  border-top: 1px solid var(--border-color);
+  clear: both;
+}
+
+.related-services {
+  max-width: 800px;      /* Pour garder une lecture confortable */
+}
+
+/* Titre incitatif */
+.footer-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 1.8rem;
+  color: var(--text-color);
+  letter-spacing: -0.01em;
+}
+
+/* Grille de navigation des suggestions */
+.service-footer .category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Style des boutons spécifique au footer */
+.service-footer .cat-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Effet au survol utilisant la couleur du service (--c) */
+.service-footer .cat-button:hover {
+  border-color: var(--c);
+  background-color: color-mix(in srgb, var(--c), transparent 94%);
+  transform: translateY(-2px);
+}
+
+/* Icônes Lucide dans le footer */
+.service-footer .cat-button i, 
+.service-footer .cat-button svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--c); /* L'icône porte la couleur thématique */
+  stroke-width: 2px;
+}
+
+/* ==========================================================================
+   RESPONSIVE (MOBILE)
+   ========================================================================== */
+
+@media (max-width: 650px) {
+  .service-footer {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+  }
+
+  .footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Sur mobile, on permet un léger scroll si les boutons sont trop nombreux */
+  .service-footer .category-nav {
+    gap: 8px;
+  }
+  
+  .service-footer .cat-button {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+}
+/* ==========================================================================
    PAGE CATÉGORIE : TITRE ET COMPTEUR
    ========================================================================== */
 .category-view .back-link {
@@ -456,6 +585,7 @@ footer {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .category-count {
@@ -486,9 +616,193 @@ footer {
   color: var(--text-color);
   opacity: 0.5; /* Plus discret que le nom de la catégorie */
 }
+/* ==========================================================================
+   SECTION CONTACT - MISE EN PILE (FULL WIDTH)
+   ========================================================================== */
 
+.contact-container {
+    max-width: 800px; /* Largeur optimale pour la lecture et les formulaires */
+    margin: 2rem auto 5rem auto;
+    padding: 0 1.5rem;
+}
 
+/* On transforme la grille en une colonne unique */
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; /* Espace entre le formulaire et la carte d'info */
+}
 
+/* --- Formulaire --- */
+.sob-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.form-group label {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1rem;
+    background: #ffffff;
+    transition: all 0.25s ease;
+    width: 100%; /* S'assure que tout prend la largeur */
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--c);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--c), transparent 92%);
+}
+
+/* --- Bouton Envoyer --- */
+.btn-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(135deg, var(--c) 0%, #2c387e 100%);
+    color: white !important;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: fit-content; /* Reste à gauche ou au centre selon tes goûts */
+    margin-top: 1rem;
+    box-shadow: 0 8px 20px rgba(63, 81, 181, 0.25);
+}
+
+.btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(63, 81, 181, 0.35);
+}
+
+/* --- Sidebar transformée en Pied de Formulaire --- */
+.contact-card {
+    background: #f9fafb;
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+}
+
+.contact-card h3 {
+    margin: 0 0 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center; /* Centré pour la mise en pile */
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    /* On met les infos sur deux colonnes sur PC pour ne pas que ce soit trop long */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+.contact-list li i {
+    width: 20px;
+    height: 20px;
+    color: var(--c);
+    flex-shrink: 0;
+    stroke-width: 2.5px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+    .contact-list {
+        grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    }
+    .btn-submit {
+        width: 100%;
+    }
+    .contact-card {
+        padding: 1.5rem;
+    }
+}
+/* ==========================================================================
+   BOUTON CONTACT (SUR BASE DE CAT-BUTTON)
+   ========================================================================== */
+
+/* Style de base hérité de .cat-button avec surcharges pour l'envoi */
+.cat-button.btn-submit-contact {
+    /* On force les dimensions pour un bouton d'envoi */
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+    /* Couleur Indigo profond (priorité sur le style par défaut) */
+    background: #3f51b5 !important;
+    border: none !important;
+    color: #ffffff !important;
+    
+    /* Ombre pour le relief */
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.2);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+/* État au survol */
+.cat-button.btn-submit-contact:hover {
+    background: #2c387e !important; /* Indigo plus sombre au hover */
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(63, 81, 181, 0.3);
+}
+
+/* Gestion de l'icône Lucide à l'intérieur */
+.cat-button.btn-submit-contact i, 
+.cat-button.btn-submit-contact svg {
+    stroke: #ffffff !important; /* Force l'icône en blanc */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Suppression de l'effet de bordure habituel des cat-buttons */
+.cat-button.btn-submit-contact::after {
+    display: none;
+}
+
+/* Alignement sur mobile */
+@media (max-width: 600px) {
+    .cat-button.btn-submit-contact {
+        width: 100%;
+        display: flex;
+    }
+}
 /* ==========================================================================
    GRILLE ET CARTES (RAPPEL)
    ========================================================================== */

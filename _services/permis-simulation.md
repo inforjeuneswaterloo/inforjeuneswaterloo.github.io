@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: page-single
 image: assets/images/services/permis-de-conduire.png
 id: ij
-title: Permis de conduire - simulation examen théorique
+title: Permis de conduire - simulation 
+lucide: "car"
+color: f1c40f
 icon: 
   fa: fa-solid fa-car-side
   text: Permis de conduire

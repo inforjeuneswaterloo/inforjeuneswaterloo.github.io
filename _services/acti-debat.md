@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: page-single
 id: ij
 title: "Acti-débat: fais entendre ta voix"
 image: /assets/images/services/group-arrows-rotate-solid-full.svg
-icon:
-  fa: "fa-solid fa-comments"
-  text: "Acti-débat: On en parle"
+lucide: "messages-square"
+color: 9b59b6
 buttons:
   - btn:
       enable: true
@@ -37,5 +36,3 @@ Au programme, jeux de société, visionnage de film et de vidéo, web radio, cui
 {% notice light %}
 Des question? N'hésite pas à [nous contacter](/contact/)
 {% endnotice %}
-
-{%image /assets/images/services/acti-debat.webp %}

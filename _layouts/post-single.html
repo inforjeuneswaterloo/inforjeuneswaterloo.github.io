@@ -5,6 +5,7 @@ layout: minimal
 {% assign slug = category_name | custom_slugify %}
 {% assign cat_color = site.data.categories[slug] | default: site.data.categories.default %}
 
+
 <article class="post-container" style="--c: #{{ cat_color }};">
   <header class="post-header">
     <div class="category-view">

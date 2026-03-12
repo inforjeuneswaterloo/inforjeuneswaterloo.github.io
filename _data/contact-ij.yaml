@@ -1,13 +1,13 @@
 - text: Du mardi au vendredi de 12 à 17h sans RDV
-  icon: fa-solid fa-clock
+  icon: clock
 
 - text: Rue Théophile Delbar 18A - 1410 Waterloo
-  icon: fa-solid fa-location-dot
+  icon: map-pin
 
 - text: info@inforjeuneswaterloo.be
-  icon: fa-solid fa-at
+  icon: at-sign
 
 - text: '+32 (0)473 953 806'
-  icon: fa-solid fa-mobile
+  icon: phone-outgoing
      
 

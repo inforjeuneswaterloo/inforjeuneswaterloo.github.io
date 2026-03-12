@@ -1,9 +1,11 @@
 ---
-layout: redirect
+layout: page-single
 redirect_to: '/jobs/'
 id: ij
 image: /assets/images/services/helmet-safety-solid-full.svg
 title: Offres de job étudiant
+lucide: "briefcase"
+color: e67c22
 icon: 
   fa: "fa-solid fa-piggy-bank"
   text: Permis de conduire

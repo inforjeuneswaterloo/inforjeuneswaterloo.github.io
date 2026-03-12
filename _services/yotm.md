@@ -1,9 +1,11 @@
 ---
-layout: redirect
+layout: page-single
 permalink: /services/yotm/
 redirect_to: '/yotm/'
 id: ij
 title: "YOTM: YouthOnTheMove - Notre projet 'Mobilité internationale'"
+lucide: "globe"
+color: "3261ac"
 icon:
   fa: "fa-solid fa-plane-departure"
   text: Hello World!

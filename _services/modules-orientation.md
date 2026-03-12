@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: page-single
 id: ij
 title: Modules d'orientation
+lucide: "compass"
+color: 2980b9
 icon: 
   fa: fa-solid fa-arrows-split-up-and-left
   text: Modules d'orientation

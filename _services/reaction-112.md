@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: page-single
 id: ij
 title: Réaction 112 - Forme-toi aux premiers secours!
+lucide: "heart-pulse"
+color: e74c3c
 icon: 
   fa: fa-solid fa-kit-medical
   text: "Réaction 112 : Formation premiers secours"

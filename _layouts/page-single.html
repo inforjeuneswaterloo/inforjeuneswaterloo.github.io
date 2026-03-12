@@ -1,0 +1,59 @@
+---
+layout: minimal
+---
+{% assign page_color=page.color | default: "2c3e50" %}
+
+<article class="post-container" style="--c: #{{ page_color }};">
+ <header class="post-header">
+    <div class="category-view">
+      <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
+      &leftarrow; &nbsp; Retour
+    </a>
+    </div>
+    <div class="service-title-section">
+       <i data-lucide="{{ page.lucide | default: 'rocket' }}" class="main-icon"></i>
+       <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+
+    <!--{% comment %} NAVIGATION HEADER (Autres services) {% endcomment %}
+    {% if page.collection %}
+      <nav class="service-nav">
+        <div class="category-nav">
+          {% for item in site[page.collection] %}
+            {% unless item.url == page.url %}
+              <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ item.color | default: '888888' | replace: '#', '' }};">
+                <i data-lucide="{{ item.lucide | default: 'circle' }}"></i>
+                <span class="cat-name">{{ item.title }}</span>
+              </a>
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}-->
+  </header>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  <footer class="post-footer">
+    {% comment %} NAVIGATION FOOTER (Rappel des suggestions) {% endcomment %}
+    {% assign total_items = site[page.collection] | size %}
+    {% if total_items > 1 %}
+      <div class="related-services">
+        <h2 class="footer-title">Dans la même collection</h2>
+        <div class="category-nav">
+          {% for item in site[page.collection] %}
+            {% unless item.url == page.url %}
+              {% assign color=item.color %}
+              <a href="{{ item.url | relative_url }}" class="cat-button" style="border: 1px solid #{{color}}">
+                <i data-lucide="{{ item.lucide | default: 'circle' }}" style="color: #{{color}}"></i>&nbsp;
+                <span class="cat-name">{{ item.title }}</span>
+              </a>
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </footer> 
+</article>

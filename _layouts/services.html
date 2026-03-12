@@ -7,12 +7,12 @@ layout: minimal
 {% assign services = site.services %}
 <div class="category-nav">
   {% for service in services %}
-    <a class="cat-button" href="{{service.url | relative_url}}">
-      <span class="cat-name">
-        {{service.title}}
-      </span>
-     
-        <i data-lucide="rocket"></i>
-    </a>
+    {% assign hex = service.color | default: "888888" %}
+    {% assign icon = service.lucide | default: "rocket" %}
+  <a href="{{ service.url | relative_url }}" 
+     class="cat-button" style="border: 1px solid  #{{hex}}">
+       <i data-lucide="{{ icon }}" style="color: #{{hex}}"></i>&nbsp; 
+    <span class="cat-name">{{ service.title }}</span>
+  </a>
   {% endfor %}
 </div>
