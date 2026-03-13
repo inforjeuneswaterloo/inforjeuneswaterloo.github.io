@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgxj26u4vv26",
+      "cid": "bafyreido6u7sgtcuztvprxykdz2rl5pni77vln7msu7ppkiwv572w324nq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-13T18:08:06.626Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
+              },
+              "mimeType": "image/png",
+              "size": 3317
+            },
+            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+            "uri": "https://www.jobted.be/fr?viewjob=802191c2514c955150327323cf365559&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SVgVcSW"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Etudiant - Dessin de plans de bâtiment H/F/X à Laeken\n Profil\n- Etudiant(e) en architecture, ingénierie, construction ou dessin technique\n- Bonne maîtrise d'un logiciel de dessin technique (AutoCAD ou équivalent)\n- Rigueur et précision\n- Autonomie dans le travail  \nbuff.ly/SVgVcSW\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobted.be/fr?viewjob=802191c2514c955150327323cf365559&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
+          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-13T18:08:08.050Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgxhjqkzhc2q",
+      "cid": "bafyreibkniq67rxeedqqnb2647pdicb5yqtxctdex3danqz64t2255jvuy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-13T17:41:01.040Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
+              },
+              "mimeType": "image/png",
+              "size": 3317
+            },
+            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+            "uri": "https://www.jobted.be/fr?viewjob=6ce16d83bddeb5083da5d87ec0af8d53&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/s0e8xlO"
+              }
+            ],
+            "index": {
+              "byteEnd": 229,
+              "byteStart": 214
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 236,
+              "byteStart": 230
+            }
+          }
+        ],
+        "text": "Job étudiant - vendeur (H/F/X) sur marché à Bruxelles\nMissions:\n- Vendre des produits Italiens de qualité\n- Accueil et conseil des clients\n- Aider à la mise en place du stand\n- Réassort et rangement du stand\nbuff.ly/s0e8xlO\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobted.be/fr?viewjob=6ce16d83bddeb5083da5d87ec0af8d53&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
+          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
+          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-13T17:41:02.950Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6zjiivu2w",
       "cid": "bafyreieztk4wuxxvlqzpezz6y5xqg2rk5y7lphpvb4up2yraa35km2mv5a",
       "author": {
@@ -8330,184 +8508,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-13T11:20:11.728Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcalm4hqka2g",
-      "cid": "bafyreiftzu2fqskns7ssnplu7qxy7vwsolxfnoimtmjbyurgxrz72xteku",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-12T17:41:55.159Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant qu’Employé étudiant (h/f/x), vous viendrez renforcer le département Customer Service.Vous apportez un soutien administratif essentiel au bon déroulement des opérations quotidiennes. Vous...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Employé Administratif Etudiant",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5302029?JobId=5302029&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mi1jFzL"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Employé Administratif Etudiant Braine-l'Alleud\n- En études supérieures (orientation administrative)\n- Très bonne maîtrise de la suite Microsoft Office\n- Autonome\n- 1 connaissance de l’anglais professionnel est 1 atout\n- Expérience souhaitée dans 1 fonction administrative\nbuff.ly/mi1jFzL\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5302029?JobId=5302029&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Employé Administratif Etudiant",
-          "description": "En tant qu’Employé étudiant (h/f/x), vous viendrez renforcer le département Customer Service.Vous apportez un soutien administratif essentiel au bon déroulement des opérations quotidiennes. Vous...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-12T17:41:56.141Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcakztievg2m",
-      "cid": "bafyreiddmpt6zyay3mvi7ig4kcjyervzlfxbc7cxvmttepuezbqlhdutuy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-12T17:31:40.330Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-en-charcuterie-genappe-brabant-wallon/166-32032-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/llWFUrt"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 282
-            }
-          }
-        ],
-        "text": "Etudiant vendeur en charcuterie Genappe\n\n- Réception et contrôle des livraisons de produits frais\n- Mise en rayon et réassortiment des produits\n- Rotation des stocks et gestion des dates de péremption\n- Suivi de la propreté et du respect des normes d'hygiène\n\nbuff.ly/llWFUrt\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-en-charcuterie-genappe-brabant-wallon/166-32032-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-12T17:31:42.830Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
