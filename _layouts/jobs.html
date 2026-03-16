@@ -1,0 +1,39 @@
+---
+layout: minimal
+title: Le coin des petites annonces
+---
+<div class="jobs-container">
+    <header class="jobs-header">
+        <h1><i data-lucide="briefcase"></i> Jobs Étudiants & Flexi</h1>
+        <p class="subtitle">Retrouvez les dernières offres publiées sur notre réseau.</p>
+    </header>
+
+    <div class="jobs-grid">
+        {% assign job_posts = site.data.bluesky_job_posts.posts %}
+        {% for post in job_posts %}
+        <article class="job-card">
+            <div class="job-card-header">
+                <span class="job-date">{{ post.record.createdAt | date: "%d/%m/%Y" }}</span>
+                <h2 class="job-title">
+                    {% if post.embed.external.title != "" %}
+                        {{ post.embed.external.title }}
+                    {% else %}
+                        Offre d'emploi
+                    {% endif %}
+                </h2>
+            </div>
+
+            <div class="job-content">
+                <p>{{ post.record.text | split: "buff.ly" | first | newline_to_br }}</p>
+            </div>
+
+            <div class="job-footer">
+                <a href="{{ post.embed.external.uri }}" target="_blank" class="cat-button btn-job-apply">
+                    <i data-lucide="external-link"></i>
+                    <span>Voir l'offre complète</span>
+                </a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>

@@ -15,41 +15,25 @@ layout: minimal
        <i data-lucide="{{ icon| default: 'rocket' }}" class="main-icon"></i>
        <h1 class="post-title" style="color: #{{color}}">{{ page.title }}</h1>
     </div>
-    <!--{% comment %} NAVIGATION HEADER (Autres services) {% endcomment %}
-    {% if page.collection %}
-      <nav class="service-nav">
-        <div class="category-nav">
-          {% for item in site[page.collection] %}
-            {% unless item.url == page.url %}
-              <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ item.color | default: '888888' | replace: '#', '' }};">
-                <i data-lucide="{{ item.lucide | default: 'circle' }}"></i>
-                <span class="cat-name">{{ item.title }}</span>
-              </a>
-            {% endunless %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% endif %}-->
   </header>
-
     <div class="contact-container">
         <div class="contact-grid">
             <div class="contact-form-section">
                 <form action="https://airform.io/info@inforjeuneswaterloo.be" method="POST" class="sob-form">
                     
                     <div class="form-group">
-                        <label for="name">Nom et Prénom</label>
-                        <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+                        <label for="name">Tes nom et prénom</label>
+                        <input type="text" id="name" name="name" placeholder="Prénom, nom, pseudo">
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Adresse Email</label>
+                        <label for="email">Ton email<sup><span style="color: #{{color}}">*</span></sup></label>
                         <input type="email" id="email" name="email" placeholder="nom@exemple.com" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Votre Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Comment pouvons-nous vous aider ?" required></textarea>
+                        <label for="message">Ton message<sup><span style="color: #{{color}}">*</span></sup></label>
+                        <textarea id="message" name="message" rows="6" placeholder="Comment pouvons-nous t'aider ?" required></textarea>
                     </div>
 
                     <input type="hidden" name="_subject" value="Nouveau Contact - Site Infor Jeunes">
@@ -62,8 +46,8 @@ layout: minimal
         </div>
         <div class="category-nav">
             {% for item in contact_ij %}
-                <a class="cat-button" href="#">
-                    <i data-lucide="{{item.icon}}" style="color:#{{color}}"></i>&nbsp;
+                <a class="cat-button">
+                    <i data-lucide="{{item.icon}}" style="color: #{{color}}"></i>&nbsp;
                     <span>{{item.text}}</span>
                 </a>
             {% endfor %}

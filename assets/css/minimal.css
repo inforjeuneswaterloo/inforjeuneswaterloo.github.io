@@ -804,6 +804,193 @@ footer {
     }
 }
 /* ==========================================================================
+   BANDEAU LOGOS (JUSTE AVANT LE FOOTER)
+   ========================================================================== */
+
+.partners-bandeau {
+  width: 100%;
+  padding: 3rem 0;
+  background-color: #fcfcfc; /* Un gris extrêmement léger pour différencier du blanc */
+  border-top: 1px solid var(--border-color);
+  margin-top: 4rem; /* Espace après le contenu de la page */
+}
+
+.partners-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.partners-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #94a3b8; /* Gris ardoise clair */
+  text-align: center;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Bel espace entre chaque logo */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.partners-logos img {
+  height: 32px;      /* Hauteur fixe imposée */
+  width: auto;       /* Proportionnalité gardée */
+  max-width: 140px;  /* Sécurité largeur */
+  
+  /* Sobriété : grisés par défaut, couleurs au survol */
+  /*filter: grayscale(1) opacity(0.5);
+  transition: all 0.4s ease;*/
+}
+
+.partners-bandeau:hover .partners-logos img {
+  filter: grayscale(0) opacity(0.8);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 650px) {
+  .partners-bandeau {
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  
+  .partners-logos {
+    gap: 25px;
+  }
+  
+  .partners-logos img {
+    height: 26px; /* Plus discret sur smartphone */
+  }
+}
+
+/* ==========================================================================
+   PAGE JOBS ÉTUDIANTS (DÉDIÉE)
+   ========================================================================== */
+
+:root {
+    --job-theme: #e67c22;
+    --job-bg-soft: #fffaf5;
+}
+
+.jobs-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.jobs-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.jobs-header h1 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0.5rem;
+}
+
+.jobs-header h1 i {
+    color: var(--job-theme);
+}
+
+/* Grille des offres */
+.jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+/* Carte Job individuelle */
+.job-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--job-theme);
+    box-shadow: 0 12px 20px rgba(230, 124, 34, 0.08);
+}
+
+.job-date {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.job-title {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 0 0 1.2rem 0;
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+.job-content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+}
+
+/* Bouton spécifique à la carte */
+.btn-job-apply {
+    background-color: var(--job-bg-soft) !important;
+    border: 1px solid var(--job-theme) !important;
+    color: var(--job-theme) !important;
+    font-weight: 700 !important;
+    width: 100%;
+    justify-content: center;
+    padding: 12px !important;
+}
+
+.btn-job-apply:hover {
+    background-color: var(--job-theme) !important;
+    color: #ffffff !important;
+}
+
+.btn-job-apply i {
+    stroke: currentColor !important;
+    width: 16px;
+    height: 16px;
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+    .jobs-grid {
+        grid-template-columns: 1fr;
+    }
+    .jobs-header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ==========================================================================
    GRILLE ET CARTES (RAPPEL)
    ========================================================================== */
 
