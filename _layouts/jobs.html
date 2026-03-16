@@ -4,12 +4,11 @@ title: Le coin des petites annonces
 ---
 <div class="jobs-container">
     <header class="jobs-header">
-        <h1><i data-lucide="briefcase"></i> Jobs Étudiants & Flexi</h1>
-        <p class="subtitle">Retrouvez les dernières offres publiées sur notre réseau.</p>
+        <h1 style="color: #{{page.color}}"><i data-lucide="briefcase"></i>{{page.title}}</h1>
+        <p class="subtitle">Retrouve les offres de job étudiant publiées sur nos réseaux</p>
     </header>
-
     <div class="jobs-grid">
-        {% assign job_posts = site.data.bluesky_job_posts.posts %}
+        {% assign job_posts = site.data.bluesky_job_posts.posts | limit: 5 %}
         {% for post in job_posts %}
         <article class="job-card">
             <div class="job-card-header">

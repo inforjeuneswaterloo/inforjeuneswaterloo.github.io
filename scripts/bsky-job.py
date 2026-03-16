@@ -22,7 +22,7 @@ TARGET_TIMEZONE = pytz.timezone('Europe/Brussels')
 
 # URL de l'API et du Flux (définition globale)
 API_PDS = "https://bsky.social"
-FEED_LIMIT = 100 
+FEED_LIMIT = 5
 
 # Regex pour identifier les URLs
 URL_REGEX = r"https?://[^\s]+|www\.[^\s]+" 
