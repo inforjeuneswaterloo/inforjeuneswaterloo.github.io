@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh6ar5ac3e2k",
+      "cid": "bafyreicubrrb3oba4itou7xutrnmsahhrh2qqamsg46psnm753xezovupe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-16T10:28:31.932Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=b7ae80c508ee9eab&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAN67I3m7MB31T4cJ0LbzkdCdPP&xfps=6fcf4160-3e46-4899-b195-b1b648744de1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoD067M3mz-9iPwlwh0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/3tVY1OW"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant à l'année - Commis de salle au MAKIFORNIA Bruxelles\nDisponibilités en journée et soirée\nMin. 18 ans\nEtudiant en supérieur\nAvoir le sens du service\nAssidu au travail\nVous travaillez avec précision\nVous communiquez oralement avec aisance\nVous appliquez les règles HACCP\nbuff.ly/3tVY1OW\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=b7ae80c508ee9eab&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAN67I3m7MB31T4cJ0LbzkdCdPP&xfps=6fcf4160-3e46-4899-b195-b1b648744de1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoD067M3mz-9iPwlwh0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-16T10:28:32.356Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh67snocil2k",
+      "cid": "bafyreigdi2ggt2hiubvgld3yo7zgpadkcnodj3wlajvovnu2zbwkptmzl4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-16T10:11:28.986Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=701b93fb2b9cb538&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAQ67I3m7K6gezNRp0LbzkdCdPP&xfps=593c44fc-248e-4413-9480-82c5b7ab98c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoDW67M3mz-9iPQlwh0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/2yG31YL"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant à l'année - Cuisine Centrale H/F/X Bruxelles\nProfil:\n- Être majeur\n- Bon communicant, à l’aise en équipe\n- Dynamique, rigoureux et autonome\n- Capacité à suivre des consignes et à maintenir un environnement propre et organisé\n- Être vacciné contre l'hépatite B \nbuff.ly/2yG31YL\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=701b93fb2b9cb538&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAQ67I3m7K6gezNRp0LbzkdCdPP&xfps=593c44fc-248e-4413-9480-82c5b7ab98c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoDW67M3mz-9iPQlwh0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-16T10:11:29.453Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh66zx7oyv22",
+      "cid": "bafyreifdoqbe7pl4xp3phcnzfdycoyjqzmxqcqrrr3lxihuwyb3smyoq5q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-16T09:57:40.126Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=98a4a05c1be1ce63&q=Etudiant&l=Brabant-wallon&tk=1jjjr0gpkjv8s801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBU67I3m7I1kWTC8B0LbzkdCdPP&xfps=c6740741-64ab-49cf-a7f1-6ebd1de9b98b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjr0gpkjv8s801&xkcb=SoCq67M3mz-N_chaSb0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/qdtr9fN"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Vendeur comptoir traiteur H/F Waterloo\n- Facilité d'interaction avec les clients\n- Incroyable team player, communicatif et passionné\n- Tu aimes la gastronomie italienne\n- Tu es autonome, flexible et tu n’as pas peur de prendre des initiatives\n- Tu parles FR et l'italien = +\nbuff.ly/qdtr9fN\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=98a4a05c1be1ce63&q=Etudiant&l=Brabant-wallon&tk=1jjjr0gpkjv8s801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBU67I3m7I1kWTC8B0LbzkdCdPP&xfps=c6740741-64ab-49cf-a7f1-6ebd1de9b98b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjr0gpkjv8s801&xkcb=SoCq67M3mz-N_chaSb0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-16T09:57:40.650Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh65u35wes24",
       "cid": "bafyreigs2yhxaevdtfqqnfqioarxf27aqi2ns547cxqqjag76g2mwypanm",
       "author": {
@@ -8247,276 +8487,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-16T16:37:05.235Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mchk3cokxa24",
-      "cid": "bafyreicyzolxezdr22a5rm3gg5dprmbm4grkgp5cpuptbrx355omap5p3e",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-15T12:03:16.358Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=97718ad6963525b7&q=Etudiant&l=Brussels&tk=1jeujr7f2gc9m800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3og4QkYzN5x0LbzkdCdPP&xfps=7be519d3-165d-42d3-8152-c41965e345ac&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jeujr7f2gc9m800&xkcb=SoB867M3ofRile2lch0DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/vfXULRt"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Etudiant Collaborateur Petit-Déjeuner (H/F/X) IBIS BUDGET - Bruxelles \nTâches :\n- Accueil chaleureux\n- Mise en place/rangement/nettoyage\n- ...\nProfil : \n- Aisance relationnelle, sens de l’accueil\n- Dynamique, autonome, rigoureux(se) et impliqué(e).\n- Maîtrise du Fr ...\nbuff.ly/vfXULRt \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=97718ad6963525b7&q=Etudiant&l=Brussels&tk=1jeujr7f2gc9m800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3og4QkYzN5x0LbzkdCdPP&xfps=7be519d3-165d-42d3-8152-c41965e345ac&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jeujr7f2gc9m800&xkcb=SoB867M3ofRile2lch0DbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-15T12:03:16.829Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mchk36ucqa2f",
-      "cid": "bafyreic3ptzhysx4a4ctltqnyryevlv2ponuznqhynarqrbtda5jxa3ibe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-15T12:03:11.462Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y"
-              },
-              "mimeType": "image/jpeg",
-              "size": 102033
-            },
-            "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – Wavre | Triangle RH",
-            "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-wavre-awyt4hzltofxzln/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3CXCMXo"
-              }
-            ],
-            "index": {
-              "byteEnd": 247,
-              "byteStart": 232
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 254,
-              "byteStart": 248
-            }
-          }
-        ],
-        "text": "Etudiant vente en boulangerie en semaine (H/F/X) - Wavre \nTâches : \n- Accueil/conseil clientèle\n- Commandes\n- Caisse\n- Réassort\n-...\nProfil :\n- 1ère expérience en vente\n- Excellent contact clientèle\n- Rapide et efficace;\n-...\nbuff.ly/3CXCMXo\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-wavre-awyt4hzltofxzln/",
-          "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – Wavre | Triangle RH",
-          "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-15T12:03:12.932Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mchj7kdmen26",
-      "cid": "bafyreiahusod5plvwrqwxhagbrfss2ez4y2ez3kisgdyzjamrqneg4cwje",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-15T11:47:43.924Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 6heures 1410 WATERLOO, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe : Faire…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 50342
-            },
-            "title": "Vendeur/euse Polyvalent Hors Meuble",
-            "uri": "https://buff.ly/AfcHHaM"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/AfcHHaM"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Job étudiant vente Maisons du Monde 6h/semaine - Waterloo\nTâches : \n- Accueil, accompagnement client\n- Gérer les commandes en click & collect\n- Caisse\n- Livraisons/réassort\n- ...\nProfil :\n- Aimer l’univers déco et ameublement\n- Motivé, dynamique, avenant\n- ...\nbuff.ly/AfcHHaM \n#Job4u #ij1410"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/AfcHHaM",
-          "title": "Vendeur/euse Polyvalent Hors Meuble",
-          "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 6heures 1410 WATERLOO, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe : Faire…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-15T11:47:45.530Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
