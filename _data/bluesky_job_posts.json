@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhd5offjyi22",
+      "cid": "bafyreiagv57ictfvrxceat7c57rauzekxubofvpj6n6euysjay6kiq6uwy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-18T09:16:37.298Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nous recrutons: rejoignez notre équipe café et brunch en pleine croissance!Nous sommes une marque de cafés et de brunchs en plein...",
+            "title": "Bruxelles – étudiant - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/bruxelles-etudiant.YS1N1x9121X9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/hVGscZm"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant(e) Horeca Bruxelles\nProfil\n- Personnalité amicale et joyeuse\n- Esprit d’équipe\n- Axé sur le client avec une passion pour le service\n- Calme sous la pression et patient pendant le rush\n- Dispo entre 6h et 22h\n- Prêt à travailler en semaine, we et jours fériés \nbuff.ly/hVGscZm\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/bruxelles-etudiant.YS1N1x9121X9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
+          "title": "Bruxelles – étudiant - Trovit Emploi",
+          "description": "Nous recrutons: rejoignez notre équipe café et brunch en pleine croissance!Nous sommes une marque de cafés et de brunchs en plein..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-18T09:16:37.656Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhd4c3lt5d24",
+      "cid": "bafyreic5tzkna46ptc5eha22bu7qzvvjcg3ux7ttkwrcwhkxptzsglkwua",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-18T08:51:50.624Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Overview ✨ A La Résidence Le Point du Jour, vous êtes les héros du quotidien !<br />Vous avez le cœur sur la main et la passion da...",
+            "title": "Etudiant Infirmier H/F - Trovit Emploi",
+            "uri": "https://emploi.trovit.be/listing/etudiant-infirmier-hf.1A7A1YA1O5Z"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/4vE8qg9"
+              }
+            ],
+            "index": {
+              "byteEnd": 146,
+              "byteStart": 131
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 153,
+              "byteStart": 147
+            }
+          }
+        ],
+        "text": "Etudiant infirmier H/F Wavre\nProfil recherché:\n- Diplôme d’Aide-Soignant et Visa\n- Les nouveaux diplômés sont les bienvenus \nbuff.ly/4vE8qg9\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://emploi.trovit.be/listing/etudiant-infirmier-hf.1A7A1YA1O5Z",
+          "title": "Etudiant Infirmier H/F - Trovit Emploi",
+          "description": "Overview ✨ A La Résidence Le Point du Jour, vous êtes les héros du quotidien !<br />Vous avez le cœur sur la main et la passion da..."
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-18T08:51:51.352Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh6cm3gcgz2n",
       "cid": "bafyreiasgdslmtrosgsjcsptim7d6p44ehd6vhuwf6yukz4ywhppvc3age",
       "author": {
@@ -8327,166 +8487,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-19T16:29:54.330Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrns2mrb32t",
-      "cid": "bafyreibokxgvutaavrj6entjwpqbz7ae3bbrmwzgp6vpldixqwwxrc7mkq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-19T12:36:18.288Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=a566947ed0c364a5&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDP67I3orPjQUT4XJ0LbzkdCdPP&xfps=8506f955-b975-4c79-b8d2-5dc07d51c94b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAV67M3oqmj4g64150HbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/90sg4m0"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Etudiant(e) Serveur / Commis de bar - Bruxelles\n\n- Statut d’étudiant(e) valide\n- Disponible en soirée, les we et jours fériés\n- Excellente présentation et un bon sens du service\n- Trilingue (FR/NL/EN) est un atout\n- Une première expérience en horeca (salle ou bar) est un plus\nbuff.ly/90sg4m0\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=a566947ed0c364a5&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDP67I3orPjQUT4XJ0LbzkdCdPP&xfps=8506f955-b975-4c79-b8d2-5dc07d51c94b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAV67M3oqmj4g64150HbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-19T12:36:18.733Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcrmwso7no24",
-      "cid": "bafyreid4xyfz4joowl2t3dkukixnhumyre2alfmcdiiahwuevtsbbqmbia",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-19T12:21:03.986Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=a159769cc822e1f7&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCY67I3orN7H_zCJx0LbzkdCdPP&xfps=d13bc71e-096d-43cb-8e48-c4f99683a250&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAR67M3oqmj4ja4150JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/rt7sPxn"
-              }
-            ],
-            "index": {
-              "byteEnd": 263,
-              "byteStart": 248
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 271,
-              "byteStart": 265
-            }
-          }
-        ],
-        "text": "Animateur étudiant H/F Laser Game Evolution Uccle\n- Assurer le suivi des clients au cours de leur partie de jeu\n- Vente au bar\n- Veiller au bon fonctionnement et à la bonne utilisation du matériel et des infrastructures\n- Nettoyage et entretien\nbuff.ly/rt7sPxn \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=a159769cc822e1f7&q=Etudiant&l=Brussels&tk=1jfaljp87g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCY67I3orN7H_zCJx0LbzkdCdPP&xfps=d13bc71e-096d-43cb-8e48-c4f99683a250&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfaljp87g2jc800&xkcb=SoAR67M3oqmj4ja4150JbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-19T12:21:04.432Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
