@@ -37,9 +37,9 @@ draft: false
 3. **Choix de l’hôte** selon tes préférences.
 4. **Contact personnalisé** : email clair, questions pratiques (hébergement, tâches, horaires, langues, accès à internet…).
   
-{% notice info%}
+{% alert info%}
 A toi d'éplucher et comparer les offres et de choisir celle qui te conviendrait le mieux
-{% endnotice %}
+{% endalert %}
 
 ## Checklist avant de partir
 

@@ -1,35 +1,18 @@
 ---
-layout: fw
+layout: minimal
 ---
-    {% assign sidebar=page.enabled | default: true %}
-    {% assign exclude_current_category= sidebar.exclude_current_category | default: true %}
-    {% assign taxonomy=sidebar.taxonomy | default: true %}
-    {% assign tags=sidebar.tags | default: false %}
-    {% assign exclude=sidebar.exclude | default: "" %}
-    {% assign news=page.news | default: false %}
-<div class="row">
-    <div class="col-md-8 p-2">
-        <div class="row">
-                {% for post in paginator.posts %}
-                    {% assign type=item.type | default: post %}
-                        <div class="col-md-4 mb-2">
-                           {% include elements/card.html item=post %}
-                        </div>
-                {% endfor %}
-                {% if paginator.total_pages > 1 %}
-                <div class="d-flex justify-content-center mb-2 mt-2">
-                    {% include pagination.html pagination=paginator %}
-                </div>    
-                {% endif %}
-        </div>
-    </div>
-    <div class="col-md-4 border-start border-light-subtl">
-        {% include sidebar/sidebar.html
-            exclude_current_category=exclude_current_category
-            tags=tags
-            taxonomy=taxonomy
-            news=news
-            sidebar=sidebar
-        %}
-    </div>
-</div>
+<nav class="category-nav">
+  {% for post in site.posts %}
+    {% comment %} Extraction de la catégorie et recherche de la couleur associée {% endcomment %}
+    {% assign first_cat = post.categories | first | custom_slugify %} 
+    {% assign cat_info = site.data.categories | where: "name", first_cat | first %}
+    
+    {% comment %} Couleur trouvée ou gris par défaut {% endcomment %}
+    {% assign border_color = cat_info | default: cate_info.default | replace: '#', '' %}
+
+    <a href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
+      <i data-lucide="chevron-right"></i>
+      <span class="cat-name">{{ post.title }}</span>
+    </a>
+  {% endfor %}
+</nav>

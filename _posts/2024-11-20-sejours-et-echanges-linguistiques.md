@@ -34,7 +34,9 @@ Il est possible de combiner des activités sportives, culturelles ou un job.  Le
 
 En Belgique l'ASBL [**ABELIO**](https://abelio.org) regroupe des organismes de séjours linguistiques ayant un siège social en Belgique et qui ont souscrit à sa [**charte de qualité**](https://www.abelio.org/charte-de-qualit%C3%A9).
 
-{% include elements/notice.html alert="info" text="Il existe une norme européenne s'appliquant au organismes de séjour linguistique: la norme **NF EN 14804** (téléchargeable _via_ le lien ci-dessous)" %}
+{% alert info %}
+Il existe une norme européenne s'appliquant au organismes de séjour linguistique: la norme **NF EN 14804** (téléchargeable _via_ le lien ci-dessous)
+{%endalert%}
 
 A la recherche d'un organisme? C'est par [**ici**](/organismes)!
 
