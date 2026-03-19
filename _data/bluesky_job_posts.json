@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhgn2mmnhg2w",
+      "cid": "bafyreiaobgt6syu5njobz34ytxydhx3w6ryeu3djoavdaifqa256z7vpfi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-19T18:29:52.859Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=59d0f0e7208378cd&q=%C3%A9tudiant&l=Waterloo&tk=1jk3d4jhpg2gv80l&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDi67I3lDi8wkAevj0LbzkdCdPP&xfps=ce57894d-9413-47e3-ace8-a6e6b6eb85c8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jk3d4jhpg2gv80l&xkcb=SoCV67M3lDSdW1Wsw50DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/3XZvkd4"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) support administratif & marketing à Uccle\nLe profil idéal:\n- tu communiques facilement et avec professionnalisme\n- à l’aise avec Instagram, Facebook et les outils digitaux\n- tu as un intérêt pour le marketing, la communication et l’univers de l’esthétique \nbuff.ly/3XZvkd4\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=59d0f0e7208378cd&q=%C3%A9tudiant&l=Waterloo&tk=1jk3d4jhpg2gv80l&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDi67I3lDi8wkAevj0LbzkdCdPP&xfps=ce57894d-9413-47e3-ace8-a6e6b6eb85c8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jk3d4jhpg2gv80l&xkcb=SoCV67M3lDSdW1Wsw50DbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-19T18:29:53.450Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhd5offjyi22",
       "cid": "bafyreiagv57ictfvrxceat7c57rauzekxubofvpj6n6euysjay6kiq6uwy",
       "author": {
@@ -8398,95 +8478,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-19T16:44:02.330Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcs2tqzcye2b",
-      "cid": "bafyreig32wdaxvzu43wfvfwwiqpwbfzv6aqdh56jlse3gsqgedqgop237i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-19T16:29:53.234Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "IntroductieOffre d’emploi étudiant – Support logistique et digitalisation des stocks (Nivelles)Nous avons une belle opportunité à te proposer dans une entreprise logistique située à Nivelles.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant en Logistique",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5325544?JobId=5325544&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/UTMGlfZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant(e) en logistique Nivelles\n- Étudiant(e) en supérieur\n- À l’aise avec les outils informatiques, notamment iPad et Excel\n- Dispo 2 jours/semaine afin de permettre la finalisation du projet  (mardi et jeudi)\n- Il te reste minimum 300 heures dans ton contingent étudiant. \nbuff.ly/UTMGlfZ\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5325544?JobId=5325544&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=b",
-          "title": "Etudiant en Logistique",
-          "description": "IntroductieOffre d’emploi étudiant – Support logistique et digitalisation des stocks (Nivelles)Nous avons une belle opportunité à te proposer dans une entreprise logistique située à Nivelles.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-19T16:29:54.330Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
