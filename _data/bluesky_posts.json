@@ -68,13 +68,13 @@
         "text": "L'Extrême droite se situe... à l’extrême du spectre idéologique de la droite. Elle possède 3 caractéristiques qui la distingue de la droite traditionnelle  : le nativisme, l’autoritarisme et une conception particulière de l'Etat et de la démocratie.  \n#citoyenneté #extremedroite"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730",
           "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
           "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -158,13 +158,13 @@
         "text": "- Principe de base: 50-30-20\n- Outil de base: un classeur Exel\n#QualitéDeVie #VieQuotidienne"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/recevoir-ta-premiere-paie-c-est-bien-mais-comment-la-gerer-11658792",
           "title": "Recevoir ta première paie, c’est bien, mais comment la gérer ? - RTBF Actus",
           "description": "La première étape, c’est de lister toutes tes rentrées d’argent : argent de poche, petit boulot, bourses, aides ou...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibo6j32diulyx77aagru5ffycfbx3ihk5jzfs2ckigsbsuouba5sa"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -303,12 +303,12 @@
         "text": "UK is back in 2027 ! Le Royaume-Uni sera associé au programme Eurasmus+.  Cette association offrira d'importantes opportunités aux citoyens du Royaume-Uni et de l'Union européenne, en particulier aux jeunes générations.\n#europe #erasmus #yotm #hw #MobilitéInternationale #international\nbitl.to/5WEB"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://bitl.to/5WEB",
           "title": "Eurodesk",
           "description": "Eurodesk webpage"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -380,13 +380,13 @@
         "text": "Adoptée en 2023 par l'Administration Biden pour sa lisibilité et son accessibilité ; la typologie \"Calibri\" est jugée wokiste et trop peu \"professionnelle\" par l'Administration Trump qui rétablit la police \"Times New Roman\". \n#USA"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lalibre.be/international/amerique/2025/12/11/fini-la-typographie-calibri-ce-qui-se-cache-derriere-le-retour-en-arriere-adopte-par-ladministration-trump-RUPP5NNHZFGHLP5QARMQ3GJ64Y/",
           "title": "Fini la typographie \"Calibri\": ce qui se cache derrière le retour en arrière adopté par l'administration Trump",
           "description": "Les diplomates américains sont dorénavant soumis à une surprenante mesure. Il leur est interdit d'utiliser une certaine typographie... La police...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaahkofw4njhaqleexlzz7bp4z4afnkjkjhhbb7owbncfjygnwmzu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -482,13 +482,13 @@
         "text": "Le homeworking bientôt accessible aux chirurgiens?\n#tech #santé #médecine"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/magazine/sante/voici-la-revolution-que-la-medecine-attendait-une-specialiste-ecossaise-reussi/2026-01-04/article/775504",
           "title": "« Voici la révolution que la médecine attendait » : une spécialiste écossaise a réussi à traiter un AVC à distance grâce à la robotique",
           "description": "Une spécialiste écossaise a réussi à traiter un AVC à distance grâce à la robotique. Une première mondiale à réaliser pour l’instant sur un porc, mais qui ouvre la voie à des interventions quand le…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidvrvphdm7wkcay6rkgklj2lytqunc5wi62gsetoddfde4svltvim"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -644,13 +644,13 @@
         "text": "Après l'Australie, la France entend interdire l'accès aux réseaux sociaux aux moins de 15 ans à partir du 01/09/2026. Et chez nous? L'idée de relever l'âge minimal, actuellement fixé à 13 ans, fait son chemin.\n#tech #RS #SN #MajoritéNumérique #multimedia #numérique #tic #SocialMedia"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.moustique.be/notre-selection/2026/01/02/faut-il-interdire-les-reseaux-sociaux-aux-jeunes-de-moins-de-15-ans-apres-laustralie-et-bientot-la-france-la-belgique-va-devoir-trancher-en-2026-SIPFCCYUPVALZGUAJ4BKDYPAMY/",
           "title": "Faut-il interdire les réseaux sociaux aux jeunes de moins de 15 ans? Après l'Australie et bientôt la France, la Belgique va devoir trancher en 2026",
           "description": "La France s’apprête à franchir un cap en matière de régulation numérique, dans le sillage de l’Australie. Quid chez nous ?",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibnxdkqpff33szzjhi2c3ofcjhkonxiemmwjnkc666kpvegznyla4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -796,13 +796,13 @@
         "text": "Voilà qui va les consoler @unesco.org \n#italie #carbonaragate #europe #unesco\nwww.rtbf.be/article/la-c..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/la-cuisine-italienne-sacree-par-l-unesco-l-occasion-de-faire-connaitre-autre-chose-que-les-pizzas-et-les-pates-11647727",
           "title": "La cuisine italienne sacrée par l’Unesco : l’occasion de faire connaître autre chose que les pizzas et les pâtes - RTBF Actus",
           "description": "La gastronomie italienne était déjà mondialement célèbre avec ses pâtes fraîches ou sèches, ses pizzas, ses sauces...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihuoas7r3oua7vsdzfqcqv5jqeqqh7ygbugeki6uybyg4d3lkrapq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -898,13 +898,13 @@
         "text": "+17Mi 📱 inutilisés en 🇧🇪 . 5,7Mi revendables, valeur: € 150-200/p. Le solde c'est 646,4T de minerais comme Co et Au. Valeur: € 29,35Mi. 642Mi de téléphones inutilisés en Europe, 5000T Co, 431T Sn, 8.62T Au. Soit € 1.1Md.  Ca donne le tournis hein!\n#consommation #environnement #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/conso/des-millions-de-telephones-trainent-dans-nos-tiroirs-mais-peuvent-encore-valoir/2025-12-11/article/773196",
           "title": "Des millions de téléphones traînent dans nos tiroirs, mais peuvent encore valoir entre « 150 et 200 euros », voici pourquoi",
           "description": "Entre 5 et 17 millions de téléphones déjà utilisés dorment dans les foyers belges. Bien que beaucoup les pensent sans valeur, ils sont pourtant une véritable ressource inexploitée et avec de la…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaa4uci5oxck5iknj7gg4x3nsn3nz6ogk5n77laq7kvrlghi3fpjy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1012,13 +1012,13 @@
         "text": "12 km à pied, jusqu'à 18T de déchets collectés par personne et par jour. Ce n'est peut-être pas le plus beau métier du monde, mais son utilité est indéniable.\nPensons-y avant de s'impatienter et d'invectiver.\nRespect!\n#travail #emploi #reportage #danslapeaude"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/dans-la-peau-d-un-eboueur-decouvrez-les-coulisses-d-un-metier-indispensable-et-exigeant-11645788",
           "title": "Dans la peau d’un éboueur : découvrez les coulisses d’un métier indispensable et exigeant - RTBF Actus",
           "description": "Dès le début de la tournée, le chargeur Stefan Di Cara insiste sur les règles de sécurité fondamentales....",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2kw4b337crffzdqq2xnkfhrlktye2qhmahwhwc4ate6ooh6kj3e"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1090,13 +1090,13 @@
         "text": "Le Président Trump confond la 6G avec la 6K. Il ne manquerait plus que la confusion survînt à 6H...\n#tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.frandroid.com/telecom/2906647_ca-permet-de-voir-la-peau-de-quelquun-plus-en-detail-donald-trump-parle-de-la-6g-sans-avoir-la-moindre-idee-de-ce-dont-il-sagit",
           "title": "\"Ça permet de voir la peau de quelqu'un plus en détail ?\" : Donald Trump parle de la 6G sans avoir la moindre idée de ce dont il s'agit — Frandroid",
           "description": "Lors d'une réunion filmée, le président des États-Unis s'est mis à parler de la 6G sans savoir ce que c'est. La preuve en images. Donald Trump dans son",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiec4r3lq2c6acdzcu5acc7so5drauv7u44s7lsv5edjdhpvr5pilu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1168,13 +1168,13 @@
         "text": "Les raisons invoquées incluent un manque de soutien social, une frontière floue entre vie privée et vie professionnelle, ainsi que le climat géopolitique international anxiogène. \n#santé"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/une-augmentation-de-136-depuis-2018-comment-expliquer-lexplosion-du-nombre-de/2025-12-12/article/773299",
           "title": "Une augmentation de 136 % depuis 2018 : comment expliquer l’explosion du nombre de burn-out chez les jeunes travailleurs ?",
           "description": "Le nombre de burn-out chez les jeunes actifs a explosé de 136 % depuis 2018, selon une étude des Mutualités libres. Voici les causes avancées.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihrbcl75lpzlz3yh6iz3mda735agbmkblyvowv4mk6vzqn2zoje4i"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1258,13 +1258,13 @@
         "text": "Le 14/03 un flash lumineux traverse l'espace observable. Trois mois plus tard, le télescope spatial James-Webb en révélait l'origine : une supernova qui a explosé quand le cosmos n'avait que 730 millions d'années d'existence.  Son âge: 13Mrd d'années...\n#sciences #astronomie"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lesnumeriques.com/astronomie-conquete-spatiale/cet-evenement-est-tres-rare-et-tres-excitant-james-webb-devoile-la-supernova-la-plus-ancienne-jamais-observee-dans-l-univers-n247956.html",
           "title": "“Cet événement est très rare et très excitant” : James-Webb dévoile la supernova la plus ancienne jamais observée dans l'Univers",
           "description": "Le 14 mars dernier, un flash lumineux traversant l'Univers observable a déclenché une course contre-la-montre scientifique. Trois mois plus tard, le télescope spatial James-Webb révélait l'origine de…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibsz6sii47ipzaomqs7smgocrkbgdltsbzsm7frmvvwmqqads2vem"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1385,13 +1385,13 @@
         "text": "CNN est une chaîne d'information critique à l'égard de l'Administration Trump... Si ce n'est pas une tentative de muselage ça y ressemble... Quand Trump dit à l'Europe \"Faites ce que je dis, pas ce que je fais\"\n#USA #Trump #Europe\nbitl.to/5QgF"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://bitl.to/5QgF",
           "title": "Trump veut que CNN, propriété de Warner, change de mains pour licencier ses dirigeants",
           "description": "Donald Trump a publiquement déclaré que CNN, une chaîne d’informations critique à l’égard de son administration, devrait voir ses dirigeants remplacés. Il favorise ainsi l’offre de rachat de Paramount...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreife3qwgdhjtlfwhp65bvqrw22upgrh2ylo46pzglwwpemydqqssoe"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1475,13 +1475,13 @@
         "text": "Le gouvernement fédéral approve l'extension des flexijobs à tous les secteurs. Les conditions attractives sont maintenues: la cotisation patronale reste fixée à 28 % et le revenu annuel maximum porté à 18.000 euros. Entrée en vigueur avant l'été 2026.\n#emploi #travail"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.vrt.be/vrtnws/fr/2025/12/11/le-gouvernement-federal-a-approuve-l-extension-des-flexi-jobs-a/",
           "title": "Le gouvernement fédéral a approuvé l'extension des flexi-jobs à tous les secteurs, d'ici l'été 2026 | VRT NWS: le site d'information de référence",
           "description": "Le travail à temps partiel flexible sera possible dans tous les secteurs public et privé avant l'été 2026. Le gouvernement fédéral a pris cette décision sur proposition du ministre de l'Emploi, David…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia6slqn63b5rt6svb4mo5rgie4ruimkn7jhszqjtccmg5y5ze6n3i"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1553,13 +1553,13 @@
         "text": "C'est toujours bon à savoir...\n#tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/whatsapp-ne-fonctionnera-plus-sur-ces-smartphones-des-ce-mois-de-decembre-2025-11645603",
           "title": "WhatsApp ne fonctionnera plus sur ces smartphones dès ce mois de décembre 2025 - RTBF Actus",
           "description": "Ça sera une fois de plus le cas dès le mois de décembre 2025. WhatsApp a en effet annoncé que huit smartphones ne...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreic6tpsy3k72n7qgxtsdy5fjj5s5ryyqsbxgbfm26okwazytbvdrbq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1643,13 +1643,13 @@
         "text": "Job étudiants: le plafond de moyens de subsistance passe de 5.265 à 12.000 euros, tout en restant  fiscalement à charge des parents. \nFlexijobs: Le plafond de rémunération pour les flexi-jobbers non retraités est relevé de 12.000 à 18.000 euros par an.\n#travail #emploi"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.7sur7.be/economie/ce-qui-change-aujourdhui-pour-vos-impots-et-combien-cela-peut-vous-couter~a04450ee8/",
           "title": "Ce qui change aujourd’hui pour vos impôts et combien cela peut vous coûter",
           "description": "La Chambre s’apprête à approuver aujourd’hui un ensemble de mesures fiscales qui toucheront directement la déclaration d’impôts de l’an prochain. Suppressions, réductions ou gels de plusieurs…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigzjdwf2mtxrl4nvkkrvoeflhdemyfsnlzinwesf2fuvsmjgbaoyy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1781,13 +1781,13 @@
         "text": "N'en déplaise à Trump et à son ministre de la Santé qui ne ratent pas une occasion de tacler la communauté scientifique, l'accusant de diffuser des études mensongères et/ou biaisées.\n#usa #science #oms #autisme #santé #QualiteDeVie"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/il-n-y-a-pas-de-lien-entre-l-autisme-et-les-vaccins-confirme-l-oms-sur-base-de-31-etudes-compilees-11646748",
           "title": "Il n’y a pas de lien entre l’autisme et les vaccins, confirme l’OMS sur base de 31 études compilées - RTBF Actus",
           "description": "Le rapport de l'OMS compile les conclusions de 31 études. 'Toutes arrivent à la conclusion' de l'absence d'un lien de...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiakgw3lhl2xfduwpgkl6s242s6x6fn2f7s6egbs7yo6hy4wldmsv4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1883,13 +1883,13 @@
         "text": "Cocoricooo! Le meilleur chocolat se trouve en Belgique. Et quand les Français eux-mêmes le disent ça sonne encore mieux! \n#QualiteDeVie #gastoronomie #chocolat"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.radiofrance.fr/francebleu/podcasts/ici-chez-nos-voisins/le-meilleur-chocolat-se-trouve-en-belgique-8903145",
           "title": "Le meilleur chocolat se trouve en Belgique",
           "description": "Les fêtes de fin d’année se rapprochent… et pour le chocolat, on peut faire confiance à nos voisins belges !",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwgn3uzcbeo7mxa4slymyijajerqyn4fw3tuxxf474jr3d25zawy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -1985,13 +1985,13 @@
         "text": "Les USA ne veulent pas que l'Europe change autant. Et d'attaquer tous azimuts des décisions qui sapent la liberté politique, d'expression, qui répriment l’opposition politique...\nC'est un peu la parabole de la paille et de la poutre, non?\n#USA #Trump #Europe"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/l-europe-prend-certaines-mauvaises-directions-affirme-trump-11644843",
           "title": "L’Europe 'prend certaines mauvaises directions', affirme Trump - RTBF Actus",
           "description": "'L’Europe doit faire très attention', a déclaré le président américain à la presse à la Maison Blanche, ajoutant :...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifkx5c2q7pwttcr5biezpszd2movuhjv4xwsrddzxof2mnebllzma"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -2063,13 +2063,13 @@
         "text": "Poésie versus cabaret. Le monde culturel français est en émoi et adresse une lettre ouverte à la Ministre de la Culture Rachida Dati. L'appartement de Jacques Prévert - inventeur du terme \"cadavre exquis\" - est menacé par le projet d'extension du Moulin Rouge. \n#Culture"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lalibre.be/international/europe/2025/12/08/ne-laissez-pas-sevanouir-ce-morceau-dhistoire-plus-de-100-personnalites-francaises-du-monde-culturel-ecrivent-une-lettre-ouverte-a-rachida-dati-57SCRRZT2FG5JPMSHWWCVXQPTA/",
           "title": "\"Ne laissez pas s'évanouir ce morceau d'Histoire\": plus de 100 personnalités françaises du monde culturel écrivent une lettre ouverte à Rachida Dati",
           "description": "Menacé par un projet du Moulin-Rouge, l'appartement parisien de Jacques Prévert, resté intact depuis 1955, pourrait disparaître.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreic3waikxj6dzw6dndtspb5mrhryellgl22zro6wkfrqngpb3doqui"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2165,13 +2165,13 @@
         "text": "Disparue en 2014 la période d'essai va être réintroduite.  Durant les 6 premiers mois chacune des parties pourra mettre fin au contrat de travail moyennant le respect d'un délai de préavis d'1 semaine. \n#travail #emploi #begov"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/reforme-du-travail-la-periode-d-essai-fait-son-retour-11645142",
           "title": "Réforme du travail : la période d’essai fait son retour - RTBF Actus",
           "description": "Le gouvernement fédéral s’est accordé sur le retour de la période d’essai, supprimée en 2014. Durant les six...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiekauna4w6rndonyu5pv4j275byfjqhmkar2tsmdngkrw5hmzyz2m"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2279,13 +2279,13 @@
         "text": "Depuis le 09/12 14:00 les Australien.nes de moins se 16 ans sont interdits de réseaux sociaux.\n#tech #RS #Australie #Internet"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/monde/international/la-mesure-fait-parler-depuis-plusieurs-jours-cest-maintenant-chose-faite/2025-12-09/article/772980",
           "title": "La mesure fait parler depuis plusieurs jours, c’est maintenant chose faite : l’Australie interdit les réseaux sociaux aux moins de 16 ans dès ce mardi",
           "description": "À partir de 14h heure belge, les jeunes australiens de moins de moins de 16 ans n’auront légalement plus accès aux réseaux sociaux.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigogqnxsaq4nhx2kikyj4qtixw2ak75qu3cfhaon6yjpyrxu454za"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2393,13 +2393,13 @@
         "text": "L'accord conclu entre les régions wallonne et flamande prévoit, entre autres, le partage des annonces de job par les Forem & VDAB. Par ailleurs refuser un emploi proposé de l'autre côté de la frontière linguistique pourra entraîner des sanctions. \n#Belgique #Wallonie #emploi #walgov"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/economie/des-controles-et-des-sanctions-un-wallon-ne-peut-plus-refuser-un-emploi-en/2025-12-08/article/772864",
           "title": "« Des contrôles et des sanctions » : un Wallon ne peut plus refuser un emploi en Flandre « sans raison valable »",
           "description": "Les entreprises flamandes cherchent de la main-d’œuvre en Wallonie et les demandeurs d’emploi wallons n’osent pas toujours franchir la frontière linguistique. Un nouvel accord entre les deux régions…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicw2s6bcnxwxptjysy3ibnj2fn5gm6lftjyiq4ctavkhyb5zcw2ry"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2483,13 +2483,13 @@
         "text": "Il rêvait du Prix Nobel de la Paix - attribué à la vénézuélienne Maria Corina Machado.  Son ami et patron de la FIFA, Gianni Infantino, le console en lui décernant le premier 'Prix pour la paix de la FIFA'. Gageons qu'il ne briguera pas le prix Nobel de médecine...\n#fifa #trump"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/prive-de-prix-nobel-de-la-paix-donald-trump-se-voit-remettre-le-prix-de-la-paix-de-la-fifa-un-prix-taille-sur-mesure-pour-le-president-americain-11643459",
           "title": "Donald Trump reçoit le 'prix de la paix de la FIFA' : un prix controversé, taillé sur mesure pour le président américain - RTBF Actus",
           "description": "Le président américain Donald Trump a été nommé vendredi premier lauréat du nouveau 'Prix de la paix de la Fifa',...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidh4nzrx36wawus7o3krbdjm4v66oossy4g3hmuayxc5yyutjz6v4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2597,13 +2597,13 @@
         "text": "Dans le viseur: le manque de transparence et l'accès aux données publiques ; ainsi que les \"badges bleus\", ces comptes payants qui bénéficient d’une plus grande visibilité. La protection des internautes contre les contenus illicites n'est pas suffisante.\n#tech #X #Europe #CE"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/120-millions-d-amende-infliges-au-reseau-social-x-par-l-union-europeenne-11643173",
           "title": "120 millions d’amende infligés au réseau social X par l’Union européenne, 'une attaque contre le peuple américain' dit Rubio - RTBF Actus",
           "description": "Pour arriver à cette amende de 120 millions d’euros, la Commission européenne a enquêté pendant deux ans. Elle a...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreichl5j2owkddv43gesv4c4su72oowikkphnz6jqpjh56bzrphpngi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2699,13 +2699,13 @@
         "text": "L'IA participe de la démocratisation de la connaissance ; mais à une double condition: 1) négliger son impact écologique, 2) minimiser le risque de dégradation de facultés analytiques (\"abdication cognitive\" ou perte de la pensée critique).\n#IA #Tech #opinion"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.la-croix.com/a-vif/avec-l-essor-de-lia-nous-ne-serons-bientot-plus-capables-de-distinguer-le-vrai-du-faux-20251122",
           "title": "« Avec l’essor de l’IA, nous ne serons bientôt plus capables de distinguer le vrai du faux »",
           "description": "L’IA va-t-elle finir par penser à notre place ? Au cœur des Entretiens de Valpré 2025 (1), la question interroge Catherine Marshall et Damien Larrouqué qui s’inquiètent du devenir de la recherche en…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifuvpfrek5clnoio2p2kcejmot4ezxjy73vkrvesbavj2nratfvam"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2789,13 +2789,13 @@
         "text": "Le gouvernement prévoit d’imposer l’utilisation d’outils d’identification fiables comme ItsMe ou MyGov. Selon les chiffres avancés par le ministre compétent, 1 emprunteur/5 est confronté à un bureau de recouvrement, 1/3 d'entre eux ont moins de 24 ans.\n#consommation #conso"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.bruxellestoday.be/economie/mineurs-buy-now-pay-later.html",
           "title": "Les mineurs n’auront plus accès aux applications \"buy now, pay later\"",
           "description": "L’annonce a été faite lundi par le ministre de la Protection des consommateurs, Rob Beenders (Vooruit), qui pointe un vide juridique ayant permis aux jeunes de contracter discrètement des crédits,…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihih546643tq7xpp3tg4zi5hjnw3edudzntmyq2asy7o5gtdv2ia4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -2916,13 +2916,13 @@
         "text": "Jacques n'a pas dit \"buvez de l'eau de Javel\"! je répète, Jacques n'a pas dit \"buvez de l'eau de Javel!\" \n#IA #tech #Claude\nwww.rtbf.be/article/boir..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/boire-de-la-javel-ce-n-est-pas-si-grave-l-ia-claude-inquiete-ses-createurs-avec-des-comportements-malveillants-11640714",
           "title": "'Boire de la Javel ce n’est pas si grave' : l’IA Claude inquiète ses créateurs avec des comportements malveillants - RTBF Actus",
           "description": "Après un test, mené par des chercheurs d’Anthropic, l’intelligence artificielle a prouvé qu’elle était notamment...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiflqsjufrwmdrkxwv4btjj423psuxsj73ejaqxvmnmjibwcbtmbrq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3018,13 +3018,13 @@
         "text": "1953. Une étude établit la relation entre tabagisme et cancer du poumons.  Le business du tabac est en danger. L'industrie du tabac mène alors une politique négationniste en finançant des études tronquées et biaisées.  2025, Meta enterre le projet 'Mercure'. \n#meta #tech #RS"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.slate.fr/tech-internet/meta-etude-censure-interne-dangers-reseaux-sociaux-sante-mentale-jeunes",
           "title": "Meta aurait enterré une étude interne révélant les dangers des réseaux sociaux sur la santé mentale",
           "description": "Un document judiciaire évoque une étude interne à Meta, nommée «Projet Mercure», qui aurait démontré les effets négatifs de Facebook sur les plus…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicbhw2qs4a6ze5afvli6uoqcf2d7ijuzsrr24fneucgmhgplrrhey"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3120,13 +3120,13 @@
         "text": "Le tendon d'Achille de l'IA c'est sa dépendance aux données. 2 recherches ont démontré qu'un nombre restreint de fichiers malveillants suffisent à contaminer un modèle.  L'empoisonnement de données est en outre réalisable et reproductible à grande échelle.\n#IA #tech\nbuff.ly/UkK6vLO"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/qu-est-ce-que-l-ai-poisoning-ou-empoisonnement-de-l-ia-11633690",
           "title": "Qu’est-ce que l’'AI poisoning' ou empoisonnement de l’IA ? - RTBF Actus",
           "description": "Le mot 'empoisonnement' évoque d’abord le corps humain ou les milieux naturels. Mais il désigne aussi un phénomène en...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamza5j7ac7jbhcvq256ssf5va4whuhr3mtxva5muiaixrxmf7irq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -3222,13 +3222,13 @@
         "text": "L'Europe simplifie la réglementation relative à l'IA.  Il faut revenir dans la course.  Elle permet ainsi l'utilisation sans consentement de données personnelles pour entrainer des modèles IA. Au grand regret des défenseurs de la vie privée et des droits civiques.\n#europe #IA #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/l-ue-veut-assouplir-ses-regles-sur-l-ia-et-s-attaque-aux-bandeaux-pour-les-cookies-11634145",
           "title": "L’UE veut assouplir ses règles sur l’IA et s’attaque aux bandeaux pour les cookies - RTBF Actus",
           "description": "La Commission européenne a annoncé mercredi une série de mesures visant à réduire le fardeau réglementaire dans le...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiamx34hgvaewui7w2sinzdoycytzzzhj5k4w2b6grce26dw6ocwzi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3324,13 +3324,13 @@
         "text": "Proximus, Orange Belgium, Mobile Vikings, Digi Communications Belgium et Telenet sont sommés de barrer l'accès à 53 sites populaires de streaming illégal d'ici le 1er décembre. 2025. \n#cybercriminalité #cyberpiracy #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lavenir.net/actu/conso/multimedia/2025/11/26/les-operateurs-belges-sommes-de-bloquer-53-sites-populaires-de-streaming-illegal-papadustream-soap2day-QUXBWG6IVFGZ7ADEMTY2QNDU3A/",
           "title": "Les opérateurs belges sommés de bloquer 53 sites populaires de streaming illégal : Papadustream, Soap2day…",
           "description": "Le service antipiratage du SPF Économie vient de transmettre aux principaux fournisseurs d'accès à Internet (FAI) en Belgique une liste de 53 sites de...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreig46v4nzacbtyqznto72usqiteclzqgertkat7qheweyy3hcbmbv4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3415,13 +3415,13 @@
         "text": "\"L’agrégation de données « innocentes » (...) peut servir à vous discriminer pour une assurance, vous refuser un emploi, vous placer sur une liste de surveillance. Vous n’aviez rien à cacher. Le système a créé quelque chose à vous reprocher.\"\nEdifiant. Glaçant.\n@amnesty.be \n#tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lesoir.be/711561/article/2025-11-18/limposture-de-linnocence-pourquoi-je-nai-rien-cacher-est-une-capitulation?noCookies=1",
           "title": "L’imposture de l’innocence : pourquoi « je n’ai rien à cacher » est une capitulation démocratique",
           "description": "Le mantra « rien à cacher » légitime une surveillance intrusive et biaisée. Nos données, même innocentes, peuvent discriminer, contrôler, manipuler. Défendre la vie privée, c’est préserver liberté,…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidhypfibu4bf453bo7w55kvjdirebxokzyzxtvp2r4n5wo7r6cbtq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3529,13 +3529,13 @@
         "text": "Pour la #genZ la priorité n'est plus le travail mais les conditions de vie.  Le travail n'est qu'un moyen de les améliorer. 92 % des jeunes diplômés accordent plus d'importance à la réussite de leur vie personnelle que professionnelle.\n#quittoking #travail #genZ"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.dhnet.be/conso/travail/2025/11/25/le-quittoking-cette-nouvelle-tendance-des-jeunes-qui-publie-leur-demission-en-direct-sur-les-reseaux-on-ne-vit-pas-pour-travailler-BIRY2UXZRBCI3M7257ELZOJJCI/",
           "title": "Le Quittoking, cette nouvelle tendance des jeunes qui publie leur démission en direct sur les réseaux: \"On ne vit pas pour travailler\"",
           "description": "Après le quiet quitting qui mettait en valeur le fait de faire le strict minimum au travail, la Gen Z s'empare désormais d'un nouveau phénomène : le...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmwqlu2xzye6jrcnqlbfsa55jntryfy5x5mxccz2tccfkso3fusu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3663,13 +3663,13 @@
         "text": "Le Parlement australien a approuvé une législation interdisant l’accès aux réseaux sociaux pour les moins de 16 ans. Le non respect des obligations est punissable d'une amende pouvant aller jusqu'à $AUS 50Mi (plus de €30Mi).\n#tech #RS #CyberSécurité\n \nbuff.ly/zCzUSlN"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/australie-les-autorites-interdisent-l-acces-aux-reseaux-sociaux-aux-moins-de-16-ans-11469943",
           "title": "Australie : les autorités interdisent l’accès aux réseaux sociaux aux moins de 16 ans - RTBF Actus",
           "description": "Le Parlement australien a approuvé jeudi une législation interdisant l’accès aux réseaux sociaux pour les moins de 16...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifecunigyiifkcht7ckad4cugveoql3emx7u4noemukzhz73d2cyi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -3797,13 +3797,13 @@
         "text": "Ce texte imposera aux plateformes d’être plus actives dans la détection et le retrait de contenus haineux ou illicites.  Les plateformes seront responsables de veiller à la légalité de ce qui est proposé sur leurs sites. \n#tech #RS #CyberSécurité\n\nbuff.ly/8Y4xvMf"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/le-dsa-une-etape-historique-cinq-questions-pour-comprendre-comment-lue-va-reguler-la-jungle-du-web-10980510",
           "title": "Le DSA, une 'étape historique'? Cinq questions pour comprendre comment l’UE va réguler la jungle du web - RTBF Actus",
           "description": "Le Far West ou la jungle : une contrée de détrousseurs de diligences ou un chaos végétal repère de bêtes...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreic5oahjl3c77v43nl3xfqbtmimtp7axn7o36xnwe5zvbmgtw3xb3y"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -3943,13 +3943,13 @@
         "text": "La ministre des Médias en Fédération Wallonie-Bruxelles veut interdire les réseaux sociaux aux moins de 15 ans. Elle emboîte en fait le pas à la France qui souhaite impulser une dynamique européenne. \nbuff.ly/xTcLtVJ \n#RS #Tech #Belgique #SafeInternet"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/interdire-les-reseaux-sociaux-avant-15-ans-les-limites-du-projet-en-4-questions-11546854",
           "title": "Interdire les réseaux sociaux avant 15 ans : les limites du projet en 4 questions - RTBF Actus",
           "description": "Au-delà de la question de la pertinence d’une telle interdiction (certains plaident avant tout pour une éducation aux...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib3rgdy3e7utingnouluo36otlofaql5xktpv63bums2ecexrmug4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -4045,13 +4045,13 @@
         "text": "L'idée d'une \"majorité numérique\" fait son chemin en Europe. Le Danemark annonce une loi la fixant à 15 ans, la France y réfléchit et la Belgique en parle. L'Europe prépare une loi sur l'équité numérique. Elle complètera l'arsenal législatif constitué des RGPD, DMA et DSA\n#europe #RS #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/internet-est-une-jungle-pour-nos-enfants-l-ue-veut-legiferer-11637496",
           "title": "Internet est une jungle pour nos enfants : l’Union européenne veut légiférer l'accès des plus jeunes aux réseaux sociaux - RTBF Actus",
           "description": "Il faut renforcer la protection des mineurs en ligne. Ce message revient désormais comme un mantra dans le discours...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihlxivtctecbhmd27icnpv5cvbqewocxoz5icwzs5o7sr23znmkc4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -4147,13 +4147,13 @@
         "text": "La Belgique s'engage à promouvoir l’intégrité des informations relatives au changement climatique.  Jean-Luc Crucke, ministre fédéral du climat, a d'ailleurs annoncé le lancement d’un plan d’action national de lutte contre la désinformation climatique.\n#COP30 #environnement #begov"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/cop-30-la-belgique-signe-la-premiere-declaration-internationale-contre-la-desinformation-climatique-11634743",
           "title": "COP 30 : la Belgique signe la première déclaration internationale contre la désinformation climatique - RTBF Actus",
           "description": "C’est la toute première fois dans l’histoire des COP que le sujet de l’intégrité de l’information est à...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihp7lxkydtsmgp6dmwezsqi5r6z2yslppaf6buvtw4clpe7v4dwzq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4261,13 +4261,13 @@
         "text": "Fini le cellophane ! D'ici 2027 100% de la production - 2 Md de portions/an - sera emballée dans du papier; soit 2500 T de CO₂ de 2.500 T (62 % de l’empreinte carbone de l’emballage). Objectif 2030: emballage 100% recyclable/compostable.\n#environnement #industrie #écologie #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/conso/un-defi-majeur-ce-petit-fromage-apprecie-des-enfants-va-se-reinventer/2025-11-22/article/771256",
           "title": "« Un défi majeur » : ce petit fromage apprécié des enfants va se réinventer complètement d’ici 2027",
           "description": "Bel remplace la cellophane des Babybel par du papier, un tournant destiné à réduire le plastique dans les emballages alimentaires. Une évolution majeure qui soulève encore des défis de production et…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifmktsf27anlbzimsxz5r2akc7i7nscofvrog5hmuffhv6q5hzb7e"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4388,13 +4388,13 @@
         "text": "Pour étudier au Canada, quel programme d’immigration choisir ? Le Figaro Étudiant fait le point sur les différentes possibilités qui s’offrent aux étudiants et jeunes professionnels qui souhaitent partir au Canada. \n@lefigaro.fr \n#yotm #helloworld #MobilitéInternationale #Canada"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://etudiant.lefigaro.fr/article/etudes/pour-etudier-au-canada-quel-programme-d-immigration-choisir-20250804/",
           "title": "Pour étudier au Canada, quel programme d’immigration choisir ?",
           "description": "Il existe des dizaines d’options pour émigrer au Canada. Focus sur les nouveautés et les programmes les plus utilisés.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4490,13 +4490,13 @@
         "text": "Le parti de Giorgia Meloni épingle la vente de produits « à l'italienne » dans le supermarché du Parlement à Bruxelles. On ne peut pas faire référence à l'Italie si le produit n'en provient pas. La cause de l'ire latine? Un pot de sauce carbonara...\n#europe #italie #carbonaragate"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://fr.euronews.com/my-europe/2025/11/19/les-freres-ditalie-de-meloni-lancent-une-croisade-contre-la-carbonara-au-parlement-europee",
           "title": "Le parti de Meloni en guerre contre la carbonara au Parlement européen",
           "description": "Le parti de la Première ministre italienne Giorgia Meloni a rédigé une lettre à la présidente du Parlement européen Roberta Metsola critiquant la vente de produits « à l'italienne » dans le…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibdq37c5hhrinzx2fx55btihwdo4gawzbomnyh7samld5pjg3qa34"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -4554,13 +4554,13 @@
         "text": "L'éditeur du jeu populaire \"Roblox\" a annoncé la mise en place d'un dispositif de vérification  de l'âge via la reconnaissance faciale.  L'objectif est de mieux protéger les jeunes joueurs. Sans vérification de l'âge, l'accès à la messagerie sera désactivé."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/mauvaise-nouvelle-pour-de-nombreux-ados-cette-application-tres-populaire-va/2025-11-18/article/770839",
           "title": "Mauvaise nouvelle pour de nombreux ados : cette application très populaire va bientôt imposer de vérifier son âge pour l’utiliser",
           "description": "Très populaire chez les ados, le jeu vidéo «Roblox» va commencer à contrôler l’âge de ses utilisateurs.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidycwodot7izxcbnov42memmaexexoxtl7julegyacdnscalwmzke"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4632,13 +4632,13 @@
         "text": "Les tests menés ne montrent aucun impact significatif de la recharge rapide sur  la batterie.  Alors non la recharge rapide ne tue pas la batterie.  Il est cependant recommandé de rester dans une fourchette située entre 20 et 80% de charge.\n#tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/le-vrai-du-faux-la-recharge-rapide-a-t-elle-un-impact-negatif-sur-la-batterie-de-votre-smartphone-11632511",
           "title": "Le vrai du faux : la recharge rapide a-t-elle un impact négatif sur la batterie de votre smartphone ? - RTBF Actus",
           "description": "L’expérience, menée par la chaîne HTX Studio, se concentre dans un premier temps sur six iPhone 12 : trois rechargés...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiewbpfu22nrsx76bran24dwmuebfhgcke2p7movaqyb3xabpca64y"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4710,13 +4710,13 @@
         "text": "Un juge fait droit à la contestation d'un automobiliste au motif qu'une amende ne peut être infligée par un opérateur privé. Toute une infraction, fût-elle détectée par un système automatique, doit être confirmée par un fonctionnaire compétent. Cette décision fera-t-elle jurisprudence ?\n#Justice"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://gocar.be/fr/actu-auto/amende/un-juge-belge-invalide-les-amendes-des-radars-troncons-vers-leffondrement-du-modele",
           "title": "Un juge belge invalide les amendes des radars-tronçons : vers l’effondrement du modèle ?",
           "description": "Coup de tonnerre pour les radars-tronçons : le tribunal de Vilvorde vient d’annuler une amende de 53 euros infligée à un automobiliste. Le juge a estimé que la délivrance d’une amende par un…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidbwwtok732yorc7rtk6hxdsvq6qjdhwrnnhislbeo77a5iqvj3d4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4800,13 +4800,13 @@
         "text": "Le gouvernement a annoncé un changement dans l'octroi des aides sociales. Désormais le CPAS devra prendre en compte les ressources de tous les adultes vivant sous le même toit.  Entrée en vigueur dès la publication de l'arrêté-royal.\n#ProtectionSociale #Begov"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/politique/un-enorme-changement-annonce-concernant-les-aides-sociales-cest-inacceptable-que/2025-11-17/article/770683",
           "title": "Un énorme changement annoncé concernant les aides sociales : « Il va y avoir des effets pervers pour plein de ménages », rétorquent les CPAS",
           "description": "Le gouvernement fédéral s’apprête à réformer en profondeur le calcul des aides sociales. Dès la fin de l’année, le montant du revenu d’intégration perçu par un ménage dépendra aussi des revenus de…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicd7t42nd3bmfuwrfdsgsi62fwwb5ohx6oqhdwti4fq3brlkw4onu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -4902,13 +4902,13 @@
         "text": "La loi du 15/5/24 instaurant un \"service citoyen\" au niveau fédéral a été invalidée par la Cour Constitutionnelle pour abus de compétence.  Pour cette dernière la jeunesse et la formation relève des Communautés et non du fédéral. \n#ServiceCitoyen #Droit #Belgique"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/clap-de-fin-pour-le-service-citoyen-le-dispositif-federal-supprime-apres-a-peine-plus-d-un-an-d-existence-11622211",
           "title": "Clap de fin pour le service citoyen : le dispositif fédéral supprimé après à peine plus d’un an d’existence - RTBF Actus",
           "description": "La loi du 15 mai 2024 instaurait un 'service citoyen' à l’échelle fédérale. Saisi par le gouvernement flamand et...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreih3jfivkfgo2zyvvmycylc3j4ogiznskrywxjyi4agvh3s5s2n3bm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5004,13 +5004,13 @@
         "text": "Pour entrer au Louvre avec une toile sans attirer l’attention, ils ont utilisé un subterfuge : un cadre démontable en LEGO et une peinture roulée dans un tube.  L'objectif était d'accrocher l'oeuvre sur le même mur que celui occupé par la Joconde.\n#MuseeDuLouvre #Louvre #Paris"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://policeetrealites.com/2025/11/16/%F0%9F%87%AB%F0%9F%87%B7-paris-louvre-deux-tiktokeurs-belges-reussissent-a-exposer-leur-tableau-pres-de-la-joconde/",
           "title": "🇫🇷 Paris. Louvre : deux tiktokeurs belges réussissent à exposer leur tableau près de la Joconde",
           "description": "Deux tiktokeurs belges ont réussi à accrocher clandestinement leur tableau dans la salle de La Joconde au Louvre, malgré le renforcement de la sécurité. Deux tiktokeurs belges parviennent à accroch…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreif24bvpglbgewm5zd5nj2k6kz5s67zbmelxwz27dvh26rthcdtqqu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5094,13 +5094,13 @@
         "text": "Créée il y a un peu moins de 15 ans la plate-forme d'e-learning Wallangue tirera sa révérence le 31/12/2025. Tu as jusqu'à cette date pour télécharger attestation de suivi et autres résultats de test de niveau.\nWallangue comptait 70k utilisateurs en 2024.\n#Wallonie #elearning"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/wallangues-ne-passera-pas-le-cap-de-l-an-neuf-11630727",
           "title": "Wallangues : fin le 31 décembre - RTBF Actus",
           "description": "Lancée il y a un peu moins de 15 ans, la plateforme permet aux Wallonnes et aux Wallons de s'inscrire gratuitement à un...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreif5yzbiqa5erteyikw6gl6e57ndttzo4narhhh7ymfot323xq5xya"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5184,13 +5184,13 @@
         "text": "Tu es étudiant en BAC1? Tu as jusqu'au 01/12 pour te désinscrire sans impact sur ta finançabilité. Cerise sur le gâteau tu récupèreras 90% du miverval.\n#enseignement\n\nwww.youtube.com/watch?v=9g7q..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.youtube.com/watch?v=9g7q9gkIvoc",
           "title": "Abandon des études / Changement d'orientation",
           "description": "Tu te poses des questions sur tes études,\ntu as entamé des études supérieures et tu réfléchis à les interrompre ?\nTu as jusqu'au 1er décembre pour te désinscrire !!\n\nNous sommes là pour répondre à…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreignczjpyba7oivoewtnz4t3uqi7pn2feqnlo666ldegzgj5fn3uby"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5274,13 +5274,13 @@
         "text": "Dans un monde agressif la politesse est un acte de résistance.  Un geste démocratique ; « Je te respecte, même si je ne suis pas d’accord. Dans une société où l'invective est la norme, elle s'impose comme l'acte quotidien le plus moderne et le plus politique.\n#ResistanceDouce #Philo"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/la-politesse-est-une-forme-de-resistance-douce-pour-le-philosophe-simon-brunfaut-11617910",
           "title": "'La politesse est une forme de résistance douce' pour le philosophe Simon Brunfaut - RTBF Actus",
           "description": "'C’est une belle jeune femme… Maintenant, si vous utilisez le mot 'belle' aux États-Unis en parlant d’une femme,...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibnvhufhral3sxciuvty5vbmlv62nvgnv7f5qjklvaxuekdeycnim"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5415,13 +5415,13 @@
         "text": "Découvre le témoignage de Malorie. Elle nous raconte comment elle a franchi le pas.  Elle nous parle de ses premières galères pour trouver un job, de la façon dont elle a appris l’anglais, de ses rencontres et des voyages en Australie .\n#timetomove #pvt #Australie #yotm #helloworld #international"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.youtube.com/watch?v=NNUJnx9-_QQ&list=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW",
           "title": "Témoignage Malorie  : PVT en Australie",
           "description": "YouTube video by Infor Jeunes Waterloo ASBL",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5532,13 +5532,13 @@
         "text": "Un poisson rouge ne peut pas fixer son attention plus de 8s. Les #millenials ne font guère mieux avec... 9s. Scroll infini, #FOMO (\"fear of missing out\"), dopamine à la demande et algorithme sur mesure, tout est fait pour que nous passions des plombes sur les médias sociaux.\n#digitaldetox #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572",
           "title": "Digital détox : trois applications pour réduire le temps passé sur nos écrans - RTBF Actus",
           "description": "Des applications pour réduire notre temps d’écran ? L'idée peut sembler paradoxale, pourtant elle fait son chemin sur...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibvw72ycnaa3tyeteycvgi5m5hnqv5h2x733wnl6btmyrqe5xemay"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5692,13 +5692,13 @@
         "text": "La @lalibre.be revient sur une théorie datant de 1996 “Deux pays qui ont chacun un McDonald's ne se sont jamais fait la guerre” (Thomas Friedman). La prospérité économique de la classe moyenne est le nerf de la paix. \nC'est du flan. Les Big Mac ne font pas mieux que les colombes.\n#ThéorieMacDo"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.youtube.com/watch?v=uiluDXx1snM",
           "title": "International Relations 101 (#35): The McDonald's Peace Theory",
           "description": "YouTube video by William Spaniel",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihr27xkmytxjhbzbclsfpmhrzkngywrneolgfobxc5kcceg3gjlla"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -5773,13 +5773,13 @@
         "text": "La FWB a décidé d'augmenter le minerval pour réduire ses dépenses.  Le Gouvernement flamand vise une économie de €83Mi.  L'association flamande des étudiants (VVS) estime qu'un étudiant boursier sur 3 pourrait perdre sa bourse. L'herbe n'est pas forcément plus verte ailleurs.\n#Enseignement"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://bx1.be/categories/news/un-millier-de-chaises-vides-devant-le-gouvernement-flamand-pour-denoncer-les-coupes-dans-lenseignement/",
           "title": "Un millier de chaises vides devant le gouvernement flamand pour dénoncer les coupes dans l'enseignement - BX1",
           "description": "La Vlaamse Vereniging van Studenten (VVS), l’association flamande des étudiants, a mené une action mardi après-midi devant le siège du gouvernement flamand, sur la place des Martyrs, dans le centre de...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigu2njwnpo4ruscumiqaa2r2zjjogoblbshdgoyjdyujqr2wowqpy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -5899,13 +5899,13 @@
         "text": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030 \n- Format numérique, accessible via 📱 \n- Validité: 10 ➡️ 15 ans\n- Réactivation instantanée d'un permis expiré\n- Décision de déchéance applicable dans toute l'UE\n#UE #Mobilité #PermisDeConduire #Europe\nbuff.ly/joMqhZz"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/le-nouveau-permis-de-conduire-europeen-arrive-voici-tout-ce-qui-change-dici-2030",
           "title": "Le nouveau permis de conduire européen arrive : voici tout ce qui change d’ici 2030",
           "description": "D’ici 2030, il va y avoir un gros changement pour le permis de conduire en Europe. Celui-ci va passer au format numérique. Il sera donc accessible sur smartphone, mais aussi valable plus longtemps et…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiefc5mu566tez2qlwbbsdyaiupgugi5y56i55redgjm25chfxa2ky"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6016,13 +6016,13 @@
         "text": "A partir de 2026 le minerval standard passera de 835 à 1194€. A côté des étudiants boursiers (0€) et de condition modeste (375€) une catégorie intermédiaire sera créée (835€).  Près d'un étudiant/2 paiera tarif plein.\n#fwb #enseignementsupérieur #enseignement\nwww.rtbf.be/article/budg..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/budget-2026-en-federation-wallonie-bruxelles-hausse-pour-tous-du-prix-du-minerval-dans-l-enseignement-superieur-11614175",
           "title": "Le minerval bientôt plus cher pour un étudiant sur deux dans l'enseignement supérieur - RTBF Actus",
           "description": "Au niveau de l’enseignement supérieur, le conclave budgétaire a décidé de réduire la part du budget de la...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiee3ckgdy65yop3oaxauklxolpjrgmxzeajw5hxmh2vn4geoo4uqi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6121,13 +6121,13 @@
         "text": "Du neuf pour les allocations familiales! Les AF inconditionnelles pour les 18-21 ans c'est fini! A partir de 2026 leur octroi sera conditionné àpd 18 ans à la poursuite des études, au suivi d'une formation ou d'un parcours d'insertion pro.\n#walgov #protectionsociale \nwww.wallonie.be/fr/actualite..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.wallonie.be/fr/actualites/presentation-du-budget-regional-2026",
           "title": "Présentation du budget régional 2026",
           "description": "Économies structurellesLes efforts d'économies structurelles pour 2026 annoncés par le Gouvernement s'élève à 270,4 millions € (268 millions en 2025). Les économies se répartissent comme suit :",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreih4h25h7p6gxtxlakux4z2ue4lp2b24oolvd4nin6xzsvsu7vi22u"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6199,13 +6199,13 @@
         "text": "Spoiler: à partir de 15 ans.\n buff.ly/t4oQTiz"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/carte-didentite-quel-age-est-il-obligatoire-de-lavoir-sur-soi/2025-08-05/article/758829",
           "title": "Carte d’identité : à quel âge est-il obligatoire de l’avoir sur soi ?",
           "description": "Anna a un fils de 10 ans et se demande à partir de quel âge un enfant doit être en possession d’une carte d’identité ?",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifxyiimz3onbtgph4dvvry4dpt52nryuqbg6smpk6xaah74ydneiy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6313,13 +6313,13 @@
         "text": "TikTok peut nuire aux jeunes, surtout les plus fragiles. En cause: l’algorithme qui pousse des contenus anxiogènes.  \n❗ : fatigue mentale, addiction, baisse de l’estime de soi, de l’attention. \n👍 : réduire le temps d'écran, faire preuve d'esprit critique\n#tiktok #tech #socialmedia\nbuff.ly/f9av9aE"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/f9av9aE",
           "title": "TikTok et la santé mentale des adolescents : les alertes de la recherche",
           "description": "Que fait TikTok à la santé mentale des jeunes ? Après l’assassinat d’une surveillante à Nogent (Haute-Marne) par un adolescent de 14 ans, Emmanuel Macron souhaite interdire les réseaux sociaux aux…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibcb76qao4ygzligbgmua72djytu22wvj64mon3iigbp7kq4trnna"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6462,13 +6462,13 @@
         "text": "Et si tu partageais tes données médicales pour faire avancer la recherche?  C'est ce qu'on appelle \"l'altruisme des données\" qui se concrétise via l’European Brain Data Hub, la première AISBL dédiée à l’altruisme des données en matière de santé mentale et du cerveau. \n#science \nbuff.ly/QX7Zft7"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/altruisme-des-donnees-pourquoi-et-comment-vos-donnees-de-sante-pourraient-soutenir-la-recherche-sur-le-cerveau-11521268?ebu_news_id=11521268&ebu_news_org=RTBF&ebu_news_language=fr#ebu_s_id8d54be1b-45df-4468-8ee3-1f6a20af1606",
           "title": "'Altruisme des données' : pourquoi et comment vos données de santé pourraient soutenir la recherche sur le cerveau - RTBF Actus",
           "description": "Et si vos données personnelles de santé permettaient de faire avancer la recherche contre certaines maladies ? Et si vous...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidkkssysrntsp7gcr7yov754n6niy4uyyfw3ebysfv433ijsaxebi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -6552,13 +6552,13 @@
         "text": "Dès l’année prochaine, un conducteur provoquant pourra être jugé pour \"homicide dans le cadre de la circulation\".  Une qualification qui permet au juge de prononcer une peine allant jusqu'à 10 ans de prison en cas de conduite sous influence, sans permis, récidive...\n#justice #CPen"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/VXK3kdj",
           "title": "Un accident de la route pourra être qualifié d’un 'homicide dans le cadre de la circulation' : une victoire pour les victimes - RTBF Actus",
           "description": "C’est un changement important dans le code pénal : dès l’année prochaine, le conducteur qui provoque un accident...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibpmpb4aawzg5hr444g2h3ojoh46nvjjivwcfgj4mmzpkku7rbfjm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6642,13 +6642,13 @@
         "text": "Les universités et hautes écoles de la Fédération Wallonie-Bruxelles ne sont  plus obligées d’organiser les examens en fin de quadrimestre.  Le décret offre à chaque établissement la liberté de fixer ses propres périodes d’évaluation.\n#enseignement #fwb"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/DBW6Mwf",
           "title": "Fin des examens imposés en janvier et juin ?",
           "description": "Les unifs et hautes écoles peuvent désormais choisir leurs périodes d’examens. Bientôt la fin des sessions de janvier et juin ?",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaecjoffy7yc5sbpiexx75zazwlft3rexsuqfoqmukpmgi2u5s7h4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6720,13 +6720,13 @@
         "text": "Voici la nouvelle timeline: d’ici environ 1 Md d’années le soleil deviendra trop chaud, l’augmentation de température fera bouillir les océans. 7 Md d'années plus tard, il engloutira la planète. \nBref il n'y a pas le feu au lac comme on dit.\n#sciences"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/boheuZG",
           "title": "Une nouvelle étude prédit que la fin de l’univers surviendra bien plus vite que prévu… - RTBF Actus",
           "description": "Une équipe de l’université Radboud, aux Pays-Bas, a recalculé la durée de vie de l’univers en s’appuyant sur le...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibciopd6mstaon4vkgadtioplb7qr2t47wyky6hukydchjlxxaiku"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6798,13 +6798,13 @@
         "text": "#bonplan"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/oEgsQfy",
           "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
           "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -6900,13 +6900,13 @@
         "text": "La Belgique a été le second pays au monde à autoriser le mariage homosexuel.  C'était en 2023. Mais ce droit n'est garanti que par une loi ordinaire. Son inscription dans la Constitution constituerait ainsi un verrou contre toute velléité réactionnaire.\n#lgbt #belgique #vieaffective"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/76OEn0C",
           "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
           "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7014,13 +7014,13 @@
         "text": "Tu paies ou tes données seront utilisées/vendues (Si c'est gratuit, c'est toi le produit). Meta préfère que tu optes pour la \"gratuité\" nettement plus rentable; la publicité représente 98% de son CA.  3e voie: opter pour une alternative\n#tech #socialmedia #réseauxsociaux #fediverse"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/fh0TG7e",
           "title": "Payer ou être pisté : que cache le dilemme imposé par Facebook et Instagram ? - RTBF Actus",
           "description": "Cela fait des années que la rumeur va et vient : 'Facebook va devenir payant'. Plaisanteries incrédules ou panique à...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiauxbocu2rxavpvk3wqdf6tockz7gzylqlokqny5sfvrbeywgif6m"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7116,13 +7116,13 @@
         "text": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump. Après avoir dépensé $10 Mi pour les acheter, ils devraient débourser $160 k pour les incinérer... \n#Trump #USA #USAID"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/Y26GQYh",
           "title": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump",
           "description": "Les États-Unis ont financé pour près de 10 millions de dollars de contraceptifs, explique Reuters.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigcqfhz3e6yp6s7otswphjoguwwjbfpqtnleqpxq7car2ruk7jvve"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7206,13 +7206,13 @@
         "text": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne.  Les entreprises devront informer clairement et explicitement leurs clients 15 jours avant tout renouvellement; de manière à leur laisser le temps de la décision.  \n#consommation \nbuff.ly/UwmcIwZ"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/le-renouvellement-automatique-de-vos-abonnements-cest-termine-une-nouvelle-loi/2025-07-23/article/757389",
           "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
           "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7332,13 +7332,13 @@
         "text": "Fini les interdictions de conduite de 3 ou 6h après un test d’alcoolémie positif.  Toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis seulement après un test négatif. \n#mobilité #CodeDeLaRoute #justice #alcool\nbuff.ly/zpYRSgP"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/le-retrait-de-permis-de-3-heures-cest-termine-si-vous-etes-controle-positif/2025-07-19/article/757061",
           "title": "Le retrait de permis de 3 heures, c’est terminé : si vous êtes contrôlé positif à l’alcool, la sanction immédiate sera plus sévère",
           "description": "Fini les interdictions de conduite de quelques heures après un test d’alcoolémie positif : toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigpuhwj7hp3djeecfq3jzzkw7iov2r4tazoz6etxmv43bwowgfree"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7435,13 +7435,13 @@
         "text": "Bien que l'augmentation du seuil de réussite soit repris dans l'accord de majorité; pas encore de fumée blanche en vue... ce n'est donc pas pour tout de suite.\n#staytuned \n\nwww.rtbf.be/article/il-n..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026",
           "title": "Il n'y a pas encore d'accord sur un nouveau seuil de réussite pour le CEB, recadre le cabinet d'Elisabeth Degryse - RTBF Actus",
           "description": "La ministre de l'Enseignement Valérie Glatigny (MR) avait indiqué vendredi et samedi dans différents médias que les...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiecgr2ssbcrezvo7yyxbth2k7xpqujc65ltliepstbzhpo5dccdya"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7601,13 +7601,13 @@
         "text": "La Ministre Valérie Glatigny (MR) a déposé un avant-projet de décret visant à augmenter le seuil de réussite du CEB.  Il passerait de 50 à 60%.  Cette initiative provoque est - évidemment - accueillie froidement par le monde de l'enseignement.\n#enseignement #fwb #staytuned\nbuff.ly/h0d77kr"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/bientot-plus-de-doubleurs-lecole-ce-projet-de-valerie-glatigny-pourrait-ne-pas/2025-07-05/article/755497",
           "title": "Bientôt plus de doubleurs à l’école ? Ce projet de Valérie Glatigny pourrait ne pas plaire à beaucoup d’élèves",
           "description": "La ministre de l’Éducation de la Fédération Wallonie-Bruxelles, Valérie Glatigny, a déposé un avant-projet de décret qui relève le seuil de réussite au CEB, CE1D, et CESS à 60 % au lieu de 50 %…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigkhqidoh4t5gaavz2r7cydoc56kzmmoscnhne6lhgaogwkvy52tu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -7727,13 +7727,13 @@
         "text": "Les hirondelles reviennent avec le printemps, les festival avec l'été. Piqûre de rappel sur ce qu'il ne faut pas prendre avec soi pour ne pas s'embrouiller avec les gros bras de la sécu.\n\n#viepratique #loisirs #festivals #summer \n\nbuff.ly/JsXu700"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792",
           "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
           "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7841,13 +7841,13 @@
         "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise",
           "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
           "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -7919,13 +7919,13 @@
         "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/",
           "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
           "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8021,13 +8021,13 @@
         "text": "L’IA est une alliée à condition de bien l’utiliser !  \nElle peut t’aider à résumer tes cours, créer des quiz ou reformuler des concepts difficiles.\n❗l’IA n’est pas infaillible.\n💡 utilise l’IA pour tester tes connaissances, pas pour tricher.  \n#IA #Enseignement \nbuff.ly/zkYoL9C"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/session-d-examens-comment-se-servir-de-l-intelligence-artificielle-pour-reviser-avertissements-et-mode-d-emploi-11560238",
           "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
           "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8085,13 +8085,13 @@
         "text": "Dans le cadre de sa lutte contre le tabagisme, l'OMS propose l'interdiction mondiale des produits de tabacs aromatisés.  Elle pointe les arômes menthol, chewing gum et barbe à papa dont l'objectif est d'appâter les jeunes. Tout comme le packaging et la publicité."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/YXgCsN5",
           "title": "L’Organisation mondiale de la Santé veut interdire les produits de tabac aromatisés - RTBF Actus",
           "description": "Étant donné le nombre de jeunes consommateurs de tabac, l’Organisation mondiale de la Santé a lancé samedi un appel...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibivhkjn24pukeft6moigg6e7skzuqx6dqtddjgv6w2yqwfvdgjj4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8231,13 +8231,13 @@
         "text": "Selon l’OCDE, interdire les écrans ou les #RéseauxSociaux n’a pas prouvé son efficacité. Le contexte, le contenu et le temps d’usage comptent davantage. Une approche éducative et équilibrée serait plus bénéfique que des interdictions strictes.\n#tech #rs #Internet\n\nbuff.ly/5IvhmB7"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/l-efficacite-de-l-interdiction-des-ecrans-ou-des-reseaux-sociaux-n-est-pas-demontree-selon-l-ocde-11547251",
           "title": "L'efficacité de l'interdiction des écrans ou des réseaux sociaux n'est pas démontrée, selon l'OCDE - RTBF Actus",
           "description": "Cette publication intervient alors que Jacqueline Galant, ministre en charge des Médias au sein de la Fédération Wallonie...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidrf4ydkm6vxjd2pk5egedydyv6z7ocmfel3l3i47fa5sj5lmwcqy"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8341,13 +8341,13 @@
         "text": "L’interdiction des #RéseauxSociaux avant 15 ans soulève des questions: légalité (proportionnalité de la mesure), définition du réseau social floue, difficulté de vérifier l'âge.\nLa réglementation européenne sur les plates-formes en ligne (#DSA) n'impose pas le contrôle de l'âge.\nbuff.ly/lPiJNMG"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/interdire-les-reseaux-sociaux-avant-15-ans-les-limites-du-projet-en-4-questions-11546854",
           "title": "Interdire les réseaux sociaux avant 15 ans : les limites du projet en 4 questions - RTBF Actus",
           "description": "Au-delà de la question de la pertinence d’une telle interdiction (certains plaident avant tout pour une éducation aux...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib3rgdy3e7utingnouluo36otlofaql5xktpv63bums2ecexrmug4"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -8467,13 +8467,13 @@
         "text": "Jacqueline Galant propose l'interdiction des #RéseauxSociaux aux moins de 15 ans. Elle affirme que ce n’est pas une punition mais une mesure de protection face aux risques d'une exposition précoce: #cyberharcèlement, exposition à des contenus inappropriés ou troubles mentaux.\n#tech #Internet #rs"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/4bLtv8z",
           "title": "Jacqueline Galant veut interdire les réseaux sociaux aux moins de 15 ans : 'Ce n’est pas une punition mais une protection de nos enfants' - RTBF Actus",
           "description": "L’Australie va interdire les réseaux sociaux aux moins de seize ans en novembre prochain. Et si l’Europe emboîtait le...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihak62gy57xok6fxbhuoblgxv3bftb75dnqxmi24i3bw22mizt2by"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -8605,13 +8605,13 @@
         "text": "L'opérateur low-cost d' #Orange, #Hey!, arrête l'abonnement à 5 balles lancé pour concurrencer #Digi.\n#consommation #télécoms \nbuff.ly/LkkzoMe"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://geeko.lesoir.be/2025/05/12/pourquoi-loperateur-hey-arrete-deja-la-vente-de-son-abonnement-a-5-euros/",
           "title": "Pourquoi l’opérateur hey! arrête déjà la vente de son abonnement à 5 euros ? - Geeko",
           "description": "Cinq mois après avoir lancé une offre à 5€ par mois pour concurrencer l’opérateur roumain Digi, Orange revoit sa position. Les nouveaux clients ne peuvent plus en profiter. En décembre dernier, face…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreietlyxsydh5tah63qkpaq5fxaxdwjgifoissh5w4acwjdqzcisyhe"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8719,13 +8719,13 @@
         "text": "Clique sur le lien \"En savoir plus\", qui suit la mention \"Pas besoin d'autant de data ? Nous avons aussi une offre pour toi\". Et bim! Il est planqué là.\n#mtts #consommation #conso #téléphonie"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/TYoQuh7",
           "title": "Cet opérateur planque sous le tapis son abonnement mobile à 5 € par mois en Belgique",
           "description": "L'effervescence autour de l'arrivée des abonnements mobiles à 5 € par mois retombe en Belgique, au point de pousser la sous-marque low cost d'un grand opérateur télécoms à faire subtilement machine…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigb5qxpswabumuqfyyf4anarm5oehyarbfu5kgthquq33yekiwglq"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8845,13 +8845,13 @@
         "text": "900 jeunes Belges de 18 ans pourront tenter de recevoir un pass Interrail gratuit pour parcourir plus de 30 pays du continent en train. \nDate limite de candidature: 16/04 -12h.\n➡️ youth.europa.eu/discovereu_fr \n\n#mtts #yotm #europe #discoverEu"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570",
           "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
           "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -8971,13 +8971,13 @@
         "text": "Toute décision de retrait, suspension ou restriction du #permisdeconduire par un État membre sera communiquée à l’État qui a émis le permis.  Il devra appliquer la sanction et la communiquer l’interdiction aux autres États \n#mtts #europe #mobilité #justice"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/fini-de-tricher-le-retrait-de-permis-valable-desormais-dans-toute-leurope?utm_source=newsletter&utm_medium=email&utm_campaign=go_daily_fr_v2&emailhash=08ba0c189b6b03b1951350625641d3be8871f00d25fd415624888457e509e2b2",
           "title": "Fini de tricher : le retrait de permis valable désormais dans toute l'Europe",
           "description": "L’Europe a profondément revu la directive sur le permis de conduire. Et cela concerne aussi les contrevenants. Désormais, il ne sera plus question de passe- droit : un permis retiré dans un pays le…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifyii5kcnwrryba2bg5uawafv5n5ukdhrcvfynqvok5gm7whhxs2e"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9073,13 +9073,13 @@
         "text": "Le gris sidéral c'est fini! Hé oui ma bonne m'dame avec temps tout fout le camp\n#mtts #appel #grissideral"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://belgium-iphone.lesoir.be/actu/apple/apple-abandonne-definitivement-une-tradition-vieille-dune-decennie",
           "title": "Apple abandonne définitivement une tradition vieille d’une décennie - Belgium iPhone",
           "description": "Tous les clients d’Apple ont, une fois dans leur vie, déjà acheté un appareil pommé en gris sidéral. Après douze ans de bons et loyaux services, le coloris semble laisser sa place à l’Argenté.…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifvunuqu6j3cmljq3qkcgnlnk2jhoagafixtmr7nd2mz7aakmmpgu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9211,13 +9211,13 @@
         "text": "Apd 02/04/25  #ETA (Electronic Travel Autorisation) obligatoire pour entrer au #RoyaumeUni. Valable pour plusieurs séjours de max de 6 m/voyage, pendant 2 ans, ou jusqu'à l'expiration du passeport.  \nDélai : 3 jours ouvrables\nPrix: £10\nInfos: eta.org.uk/fr/  \n#mtts #uk\nwww.rtbf.be/article/roya..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://eta.org.uk/fr/",
           "title": "UK ETA",
           "description": "Découvrez comment l'autorisation de voyage électronique (ETA) pour le Royaume-Uni simplifie vos déplacements au Royaume-Uni. Renseignez-vous sur les conditions d'éligibilité, les frais et la procédure...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifbetqxuwdn6b6mr4y2o2sngvs5264rbj5mjmiynusg27diirtwpe"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9373,13 +9373,13 @@
         "text": "14/10/ 🪦 #W10. ➡️ #W11 impossible? \n1. Ne rien faire: ton pc sera toujours fonctionnel\n2. Changer d'OS ➡️ #linux ou #chromium (gratuits)\n3. Changer la carte-mère\n4. Changer de machine / payer #microsoft pour qu'il te file une rallonge de màj\n#mtts #tech #windows"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.lavenir.net/actu/conso/multimedia/2025/02/27/fin-de-windows-10-les-5-options-pour-celui-qui-possede-un-vieux-pc-incapable-de-migrer-vers-windows-11-WDRWJ5MJJBBVZGSEHAJUKKHFLY/",
           "title": "Fin de Windows 10 : les 5 options pour celui qui possède un vieux PC incapable de migrer vers Windows 11",
           "description": "Il existe 5 directions à l'heure de gérer la mort du système d'exploitation Windows 10, programmée le 14 octobre 2025. Certaines sont gratuites, d'autres limites les coûts, en privilégiant le…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifwjl7adbpsjhptqf6zvtyz2zh5mhgmxopkm3v7za53vqrst3xdei"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9526,13 +9526,13 @@
         "text": "Les #universités françaises invitées à réfléchir à l'accueil de chercheurs américains en raison de la politique de #Trump  \n#fuitedescerveaux\n#France #USA #mtts\nwww.rtbf.be/article/les-..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/les-universites-francaises-invitees-a-reflechir-a-l-accueil-de-chercheurs-americains-en-raison-de-la-politique-de-trump-11514943",
           "title": "Les universités françaises invitées à réfléchir à l'accueil de chercheurs américains en raison de la politique de Trump",
           "description": "Le gouvernement français a demandé aux acteurs de la recherche de réfléchir aux dispositifs à mettre en place pour...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihftwhoyub3xkljp7xjayganryi25aoku75sdvqfifzwtda6i6hje"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9607,13 +9607,13 @@
         "text": "Immersion au Championnat du monde du cri de la mouette www.rtbf.be/article/imme..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/immersion-au-championnat-du-monde-du-cri-de-la-mouette-11513113",
           "title": "Immersion au Championnat du monde du cri de la mouette",
           "description": "En plein Carnaval de Dunkerque, une tradition aussi insolite que bruyante attire les foules : le Championnat du Monde du...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreialxv7cizaxfhz4tjd3rtkzrdqkdktlgju5mwbfojn44kgj3jm3ce"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9745,13 +9745,13 @@
         "text": "Des scientifiques 🇯🇵  (Nagoya) ont créé un #nanogame. Il s'agit d'un #spaceinvader où le laser un est un rayon d'électron et les aliens des nanoparticules de polystyrène.\nCe jeu ouvre la voie à des applications en #nanotechnologie et en ingénierie biomédicale\n\n#mtts #science #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/d42Lu1L",
           "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
           "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9883,13 +9883,13 @@
         "text": "Des scientifiques  🇯🇵 (Nagoya) ont créé un #nanogame. Il s'agit d'un #spaceinvader où le laser un est un rayon d'électron et les aliens des nanoparticules de polystyrène. Ce jeu ouvre la voie à des applications en #nanotechnologie et  ingénierie biomédicale\n#mtts #science #tech"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/d42Lu1L",
           "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
           "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -9992,7 +9992,6 @@
         "text": "❌ Annulé!\n#mtts #ij1410 #agenda"
       },
       "embed": {
-        "$type": "app.bsky.embed.images#view",
         "images": [
           {
             "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihyt6cymtlcchjzzmgva6zrbegmmezdwznk3bkcuqo7dmwajpqowi",
@@ -10003,7 +10002,8 @@
               "width": 1080
             }
           }
-        ]
+        ],
+        "$type": "app.bsky.embed.images#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -10118,7 +10118,6 @@
         "text": "Les offres de #job / #stage de notre partenaire #clubTeli sont accessibles au téléchargement!\nwww.yotm.be/travailler"
       },
       "embed": {
-        "$type": "app.bsky.embed.images#view",
         "images": [
           {
             "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidf4jkihpu6cs22ld5msfxbiwz6adcdxmlw3bty4k7q5jayzcqdzu",
@@ -10129,7 +10128,8 @@
               "width": 1500
             }
           }
-        ]
+        ],
+        "$type": "app.bsky.embed.images#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -10225,13 +10225,13 @@
         "text": "#Apple corrige un #bug sur la dictée vocale de #iPhone qui transforme \"raciste\" en \"Trump\" \nEt soudain la vérité advient, fugace..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/4iidpyV",
           "title": "Apple corrige un bug sur la dictée vocale de l'iPhone qui transforme \"raciste\" en \"Trump\"",
           "description": "Un bug sur l'option de dictée vocale de l'iPhone a fait apparaître subrepticement le mot \"Trump\" dès qu'un utilisateur prononçait le mot \"raciste\". Plusieurs possesseurs d'iPhone ont témoigné de ce…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigdt2na5q4457ibn2h4zdrpb2xavpbgtk45xapyvcgfazwna42n24"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -10323,13 +10323,13 @@
         "text": "\"Le service sera payé environ 2.000 euros net par mois\"\nhttps://buff.ly/4bhVd6o "
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtl.be/actu/belgique/societe/bientot-un-service-militaire-volontaire-en-belgique-theo-francken-revele-le/2025-02-27/article/740725",
           "title": "Bientôt un service militaire volontaire en Belgique: Theo Francken révèle le salaire prévu pour ces jeunes recrues",
           "description": "La réinstauration du service militaire volontaire en Belgique figure dans l’accord du gouvernement de l’Arizona. Son ministre de la Défense, Theo Francken a expliqué les modalités de ce projet…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifzfnr2kbfhoynwbkq33gb74fhife5yemsygkmuklwklkh6w62uxu"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -10425,13 +10425,13 @@
         "text": "Suspendu depuis 1995 (la 🇧🇪  a été le premier pays européen à suspendre le service miliaire obligatoire), le #ServiceMilitaire fera son retour en 2026. D'une durée de 12 mois et sur base volontaire il concerne les 18-25 ans.\n#mtts #begov"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://buff.ly/4gVGZsV",
           "title": "Bientôt un nouveau service militaire en Belgique: \"Je vais envoyer une lettre à tous les 120.000 jeunes\", annonce Theo Francken",
           "description": "La réinstauration du service militaire volontaire était dans l'accord du gouvernement de l'Arizona. Son ministre de la Défense, Theo Francken, est venu présenter le projet sur le plateau de RTL info…",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid5mzf6izxrvhamfhj4d7vbhabrwovo6ctbjvrofcukp5e6p6g5wm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 1,
@@ -10546,12 +10546,12 @@
         "text": "Le #PermisDeConduire représente un investissement non négligeable qui n'est pas à la portée de toutes les bourses. #Credal, une coopérative active dans l'économie sociale, propose un crédit à 0%  aux Wallon(ne)s \nToutes les infos ⬇️ \n#mtts #mobilité\nwww.credal.be/credit-permi..."
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.credal.be/credit-permis-conduire",
           "title": "Crédal",
           "description": ""
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
