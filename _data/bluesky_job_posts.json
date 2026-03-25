@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhvgpnpl5m2h",
+      "cid": "bafyreic2hrult2ewsqforakqydn45qkebvwqjmxsjipt6mkr4zdilzbgoe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-25T15:46:18.548Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=83002f30205b36f6&q=Etudiant&l=Brussels&tk=1jkatqlr5g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCs67I3lS8dZBzN0p0LbzkdCdPP&xfps=36d8a851-0a7f-470e-a33e-578d51dc17a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkatqlr5g9vg800&xkcb=SoB467M3lKzlEk2iiJ0FbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/imR5JK9"
+              }
+            ],
+            "index": {
+              "byteEnd": 200,
+              "byteStart": 185
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 208,
+              "byteStart": 202
+            }
+          }
+        ],
+        "text": "Etudiant commis de cuisine à Bruxelles\nAu quotidien:\n- faire de la mise en place\n- couper, laver des légumes\n- garnir les sandwiches\n- préparer des salades\n- préparer des gâteaux\n\nbuff.ly/imR5JK9 \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=83002f30205b36f6&q=Etudiant&l=Brussels&tk=1jkatqlr5g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCs67I3lS8dZBzN0p0LbzkdCdPP&xfps=36d8a851-0a7f-470e-a33e-578d51dc17a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkatqlr5g9vg800&xkcb=SoB467M3lKzlEk2iiJ0FbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 1,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-25T15:46:18.953Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhiuxj3rex26",
       "cid": "bafyreiecutz6ojgsnmhc7ne26qgddjlyb74fy5kezkonjh3uhqco3pclpy",
       "author": {
@@ -8374,86 +8454,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-21T14:30:40.637Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcui6exqhy23",
-      "cid": "bafyreidbd6ayjmpixenjqma3m6ufnn3e4xx43i6edmcoxd7e6yxllqg36a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-20T15:33:48.563Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=0e90d5fe3bb88bb9&q=Etudiant&l=Brussels&tk=1jfd2o76ig2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBD67I3ouIXQ-TCVh0LbzkdCdPP&xfps=50e6d51e-7287-4f46-8499-7e1ee249bdba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfd2o76ig2jc800&xkcb=SoCB67M3otAeUR6CQJ0abzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/xvq07LP"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Etudiant – Magasin alimentaire à Laeken\nProfil\n- Âge minimum : 18 ans\n- Personne sérieuse, motivée et responsable\n- Bonne présentation et sens du service client\n- Ponctualité et fiabilité indispensables\n- De préférence domicilié(e) à proximité de Laeken \nbuff.ly/xvq07LP\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=0e90d5fe3bb88bb9&q=Etudiant&l=Brussels&tk=1jfd2o76ig2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBD67I3ouIXQ-TCVh0LbzkdCdPP&xfps=50e6d51e-7287-4f46-8499-7e1ee249bdba&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfd2o76ig2jc800&xkcb=SoCB67M3otAeUR6CQJ0abzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-20T15:33:48.933Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
