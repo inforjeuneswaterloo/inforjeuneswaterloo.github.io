@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhxuzavgu52r",
+      "cid": "bafyreih5r5au5yfpl76vnjjpjsxlqbmy5ziubxop7lhm6qoq42lhxprq5m",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-26T15:07:32.501Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=deb7cc1822c3f7fc&q=Etudiant&l=Brussels&tk=1jkg0tj75g9vg801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC267I3lVakiQAYFj0LbzkdCdPP&xfps=12c6f7aa-a3dc-4078-89c7-d7069b7888c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkg0tj75g9vg801&xkcb=SoBI67M3lQJ5rGUBNJ0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/rbkMqd5"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "Jobistes brancardiers - Bruxelles\nRôle:\n- Assurer le transport des patients\n- Veiller au confort, à la sécurité et au respect des patients\n- Collaborer étroitement avec les équipes soignantes et administratives\n- Respecter les consignes médicales et les procédures internes\nbuff.ly/rbkMqd5\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=deb7cc1822c3f7fc&q=Etudiant&l=Brussels&tk=1jkg0tj75g9vg801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoC267I3lVakiQAYFj0LbzkdCdPP&xfps=12c6f7aa-a3dc-4078-89c7-d7069b7888c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkg0tj75g9vg801&xkcb=SoBI67M3lQJ5rGUBNJ0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-26T15:07:32.953Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhxusvyq3v2h",
+      "cid": "bafyreicsnyeo5vg4sfqgzxbsk75td7fahua6gizimyft6xmrj3t7p22fyu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-26T15:03:59.733Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.jooble.org/desc/7383226514441185356?ckey=%c3%a9tudiant%0a+weekendwerk+jobstudent%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=23&groupId=91728&elckey=-622847923898393815&p=2&avi=5912191998555325618&jobAge=30&relb=110&brelb=110&bscr=25722.02447519988&scr=25722.02447519988&aid=7661389&lt=1&searchTestGroup=2_2_1&iid=-3723517058038553069"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SSpOplB"
+              }
+            ],
+            "index": {
+              "byteEnd": 181,
+              "byteStart": 166
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 188,
+              "byteStart": 182
+            }
+          }
+        ],
+        "text": "Job étudiant plongeur H/F à Bruxelles\nDescription\n- Plongeur avec ou sans expérience\n- Respect du matériels et propreté indispensable\n- Travail extra régulier \nbuff.ly/SSpOplB\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.jooble.org/desc/7383226514441185356?ckey=%c3%a9tudiant%0a+weekendwerk+jobstudent%0a+Serveur%2fServeuse+et+Plongeur%2fPlongeuse&rgn=649&pos=23&groupId=91728&elckey=-622847923898393815&p=2&avi=5912191998555325618&jobAge=30&relb=110&brelb=110&bscr=25722.02447519988&scr=25722.02447519988&aid=7661389&lt=1&searchTestGroup=2_2_1&iid=-3723517058038553069",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-26T15:04:00.359Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhxulkibi52f",
+      "cid": "bafyreidm54gr2ikedmxufyhpi4cnv45nz2tegeyhf45b6dapivcdeq73eu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-26T14:59:52.800Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=c720dbb894044703&q=Etudiant&l=Brussels&tk=1jkg0tj75g9vg801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBt67I3lVaGjmTC2p0LbzkdCdPP&xfps=b5ec840b-9623-4cc5-ae61-aebefc3714d0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkg0tj75g9vg801&xkcb=SoBh67M3lQJ5rGUBNJ0PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/DAyRUbE"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant polyvalent - Bruxelles\nRôle:\n- Tu participes activement aux opérations du restaurant, aussi bien en salle qu’en cuisine\n- Tu contribues à offrir 1 expérience client rapide, qualitative et mémorable\n- Tu alternes entre accueil, service et préparation des produits\nbuff.ly/DAyRUbE\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=c720dbb894044703&q=Etudiant&l=Brussels&tk=1jkg0tj75g9vg801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBt67I3lVaGjmTC2p0LbzkdCdPP&xfps=b5ec840b-9623-4cc5-ae61-aebefc3714d0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkg0tj75g9vg801&xkcb=SoBh67M3lQJ5rGUBNJ0PbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-26T14:59:53.156Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhvgpnpl5m2h",
       "cid": "bafyreic2hrult2ewsqforakqydn45qkebvwqjmxsjipt6mkr4zdilzbgoe",
       "author": {
@@ -8196,264 +8436,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-22T15:54:32.432Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mczjvwpq4y2e",
-      "cid": "bafyreiar73kfbspnqllpe2dgrertcbw7qz6mt2vpwm4jlbepeux5awyeee",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-22T15:48:10.476Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour une bijouterie, nous recherchons un(e) \\u00e9tudiant(e) majeur(e) et v\\u00e9hicul\\u00e9(e) afin d\\u2019assurer un renfort en caisse de mani\\u00e8re ponctuelle (remplacements lors de maladies,…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 109334
-            },
-            "title": "Étudiant(e) renfort caisse en bijouterie",
-            "uri": "https://buff.ly/hjpg7Rz"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/hjpg7Rz"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Étudiant(e) renfort caisse en bijouterie Nivelles\nProfil\n- Étudiant(e) majeur(e)\n- Véhiculé(e) (déplacements requis selon les besoins)\n- À l’aise avec le contact client\n- Fiable, souriant(e) et discret(e)\n- Une première expérience en vente ou en caisse est un atout \nbuff.ly/hjpg7Rz\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://buff.ly/hjpg7Rz",
-          "title": "Étudiant(e) renfort caisse en bijouterie",
-          "description": "Pour une bijouterie, nous recherchons un(e) \\u00e9tudiant(e) majeur(e) et v\\u00e9hicul\\u00e9(e) afin d\\u2019assurer un renfort en caisse de mani\\u00e8re ponctuelle (remplacements lors de maladies,…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-22T15:48:11.835Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwynj5baf2m",
-      "cid": "bafyreiapudtxlhenrik7o7mhfaukgdm7qaycxkltgu3omcprxa7vdvj33e",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-21T15:33:53.717Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihqddhl3mb4mryhzauioedne5s4ss4nto643u536kla733sld3tom"
-              },
-              "mimeType": "image/jpeg",
-              "size": 37278
-            },
-            "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-            "uri": "https://app.talentsquare.com/job/61843-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/FLv7eeZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Etudiant(e) Night&Day Nivelles\n- Accueillir et conseiller les clients avec le sourire\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre du point de vente\nbuff.ly/FLv7eeZ\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://app.talentsquare.com/job/61843-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet",
-          "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-          "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihqddhl3mb4mryhzauioedne5s4ss4nto643u536kla733sld3tom"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-21T15:33:56.439Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mcwv4fok3i2o",
-      "cid": "bafyreihecmcjmzf53apqoob434uavgstwmrokats4wdiffrmvfjdodl6f4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-21T14:30:40.318Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=69332ccbfc0762ef&q=Etudiant&l=Brabant-wallon&tk=1jffbu4ocgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDA67I3owWOFPT4AB0LbzkdCdPP&xfps=f96db4bc-21be-43f2-bfae-6f6533d6dfe3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jffbu4ocgcal800&xkcb=SoCH67M3ovf3fQWJ9p0CbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mkPWQRA"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 274,
-              "byteStart": 268
-            }
-          }
-        ],
-        "text": "Etudiant(e) sandwicherie Perwez\n\nMissions\n- Accueil et service client\n- Préparation et mise en place (sandwicherie / service / caisse )\n- Maintien de la propreté et de l’organisation du poste de travail\n- Travail en équipe et bonne communication\n\nbuff.ly/mkPWQRA\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=69332ccbfc0762ef&q=Etudiant&l=Brabant-wallon&tk=1jffbu4ocgcal800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDA67I3owWOFPT4AB0LbzkdCdPP&xfps=f96db4bc-21be-43f2-bfae-6f6533d6dfe3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jffbu4ocgcal800&xkcb=SoCH67M3ovf3fQWJ9p0CbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-21T14:30:40.637Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
