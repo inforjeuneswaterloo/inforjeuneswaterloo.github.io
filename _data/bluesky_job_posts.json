@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mi26q57unl2f",
+      "cid": "bafyreihebcxwie33o4r5wrm5vlg2sa4uvna25mcv3clp7smencvbh2ceke",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-27T13:06:43.568Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=d41a1254009dd809&q=etudiant&l=brabant+wallon&tk=1jklocp34gq3k800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoA967I3lXj3BRTCGB0LbzkdCdPP&xfps=8bdc667e-8522-406f-b4a0-5e22d80d44b9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jklocp34gq3k800&xkcb=SoCy67M3lV486latCh0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/jk0Vu18"
+              }
+            ],
+            "index": {
+              "byteEnd": 286,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 287
+            }
+          }
+        ],
+        "text": "Étudiant(e) rayon cycle - Decathlon Nivelles\n- tu donnes des conseils aux clients adaptés à leurs besoins\n- tu accompagnes les clients dans leurs achats\n- tu vends l’ensemble de nos produits et services, tout en fidélisant tes clients\n- réception et mise en rayon\nbuff.ly/jk0Vu18\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=d41a1254009dd809&q=etudiant&l=brabant+wallon&tk=1jklocp34gq3k800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoA967I3lXj3BRTCGB0LbzkdCdPP&xfps=8bdc667e-8522-406f-b4a0-5e22d80d44b9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jklocp34gq3k800&xkcb=SoCy67M3lV486latCh0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-27T13:06:43.953Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mi266eltt52r",
+      "cid": "bafyreifztsx6lbvl4oxbaap62kf6bxw642mmheyl4uwc4uxmf6r4yy3ny4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-27T12:56:47.319Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=62735902d9943422&q=%C3%A9tudiant&l=Waterloo&tk=1jkldrjhjg2hl800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC_67I3lXirfeTCxR0LbzkdCdPP&xfps=5d8c86b9-8790-4d68-bcf0-95065be4c3c6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkldrjhjg2hl800&xkcb=SoBX67M3lVThXz5-SR0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/I3CMgu1"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 289
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 305
+            }
+          }
+        ],
+        "text": "Étudiant assistant dentaire H/F Brabant wallon\n- Etudiant.e, idéalement en dentisterie, soins de santé ou domaine similaire\n- Intérêt pour le secteur médical ou dentaire\n- 1 expérience est un plus\n- Contact facile\n- Esprit d’équipe\n- Bonne maîtrise de l’outil informatique.  \nbuff.ly/I3CMgu1\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=62735902d9943422&q=%C3%A9tudiant&l=Waterloo&tk=1jkldrjhjg2hl800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC_67I3lXirfeTCxR0LbzkdCdPP&xfps=5d8c86b9-8790-4d68-bcf0-95065be4c3c6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkldrjhjg2hl800&xkcb=SoBX67M3lVThXz5-SR0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-27T12:56:47.652Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mi25j2ogie26",
+      "cid": "bafyreibode64iu5kqisrjm2chaeqkcsyanvlwwmcsm3wzmxjmnc6rjwakm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-27T12:44:52.271Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ab72cc48845e522d&q=Etudiant&l=Brussels&tk=1jkl71ra7g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCo67I3lXh2ewz4XZ0LbzkdCdPP&xfps=79da64a1-3ea6-4d3e-9987-6085872ccc6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkl71ra7g9vg800&xkcb=SoDd67M3lVGIo7Z_sh0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/RwldQAr"
+              }
+            ],
+            "index": {
+              "byteEnd": 218,
+              "byteStart": 203
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 226,
+              "byteStart": 220
+            }
+          }
+        ],
+        "text": "Job étudiant Proxy Delhaize à Woluwe-Saint-Pierre\nDescription:\n- Préparation boulangerie\n- Cuissons\n- Mise en rayon\n- Vérification des dates\n- Nettoyage\n- Caisse\n- Ouverture et fermeture du magasin \nbuff.ly/RwldQAr \n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ab72cc48845e522d&q=Etudiant&l=Brussels&tk=1jkl71ra7g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCo67I3lXh2ewz4XZ0LbzkdCdPP&xfps=79da64a1-3ea6-4d3e-9987-6085872ccc6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkl71ra7g9vg800&xkcb=SoDd67M3lVGIo7Z_sh0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-27T12:44:52.761Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhxuzavgu52r",
       "cid": "bafyreih5r5au5yfpl76vnjjpjsxlqbmy5ziubxop7lhm6qoq42lhxprq5m",
       "author": {
@@ -8212,230 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-26T10:15:32.352Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdcyvtwrpu2n",
-      "cid": "bafyreic5o73hz2zkvcwlvrpolexer446mwg75d4w4w46f62vexw7bm43ve",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-26T10:10:32.207Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Hok5PPe"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Job étudiant Service KaraFun Bar - Bruxelles\nProfil :\n- Dynamique, autonome\n- Sens de l'accueil, poli\n- Organisé/réactif\n- Bonne communication\nRôles :\n- Accueil/conseil/accompagnement clientèle\n- Service (boissons, cocktails)/plonge\n- Préparer/nettoyer salle et boxes karaoke\nbuff.ly/Hok5PPe \n#job4u"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-26T10:10:32.653Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3md3wobdtvs2j",
-      "cid": "bafyreif57ydaxk2g55cmglhmikqoc2mdufnzohrcyfxadfigf3pst6quem",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-23T14:41:52.178Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=9f3d67291f834131&q=Etudiant&l=Brussels&tk=1jfktoj2dg2jc801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAn67I3o1htgtzN3Z0LbzkdCdPP&xfps=66f7de21-c4ab-4204-9bc0-d712c3026aca&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfktoj2dg2jc801&xkcb=SoCk67M3o0zttKSkVh0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/IVavJVz"
-              }
-            ],
-            "index": {
-              "byteEnd": 252,
-              "byteStart": 237
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 254
-            }
-          }
-        ],
-        "text": "Étudiant(e)s – Petit-déjeuner & Bar\nMissions :\n- Mise en place et service du petit-déjeuner\n- Service au bar (boissons, encaissement)\n- Accueil et interaction avec les clients\n- Maintien de la propreté et du rangement des espaces \nbuff.ly/IVavJVz \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=9f3d67291f834131&q=Etudiant&l=Brussels&tk=1jfktoj2dg2jc801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAn67I3o1htgtzN3Z0LbzkdCdPP&xfps=66f7de21-c4ab-4204-9bc0-d712c3026aca&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jfktoj2dg2jc801&xkcb=SoCk67M3o0zttKSkVh0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-23T14:41:52.730Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mczkbbojtf2o",
-      "cid": "bafyreigsvnarzx3spwniy3ci5dypos2xwropn35yqebkp3osn7r5u72coa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-22T15:54:31.948Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Un supermarché à Court-Saint-Étienne recherche un étudiant pour un emploi polyvalent en vente. Vous serez formé aux...",
-            "title": "Étudiant Polyvalent Vente — Horaires Matin/Weekends - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-vente-horaires-matinweekends.t1K18mI1G1S1a?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/bzCRit4"
-              }
-            ],
-            "index": {
-              "byteEnd": 209,
-              "byteStart": 194
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 216,
-              "byteStart": 210
-            }
-          }
-        ],
-        "text": "Étudiant(e) Polyvalent(e) Vente Supermarché à Court-Saint-Etienne\n- réassort des rayons et encaissement\n- être disponible à 6h et avoir des journées libres en semaine en plus du week-end\nbuff.ly/bzCRit4\n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-vente-horaires-matinweekends.t1K18mI1G1S1a?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Étudiant Polyvalent Vente — Horaires Matin/Weekends - Trovit Emploi",
-          "description": "Un supermarché à Court-Saint-Étienne recherche un étudiant pour un emploi polyvalent en vente. Vous serez formé aux..."
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-22T15:54:32.432Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
