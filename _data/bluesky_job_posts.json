@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mibndmhhbp23",
+      "cid": "bafyreiglpbrx7lpu43k5ptbrmaoqjn5w22bwtn4u47yytw6tg6vc5xihkm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-03-30T12:16:47.054Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous cherchez un emploi étudiant d'Employé Administratif sur Mont-Saint-Guibert ? Vous avez une bonne maitrise de l'anglais ? Vous êtes intéressé par le travail administratif et d'aider à la réception...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant Employé Administratif",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5603061?JobId=5603061&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/hXvY5a1"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant Employé Administratif H/F Mont-Saint-Guibert\nProfil:\n- Bonne maîtrise de l'anglais\n- À l'aise avec la suite office et les outils informatiques\n- Vous êtes précis, dynamique, avec une bonne gestion des priorités et capable de travailler avec des données confidentielles\nbuff.ly/hXvY5a1\n#job4u"
+      },
+      "embed": {
+        "$type": "app.bsky.embed.external#view",
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5603061?JobId=5603061&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Etudiant Employé Administratif",
+          "description": "Vous cherchez un emploi étudiant d'Employé Administratif sur Mont-Saint-Guibert ? Vous avez une bonne maitrise de l'anglais ? Vous êtes intéressé par le travail administratif et d'aider à la réception...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
+        }
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-03-30T12:16:48.456Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mibfj5cyet25",
       "cid": "bafyreifwlh5pfhqvv2oxyalkmlk4hqvdlucxbl5uw25nwy67ayikvjxxdm",
       "author": {
@@ -8351,95 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-29T09:53:19.353Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdfrn6gwz42m",
-      "cid": "bafyreia5gm6dzy4j2scpdlkg3vz4zve4a2p73mziow4ue3n6mznw7afjui",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-27T12:38:23.206Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Nous sommes \\u00e0 la recherche d'un \\u00e9tudiant.e \\/ Flexi en boulangerie dynamique et passionn\\u00e9 pour rejoindre l'\\u00e9quipe de notre client. En tant que \\u00e9tudiant.e \\/ Flexi , vous…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 109334
-            },
-            "title": "Flexi / Etudiant-e disponible le week-end",
-            "uri": "https://www.actief.be/fr/jobs/ventes-marketing-et-communication/flexi--etudiant-e-disponible-le-week-end/799980"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ca26hfF"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Job Etudiant-e dispo le WE boulangerie - Céroux Mousty\nTâches :\n- Accueil/conseil clients\n- Prendre les commandes, servir avec courtoisie et efficacité. \nProfil : \nTu es dynamique, tu souhaites rejoindre une chouette équipe, et tu cherches un job en semaine et/ou le WE\nbuff.ly/ca26hfF \n#job4u"
-      },
-      "embed": {
-        "$type": "app.bsky.embed.external#view",
-        "external": {
-          "uri": "https://www.actief.be/fr/jobs/ventes-marketing-et-communication/flexi--etudiant-e-disponible-le-week-end/799980",
-          "title": "Flexi / Etudiant-e disponible le week-end",
-          "description": "Nous sommes \\u00e0 la recherche d'un \\u00e9tudiant.e \\/ Flexi en boulangerie dynamique et passionn\\u00e9 pour rejoindre l'\\u00e9quipe de notre client. En tant que \\u00e9tudiant.e \\/ Flexi , vous…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-        }
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-27T12:38:24.649Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
