@@ -123,12 +123,12 @@
         "text": "UK is back in 2027 ! Le Royaume-Uni sera associé au programme Eurasmus+.  Cette association offrira d'importantes opportunités aux citoyens du Royaume-Uni et de l'Union européenne, en particulier aux jeunes générations.\n#europe #erasmus #yotm #hw #MobilitéInternationale #international\nbitl.to/5WEB"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://bitl.to/5WEB",
           "title": "Eurodesk",
           "description": "Eurodesk webpage"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -250,13 +250,13 @@
         "text": "Pour étudier au Canada, quel programme d’immigration choisir ? Le Figaro Étudiant fait le point sur les différentes possibilités qui s’offrent aux étudiants et jeunes professionnels qui souhaitent partir au Canada. \n@lefigaro.fr \n#yotm #helloworld #MobilitéInternationale #Canada"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://etudiant.lefigaro.fr/article/etudes/pour-etudier-au-canada-quel-programme-d-immigration-choisir-20250804/",
           "title": "Pour étudier au Canada, quel programme d’immigration choisir ?",
           "description": "Il existe des dizaines d’options pour émigrer au Canada. Focus sur les nouveautés et les programmes les plus utilisés.",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -392,13 +392,13 @@
         "text": "Découvre le témoignage de Malorie. Elle nous raconte comment elle a franchi le pas.  Elle nous parle de ses premières galères pour trouver un job, de la façon dont elle a appris l’anglais, de ses rencontres et des voyages en Australie .\n#timetomove #pvt #Australie #yotm #helloworld #international"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.youtube.com/watch?v=NNUJnx9-_QQ&list=PLvmOmql-Z9wVFJKqyfv0vb-HSUv3J14GW",
           "title": "Témoignage Malorie  : PVT en Australie",
           "description": "YouTube video by Infor Jeunes Waterloo ASBL",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -519,13 +519,13 @@
         "text": "900 jeunes Belges de 18 ans pourront tenter de recevoir un pass Interrail gratuit pour parcourir plus de 30 pays du continent en train. \nDate limite de candidature: 16/04 -12h.\n➡️ youth.europa.eu/discovereu_fr \n\n#mtts #yotm #europe #discoverEu"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570",
           "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
           "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
           "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm"
-        }
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
