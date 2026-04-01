@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mig6j5yrxj25",
+      "cid": "bafyreigj4bris7k63alkcfn5o4qwvpv3lunrcayfhv2bljc5rydikr5wq4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-01T07:34:45.423Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Nous recherchons pour l'un de nos client situé sur Perwez un(e) étudiant(e) pour une mission d’une semaine durant la première semaine des vacances de Pâques.Profil recherché:Étudiant(e), avec...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Étudiant(e) chimie",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5618768?JobId=5618768&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/UCF7Iv1"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 288
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 305
+            }
+          }
+        ],
+        "text": "Etudiant en chimie à Perwez\nMissions:\n- Vérification des fiches de données de sécurité (MSDS)\n- Contrôle de la présence et de la complétude des documents \n- Encodage et sélection de données selon des instructions \n- Support à la création de fiches de sécurité simplifiées \nbuff.ly/UCF7Iv1 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5618768?JobId=5618768&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Étudiant(e) chimie",
+          "description": "Nous recherchons pour l'un de nos client situé sur Perwez un(e) étudiant(e) pour une mission d’une semaine durant la première semaine des vacances de Pâques.Profil recherché:Étudiant(e), avec...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-01T07:34:46.849Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mibndmhhbp23",
       "cid": "bafyreiglpbrx7lpu43k5ptbrmaoqjn5w22bwtn4u47yytw6tg6vc5xihkm",
       "author": {
@@ -8351,95 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-29T12:24:27.050Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkjdsqsrc2n",
-      "cid": "bafyreigygvfkgom6qnxibgyufwnksbd3n2clcdevqtte7dfujdyaz4m42a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-29T09:53:18.080Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Nous recherchons un",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
-              },
-              "mimeType": "image/png",
-              "size": 16268
-            },
-            "title": "Vendeur  en boulangerie (étudiant / flexi)",
-            "uri": "https://www.jobat.be/fr/emplois/vendeur-en-boulangerie-etudiant-flexi/job_5359984?filter=ZnVuY3Rpb250eXBlPTY2JnJlZ2lvbj0xMzE="
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/LUp2WLW"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie Ottignies- Louvain-la-Neuve\nTâches\n- Accueillir et servir les clients avec professionnalisme et convivialité\n- Encaisser les ventes et gérer la caisse \n- Maintenir la propreté et l’ordre de l’espace de vente\n- Assurer la mise en rayon des produits\nbuff.ly/LUp2WLW\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/vendeur-en-boulangerie-etudiant-flexi/job_5359984?filter=ZnVuY3Rpb250eXBlPTY2JnJlZ2lvbj0xMzE=",
-          "title": "Vendeur  en boulangerie (étudiant / flexi)",
-          "description": "Nous recherchons un",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-29T09:53:19.353Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
