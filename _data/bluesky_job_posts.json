@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miglvrxtfu2f",
+      "cid": "bafyreia3prpklbu6gx2z2r6zzenopfblqp2csuifnoskqiinlrztkces2q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-01T11:34:28.594Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/beb7f9e292ccee41007c7fe062920c4ab2"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/yuYwGZ1"
+              }
+            ],
+            "index": {
+              "byteEnd": 223,
+              "byteStart": 208
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 230,
+              "byteStart": 224
+            }
+          }
+        ],
+        "text": "Job étudiant à l'année - Grande distribution - Genappe \nVos tâches :\n- Accueil et conseil client.\n- Mise en place de la caisse.\n- Réassort dans les différents rayons.\n- Ouverture/fermeture du magasin. \nbuff.ly/yuYwGZ1\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/beb7f9e292ccee41007c7fe062920c4ab2",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-01T11:34:28.963Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mig6j5yrxj25",
       "cid": "bafyreigj4bris7k63alkcfn5o4qwvpv3lunrcayfhv2bljc5rydikr5wq4",
       "author": {
@@ -8360,86 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-01-29T13:14:26.559Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkrs2me6s2e",
-      "cid": "bafyreib3g2xrxpjupiievhqr3ddcvq2ygqtgv5h5bgcg65o6u3xq7ovvmq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-29T12:24:26.690Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=a56c62715968dac0&q=Etudiant&l=Brussels&tk=1jg3ub253g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDV67I3nE69dwTCN50LbzkdCdPP&xfps=ade105a2-39d4-4372-be5f-8fa10c201267&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg3ub253g2jc800&xkcb=SoDL67M3nD0jikRl4B0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/L0lJO3Q"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Student Brussels Airport\nPostes:\n- Production\n- Économat (réassort, gestion des stocks)\n- Logistique interne\n- Allround student (polyvalent, support opérationnel)\n- Service en salle dans nos restaurants service à table\n- Barista, caisse, accueil client\n- Support back‑of‑house \nbuff.ly/L0lJO3Q\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=a56c62715968dac0&q=Etudiant&l=Brussels&tk=1jg3ub253g2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDV67I3nE69dwTCN50LbzkdCdPP&xfps=ade105a2-39d4-4372-be5f-8fa10c201267&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg3ub253g2jc800&xkcb=SoDL67M3nD0jikRl4B0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-29T12:24:27.050Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
