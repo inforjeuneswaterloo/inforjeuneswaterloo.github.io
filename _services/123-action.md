@@ -27,3 +27,5 @@ sidebar:
 ---
 Réalise un court-métrage avec ton smartphone.  De l'idée au montage, en passant par l'écriture et le tournage, tu as le contrôle total!
 Cerise sur le gâteau c'est gratuit!
+
+{% contact_btn Besoin d'infos ? Contacte Amaury ! | /contact/ae/ %}

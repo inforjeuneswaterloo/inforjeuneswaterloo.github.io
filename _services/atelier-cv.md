@@ -16,17 +16,14 @@ buttons:
      icon: fa-solid fa-pen-to-square
      class:  btn btn-outline-dark text-decoration-none btn-sm
      target: "_blank"
-sidebar:
- enable: true
- collection: true
- collections: true
+message: true
+  
 ---
-L’atelier *Viens avec ton PC… et repars avec ton CV (et ton PC)!*, organisé en partenariat acec la Mission Régionale pour l’Emploi du Brabant wallon , a pour objectif de te donner les outils nécessaires pour proposer un CV qui retienne l’attention.
+L’atelier *Viens avec ton PC… et repars avec ton CV (et ton PC)!*, organisé en partenariat avec la Mission Régionale pour l’Emploi du Brabant wallon , a pour objectif de te donner les outils nécessaires pour proposer un CV qui retienne l’attention.
 
 - Durée de l’atelier: 4 heures
 - A partir de 15 ans
-- Amener son ordinateur (si possible). Si ce n’est pas possible, pas de bile! Nous mettons des ordinateurs à disposition
+- Amener son ordinateur (si possible). Si ce n’est pas possible, pas de tracas! Nous mettons des ordinateurs à disposition
 - Ton CV (si tu en as un)
 
-
-<iframe width="100%" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=_LYAGlAbhEWsmrm5iuTQtlhXvoyWwVZBpjeQhFsniltUQ1VMUExDQjBUM1NKVDlYTVlWSFgxT0pXUi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+{% contact_btn Tu veux t'inscrire ou tu as besoin d'infos ? Contacte-nous ! | /contact/ %}

@@ -28,7 +28,7 @@ module Jekyll
 
       # Génère le rendu final
       <<-HTML
-<div class="cat-button" style="border: 1px solid #{color}">
+<div class="cat-button" style=" border:none; border-left: 4px solid #{color}; border-right: 4px solid #{color}">
   <div class="alert-content">
     #{content}
   </div>

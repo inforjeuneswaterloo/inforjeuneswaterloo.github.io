@@ -33,6 +33,4 @@ Intéressé.e? Alors rejoins-nous! Et viens partager ton point vue sans prise de
 
 Au programme, jeux de société, visionnage de film et de vidéo, web radio, cuisine, atelier bricolage et de récup 
 
-{% notice light %}
-Des question? N'hésite pas à [nous contacter](/contact/)
-{% endnotice %}
+{% contact_btn Besoin d'infos ? Contacte Amaury ! | /contact/ae/ %}

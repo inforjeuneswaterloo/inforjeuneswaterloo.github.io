@@ -616,61 +616,21 @@ footer {
   color: var(--text-color);
   opacity: 0.5; /* Plus discret que le nom de la catégorie */
 }
-/* ==========================================================================
-   SECTION CONTACT - MISE EN PILE (FULL WIDTH)
-   ========================================================================== */
-
-.contact-container {
-    max-width: 800px; /* Largeur optimale pour la lecture et les formulaires */
-    margin: 2rem auto 5rem auto;
-    padding: 0 1.5rem;
-}
-
-/* On transforme la grille en une colonne unique */
-.contact-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem; /* Espace entre le formulaire et la carte d'info */
-}
-
-/* --- Formulaire --- */
-.sob-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-}
-
-.form-group label {
-    font-weight: 700;
-    font-size: 0.85rem;
-    color: var(--text-color);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.form-group input, 
-.form-group textarea {
-    padding: 14px 16px;
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    font-family: inherit;
-    font-size: 1rem;
+/* Style spécifique pour le bouton contact via cat-button */
+.cta-wrapper .cat-button {
     background: #ffffff;
-    transition: all 0.25s ease;
-    width: 100%; /* S'assure que tout prend la largeur */
+    cursor: pointer;
 }
 
-.form-group input:focus, 
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--c);
-    box-shadow: 0 0 0 4px color-mix(in srgb, var(--c), transparent 92%);
+.cta-wrapper .cat-button:hover {
+    border-color: var(--c) !important;
+    background-color: color-mix(in srgb, var(--c), transparent 96%) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px color-mix(in srgb, var(--c), transparent 90%);
+}
+
+.cta-wrapper .cat-name {
+    text-decoration: none !important;
 }
 
 /* --- Bouton Envoyer --- */
@@ -1019,7 +979,88 @@ footer {
         justify-content: center;
     }
 }
+//* --- Conteneur global --- */
+.contact-full-wrapper {
+    width: 100%;
+    max-width: 800px; /* Optionnel : pour éviter que le formulaire soit trop large sur très grand écran */
+    margin: 0 auto;
+}
 
+/* --- Formulaire Full Width --- */
+.contact-form-section {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.sob-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%; /* Formulaire sur toute la largeur */
+    padding: 14px 18px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--c);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--c), transparent 90%);
+}
+
+/* --- Bouton Envoyer --- */
+.btn-submit-contact {
+    align-self: flex-start;
+    padding: 14px 30px;
+    background: #fff;
+    border: 2px solid var(--c);
+    border-radius: 16px; /* Bords arrondis 16px */
+    cursor: pointer;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit-contact:hover {
+    background: var(--c);
+    color: #fff !important;
+    transform: translateY(-3px);
+}
+
+/* --- Infos de contact (Grille en bas) --- */
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cat-button.no-link {
+    cursor: default;
+    border-color: var(--border-color);
+    justify-content: flex-start;
+}
+
+.cat-button.no-link:hover {
+    transform: none;
+    background: #fff;
+}
 /* ==========================================================================
    GRILLE ET CARTES (RAPPEL)
    ========================================================================== */

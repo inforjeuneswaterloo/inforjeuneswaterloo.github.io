@@ -2,54 +2,57 @@
 layout: minimal
 ---
 {% assign contact_ij = site.data.contact-ij %}
-{% assign color=page.color %}
-{% assign icon=page.lucide %}
+{% assign color = page.color | default: 'e67c22' %}
+{% assign icon = page.lucide | default: 'rocket' %}
+{% assign action = page.action  | default: 'info@inforjeuneswaterloo.be'%}
+
 <article class="post-container" style="--c: #{{color}}">
     <header class="post-header">
-    <div class="category-view">
-      <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
-      &leftarrow; &nbsp; Retour
-    </a>
-    </div>
-    <div class="service-title-section">
-       <i data-lucide="{{ icon| default: 'rocket' }}" class="main-icon"></i>
-       <h1 class="post-title" style="color: #{{color}}">{{ page.title }}</h1>
-    </div>
-  </header>
-    <div class="contact-container">
-        <div class="contact-grid">
-            <div class="contact-form-section">
-                <form action="https://airform.io/info@inforjeuneswaterloo.be" method="POST" class="sob-form">
-                    
-                    <div class="form-group">
-                        <label for="name">Tes nom et prénom</label>
-                        <input type="text" id="name" name="name" placeholder="Prénom, nom, pseudo">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Ton email<sup><span style="color: #{{color}}">*</span></sup></label>
-                        <input type="email" id="email" name="email" placeholder="nom@exemple.com" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Ton message<sup><span style="color: #{{color}}">*</span></sup></label>
-                        <textarea id="message" name="message" rows="6" placeholder="Comment pouvons-nous t'aider ?" required></textarea>
-                    </div>
-
-                    <input type="hidden" name="_subject" value="Nouveau Contact - Site Infor Jeunes">
-                    
-                    <button type="submit" class="cat-button btn-submit-contact">
-                        <i data-lucide="{{icon}}"></i>
-                        <span>Envoyer le message</span>
-                    </button>
-                </form>
+        <div class="category-view">
+            <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
+                &leftarrow; &nbsp; Retour
+            </a>
         </div>
-        <div class="category-nav">
+        <div class="service-title-section">
+            <i data-lucide="{{ icon }}" class="main-icon"></i>
+            <h1 class="post-title" style="color: #{{color}}">{{ page.title }}</h1>
+        </div>
+    </header>
+
+    <div class="contact-full-wrapper">
+        <div class="contact-form-section">
+            <form action="https://airform.io/{{action}}" method="POST" class="sob-form">
+                
+                <div class="form-group">
+                    <label for="name">Tes nom et prénom</label>
+                    <input type="text" id="name" name="name" placeholder="Prénom, nom, pseudo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ton email<sup><span style="color: #{{color}}">*</span></sup></label>
+                    <input type="email" id="email" name="email" placeholder="nom@exemple.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ton message<sup><span style="color: #{{color}}">*</span></sup></label>
+                    <textarea id="message" name="message" rows="6" placeholder="Comment pouvons-nous t'aider ?" required></textarea>
+                </div>
+
+                <input type="hidden" name="_subject" value="Nouveau Contact - Site Infor Jeunes">
+                
+                <button type="submit" class="cat-button btn-submit-contact" style="--c: #{{color}}">
+                    <i data-lucide="send"></i>
+                    <span>Envoyer le message</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="category-nav contact-info-grid">
             {% for item in contact_ij %}
-                <a class="cat-button">
-                    <i data-lucide="{{item.icon}}" style="color: #{{color}}"></i>&nbsp;
-                    <span>{{item.text}}</span>
-                </a>
+                <div class="cat-button no-link" style="border:none">
+                    <i data-lucide="{{ item.icon }}" style="stroke: #{{color}}"></i>&nbsp;
+                    <span class="cat-name">{{ item.text }}</span>
+                </div>
             {% endfor %}
         </div>
     </div>

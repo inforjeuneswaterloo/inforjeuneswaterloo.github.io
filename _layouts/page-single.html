@@ -2,10 +2,11 @@
 layout: minimal
 ---
 {% assign page_color=page.color | default: "2c3e50" %}
+{% assign message=page.message | default: false %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
-    <div class="category-view">
+    <div class="category-view" style="margin-bottom: 1rem">
       <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
       &leftarrow; &nbsp; Retour
     </a>
@@ -14,22 +15,11 @@ layout: minimal
        <i data-lucide="{{ page.lucide | default: 'rocket' }}" class="main-icon"></i>
        <h1 class="post-title">{{ page.title }}</h1>
     </div>
-
-    <!--{% comment %} NAVIGATION HEADER (Autres services) {% endcomment %}
-    {% if page.collection %}
-      <nav class="service-nav">
-        <div class="category-nav">
-          {% for item in site[page.collection] %}
-            {% unless item.url == page.url %}
-              <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ item.color | default: '888888' | replace: '#', '' }};">
-                <i data-lucide="{{ item.lucide | default: 'circle' }}"></i>
-                <span class="cat-name">{{ item.title }}</span>
-              </a>
-            {% endunless %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% endif %}-->
+    {% if message %}
+      <div class="cat-button no-link">
+          <i data-lucide="circle-x"></i>&nbsp;Inscriptions clôturées / Action terminée
+      </div>
+    {%endif%}
   </header>
 
   <section class="post-content">
