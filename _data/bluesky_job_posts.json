@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3milwfbkypj26",
+      "cid": "bafyreiabxoiif7tsi63gtz7xsdybbdqscdv6yp4zhnmfwujiurzk5ccvm4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-03T14:25:24.373Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f93e7a4e76ba0b11&q=Etudiant&l=Brussels&tk=1jl9jrraqgbdu800&from=ja&advn=4484156384967478&adid=454240013&ad=-6NYlbfkN0DTiCvhLQf91guOzYB6WwhpKvf6Kp7UFJhWIrlOAcnn8wO6Y4mnjCZ7SDMmsBdRuxYSCqgd7sUjLm-M7C0b7bLT3Ruox08wp37QNjY4N8wGciDKGAxI5Q9phi05Q6RKiKfwZgIvl6ZGZgvEzCsYSwbkc6JD_iUF9_aEIkI-VXmC5uMxIoYtth_gxFpmKP3_Eo2wSSPO3KaHcxHU3RN2LYWzIbByREpvxxUS8i4FIbmKcM_zaw23wk7cFpraOIPCiun3jxCoPSnOVYYEKjGeDqnkrJ_H0_4oX8natW0iBrCP-Q7FVE60xralWE6A2HQkUubPAe4jtRuVGD89UQ6Tx5DZJACaDWV4x9cm1tR9cGoZj9VVuVhZjBiuQWEe89_Voni0kcPyEvCc1maq_a1jx7JP6aMH1C2B-GUuS1mwhZZpD-gcXwp7vh2xk4STndT5Cn5VAqhotr_eWOlePlt3STtAHB2_W74H0EKkw_4AqcHyTGbmmAhVz7DriD-P2HbbJkkdxQxr0E2pzYXPdD4SGuOzoDpt-jYqUDbqvM0077WkbHFvUWRKo0CaM7XhD83veh06NbB6syMGrQ%3D%3D&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLiqG0hIu4H6g%3D%3D&xkcb=SoCi6_M3lpvgpfzfyx0IbzkdCdPP&xpse=SoBw6_I3lp_B6TT7mB0NbzkdCdPP&xfps=30841a92-eddd-4e74-b401-e7343e51697d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Q0Qz8pX"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 248
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 264
+            }
+          }
+        ],
+        "text": "Job étudiant vente Bruxelles\nProfil\n- Intérêt pour la vente, le commerce ou le marketing\n- À l’aise avec le contact client\n- Motivé(e), sociable et persévérant(e)\n- Très bonne maîtrise du français\n- Disponible 2 à 5 jours par semaine \nbuff.ly/Q0Qz8pX\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f93e7a4e76ba0b11&q=Etudiant&l=Brussels&tk=1jl9jrraqgbdu800&from=ja&advn=4484156384967478&adid=454240013&ad=-6NYlbfkN0DTiCvhLQf91guOzYB6WwhpKvf6Kp7UFJhWIrlOAcnn8wO6Y4mnjCZ7SDMmsBdRuxYSCqgd7sUjLm-M7C0b7bLT3Ruox08wp37QNjY4N8wGciDKGAxI5Q9phi05Q6RKiKfwZgIvl6ZGZgvEzCsYSwbkc6JD_iUF9_aEIkI-VXmC5uMxIoYtth_gxFpmKP3_Eo2wSSPO3KaHcxHU3RN2LYWzIbByREpvxxUS8i4FIbmKcM_zaw23wk7cFpraOIPCiun3jxCoPSnOVYYEKjGeDqnkrJ_H0_4oX8natW0iBrCP-Q7FVE60xralWE6A2HQkUubPAe4jtRuVGD89UQ6Tx5DZJACaDWV4x9cm1tR9cGoZj9VVuVhZjBiuQWEe89_Voni0kcPyEvCc1maq_a1jx7JP6aMH1C2B-GUuS1mwhZZpD-gcXwp7vh2xk4STndT5Cn5VAqhotr_eWOlePlt3STtAHB2_W74H0EKkw_4AqcHyTGbmmAhVz7DriD-P2HbbJkkdxQxr0E2pzYXPdD4SGuOzoDpt-jYqUDbqvM0077WkbHFvUWRKo0CaM7XhD83veh06NbB6syMGrQ%3D%3D&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLiqG0hIu4H6g%3D%3D&xkcb=SoCi6_M3lpvgpfzfyx0IbzkdCdPP&xpse=SoBw6_I3lp_B6TT7mB0NbzkdCdPP&xfps=30841a92-eddd-4e74-b401-e7343e51697d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-03T14:25:24.859Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mil6mq56mp2z",
       "cid": "bafyreiavvg7vepue4376kt4ahifur6g5rsybgsz7l2n7dint6fgeysvy3y",
       "author": {
@@ -8360,95 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-02T12:14:42.549Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdkuyvxb3m2o",
-      "cid": "bafyreiginovfc7vduunxmmfm3w5wrp4sy7stdhaeigwpgsv4ser63yze5e",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-29T13:21:57.260Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?Notre client n'attend plus que toi pour...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant polyvalent",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5369758?JobId=5369758&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/7ltN26H"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent à Bierges\nProfil\n- Réel attrait pour le secteur de la fabrication et de la transformation du métal \n- Tu souhaites bosser sur différents projets, te rendre utile et enchainer des missions diverses et variées durant ton temps libre et tes congés scolaires \nbuff.ly/7ltN26H \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5369758?JobId=5369758&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f",
-          "title": "Etudiant polyvalent",
-          "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?Notre client n'attend plus que toi pour...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-01-29T13:21:58.251Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
