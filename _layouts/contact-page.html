@@ -21,7 +21,7 @@ layout: minimal
 
     <div class="contact-full-wrapper">
         <div class="contact-form-section">
-            <form action="https://airform.io/{{action}}" method="POST" class="sob-form">
+            <form  name="contact" method="POST" class="sob-form" netlify">
                 
                 <div class="form-group">
                     <label for="name">Tes nom et prénom</label>
@@ -38,7 +38,14 @@ layout: minimal
                     <textarea id="message" name="message" rows="6" placeholder="Comment pouvons-nous t'aider ?" required></textarea>
                 </div>
 
-                <input type="hidden" name="_subject" value="Nouveau Contact - Site Infor Jeunes">
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="consentement" required>
+                                J'accepte qu'Infor Jeunes Waterloo utilise mes données afin de me recontacter.
+                    </label>
+                </div>
+
+                <!--<input type="hidden" name="_subject" value="Nouveau Contact - Site Infor Jeunes">-->
                 
                 <button type="submit" class="cat-button btn-submit-contact" style="--c: #{{color}}">
                     <i data-lucide="send"></i>
