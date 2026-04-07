@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivpfnteli2p",
+      "cid": "bafyreifx665y3s5sqt22wtblwb6tbjowqjnyivubg2jtotcvhdzkmgngwu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-07T11:46:56.906Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0eQq8IE"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente boucherie Genval\n- Conseiller les clients sur nos produits et être attentif à leurs besoins\n- Assurer une préparation correcte des commandes\n- Maintenir un espace de travail propre\n- Respecter les normes d'hygiène\n- Être flexible au niveau des horaires\nbuff.ly/0eQq8IE\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-07T11:46:58.762Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivot5qaz426",
+      "cid": "bafyreieqllwtnhetyqali7nytikwkaihyggpd2kvhoxsgjufjyjwra4nue",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-07T11:36:37.564Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=c37f7bb59458dbd4&q=Etudiants&l=Brabant-wallon&tk=1jlcdva88g9h2800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDJ67I3lz-AVVzCbR0KbzkdCdPP&xfps=cba329d4-fa71-4f92-b19b-32ae2b6e2c8a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlcdva88g9h2800&xkcb=SoBq67M3lsTyjf-PmB0ObzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/eQ0cpV6"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Étudiant(e) 8h/semaine Ottignies-Louvain-la-Neuve\n- Vous vivez pour la mode\n- Vous vendez en offrant une expérience client exceptionnelle\n- Vous offrez notre service de piercing\n- Vous réapprovisionnez les stocks\n- Vous gérez les registres\n- Vous nettoyez le magasin \nbuff.ly/eQ0cpV6\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=c37f7bb59458dbd4&q=Etudiants&l=Brabant-wallon&tk=1jlcdva88g9h2800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDJ67I3lz-AVVzCbR0KbzkdCdPP&xfps=cba329d4-fa71-4f92-b19b-32ae2b6e2c8a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlcdva88g9h2800&xkcb=SoBq67M3lsTyjf-PmB0ObzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-07T11:36:38.163Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivnfrhruk26",
+      "cid": "bafyreienk72a33byd4oytphb43mkoltfaovbuxyy7kyrps57ipyn6esmiu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-07T11:11:13.804Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+              },
+              "mimeType": "image/png",
+              "size": 68733
+            },
+            "title": "Emploi | Etudiant/Flexi boulangerie | Start People",
+            "uri": "https://www.startpeople.be/fr/job/etudiantflexi_boulangerie-1994033?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Ax0DfOT"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant(e) boulangerie Waterloo\n- Conseiller la clientèle sur les produits\n- Prendre les commandes et effectuer le service au comptoir\n- Veiller à la bonne présentation des produits et à la propreté\n- Contribuer à la satisfaction et à la fidélisation des clients \nbuff.ly/Ax0DfOT\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/etudiantflexi_boulangerie-1994033?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr",
+          "title": "Emploi | Etudiant/Flexi boulangerie | Start People",
+          "description": "Contenu de l'emploi:  Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-07T11:11:15.154Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivmlt3r5i2r",
       "cid": "bafyreighpuyby2yilunpylj3l4kmig2xuiuh5iyafxkhg5gse2p5uaoery",
       "author": {
@@ -8182,264 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-04T09:36:47.753Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdx426wvoc2p",
-      "cid": "bafyreibzvrd4bh7iupmpncu3m4spcgwb2wwu6kojs7xlvexxfg72fvx2v4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-03T09:59:53.228Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "ACTION : JOB ETUDIANT (H/F/X)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
-              },
-              "mimeType": "image/png",
-              "size": 9337
-            },
-            "title": "ACTION : JOB ETUDIANT (H/F/X) – LEM Interim",
-            "uri": "https://www.leminterim.be/offre/action-job-etudiant-h-f-x-2/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kpipHjq"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Job étudiant chez Action\nTâches:\n- Réassortir les rayons et t’assurer qu’ils soient bien rangés\n- Accueillir la clientèle et la renseigner\n- Gérer la caisse cash ou par carte\n- Veiller à la bonne tenue du magasin\n- Procéder au nettoyage du magasin en fin de journée \nbuff.ly/kpipHjq\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.leminterim.be/offre/action-job-etudiant-h-f-x-2/",
-          "title": "ACTION : JOB ETUDIANT (H/F/X) – LEM Interim",
-          "description": "ACTION : JOB ETUDIANT (H/F/X)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-03T09:59:54.951Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mduwjdch332j",
-      "cid": "bafyreibcbuuac22pk6rpaypcwu5ac3ofwbr2umndei23oowgykpckwiijm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-02T13:15:39.908Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Une entreprise de vente au détail située à Braine l'Alleud ou à Waterloo recherche un(e) étudiant(e) dynamique pour...",
-            "title": "Vendeur Étudiant – Matinées, Polyvalent, Supermarché - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/vendeur-etudiant-matinees-polyvalent-supermarche.E1r171f1Y1GN9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/tyjQmGr"
-              }
-            ],
-            "index": {
-              "byteEnd": 245,
-              "byteStart": 230
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 253,
-              "byteStart": 247
-            }
-          }
-        ],
-        "text": "Vendeur étudiant polyvalent H/F Braine-l'Alleud/Waterloo\n- être disponible certains matins dès 6h et pouvoir travailler toute l'année.\n Tâches:\n- la mise en rayon\n- l'encaissement\n- la vérification des dates de péremption \nbuff.ly/tyjQmGr \n#job4u #1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/vendeur-etudiant-matinees-polyvalent-supermarche.E1r171f1Y1GN9?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Vendeur Étudiant – Matinées, Polyvalent, Supermarché - Trovit Emploi",
-          "description": "Une entreprise de vente au détail située à Braine l'Alleud ou à Waterloo recherche un(e) étudiant(e) dynamique pour..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-02T13:15:40.254Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdutn4ha7o2m",
-      "cid": "bafyreidf5qocqimlo6qbpjoqper6bdnlzumc33moei6husu6axw7ggnvqi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-02T12:24:05.006Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54"
-              },
-              "mimeType": "image/jpeg",
-              "size": 37226
-            },
-            "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-            "uri": "https://app.talentsquare.com/job/62058-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/aTGjKaz"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 261
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 277
-            }
-          }
-        ],
-        "text": "Etudiant(e) Night&Day Wavre\nMissions:\n- Accueillir et conseiller les clients\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre du point de vente \nbuff.ly/aTGjKaz\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://app.talentsquare.com/job/62058-Etudiant%20Night&Day%20(H_F_X)?utm_medium=feed&utm_source=careerjet",
-          "title": "Etudiant Night&Day (H/F/X) @ Night & Day",
-          "description": "🚀 Tu as le goût du challenge, le sens du contact et l’envie de faire la différence auprès des clients ? Tu es quelqu’un de fiable, adaptable, et prêt(e) à t’investir dans une entreprise en pleine…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicfgmsz2kxmt3jkshmi3ogadge6hhbcepkriu6yizdijapv3esv54"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-02T12:24:06.552Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
