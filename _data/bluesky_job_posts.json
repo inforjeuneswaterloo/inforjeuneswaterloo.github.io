@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivmlt3r5i2r",
+      "cid": "bafyreighpuyby2yilunpylj3l4kmig2xuiuh5iyafxkhg5gse2p5uaoery",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-07T10:56:44.044Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=9e1550b5212d6429&q=%C3%A9tudiant&l=Waterloo&tk=1jla0mvb6g9vt800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCY67I3lz6d_7AfLz0LbzkdCdPP&xfps=7830bfcb-0f27-4426-8962-81336c5a16fe&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jla0mvb6g9vt800&xkcb=SoA867M3lqJUJQ0WtB0MbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/3QJxg9d"
+              }
+            ],
+            "index": {
+              "byteEnd": 257,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 258
+            }
+          }
+        ],
+        "text": "Job étudiant COLLABORATEUR HORECA Bruxelles\nProfil\n- Expérience préalable dans l'horeca exigée\n- Plusieurs horaires possibles (de 15h à 25h/semaine)\n- Pas de travail le weekend ni de service coupé\n- Rémunération : 15,20€ par heure \nbuff.ly/3QJxg9d\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=9e1550b5212d6429&q=%C3%A9tudiant&l=Waterloo&tk=1jla0mvb6g9vt800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCY67I3lz6d_7AfLz0LbzkdCdPP&xfps=7830bfcb-0f27-4426-8962-81336c5a16fe&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jla0mvb6g9vt800&xkcb=SoA867M3lqJUJQ0WtB0MbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-07T10:56:44.553Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3milwfbkypj26",
       "cid": "bafyreiabxoiif7tsi63gtz7xsdybbdqscdv6yp4zhnmfwujiurzk5ccvm4",
       "author": {
@@ -8360,86 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-02T12:24:06.552Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdut4cz6ci22",
-      "cid": "bafyreiezzxju2uug4tbhfmsqpqy6bb6yqaf45u6slgkh37vve3nk6f7kvm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-02T12:14:42.163Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=ebe6f4d0b90d1619&q=Etudiant&l=Brabant-wallon&tk=1jg8qsem621hb003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBx67I3nPAGGXTBDJ0LbzkdCdPP&xfps=cd690dc5-a3e7-4a5e-9fd7-aba7af945163&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg8qsem621hb003&xkcb=SoDo67M3nI992f2fF50PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/5p90iz1"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Étudiant(e) Jardinage à Court-Saint-Etienne\n- Aide à l'entretien des parterres (désherber, tailler, etc.)\n- Prendre en charge le travail lourd que la cliente ne peut plus faire, comme porter les déchets verts jusqu'au compost\n- Aider à décharger les déchets au recyparc\nbuff.ly/5p90iz1\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=ebe6f4d0b90d1619&q=Etudiant&l=Brabant-wallon&tk=1jg8qsem621hb003&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBx67I3nPAGGXTBDJ0LbzkdCdPP&xfps=cd690dc5-a3e7-4a5e-9fd7-aba7af945163&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jg8qsem621hb003&xkcb=SoDo67M3nI992f2fF50PbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-02T12:14:42.549Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
