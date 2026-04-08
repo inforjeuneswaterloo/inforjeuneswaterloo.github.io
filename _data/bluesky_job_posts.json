@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miyjkjudc425",
+      "cid": "bafyreiaddqyscd3wxhxfrfu6tx6d2mmr7efqjk5l4zki6wnaj2zbgpwbza",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-08T14:40:16.670Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EE4ISYP"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant vendeur boucherie Lillois\nProfil:\n- 1 expérience en vente boucherie ou alimentaire est un atout\n- Vous aimez le contact et le conseil personnalisé\n- Vous savez gérer vos tâches avec rigueur et efficacité\n- Flexible, vous êtes à l'aise avec des horaires variables \nbuff.ly/EE4ISYP\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-08T14:40:19.152Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miyjannfmt25",
+      "cid": "bafyreibm4uufmcvncj63uiehvzh5w5sreibkv3tl4z3a6wvfuqgr2kr62u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-08T14:34:47.225Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f1ae73852f715164&q=Etudiant&l=Brabant-wallon&tk=1jlmj8gelh7pe800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCV67I3l24e1PTBBB0LbzkdCdPP&xfps=7b2d4d21-ea71-466c-8c65-4c577552d5a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlmj8gelh7pe800&xkcb=SoDL67M3l2utx2SWDR0KbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/TVrHEcL"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Job étudiant avec permis B Thaï Café Genval\nTâches:\n- L'accueil des clients et le service en salle\n- La gestion des commandes de boissons au bar\n- La préparation des commandes à emporter\n- La tenue du restaurant et de la cuisine dans un état de propreté irréprochable \nbuff.ly/TVrHEcL\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f1ae73852f715164&q=Etudiant&l=Brabant-wallon&tk=1jlmj8gelh7pe800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCV67I3l24e1PTBBB0LbzkdCdPP&xfps=7b2d4d21-ea71-466c-8c65-4c577552d5a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlmj8gelh7pe800&xkcb=SoDL67M3l2utx2SWDR0KbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-08T14:34:47.654Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivpfnteli2p",
       "cid": "bafyreifx665y3s5sqt22wtblwb6tbjowqjnyivubg2jtotcvhdzkmgngwu",
       "author": {
@@ -8271,175 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-05T11:40:33.653Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me45wc5y3t2o",
-      "cid": "bafyreicopz7ge7yyxcydpb2o65d36numnvimtykkvs3pd7pb457uysuqjm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-05T10:16:48.760Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Employé étudiant",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5401514?JobId=5401514&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/bwQH6M1"
-              }
-            ],
-            "index": {
-              "byteEnd": 309,
-              "byteStart": 294
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 316,
-              "byteStart": 310
-            }
-          }
-        ],
-        "text": "Etudiant administratif H/F à Tubize\n- Être à l’aise avec les tâches répétitives d’archivage\n- Bilingue français – néerlandais\n- En cours d’études supérieures (Secrétariat de direction, Communication, Marketing ou équivalent)\n- Min. 300h étudiantes dispo\n- Dispo 8h/semaine\nbuff.ly/bwQH6M1\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5401514?JobId=5401514&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f",
-          "title": "Employé étudiant",
-          "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-05T10:16:49.552Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mdzl7s5gli23",
-      "cid": "bafyreiemf7cha66aixuzbry7rkpgx4hip3knlgu3h6eyu7vhxuaiy34t4m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-04T09:36:47.462Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=fc96c92f30a377c0&q=Etudiant&l=Brussels&tk=1jgi8dcaqg2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB567I3nT3GNVT4zJ0LbzkdCdPP&xfps=964173d3-430b-4768-821c-9cf16ad51fd4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgi8dcaqg2jc800&xkcb=SoD367M3nSY6QpRQjZ0BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/s3VTlrC"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 275
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Etudiant Animation de jeu Quiveutpister - Bruxelles \nMissions :\n- Préparation du matériel\n- Accueil/présentation des règles...\nProfil :\n- Dispo min. 2 WE/mois (mars à novembre)\n- Fiable, sérieux, conscience professionnelle\n- Curieux, polyvalent, sang-froid, écoute...\nbuff.ly/s3VTlrC\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=fc96c92f30a377c0&q=Etudiant&l=Brussels&tk=1jgi8dcaqg2jc800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoB567I3nT3GNVT4zJ0LbzkdCdPP&xfps=964173d3-430b-4768-821c-9cf16ad51fd4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgi8dcaqg2jc800&xkcb=SoD367M3nSY6QpRQjZ0BbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-04T09:36:47.753Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
