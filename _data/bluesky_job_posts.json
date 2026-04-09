@@ -1,6 +1,98 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj2zc5hpil2z",
+      "cid": "bafyreievrmz2dizqpdl6o5p4zrocpdcnksrptzc6wsmcgakkv6nrn57pyu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-09T14:27:16.702Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/be5e8058dfcfee3a1cfbf99fe0c80d2563"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/sMijmFs"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant H/F caissier station-service Waterloo\nTâches:\n- Accueillir et servir les clients\n- Tenir la caisse (+Loto)\n- Préparer des sandwiches et cuire les viennoiseries\n- Mettre les produits en rayon et vérifier leur fraîcheur\n- Nettoyer le magasin et les extérieurs\nbuff.ly/sMijmFs\n#job4u #ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be5e8058dfcfee3a1cfbf99fe0c80d2563",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-09T14:27:17.057Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miyjkjudc425",
       "cid": "bafyreiaddqyscd3wxhxfrfu6tx6d2mmr7efqjk5l4zki6wnaj2zbgpwbza",
       "author": {
@@ -8360,86 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-05T15:41:22.849Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me4clzhuai2p",
-      "cid": "bafyreicoodjef66pmo7q3tznheip6qgdaedmmuktsejyq2tsnz3b3awa34",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-05T11:40:33.334Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tes missions:<br>• Gérer les commandes des clients au comptoir<br>• Préparer les sandwichs<br>• Maintenir un environnement propre et org...",
-            "title": "Etudiant polyvalent | Circle K | Nivelles - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-circle-k-nivelles.MM1te0ER1O"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Zj4i1qe"
-              }
-            ],
-            "index": {
-              "byteEnd": 262,
-              "byteStart": 247
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 269,
-              "byteStart": 263
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent H/F Circle K à Nivelles\nTes missions:\n- Gérer les commandes des clients au comptoir\n- Préparer les sandwichs\n- Maintenir un environnement propre et organisé.\n- Assurer le service client à la caisse\n- Réassort des rayons \nbuff.ly/Zj4i1qe\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-polyvalent-circle-k-nivelles.MM1te0ER1O",
-          "title": "Etudiant polyvalent | Circle K | Nivelles - Trovit Emploi",
-          "description": "Tes missions:<br>• Gérer les commandes des clients au comptoir<br>• Préparer les sandwichs<br>• Maintenir un environnement propre et org..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-05T11:40:33.653Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
