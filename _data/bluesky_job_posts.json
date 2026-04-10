@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj5nnu4fwb25",
+      "cid": "bafyreidm7j3xyjjiun4k6auzlkyrd2atifi5rbwxub67bkfl2kfwnktxde",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-10T15:37:03.869Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=b5b351fa06f215d0&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoBk67I3l8IJWXT5Vp0PbzkdCdPP&xfps=c05ff435-6609-4e7f-b832-44531a02ea59&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDy67M3l701ruRIy50LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/KSvPpkj"
+              }
+            ],
+            "index": {
+              "byteEnd": 234,
+              "byteStart": 219
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 241,
+              "byteStart": 235
+            }
+          }
+        ],
+        "text": "Job étudiant LUKOIL Bierges (15h/semaine)\nProfil:\n- Vous avez plus de 16 ans et êtes disponible en semaine\n- Vous parlez couramment le français\n- Vous êtes ponctuel, orienté client et aimez travailler en équipe. \nbuff.ly/KSvPpkj\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=b5b351fa06f215d0&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoBk67I3l8IJWXT5Vp0PbzkdCdPP&xfps=c05ff435-6609-4e7f-b832-44531a02ea59&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDy67M3l701ruRIy50LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-10T15:37:04.255Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj2zc5hpil2z",
       "cid": "bafyreievrmz2dizqpdl6o5p4zrocpdcnksrptzc6wsmcgakkv6nrn57pyu",
       "author": {
@@ -8372,86 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-05T15:47:29.055Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me4q2n5pbl2j",
-      "cid": "bafyreiaulqpzk47yesrufgkugxnbecvr2web3tuctihv3oa7sqzfuigwve",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-05T15:41:22.374Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=588e5f66c46b41c0&q=Etudiant&l=Brussels&tk=1jgkr539gg9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCX67I3nXBj7Mz48x0LbzkdCdPP&xfps=eea1ed91-1cb6-42ea-aefd-e6c64e081025&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgkr539gg9si800&xkcb=SoAR67M3nU-boG06AR0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/879Bb3u"
-              }
-            ],
-            "index": {
-              "byteEnd": 304,
-              "byteStart": 289
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Etudiant H/F Préparateur de commandes Braine-le-Château \n· Préparation des commandes et colisage des produits\n· Repérage/signalement des anomalies de manutention\n. Attention particulière aux numéros de lots des produits\n· Opérations de manutention, d’entreposage, de transport\nbuff.ly/879Bb3u\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=588e5f66c46b41c0&q=Etudiant&l=Brussels&tk=1jgkr539gg9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCX67I3nXBj7Mz48x0LbzkdCdPP&xfps=eea1ed91-1cb6-42ea-aefd-e6c64e081025&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgkr539gg9si800&xkcb=SoAR67M3nU-boG06AR0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-05T15:41:22.849Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
