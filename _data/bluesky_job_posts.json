@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjepqvb4ui2h",
+      "cid": "bafyreif3pekh6zbhzikoz5rucs6ynx4p2gbtsa6sa5xd37xlbtoisicpiu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-13T11:03:09.815Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-plongeaide-en-cuisine-lln-et-alentours-louvain-la-neuve-brabant-wallon/142-34934-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/omJxKhr"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant.e plonge/aide en cuisine | Louvain-la-Neuve\nProfil\n- Déjà 1 expérience en plonge et/ou en horeca\n- Accueillant·e, souriant·e et fiable\n- Pas peur de mettre la main à la pâte\n- À la recherche d’un job étudiant sur le long terme\n- Disponible 2 à 3 jours par semaine \nbuff.ly/omJxKhr\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-plongeaide-en-cuisine-lln-et-alentours-louvain-la-neuve-brabant-wallon/142-34934-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-13T11:03:12.054Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj5o3m7n5d2r",
       "cid": "bafyreifd4vkhcifax2vp7w4zlknkjxzmsxwwwsuiayspl6ba4jo7wruvha",
       "author": {
@@ -8363,86 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-06T13:16:48.950Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6xulwx5o2e",
-      "cid": "bafyreic7zcr7w5pxjlyl4ijwvt5ngdjhciiho42arhojgku5udfqpuifqa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-06T13:06:29.193Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=05da25958d8ac800&q=Etudiant&l=Brussels&tk=1jgnacli5g9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCH67I3nZo-n3geob0LbzkdCdPP&xfps=550eafb7-eb63-4b74-8c85-9020f7bbdfd5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgnacli5g9si800&xkcb=SoBW67M3nXc9HWQSbx0DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/4YXmtyQ"
-              }
-            ],
-            "index": {
-              "byteEnd": 259,
-              "byteStart": 244
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 260
-            }
-          }
-        ],
-        "text": "Etudiant Serveur Brasserie (H/F/X) Anderlecht\n- Accueillir, conseiller et servir les clients\n- Travailler à la caisse\n- Maintenir un environnement de travail propre et organisé\n- Suivre les protocoles d'hygiène et de sécurité alimentaire \nbuff.ly/4YXmtyQ\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=05da25958d8ac800&q=Etudiant&l=Brussels&tk=1jgnacli5g9si800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCH67I3nZo-n3geob0LbzkdCdPP&xfps=550eafb7-eb63-4b74-8c85-9020f7bbdfd5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgnacli5g9si800&xkcb=SoBW67M3nXc9HWQSbx0DbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-06T13:06:29.551Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
