@@ -1,0 +1,4 @@
+baseURL = 'https://inforjeuneswaterloo.netlify.app/' # On changera ça plus tard
+languageCode = 'fr-be'
+title = 'Infor Jeunes Waterloo'
+theme = 'blowfish'

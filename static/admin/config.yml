@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: bear-hugo # On cible bien ta branche spécifique
+
+media_folder: "static/img" # Dossier où seront stockées les images
+public_folder: "/img"      # Chemin utilisé par Hugo pour afficher les images
+
+collections:
+  - name: "posts"
+    label: "Fiches Info & Articles"
+    folder: "content/posts" # Là où Blowfish cherche tes articles
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date de publication", name: "date", widget: "datetime"}
+      - {label: "Description (SEO)", name: "description", widget: "text"}
+      - {label: "Image de couverture", name: "thumbnail", widget: "image", required: false}
+      - {label: "Corps de l'article", name: "body", widget: "markdown"}
