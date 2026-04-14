@@ -1,6 +1,255 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlyokazd2r",
+      "cid": "bafyreia5dsqf2vi6jzybpgf22juhuecqo4m6l3qvnltbunbys2l6bfmisy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-14T14:33:57.037Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=d0ffd462f493f944&q=etudiant&l=brabant+wallon&tk=1jm3tjp9ugr8v800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoD867I3kGE8uATDGh0LbzkdCdPP&xfps=cefe3b8d-c178-46a4-902c-9998f8809a6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm3tjp9ugr8v800&xkcb=SoBN67M3kDzAm1YDzZ0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/k9FZqnc"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Animateur étudiant H/F Laser Game Braine-l'Alleud\n- Assurer le suivi des clients au cours de leur partie de jeu\n- Bar\n- Veiller au bon fonctionnement et à la bonne utilisation du matériel et des infrastructures\n- Nettoyage et entretien du site\n- Ouvrir et fermer le site\nbuff.ly/k9FZqnc\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=d0ffd462f493f944&q=etudiant&l=brabant+wallon&tk=1jm3tjp9ugr8v800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoD867I3kGE8uATDGh0LbzkdCdPP&xfps=cefe3b8d-c178-46a4-902c-9998f8809a6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm3tjp9ugr8v800&xkcb=SoBN67M3kDzAm1YDzZ0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-14T14:33:57.855Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlmmqoad2m",
+      "cid": "bafyreiaaidnkwwhbgthi5ppt5k4agaxm5tutuwb6fhsfrstbzvhzkyni2e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-14T14:27:11.786Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Robert Half est à la recherche d'un Etudiant en Comptabilité (H/F/X) terminant son bachelier en comptabilité (3ème année) ou en cours de master.Nous recherchons un étudiant disponible cet été, de d...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+              },
+              "mimeType": "image/png",
+              "size": 5817
+            },
+            "title": "Offre d'emploi de Etudiant en Comptabilité à Nivelles, Walloon Brabant",
+            "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/etudiant-en-comptabilit%C3%A9/000508485-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ZIjty3o"
+              }
+            ],
+            "index": {
+              "byteEnd": 247,
+              "byteStart": 232
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 254,
+              "byteStart": 248
+            }
+          }
+        ],
+        "text": "Etudiant en comptabilité à Nivelles\nProfil:\n- En fin de 3ème bachelier ou en master\n- Vous avez une expérience de stage concluante ou un job étudiant\n- Vous possédez le statut étudiant\n- Vous avez une bonne maîtrise d'Excel\nbuff.ly/ZIjty3o\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/etudiant-en-comptabilit%C3%A9/000508485-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
+          "title": "Offre d'emploi de Etudiant en Comptabilité à Nivelles, Walloon Brabant",
+          "description": "Robert Half est à la recherche d'un Etudiant en Comptabilité (H/F/X) terminant son bachelier en comptabilité (3ème année) ou en cours de master.Nous recherchons un étudiant disponible cet été, de d...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-14T14:27:12.956Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlamcyzn25",
+      "cid": "bafyreid2tfxbibimlgzaj2nbl27bovondf3yct4d7nl6utusuum5qy6xq4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-14T14:20:29.395Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=83909e079db949ea&q=Etudiant&l=Brussels&tk=1jm623ugfg9ud800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD467I3kGDC7LzCGp0LbzkdCdPP&xfps=dfcf2488-ef37-40fd-b076-cd3d442c8f4d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm623ugfg9ud800&xkcb=SoDX67M3kGMAOs6MNh0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/sdYGn4w"
+              }
+            ],
+            "index": {
+              "byteEnd": 249,
+              "byteStart": 234
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 256,
+              "byteStart": 250
+            }
+          }
+        ],
+        "text": "Job étudiant sur stand de marché à Ixelles\nNous cherchons des personnes fiables et responsables avec une bonne condition physique, de préférence qui sont disponibles au moins la moitié de la saison estivale (juillet et août). \nbuff.ly/sdYGn4w\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=83909e079db949ea&q=Etudiant&l=Brussels&tk=1jm623ugfg9ud800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD467I3kGDC7LzCGp0LbzkdCdPP&xfps=dfcf2488-ef37-40fd-b076-cd3d442c8f4d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm623ugfg9ud800&xkcb=SoDX67M3kGMAOs6MNh0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-14T14:20:29.669Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjepqvb4ui2h",
       "cid": "bafyreif3pekh6zbhzikoz5rucs6ynx4p2gbtsa6sa5xd37xlbtoisicpiu",
       "author": {
@@ -8212,246 +8461,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-09T11:04:48.955Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me72gblqup2o",
-      "cid": "bafyreiebxnqmvnkg4hyii6vketvyyazftccjc74ge3jkjwgrrns7kqyy3i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-06T13:52:09.799Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=bc786951b2372277&q=Etudiant&l=Brussels&tk=1jgpj4331g9si804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3nZuoBzzDR50LbzkdCdPP&xfps=b04c3b42-eb0e-45b5-97ce-deedd319b4b1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgpj4331g9si804&xkcb=SoD267M3nZufrkarT50LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/5EX6xrY"
-              }
-            ],
-            "index": {
-              "byteEnd": 273,
-              "byteStart": 258
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 280,
-              "byteStart": 274
-            }
-          }
-        ],
-        "text": "Étudiant(e) – Agent de prospection \"commerce sur terrain\" (H/F) – Bruxelles\nProfil recherché :\n- Étudiant(e) motivé(e), dynamique et à l’aise à l’oral\n- Bon relationnel et sens du contact\n- Autonome, persévérant(e) et orienté(e) résultats \nbuff.ly/5EX6xrY\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=bc786951b2372277&q=Etudiant&l=Brussels&tk=1jgpj4331g9si804&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCg67I3nZuoBzzDR50LbzkdCdPP&xfps=b04c3b42-eb0e-45b5-97ce-deedd319b4b1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgpj4331g9si804&xkcb=SoD267M3nZufrkarT50LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-06T13:52:10.251Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6ztqadbd2m",
-      "cid": "bafyreiap2zlc3zamjjlvx73uzivzx4zqcgcjy5cpgexr3tkqfe5ks5t3xa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-06T13:41:47.618Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Description de l’emploiEn tant qu'étudiant fixe réassort pour le frais, vous serez responsable:Déchargement des camionsTriage des...",
-            "title": "Job étudiant - Genappe -Dimanche (H/F/X) - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/job-etudiant-genappe-dimanche-hfx.fDm1K1R1eB10?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/9kcJGig"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 268
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 284
-            }
-          }
-        ],
-        "text": "Job étudiant Dimanche (H/F/X) Genappe\n- Vous êtes disponible TOUS les dimanches de 6h à 12h.\n- Vous disposez du statut étudiant.\n- Vous savez vous rendre facilement sur Genappe, l'horaire tôt du dimanche matin ne permet pas de disposer des transports en commun. \nbuff.ly/9kcJGig\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/job-etudiant-genappe-dimanche-hfx.fDm1K1R1eB10?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Job étudiant - Genappe -Dimanche (H/F/X) - Trovit Emploi",
-          "description": "Description de l’emploiEn tant qu'étudiant fixe réassort pour le frais, vous serez responsable:Déchargement des camionsTriage des..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-06T13:41:48.054Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3me6yh2hknk2j",
-      "cid": "bafyreih3wsbdvezmkjxmvcjnlinjnkrseqr5fsment62rodxkfwf3cks5i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-06T13:16:48.393Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=5b9a581a003d0cbf&q=Etudiant&l=Brabant-wallon&tk=1jgoleqm2g9tp800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoB267I3nZqDyIzCXp0LbzkdCdPP&xfps=e5b279b1-dad3-4ac3-b6bb-28e02cbdd7c7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgoleqm2g9tp800&xkcb=SoDW67M3nYi0vker1Z0FbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/QUU2uVs"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 291
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 313,
-              "byteStart": 307
-            }
-          }
-        ],
-        "text": "Etudiant Superviseur nettoyage chambres - Jodoigne\n- Permis de conduire obligatoire (déplacements nécessaires)\n- Expérience en housekeeping ou nettoyage hôtelier appréciée\n- Personne autonome, fiable et organisée\n- À l’aise sur le terrain\n- Bon relationnel et esprit d’équipe  \nbuff.ly/QUU2uVs\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=5b9a581a003d0cbf&q=Etudiant&l=Brabant-wallon&tk=1jgoleqm2g9tp800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoB267I3nZqDyIzCXp0LbzkdCdPP&xfps=e5b279b1-dad3-4ac3-b6bb-28e02cbdd7c7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jgoleqm2g9tp800&xkcb=SoDW67M3nYi0vker1Z0FbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-06T13:16:48.950Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
