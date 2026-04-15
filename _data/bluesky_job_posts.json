@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjk54trv2p2r",
+      "cid": "bafyreidczvbyqibolv7ii52qmyt45zv6dywm7oc6edsn5alhonjhawhpom",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-15T14:45:49.838Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=edd445daa5e406b8&q=etudiant&l=brabant+wallon&tk=1jm68f223gr8v800&from=ja&advn=5724012140225651&adid=460335698&ad=-6NYlbfkN0DfCRAfHKrvDk01XdFzHGaYKjPfUTOXajk9mG_1Scm4kTQYralmSEqcGRnUsTAK276tFoXeaRsl-lKv-HG90ARmcZDcrZIfeluzdGzRTrtjmVCEYeiNTsSrDpe31ZGanJ7kPUMrkhBLBnWkh_I9q0gugQq92zblQuphhrWaGNnnH5RvevRoBBn_r381857R0yqpdFra9Oh89Q_7A56dqGC_aJzW2IGbbg--xHLG7EZ2xy1Y51hLmiJ619lcD0WWs8z3OxMXkDAVGul8y6aIQk5pbONrEDWZGlY4AcGf4aXB_Ldqjj74GhkfRCwfgQwl9sCx5QWBhL8D1UVK5AaEPTkOTH6Ho1apYHGLW1Y5JifwJX2izZjl5Wauj6xuaxMTAEjF6QTczpVz51SwYrqH8jl4FFAdfKkAVzyc0l9W-fJJQp6OHmqOIHygxsitDB1oUDnHGu5oxA6tlPQY7EhfFDAECQ9vSlt-ja-L8zHsBuispfpMDY8vdRJPWxUTp9NgXLcyBZMT4NReQOGjBPq5CyK47ur1-jBYnypYRRx8Yfp9MlBDpQJp6It5QvjVFwIlmgA%3D&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8E7ZG43L4tKg%3D%3D&xkcb=SoC26_M3kGYziGZB5p0IbzkdCdPP&xpse=SoAH6_I3kIgJjVzBBB0PbzkdCdPP&xfps=4a9231b9-809b-4ba0-91a0-8db6be29b850&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/cdfrMm1"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant Marketing Projets Digitaux Nivelles\nTâches:\n- Gestion de nos réseaux sociaux (Instagram, TikTok, Facebook)\n- Suivi et analyse des performances : campagnes, contenus, e-commerce\n- Gestion de collaborations influenceurs et de partenariats\n- Projets marketing ponctuels\nbuff.ly/cdfrMm1\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=edd445daa5e406b8&q=etudiant&l=brabant+wallon&tk=1jm68f223gr8v800&from=ja&advn=5724012140225651&adid=460335698&ad=-6NYlbfkN0DfCRAfHKrvDk01XdFzHGaYKjPfUTOXajk9mG_1Scm4kTQYralmSEqcGRnUsTAK276tFoXeaRsl-lKv-HG90ARmcZDcrZIfeluzdGzRTrtjmVCEYeiNTsSrDpe31ZGanJ7kPUMrkhBLBnWkh_I9q0gugQq92zblQuphhrWaGNnnH5RvevRoBBn_r381857R0yqpdFra9Oh89Q_7A56dqGC_aJzW2IGbbg--xHLG7EZ2xy1Y51hLmiJ619lcD0WWs8z3OxMXkDAVGul8y6aIQk5pbONrEDWZGlY4AcGf4aXB_Ldqjj74GhkfRCwfgQwl9sCx5QWBhL8D1UVK5AaEPTkOTH6Ho1apYHGLW1Y5JifwJX2izZjl5Wauj6xuaxMTAEjF6QTczpVz51SwYrqH8jl4FFAdfKkAVzyc0l9W-fJJQp6OHmqOIHygxsitDB1oUDnHGu5oxA6tlPQY7EhfFDAECQ9vSlt-ja-L8zHsBuispfpMDY8vdRJPWxUTp9NgXLcyBZMT4NReQOGjBPq5CyK47ur1-jBYnypYRRx8Yfp9MlBDpQJp6It5QvjVFwIlmgA%3D&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8E7ZG43L4tKg%3D%3D&xkcb=SoC26_M3kGYziGZB5p0IbzkdCdPP&xpse=SoAH6_I3kIgJjVzBBB0PbzkdCdPP&xfps=4a9231b9-809b-4ba0-91a0-8db6be29b850&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-15T14:45:51.064Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjjxis7dl323",
+      "cid": "bafyreifqlh6l44ocxpd7lgiri45okzrlprc57e7xowf2l7fcmjxa57tfoy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-15T13:05:08.382Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=dff4906a4f3b8323&q=%C3%A9tudiant&l=Waterloo&tk=1jm182qerg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC767I3kIu2rjz4AR0LbzkdCdPP&xfps=aa199526-fa93-48ec-bb08-3d3d1f7af57d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm182qerg9so800&xkcb=SoBv67M3kBYEuCAgUz0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/yIx9q3j"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Barman étudiants 1030 Bruxelles\n- Horaires flexibles (7h30-15h30 ou 15h30-22h30, jusqu’à 23h30 les vendredis et samedis)\n- Fiable, ponctuel et assidu\n- Travailler avec précision et soin\n- Esprit d’équipe\n- La connaissance de l’anglais est un plus\n- Résistant au stress\nbuff.ly/yIx9q3j\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=dff4906a4f3b8323&q=%C3%A9tudiant&l=Waterloo&tk=1jm182qerg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC767I3kIu2rjz4AR0LbzkdCdPP&xfps=aa199526-fa93-48ec-bb08-3d3d1f7af57d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm182qerg9so800&xkcb=SoBv67M3kBYEuCAgUz0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-15T13:05:08.883Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlyokazd2r",
       "cid": "bafyreia5dsqf2vi6jzybpgf22juhuecqo4m6l3qvnltbunbys2l6bfmisy",
       "author": {
@@ -8283,184 +8443,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-09T12:24:32.152Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meggw7tdm62o",
-      "cid": "bafyreigd3s625l7m75xju7oqc3yquzahflcloqmlrxfp2cy56ypu4o4moa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-09T12:24:26.893Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Walibi Belgique - We are recruiting for the following position: Job d’étudiant - Saison 2026 from Other - Specific schedule until Bd de l'Europe, Wavre, Belgique. View the detailed advert here.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreida25uizoc4vhjtt4qyhrs336vdnhnwagwfny4hikaavm5gi57gcu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 128170
-            },
-            "title": "Walibi Belgique | Job d’étudiant - Saison 2026",
-            "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/80vtkm?source=carriere&utm_source=carriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/BBqFk0k"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Job étudiant Saison 2026 Walibi - Wavre\nWalibi : Agent d’accueil/Opérateur attractions/Collaborateur en restauration/Vendeur/Agent de propreté et d’entretien/Logisticien/Collaborateur costumerie/Technicien de maintenance\nAqualibi : Agent d’accueil/Maître-nageur/Vestiairiste\nbuff.ly/BBqFk0k \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/80vtkm?source=carriere&utm_source=carriere",
-          "title": "Walibi Belgique | Job d’étudiant - Saison 2026",
-          "description": "Walibi Belgique - We are recruiting for the following position: Job d’étudiant - Saison 2026 from Other - Specific schedule until Bd de l'Europe, Wavre, Belgique. View the detailed advert here.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreida25uizoc4vhjtt4qyhrs336vdnhnwagwfny4hikaavm5gi57gcu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-09T12:24:28.254Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3megchr7rts2u",
-      "cid": "bafyreib2nnq2gjrzeji4pwp2gwrxpwrm6yk6lbbik43g5l46tmupbt3cgm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-09T11:04:46.197Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Etudiant(e) comptoir charcuterie | GENAPPE, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiante-comptoir-charcuterie-genappe-brabant-wallon/166-32138-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/VLagQyn"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Etudiant(e) comptoir charcuterie - Genappe\nTâches :\n- Réception/contrôle livraisons\n- Mise en comptoir\n- Suivi propreté, respect des normes d'hygiène\n- Accueil/conseil clientèle\nProfil :\n- Dynamique, motivé(e)\n- Dispo rapidement ts les WE\n- 1ère exp. similaire avec trancheuse\nbuff.ly/VLagQyn \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiante-comptoir-charcuterie-genappe-brabant-wallon/166-32138-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Etudiant(e) comptoir charcuterie | GENAPPE, Brabant Wallon",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-09T11:04:48.955Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
