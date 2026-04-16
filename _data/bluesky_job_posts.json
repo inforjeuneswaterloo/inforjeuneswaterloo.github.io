@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmb4c7qks2v",
+      "cid": "bafyreidgdtufc5luz3j3f5xfbdiw5fups4euo4lpoj3ww7l6jjmfq7qpnm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-16T11:02:25.254Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant Assistant médical administratif",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/LTYAlV5"
+              }
+            ],
+            "index": {
+              "byteEnd": 189,
+              "byteStart": 174
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 197,
+              "byteStart": 191
+            }
+          }
+        ],
+        "text": "Etudiant Assistant médical administratif à Wavre\nTes missions principales :\n- l'accueil\n- la téléphonie\n- la gestion des mails, des agendas\n- la gestion administrative. \nbuff.ly/LTYAlV5 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Etudiant Assistant médical administratif",
+          "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-16T11:02:27.120Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmaqsuljh2f",
+      "cid": "bafyreigockr7pt2hy4k2obiumshgmaufdp5nzqqp7inscdrk3xd4nhd3ry",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-16T10:55:59.962Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "About this jobPour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur.Vos responsabilitésVente au comptoirUtilisation de la trancheuseNettoyage...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiants rayon traiteur LIMAL",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5668786?JobId=5668786&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/3sw5h7V"
+              }
+            ],
+            "index": {
+              "byteEnd": 235,
+              "byteStart": 220
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 242,
+              "byteStart": 236
+            }
+          }
+        ],
+        "text": "Etudiants rayon traiteur LIMAL\nProfil\n- Vous avez une première expérience dans le secteur alimentaire\n- Vous êtes flexible dans les horaires (matin, après-midi, week-end)\n- Vous êtes poli et de bonne présentation \nbuff.ly/3sw5h7V\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5668786?JobId=5668786&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Etudiants rayon traiteur LIMAL",
+          "description": "About this jobPour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur.Vos responsabilitésVente au comptoirUtilisation de la trancheuseNettoyage...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-16T10:56:01.123Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmahsmudo2s",
+      "cid": "bafyreih4nmonngl6nzok4ytyrt5znnun3vdqwwxlyvygj4tpghe4f2u5l4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-16T10:50:58.417Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/be63f4f57adb7fd8d828e210f1db4f22b6"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/nSW7RC1"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Animateurs H/F Scientifiques \"Stages vacances\" - Wallonie et Bruxelles\n- Etudiant filière scientifique ou pédagogique ou passionné par les matières scientifiques\n- Aptitudes pédagogiques\n- Véhiculé\n- Dispo durant les vacances scolaires\n- Expérience enseignement/animation\nbuff.ly/nSW7RC1\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be63f4f57adb7fd8d828e210f1db4f22b6",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-16T10:50:58.923Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjk54trv2p2r",
       "cid": "bafyreidczvbyqibolv7ii52qmyt45zv6dywm7oc6edsn5alhonjhawhpom",
       "author": {
@@ -8185,264 +8443,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-11T08:51:08.557Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meiw5j7l3d23",
-      "cid": "bafyreie7cfpt4uhy5q4o2usobp37u3blakn6rii3xkg2cotebuu37nuuf4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-10T12:02:17.575Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vos missions :Traitement de tâches administratives de précision (tri, classement, traitement de courriers électroniques)Recherches proactives dans le cadre de décisions de justice (liquidations, ...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Employé administratif étudiant",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5412548?JobId=5412548&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/6gGM1MT"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 292
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 314,
-              "byteStart": 308
-            }
-          }
-        ],
-        "text": "Employé administratif étudiant Ixelles\n- + de 18 ans\n- Ens. sup. en droit général ou économique\n- Dispo 2 jrs/sem\n- À l’aise avec le travail administratif\n- Capacité à comprendre rapidement, à réfléchir/trier/classer avec méthode\n- Très bonne maîtrise FR et EN oral et écrit\nbuff.ly/6gGM1MT\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5412548?JobId=5412548&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Employé administratif étudiant",
-          "description": "Vos missions :Traitement de tâches administratives de précision (tri, classement, traitement de courriers électroniques)Recherches proactives dans le cadre de décisions de justice (liquidations, ...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-10T12:02:18.552Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meis3adkjm2l",
-      "cid": "bafyreib4qn6rwact7lyzyik4qe7lr7cdh6p3ewrazauf2od2danvi2mzaq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-10T10:49:26.119Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tes missions (selon ton profil)Service en salle / restaurantAide en cuisineHousekeeping (chambres & espaces communs)Accueil, réception ou support événementielLogistique & bagages lors d’événementsLes...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Job étudiant en hôtellerie & horeca (H/F/X)",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5404623?JobId=5404623&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dRveTgY"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 245
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 262
-            }
-          }
-        ],
-        "text": "Job étudiant en hôtellerie & horeca La Hulpe\nMissions:\n- Service en salle / restaurant\n- Aide en cuisine\n- Housekeeping (chambres & espaces communs)\n- Accueil, réception ou support événementiel\n- Logistique & bagages lors d’événements \nbuff.ly/dRveTgY \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5404623?JobId=5404623&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Job étudiant en hôtellerie & horeca (H/F/X)",
-          "description": "Tes missions (selon ton profil)Service en salle / restaurantAide en cuisineHousekeeping (chambres & espaces communs)Accueil, réception ou support événementielLogistique & bagages lors d’événementsLes...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-10T10:49:27.253Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meggwdlt4d2e",
-      "cid": "bafyreib23xxex7ed3ag7avvwxfppe4inbwtvd2yw454vpazclknspea5hy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-09T12:24:31.959Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=53b4475ebb5fd6a6&q=Etudiants&l=Brabant-wallon&tk=1jh063oo4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDL67I3nhN1HFzCXp0LbzkdCdPP&xfps=37e82f75-7dd8-45fc-96a5-cc75a1cc0a60&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jh063oo4j91i800&xkcb=SoC767M3ngEA_F5I450BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/vRSLddh"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Job étudiant vente comptoir les samedis et pdt les vacances scolaires Boucherie Gorissen - Beauvechain\nSi tu aimes le contact client et les bons petits plats, viens partager ta passion. Rémunération à partir de 10€/h\nAvantages : Uniforme fourni. Capacité à faire le trajet.\nbuff.ly/vRSLddh \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=53b4475ebb5fd6a6&q=Etudiants&l=Brabant-wallon&tk=1jh063oo4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDL67I3nhN1HFzCXp0LbzkdCdPP&xfps=37e82f75-7dd8-45fc-96a5-cc75a1cc0a60&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jh063oo4j91i800&xkcb=SoC767M3ngEA_F5I450BbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-09T12:24:32.152Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
