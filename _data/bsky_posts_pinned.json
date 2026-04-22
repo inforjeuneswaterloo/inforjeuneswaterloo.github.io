@@ -7,7 +7,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "Keskisspasse?",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq@jpeg",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -68,13 +68,13 @@
         "text": "L'Extrême droite se situe... à l’extrême du spectre idéologique de la droite. Elle possède 3 caractéristiques qui la distingue de la droite traditionnelle  : le nativisme, l’autoritarisme et une conception particulière de l'Etat et de la démocratie.  \n#citoyenneté #extremedroite"
       },
       "embed": {
-        "$type": "app.bsky.embed.external#view",
         "external": {
           "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730",
           "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
           "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi@jpeg"
-        }
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
       "replyCount": 0,
@@ -89,7 +89,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi@jpeg"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
     }
   ]
 }
