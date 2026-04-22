@@ -1,5 +1,5 @@
 ---
-layout: post-single
+layout: post
 title: Recours dans l'enseignement secondaire
 date: 2025-07-23
 update: 2025-07-23

@@ -3,7 +3,7 @@
    ========================================================================== */
 :root {
   /* Mode Clair */
-  --bg-color: #ffffff;
+  --bg-color: #f4f1ea;
   --text-color: #666666;
   --link-color: #555555;
   --border-color: rgba(0, 0, 0, 0.1);
@@ -18,14 +18,14 @@
   --max-width: 680px;   /* Largeur zone d'écriture */
 }
 
-@media (prefers-color-scheme: dark) {
+/**media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #1a1a1a;
     --text-color: #eeeeee;
     --link-color: #aaaaaa;
     --border-color: rgba(255, 255, 255, 0.1);
   }
-}
+}**/
 /* ==========================================================================
    HEADER AVEC LOGO ET SLOGAN CENTRÉS
    ========================================================================== */
@@ -1061,6 +1061,8 @@ footer {
     transform: none;
     background: #fff;
 }
+
+
 /* ==========================================================================
    GRILLE ET CARTES (RAPPEL)
    ========================================================================== */
@@ -1075,7 +1077,6 @@ footer {
   .post-grid {
     grid-template-columns: 1fr 1fr;
   }
-}
 
 .post-card {
   display: flex;

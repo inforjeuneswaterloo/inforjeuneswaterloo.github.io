@@ -12,13 +12,8 @@ buttons:
      enable: true
      text: Infos et inscription
      href: https://www.brabantwallon.be/vivre-en-bw/jeunesse-et-sport/reaction-112
-     icon: fa-solid fa-arrow-up-right-from-square
-     class: btn btn-outline-dark text-decoration-none
+     icon: "external-link"
      target: "_blank"
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
 ---
 Infor Jeunes et la MJWOO organisent, en collaboration avec la Province du Brabant-wallon, une journé de formation pour apprendre les gestes qui sauvent et à réagir en situation d'urgence.
 

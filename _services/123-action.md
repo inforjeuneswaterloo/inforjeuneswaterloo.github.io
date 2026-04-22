@@ -8,24 +8,16 @@ color: 34495e
 buttons:
   - btn:
       enable: true
-      text: "Nous contacter"
-      href: '/contact/'
-      icon: fa-solid fa-angle-right
-      class: btn btn-dark text-white text-decoration-none
-      target: _self
+      href: "mailto:amaury.erauw@inforjeuneswaterloo.be"
+      icon: message-circle
+      text: "Infos et insciption : contacte Amaury !"
+      color: e67c22
   - btn:
-      enable: false
-      text: Le planning 2025-2026
-      href: '#'
-      class: btn btn-outilne-dark text-decoration-none
-      target: _self
-      
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
+      enable: true
+      text: "Jette un oeil sur les éditions précédentes"
+      href: 'https://www.youtube.com/watch?v=Zpeo9I2ozdw&list=PLvmOmql-Z9wUYXw6cmDev3cJl9S_My-NU&pp=sAgC'
+      icon: "play"
+      target: _blank
 ---
 Réalise un court-métrage avec ton smartphone.  De l'idée au montage, en passant par l'écriture et le tournage, tu as le contrôle total!
-Cerise sur le gâteau c'est gratuit!
-
-{% contact_btn Besoin d'infos ? Contacte Amaury ! | /contact/ae/ %}
+Cerise sur le gâteau c'est gratuit ! 

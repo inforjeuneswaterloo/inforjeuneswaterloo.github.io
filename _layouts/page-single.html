@@ -2,7 +2,9 @@
 layout: minimal
 ---
 {% assign page_color=page.color | default: "2c3e50" %}
-{% assign message=page.message | default: false %}
+{% assign message=page.message %}
+{% assign buttons=page.buttons %}
+{% assign color=page.color | default: 'e67c2' %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -16,16 +18,24 @@ layout: minimal
        <h1 class="post-title">{{ page.title }}</h1>
     </div>
     {% if message %}
-      <div class="cat-button no-link">
-          <i data-lucide="circle-x"></i>&nbsp;Inscriptions clôturées / Action terminée
-      </div>
+      {% assign enable=message.enable | default: false %}
+      {% if enable %}
+        <div class="cat-button no-link">
+            <i data-lucide="{{message.icon}}"></i>&nbsp;{{message.text}}
+        </div>
+      {%endif%}
     {%endif%}
   </header>
 
   <section class="post-content">
     {{ content }}
+    
   </section>
-
+  {% if page.buttons %}
+      <div class="cta-wrapper" style="margin: 2rem 0; display: flex;">
+        {% include buttons.html items=buttons color=color %}
+      </div>
+    {%endif%}
   <footer class="post-footer">
     {% comment %} NAVIGATION FOOTER (Rappel des suggestions) {% endcomment %}
     {% assign total_items = site[page.collection] | size %}

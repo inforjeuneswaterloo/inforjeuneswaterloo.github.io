@@ -6,18 +6,25 @@ module Jekyll
     end
 
     def render(context)
-      parts = @markup.split(',').map(&:strip)
+      # On sépare par virgule : {% button "Texte", "URL/Mail", "Couleur_Hex", "Nom_Icone" %}
+      parts = @markup.split(',').map { |p| p.strip.gsub(/\A["']|["']\Z/, '') }
 
-      text = (parts[0] && !parts[0].empty? ? parts[0].gsub(/"/,'') : 'Button')
-      url = (parts[1] && !parts[1].empty? ? parts[1].gsub(/"/,'') : '#')
-      style = (parts[2] && !parts[2].empty? ? parts[2].gsub(/"/,'') : 'primary')
-      icon = (parts[3] && !parts[3].empty? ? parts[3].gsub(/"/,'') : nil) # Récupérer l'icône
+      text  = parts[0] || 'Bouton'
+      target = parts[1] || '#'
+      # On nettoie la couleur pour s'assurer qu'il n'y a pas de double #
+      color = (parts[2] || 'e67c22').delete('#') 
+      icon  = parts[3] # L'icône Lucide
 
-      button_html = "<a href=\"#{url}\" class=\"btn btn-#{style}\ text-decoration-none">#{text}"
-      button_html += " <i class=\"#{icon}\"></i>" if icon # Ajouter l'icône si elle est présente
-      button_html += "</a>"
+      # Détection mailto
+      url = target.include?('@') ? "mailto:#{target}" : target
 
-      button_html
+      # Construction du HTML
+      html =  "<a href=\"#{url}\" class=\"cat-button\" style=\"--c: ##{color}; text-decoration: none !important;\">"
+      html += "<i data-lucide=\"#{icon}\"></i> " if icon
+      html += "<span class=\"cat-name\">#{text}</span>"
+      html += "</a>"
+
+      html
     end
   end
 

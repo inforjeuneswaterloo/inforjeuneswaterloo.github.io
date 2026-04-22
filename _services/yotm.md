@@ -11,16 +11,12 @@ icon:
   text: Hello World!
 buttons:
   - btn:
-     enable: true
+     enable: false
      text: Vers la section 'YOTM'
      href: /yotm/
      icon: fa-solid fa-angle-right
      class: btn btn-outline-dark text-decoration-none
      target: "_blank"
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
 ---
 Depuis une dizaine d'année maintenant Infor Jeunes Waterloo organise des événements autour de la mobilité internationale des jeunes. 
 

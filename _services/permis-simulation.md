@@ -16,10 +16,6 @@ buttons:
      icon: 
      class: btn btn-primary text-white text-decoration-none
      target: "_self"
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
 ---
 **Tu envisages de passer ton permis?**
 

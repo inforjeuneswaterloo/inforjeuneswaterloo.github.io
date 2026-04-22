@@ -1,5 +1,5 @@
 ---
-layout: minimal 
+layout: minimal
 ---
 {% assign contact_ij = site.data.contact-ij %}
 {% assign color = page.color | default: 'e67c22' %}
@@ -21,7 +21,7 @@ layout: minimal
 
     <div class="contact-full-wrapper">
         <div class="contact-form-section">
-            <form  name="contact" method="POST" class="sob-form" netlify">
+            <form  action="https://airform.io/{{action}}" method="POST" class="sob-form">
                 
                 <div class="form-group">
                     <label for="name">Tes nom et prénom</label>
@@ -41,7 +41,7 @@ layout: minimal
                 <div class="form-group">
                     <label>
                         <input type="checkbox" name="consentement" required>
-                                J'accepte qu'Infor Jeunes Waterloo utilise mes données afin de me recontacter.
+                                J'accepte qu'Infor Jeunes Waterloo utilise mes données afin de me recontacter.  
                     </label>
                 </div>
 

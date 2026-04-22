@@ -15,10 +15,6 @@ buttons:
      icon: 
      class: btn btn-primary text-white text-decoration-none btn-sm
      target: _blank
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
 ---
 **Tu réfléchis à ton avenir ou tu n’es pas satisfait.e de ton choix?**
 
