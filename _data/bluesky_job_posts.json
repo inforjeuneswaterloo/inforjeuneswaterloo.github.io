@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3olt36fi2c",
+      "cid": "bafyreifx4d5bua4hewssoe6rbzdpm7sah4vex7jhpzvy3vydupnclnqepq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-22T14:13:41.560Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=54c7a047086f3050&q=etudiant&l=brabant+wallon&tk=1jmlot7agh0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDK67I3ka5MQpz42J0LbzkdCdPP&xfps=5bfd655d-3660-4185-ab14-19bc380ee9b3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmlot7agh0up800&xkcb=SoCn67M3kV562gBRBb0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/RvovIZh"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Etudiant(e) Lidl Court-Saint-Etienne\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/RvovIZh\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=54c7a047086f3050&q=etudiant&l=brabant+wallon&tk=1jmlot7agh0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDK67I3ka5MQpz42J0LbzkdCdPP&xfps=5bfd655d-3660-4185-ab14-19bc380ee9b3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmlot7agh0up800&xkcb=SoCn67M3kV562gBRBb0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-22T14:13:42.347Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3ogp4yh42p",
+      "cid": "bafyreiawdmmo5uusghogq6hclwzz4xg5n22ugcwdq7epv2m55rkgtsw7i4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-22T14:10:47.351Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-braine-lalleud-tubize-brabant-wallon/386-42491-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/r2m0tt2"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Job étudiant en magasin - Braine-l'Alleud\n- Etudiant.e (avec encore minimum 200 heures disponibles)\n- Vous savez vous déplacer facilement (même les dimanches!)\n- Vous êtes majeur (manipulation d'argent)\n- Une expérience en caisse est indispensable\n- Dispo pendant les fêtes\nbuff.ly/r2m0tt2\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-braine-lalleud-tubize-brabant-wallon/386-42491-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-22T14:10:50.150Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3lvg6kgv2q",
+      "cid": "bafyreicr6zvw6tezb72jsjqijo3cstm77uqdkamrq7pnf767t3e25vjiby",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-22T13:25:21.672Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ?Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique moderne et organisé...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Préparateur commandes - job étudiant",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5682756?JobId=5682756&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ATmSMa2"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 291
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 313,
+              "byteStart": 307
+            }
+          }
+        ],
+        "text": "Etudiant préparateur de commandes H/F Nivelles\n- Préparation des commandes avec précision\n- Emballage soigné des produits santé & bien-être\n- Contrôle qualité avant expédition\n- Organisation du stock et le réassort\n- Collaboration avec une équipe bienveillante et expérimentée \nbuff.ly/ATmSMa2\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5682756?JobId=5682756&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Préparateur commandes - job étudiant",
+          "description": "Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ?Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique moderne et organisé...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-22T13:25:22.758Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjz5zcy7bu2b",
       "cid": "bafyreibepatrkdii2vpur7j5we5htio7twknakbntn4z6g7ynmvvjhrenq",
       "author": {
@@ -8200,273 +8458,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-12T15:08:27.153Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3melnrgcqtp2u",
-      "cid": "bafyreihypyfrewxid4i6dde2lbcgk43ytkyedkrdau4my75scujmzguc2m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-11T14:10:20.879Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L'opportunité Êtes-vous à la recherche d'une expérience humaine forte de sens ? Prêt(e) à développer de nouvelles compétences ? Grandir au sein d'un groupe en pleine expansion ? Vous recherchez une…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigpm3qbsajtynqxmkyjqrp6etg4oegvclvigbhegszobirfca7xmy"
-              },
-              "mimeType": "image/png",
-              "size": 117786
-            },
-            "title": "Aide cuisine étudiant - résidence du Nil | Careion",
-            "uri": "https://careion.talentfinder.be/fr/vacature/122603/aide-cuisine-etudiant--residence-du-nil/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/RDB38Zl"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 268
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Aide cuisine étudiant Résidence du Nil  - Walhain\nTâches :\n- Préparer des plats froids\n- Nettoyage des surfaces de travail et du matériel\n- Réception livraisons\n- Préparer tartine/service du soir/vaisselle\nProfil\nSavoir travailler avec les appareils de cuisine\nbuff.ly/RDB38Zl \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://careion.talentfinder.be/fr/vacature/122603/aide-cuisine-etudiant--residence-du-nil/",
-          "title": "Aide cuisine étudiant - résidence du Nil | Careion",
-          "description": "L'opportunité Êtes-vous à la recherche d'une expérience humaine forte de sens ? Prêt(e) à développer de nouvelles compétences ? Grandir au sein d'un groupe en pleine expansion ? Vous recherchez une…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigpm3qbsajtynqxmkyjqrp6etg4oegvclvigbhegszobirfca7xmy"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-11T14:10:22.763Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3melnec47od23",
-      "cid": "bafyreiedvd5xglpaecd2nvndl43w3xhgpcnze55gbc27jxdy756wgtqpn4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-11T14:03:00.260Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Postulez maintenant à l'offre de , c'est gratuit !",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidpzqgzotk6kpaauguhot4jjra7petonwsuajenn6lsmyrwq2oqqu"
-              },
-              "mimeType": "image/webp",
-              "size": 9480
-            },
-            "title": "OFFRE D'EMPLOI : baby-sitter à Nivelles - Cliquez pour postuler",
-            "uri": "https://yoopies.be/emploi-baby-sitting/nivelles/emploi-baby-sitter-nivelles/6400534?utm_source=jooble&utm_source=jooble&utm_medium=referral&utm_medium=cpc&utm_campaign=jooble-BE&utm_campaign=jooble"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/0b93vu9"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Job baby-sitter pr 3 enfants de 6 à 13 ans - Nivelles. \n6h/sem. à partir de mars pour 4 mois (possibilité de prolongation pour 2026-2027).\nMissions : aller chercher les enfants à l'école, assurer une présence, aide aux devoirs,éventuellement commencer la préparation du souper\nbuff.ly/0b93vu9 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://yoopies.be/emploi-baby-sitting/nivelles/emploi-baby-sitter-nivelles/6400534?utm_source=jooble&utm_source=jooble&utm_medium=referral&utm_medium=cpc&utm_campaign=jooble-BE&utm_campaign=jooble",
-          "title": "OFFRE D'EMPLOI : baby-sitter à Nivelles - Cliquez pour postuler",
-          "description": "Postulez maintenant à l'offre de , c'est gratuit !",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidpzqgzotk6kpaauguhot4jjra7petonwsuajenn6lsmyrwq2oqqu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-11T14:03:02.355Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3melmvdgifb2n",
-      "cid": "bafyreidijgei7yrjua6r7xxcqth6bbcbesemxtjayasrpqz5a5bmeanyce",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-11T13:54:38.322Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour renforcer notre équipe, nous sommes à la recherche de commi",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreighqz5f67wmzxs6qyskomqvppnrka2wx2q7mvsuepvrdlspyjoaae"
-              },
-              "mimeType": "image/png",
-              "size": 32640
-            },
-            "title": "We're hiring",
-            "uri": "https://app.beehire.com/invite/mSL67HGEuXW?form=false"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kAHasV9"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Job Etudiant Poncho - Waterloo\nTâches : gérer la mise en place et le service.\nProfil :\n- Sérieux/ponctuel/dynamique \n- Esprit d’équipe\n- Expérience est un +\n- Formation ou expérience horeca sont des +\nOffre : \nHoraires flexibles à définir, cadre de travail agréable\nbuff.ly/kAHasV9 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://app.beehire.com/invite/mSL67HGEuXW?form=false",
-          "title": "We're hiring",
-          "description": "Pour renforcer notre équipe, nous sommes à la recherche de commi",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreighqz5f67wmzxs6qyskomqvppnrka2wx2q7mvsuepvrdlspyjoaae"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-11T13:54:40.054Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
