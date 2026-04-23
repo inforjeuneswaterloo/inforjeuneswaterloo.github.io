@@ -1,6 +1,285 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5pt3pazt2q",
+      "cid": "bafyreifp7pijxg23hypm6rw6ad3fjbl4mkdbwipdmg7a3skwvwrgglewua",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-23T09:40:56.753Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+              },
+              "mimeType": "image/webp",
+              "size": 219534
+            },
+            "title": "Offres d’emploi | PROMAN Jobs",
+            "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie à Vieux-Genappe\n- Horaire principal : 11h – 19h\n- Flexibilité pour travailler le week-end et les jours fériés\n- Environnement de travail familial et dynamique\n- 1 test pratique de 4 heures est prévu dans le processus de sélection \nwww.proman.be/fr/jobs/empl...\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie",
+          "title": "Offres d’emploi | PROMAN Jobs",
+          "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-23T09:40:59.549Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5oz73ac72p",
+      "cid": "bafyreieb33khc5vn7u52nfdbjdfl53pnhoo3fmedh3acgwee5r6jjbg4ye",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-23T09:26:29.182Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour une top boulangerie à Waterloo, nous recherchons un.e étudiant/flexi !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Vendeur/se en boulangerie étudiant.e ou Flexijob",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702562?JobId=5702562&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/iuHQbFN"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 262
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Etudiant vendeur en boulangerie H/F Waterloo\n- Accueillir les clients avec sourire et énergie\n- Offrir un service client exceptionnel en partageant votre passion pour les délices frais du jour\n- Assurer une présentation de nos produits en vitrine et en rayon\nbuff.ly/iuHQbFN\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702562?JobId=5702562&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Vendeur/se en boulangerie étudiant.e ou Flexijob",
+          "description": "Pour une top boulangerie à Waterloo, nous recherchons un.e étudiant/flexi !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-23T09:26:30.652Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5ocea3pi2e",
+      "cid": "bafyreih4g74megztljfqer5x74qcbyganfkqjmxlngwp22qpil565lwbye",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-23T09:13:42.823Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous êtes à la recherche d'un étudiant ?Vous êtes disponible de nuit ou du week end?Vous avez une bonne condition physique et êtes véhiculé?Vous avez plus de 18 ans?",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702399?JobId=5702399&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JJq32Wt"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août Nivelles\nTâches:\n- Charger/décharger des colis pouvant peser jusqu'à 30 kg\n- Trier et organiser les colis avec précision\n- Maintenir la propreté et l'efficacité de l'entrepôt et de votre poste de travail\nbuff.ly/JJq32Wt\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702399?JobId=5702399&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+          "description": "Vous êtes à la recherche d'un étudiant ?Vous êtes disponible de nuit ou du week end?Vous avez une bonne condition physique et êtes véhiculé?Vous avez plus de 18 ans?",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-23T09:13:44.249Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3olt36fi2c",
       "cid": "bafyreifx4d5bua4hewssoe6rbzdpm7sah4vex7jhpzvy3vydupnclnqepq",
       "author": {
@@ -8209,255 +8488,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-16T12:15:42.149Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mexwpufm3u2p",
-      "cid": "bafyreiawvag42nxxbeiqab27247f7v7dnjx5b7ckdfbyjcrcu44s5rqtve",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-16T11:22:29.994Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=1c2e56636798ebc8&q=Etudiants&l=Brabant-wallon&tk=1jhco58t4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAl67I3nzNa_hzNUR0LbzkdCdPP&xfps=3c699028-8d23-497c-860e-d93b7516da54&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhco58t4j91i800&xkcb=SoCe67M3ns4a5Mb3Vh0fbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cxkeCub"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant(e) H&M Aide du Samedi 6h - Waterloo\n- Dispo à travailler 35h/sem pendant les vacances de printemps\n- Plier, suspendre, présenter et mettre en valeur les vêtements\n- Traiter/stocker/réapprovisionner activement les vêtements\n- Ouvrir/déballer/antivoler les marchandises \nbuff.ly/cxkeCub\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=1c2e56636798ebc8&q=Etudiants&l=Brabant-wallon&tk=1jhco58t4j91i800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAl67I3nzNa_hzNUR0LbzkdCdPP&xfps=3c699028-8d23-497c-860e-d93b7516da54&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jhco58t4j91i800&xkcb=SoCe67M3ns4a5Mb3Vh0fbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-16T11:22:30.455Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meobvbko7e2q",
-      "cid": "bafyreibmfaueba3zjd5wg2lv7luq6nmga6kpls3cane4esqkqe2jh264ee",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-12T15:15:44.609Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Talentus est le partenaire de votre carrière ! Nous assurons le match parfait entre vos aspirations professionnelles et les ambitions de nos clients. Notre mission est de construire ensemble votre…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibwtvvatososgwnqp2dsux2oddujhi2n5nrft4vbddbfefwwhhalq"
-              },
-              "mimeType": "image/jpeg",
-              "size": 37501
-            },
-            "title": "Joboffers Brand Ambassador (Etudiant) | Talentus",
-            "uri": "https://talentus.be/fr/joboffers/conseiller-commercial/ixelles/131907/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/xPSLtd5"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Job Etudiant vente - Ixelles\nMission :\n- Accueil/conseil client\n- Vente bijoux/accessoires\n- Caisse\n- Présentation/mise en valeur des produits\nProfil \n- Dispo sa, di + 1 jour en semaine\n- 18 ans min.\n- FR et bonne connaissance NDL\n- Sens du service client/aisance relationnelle\nbuff.ly/xPSLtd5\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://talentus.be/fr/joboffers/conseiller-commercial/ixelles/131907/",
-          "title": "Joboffers Brand Ambassador (Etudiant) | Talentus",
-          "description": "Talentus est le partenaire de votre carrière ! Nous assurons le match parfait entre vos aspirations professionnelles et les ambitions de nos clients. Notre mission est de construire ensemble votre…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibwtvvatososgwnqp2dsux2oddujhi2n5nrft4vbddbfefwwhhalq"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-12T15:15:46.151Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3meobi7dzt62j",
-      "cid": "bafyreih7qxwdeheqz3rnimcvjfu5ayj5wper7vnozgjzynrugpqkhf2wki",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-12T15:08:26.818Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://entreprise.Il"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/S3bvDIT"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Student RH - NIVELLES\nMission : Traiter/encoder les formations des années 2024 à 2026 \nProfil :\n- Etre à l’aise avec l’utilisation d'un ordinateur, \n- Bonne capacité d’organisation et de concentration, ainsi qu’un réel souci du détail.\n- Dispo les 2 semaines de carnaval\nbuff.ly/S3bvDIT\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://entreprise.Il",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-12T15:08:27.153Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
