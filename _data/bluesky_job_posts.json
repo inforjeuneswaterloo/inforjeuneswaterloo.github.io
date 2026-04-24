@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkavxvmqm32e",
+      "cid": "bafyreic4cxllmxtpwqoykla26c73ungruhbsylvv5xq4dt5kbkq4ikrqia",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-24T16:09:00.642Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Offre d’emploi Étudiant.e - Decathlon Wavre chez Decathlon Belgium à 1300 Wavre !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigyeof4woh5civk2cgpzafc2dpnil3xa66tata4awlyshrhnjb35m"
+              },
+              "mimeType": "image/jpeg",
+              "size": 185020
+            },
+            "title": "Étudiant.e - Decathlon Wavre",
+            "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre"
+              }
+            ],
+            "index": {
+              "byteEnd": 176,
+              "byteStart": 141
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 183,
+              "byteStart": 177
+            }
+          }
+        ],
+        "text": "Etudiant(e) Decathlon Wavre\n- Bonne communication\n- Passion du sport\n- Orientation client\n- Flexible\n-Prise d'initiative\n- Esprit d'équipe \njoinus.decathlon.be/fr/annonce/4...\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre",
+          "title": "Étudiant.e - Decathlon Wavre",
+          "description": "Offre d’emploi Étudiant.e - Decathlon Wavre chez Decathlon Belgium à 1300 Wavre !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigyeof4woh5civk2cgpzafc2dpnil3xa66tata4awlyshrhnjb35m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-24T16:09:03.158Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mka4dupxnp2m",
       "cid": "bafyreifjadlhzq3nvgl7brkvix47qbi3r76jf3ysh7vxfy6ays5ymrnk5y",
       "author": {
@@ -8408,86 +8497,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-17T13:33:39.555Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mey56r53uw2o",
-      "cid": "bafyreibpnycx3sx5ot72okesgzhxkvod3izbm4lhtqn2iqrgqiptyb7tum",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-16T13:18:12.334Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=e01828f68813db8c&q=%C3%A9tudiant&l=Waterloo&tk=1jhdqpq31g9vu808&from=ja&advn=2810922355591769&adid=457120470&ad=-6NYlbfkN0DwcDRZuvbeA5FmXaqIRKScuCJyWZahecUPVUrdszdfp-4Bs70NLz2vc7xsy37inPJ3MPsCPQYlAdIresTQeXLhHuzkaSzt5Y37vubvhEsm55Yu7iWDioH6GQ4Q4vpwaSsSM_-_XjenQLoWmCPyAKkWnfNv9ZQPUW0I-riB726DPAz6m5ThVrQ0H4i5A2ZBMmKRwOUX3o2SP5cN_wpLVzKcfupMm8XA3aaF9oMKAdQFzvuwNRwgV7eA-f03ESR3dATzMftCKtHa9Hv1o-6EjHSocOW0VfZijvEZwUmG8JDg_81mqqY4H4eVehmd56JhIR_jQ8oDHktKfMfhFYZOiUkbnJwgM1JcpqO5DXfU4G498HPCYUTxVsW7AaM20er-UxV4Q4CZ9P-hKX2ZhG31U4Xs-Q4eDOSw5CsacBsAs8WPYgS-YurDzxjr1no7A8cj9wBqjc26CBLDG9R9xk1_62BnqCCmwVbjfjK82SGmapMxU4DPEMU9JRjPL9nKZ_to5Vn9GEuHwyBPK0Gf7qAX9Cqm3ay3GeIKA75jxYNTpVIRARE2JIbgk6nWookyzi3JD-g%3D&alid=698c7a5f2c2690065c4a2ef7&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLPH2l85jWd2w%3D%3D&xkcb=SoCc6_M3nt9oiX6bkx0UbzkdCdPP&xpse=SoBb6_I3nzatPazCXh0PbzkdCdPP&xfps=21cb01ea-7a15-49fe-916f-a795dcd221cb&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/2eqbNOD"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 246
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 262
-            }
-          }
-        ],
-        "text": "Etudiant serveur - Barman H/F Rhode-St-Genèse\n- Recherche d'1 personne dynamique, souriante et autonome, ayant une expérience pour la tenue d'un bar avec petite restauration.\n- Bonne présentation, maîtrise du français, l'anglais est un plus\nbuff.ly/2eqbNOD\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=e01828f68813db8c&q=%C3%A9tudiant&l=Waterloo&tk=1jhdqpq31g9vu808&from=ja&advn=2810922355591769&adid=457120470&ad=-6NYlbfkN0DwcDRZuvbeA5FmXaqIRKScuCJyWZahecUPVUrdszdfp-4Bs70NLz2vc7xsy37inPJ3MPsCPQYlAdIresTQeXLhHuzkaSzt5Y37vubvhEsm55Yu7iWDioH6GQ4Q4vpwaSsSM_-_XjenQLoWmCPyAKkWnfNv9ZQPUW0I-riB726DPAz6m5ThVrQ0H4i5A2ZBMmKRwOUX3o2SP5cN_wpLVzKcfupMm8XA3aaF9oMKAdQFzvuwNRwgV7eA-f03ESR3dATzMftCKtHa9Hv1o-6EjHSocOW0VfZijvEZwUmG8JDg_81mqqY4H4eVehmd56JhIR_jQ8oDHktKfMfhFYZOiUkbnJwgM1JcpqO5DXfU4G498HPCYUTxVsW7AaM20er-UxV4Q4CZ9P-hKX2ZhG31U4Xs-Q4eDOSw5CsacBsAs8WPYgS-YurDzxjr1no7A8cj9wBqjc26CBLDG9R9xk1_62BnqCCmwVbjfjK82SGmapMxU4DPEMU9JRjPL9nKZ_to5Vn9GEuHwyBPK0Gf7qAX9Cqm3ay3GeIKA75jxYNTpVIRARE2JIbgk6nWookyzi3JD-g%3D&alid=698c7a5f2c2690065c4a2ef7&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLPH2l85jWd2w%3D%3D&xkcb=SoCc6_M3nt9oiX6bkx0UbzkdCdPP&xpse=SoBb6_I3nzatPazCXh0PbzkdCdPP&xfps=21cb01ea-7a15-49fe-916f-a795dcd221cb&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-16T13:18:12.653Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
