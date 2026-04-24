@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mka4dupxnp2m",
+      "cid": "bafyreifjadlhzq3nvgl7brkvix47qbi3r76jf3ysh7vxfy6ays5ymrnk5y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-24T08:30:26.202Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=1599c6015909c052&q=%C3%A9tudiant&l=Waterloo&tk=1jmtk3ak0g9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAs67I3kfawGmTN7h0LbzkdCdPP&xfps=f2da7e48-2e98-4e06-84c1-b607d1352dab&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmtk3ak0g9so800&xkcb=SoC967M3kdgCvYxHjp0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mxKvYhz"
+              }
+            ],
+            "index": {
+              "byteEnd": 254,
+              "byteStart": 239
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 261,
+              "byteStart": 255
+            }
+          }
+        ],
+        "text": "Etudiante support marketing Uccle\nTes missions:\n- Participation à la communication et à la visibilité du centre\n- Création ou aide à la préparation de contenus pour les réseaux sociaux\n- Soutien à l’image de marque d’Epilsoft \nbuff.ly/mxKvYhz\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=1599c6015909c052&q=%C3%A9tudiant&l=Waterloo&tk=1jmtk3ak0g9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAs67I3kfawGmTN7h0LbzkdCdPP&xfps=f2da7e48-2e98-4e06-84c1-b607d1352dab&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmtk3ak0g9so800&xkcb=SoC967M3kdgCvYxHjp0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-24T08:30:26.746Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5pt3pazt2q",
       "cid": "bafyreifp7pijxg23hypm6rw6ad3fjbl4mkdbwipdmg7a3skwvwrgglewua",
       "author": {
@@ -8408,86 +8488,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-16T13:18:12.653Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mexzoychfp2q",
-      "cid": "bafyreihdysi7w2jsecrzx7dcosby64ub625sgimnl3dk3gpjo4czdxmnha",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-16T12:15:41.759Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/be29063e8e7ca56f3ab74a09fed2a43c82"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/uruSDiA"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 287
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 309,
-              "byteStart": 303
-            }
-          }
-        ],
-        "text": "Job étudiant comptabilité Ixelles\n- Etudiant.e Bachelor dans les domaines de la gestion et de la finance\n- Excellente connaissance du français ou du néerlandais ; l’anglais est un +\n- Tu aimes travailler sur différentes tâches\n- Autonome mais tu apprécies le travail en équipe\nbuff.ly/uruSDiA\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/be29063e8e7ca56f3ab74a09fed2a43c82",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-16T12:15:42.149Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
