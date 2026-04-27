@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkhzgpjkgc2p",
+      "cid": "bafyreid4x2yw2bgie5lzx24qkepe2dwcljav2npfi63x4exebb2j66qdz4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-27T11:59:36.492Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-vendeureuse-en-boucherie-wavre-wavre-brabant-wallon/142-34963-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/r3X1tzO"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant.e vente en boucherie - Wavre\nMissions :\n- Accueil/conseil clientèle\n- Servir/préparer les commandes\n- Propreté et hygiène\n- Caisse...\nProfil\n- expérience avec la trancheuse requise\n- Sens du service client/bonne présentation\n- Dynamique, fiable et ponctuel·le\n- ...\nbuff.ly/r3X1tzO \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-vendeureuse-en-boucherie-wavre-wavre-brabant-wallon/142-34963-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-27T11:59:38.445Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkhz5gx54b2c",
+      "cid": "bafyreifs6iucil6kst2a4zxmcvpdq7aaakwyyic722c5cys7psmfzu66vy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-27T11:54:25.337Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-aide-mecanicien-156-158-zaventem-zaventem-brabant-flamand/307-34980-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0GTT8HM"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant aide mécanicien 15/6 au 15/8 - Zaventem \nTâches :\n-Remplacer les pneus\n-Petits entretiens\n-Répare vitres/fenêtres\nProfil :\n-Etudes filière technique (le mieux en mécanique)\n-Dispo 15/6 au 15/8\n-Bonne connaissance du FR\n-1ère exp. comme mécanicien est un +\n-Permis B\nbuff.ly/0GTT8HM \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-aide-mecanicien-156-158-zaventem-zaventem-brabant-flamand/307-34980-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-27T11:54:27.554Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkhyrkeq2k2k",
+      "cid": "bafyreigj6hn42ohwmywu6jbed2vjh4ys3xhpadvollm4o73iir6is2qj6m",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-27T11:47:48.043Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=74aeeffcb08b3820&q=etudiant&l=brabant+wallon&tk=1jn5d84i7h0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoBh67I3knfrz1z4tR0LbzkdCdPP&xfps=a3908222-1085-4560-9fc1-02744ae35e22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jn5d84i7h0up800&xkcb=SoBw67M3klSvRZ6wSx0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ABw5Uzf"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant Assistant social du 6/07 au 21/08 SILVA Medical - Wavre \nMission : accompagnement psycho-social \nProfil :\n- Min. 18 ans\n- Etudes d’Assistant social\n- Organisé et excellentes compétences administratives\n- Capacité d’adaptation, d’ouverture et aisance relationnelle\nbuff.ly/ABw5Uzf \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=74aeeffcb08b3820&q=etudiant&l=brabant+wallon&tk=1jn5d84i7h0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoBh67I3knfrz1z4tR0LbzkdCdPP&xfps=a3908222-1085-4560-9fc1-02744ae35e22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jn5d84i7h0up800&xkcb=SoBw67M3klSvRZ6wSx0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-27T11:47:48.352Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkavxvmqm32e",
       "cid": "bafyreic4cxllmxtpwqoykla26c73ungruhbsylvv5xq4dt5kbkq4ikrqia",
       "author": {
@@ -8230,273 +8488,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-18T12:44:07.355Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf53roocdw2k",
-      "cid": "bafyreibrvdj26plp3fktmukjbpreuvsxkeyqvcxp7qxd5grmuw3wbtrk74",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-18T12:36:17.852Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant/Flexi boulangerie (samedi)",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452351?JobId=5452351&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/7n015R6"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Etudiant(e) boulangerie samedi à Grez-Doiceau\nProfil\n- Dynamique, motivé et doté d’un bon contact client Intérêt pour le secteur de la boulangerie et le travail en équipe\n- Sérieux, ponctuel et fiable\n- Disponible pour un job à l’année (statut étudiant ou flexi) \nbuff.ly/7n015R6 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452351?JobId=5452351&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Etudiant/Flexi boulangerie (samedi)",
-          "description": "Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et effectuer le service...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-18T12:36:18.850Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf4oq2po4n26",
-      "cid": "bafyreicjea4ldrkhjdk7zredr663sydnezccbl3npladxinnz6slo65yqa",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-18T08:42:44.570Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Job étudiant en jardinerie",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452713?JobId=5452713&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/BU3WXKP"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Job étudiant en jardinerie Louvain-la-Neuve\nProfil:\n- Sens du commerce, contact facile et créativité\n- Travail à la caisse (formation prévue), mise en rayon\n- Vous êtes disponible deux fois par semaines tout au long de l'année académique ( semaine ou w-k de 10h à 18h30) \nbuff.ly/BU3WXKP\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5452713?JobId=5452713&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Job étudiant en jardinerie",
-          "description": "Job étudiant – Rejoins une équipe dynamique en jardinerie !Tu aimes le contact avec les clients et tu veux un job étudiant sympa dans un cadre agréable ?Nous recherchons des",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-18T08:42:46.153Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf2ojbqwvv2q",
-      "cid": "bafyreibgoesn7oeqky2dnlonabentcl43xc7xame2db5omic6gu3lmgnk4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-17T13:33:37.388Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreie7qgqd355pxigetybgk2psxpe3lcsb5rc7fjhf37l7jah6gqgw2a"
-              },
-              "mimeType": "image/png",
-              "size": 280954
-            },
-            "title": "Job étudiant comptabilité",
-            "uri": "https://jobs.be.athora.com/fr/jobs/job-etudiant-comptabilite-3eda9144?utm_source=careerjet&utm_medium=xml_feed"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/18V0WiE"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Job étudiant comptabilité - Ixelles \nTâches :\n- Suivi, encodage et contrôle des paiements\n- Encodage des factures et des achats\n- Suivi des comptes fournisseurs\n- ...\nProfil\n- Etudiant.e Bac (gestion/finance)\n- Excellente connaissance du FR ou du NLDS (ANG est un +)\n- ...\nbuff.ly/18V0WiE \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://jobs.be.athora.com/fr/jobs/job-etudiant-comptabilite-3eda9144?utm_source=careerjet&utm_medium=xml_feed",
-          "title": "Job étudiant comptabilité",
-          "description": "Job étudiant",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreie7qgqd355pxigetybgk2psxpe3lcsb5rc7fjhf37l7jah6gqgw2a"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-17T13:33:39.555Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
