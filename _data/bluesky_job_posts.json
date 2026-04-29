@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mknbczodnu2k",
+      "cid": "bafyreidleaxlcy2koz6eax3vuhu3vef3if3qiel22v5aqpffabibanb7f4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-29T14:04:01.861Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Assurer le nettoyage et l’entretien de différents types de chantiers : bureaux, magasins, surfaces commerciales, sanitaires, espaces communs ou zones spécifiques selon les besoins du site.Préparer,...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Étudiant(e) technicien(ne) de surface",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5720734?JobId=5720734&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/We7h2Vb"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Étudiant technicien de surface H/F Nivelles\n- Idéalement expérience dans le nettoyage (bureaux, sanitaires, sols, surfaces diverses)\n- Dispo pendant l’été, à partir de fin juin, et flexible selon les besoins des différents chantiers\n- Capable de travailler seul et en équipe\nbuff.ly/We7h2Vb\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5720734?JobId=5720734&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Étudiant(e) technicien(ne) de surface",
+          "description": "Assurer le nettoyage et l’entretien de différents types de chantiers : bureaux, magasins, surfaces commerciales, sanitaires, espaces communs ou zones spécifiques selon les besoins du site.Préparer,...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-29T14:04:03.470Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkmtbxmhaq2q",
       "cid": "bafyreiaizrnkgqf7ifzku4mstjeicr3ccbkvbo7goa4qebrdc5sqq52j2y",
       "author": {
@@ -8387,86 +8476,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-20T10:27:33.251Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfbuwckrvf2c",
-      "cid": "bafyreidaekfiyvlwjhottbwgvfy4ib4uhjf2bnjzckwkrdswclp2owyutu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-20T10:16:56.096Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=5ba09f8b9c90efb3&q=Etudiant&l=Brabant-wallon&tk=1jht2682tg9ur803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBQ67I3n9ZPPlz76p0LbzkdCdPP&xfps=4fdb3424-4219-4bc8-83fa-31ceaa6309b0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jht2682tg9ur803&xkcb=SoAp67M3n9MWxjbGcR0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/T9oXRV4"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Job Serveur(se)/Barman polyvalent - Louvain-la-Neuve\nTâches :\n- Mise en place/préparation des soirées\n- Accueil/service bar\n- Prise de commandes/encaissement...\nProfil :\n- Dynamique/ponctuel/motivé\n- Bon relationnel/esprit d’équipe\n- Attitude professionnelle, respectueuse...\nbuff.ly/T9oXRV4\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=5ba09f8b9c90efb3&q=Etudiant&l=Brabant-wallon&tk=1jht2682tg9ur803&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBQ67I3n9ZPPlz76p0LbzkdCdPP&xfps=4fdb3424-4219-4bc8-83fa-31ceaa6309b0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jht2682tg9ur803&xkcb=SoAp67M3n9MWxjbGcR0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-20T10:16:56.650Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
