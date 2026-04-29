@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkmtbxmhaq2q",
+      "cid": "bafyreiaizrnkgqf7ifzku4mstjeicr3ccbkvbo7goa4qebrdc5sqq52j2y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-29T09:52:53.891Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Tu es étudiant et 10%% disponible la semaine du 18 au 24 mai Tes missions : Accueillir et encaisser les clients avec le sourire, en espèces ou par carte Assurer l'ouverture et…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+              },
+              "mimeType": "image/png",
+              "size": 68733
+            },
+            "title": "Emploi | Student Louvain La Neuve | Start People",
+            "uri": "https://www.startpeople.be/fr/job/student_louvain_la_neuve-2000927?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/bGANwvY"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant(e) caisse-réassort Louvain-La-Neuve\n- Statut jobiste valide\n- Dispo du 18 au 24 mai\n- Tu aimes offrir un service de qualité\n- Fiable, ponctuel·le et à l'aise avec les chiffres\nLa maîtrise du français est indispensable ; le néerlandais ou l'anglais = atout \nbuff.ly/bGANwvY\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/student_louvain_la_neuve-2000927?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere",
+          "title": "Emploi | Student Louvain La Neuve | Start People",
+          "description": "Contenu de l'emploi:  Tu es étudiant et 10%% disponible la semaine du 18 au 24 mai Tes missions : Accueillir et encaisser les clients avec le sourire, en espèces ou par carte Assurer l'ouverture et…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-29T09:52:55.463Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkmrchknyv2k",
+      "cid": "bafyreifhozv6tbfjh43mt7kxqfokq62n5z4zbnp2syj6foyypr627ay46q",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-04-29T09:17:23.238Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Walibi Belgique - We are recruiting for the following position: Job Etudiant - Technicien de maintenance Aqualibi (H/F/X) from Other - Full time until Boulevard de l'Europe. View the detailed advert here.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibcbvlzpniec22i662dsez36tityjtcyndmdnnhde772goqea66cy"
+              },
+              "mimeType": "image/jpeg",
+              "size": 110093
+            },
+            "title": "Walibi Belgique | Job Etudiant - Technicien de maintenance Aqualibi (H/F/X)",
+            "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/3reue1"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/6Uowvzy"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant(e) Technicien de maintenance Aqualibi Wavre\n- Connaissances en électromécanique\n- Rigueur et esprit d'analyse\n- Autonomie et volonté d'apprendre\n- Gérer des situations stressantes avec professionnalisme\n- La sécurité fait partie intégrante de ta façon de travailler\nbuff.ly/6Uowvzy\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://walibi-belgium-aqualibi.talentview.io/jobs/3reue1",
+          "title": "Walibi Belgique | Job Etudiant - Technicien de maintenance Aqualibi (H/F/X)",
+          "description": "Walibi Belgique - We are recruiting for the following position: Job Etudiant - Technicien de maintenance Aqualibi (H/F/X) from Other - Full time until Boulevard de l'Europe. View the detailed advert here.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibcbvlzpniec22i662dsez36tityjtcyndmdnnhde772goqea66cy"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-04-29T09:17:25.164Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mklfth3sco2u",
       "cid": "bafyreib6x5kv24sizmug3tfcq6zi7itguooe5bqkkynwlzgjddvcvph4yy",
       "author": {
@@ -8289,184 +8467,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-20T10:16:56.650Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf7k2qncpw26",
-      "cid": "bafyreigsagewvnleseygl3tm64bfmdvfo3g7ogxjmcket3sg4kabxrk54m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-19T11:57:13.777Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Chez Medtronic, vous pouvez entamer une longue carrière d’exploration et d’innovation tout en aidant à soutenir l’accès aux soins de santé et l’équité pour tous. Vous dirigerez avec détermination en…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreieslicb6prnpax53mvvwewuf2fqzazknf3unecf7ceio3apu5q6za"
-              },
-              "mimeType": "image/png",
-              "size": 5992
-            },
-            "title": "Emploi Étudiant Support Technique",
-            "uri": "https://medtronic.wd1.myworkdayjobs.com/fr-FR/MedtronicCareers/job/Brussels-Brussels-Belgium/Emploi-tudiant-Support-Technique_R59713-2"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/glqP6Zy"
-              }
-            ],
-            "index": {
-              "byteEnd": 279,
-              "byteStart": 264
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 286,
-              "byteStart": 280
-            }
-          }
-        ],
-        "text": "Étudiant Support Technique Nivelles et Bruxelles\n- En licence ou master\n- Parfaite maîtrise du français ; compréhension de base de l’anglais (niveau 1)\n- Aisance avec les outils informatiques\n- Possession d’une voiture (obligatoire) et permis de conduire \nbuff.ly/glqP6Zy\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://medtronic.wd1.myworkdayjobs.com/fr-FR/MedtronicCareers/job/Brussels-Brussels-Belgium/Emploi-tudiant-Support-Technique_R59713-2",
-          "title": "Emploi Étudiant Support Technique",
-          "description": "Chez Medtronic, vous pouvez entamer une longue carrière d’exploration et d’innovation tout en aidant à soutenir l’accès aux soins de santé et l’équité pour tous. Vous dirigerez avec détermination en…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreieslicb6prnpax53mvvwewuf2fqzazknf3unecf7ceio3apu5q6za"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-19T11:57:15.152Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mf7jjsqqd62w",
-      "cid": "bafyreic7uz6cta5ropxmmdw4ztfvzvja44l7nry3gowo4632b4inhkyoiu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-19T11:47:37.799Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 112305
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32145-3&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/WVdpiLp"
-              }
-            ],
-            "index": {
-              "byteEnd": 140,
-              "byteStart": 125
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 147,
-              "byteStart": 141
-            }
-          }
-        ],
-        "text": "Etudiant caisse et réassort à Nivelles\nTâches:\n- Caisse\n- Réassort\n- Polyvalence en fonction des besoins dans le magasin\nbuff.ly/WVdpiLp\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32145-3&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-19T11:47:46.650Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
