@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkzrsygexg2c",
+      "cid": "bafyreiemjdwol2fhimqdjohvexktp45nyzgeqoypzltcqtra3rib563np4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-04T13:31:13.480Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-2&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/hNyWb7i"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente boucherie à Genval\nProfil\n- Accueillir et conseiller les clients\n- Sens du service et être attentif aux besoins des clients\n- Préparation correcte des commandes\n- Maintenir un espace de travail propre\n- Respecter les normes d’hygiène.\n- Flexibilité horaire  \nbuff.ly/hNyWb7i\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-2&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-04T13:31:15.967Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkzrawnj6i2b",
+      "cid": "bafyreiet446xdicdwfmqkbnwvsnjhbxyjnuneogdkwq7yyk6ukfzuklrzi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-04T13:21:08.779Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Konvert Bruxelles est à la recherche d'un( e)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 4304
+            },
+            "title": "Etudiant jobiste Vendeur(euse) shop - Région Uccle",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5737871?JobId=5737871&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QOGPR51"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 282
+            }
+          }
+        ],
+        "text": "Etudiant(e) Vente shop - Région Uccle\nProfil\n- être un joueur d'équipe enthousiaste avec un bon sens commercial\n- avoir de votre propre moyen de transport (lieu difficilement accessible par les transports en commun)\n- flexibilité horaire (ouvert 7 jours sur 7) \nbuff.ly/QOGPR51\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5737871?JobId=5737871&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "Etudiant jobiste Vendeur(euse) shop - Région Uccle",
+          "description": "Konvert Bruxelles est à la recherche d'un( e)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-04T13:21:10.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mknbczodnu2k",
       "cid": "bafyreidleaxlcy2koz6eax3vuhu3vef3if3qiel22v5aqpffabibanb7f4",
       "author": {
@@ -8298,184 +8476,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-23T14:42:27.658Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfc4bhoagu2w",
-      "cid": "bafyreiaikudo5bg5qx3ekv6dldgvmq2gut5oleziv6bp2xnvx4vljzbtja",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-20T12:28:25.933Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?\\nNotre client n'attend plus que toi…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 109334
-            },
-            "title": "Etudiant polyvalent",
-            "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiant-polyvalent/813007"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/SgXLsxc"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 275,
-              "byteStart": 269
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent - Bierges\n- Attrait pour le secteur de la fabrication et de la transformation du métal\n- Souhait de bosser sur différents projets/se rendre utile/...\nNous t'offrons un job stimulant, tu vas pouvoir développer ton savoir faire...\nbuff.ly/SgXLsxc \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiant-polyvalent/813007",
-          "title": "Etudiant polyvalent",
-          "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?\\nNotre client n'attend plus que toi…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-20T12:28:27.156Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfbvjbijyh2c",
-      "cid": "bafyreihhnnu5bi7665j42vsv6wtgbsrvkxksykobx7ddmt2aast67ni3qm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-20T10:27:31.273Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Big Mamma est un groupe de restauration franco-italien, créé par Victor Lugger et Tigrane Seydoux. Depuis 10 ans, nous avons ouvert les portes de 30 restaurants en Europe (France, Monaco, Angleterr...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifat3tao2ex3urnfobvbxngt3dgh3ohh3yf4mulkur7dyxyxifwuq"
-              },
-              "mimeType": "image/png",
-              "size": 871556
-            },
-            "title": "Plongeur (H/F) - Big Mamma",
-            "uri": "https://jobs.bigmammagroup.com/fr/jobs/7240076-plongeur-h-f?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/zhdDODM"
-              }
-            ],
-            "index": {
-              "byteEnd": 304,
-              "byteStart": 289
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Etudiant plonge 15h/sem Big mamma - Bruxelles\nTâches :\n- Nettoyage vaisselle/matériel de cuisine\n- Communiquer avec l’équipe tout au long du service\n- Nettoyage cuisine/annexes\n- Aider l'équipe cuisine sur les petites préparations\nProfil : \n- Organisé/dynamique/Esprit d’équipe\nbuff.ly/zhdDODM\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://jobs.bigmammagroup.com/fr/jobs/7240076-plongeur-h-f?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble",
-          "title": "Plongeur (H/F) - Big Mamma",
-          "description": "Big Mamma est un groupe de restauration franco-italien, créé par Victor Lugger et Tigrane Seydoux. Depuis 10 ans, nous avons ouvert les portes de 30 restaurants en Europe (France, Monaco, Angleterr...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifat3tao2ex3urnfobvbxngt3dgh3ohh3yf4mulkur7dyxyxifwuq"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-20T10:27:33.251Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
