@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml4laoyeni2u",
+      "cid": "bafyreieeo43fsducbcvjablfgnlwhrqzhacc56gjiz2mrlbbozadlswzq4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-05T16:11:38.329Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=12527829cd1aa417&q=%C3%A9tudiant&l=Waterloo&tk=1jns7fltmg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAa67I3k8U__Sz4rJ0LbzkdCdPP&xfps=9ec3ea9f-cd2c-4dde-a4cf-bd9b508a5bb8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jns7fltmg9so800&xkcb=SoDF67M3k8GxE6Q2I50RbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EGwde3H"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Job étudiant Maintenance IBIS BUDGET - Bruxelles\nMissions : \nPetits travaux de remise en état, suivre le cahier de consignes et règler les imprévus\nQualifications\nEtudiant(e) en école technique/maintenance/électricité, curieux et ayant envie de découvrir le métier\nbuff.ly/EGwde3H \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=12527829cd1aa417&q=%C3%A9tudiant&l=Waterloo&tk=1jns7fltmg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAa67I3k8U__Sz4rJ0LbzkdCdPP&xfps=9ec3ea9f-cd2c-4dde-a4cf-bd9b508a5bb8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jns7fltmg9so800&xkcb=SoDF67M3k8GxE6Q2I50RbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-05T16:11:39.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44t3mdzj2x",
       "cid": "bafyreihcse2k6qe5xtm3s6cys5u5veifl64ijfe6bdzkijj65hz4d6muv4",
       "author": {
@@ -8378,95 +8458,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-25T10:42:54.251Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfm2yjnquy2v",
-      "cid": "bafyreibpphefrpkcs4zwvw7ao3h7fkvyidyzxottv5z6an6i5tlw6om5ve",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-24T11:32:08.961Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/vendeurse-etudiante-decoration-art-de-la-maison-grez-doiceau-brabant-wallon/142-34627-7&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/m3wD5zz"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 292
-            }
-          }
-        ],
-        "text": "Etudiant(e) en décoration Grez-Doiceau\n- Expérience obligatoire en vente (dans le secteur décoration, prêt-à-porter ou accessoires)\n- Compétences en relation client et sens du service.\n- Vous parlez couramment le français et l'italien\n- Dispo 2 à 3 jours par semaine \nbuff.ly/m3wD5zz\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/vendeurse-etudiante-decoration-art-de-la-maison-grez-doiceau-brabant-wallon/142-34627-7&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-24T11:32:11.050Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
