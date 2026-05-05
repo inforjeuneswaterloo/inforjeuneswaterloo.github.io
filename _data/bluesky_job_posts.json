@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44t3mdzj2x",
+      "cid": "bafyreihcse2k6qe5xtm3s6cys5u5veifl64ijfe6bdzkijj65hz4d6muv4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-05T11:53:29.404Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=09e4602bceaf509b&q=%C3%A9tudiant&l=Waterloo&tk=1jnppl4isg9so801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDU67I3k73ABfzCSh0LbzkdCdPP&xfps=a05f2db2-0045-4e34-b6c0-7ca308ac8932&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnppl4isg9so801&xkcb=SoDd67M3k57bfmUpEp0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/sglBMg1"
+              }
+            ],
+            "index": {
+              "byteEnd": 221,
+              "byteStart": 206
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 230,
+              "byteStart": 224
+            }
+          }
+        ],
+        "text": "Job étudiant Proxy Delhaize Thielemans - 1150 Bruxelles\nDescription\n- Préparation boulangerie\n- Cuissons\n- Mise en rayon\n- Vérification des dates\n- Nettoyage\n- Caisse\n- Ouverture et fermeture du magasin\nbuff.ly/sglBMg1  \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=09e4602bceaf509b&q=%C3%A9tudiant&l=Waterloo&tk=1jnppl4isg9so801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDU67I3k73ABfzCSh0LbzkdCdPP&xfps=a05f2db2-0045-4e34-b6c0-7ca308ac8932&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnppl4isg9so801&xkcb=SoDd67M3k57bfmUpEp0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-05T11:53:30.066Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44melnbo27",
+      "cid": "bafyreifxkvret57iore5vvwtrernoxkqs2jw5zj3xdzi74zhnou6xqsovy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-05T11:49:42.326Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Téléphoniste / Réceptionniste",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant(e) avec expérience en golf | NIVELLES, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eavecexprienceengolf-nivelles-brabant-wallon/166-32372-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=908167150&utm_campaign=quest_1520&utm_content=Etudiant%28e%29+avec+exp%C3%A9rience+en+golf+%28166-32372-1%29+%5B908167150%5D%5B77b8c4dee0af9e1e_107a94274bdb9%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/9ELIIir"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant(e) avec expérience en golf Téléphoniste/Réceptionniste Ang/Nlds - NIVELLES\nMissions\n• Accueil\n• Secrétariat sportif/ Enregistrement des réservations\n• Vente au magasin ...\nProfil\n- Souriant/excellent contact humain\n- Dynamique/organisé/flexible/fiable...\nbuff.ly/9ELIIir \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eavecexprienceengolf-nivelles-brabant-wallon/166-32372-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=908167150&utm_campaign=quest_1520&utm_content=Etudiant%28e%29+avec+exp%C3%A9rience+en+golf+%28166-32372-1%29+%5B908167150%5D%5B77b8c4dee0af9e1e_107a94274bdb9%5D",
+          "title": "Etudiant(e) avec expérience en golf | NIVELLES, Brabant Wallon",
+          "description": "Téléphoniste / Réceptionniste",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-05T11:49:44.261Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44e52i2i2c",
+      "cid": "bafyreictqpvtl3yx2vob4zq4wye5k65q562ddbgokwjpw7u6lzqoq3oh64",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-05T11:45:06.171Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Plonge",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant.e plonge/aide en cuisine | Ramillies | RAMILLIES, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eplongeaideencuisineramillies-ramillies-brabant-wallon/142-34934-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=908165527&utm_campaign=quest_10&utm_content=Etudiant.e+plonge%2Faide+en+cuisine+%7C+Ramillies+%28142-34934-2%29+%5B908165527%5D%5B77b8c4dee0af9e1e_2464b5cc2cc82%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/nA9vsWl"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant.e plonge/aide en cuisine - Ramillies\nMission : \n- Plonge\n- Donner un coup de main en cuisine\n- Veiller à la propreté et à l’hygiène des espaces de travail\nProfil\n- 1ère exp. en plonge et/ou en horeca\n- Accueillant·e, souriant·e et fiable\n- Dispo 2 à 3 jours/semaine\nbuff.ly/nA9vsWl\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eplongeaideencuisineramillies-ramillies-brabant-wallon/142-34934-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=908165527&utm_campaign=quest_10&utm_content=Etudiant.e+plonge%2Faide+en+cuisine+%7C+Ramillies+%28142-34934-2%29+%5B908165527%5D%5B77b8c4dee0af9e1e_2464b5cc2cc82%5D",
+          "title": "Etudiant.e plonge/aide en cuisine | Ramillies | RAMILLIES, Brabant Wallon",
+          "description": "Plonge",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-05T11:45:07.961Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkzrsygexg2c",
       "cid": "bafyreiemjdwol2fhimqdjohvexktp45nyzgeqoypzltcqtra3rib563np4",
       "author": {
@@ -8209,273 +8467,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-24T11:32:11.050Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfm2ybdwny2z",
-      "cid": "bafyreiad2ocefitzoviut634stkxahng6lss352vlmaasl6f4bu2b5gswy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-24T11:32:00.923Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?Notre client n'attend plus que toi pour...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant polyvalent",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5459508?JobId=5459508&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/qp0wEkn"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent à Bierges\n- Tu as 1 réel attrait pour le secteur de la fabrication et de la transformation du métal\n- Tu souhaites bosser sur différents projets, te rendre utile et enchaîner des missions diverses et variées durant ton temps libre et tes congés scolaires? \nbuff.ly/qp0wEkn\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5459508?JobId=5459508&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Etudiant polyvalent",
-          "description": "Tu recherches un chouette job dynamique ? Tu veux apprendre et effectuer des tâches variées dans le secteur de la fabrication et de la transformation du métal?Notre client n'attend plus que toi pour...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-24T11:32:02.551Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfjvjdtuy526",
-      "cid": "bafyreig7tlsy2pt53v4lva6muumf7ywhdz7fzk7u3bpsio3rw4z3ncvb5m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-23T14:48:51.012Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/operateur-games-etudiante-wavre-brabant-wallon/142-34811-1&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/VcaNPPW"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Opérateur games étudiant - WAVRE\nTâches :\n- Service clientèle\n- gérer les transactions financière/maintenir l’apparence du stand\nProfil\n- Excellentes compétences en communication et service client\n- Dynamique/motivé\n- Capable de travailler sous pression,  bon rendement\n- ...\nbuff.ly/VcaNPPW\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/operateur-games-etudiante-wavre-brabant-wallon/142-34811-1&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-23T14:48:53.156Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfjv5tksju2w",
-      "cid": "bafyreico2btmhqr2xrukno5wrbstckz3cqdmwtlhny6fra5vf7bfpmwmci",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-23T14:42:25.528Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Contenu de l'emploi:  Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ? Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
-              },
-              "mimeType": "image/png",
-              "size": 68733
-            },
-            "title": "Emploi | Préparateur commandes - job étudiant | Start People",
-            "uri": "https://www.startpeople.be/fr/job/preparateur_commandes_-_job_etudiant-1983664?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/1GN6Cgc"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Job étudiant préparateur commandes - Nivelles\nTâches :\n- Préparation des commandes/emballage des produits santé & bien‑être\n- Contrôle qualité avant expédition\n- Organisation du stock/réassort\nProfil :\n- Flexible\n- Esprit d’équipe, soutien et bonne humeur\nFormation \nbuff.ly/1GN6Cgc \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.startpeople.be/fr/job/preparateur_commandes_-_job_etudiant-1983664?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere",
-          "title": "Emploi | Préparateur commandes - job étudiant | Start People",
-          "description": "Contenu de l'emploi:  Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ? Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-23T14:42:27.658Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
