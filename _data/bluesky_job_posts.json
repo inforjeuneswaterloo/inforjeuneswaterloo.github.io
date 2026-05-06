@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml6vdpd6kr2a",
+      "cid": "bafyreia6i7sazont44rhct35hfkhftkd3a4vyrphojhnbssotlbrh2cxji",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-06T14:17:36.228Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=0bc5e640017141c2&q=Etudiant&l=Brabant-wallon&tk=1jnuoe9hugdbt800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAo67I3k-8al0TNjh0LbzkdCdPP&xfps=954d73a8-6f44-4b56-ab1c-6ab2931b720f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnuoe9hugdbt800&xkcb=SoAX67M3k-425V-ckp0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JhowlmP"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "ETUDIANT SUPERIEUR AIDE GUICHET/COMPTA/ACHATS (H/F)\nVDS Food - Wavre\nTâches :\n- comptabilité (encodage principalement)\n- service achat (classement et encodage)\n- guichet (encaissements, commandes,...)\nProfil\n- Flexibilité/commercial/contact facile\n- Bonne présentation...\nbuff.ly/JhowlmP \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=0bc5e640017141c2&q=Etudiant&l=Brabant-wallon&tk=1jnuoe9hugdbt800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAo67I3k-8al0TNjh0LbzkdCdPP&xfps=954d73a8-6f44-4b56-ab1c-6ab2931b720f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnuoe9hugdbt800&xkcb=SoAX67M3k-425V-ckp0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-06T14:17:37.361Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml6sna4ywt2q",
+      "cid": "bafyreid27cs7pi2dcifolxzrbac2q2qb2ipq7mcdg3vcbramwrizjrkizi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-06T13:29:13.973Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+              },
+              "mimeType": "image/png",
+              "size": 7088
+            },
+            "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+            "uri": "https://www.konvert.be/fr/vacancies/7-452-202621988"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/s7WqbUm"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 257
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 273
+            }
+          }
+        ],
+        "text": "Etudiant de plus de 18 ans Manutentionnaire réserve de recrutement juillet/août - Nivelles\nDispo de nuit ou du WE, bonne condition physique et véhiculé\nTâches :\n- Charger/décharger des colis pouvant peser jusqu'à 30 kg\n- Trier/organiser les colis...\nbuff.ly/s7WqbUm\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.konvert.be/fr/vacancies/7-452-202621988",
+          "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+          "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-06T13:29:15.375Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml4laoyeni2u",
       "cid": "bafyreieeo43fsducbcvjablfgnlwhrqzhacc56gjiz2mrlbbozadlswzq4",
       "author": {
@@ -8280,184 +8449,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-25T15:34:55.664Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfoyscssng2q",
-      "cid": "bafyreifosnxqzql7mobmtde5vljshw6bko5qzylsfa6j3nxjfxrlcpuq5a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-25T15:30:52.608Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu es étudiant en 3ème ou 4ème année de bachelier en soins infi",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreicg2t34abmsjtjtib2t6aezstld7v525ukq5vynzqcfdmpx72jovi"
-              },
-              "mimeType": "image/jpeg",
-              "size": 202840
-            },
-            "title": "We're hiring",
-            "uri": "https://app.beehire.com/invite/y7NjP3Vi_?form=false"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://app.beehire.com/invite/y7NjP3Vi_?form=false"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Jobistes infirmiers été H.U.B - Bruxelles\nTu es étudiant en 3ème/4ème année de bac en soins infirmiers ? Tu cherches une expérience enrichissante et formatrice dans un environnement stimulant cet été ? Cette opportunité est pour toi! Différents sites possibles\napp.beehire.com/invite/y7NjP... \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://app.beehire.com/invite/y7NjP3Vi_?form=false",
-          "title": "We're hiring",
-          "description": "Tu es étudiant en 3ème ou 4ème année de bachelier en soins infi",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicg2t34abmsjtjtib2t6aezstld7v525ukq5vynzqcfdmpx72jovi"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-25T15:30:54.556Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfoipd2mxd22",
-      "cid": "bafyreietyhxy6rkcyr6zmmhomgogbiarzvfefz6phxaxlfavdemccm4ni4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-25T10:42:52.894Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vous cherchez un job en tant que Employé-e plonge (h/f) sur la région de Ixelles, postulez aux emplois en cuisine et en salle.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifablgwto5xmsqhtetoakwgoke6inbf3pnkljktz7mizeym5xwjty"
-              },
-              "mimeType": "image/jpeg",
-              "size": 13099
-            },
-            "title": "Employé-e plonge (h/f), Ixelles",
-            "uri": "https://www.misterhoreca.be/offre-emploi-Employ%C3%A9-e-plonge-h-f-Frasca-Ixelles--24448.aspx?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/aKnv5as"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Job Etudiant plonge - Bruxelles\nTâches :\n- Laver/ranger la vaisselle\n- Organiser les stocks (produits et linge)\n- Evacuer les déchets/nettoyage\n- Respect règles hygiène et sécurité alimentaire\nProfil\n- Dispo les soirs 3 à 5 fois/sem\n- Sérieux/rapide/organisé et efficace\n- ...\nbuff.ly/aKnv5as\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.misterhoreca.be/offre-emploi-Employ%C3%A9-e-plonge-h-f-Frasca-Ixelles--24448.aspx?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble",
-          "title": "Employé-e plonge (h/f), Ixelles",
-          "description": "Vous cherchez un job en tant que Employé-e plonge (h/f) sur la région de Ixelles, postulez aux emplois en cuisine et en salle.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifablgwto5xmsqhtetoakwgoke6inbf3pnkljktz7mizeym5xwjty"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-25T10:42:54.251Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
