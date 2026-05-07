@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlaq7ryf4a2u",
+      "cid": "bafyreiheugtwpyoifgswh2z32bu4j5f2xorwhyn62wff4nhfzkaathduc4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-07T07:51:15.580Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=96500c115530383f&q=Etudiants&l=Brabant-wallon&tk=1jnustbnu207e002&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCQ67I3jAk6XyT5Wx0LbzkdCdPP&xfps=d908d68c-216a-4d9f-bad2-ccd244f2de27&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnustbnu207e002&xkcb=SoCc67M3k-x6UtAGyD0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/yoisgE0"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 292
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 314,
+              "byteStart": 308
+            }
+          }
+        ],
+        "text": "Etudiant(e) ALDI Wavre\n- min. 18 ans\n- Faire preuve d’amabilité et de serviabilité à tout moment\n- Aimer être sur le terrain et posséder un véritable esprit d’équipe\n- Dispo les samedis et pendant les congés scolaires\n- Savoir se déplacer vers les ALDI à proximité de chez toi\nbuff.ly/yoisgE0\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=96500c115530383f&q=Etudiants&l=Brabant-wallon&tk=1jnustbnu207e002&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCQ67I3jAk6XyT5Wx0LbzkdCdPP&xfps=d908d68c-216a-4d9f-bad2-ccd244f2de27&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnustbnu207e002&xkcb=SoCc67M3k-x6UtAGyD0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-07T07:51:15.970Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml6vdpd6kr2a",
       "cid": "bafyreia6i7sazont44rhct35hfkhftkd3a4vyrphojhnbssotlbrh2cxji",
       "author": {
@@ -8360,95 +8440,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-25T19:19:02.456Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfoyzjbhsh22",
-      "cid": "bafyreib6tjxeu7fv7cac3xn42apf4szuhhatsxd2zyf6bovxwlyqmkpmkm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-25T15:34:53.763Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-7&utm_source=Careerjet-Optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/pAn6XhW"
-              }
-            ],
-            "index": {
-              "byteEnd": 191,
-              "byteStart": 176
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 199,
-              "byteStart": 193
-            }
-          }
-        ],
-        "text": "Etudiant caisse/réassort les samedis et dimanches - LILLOIS-WITTERZÉE\nTâches :\n- Caisse\n- Réassort tout rayon\nProfil\n- Excellent contact client\n- Dynamisme\n- Polyvalence  \nbuff.ly/pAn6XhW \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-lillois-witterzee-brabant-wallon/166-32027-7&utm_source=Careerjet-Optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-25T15:34:55.664Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
