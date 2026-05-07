@@ -1,3 +1,107 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb6cyfpup2x",
+      "cid": "bafyreiduzfqhfyx4ngkudhjp7yi7dxtvui53os3eisu7i4dmb326xiwfn4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-07T12:03:34.394Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 101637
+            },
+            "title": "Étudiant.e/flexi magasin semaine Waterloo",
+            "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/qWHM8FB"
+              }
+            ],
+            "index": {
+              "byteEnd": 226,
+              "byteStart": 211
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 233,
+              "byteStart": 227
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 241,
+              "byteStart": 234
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Waterloo\nProfil\n- Dynamisme et enthousiasme.\n- Sens du service et de l'accueil client.\n- Capacité à travailler en équipe et à s'adapter.\n- Disponibilité pour un job à l'année. \nbuff.ly/qWHM8FB\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed",
+          "title": "Étudiant.e/flexi magasin semaine Waterloo",
+          "description": "Job étudiant",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-07T12:03:37.070Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-05-07T14:03:34+02:00",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
+    }
+  ]
 }

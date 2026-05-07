@@ -1,6 +1,196 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb6cyfpup2x",
+      "cid": "bafyreiduzfqhfyx4ngkudhjp7yi7dxtvui53os3eisu7i4dmb326xiwfn4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-07T12:03:34.394Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Job étudiant",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
+              },
+              "mimeType": "image/jpeg",
+              "size": 101637
+            },
+            "title": "Étudiant.e/flexi magasin semaine Waterloo",
+            "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/qWHM8FB"
+              }
+            ],
+            "index": {
+              "byteEnd": 226,
+              "byteStart": 211
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 233,
+              "byteStart": 227
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 241,
+              "byteStart": 234
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Waterloo\nProfil\n- Dynamisme et enthousiasme.\n- Sens du service et de l'accueil client.\n- Capacité à travailler en équipe et à s'adapter.\n- Disponibilité pour un job à l'année. \nbuff.ly/qWHM8FB\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed",
+          "title": "Étudiant.e/flexi magasin semaine Waterloo",
+          "description": "Job étudiant",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-07T12:03:37.070Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb5xewa7c2k",
+      "cid": "bafyreigwubpnm2f3sxsflkgpf23jza4ptp2du4ykgababghswd6uisavt4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-07T11:56:52.092Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreih2uh7zpcvp6rejdvvqama5ov7adduibxn5tgnvjn6lsakt3ox34m"
+              },
+              "mimeType": "image/webp",
+              "size": 757368
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32376-3&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/puPvmfA"
+              }
+            ],
+            "index": {
+              "byteEnd": 140,
+              "byteStart": 125
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 147,
+              "byteStart": 141
+            }
+          }
+        ],
+        "text": "Etudiant(e) caisse et réassort Nivelles\nTâches\n- Caisse\n- Réassort\n- Polyvalence en fonction des besoins dans le magasin \nbuff.ly/puPvmfA\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32376-3&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreih2uh7zpcvp6rejdvvqama5ov7adduibxn5tgnvjn6lsakt3ox34m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-07T11:57:06.962Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlaq7ryf4a2u",
       "cid": "bafyreiheugtwpyoifgswh2z32bu4j5f2xorwhyn62wff4nhfzkaathduc4",
       "author": {
@@ -8262,184 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-26T14:46:39.652Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrgbqxm362n",
-      "cid": "bafyreieqssyfg6rriqmjyrwicrjk3chwggmittcejo4m74ar3dkcqk42qy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-26T14:37:27.956Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 112305
-            },
-            "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/job-étudiant-supermarché-à-brainelechateau-braine-le-château-brabant-wallon/386-42267-1"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/YGD3ePE"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 286
-            }
-          }
-        ],
-        "text": "Job étudiant Supermarché à Braine-le-Chateau\nVous travaillerez en caisse et en réassort. Il s'agit d'un job à l'année.\nProfil :\n- Vous êtes libre en semaine et le weekend\n- Vous avez obligatoirement de l'expérience en caisse\n- Vous êtes autonome et dynamique \nbuff.ly/YGD3ePE \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/job-étudiant-supermarché-à-brainelechateau-braine-le-château-brabant-wallon/386-42267-1",
-          "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-26T14:37:30.256Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfpfkav6q52k",
-      "cid": "bafyreiap2bbggsvbpbmtrmupy3pyfy62k7vbd3fdxvd3wjdrls2ccvudf4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-25T19:19:00.923Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y"
-              },
-              "mimeType": "image/jpeg",
-              "size": 102033
-            },
-            "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – WATERLOO | Triangle RH",
-            "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-waterloo-azxjr8wyhbv3upnz/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/TPx6akX"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant vente en boulangerie en semaine (H/F/X) - WATERLOO\nTâches :\n- accueil/conseil clientèle\n- Gestion commandes/caisse/réassort\n- Entretien zone de vente\nProfil :\n- 1ère expérience\n- Excellent contact clientèle\n- Rapide, efficace, autonome\n- Dispo en semaine et le WE ...\nbuff.ly/TPx6akX\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.triangle-solutions-rh.be/job/etudiant-flexi-job-vente-en-boulangerie-en-semaine-h-f-x-waterloo-azxjr8wyhbv3upnz/",
-          "title": "Etudiant / Flexi-job vente en boulangerie en semaine (H/F/X) – WATERLOO | Triangle RH",
-          "description": "En tant que vendeur\\/vendeuse en boulangerie, voici vos tâches :\\n\\n\\n\\tVous accueillez les clients, les conseillez et répondez à leurs questions sur les produits;\\n\\tVous prenez les commandes des…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiexll7un46y22h2rz3xrs26xnhgbqrcdk6edisxsw6vndumdmvt7y"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-25T19:19:02.456Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
