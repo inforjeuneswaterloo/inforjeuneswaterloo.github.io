@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldefyh52h2c",
+      "cid": "bafyreic3q5m4e6f2rytfafewtjtgz4f4ahppmsbtre2p2jff7hd2vcipc4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-08T08:57:56.325Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Assistant(e) en pharmacie",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant/etudiante assistant(e) en pharmacie | LAKEN, Bruxelles",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-etudianteassistanteenpharmacie-laken-bruxelles/323-14725-2?utm_source=jooble&utm_medium=Paid&igbTracker=909234487&utm_campaign=est_30&utm_content=Etudiant%2Fetudiante+assistant%28e%29+en+pharmacie+%28323-14725-2%29+%5B909234487%5D%5Bad83baf950a417bd_76bcfcf04927d%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/d26sls0"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant(e) assistant(e) en pharmacie Laeken\n- Diplômé assistant pharmacien (OBLIGATOIRE)\n- contrat d'étudiant pour le mois de juillet\n- salaire brut : +- 2300€/mois\n- chèques-repas de 6€/jr\n- 38h/sem du lundi au vendredi (3 jours de 9 à 17h et 2 jours de 9 à 18h30) \nbuff.ly/d26sls0\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-etudianteassistanteenpharmacie-laken-bruxelles/323-14725-2?utm_source=jooble&utm_medium=Paid&igbTracker=909234487&utm_campaign=est_30&utm_content=Etudiant%2Fetudiante+assistant%28e%29+en+pharmacie+%28323-14725-2%29+%5B909234487%5D%5Bad83baf950a417bd_76bcfcf04927d%5D",
+          "title": "Etudiant/etudiante assistant(e) en pharmacie | LAKEN, Bruxelles",
+          "description": "Assistant(e) en pharmacie",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-08T08:57:58.362Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldal5ekjd2e",
+      "cid": "bafyreib2yjqhvaa7jikvot7nen5yefm3wxnlygg3rtuwu3n7lbgpigvcym",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-08T07:49:15.915Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5762597?JobId=5762597&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wfCdyhU"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 289
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 305
+            }
+          }
+        ],
+        "text": "Etudiant(e) en Soins Infirmiers Woluwé-Saint-Lambert\nCopies à fournir\n - visa d’aide-soignant\n - recto/verso de ta carte d’identité\n - carte de banque\n - carte étudiante ou attestation d’inscription 2025/2026\n- doc de visite médicale récent\n- carte de Vaccination hépatite B \nbuff.ly/wfCdyhU\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5762597?JobId=5762597&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-08T07:49:16.563Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb6cyfpup2x",
       "cid": "bafyreiduzfqhfyx4ngkudhjp7yi7dxtvui53os3eisu7i4dmb326xiwfn4",
       "author": {
@@ -8283,175 +8452,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-02-27T09:56:36.454Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrhaebhgz24",
-      "cid": "bafyreicb5rnth45mr6papzsnmu3ywskxghedalmirvf4lsgevgu3vk3kpm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-26T14:54:36.844Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "Account Suspended",
-            "uri": "https://Vendeur.se"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/t5s1SN3"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Job Photo/Vente/Mascotte Mini-Europe - Bruxelles\nPhotographe : prendre en photo les visiteurs, gérer l’équipement,...\nVente : accueil, présenter les photos, ventes,...\nMascotte : animer le parc\nProfil : \n- Souriant, dynamique, ...\n- Maîtrise du FR, ENG et NLDS est un +\nbuff.ly/t5s1SN3 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://Vendeur.se",
-          "title": "Account Suspended",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-26T14:54:37.652Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfrgs4i2cl2w",
-      "cid": "bafyreiepvh2n35chn4qhpkqoc5asyfk7biyq3ndkoy5jn24griarjbzqki",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-26T14:46:38.136Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L'équipe Heetch Belgique (POSTULE UNIQUEMENT SI TU ES DISPONIBLE POUR AU MOINS 6 MOIS) Heetch est plus qu’une application, notre mission est de rendre la vie des chauffeurs plus facile et plus rose.…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihjiedxplov73keexpyawf3goa7fzt5eys6tc2j66rsbsru7jwjnq"
-              },
-              "mimeType": "image/png",
-              "size": 37476
-            },
-            "title": "Heetch - Student job - Care Officer",
-            "uri": "https://jobs.lever.co/heetch/0c7aca03-9526-4513-8f98-4d7256f6619a?lever-source=Careerjet"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/LLfpAEE"
-              }
-            ],
-            "index": {
-              "byteEnd": 315,
-              "byteStart": 300
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 323,
-              "byteStart": 317
-            }
-          }
-        ],
-        "text": "Student job chargé·e d’opérations 16 h/sem, lu au sa Heetch - Bruxelles\nTâches : \n• Veiller au bien-être des utilisateurs\n• Accueil/accompagnement des chauffeurs ...\nProfil :\n• À l’aise à l’oral, à l'écrit et pédagogue\n• Organisé/rigoureux/autonome\n• Empathie et patience \nbuff.ly/LLfpAEE \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://jobs.lever.co/heetch/0c7aca03-9526-4513-8f98-4d7256f6619a?lever-source=Careerjet",
-          "title": "Heetch - Student job - Care Officer",
-          "description": "L'équipe Heetch Belgique (POSTULE UNIQUEMENT SI TU ES DISPONIBLE POUR AU MOINS 6 MOIS) Heetch est plus qu’une application, notre mission est de rendre la vie des chauffeurs plus facile et plus rose.…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihjiedxplov73keexpyawf3goa7fzt5eys6tc2j66rsbsru7jwjnq"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-26T14:46:39.652Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
