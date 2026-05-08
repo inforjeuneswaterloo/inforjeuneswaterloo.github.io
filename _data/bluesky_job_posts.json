@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldzwz2w3t2e",
+      "cid": "bafyreifbggrtfjui3m52kox4aclklezmf7yx4gwtfihtxayoy3g5xzjnke",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-08T15:23:17.641Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f7c6234026578e0c&q=etudiant&l=brabant+wallon&tk=1jo3vqj3oijq5802&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCK67I3jEMP1az4s50LbzkdCdPP&xfps=a975ebda-d543-47bc-b5d1-3874ee86ef0d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jo3vqj3oijq5802&xkcb=SoBL67M3jD3lqMWB9J0PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/TuA7Mqj"
+              }
+            ],
+            "index": {
+              "byteEnd": 211,
+              "byteStart": 196
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 218,
+              "byteStart": 212
+            }
+          }
+        ],
+        "text": "Etudiant(e) dans la vente\nVENIZI\n1348 Ottignies-Louvainla-Neuve\nTâches\n- conseiller et vendre\n- mettre en vitrine les bijoux\n- gérer la caisse\n- rester centrée sur les objectifs à atteindre  \nbuff.ly/TuA7Mqj\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f7c6234026578e0c&q=etudiant&l=brabant+wallon&tk=1jo3vqj3oijq5802&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCK67I3jEMP1az4s50LbzkdCdPP&xfps=a975ebda-d543-47bc-b5d1-3874ee86ef0d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jo3vqj3oijq5802&xkcb=SoBL67M3jD3lqMWB9J0PbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-08T15:23:18.064Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldsaepmzl2c",
       "cid": "bafyreihrtw2h3dudnwftjfmjultctyiutih3m46vhh2rusmvat22dpmsaa",
       "author": {
@@ -8369,86 +8449,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-02T11:04:22.759Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg2zrjsjnf2c",
-      "cid": "bafyreifml7srjvuzxzobkm23cettygjwy2bvu5sze75sj6drkejky4ygpe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-02T10:20:18.080Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Un restaurant dynamique à Terhulpen recherche un(e) étudiant(e) avec le permis B pour rejoindre son équipe. Les missions comprenn...",
-            "title": "Étudiant(e) – Livraisons, Permis B & Ambiance Conviviale - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiante-livraisons-permis-b-ambiance-conviviale.fw1QTE1ti6"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ozVGmh4"
-              }
-            ],
-            "index": {
-              "byteEnd": 125,
-              "byteStart": 110
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 132,
-              "byteStart": 126
-            }
-          }
-        ],
-        "text": "Etudiant(e) livraisons permis B à La Hulpe\nMissions:\n- Livraison des produits\n- Préparation\n- Organisation \nbuff.ly/ozVGmh4\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiante-livraisons-permis-b-ambiance-conviviale.fw1QTE1ti6",
-          "title": "Étudiant(e) – Livraisons, Permis B & Ambiance Conviviale - Trovit Emploi",
-          "description": "Un restaurant dynamique à Terhulpen recherche un(e) étudiant(e) avec le permis B pour rejoindre son équipe. Les missions comprenn..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-02T10:20:18.852Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
