@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldsaepmzl2c",
+      "cid": "bafyreihrtw2h3dudnwftjfmjultctyiutih3m46vhh2rusmvat22dpmsaa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-08T13:05:07.457Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiegwtqoj6s4v6xerdpiu34qofomkausv2o5uafooeoq6z7xz7ee2u"
+              },
+              "mimeType": "image/webp",
+              "size": 779680
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-week-end-vendeur-comptoir-charcuterie-et-boucherie-genappe-brabant-wallon/166-32410-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/IuKfL4C"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant(e) Week-end Vente comptoir charcuterie et boucherie Genappe\n\n- Nous sommes à la recherche d'un étudiant comme vendeur comptoir ayant de l'expérience en boucherie disponible les samedis et dimanches en juin et en juillet et août durant 2 semaines au minimum. \n\nbuff.ly/IuKfL4C\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-week-end-vendeur-comptoir-charcuterie-et-boucherie-genappe-brabant-wallon/166-32410-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiegwtqoj6s4v6xerdpiu34qofomkausv2o5uafooeoq6z7xz7ee2u"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-08T13:05:23.169Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldlz52yu32c",
+      "cid": "bafyreihbizwk3zk4jsnpz7c3ezjx2vfci4afd7xj2fxnwi3r75i7umyi2i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-08T11:13:55.430Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ? Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+              },
+              "mimeType": "image/png",
+              "size": 68733
+            },
+            "title": "Emploi | Préparateur commandes - job étudiant | Start People",
+            "uri": "https://www.startpeople.be/fr/job/preparateur_commandes_-_job_etudiant-1990337?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/d921Qm0"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 293
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 315,
+              "byteStart": 309
+            }
+          }
+        ],
+        "text": "Préparateur commandes - job étudiant Nivelles\n- préparation des commandes avec précision\n- emballage soigné des produits santé & bien‑être\n- contrôle qualité avant expédition\n- organisation du stock et le réassort\n- collaboration avec une équipe bienveillante et expérimentée \nbuff.ly/d921Qm0\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/preparateur_commandes_-_job_etudiant-1990337?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr",
+          "title": "Emploi | Préparateur commandes - job étudiant | Start People",
+          "description": "Contenu de l'emploi:  Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ? Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-08T11:13:56.969Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldefyh52h2c",
       "cid": "bafyreic3q5m4e6f2rytfafewtjtgz4f4ahppmsbtre2p2jff7hd2vcipc4",
       "author": {
@@ -8271,187 +8449,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-02T10:20:18.852Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfttg4fdbh2n",
-      "cid": "bafyreif3jhx7yl7olcwkpqtwo27ri2kpwgqbjfsi3nrnngrmbvxadgp2qi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-27T13:37:54.286Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=bd31bb2f01640f92&q=Etudiant&l=Brussels&tk=1jifj5k23g4b1800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3mPhyQTzDFB0LbzkdCdPP&xfps=b1a43ce2-0095-4d8a-b49f-bfc6b106001d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jifj5k23g4b1800&xkcb=SoBU67M3mPuZVO7KQJ0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ZujdNuj"
-              }
-            ],
-            "index": {
-              "byteEnd": 280,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 289
-            }
-          }
-        ],
-        "text": "Etudiant(e) salle, cuisine et plonge à Waterloo\nProfil:\n- Minimum d'expérience souhaitée\n- Excellente présentation et élocution\n- Dynamique, souriant(e) et motivé(e)\n- Capacité à travailler en équipe et sous pression\n- Flexibilité au niveau des horaires \nbuff.ly/ZujdNuj\n#job4u \n#ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=bd31bb2f01640f92&q=Etudiant&l=Brussels&tk=1jifj5k23g4b1800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3mPhyQTzDFB0LbzkdCdPP&xfps=b1a43ce2-0095-4d8a-b49f-bfc6b106001d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jifj5k23g4b1800&xkcb=SoBU67M3mPuZVO7KQJ0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-27T13:37:55.078Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mfth2fea3c2s",
-      "cid": "bafyreibm5ee2f7qlkmeortqyqc24solo2cipxpqwrt3nkl3pq5t6ecicqm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-02-27T09:56:35.624Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Dans le cadre de cette fonction d'Etudiant en Comptabilité (H/F/X) vos responsabilités sont les suivantes :vous encodez les factures sur un ERP ;vous effectuez l'analyse des écarts entre les bons de...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant en Comptabilité",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5484762?JobId=5484762&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/qE6vg3j"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant en Comptabilité été 2026 à Nivelles\nProfil:\n- en fin de 3ème bachelier ou en master (indispensable)\n- vous avez une expérience de stage concluante ou un job étudiant (indispensable)\n- vous possédez le statut étudiant\n- vous avez une bonne maîtrise d'Excel. \nbuff.ly/qE6vg3j \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5484762?JobId=5484762&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "Etudiant en Comptabilité",
-          "description": "Dans le cadre de cette fonction d'Etudiant en Comptabilité (H/F/X) vos responsabilités sont les suivantes :vous encodez les factures sur un ERP ;vous effectuez l'analyse des écarts entre les bons de...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-02-27T09:56:36.454Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
