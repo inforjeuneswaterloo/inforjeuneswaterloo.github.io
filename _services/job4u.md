@@ -14,8 +14,7 @@ buttons:
      enable: true
      text: Consulter les dernières offres
      href: /job4u/
-     icon: fa-solid fa-arrow-right
-     class: btn btn-outline-dark text-decoration-none
+     icon: "arrow-up-right"
      target: "_self"
 ---
 Que se soit pour engranger de l'expérience, financer tes études, tes vacances, ton permis de conduire, le smartphone dernier cri... les motivations pour jobber sont aussi diverses que celles pour lesquelles tu détestes les asperges, le chou-fleur, le brocoli, les épinards...
