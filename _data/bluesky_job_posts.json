@@ -1,6 +1,255 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlncrljxle2u",
+      "cid": "bafyreifk3fvokikhgtih7psz6coi34rfxss6ynlcejoekde55za6kdb3h4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-12T07:55:17.005Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=388b31c91aad8f68&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDb67I3jNtTGpzNpB0LbzkdCdPP&xfps=5b2a9fae-5b27-40c9-a64f-69fb97c4fd50&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAw67M3jMmf18UzjJ0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/c7fykoH"
+              }
+            ],
+            "index": {
+              "byteEnd": 245,
+              "byteStart": 230
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 247
+            }
+          }
+        ],
+        "text": "Job Étudiant Vente JYSK - Wavre\nTâches :\n- Conseil et service clientèle\n- Réassort/logistique\n- Caisse\nProfil : \n- Veut apprendre activement\n- Ouvert d'esprit, enthousiaste, prend des initiatives et aime parler aux clients...\nbuff.ly/c7fykoH \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=388b31c91aad8f68&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDb67I3jNtTGpzNpB0LbzkdCdPP&xfps=5b2a9fae-5b27-40c9-a64f-69fb97c4fd50&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAw67M3jMmf18UzjJ0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-12T07:55:17.262Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlnckquuzc2c",
+      "cid": "bafyreiatngoahy2ywqd5skqgmm4vpjrqttysuxa2nthbp72icqh2jsgmay",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-12T07:51:27.721Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e2f5f337c1f6f481&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoAb67I3jNpMuvzCwp0LbzkdCdPP&xfps=a54f0288-42f2-4e4e-8a8f-37a7b14c1bc5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAj67M3jMmf18UzjJ0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/mz4Wgbz"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "Traiteur Etudiant Juillet/Août 2026 What The Food - Nivelles\nMissions :\n- Prépa/dressage plats froids et chauds\n- Conseil/service clientèle au comptoir\n- Aide à la mise en place...\nProfil  :\n- Motivé/ponctuel/rigoureux\n- Dispo en journée (entre 8h et 16h), horaires variables\nbuff.ly/mz4Wgbz\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e2f5f337c1f6f481&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoAb67I3jNpMuvzCwp0LbzkdCdPP&xfps=a54f0288-42f2-4e4e-8a8f-37a7b14c1bc5&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAj67M3jMmf18UzjJ0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-12T07:51:28.163Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlnaboyedy2b",
+      "cid": "bafyreicgzv34izpgcqjcd3dt5cythmo6wwrb3i5hqqrcwx7owjrjk6mswq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-12T07:10:34.679Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Assistant(e) en pharmacie",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant/etudiante assistant(e) en pharmacie | LAKEN, Bruxelles",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-etudianteassistanteenpharmacie-laken-bruxelles/323-14725-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=910872860&utm_campaign=est_30&utm_content=Etudiant%2Fetudiante%20assistant(e)%20en%20pharmacie%20(323-14725-2)%20%5B910872860%5D%5B77b8c4dee0af9e1e_76bcfcf04927d%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/GjZne5S"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Job Etudiant assistant(e) pharmacie juillet - Laeken\nTâches :\n- Encodage\n- préparations magistrales\n- contact avec les maisons de repos (commandes)\n- service au comptoir\nProfil\n- diplômé assistant pharmacien\n- minutieux/positif/esprit d’équipe\n- Sens des responsabilités...\nbuff.ly/GjZne5S \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-etudianteassistanteenpharmacie-laken-bruxelles/323-14725-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=910872860&utm_campaign=est_30&utm_content=Etudiant%2Fetudiante%20assistant(e)%20en%20pharmacie%20(323-14725-2)%20%5B910872860%5D%5B77b8c4dee0af9e1e_76bcfcf04927d%5D",
+          "title": "Etudiant/etudiante assistant(e) en pharmacie | LAKEN, Bruxelles",
+          "description": "Assistant(e) en pharmacie",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-12T07:10:36.564Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mllldqg3dc2p",
       "cid": "bafyreih7cz6nueeuykqcrjr24oemuwiq6lrioajovdgx5lf7xp5hwmydc4",
       "author": {
@@ -8200,255 +8449,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-03T12:36:20.260Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5qto3ckv2q",
-      "cid": "bafyreichkqjclrngrojyv7tkvupbm54d7mdhflsyjaujpbddp3kpauvm5i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-03T12:18:25.213Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu es étudiante en esthétique et tu cherches une expérience concrète en institut pour développer tes compéte...",
-            "title": "Etudiant. E en esthétique (H/F/X) - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-e-en-esthetique-hfx.U1vG1E121DRw?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/l9HVCLl"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 292
-            }
-          }
-        ],
-        "text": "Etudiant(e) en esthétique à Genappe\nProfil:\n- Déjà un peu à l'aise en pratique (stages, école, premières expériences)\n- Sens du service et tu aimes prendre soin des clientes\n- Présentation soignée et professionnelle\n- Motivée, sérieuse et tu as envie d'apprendre \nbuff.ly/l9HVCLl\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-e-en-esthetique-hfx.U1vG1E121DRw?utm_source=alert&utm_medium=email&utm_term=%C3%A9tudiant&utm_campaign=click",
-          "title": "Etudiant. E en esthétique (H/F/X) - Trovit Emploi",
-          "description": "Tu es étudiante en esthétique et tu cherches une expérience concrète en institut pour développer tes compéte..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-03T12:18:25.851Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5j2kn2pd2w",
-      "cid": "bafyreica2v35keabezunqmjlwpikov323slkx2rzcr2j5uudnqkou3xsoq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-03T09:59:05.992Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-              },
-              "mimeType": "image/png",
-              "size": 3317
-            },
-            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-            "uri": "https://www.jobted.be/fr?viewjob=37166ea49f90d0b170c38f8fc22f8d6c&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/nKloJkF"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Job étudiant Aide-cuisinier – Événements Bruxelles & Région wallonne\n- Aider à la préparation des plats et buffets\n- Appliquer les consignes et respecter les recettes\n- Maintenir la cuisine propre et organisée\n- Respecter les normes d’hygiène et de sécurité alimentaire\nbuff.ly/nKloJkF\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobted.be/fr?viewjob=37166ea49f90d0b170c38f8fc22f8d6c&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
-          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-03T09:59:07.454Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg3m2ceill2z",
-      "cid": "bafyreihyjvkkx4u463giqnqqryccdz5xapbk74x4hx6sj6n3waqkodmr2q",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-02T15:47:19.628Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8842a1f527fa5707&q=Etudiants&l=Brabant-wallon&tk=1jinhrvp1h2bm800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAN67I3mXuZZigepL0LbzkdCdPP&xfps=08aff2f5-d29b-44a0-8e0a-a12cf3183ec1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jinhrvp1h2bm800&xkcb=SoCN67M3mXr_xi0CFh0IbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/n4WzSYr"
-              }
-            ],
-            "index": {
-              "byteEnd": 244,
-              "byteStart": 229
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 251,
-              "byteStart": 245
-            }
-          }
-        ],
-        "text": "Etudiant(s) Bois des Rêves à Ottignies\nProfil:\n- Vous êtes étudiant ;\n- Vous avez minimum 18 ans ;\n- Vous maîtrisez le français et avez des connaissances en anglais et néerlandais ou autres langues (constitue un atout) ; \nbuff.ly/n4WzSYr\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8842a1f527fa5707&q=Etudiants&l=Brabant-wallon&tk=1jinhrvp1h2bm800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoAN67I3mXuZZigepL0LbzkdCdPP&xfps=08aff2f5-d29b-44a0-8e0a-a12cf3183ec1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jinhrvp1h2bm800&xkcb=SoCN67M3mXr_xi0CFh0IbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-02T15:47:19.954Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
