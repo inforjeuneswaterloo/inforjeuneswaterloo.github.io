@@ -1063,125 +1063,94 @@ footer {
 }
 
 /* ==========================================================================
-   FLUX MASTODON : COLONNE UNIQUE & ULTRA-COMPACT
+   FLUX MASTODON (BASÉ SUR LE STYLE JOB-NAV)
    ========================================================================== */
 
 .mastodon-feed {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem; /* Espace réduit entre les posts */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
     margin: 2rem auto;
-    width: 100%;
-    max-width: var(--max-width); /* Aligné sur ton texte principal */
+    align-items: start;
 }
 
+/* La carte du post (copie du style .job-nav .cat-button) */
 .mastodon-post-card {
+    display: block;
     background: #ffffff;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    /* On utilise la couleur Mastodon ou ta couleur par défaut */
+    border: 2px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.75rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none !important;
+    color: inherit;
 }
 
-/* Bannière minimaliste */
-.mastodon-card-image img {
-    width: 100%;
-    height: 140px; /* Hauteur fixe pour ne pas manger tout l'écran */
-    object-fit: cover;
-    margin: 0;
-    border-bottom: 1px solid var(--border-color);
+.mastodon-post-card:hover {
+    border-color: #563acc; /* Couleur Mastodon ou var(--link-color) */
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
-.mastodon-card-content {
-    padding: 0.75rem 1rem; /* Padding très serré */
-}
-
+/* En-tête de la carte (Date et Icône) */
 .mastodon-card-header {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.4rem;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.mastodon-source {
-    font-size: 0.65rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: var(--text-muted);
+.mastodon-card-header i, 
+.mastodon-card-header svg {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    stroke: #563acc;
+    stroke-width: 2.5px;
 }
 
 .mastodon-date {
-    font-size: 0.65rem;
-    color: var(--text-muted);
-    opacity: 0.6;
-}
-
-/* Typographie resserrée */
-.mastodon-title {
-    font-size: 1rem;
-    font-weight: 800;
-    margin: 0 0 0.3rem 0;
-    line-height: 1.2;
-    color: var(--text-color);
-}
-
-.mastodon-body {
-    font-size: 0.88rem; /* Police plus petite pour l'aspect "news" */
-    line-height: 1.4;
-    color: var(--text-color);
-}
-
-.mastodon-text p {
-    margin-bottom: 0.5rem;
-}
-
-.mastodon-text p:last-child {
-    margin-bottom: 0;
-}
-
-/* Lien discret */
-.mastodon-footer-link {
-    display: inline-block;
-    margin-top: 0.6rem;
     font-size: 0.75rem;
     font-weight: 700;
-    text-decoration: none;
-    color: var(--link-color);
-    border-bottom: 1px solid transparent;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
-.mastodon-footer-link:hover {
-    border-bottom-color: var(--link-color);
+/* Corps du texte (Mastodon injecte des <p>) */
+.mastodon-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
 }
 
-/* Optimisation mobile (déjà gérée par le flex-column, mais on s'assure) */
-@media (max-width: 650px) {
-    .mastodon-card-content {
-        padding: 0.6rem 0.8rem;
-    }
-    .mastodon-card-image img {
-        height: 120px;
-    }
+.mastodon-body p {
+  margin-bottom: 1rem;
 }
-/* ==========================================================================
-   RESPONSIVE (MOBILE)
-   ========================================================================== */
 
+.mastodon-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lien "Voir sur Mastodon" */
+.mastodon-footer-link {
+    display: inline-block;
+    margin-top: 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #563acc;
+    text-transform: uppercase;
+}
+
+/* --- RESPONSIVE --- */
 @media (max-width: 600px) {
-    .mastodon-main-content {
-        flex-direction: column-reverse; /* Image au-dessus ou en dessous du texte */
-        gap: 1rem;
-    }
-
-    .mastodon-image, 
-    .mastodon-image img {
-        width: 100%;
-        height: 220px; /* Plus grand sur mobile pour l'impact visuel */
-        flex: none;
-    }
-
-    .mastodon-post-card {
-        padding: 1.25rem;
+    .mastodon-feed { 
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
     }
 }
 

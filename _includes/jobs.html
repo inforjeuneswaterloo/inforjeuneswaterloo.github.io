@@ -1,0 +1,37 @@
+ <nav class="category-nav job-nav">
+      {% comment %} On affiche les 5 dernières annonces sans aucune troncature {% endcomment %}
+      {% assign latest_jobs = include.var %}
+      
+      {% for job in latest_jobs %}
+        {% assign job_color = "e67c22" %}
+
+        <a href="{{ job.embed.external.uri }}" target="_blank" class="cat-button" style="--c: #{{ job_color }};">
+          <div class="job-card-inner">
+            <header class="job-card-header">
+                <i data-lucide="briefcase"></i>
+                <div class="job-meta">
+                    <span class="job-date">{{ job.record.createdAt | date: "%d/%m/%Y" }}</span>
+                    <h4 class="cat-name">
+                        {% if job.embed.external.title != "" %}
+                            {{ job.embed.external.title }}
+                        {% else %}
+                            Offre d'emploi
+                        {% endif %}
+                    </h4>
+                </div>
+            </header>
+            
+            <div class="job-full-text">
+                <p>{{ job.record.text | split: "buff.ly" | first | newline_to_br }}</p>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </nav>
+
+    <div class="jobs-footer-action">
+        <a href="https://bsky.app/profile/job4u.bsky.social" target="_blank" class="cta-jobs-link">
+            <span>Découvrir toutes les annonces sur BlueSky</span>
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>

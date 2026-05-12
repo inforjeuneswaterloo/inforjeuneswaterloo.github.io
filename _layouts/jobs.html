@@ -3,51 +3,18 @@ layout: minimal
 title: Le coin des petites annonces
 ---
 <section class="home-hero">
-    <h1> Le coin des petites <span class="highlight">annonces</span></h1>
+    <h1> {{page.title}}</h1>
     <p class="subtitle">
         Les dernières offres de job
     </p>
 </section>
 <div class="jobs-section-wrapper">
-    <nav class="category-nav job-nav">
-      {% comment %} On affiche les 5 dernières annonces sans aucune troncature {% endcomment %}
-      {% assign latest_jobs = site.data.bluesky_job_posts.posts | limit: 5 %}
-      
-      {% for job in latest_jobs %}
-        {% assign job_color = "e67c22" %}
-
-        <a href="{{ job.embed.external.uri }}" target="_blank" class="cat-button" style="--c: #{{ job_color }};">
-          <div class="job-card-inner">
-            <header class="job-card-header">
-                <i data-lucide="briefcase"></i>
-                <div class="job-meta">
-                    <span class="job-date">{{ job.record.createdAt | date: "%d/%m/%Y" }}</span>
-                    <h4 class="cat-name">
-                        {% if job.embed.external.title != "" %}
-                            {{ job.embed.external.title }}
-                        {% else %}
-                            Offre d'emploi
-                        {% endif %}
-                    </h4>
-                </div>
-            </header>
-            
-            <div class="job-full-text">
-                {% comment %} 
-                   On affiche tout le texte avant le lien buff.ly. 
-                   Le filtre newline_to_br respecte les sauts de ligne originaux.
-                {% endcomment %}
-                <p>{{ job.record.text | split: "buff.ly" | first | newline_to_br }}</p>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    </nav>
-
-    <div class="jobs-footer-action">
-        <a href="https://bsky.app/profile/job4u.bsky.social" target="_blank" class="cta-jobs-link">
-            <span>Découvrir toutes les annonces sur BlueSky</span>
-            <i data-lucide="arrow-right"></i>
-        </a>
-    </div>
+   {% assign include=page.include %}
+   {% case include %}
+        {% when 'job'%}
+            {% assign latest_jobs = site.data.bluesky_job_posts.posts | limit: 5 %}
+            {%include jobs.html var=latest_jobs %}
+        {% when 'actu' %}
+            {% mastodon_feed %}
+   {% endcase %}
 </div>
