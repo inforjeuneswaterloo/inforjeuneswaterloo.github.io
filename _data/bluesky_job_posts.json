@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlnhmdinje2x",
+      "cid": "bafyreihd4jwuv7lxbljbmdnlwqcoemcnggcf5g3usskzirfw5jd2bhjtbe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-12T09:21:49.506Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=34ddd66931f4a2e0&q=%C3%A9tudiant&l=Waterloo&tk=1joc9spv4g9so82n&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBQ67I3jNt0lCT4s50LbzkdCdPP&xfps=72499809-47e7-4218-8f9e-1395fabbec22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1joc9spv4g9so82n&xkcb=SoAT67M3jMb8l02uLB0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/36gX4F2"
+              }
+            ],
+            "index": {
+              "byteEnd": 257,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 265,
+              "byteStart": 259
+            }
+          }
+        ],
+        "text": "Job étudiant vente lunettes Ace & Tate - Bruxelles\nMissions :\n- Accueil et conseil clientèle avec une bonne énergie \n- Tailler les verres, ajuster les montures...\nProfil :\n-Maîtriser le français, le néerlandais et l’anglais (de base)\nbuff.ly/36gX4F2 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=34ddd66931f4a2e0&q=%C3%A9tudiant&l=Waterloo&tk=1joc9spv4g9so82n&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBQ67I3jNt0lCT4s50LbzkdCdPP&xfps=72499809-47e7-4218-8f9e-1395fabbec22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1joc9spv4g9so82n&xkcb=SoAT67M3jMb8l02uLB0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-12T09:21:49.861Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlncrljxle2u",
       "cid": "bafyreifk3fvokikhgtih7psz6coi34rfxss6ynlcejoekde55za6kdb3h4",
       "author": {
@@ -8369,86 +8449,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-03T12:41:05.350Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5rtoi2la2c",
-      "cid": "bafyreifnwtg6fbnmvfgzk4zpre4eiczg3e7xpnzurdocvg6oilsz5hggbe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-03T12:36:19.369Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=3915f8ab388b9494&q=%C3%A9tudiant&l=Waterloo&tk=1jino0qth20hb000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB067I3mZ9tpfzBCx0LbzkdCdPP&xfps=dd557036-e045-4a39-80ba-7951c7fad06c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jino0qth20hb000&xkcb=SoDk67M3mX4MsH0ebh0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/U3yRW0D"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Job étudiant - Equipier polyvalent restauration rapide H/F/X Bruxelles\nVous êtes:\n- dynamique et aimez les défis\n- organisé, rapide et efficace\n- souriant et de bonne présentation\n- orienté client et apportez des solutions pertinentes et adaptées à son besoin \nbuff.ly/U3yRW0D\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=3915f8ab388b9494&q=%C3%A9tudiant&l=Waterloo&tk=1jino0qth20hb000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB067I3mZ9tpfzBCx0LbzkdCdPP&xfps=dd557036-e045-4a39-80ba-7951c7fad06c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jino0qth20hb000&xkcb=SoDk67M3mX4MsH0ebh0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-03T12:36:20.260Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
