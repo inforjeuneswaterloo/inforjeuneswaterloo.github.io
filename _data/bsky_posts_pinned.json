@@ -1,12 +1,12 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mcr2p7ewxz24",
-      "cid": "bafyreif2xnc5ma6ad4xijgzet7stghicvm2oia64hbdnk3bqtokvtkfsnu",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mlpzrfrrcq2s",
+      "cid": "bafyreif7fksx65tgssoveioxv6axv3hyqn6irrn5juigmgxp7fd5pzfoqi",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "Keskisspasse?",
+        "displayName": "La gazette d'IJ Waterloo",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
         "associated": {
           "activitySubscription": {
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-01-19T06:54:40.522Z",
+        "createdAt": "2026-05-13T09:52:05.506Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
+            "description": "La Commission européenne pourrait présenter cet été une proposition législative visant à restreindre l'accès des mineurs d'âge aux réseaux sociaux, a...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
+                "$link": "bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
               },
               "mimeType": "image/jpeg",
-              "size": 229599
+              "size": 34316
             },
-            "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730"
+            "title": "La Commission envisage une législation limitant l'accès des enfants aux réseaux sociaux",
+            "uri": "https://www.dhnet.be/dernieres-depeches/2026/05/12/la-commission-envisage-une-legislation-limitant-lacces-des-enfants-aux-reseaux-sociaux-EV4LX4K4HNCQNCLBLBUIUONWRM/"
           }
         },
         "facets": [
@@ -44,35 +44,47 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "citoyenneté"
+                "tag": "Europe"
               }
             ],
             "index": {
-              "byteEnd": 277,
-              "byteStart": 264
+              "byteEnd": 243,
+              "byteStart": 236
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "extremedroite"
+                "tag": "Internet"
               }
             ],
             "index": {
-              "byteEnd": 292,
-              "byteStart": 278
+              "byteEnd": 253,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "RéseauSociaux"
+              }
+            ],
+            "index": {
+              "byteEnd": 269,
+              "byteStart": 254
             }
           }
         ],
-        "text": "L'Extrême droite se situe... à l’extrême du spectre idéologique de la droite. Elle possède 3 caractéristiques qui la distingue de la droite traditionnelle  : le nativisme, l’autoritarisme et une conception particulière de l'Etat et de la démocratie.  \n#citoyenneté #extremedroite"
+        "text": "La Commission européenne pourrait présenter une proposition législative cet été.  Sa présidente, Ursula von der Leyen, estime qu'il n'est plus possible d'éviter le débat autour de la limitation de l'accès aux réseaux sociaux.\n#Europe #Internet #RéseauSociaux"
       },
       "embed": {
         "external": {
-          "uri": "https://www.rtbf.be/article/11658909?actId=~a-jj25hwjXFYJo4IKutZePG4VZRj_otSigAb-v7qDdHdj1a_f7mmXqSo_KIVnV3xdG3n6PXkhHyZzwJO3IHkaC90i1pAXA4JIL19hu5GSEDinNOQrIemV2hGi&actCampaignType=CAMPAIGN_MAIL&actSource=1295730",
-          "title": "C'est quoi un parti d'extrême droite ? L'éclairage d'une politologue sur ce concept - RTBF Actus",
-          "description": "Audrey Vandeleene rappelle tout d’abord la définition de ce qu’est un parti politique : 'C’est une organisation qui...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
+          "uri": "https://www.dhnet.be/dernieres-depeches/2026/05/12/la-commission-envisage-une-legislation-limitant-lacces-des-enfants-aux-reseaux-sociaux-EV4LX4K4HNCQNCLBLBUIUONWRM/",
+          "title": "La Commission envisage une législation limitant l'accès des enfants aux réseaux sociaux",
+          "description": "La Commission européenne pourrait présenter cet été une proposition législative visant à restreindre l'accès des mineurs d'âge aux réseaux sociaux, a...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
         },
         "$type": "app.bsky.embed.external#view"
       },
@@ -81,7 +93,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-01-19T06:54:42.332Z",
+      "indexedAt": "2026-05-13T09:52:07.661Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -89,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigwjs6rhcmdd6t3sawj7fl6cvyywew35whi56f6lv3n5yjo7gicoi"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
     }
   ]
 }

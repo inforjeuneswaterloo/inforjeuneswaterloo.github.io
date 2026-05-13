@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjz5zcy7bu2b",
-      "cid": "bafyreibepatrkdii2vpur7j5we5htio7twknakbntn4z6g7ynmvvjhrenq",
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqfti2yq72e",
+      "cid": "bafyreigcveqbi56efhxypmkywjvdhsjyms5kvzcrkpdpz3dopcmralagbe",
       "author": {
         "did": "did:plc:ob2khl3reouin6l4dntfslex",
         "handle": "job4u.bsky.social",
@@ -22,102 +22,13 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T14:11:39.251Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-polyvalent-circle-k-nivelles-dir-arlon-nivelles-brabant-wallon/585-16843-4&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/XGrcCz6"
-              }
-            ],
-            "index": {
-              "byteEnd": 173,
-              "byteStart": 158
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 180,
-              "byteStart": 174
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent | Circle K | Nivelles\nTes tâches:\n- encaissement\n- réassort\n- nettoyage\n- réalisation/ préparation de sandwich\n- petite restauration \nbuff.ly/XGrcCz6\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-polyvalent-circle-k-nivelles-dir-arlon-nivelles-brabant-wallon/585-16843-4&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-21T14:11:41.848Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyzhkmxbs2b",
-      "cid": "bafyreiapth7j2yww74k32rzty7lxsk4dxbe4mmq5s4baanotgxjjdxloau",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T12:50:10.443Z",
+        "createdAt": "2026-05-13T13:28:00.915Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
             "description": "",
             "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=64b9d56830c7aca9&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCH67I3kX2nkWT5bR0LbzkdCdPP&xfps=f33ca3d4-c445-4ab0-b774-02ce48836a47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAp67M3kTA7_aWn1p0JbzkdCdPP"
+            "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP"
           }
         },
         "facets": [
@@ -125,12 +36,12 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Qn4zLfC"
+                "uri": "https://buff.ly/Xn6kGsg"
               }
             ],
             "index": {
-              "byteEnd": 302,
-              "byteStart": 287
+              "byteEnd": 305,
+              "byteStart": 290
             }
           },
           {
@@ -141,16 +52,16 @@
               }
             ],
             "index": {
-              "byteEnd": 309,
-              "byteStart": 303
+              "byteEnd": 312,
+              "byteStart": 306
             }
           }
         ],
-        "text": "Job étudiant Ingénieur - IA & Développement Louvain-la-Neuve\n- Pas besoin d'1 maîtrise avancée du marketing digital mais 1 désir profond de comprendre pourquoi les gens achètent et comment un business croît.\n- Profil technique avec 1 intérêt poussé pour le business et l'IA. \nbuff.ly/Qn4zLfC\n#job4u"
+        "text": "Etudiant(e) événementiel été 2026 Bruxelles\n- Présentation soignée\n- Excellente expression orale en français (néerlandais et/ou anglais = atout sérieux)\n- Expérience en accueil, événementiel ou stewarding appréciée\n- Flexible sur la période estivale (journée et/ou soirée)\nbuff.ly/Xn6kGsg\n#job4u"
       },
       "embed": {
         "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=64b9d56830c7aca9&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCH67I3kX2nkWT5bR0LbzkdCdPP&xfps=f33ca3d4-c445-4ab0-b774-02ce48836a47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAp67M3kTA7_aWn1p0JbzkdCdPP",
+          "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP",
           "title": "",
           "description": ""
         },
@@ -161,7 +72,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-04-21T12:50:10.847Z",
+      "indexedAt": "2026-05-13T13:28:01.462Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -170,8 +81,8 @@
       "labels": []
     },
     {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyxbqdqd72u",
-      "cid": "bafyreiduuzsox2umbf4cfmcvika5powlofdwjfodnqsjys4l3mulv5kpb4",
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqewxebmc2x",
+      "cid": "bafyreig4nb55krx53afj7se7q7r7htp7xt27tix5ezbtf4pqijjcjfw4pu",
       "author": {
         "did": "did:plc:ob2khl3reouin6l4dntfslex",
         "handle": "job4u.bsky.social",
@@ -191,13 +102,13 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T12:11:07.623Z",
+        "createdAt": "2026-05-13T13:12:03.869Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
             "description": "",
             "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=3375360b2163d531&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDN67I3kXzA67T5YR0LbzkdCdPP&xfps=b04b6542-db86-4680-a3b1-60d94292666f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAA67M3kTA7_aWn1p0LbzkdCdPP"
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
           }
         },
         "facets": [
@@ -205,32 +116,32 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JwzttGv"
+                "uri": "https://buff.ly/7MOgnL6"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
               }
             ],
             "index": {
               "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
+              "byteStart": 288
             }
           }
         ],
-        "text": "Étudiant(e) été Carrefour Waterloo\n- Expérience préalable dans le secteur alimentaire, horeca, retail, catering = atout\n- Dispo pour travailler en horaire variable du lundi au dimanche entre 6h et 20h (vendredi 21h)\n- Tu attaches 1 grande importance à la propreté/l'ordre\nbuff.ly/JwzttGv\n#job4u\n#1410"
+        "text": "Job étudiant caisse réassort à Nivelles\n- Vous travaillez en caisse ou en rayon sur un job étudiant de 36 h par semaine, en juillet ou en août\n- Encaisser les achats en caisse.\n - Mettre les produits en rayon.\n - Suivre la formation prévue avant la prise de poste. \nbuff.ly/7MOgnL6\n#job4u"
       },
       "embed": {
         "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=3375360b2163d531&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDN67I3kXzA67T5YR0LbzkdCdPP&xfps=b04b6542-db86-4680-a3b1-60d94292666f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAA67M3kTA7_aWn1p0LbzkdCdPP",
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
           "title": "",
           "description": ""
         },
@@ -241,7 +152,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-04-21T12:11:08.350Z",
+      "indexedAt": "2026-05-13T13:12:05.161Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -250,8 +161,8 @@
       "labels": []
     },
     {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyv3hr6hc2e",
-      "cid": "bafyreibkw6rsgwxf35gc2xmzr4wguiiku2c7rqir6p4k4jdfq4f7ahlxym",
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqeaw7cjn27",
+      "cid": "bafyreihvsu2egfph45eqkmvpgn63hapf62lb6wyulygwrjfpca3nbzea5a",
       "author": {
         "did": "did:plc:ob2khl3reouin6l4dntfslex",
         "handle": "job4u.bsky.social",
@@ -271,13 +182,13 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T11:31:49.811Z",
+        "createdAt": "2026-05-13T12:59:44.465Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
             "description": "",
             "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8ce1c5578365193b&q=Etudiants&l=Brabant-wallon&tk=1jmdtikdh2h44000&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDl67I3kXXRHuzCVB0LbzkdCdPP&xfps=eee8197f-3a16-4b83-8f32-75b2c9a9d0b6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmdtikdh2h44000&xkcb=SoDH67M3kNzFR1Wjcx0LbzkdCdPP"
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5779914?JobId=5779914&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
           }
         },
         "facets": [
@@ -285,12 +196,12 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dBimR9f"
+                "uri": "https://buff.ly/tD4o01a"
               }
             ],
             "index": {
-              "byteEnd": 271,
-              "byteStart": 256
+              "byteEnd": 296,
+              "byteStart": 281
             }
           },
           {
@@ -301,16 +212,16 @@
               }
             ],
             "index": {
-              "byteEnd": 278,
-              "byteStart": 272
+              "byteEnd": 303,
+              "byteStart": 297
             }
           }
         ],
-        "text": "Job étudiant - GUAPA JUICE Nivelles\n- Production et vente de jus frais et smoothies\n- Type d'emploi : CDD\n- Rémunération : 15,20€ par heure \n- Disponibilités exigées : minimum 2 jours par semaine durant toute l'année scolaire + vacances scolaires.\nbuff.ly/dBimR9f\n#job4u"
+        "text": "Etudiant Animateur 1er Secours en Route Saint-Gilles\nOffre:\n- Prestations 1 samedi sur 2, soit en matinée, soit en après-midi (flexibilité demandée) - En plus du samedi, 3 ½ journées par semaine, matin ou après-midi. Salaire horaire - - brut : 13,2989 €/h Chèques-repas \nbuff.ly/tD4o01a\n#job4u"
       },
       "embed": {
         "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8ce1c5578365193b&q=Etudiants&l=Brabant-wallon&tk=1jmdtikdh2h44000&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDl67I3kXXRHuzCVB0LbzkdCdPP&xfps=eee8197f-3a16-4b83-8f32-75b2c9a9d0b6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmdtikdh2h44000&xkcb=SoDH67M3kNzFR1Wjcx0LbzkdCdPP",
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5779914?JobId=5779914&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
           "title": "",
           "description": ""
         },
@@ -321,7 +232,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-04-21T11:31:50.344Z",
+      "indexedAt": "2026-05-13T12:59:44.861Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -330,8 +241,8 @@
       "labels": []
     },
     {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmb4c7qks2v",
-      "cid": "bafyreidgdtufc5luz3j3f5xfbdiw5fups4euo4lpoj3ww7l6jjmfq7qpnm",
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqc5dtuji2q",
+      "cid": "bafyreihew74evr4vzmrgun42azte4mndtexeq44jfoenofsmwtxs7e7esu",
       "author": {
         "did": "did:plc:ob2khl3reouin6l4dntfslex",
         "handle": "job4u.bsky.social",
@@ -351,21 +262,13 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-16T11:02:25.254Z",
+        "createdAt": "2026-05-13T12:21:57.072Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant Assistant médical administratif",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5777113?JobId=5777113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
           }
         },
         "facets": [
@@ -373,12 +276,12 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/LTYAlV5"
+                "uri": "https://buff.ly/QIIgUZI"
               }
             ],
             "index": {
-              "byteEnd": 189,
-              "byteStart": 174
+              "byteEnd": 251,
+              "byteStart": 236
             }
           },
           {
@@ -389,19 +292,18 @@
               }
             ],
             "index": {
-              "byteEnd": 197,
-              "byteStart": 191
+              "byteEnd": 258,
+              "byteStart": 252
             }
           }
         ],
-        "text": "Etudiant Assistant médical administratif à Wavre\nTes missions principales :\n- l'accueil\n- la téléphonie\n- la gestion des mails, des agendas\n- la gestion administrative. \nbuff.ly/LTYAlV5 \n#job4u"
+        "text": "Etudiant(e) rayon traiteur Lillois-Witterzée\nProfil:\n- Vous avez une première expérience dans le secteur alimentaire\n- Vous êtes flexible dans les horaires (matin, après-midi, week-end)\n- Vous êtes poli et de bonne présentation \nbuff.ly/QIIgUZI\n#job4u"
       },
       "embed": {
         "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Etudiant Assistant médical administratif",
-          "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5777113?JobId=5777113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "",
+          "description": ""
         },
         "$type": "app.bsky.embed.external#view"
       },
@@ -410,7 +312,87 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-04-16T11:02:27.120Z",
+      "indexedAt": "2026-05-13T12:21:57.369Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlnhmdinje2x",
+      "cid": "bafyreihd4jwuv7lxbljbmdnlwqcoemcnggcf5g3usskzirfw5jd2bhjtbe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-12T09:21:49.506Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=34ddd66931f4a2e0&q=%C3%A9tudiant&l=Waterloo&tk=1joc9spv4g9so82n&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBQ67I3jNt0lCT4s50LbzkdCdPP&xfps=72499809-47e7-4218-8f9e-1395fabbec22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1joc9spv4g9so82n&xkcb=SoAT67M3jMb8l02uLB0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/36gX4F2"
+              }
+            ],
+            "index": {
+              "byteEnd": 257,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 265,
+              "byteStart": 259
+            }
+          }
+        ],
+        "text": "Job étudiant vente lunettes Ace & Tate - Bruxelles\nMissions :\n- Accueil et conseil clientèle avec une bonne énergie \n- Tailler les verres, ajuster les montures...\nProfil :\n-Maîtriser le français, le néerlandais et l’anglais (de base)\nbuff.ly/36gX4F2 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=34ddd66931f4a2e0&q=%C3%A9tudiant&l=Waterloo&tk=1joc9spv4g9so82n&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBQ67I3jNt0lCT4s50LbzkdCdPP&xfps=72499809-47e7-4218-8f9e-1395fabbec22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1joc9spv4g9so82n&xkcb=SoAT67M3jMb8l02uLB0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-12T09:21:49.861Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
