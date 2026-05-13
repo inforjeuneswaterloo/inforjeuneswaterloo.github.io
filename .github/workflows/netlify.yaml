@@ -2,57 +2,14 @@ name: Mise à jour journalière (Semaine uniquement)
 
 on:
   schedule:
-    # 0 = Minute, 4 = Heure (UTC), * = Jour, * = Mois, 1-5 = Lundi au Vendredi
-    - cron: '0 18 * * 1-5' 
+    # 0 = Minute, 14 = Heure (UTC), * = Jour, * = Mois, 1-5 = Lundi au Vendredi
+    - cron: '0 14 * * 1-5' 
 
-  workflow_dispatch: # Permet de lancer la mise à jour manuellement le week-end si besoin
+  workflow_dispatch: # Permet de lancer la mise à jour manuellement
 
 jobs:
-  update_content:
+  ping-netlify:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.9' 
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests python-frontmatter python-slugify pytz html2text atproto pyyaml feedparser
-
-      - name: Run Bluesky Job Timeline script
-        run: python scripts/bsky-job.py
-        env:
-          BLUESKY_JOB_USERNAME: ${{ secrets.BLUESKY_JOB_USERNAME }}
-          BLUESKY_JOB_PASSWORD: ${{ secrets.BLUESKY_JOB_PASSWORD }}
-          BLUESKY_JOB_DID_PLC: ${{ secrets.BLUESKY_JOB_DID_PLC }}
-
-      - name: Run Bluesky Timeline script
-        run: python scripts/bsky.py
-        env:
-          BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
-          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD}}
-          BSKY_DID_PLC: ${{ secrets.BSKY_DID_PLC }}
-      
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Actions Bot"
-          git add _data/ categories/ _posts/ 
-          
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "Aucun changement à valider."
-          else
-            git commit -m "Automatisation: Mise à jour contenu (Lundi-Vendredi)"
-            git push
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Trigger Build
+        run: curl -X POST -d {} "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
