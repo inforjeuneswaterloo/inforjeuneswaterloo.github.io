@@ -1,6 +1,326 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqfti2yq72e",
+      "cid": "bafyreigcveqbi56efhxypmkywjvdhsjyms5kvzcrkpdpz3dopcmralagbe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-13T13:28:00.915Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Xn6kGsg"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 290
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 312,
+              "byteStart": 306
+            }
+          }
+        ],
+        "text": "Etudiant(e) événementiel été 2026 Bruxelles\n- Présentation soignée\n- Excellente expression orale en français (néerlandais et/ou anglais = atout sérieux)\n- Expérience en accueil, événementiel ou stewarding appréciée\n- Flexible sur la période estivale (journée et/ou soirée)\nbuff.ly/Xn6kGsg\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-13T13:28:01.462Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqewxebmc2x",
+      "cid": "bafyreig4nb55krx53afj7se7q7r7htp7xt27tix5ezbtf4pqijjcjfw4pu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-13T13:12:03.869Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/7MOgnL6"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Job étudiant caisse réassort à Nivelles\n- Vous travaillez en caisse ou en rayon sur un job étudiant de 36 h par semaine, en juillet ou en août\n- Encaisser les achats en caisse.\n - Mettre les produits en rayon.\n - Suivre la formation prévue avant la prise de poste. \nbuff.ly/7MOgnL6\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-13T13:12:05.161Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqeaw7cjn27",
+      "cid": "bafyreihvsu2egfph45eqkmvpgn63hapf62lb6wyulygwrjfpca3nbzea5a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-13T12:59:44.465Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5779914?JobId=5779914&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/tD4o01a"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant Animateur 1er Secours en Route Saint-Gilles\nOffre:\n- Prestations 1 samedi sur 2, soit en matinée, soit en après-midi (flexibilité demandée) - En plus du samedi, 3 ½ journées par semaine, matin ou après-midi. Salaire horaire - - brut : 13,2989 €/h Chèques-repas \nbuff.ly/tD4o01a\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5779914?JobId=5779914&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-13T12:59:44.861Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqc5dtuji2q",
+      "cid": "bafyreihew74evr4vzmrgun42azte4mndtexeq44jfoenofsmwtxs7e7esu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-13T12:21:57.072Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5777113?JobId=5777113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QIIgUZI"
+              }
+            ],
+            "index": {
+              "byteEnd": 251,
+              "byteStart": 236
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 258,
+              "byteStart": 252
+            }
+          }
+        ],
+        "text": "Etudiant(e) rayon traiteur Lillois-Witterzée\nProfil:\n- Vous avez une première expérience dans le secteur alimentaire\n- Vous êtes flexible dans les horaires (matin, après-midi, week-end)\n- Vous êtes poli et de bonne présentation \nbuff.ly/QIIgUZI\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5777113?JobId=5777113&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-13T12:21:57.369Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlnhmdinje2x",
       "cid": "bafyreihd4jwuv7lxbljbmdnlwqcoemcnggcf5g3usskzirfw5jd2bhjtbe",
       "author": {
@@ -8099,356 +8419,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-05T15:56:38.261Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgd5ptl3bc2q",
-      "cid": "bafyreigdui7ndzb4intxcerk5oqps3m3z2zawwouaup2orngnt4tjwg7ri",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-05T15:52:14.076Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=af8bbcaf4efe55fa&q=Etudiant&l=Brussels&tk=1jiv0l4bghb6l802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBB67I3mfd6PDz5QR0LbzkdCdPP&xfps=39bb3f4e-37d2-4ae9-8c81-45572f3e16a2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiv0l4bghb6l802&xkcb=SoAU67M3mfJbRD7KcR0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Hcp9k8n"
-              }
-            ],
-            "index": {
-              "byteEnd": 269,
-              "byteStart": 254
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 270
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 277
-            }
-          }
-        ],
-        "text": "Vendeur étudiant H/F à Waterloo\nBureau Vallée cherche 1 étudiant(e) disponible au minimum les lundis et jeudis \nMissions\n- Renseignements clients\n- Vente en magasin\n- Encaissements\n- Accueil des livraisons\n- Rangement des rayons et des marchandises \nbuff.ly/Hcp9k8n\n#job4u\n#ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=af8bbcaf4efe55fa&q=Etudiant&l=Brussels&tk=1jiv0l4bghb6l802&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBB67I3mfd6PDz5QR0LbzkdCdPP&xfps=39bb3f4e-37d2-4ae9-8c81-45572f3e16a2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiv0l4bghb6l802&xkcb=SoAU67M3mfJbRD7KcR0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-05T15:52:14.456Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgan57fs4c2q",
-      "cid": "bafyreiftmf3b4gztwmqlqapj3tutjbm2ruw3vkqysoeairbhiwowosmgyu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-04T15:50:09.015Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "STUDENT EN BOULANGERIE (H/F/X)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
-              },
-              "mimeType": "image/png",
-              "size": 9337
-            },
-            "title": "STUDENT EN BOULANGERIE (H/F/X) – LEM Interim",
-            "uri": "https://www.leminterim.be/offre/student-en-boulangerie-h-f-x/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JAoWMis"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 288
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 310,
-              "byteStart": 304
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie à Waterloo\n- Compétences en service à la clientèle\n- Travailler efficacement dans un environnement rapide et sous pression\n- Suivre les normes d’hygiène et de sécurité alimentaire\n- Travailler de manière autonome et en équipe\n- Flexibilité horaire \nbuff.ly/JAoWMis\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.leminterim.be/offre/student-en-boulangerie-h-f-x/",
-          "title": "STUDENT EN BOULANGERIE (H/F/X) – LEM Interim",
-          "description": "STUDENT EN BOULANGERIE (H/F/X)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiae7obvxljmwsjlizok5x5fppsffl5ecwjhyr6iq2dmwflzxh5fuu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-04T15:50:10.170Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg7vbzad3r2b",
-      "cid": "bafyreifjtmru7jvbfr2lwbt6r3ppogflv66635srvx4cwfgoueqzanwnou",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-04T08:43:21.112Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8d38a44982fca189&q=Etudiant&l=Brussels&tk=1jiq4c7t2hb6l801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3mb02_XTC1J0LbzkdCdPP&xfps=ce078a71-83ed-4c88-b994-347c4e45b715&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiq4c7t2hb6l801&xkcb=SoBH67M3maA-xuAsFD0BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/hJjmobw"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Etudiant(e) étude notariale à Bruxelles\n- Ouverture des dossiers, contacts clients/comptables et secrétariat téléphonique\n- Effectuer recherches et formalités nécessaires, rédiger des actes courants (après une période de formation)\n- Publication au Moniteur Belge des actes \nbuff.ly/hJjmobw\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8d38a44982fca189&q=Etudiant&l=Brussels&tk=1jiq4c7t2hb6l801&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDK67I3mb02_XTC1J0LbzkdCdPP&xfps=ce078a71-83ed-4c88-b994-347c4e45b715&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jiq4c7t2hb6l801&xkcb=SoBH67M3maA-xuAsFD0BbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-04T08:43:21.560Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mg5s46liol2q",
-      "cid": "bafyreidhfjqztghjm7cwg746fae2ba3bua4u2xrxvw7tnrmksibws7qqv4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-03T12:41:03.948Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour notre client à WAVRE nous recherchons activement des étudiants dynamiques et enthousiastes pour animer et gérer des stands de jeux Vos tâches : Gestion d'un stand de jeux (type pêches aux…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
-              },
-              "mimeType": "image/png",
-              "size": 16268
-            },
-            "title": "Etudiant Vendeur",
-            "uri": "https://www.jobat.be/nl/jobs/etudiant-vendeur/job_5502761"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/1xu0bCN"
-              }
-            ],
-            "index": {
-              "byteEnd": 205,
-              "byteStart": 190
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 212,
-              "byteStart": 206
-            }
-          }
-        ],
-        "text": "Etudiant vendeur à Wavre\nTâches:\n- Gestion d'un stand de jeux (type pêches aux canards, tirs à l'arc, ....)\n- Expliquer les règles et motiver les clients à jouer\n- Booster les ventes \nbuff.ly/1xu0bCN\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/nl/jobs/etudiant-vendeur/job_5502761",
-          "title": "Etudiant Vendeur",
-          "description": "Pour notre client à WAVRE nous recherchons activement des étudiants dynamiques et enthousiastes pour animer et gérer des stands de jeux Vos tâches : Gestion d'un stand de jeux (type pêches aux…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-03T12:41:05.350Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
