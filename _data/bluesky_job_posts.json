@@ -1,6 +1,246 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7jkn7zvq2w",
+      "cid": "bafyreihuxjm7ykl6sxispfk2z4jgmzxb2z57d56dpzu7lpzaagc3ttgkze",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-19T13:44:35.373Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=761ef179a7aa5ff0&q=Etudiant&l=Brabant-wallon&tk=1jp070cibg2ii801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDn67I3jgGosWT7dB0LbzkdCdPP&xfps=ebfe2755-e40c-4555-8334-c7400f80edc8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp070cibg2ii801&xkcb=SoCD67M3jgGOfG0zrB0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kAYaham"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 290
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 312,
+              "byteStart": 306
+            }
+          }
+        ],
+        "text": "Etudiant Préparateur de commandes à Braine-le-Château\n· Préparation des commandes et colisage des produits\n· Repérage et signalement des anomalies de manutention\n. Attention particulière aux numéros de lots des produits\n· Opérations de manutention, d’entreposage, de transport\nbuff.ly/kAYaham\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=761ef179a7aa5ff0&q=Etudiant&l=Brabant-wallon&tk=1jp070cibg2ii801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDn67I3jgGosWT7dB0LbzkdCdPP&xfps=ebfe2755-e40c-4555-8334-c7400f80edc8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp070cibg2ii801&xkcb=SoCD67M3jgGOfG0zrB0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-19T13:44:35.869Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7intfon52w",
+      "cid": "bafyreidu5fkc3viv3ydyhtyemziax5uzgpepqbis5ffh2io4vpvo4pfxni",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-19T13:28:28.777Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5798946?JobId=5798946&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/F55Yfn5"
+              }
+            ],
+            "index": {
+              "byteEnd": 265,
+              "byteStart": 250
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 266
+            }
+          }
+        ],
+        "text": "Inventoriste étudiant Ittre\nProfil:\n- Tu es disponible soit en matinée, en soirée, la semaine ou le week-end\n- Tu peux te rendre facilement aux lieux de travail demandés\n- Tu es rapide et consciencieux \nOffre\n- Un salaire de 13.6148 bruts/heure \nbuff.ly/F55Yfn5\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5798946?JobId=5798946&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-19T13:28:29.163Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7i6dxor22u",
+      "cid": "bafyreicjvhddp2eo2rdhm6wv52n3iqusmjtjw7kgavh5zjmopbg765o3f4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-19T13:19:49.276Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=69faf158a5eebbdc&q=%C3%A9tudiant&l=Waterloo&tk=1jotopa8r21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCA67I3jf0t0Sz5Tx0LbzkdCdPP&xfps=15a41c64-3d86-4b04-88e3-7b9ee7d8c602&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jotopa8r21dp000&xkcb=SoAZ67M3jd5qg1B4ML0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kguxAuG"
+              }
+            ],
+            "index": {
+              "byteEnd": 239,
+              "byteStart": 224
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 246,
+              "byteStart": 240
+            }
+          }
+        ],
+        "text": "Etudiant(e) en boulangerie Etterbeek\nNotre boulangerie recherche un.e étudiant.e pour renforcer son équipe de vente les week-ends. Les horaires du poste sont les suivants :\n- samedi : 06h00-13h00\n- dimanche : 06h00-11h00 \nbuff.ly/kguxAuG\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=69faf158a5eebbdc&q=%C3%A9tudiant&l=Waterloo&tk=1jotopa8r21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCA67I3jf0t0Sz5Tx0LbzkdCdPP&xfps=15a41c64-3d86-4b04-88e3-7b9ee7d8c602&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jotopa8r21dp000&xkcb=SoAZ67M3jd5qg1B4ML0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-19T13:19:49.762Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm4upfimxg2h",
       "cid": "bafyreih4pnvy4mszh2diogqkrlunj5e5jlg3rzqucm3mhhhfmtmyx4sj7e",
       "author": {
@@ -8140,255 +8380,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-13T18:08:08.050Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgxhjqkzhc2q",
-      "cid": "bafyreibkniq67rxeedqqnb2647pdicb5yqtxctdex3danqz64t2255jvuy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-13T17:41:01.040Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-              },
-              "mimeType": "image/png",
-              "size": 3317
-            },
-            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-            "uri": "https://www.jobted.be/fr?viewjob=6ce16d83bddeb5083da5d87ec0af8d53&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/s0e8xlO"
-              }
-            ],
-            "index": {
-              "byteEnd": 229,
-              "byteStart": 214
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 236,
-              "byteStart": 230
-            }
-          }
-        ],
-        "text": "Job étudiant - vendeur (H/F/X) sur marché à Bruxelles\nMissions:\n- Vendre des produits Italiens de qualité\n- Accueil et conseil des clients\n- Aider à la mise en place du stand\n- Réassort et rangement du stand\nbuff.ly/s0e8xlO\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobted.be/fr?viewjob=6ce16d83bddeb5083da5d87ec0af8d53&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
-          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-13T17:41:02.950Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6zjiivu2w",
-      "cid": "bafyreieztk4wuxxvlqzpezz6y5xqg2rk5y7lphpvb4up2yraa35km2mv5a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-11T15:25:28.883Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Le Golf de Rigenée recherche un(e) étudiant(e) (18 ans min.) pour renforcer son équipe d’accueil.👉 Tu es souriant(e), fiable et &...",
-            "title": "Job étudiant - Accueil Golf - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/job-etudiant-accueil-golf.R17L1x1K1-Z1x"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/5QcR1fR"
-              }
-            ],
-            "index": {
-              "byteEnd": 250,
-              "byteStart": 235
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 257,
-              "byteStart": 251
-            }
-          }
-        ],
-        "text": "Job étudiant - Accueil Golf Villers-la-Ville\nProfil\n- min. 18 ans\n- à l’aise avec le contact client\n- disponible principalement les week-ends et jours fériés\n- tu joues au golf ou tu t’intéresses au milieu sportif (atout ++) \nbuff.ly/5QcR1fR\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/job-etudiant-accueil-golf.R17L1x1K1-Z1x",
-          "title": "Job étudiant - Accueil Golf - Trovit Emploi",
-          "description": "Le Golf de Rigenée recherche un(e) étudiant(e) (18 ans min.) pour renforcer son équipe d’accueil.👉 Tu es souriant(e), fiable et &..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-11T15:25:29.260Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgs6pcdyq52z",
-      "cid": "bafyreic6xc3zxzegq4bbx7kl7afxnj3c3o5qfki3xa6k2sv6yk45757nim",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-11T15:19:45.844Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Découvrez toutes les offres d'emploi publiées par le Forem et ses partenaires",
-            "title": "Offres d'emploi | Le Forem",
-            "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Etudiant(e) manutentionnaire Ottignies Louvain-la-Neuve\nCe poste est fait pour toi si tu: \n- peux porter des charges lourdes\n- es disponible le week-end et au moins 1 ou 2 jours en semaine\n- as un intérêt marqué pour les plantes\n- cherches un job assez physique \nwww.leforem.be/recherche-of...\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.leforem.be/recherche-offres/offre-detail/1819021",
-          "title": "Offres d'emploi | Le Forem",
-          "description": "Découvrez toutes les offres d'emploi publiées par le Forem et ses partenaires"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-11T15:19:46.370Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
