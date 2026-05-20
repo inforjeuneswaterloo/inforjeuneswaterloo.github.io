@@ -33,9 +33,11 @@
     <label for="menu-cb" class="menu-overlay-screen"></label>
     <nav class="nav-overlay">
       <div class="nav-content">
-        <a href="{{ '/' | relative_url }}">Accueil</a>
-        <a href="{{ '/categories/' | relative_url }}">Catégories</a>
-        <a href="{{ '/about/' | relative_url }}">À propos</a>
+        {% for item in site.data.minimal-main-nav %}
+          <a href="{{item.url | relative_url}}">
+            {{item.title}}
+          </a>
+        {% endfor %}
       </div>
     </nav>
   </div>

@@ -1,3 +1,7 @@
+
+@view-transition {
+  navigation: auto; /* Active le fondu automatique entre les pages du même site */
+}
 /* ==========================================================================
    1. VARIABLES & THÈMES (COULEURS ET TYPO)
    ========================================================================== */
