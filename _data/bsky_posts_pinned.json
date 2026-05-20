@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mlpzrfrrcq2s",
-      "cid": "bafyreif7fksx65tgssoveioxv6axv3hyqn6irrn5juigmgxp7fd5pzfoqi",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjtgvto2w",
+      "cid": "bafyreih7j65cjvkfvzvvk45zl5xbdzir5dkj3gwxbgswxngnuaryxm6ola",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-13T09:52:05.506Z",
+        "createdAt": "2026-05-20T07:37:51.529Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "La Commission européenne pourrait présenter cet été une proposition législative visant à restreindre l'accès des mineurs d'âge aux réseaux sociaux, a...",
+            "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
+                "$link": "bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
               },
               "mimeType": "image/jpeg",
-              "size": 34316
+              "size": 51639
             },
-            "title": "La Commission envisage une législation limitant l'accès des enfants aux réseaux sociaux",
-            "uri": "https://www.dhnet.be/dernieres-depeches/2026/05/12/la-commission-envisage-une-legislation-limitant-lacces-des-enfants-aux-reseaux-sociaux-EV4LX4K4HNCQNCLBLBUIUONWRM/"
+            "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
+            "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
           }
         },
         "facets": [
@@ -44,56 +44,80 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Europe"
+                "tag": "Enseignement"
               }
             ],
             "index": {
-              "byteEnd": 243,
-              "byteStart": 236
+              "byteEnd": 206,
+              "byteStart": 193
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Internet"
+                "tag": "Médecine"
               }
             ],
             "index": {
-              "byteEnd": 253,
-              "byteStart": 244
+              "byteEnd": 217,
+              "byteStart": 207
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RéseauSociaux"
+                "tag": "FWB"
               }
             ],
             "index": {
-              "byteEnd": 269,
-              "byteStart": 254
+              "byteEnd": 222,
+              "byteStart": 218
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Goodnews"
+              }
+            ],
+            "index": {
+              "byteEnd": 232,
+              "byteStart": 223
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 234
             }
           }
         ],
-        "text": "La Commission européenne pourrait présenter une proposition législative cet été.  Sa présidente, Ursula von der Leyen, estime qu'il n'est plus possible d'éviter le débat autour de la limitation de l'accès aux réseaux sociaux.\n#Europe #Internet #RéseauSociaux"
+        "text": "Augmentation du quota de médecins pour 2032 et 2033 : 1.677 candidats pourront être reçus à l'issue du concours de médecine organisé en août prochain en Fédération Wallonie-Bruxelles.\n#Enseignement #Médecine #FWB #Goodnews"
       },
       "embed": {
         "external": {
-          "uri": "https://www.dhnet.be/dernieres-depeches/2026/05/12/la-commission-envisage-une-legislation-limitant-lacces-des-enfants-aux-reseaux-sociaux-EV4LX4K4HNCQNCLBLBUIUONWRM/",
-          "title": "La Commission envisage une législation limitant l'accès des enfants aux réseaux sociaux",
-          "description": "La Commission européenne pourrait présenter cet été une proposition législative visant à restreindre l'accès des mineurs d'âge aux réseaux sociaux, a...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
+          "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/",
+          "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
+          "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
         },
         "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
-      "replyCount": 0,
+      "replyCount": 1,
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-05-13T09:52:07.661Z",
+      "indexedAt": "2026-05-20T07:37:54.067Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -101,7 +125,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigi73mvjkfmdmoxvplvohfgctcjr2ewc2b64r6bmc636ms6yh2c5u"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
     }
   ]
 }

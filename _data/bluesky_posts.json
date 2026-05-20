@@ -1,6 +1,266 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjvauju25",
+      "cid": "bafyreiag5xwusa2vmx7dsaokyywbok6gobo7xfixcvm4fdfne4k3zftfcy",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "La gazette d'IJ Waterloo",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-20T07:37:54.022Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Les futurs médecins belges devront bientôt se former aux réalités de la médecine de guerre. Une adaptation des cursus universitaires est en préparation afin de mieux préparer les étudiants à la prise…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigglrdcp6ex2dxajbljig5rpd42wvufkvtmdesefcgk3x2xfgji2e"
+              },
+              "mimeType": "image/jpeg",
+              "size": 22289
+            },
+            "title": "La médecine de guerre va devenir une matière obligatoire pour les futurs médecins en Belgique",
+            "uri": "https://www.rtl.be/actu/belgique/societe/la-medecine-de-guerre-va-devenir-une-matiere-obligatoire-pour-les-futurs/2026-02-02/article/778436"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 224,
+              "byteStart": 211
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Médecine"
+              }
+            ],
+            "index": {
+              "byteEnd": 235,
+              "byteStart": 225
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Belgique"
+              }
+            ],
+            "index": {
+              "byteEnd": 245,
+              "byteStart": 236
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtl.be/actu/belgique/societe/la-medecine-de-guerre-va-devenir-une-matiere-obligatoire-pour-les-futurs/2026-02-02/article/778436"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 246
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreih7j65cjvkfvzvvk45zl5xbdzir5dkj3gwxbgswxngnuaryxm6ola",
+            "commit": {
+              "cid": "bafyreiai4tlem22jy2xah2baibuzr6nas2zcwl4d74h675aunl6623m2f4",
+              "rev": "3mmbfjth6mw2w"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjtgvto2w",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreih7j65cjvkfvzvvk45zl5xbdzir5dkj3gwxbgswxngnuaryxm6ola",
+            "commit": {
+              "cid": "bafyreiai4tlem22jy2xah2baibuzr6nas2zcwl4d74h675aunl6623m2f4",
+              "rev": "3mmbfjth6mw2w"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjtgvto2w",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Formation de base en médecine de guerre obligatoire. Objectif : mieux préparer les étudiants à la prise en charge de traumatismes graves lors de situations de crise majeure, y compris les conflits armés.  \n#Enseignement #Médecine #Belgique\nwww.rtl.be/actu/belgiqu..."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/societe/la-medecine-de-guerre-va-devenir-une-matiere-obligatoire-pour-les-futurs/2026-02-02/article/778436",
+          "title": "La médecine de guerre va devenir une matière obligatoire pour les futurs médecins en Belgique",
+          "description": "Les futurs médecins belges devront bientôt se former aux réalités de la médecine de guerre. Une adaptation des cursus universitaires est en préparation afin de mieux préparer les étudiants à la prise…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigglrdcp6ex2dxajbljig5rpd42wvufkvtmdesefcgk3x2xfgji2e"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-20T07:37:56.073Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjtgvto2w",
+      "cid": "bafyreih7j65cjvkfvzvvk45zl5xbdzir5dkj3gwxbgswxngnuaryxm6ola",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "La gazette d'IJ Waterloo",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-20T07:37:51.529Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 51639
+            },
+            "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
+            "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 206,
+              "byteStart": 193
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Médecine"
+              }
+            ],
+            "index": {
+              "byteEnd": 217,
+              "byteStart": 207
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "FWB"
+              }
+            ],
+            "index": {
+              "byteEnd": 222,
+              "byteStart": 218
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Goodnews"
+              }
+            ],
+            "index": {
+              "byteEnd": 232,
+              "byteStart": 223
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
+              }
+            ],
+            "index": {
+              "byteEnd": 264,
+              "byteStart": 234
+            }
+          }
+        ],
+        "text": "Augmentation du quota de médecins pour 2032 et 2033 : 1.677 candidats pourront être reçus à l'issue du concours de médecine organisé en août prochain en Fédération Wallonie-Bruxelles.\n#Enseignement #Médecine #FWB #Goodnews \nwww.lalibre.be/belgique/pol..."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/",
+          "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
+          "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-20T07:37:54.067Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mlpzrfrrcq2s",
       "cid": "bafyreif7fksx65tgssoveioxv6axv3hyqn6irrn5juigmgxp7fd5pzfoqi",
       "author": {
@@ -98,7 +358,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -10335,234 +10595,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-03-03T07:53:13.750Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ljhhctk2xs2n",
-      "cid": "bafyreigyax3tg46f5exip2ayodz6by7laz42vzpvr7firw6b3xxjjlaxiy",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-03T07:43:57.185Z",
-        "embed": {
-          "$type": "app.bsky.embed.images",
-          "images": [
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 2000,
-                "width": 1500
-              },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreidf4jkihpu6cs22ld5msfxbiwz6adcdxmlw3bty4k7q5jayzcqdzu"
-                },
-                "mimeType": "image/jpeg",
-                "size": 390809
-              }
-            }
-          ]
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job"
-              }
-            ],
-            "index": {
-              "byteEnd": 18,
-              "byteStart": 14
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "stage"
-              }
-            ],
-            "index": {
-              "byteEnd": 27,
-              "byteStart": 21
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "clubTeli"
-              }
-            ],
-            "index": {
-              "byteEnd": 57,
-              "byteStart": 48
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.yotm.be/travailler"
-              }
-            ],
-            "index": {
-              "byteEnd": 118,
-              "byteStart": 96
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "Les offres de #job / #stage de notre partenaire #clubTeli sont accessibles au téléchargement!\nwww.yotm.be/travailler"
-      },
-      "embed": {
-        "images": [
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidf4jkihpu6cs22ld5msfxbiwz6adcdxmlw3bty4k7q5jayzcqdzu",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidf4jkihpu6cs22ld5msfxbiwz6adcdxmlw3bty4k7q5jayzcqdzu",
-            "alt": "",
-            "aspectRatio": {
-              "height": 2000,
-              "width": 1500
-            }
-          }
-        ],
-        "$type": "app.bsky.embed.images#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-03T07:44:01.053Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lj6ar27bwc24",
-      "cid": "bafyreiep5v34nlog6bbftgs7ct7gczflymjhm5dioqhi4dff2heachnibu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-02-27T15:52:25.009Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Un bug sur l'option de dictée vocale de l'iPhone a fait apparaître subrepticement le mot \"Trump\" dès qu'un utilisateur prononçait le mot \"raciste\". Plusieurs possesseurs d'iPhone ont témoigné de ce…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigdt2na5q4457ibn2h4zdrpb2xavpbgtk45xapyvcgfazwna42n24"
-              },
-              "mimeType": "image/jpeg",
-              "size": 61198
-            },
-            "title": "Apple corrige un bug sur la dictée vocale de l'iPhone qui transforme \"raciste\" en \"Trump\"",
-            "uri": "https://buff.ly/4iidpyV"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Apple"
-              }
-            ],
-            "index": {
-              "byteEnd": 6,
-              "byteStart": 0
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "bug"
-              }
-            ],
-            "index": {
-              "byteEnd": 22,
-              "byteStart": 18
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "iPhone"
-              }
-            ],
-            "index": {
-              "byteEnd": 55,
-              "byteStart": 48
-            }
-          }
-        ],
-        "text": "#Apple corrige un #bug sur la dictée vocale de #iPhone qui transforme \"raciste\" en \"Trump\" \nEt soudain la vérité advient, fugace..."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/4iidpyV",
-          "title": "Apple corrige un bug sur la dictée vocale de l'iPhone qui transforme \"raciste\" en \"Trump\"",
-          "description": "Un bug sur l'option de dictée vocale de l'iPhone a fait apparaître subrepticement le mot \"Trump\" dès qu'un utilisateur prononçait le mot \"raciste\". Plusieurs possesseurs d'iPhone ont témoigné de ce…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigdt2na5q4457ibn2h4zdrpb2xavpbgtk45xapyvcgfazwna42n24"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-02-27T15:52:41.361Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
