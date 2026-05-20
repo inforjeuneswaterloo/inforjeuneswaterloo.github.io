@@ -5,8 +5,8 @@ require 'uri'
 module Jekyll
   class Job4uFeedTag < Liquid::Tag
     def render(context)
-      # Configuration via le DID permanent pour éviter toute casse si le handle change
-      actor_did = "did:plc:z3q32w2n3m2m722m4w35qg5e"
+      # Configuration avec le DID exact récupéré
+      actor_did = "did:plc:ob2khl3reouin6l4dntfslex"
       url = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=#{actor_did}&limit=6"
       
       begin
@@ -26,10 +26,10 @@ module Jekyll
             date = Time.parse(record['createdAt']).strftime('%d/%m/%Y')
             text = record['text']
             
-            # Nettoyage hashtags
+            # Nettoyage des hashtags
             text = text.gsub(/#\w+/, '').strip
 
-            # Définition du lien de secours vers le post (utilise le DID dans l'URL)
+            # Définition du lien vers le post
             post_id = post['uri'].split('/').last
             destination_url = "https://bsky.app/profile/#{actor_did}/post/#{post_id}"
             img_url = ""
