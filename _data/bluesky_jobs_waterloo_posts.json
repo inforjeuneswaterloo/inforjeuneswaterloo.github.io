@@ -1,3 +1,98 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7f4nvuz2e",
+      "cid": "bafyreicuqce5z3l6za735vjdq6ulvatnmwkbxanosg2vy2gz4yhbtzhbva",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-20T15:20:32.034Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/VlqVMpg"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Conseiller(ère) de vente étudiant INTERSPORT - WATERLOO \nMissions :\n- Accueillir, renseigner et conseiller les clients\n- Réassort/entretien du rayon ...\nProfil\n- Passionné(e) de sport, de mode et de vente\n- À l’écoute, bon sens du service et du relationnel...\nbuff.ly/VlqVMpg\n#job4u #ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-20T15:20:33.075Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-05-20T17:20:32+02:00",
+      "image_url": null
+    }
+  ]
 }

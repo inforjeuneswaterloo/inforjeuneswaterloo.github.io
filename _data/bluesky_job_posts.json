@@ -1,6 +1,187 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7feuu7u2x",
+      "cid": "bafyreiczp6djllyg2j63tofh6g6gmeh3mbozmjwgkmhbt2d6r2kvuly6sy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-20T15:20:38.586Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+              },
+              "mimeType": "image/webp",
+              "size": 219534
+            },
+            "title": "Offres d’emploi | PROMAN Jobs",
+            "uri": "https://www.proman.be/fr/jobs/emplois/student-support-logistique-communication-hfx"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/cVi2kZE"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 264
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 281
+            }
+          }
+        ],
+        "text": "STUDENT support logistique communication 6/07 au 17/07 - Nivelles \nMissions:\n- Trier/organiser le matériel de comm\n- Rangement du stock \n- Soutien général à l’équipe communication...\nProfil :\n- Organisé, rigoureux et motivé\n- Autonome et consciencieux...\nbuff.ly/cVi2kZE \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.proman.be/fr/jobs/emplois/student-support-logistique-communication-hfx",
+          "title": "Offres d’emploi | PROMAN Jobs",
+          "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-20T15:20:40.871Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7f4nvuz2e",
+      "cid": "bafyreicuqce5z3l6za735vjdq6ulvatnmwkbxanosg2vy2gz4yhbtzhbva",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-20T15:20:32.034Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/VlqVMpg"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 290,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 291
+            }
+          }
+        ],
+        "text": "Conseiller(ère) de vente étudiant INTERSPORT - WATERLOO \nMissions :\n- Accueillir, renseigner et conseiller les clients\n- Réassort/entretien du rayon ...\nProfil\n- Passionné(e) de sport, de mode et de vente\n- À l’écoute, bon sens du service et du relationnel...\nbuff.ly/VlqVMpg\n#job4u #ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-20T15:20:33.075Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7jkn7zvq2w",
       "cid": "bafyreihuxjm7ykl6sxispfk2z4jgmzxb2z57d56dpzu7lpzaagc3ttgkze",
       "author": {
@@ -8211,175 +8392,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-16T08:40:51.552Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgxm2sg3dq2q",
-      "cid": "bafyreibzccolcu7uvbtckq6ymmbthnxbjahkjtclih2orcljwuzntmmqca",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-13T19:02:09.108Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=152e8b325bf41366&q=%C3%A9tudiant&l=Waterloo&tk=1jjete7elg9u0801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB467I3m0YhFgzCMh0LbzkdCdPP&xfps=3dbc6afd-ebe0-4125-9ee5-7b79c784aa47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjete7elg9u0801&xkcb=SoC_67M3muy3Ja7O5B0IbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mpJS7Zr"
-              }
-            ],
-            "index": {
-              "byteEnd": 278,
-              "byteStart": 263
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 285,
-              "byteStart": 279
-            }
-          }
-        ],
-        "text": "VENDEUR étudiant H/F Mango Bruxelles\n- Accueillir les clients\n- Posséder une bonne connaissance des produits afin de pouvoir conseiller le client de manière optimale et précise\n- Connaître les objectifs de vente et viser à les atteindre et à les dépasser\nbuff.ly/mpJS7Zr\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=152e8b325bf41366&q=%C3%A9tudiant&l=Waterloo&tk=1jjete7elg9u0801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoB467I3m0YhFgzCMh0LbzkdCdPP&xfps=3dbc6afd-ebe0-4125-9ee5-7b79c784aa47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjete7elg9u0801&xkcb=SoC_67M3muy3Ja7O5B0IbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-13T19:02:09.453Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mgxj26u4vv26",
-      "cid": "bafyreido6u7sgtcuztvprxykdz2rl5pni77vln7msu7ppkiwv572w324nq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-13T18:08:06.626Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-              },
-              "mimeType": "image/png",
-              "size": 3317
-            },
-            "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-            "uri": "https://www.jobted.be/fr?viewjob=802191c2514c955150327323cf365559&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/SVgVcSW"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 288
-            }
-          }
-        ],
-        "text": "Etudiant - Dessin de plans de bâtiment H/F/X à Laeken\n Profil\n- Etudiant(e) en architecture, ingénierie, construction ou dessin technique\n- Bonne maîtrise d'un logiciel de dessin technique (AutoCAD ou équivalent)\n- Rigueur et précision\n- Autonomie dans le travail  \nbuff.ly/SVgVcSW\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobted.be/fr?viewjob=802191c2514c955150327323cf365559&kj=jobs%20etudiants&kl=watermaal-bosvoorde&nju=5625",
-          "title": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur,...",
-          "description": "Javascript est désactivé dans votre navigateurPour une meilleure expérience utilisateur, nous vous recommandons de l'activer",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreif3iwnw26d4i5uz3knprbp43jue7dyzrnvsxtlkcma6w3smupk2hu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-13T18:08:08.050Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
