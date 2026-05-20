@@ -12,8 +12,7 @@ title: Le coin des petites annonces
    {% assign include=page.include %}
    {% case include %}
         {% when 'job'%}
-            {% assign latest_jobs = site.data.bluesky_job_posts.posts | limit: 5 %}
-            {%include jobs.html var=latest_jobs %}
+            {% job4u_feed %}
         {% when 'actu' %}
             {% mastodon_feed %}
    {% endcase %}
