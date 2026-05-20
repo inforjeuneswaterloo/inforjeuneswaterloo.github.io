@@ -1,0 +1,15 @@
+name: Mise à jour horaire entre 8 et 19 du lundi au vendredi (Semaine uniquement)
+
+on:
+  schedule:
+    # Toutes les heures (:00) de 6h à 17h UTC, du lundi au vendredi
+    - cron: '0 6-17 * * 1-5'
+
+  workflow_dispatch: # Permet de lancer la mise à jour manuellement
+
+jobs:
+  ping-netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Build
+        run: curl -X POST -d {} "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
