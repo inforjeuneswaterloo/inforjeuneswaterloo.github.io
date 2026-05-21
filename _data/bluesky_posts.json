@@ -1,13 +1,91 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmdz62qwjl2p",
+      "cid": "bafyreibw5pifzlni74li2ued5wx6gwvyjkng66f2ykuoqj6lk6tdhbewuy",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "La gazette d'IJ Waterloo",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-21T08:34:30.956Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Arrêtons-nous un instant et observons le doux flux de ces mots sous nos yeux, ce va-et-vient silencieux et la voix qui les...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidojtxcnindx3dkmjmvjqlowsxprdmrjcfxug75en2alsjgnfgxym"
+              },
+              "mimeType": "image/jpeg",
+              "size": 128264
+            },
+            "title": "Écrire à la main et faire des pauses aide à mémoriser - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/ecrire-a-la-main-et-faire-des-pauses-aide-a-memoriser-11616691"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 259
+            }
+          }
+        ],
+        "text": "Ecrire active plus de régions cérébrales que de dactylographier, ce qui favorise compréhension et mémorisation.  Les pauses favorisent l'organisation et la consolidation des informations.  Et donc plus durables.\n⚠️ Pas de scrolling pendant la pause\n\n#Enseignement"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/ecrire-a-la-main-et-faire-des-pauses-aide-a-memoriser-11616691",
+          "title": "Écrire à la main et faire des pauses aide à mémoriser - RTBF Actus",
+          "description": "Arrêtons-nous un instant et observons le doux flux de ces mots sous nos yeux, ce va-et-vient silencieux et la voix qui les...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidojtxcnindx3dkmjmvjqlowsxprdmrjcfxug75en2alsjgnfgxym"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-21T08:34:33.266Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbxzreqcu2p",
       "cid": "bafyreibloxfnksgwrv5tbiewghgerxsr3yzl7udqdo56pqwqnkqtacl4um",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -97,7 +175,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -231,7 +309,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -346,7 +424,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -357,7 +435,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -459,7 +537,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -576,7 +654,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -681,7 +759,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -771,7 +849,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -861,7 +939,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1005,7 +1083,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1083,7 +1161,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1185,7 +1263,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1347,7 +1425,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1499,7 +1577,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1601,7 +1679,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1715,7 +1793,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1793,7 +1871,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1871,7 +1949,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -1961,7 +2039,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2088,7 +2166,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2178,7 +2256,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2256,7 +2334,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2346,7 +2424,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2484,7 +2562,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2586,7 +2664,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2688,7 +2766,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2766,7 +2844,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2868,7 +2946,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -2982,7 +3060,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3096,7 +3174,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3186,7 +3264,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3300,7 +3378,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3402,7 +3480,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3492,7 +3570,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3619,7 +3697,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3721,7 +3799,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3823,7 +3901,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -3925,7 +4003,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4027,7 +4105,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4118,7 +4196,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4232,7 +4310,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4366,7 +4444,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4500,7 +4578,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4646,7 +4724,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4748,7 +4826,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4850,7 +4928,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -4964,7 +5042,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5091,7 +5169,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5193,7 +5271,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5257,7 +5335,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5335,7 +5413,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5413,7 +5491,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5503,7 +5581,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5605,7 +5683,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5707,7 +5785,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5797,7 +5875,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5887,7 +5965,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -5977,7 +6055,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6118,7 +6196,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6235,7 +6313,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6301,7 +6379,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6395,7 +6473,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6476,7 +6554,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6602,7 +6680,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6719,7 +6797,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6824,7 +6902,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -6902,7 +6980,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7016,7 +7094,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7075,7 +7153,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7165,7 +7243,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7255,7 +7333,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7345,7 +7423,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7423,7 +7501,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7501,7 +7579,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7603,7 +7681,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7717,7 +7795,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7819,7 +7897,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -7909,7 +7987,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8035,7 +8113,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8138,7 +8216,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8190,7 +8268,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8304,7 +8382,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8430,7 +8508,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8544,7 +8622,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8622,7 +8700,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8724,7 +8802,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8788,7 +8866,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -8934,7 +9012,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9044,7 +9122,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9170,7 +9248,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9308,7 +9386,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9422,7 +9500,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9548,7 +9626,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9674,7 +9752,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9776,7 +9854,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -9914,7 +9992,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -10076,7 +10154,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -10229,7 +10307,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -10310,7 +10388,7 @@
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -10433,144 +10511,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-03-03T16:23:12.558Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ljidzffu352z",
-      "cid": "bafyreiefnj5ih6gzg65vuu6vocnlcd7qte7q4fsm4uigyypr47v3kfuqda",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-03T16:17:37.661Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-              },
-              "mimeType": "image/jpeg",
-              "size": 115292
-            },
-            "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
-            "uri": "https://buff.ly/d42Lu1L"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "nanogame"
-              }
-            ],
-            "index": {
-              "byteEnd": 60,
-              "byteStart": 51
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "spaceinvader"
-              }
-            ],
-            "index": {
-              "byteEnd": 90,
-              "byteStart": 77
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "nanotechnologie"
-              }
-            ],
-            "index": {
-              "byteEnd": 242,
-              "byteStart": 226
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 277,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "science"
-              }
-            ],
-            "index": {
-              "byteEnd": 286,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 287
-            }
-          }
-        ],
-        "text": "Des scientifiques  🇯🇵 (Nagoya) ont créé un #nanogame. Il s'agit d'un #spaceinvader où le laser un est un rayon d'électron et les aliens des nanoparticules de polystyrène. Ce jeu ouvre la voie à des applications en #nanotechnologie et  ingénierie biomédicale\n#mtts #science #tech"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/d42Lu1L",
-          "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
-          "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-03T16:17:39.759Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

@@ -1,13 +1,13 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmbfjtgvto2w",
-      "cid": "bafyreih7j65cjvkfvzvvk45zl5xbdzir5dkj3gwxbgswxngnuaryxm6ola",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmdz62qwjl2p",
+      "cid": "bafyreibw5pifzlni74li2ued5wx6gwvyjkng66f2ykuoqj6lk6tdhbewuy",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
         "displayName": "La gazette d'IJ Waterloo",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiegqiikvhkezj2m22p76tr4zhkjmkaucukmxry6aefjabfdkmtsxq",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
             "allowSubscriptions": "followers"
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-20T07:37:51.529Z",
+        "createdAt": "2026-05-21T08:34:30.956Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
+            "description": "Arrêtons-nous un instant et observons le doux flux de ces mots sous nos yeux, ce va-et-vient silencieux et la voix qui les...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
+                "$link": "bafkreidojtxcnindx3dkmjmvjqlowsxprdmrjcfxug75en2alsjgnfgxym"
               },
               "mimeType": "image/jpeg",
-              "size": 51639
+              "size": 128264
             },
-            "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
-            "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
+            "title": "Écrire à la main et faire des pauses aide à mémoriser - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/ecrire-a-la-main-et-faire-des-pauses-aide-a-memoriser-11616691"
           }
         },
         "facets": [
@@ -48,76 +48,28 @@
               }
             ],
             "index": {
-              "byteEnd": 206,
-              "byteStart": 193
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Médecine"
-              }
-            ],
-            "index": {
-              "byteEnd": 217,
-              "byteStart": 207
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "FWB"
-              }
-            ],
-            "index": {
-              "byteEnd": 222,
-              "byteStart": 218
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Goodnews"
-              }
-            ],
-            "index": {
-              "byteEnd": 232,
-              "byteStart": 223
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 234
+              "byteEnd": 272,
+              "byteStart": 259
             }
           }
         ],
-        "text": "Augmentation du quota de médecins pour 2032 et 2033 : 1.677 candidats pourront être reçus à l'issue du concours de médecine organisé en août prochain en Fédération Wallonie-Bruxelles.\n#Enseignement #Médecine #FWB #Goodnews"
+        "text": "Ecrire active plus de régions cérébrales que de dactylographier, ce qui favorise compréhension et mémorisation.  Les pauses favorisent l'organisation et la consolidation des informations.  Et donc plus durables.\n⚠️ Pas de scrolling pendant la pause\n\n#Enseignement"
       },
       "embed": {
         "external": {
-          "uri": "https://www.lalibre.be/belgique/politique-belge/2026/05/13/bonne-nouvelle-pour-les-etudiants-en-medecine-les-quotas-de-medecins-augmentes-pour-2032-et-2033-JHCUWE55MRG4DGCY636VVA4RJM/",
-          "title": "Bonne nouvelle pour les étudiants en médecine : les quotas de médecins augmentés pour 2032 et 2033",
-          "description": "Le Conseil des ministres a approuvé mercredi les quotas de médecins pour les années 2032 et 2033, a-t-on appris à bonne source. Ceux-ci sont en...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
+          "uri": "https://www.rtbf.be/article/ecrire-a-la-main-et-faire-des-pauses-aide-a-memoriser-11616691",
+          "title": "Écrire à la main et faire des pauses aide à mémoriser - RTBF Actus",
+          "description": "Arrêtons-nous un instant et observons le doux flux de ces mots sous nos yeux, ce va-et-vient silencieux et la voix qui les...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidojtxcnindx3dkmjmvjqlowsxprdmrjcfxug75en2alsjgnfgxym"
         },
         "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
-      "replyCount": 1,
+      "replyCount": 0,
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-05-20T07:37:54.067Z",
+      "indexedAt": "2026-05-21T08:34:33.266Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -125,7 +77,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifu6kwzpebc4qvivlmqrzxkff4fnjgrcrzjw2ydq3xwg3ngywqthi"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidojtxcnindx3dkmjmvjqlowsxprdmrjcfxug75en2alsjgnfgxym"
     }
   ]
 }
