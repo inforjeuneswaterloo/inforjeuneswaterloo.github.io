@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmef245gqk2k",
+      "cid": "bafyreie2olz2bgl27ni7v243bscn3llqhssdi5hdpwio62riwcjr6ilil4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-21T12:07:04.325Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5810041?JobId=5810041&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/V0TSVUK"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Job étudiant été 26 Assurance Qualité Pharmaceutique BAXTER - Braine l’Alleud\nMissions\nRelecture/vérification de documents FR, Nld, ANG, ALL\nProfil\n- Etudes pharmaceutique, médicale...\n- Bonne maîtrise de Microsoft Office\n- Rigueur/concentration/conscience professionnelle...\nbuff.ly/V0TSVUK \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5810041?JobId=5810041&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-21T12:07:04.859Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7feuu7u2x",
       "cid": "bafyreiczp6djllyg2j63tofh6g6gmeh3mbozmjwgkmhbt2d6r2kvuly6sy",
       "author": {
@@ -8303,95 +8383,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-16T09:25:27.356Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh62qlrjco24",
-      "cid": "bafyreibrnzs5372jvdocqgbe2jiekuyofgibq7hbz6cr2f43cvxcyrdaim",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T08:40:49.679Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant--supermarch--brainelechateau-braine-le-chteau-brabant-wallon/386-42267-1?utm_source=jooble&utm_medium=Paid&igbTracker=889636871&utm_campaign=quest_1520&utm_content=Job+%C3%A9tudiant+-+Supermarch%C3%A9+%C3%A0+Braine-le-Chateau+%28386-42267-1%29+%5B889636871%5D%5Bad83baf950a417bd_5654a4d752195%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/GLEsUl5"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 288
-            }
-          }
-        ],
-        "text": "Job étudiant - Supermarché à Braine-le-Chateau \nVous travaillerez en caisse et en réassort.\nIl s'agit d'un job à l'année.\nProfil :\n- Vous êtes libre en semaine et le weekend\n- Vous avez obligatoirement de l'expérience en caisse\n- Vous êtes autonome et dynamique \nbuff.ly/GLEsUl5\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant--supermarch--brainelechateau-braine-le-chteau-brabant-wallon/386-42267-1?utm_source=jooble&utm_medium=Paid&igbTracker=889636871&utm_campaign=quest_1520&utm_content=Job+%C3%A9tudiant+-+Supermarch%C3%A9+%C3%A0+Braine-le-Chateau+%28386-42267-1%29+%5B889636871%5D%5Bad83baf950a417bd_5654a4d752195%5D",
-          "title": "Job étudiant - Supermarché à Braine-le-Chateau | BRAINE-LE-CHÂTEAU, Brabant Wallon",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T08:40:51.552Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
