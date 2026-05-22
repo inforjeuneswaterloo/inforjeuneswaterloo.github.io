@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmgp5bwyqf2w",
+      "cid": "bafyreidi2et3mrdm6vrpew35lp6tyhurpousd2rs7jc3lfdzqz3fwxwpc4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-22T10:13:07.961Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=5eb12f83695eb240&q=Etudiant&l=Brussels&tk=1jp5a9bhggbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3jntKdkz4BB0LbzkdCdPP&xfps=d943ffa5-8799-45d5-9066-066412c6cb04&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp5a9bhggbct800&xkcb=SoDJ67M3jlcqoZa5050JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/E0RISgx"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) H&M été - Uccle\n- Plier, suspendre, présenter et mettre en valeur les vêtements\n- Traiter, stocker et réapprovisionner activement les vêtements\n- Ouvrir, déballer et antivoler les marchandises\n- Assister les clients dans leurs achats et leurs retours en caisse \nbuff.ly/E0RISgx\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=5eb12f83695eb240&q=Etudiant&l=Brussels&tk=1jp5a9bhggbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3jntKdkz4BB0LbzkdCdPP&xfps=d943ffa5-8799-45d5-9066-066412c6cb04&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp5a9bhggbct800&xkcb=SoDJ67M3jlcqoZa5050JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-22T10:13:08.668Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmef245gqk2k",
       "cid": "bafyreie2olz2bgl27ni7v243bscn3llqhssdi5hdpwio62riwcjr6ilil4",
       "author": {
@@ -8303,86 +8383,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-16T09:36:29.564Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh65adq2nc2n",
-      "cid": "bafyreib2lpjjhwv5rku4vt565czgvlud6yxkeqcniqqhiulgcig6rtnu3u",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T09:25:27.090Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu es passionné par le sport et tu cherches un job d'étudiant tout au long de l'année, le week-end ou pendant les vacances scolai...",
-            "title": "Étudiant. E - Decathlon Wavre - Trovit Emploi",
-            "uri": "https://emploi.trovit.be/listing/etudiant-e-decathlon-wavre.MI1m1bMg01u"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3eaUAtF"
-              }
-            ],
-            "index": {
-              "byteEnd": 219,
-              "byteStart": 204
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 226,
-              "byteStart": 220
-            }
-          }
-        ],
-        "text": "Etudiant(e) Decathlon Wavre\nEn tant qu'étudiant(e), tu renforces notre équipe tout au long de l'année.\n- Tu veilles à ce que chaque client soit bien aidé et que le magasin reste toujours impeccable \nbuff.ly/3eaUAtF\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.trovit.be/listing/etudiant-e-decathlon-wavre.MI1m1bMg01u",
-          "title": "Étudiant. E - Decathlon Wavre - Trovit Emploi",
-          "description": "Tu es passionné par le sport et tu cherches un job d'étudiant tout au long de l'année, le week-end ou pendant les vacances scolai..."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T09:25:27.356Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
