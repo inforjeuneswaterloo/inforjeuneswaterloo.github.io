@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmqu3ndvhl2b",
+      "cid": "bafyreiadjfqn4p2ywwmeeld6px5mbkzzpvqvmnhtmpcnsiilb33dtak3j4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-26T11:08:18.898Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/be73d65adf5893d3b9a1469249c7889e19"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/tYTtHTu"
+              }
+            ],
+            "index": {
+              "byteEnd": 223,
+              "byteStart": 208
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 230,
+              "byteStart": 224
+            }
+          }
+        ],
+        "text": "Etudiant(e) Intermarché Rixensart\n- Approvisionner les rayons\n- Accueillir & servir les clients\n- Passer en caisse\n- Aider en réserve\n- Veiller à la propreté\n- Donner un coup de main partout où il faut \nbuff.ly/tYTtHTu\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be73d65adf5893d3b9a1469249c7889e19",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-26T11:08:19.262Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmgpgrle3x2e",
       "cid": "bafyreihzxglaejyjnoto7h6xzmjnlldqz3urtdk2nicuhwehmqozbn2b54",
       "author": {
@@ -8294,86 +8374,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-16T10:11:29.453Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh66zx7oyv22",
-      "cid": "bafyreifdoqbe7pl4xp3phcnzfdycoyjqzmxqcqrrr3lxihuwyb3smyoq5q",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T09:57:40.126Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=98a4a05c1be1ce63&q=Etudiant&l=Brabant-wallon&tk=1jjjr0gpkjv8s801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBU67I3m7I1kWTC8B0LbzkdCdPP&xfps=c6740741-64ab-49cf-a7f1-6ebd1de9b98b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjr0gpkjv8s801&xkcb=SoCq67M3mz-N_chaSb0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/qdtr9fN"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Vendeur comptoir traiteur H/F Waterloo\n- Facilité d'interaction avec les clients\n- Incroyable team player, communicatif et passionné\n- Tu aimes la gastronomie italienne\n- Tu es autonome, flexible et tu n’as pas peur de prendre des initiatives\n- Tu parles FR et l'italien = +\nbuff.ly/qdtr9fN\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=98a4a05c1be1ce63&q=Etudiant&l=Brabant-wallon&tk=1jjjr0gpkjv8s801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBU67I3m7I1kWTC8B0LbzkdCdPP&xfps=c6740741-64ab-49cf-a7f1-6ebd1de9b98b&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjr0gpkjv8s801&xkcb=SoCq67M3mz-N_chaSb0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T09:57:40.650Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
