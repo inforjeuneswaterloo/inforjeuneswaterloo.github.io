@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmrdidxzeu2e",
+      "cid": "bafyreic72psd32e2fnfldtmqexel2oab3xxkqkh7qpmbgpaeu3lycumm5m",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-26T15:43:51.413Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=7ed22eb55b6b84c6&q=%C3%A9tudiant&l=Waterloo&tk=1jpg4rv6k21dp001&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBG67I3jyV6oGz4Wx0LbzkdCdPP&xfps=7e3592db-a2db-4255-a6dd-19b486c787db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpg4rv6k21dp001&xkcb=SoDa67M3jwBgKjBZqr0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/oJI95kN"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Étudiant.e assistant.e dentaire | Brabant-Wallon Assistance dentaire · Dentius Louvain-La-Neuve\n- étudiant en dentisterie, soins de santé ou domaine similaire\n- 1 expérience est un plus, mais pas obligatoire\n- Contact facile\n- Bonne maîtrise de l’outil informatique\nbuff.ly/oJI95kN\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=7ed22eb55b6b84c6&q=%C3%A9tudiant&l=Waterloo&tk=1jpg4rv6k21dp001&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBG67I3jyV6oGz4Wx0LbzkdCdPP&xfps=7e3592db-a2db-4255-a6dd-19b486c787db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpg4rv6k21dp001&xkcb=SoDa67M3jwBgKjBZqr0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-26T15:43:51.961Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmrct3gbfk2m",
+      "cid": "bafyreig7xatewgp3cjhc5em4vwzkjg6g3i5hr4zh4ukfrse5fpsa7uwk3e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-26T15:31:57.799Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=353baddc29e4cb7e&q=Etudiant&l=Brussels&tk=1jpd46va6gbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA167I3jyUm4jT4Ap0LbzkdCdPP&xfps=64124c0c-0623-4151-ac1e-7ec632e1c93f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpd46va6gbct800&xkcb=SoBn67M3jtAULjzbT50LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/geT69Sb"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant à l’année – Service / Cuisine – Makifornia Bruxelles\n- Disponibilité en journée et en soirée\n- Minimum 18 ans\n- Travailler avec précision\n- Bon esprit d'équipe\n- Communiquer oralement avec aisance\n- Appliquer les règles HACCP\n- Être résistant(e) au stress\nbuff.ly/geT69Sb\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=353baddc29e4cb7e&q=Etudiant&l=Brussels&tk=1jpd46va6gbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA167I3jyUm4jT4Ap0LbzkdCdPP&xfps=64124c0c-0623-4151-ac1e-7ec632e1c93f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpd46va6gbct800&xkcb=SoBn67M3jtAULjzbT50LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-26T15:31:58.366Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmqu3ndvhl2b",
       "cid": "bafyreiadjfqn4p2ywwmeeld6px5mbkzzpvqvmnhtmpcnsiilb33dtak3j4",
       "author": {
@@ -8214,166 +8374,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-16T10:48:52.059Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh6ar5ac3e2k",
-      "cid": "bafyreicubrrb3oba4itou7xutrnmsahhrh2qqamsg46psnm753xezovupe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T10:28:31.932Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=b7ae80c508ee9eab&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAN67I3m7MB31T4cJ0LbzkdCdPP&xfps=6fcf4160-3e46-4899-b195-b1b648744de1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoD067M3mz-9iPwlwh0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3tVY1OW"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Etudiant à l'année - Commis de salle au MAKIFORNIA Bruxelles\nDisponibilités en journée et soirée\nMin. 18 ans\nEtudiant en supérieur\nAvoir le sens du service\nAssidu au travail\nVous travaillez avec précision\nVous communiquez oralement avec aisance\nVous appliquez les règles HACCP\nbuff.ly/3tVY1OW\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=b7ae80c508ee9eab&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAN67I3m7MB31T4cJ0LbzkdCdPP&xfps=6fcf4160-3e46-4899-b195-b1b648744de1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoD067M3mz-9iPwlwh0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T10:28:32.356Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh67snocil2k",
-      "cid": "bafyreigdi2ggt2hiubvgld3yo7zgpadkcnodj3wlajvovnu2zbwkptmzl4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T10:11:28.986Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=701b93fb2b9cb538&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAQ67I3m7K6gezNRp0LbzkdCdPP&xfps=593c44fc-248e-4413-9480-82c5b7ab98c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoDW67M3mz-9iPQlwh0DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/2yG31YL"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant à l'année - Cuisine Centrale H/F/X Bruxelles\nProfil:\n- Être majeur\n- Bon communicant, à l’aise en équipe\n- Dynamique, rigoureux et autonome\n- Capacité à suivre des consignes et à maintenir un environnement propre et organisé\n- Être vacciné contre l'hépatite B \nbuff.ly/2yG31YL\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=701b93fb2b9cb538&q=Etudiant&l=Brussels&tk=1jjjrchqphb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAQ67I3m7K6gezNRp0LbzkdCdPP&xfps=593c44fc-248e-4413-9480-82c5b7ab98c3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjjrchqphb6l800&xkcb=SoDW67M3mz-9iPQlwh0DbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T10:11:29.453Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
