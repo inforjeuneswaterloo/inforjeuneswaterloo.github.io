@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmtyos65tp2e",
+      "cid": "bafyreicdthm3rjimv4tutguwkaftto4s2qvbwydq4epxls4jh5jqq4e7cu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T17:08:35.673Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=1e99f0491fbe66fa&q=%C3%A9tudiant&l=Waterloo&tk=1jpkrpjb621dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDz67I3j1EqCyT4iJ0LbzkdCdPP&xfps=7c882ffb-920e-4ab5-a72f-5d307df511dc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpkrpjb621dp000&xkcb=SoCb67M3j0_prsa56p0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Zdev35H"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant serveur polyvalent H/F Haagen Dazs Bruxelles\n- Min. 20 ans\n- Expérience obligatoire\n- Excellente présentation et bon contact client\n- Sérieux(se), ponctuel(le) et polyvalent(e)\n- Savoir travailler sous pression et en équipe\n- Maîtrise de plusieurs langues = atout \nbuff.ly/Zdev35H\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=1e99f0491fbe66fa&q=%C3%A9tudiant&l=Waterloo&tk=1jpkrpjb621dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDz67I3j1EqCyT4iJ0LbzkdCdPP&xfps=7c882ffb-920e-4ab5-a72f-5d307df511dc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpkrpjb621dp000&xkcb=SoCb67M3j0_prsa56p0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T17:08:36.071Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmtxxvy53s2e",
+      "cid": "bafyreiddt4j256rmgsklzzheml3wpbtefqw2sugqebclvcsj7n4uylgntu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T16:55:47.921Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ea3aa84a038f105b&q=etudiant&l=brabant+wallon&tk=1jpkr0tnfj922800&from=ja&advn=2872620200357037&adid=462411489&ad=-6NYlbfkN0DmK0IpfR1Iwohm7h5xPxFwr-u0XE55r2jL74JnIIBBILj3BtFReK4_q00SU-PWVhSCb5zNmOiJe_d8Z0huGns8cfHIlAltA6dNUmhGeoubGgGChmjd8YljNiJqrXtRxZZbZkJLuhVj4RF-QnowdGP2S-5A-qYu21jqw_e5B6lPm81WWMU2qYoBZjNnma5NRyQE3Si_QlOwdQoqRdMtYXwM_QguPHzSABr4-duWEyUSJOXj3n5FeoJTZPMURkdbZ-hv3w2HWcs8H8KNLRXs4LLKCJ6tnBzUuulb_ybPiGVN_f7LizQpIGXftz4cT1aqrwLe9H4TMgWIvmQoysG96rPi3UtexdKj5KJcWGDXRmW1Vivf7QdiW-OMEKr81zShwd7n0ZJYEAI_K-0t57fc2SMKHba0iLNUroASKF0fl7s9cfthVEDqAzmWrJzJQkAMenmU2ZNHf-V4Apo20aCarvogBILQEyB96v1AgtumoCo3HaAW3sBJaGrkBqpkmR_P_7Q9s9D3wqdB-NmvLVLbJB7ekC36oAjeCLb3ZbNmEpnLkjxPWGz0801AsKBgd879stD9PvgWht2RZ7TNV6qHGx61&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8n27KzOZP97Q%3D%3D&xkcb=SoC56_M3j0-MZL7J550dbzkdCdPP&xpse=SoCk6_I3j1DYLaT45J0NbzkdCdPP&xfps=8dc8fda0-acbe-4bcf-aa6b-e9c501868df3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/XNi451O"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant chef de rang Mamy Louise Wavre\n- Minimum 1 an d'expérience\n- Connaissance du français/anglais\n- Ponctuel, flexible et résistant au stress\n- Esprit d’équipe et motivation\n- Bonne présentation et souriant\n- Sens de la discipline, de la rigueur et de la précision \nbuff.ly/XNi451O\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ea3aa84a038f105b&q=etudiant&l=brabant+wallon&tk=1jpkr0tnfj922800&from=ja&advn=2872620200357037&adid=462411489&ad=-6NYlbfkN0DmK0IpfR1Iwohm7h5xPxFwr-u0XE55r2jL74JnIIBBILj3BtFReK4_q00SU-PWVhSCb5zNmOiJe_d8Z0huGns8cfHIlAltA6dNUmhGeoubGgGChmjd8YljNiJqrXtRxZZbZkJLuhVj4RF-QnowdGP2S-5A-qYu21jqw_e5B6lPm81WWMU2qYoBZjNnma5NRyQE3Si_QlOwdQoqRdMtYXwM_QguPHzSABr4-duWEyUSJOXj3n5FeoJTZPMURkdbZ-hv3w2HWcs8H8KNLRXs4LLKCJ6tnBzUuulb_ybPiGVN_f7LizQpIGXftz4cT1aqrwLe9H4TMgWIvmQoysG96rPi3UtexdKj5KJcWGDXRmW1Vivf7QdiW-OMEKr81zShwd7n0ZJYEAI_K-0t57fc2SMKHba0iLNUroASKF0fl7s9cfthVEDqAzmWrJzJQkAMenmU2ZNHf-V4Apo20aCarvogBILQEyB96v1AgtumoCo3HaAW3sBJaGrkBqpkmR_P_7Q9s9D3wqdB-NmvLVLbJB7ekC36oAjeCLb3ZbNmEpnLkjxPWGz0801AsKBgd879stD9PvgWht2RZ7TNV6qHGx61&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8n27KzOZP97Q%3D%3D&xkcb=SoC56_M3j0-MZL7J550dbzkdCdPP&xpse=SoCk6_I3j1DYLaT45J0NbzkdCdPP&xfps=8dc8fda0-acbe-4bcf-aa6b-e9c501868df3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T16:55:48.271Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmrdidxzeu2e",
       "cid": "bafyreic72psd32e2fnfldtmqexel2oab3xxkqkh7qpmbgpaeu3lycumm5m",
       "author": {
@@ -8205,175 +8365,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-18T08:51:51.352Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh6cm3gcgz2n",
-      "cid": "bafyreiasgdslmtrosgsjcsptim7d6p44ehd6vhuwf6yukz4ywhppvc3age",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T11:01:29.730Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=bdac2207d246975f&q=Etudiant&l=Brussels&tk=1jjor7su0hb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA967I3m7BDOiT4cJ0LbzkdCdPP&xfps=38200c5f-d106-431f-b627-aa71a7129db8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjor7su0hb6l800&xkcb=SoAL67M3m4-QdeYl250DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/FY8M0vq"
-              }
-            ],
-            "index": {
-              "byteEnd": 280,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 281
-            }
-          }
-        ],
-        "text": "Game master - jeu en extérieur - étudiant(e) - Bruxelles -\nMissions\n- Préparation du matériel\n- Accueil sur le lieu de départ\n- Présentation des règles ( jeu de piste, sécurité et bonne conduite) à tous les participants\n- Accueil sur le lieu d’arrivée\nbuff.ly/FY8M0vq\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=bdac2207d246975f&q=Etudiant&l=Brussels&tk=1jjor7su0hb6l800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoA967I3m7BDOiT4cJ0LbzkdCdPP&xfps=38200c5f-d106-431f-b627-aa71a7129db8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jjor7su0hb6l800&xkcb=SoAL67M3m4-QdeYl250DbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T11:01:30.155Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mh6bvijakv2q",
-      "cid": "bafyreihktajhcb7m6pi6227qz57bioaudkybub4hxqsffn737vba74dke4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-16T10:48:51.158Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Gestion administrative des dossiers du personnel (contrats, avenants, documents légaux, certificats, attestations).Encodage et mise à jour des données dans les systèmes RH.Suivi des absences, maladies,...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Job étudiant HR - année académique 2026",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5550466?JobId=5550466&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/2gGxz4n"
-              }
-            ],
-            "index": {
-              "byteEnd": 285,
-              "byteStart": 270
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 286
-            }
-          }
-        ],
-        "text": "Job étudiant HR - Bruxelles\nProfil:\n- Étudiant en RH qui est motivé, rigoureux et organisé.\n- Bonnes compétences administratives.\n- Communication claire en Français (toute autre langue est un plus).\n- Intérêt pour l'administration RH et les processus internes. \nbuff.ly/2gGxz4n\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5550466?JobId=5550466&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Job étudiant HR - année académique 2026",
-          "description": "Gestion administrative des dossiers du personnel (contrats, avenants, documents légaux, certificats, attestations).Encodage et mise à jour des données dans les systèmes RH.Suivi des absences, maladies,...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-16T10:48:52.059Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

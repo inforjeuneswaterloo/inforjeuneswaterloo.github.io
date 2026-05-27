@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
-      "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmttbxjwfs2w",
+      "cid": "bafyreihhrzmtjs3u44bigss3qjyjdwq2qrlbqf5mtteumctlfx33fcwmpe",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,219 +22,114 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-27T13:54:14.607Z",
+        "createdAt": "2026-05-27T15:31:52.718Z",
         "embed": {
-          "$type": "app.bsky.embed.images",
-          "images": [
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 1079,
-                "width": 1920
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Antoine a tout plaqué pour partir vivre une aventure en Australie avec un Working Holiday Visa. Pas d’expérience à l’étranger, pas de réseau sur place — juste une envie de voyager et le courage de…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
               },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi"
-                },
-                "mimeType": "image/jpeg",
-                "size": 134819
-              }
+              "mimeType": "image/webp",
+              "size": 188202
             },
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 1080,
-                "width": 1920
-              },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m"
-                },
-                "mimeType": "image/jpeg",
-                "size": 121929
-              }
-            },
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 667,
-                "width": 1000
-              },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii"
-                },
-                "mimeType": "image/jpeg",
-                "size": 70528
-              }
-            },
-            {
-              "alt": "",
-              "aspectRatio": {
-                "height": 1079,
-                "width": 1920
-              },
-              "image": {
-                "$type": "blob",
-                "ref": {
-                  "$link": "bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca"
-                },
-                "mimeType": "image/jpeg",
-                "size": 188398
-              }
-            }
-          ]
+            "title": "Lance-toi !",
+            "uri": "https://inforjeuneswaterloo.be/pvt-australie-temoignage-antoine/"
+          }
         },
         "facets": [
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "santé"
+                "tag": "yotm"
               }
             ],
             "index": {
-              "byteEnd": 74,
-              "byteStart": 67
+              "byteEnd": 164,
+              "byteStart": 159
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
+                "tag": "pvt"
               }
             ],
             "index": {
-              "byteEnd": 80,
-              "byteStart": 75
+              "byteEnd": 169,
+              "byteStart": 165
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ia"
+                "tag": "whv"
               }
             ],
             "index": {
-              "byteEnd": 84,
-              "byteStart": 81
+              "byteEnd": 174,
+              "byteStart": 170
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
+                "tag": "australie"
               }
             ],
             "index": {
-              "byteEnd": 92,
-              "byteStart": 85
+              "byteEnd": 185,
+              "byteStart": 175
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Presse"
+                "tag": "MobilitéInternationale"
               }
             ],
             "index": {
-              "byteEnd": 101,
-              "byteStart": 94
+              "byteEnd": 210,
+              "byteStart": 186
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RevueDePresse"
+                "tag": "youthonthemove"
               }
             ],
             "index": {
-              "byteEnd": 116,
-              "byteStart": 102
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "PaprJm"
-              }
-            ],
-            "index": {
-              "byteEnd": 124,
-              "byteStart": 117
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "thread"
-              }
-            ],
-            "index": {
-              "byteEnd": 132,
-              "byteStart": 125
+              "byteEnd": 226,
+              "byteStart": 211
             }
           }
         ],
-        "text": "Mercredi c'est le jour des cannelloni et de PaprJm !\nLes thèmes : #santé #tech #ia #europe \n#Presse #RevueDePresse #PaprJm #thread"
+        "text": "Il était une fois un Belge en Australie.  Antoine nous raconte ses aventures australiennes et partages ses astuces et pistes pour trouver un job, se loger...\n#yotm #pvt #whv #australie #MobilitéInternationale #youthonthemove"
       },
       "embed": {
-        "images": [
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi",
-            "alt": "",
-            "aspectRatio": {
-              "height": 1079,
-              "width": 1920
-            }
-          },
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m",
-            "alt": "",
-            "aspectRatio": {
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii",
-            "alt": "",
-            "aspectRatio": {
-              "height": 667,
-              "width": 1000
-            }
-          },
-          {
-            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca",
-            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca",
-            "alt": "",
-            "aspectRatio": {
-              "height": 1079,
-              "width": 1920
-            }
-          }
-        ],
-        "$type": "app.bsky.embed.images#view"
+        "external": {
+          "uri": "https://inforjeuneswaterloo.be/pvt-australie-temoignage-antoine/",
+          "title": "Lance-toi !",
+          "description": "Antoine a tout plaqué pour partir vivre une aventure en Australie avec un Working Holiday Visa. Pas d’expérience à l’étranger, pas de réseau sur place — juste une envie de voyager et le courage de…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
+        },
+        "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
-      "replyCount": 1,
+      "replyCount": 0,
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-05-27T13:54:15.765Z",
+      "indexedAt": "2026-05-27T15:31:57.647Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -242,7 +137,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": null
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
     }
   ]
 }
