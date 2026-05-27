@@ -1,6 +1,1048 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntgpe2i2v",
+      "cid": "bafyreidwtckemmuf6zcyb2oc42rcqbwtrtmxec7wfqjgozaswb7ixvanaq",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T13:54:19.612Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "'Malgré une meilleure connaissance des dangers liés aux UV, des affirmations erronées continuent de circuler massivement...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 134819
+            },
+            "title": "Les jeunes désinformés par les réseaux sociaux sur les dangers du soleil : 'Certains évitent la crème solaire par crainte injustifiée' - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/les-jeunes-desinformes-par-les-reseaux-sociaux-sur-les-dangers-du-soleil-certains-evitent-la-creme-solaire-par-crainte-injustifiee-11712983"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "EspritCritique"
+              }
+            ],
+            "index": {
+              "byteEnd": 167,
+              "byteStart": 152
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/5EjaJkh"
+              }
+            ],
+            "index": {
+              "byteEnd": 183,
+              "byteStart": 168
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreigkwjxcm64iejzzl3bkf22bc5j7kytk7wkreligohui6r3ayvtmnu",
+            "commit": {
+              "cid": "bafyreihgr7qozv3ltefhtjkg3hrryrrlmol3qk2omp6r6c2flwc5ah5xoa",
+              "rev": "3mmtntfss4x2w"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntfskcx2w",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+            "commit": {
+              "cid": "bafyreifsxd2gduel3bdejrxmpjt3mb6xocmmumwb6c446wxruecewaklyu",
+              "rev": "3mmtntb7bby2v"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "L'été arrive et avec lui les vacances au soleil.  1 cancer/3 est un cancer de la peau. + 500% en 20 ans.  Ce sont des infos.  Et elles sont vraies.  \n#EspritCritique\nbuff.ly/5EjaJkh"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/les-jeunes-desinformes-par-les-reseaux-sociaux-sur-les-dangers-du-soleil-certains-evitent-la-creme-solaire-par-crainte-injustifiee-11712983",
+          "title": "Les jeunes désinformés par les réseaux sociaux sur les dangers du soleil : 'Certains évitent la crème solaire par crainte injustifiée' - RTBF Actus",
+          "description": "'Malgré une meilleure connaissance des dangers liés aux UV, des affirmations erronées continuent de circuler massivement...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T13:54:20.559Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntfskcx2w",
+      "cid": "bafyreigkwjxcm64iejzzl3bkf22bc5j7kytk7wkreligohui6r3ayvtmnu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T13:54:18.411Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "La proposition entre dans le cadre du paquet législatif appelé 'omnibus numérique', qui doit simplifier les règles en...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m"
+              },
+              "mimeType": "image/jpeg",
+              "size": 121929
+            },
+            "title": "Le Parlement européen et le Conseil s’accordent pour interdire les outils IA de dénudement - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/le-parlement-europeen-et-le-conseil-s-accordent-pour-interdire-les-outils-ia-de-denudement-11720388"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 168,
+              "byteStart": 163
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "AI"
+              }
+            ],
+            "index": {
+              "byteEnd": 172,
+              "byteStart": 169
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 180,
+              "byteStart": 173
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/3Ey76GH"
+              }
+            ],
+            "index": {
+              "byteEnd": 197,
+              "byteStart": 182
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreievpyvjgtfu2pkog5pzpam7wld674chq7jfgsfdvui4s5m7znv2xy",
+            "commit": {
+              "cid": "bafyreiew6aovjrtfx6dqin6aws2b3n6qluwbiy5jr4cnznlhf3mtt7xrli",
+              "rev": "3mmtnteocrd2s"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtnteo2xd2s",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+            "commit": {
+              "cid": "bafyreifsxd2gduel3bdejrxmpjt3mb6xocmmumwb6c446wxruecewaklyu",
+              "rev": "3mmtntb7bby2v"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "L'Europe veut interdire les applications d'AI qui permettent de créer des images à caractère sexuel explicite sans le consentement de la personne concernée.  \n#tech #AI #Europe \nbuff.ly/3Ey76GH"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/le-parlement-europeen-et-le-conseil-s-accordent-pour-interdire-les-outils-ia-de-denudement-11720388",
+          "title": "Le Parlement européen et le Conseil s’accordent pour interdire les outils IA de dénudement - RTBF Actus",
+          "description": "La proposition entre dans le cadre du paquet législatif appelé 'omnibus numérique', qui doit simplifier les règles en...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T13:54:19.787Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtnteo2xd2s",
+      "cid": "bafyreievpyvjgtfu2pkog5pzpam7wld674chq7jfgsfdvui4s5m7znv2xy",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T13:54:16.944Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Une étude récente menée à l'Université de Caen alerte sur un phénomène en pleine expansion : plus de 40 % des étudiants consommateurs d'alcool admettent sauter des repas pour éviter de grossir ou…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii"
+              },
+              "mimeType": "image/jpeg",
+              "size": 70528
+            },
+            "title": "Alcoolorexie : jeûner pour boire, la dangereuse stratégie des jeunes pour concilier ivresse et minceur",
+            "uri": "https://www.martinique.franceantilles.fr/actualite/sante/alcoolorexie-jeuner-pour-boire-la-dangereuse-strategie-des-jeunes-pour-concilier-ivresse-et-minceur-1050616.php"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Santé"
+              }
+            ],
+            "index": {
+              "byteEnd": 256,
+              "byteStart": 249
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "addiction"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 257
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "alcool"
+              }
+            ],
+            "index": {
+              "byteEnd": 275,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/PPXoZCn"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreif2aqzyi3rrbvc42oui2susedha46n233zocp7o2ng7sl6h7vyz6m",
+            "commit": {
+              "cid": "bafyreidocy2b6veiwear4vzlr7yhcacdpfry2hl4noxfuz476kwdcorms4",
+              "rev": "3mmtntdblhh25"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntdbco725",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+            "commit": {
+              "cid": "bafyreifsxd2gduel3bdejrxmpjt3mb6xocmmumwb6c446wxruecewaklyu",
+              "rev": "3mmtntb7bby2v"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "L'alcoolorexie ou drunkorexie consiste à se priver de nourriture pour compenser les calories de l'alcool ou amplifier ses effets.  Dans un cas comme dans l'autre il y a un risque de développer une addiction ou des troubles alimentaires sévères.\n#Santé #addiction #alcool\nbuff.ly/PPXoZCn"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.martinique.franceantilles.fr/actualite/sante/alcoolorexie-jeuner-pour-boire-la-dangereuse-strategie-des-jeunes-pour-concilier-ivresse-et-minceur-1050616.php",
+          "title": "Alcoolorexie : jeûner pour boire, la dangereuse stratégie des jeunes pour concilier ivresse et minceur",
+          "description": "Une étude récente menée à l'Université de Caen alerte sur un phénomène en pleine expansion : plus de 40 % des étudiants consommateurs d'alcool admettent sauter des repas pour éviter de grossir ou…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T13:54:18.563Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntdbco725",
+      "cid": "bafyreif2aqzyi3rrbvc42oui2susedha46n233zocp7o2ng7sl6h7vyz6m",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T13:54:15.906Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Combien d’étudiants utilisent encore l’intelligence artificielle sans en connaître les limites ? À l’Université...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca"
+              },
+              "mimeType": "image/jpeg",
+              "size": 188398
+            },
+            "title": "L’AI Score, premier outil belge qui évalue scientifiquement les intelligences artificielles - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/l-ai-score-premier-outil-belge-qui-evalue-scientifiquement-les-intelligences-artificielles-11726124"
+          }
+        },
+        "facets": [
+          {
+            "$type": "app.bsky.richtext.facet",
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#mention",
+                "did": "did:plc:eazr7yedetbionbbns6lpc5y"
+              }
+            ],
+            "index": {
+              "byteEnd": 102,
+              "byteStart": 83
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://iascore.academy"
+              }
+            ],
+            "index": {
+              "byteEnd": 190,
+              "byteStart": 175
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "AI"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "AIScore"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 275
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wfGpWnS"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+            "commit": {
+              "cid": "bafyreifsxd2gduel3bdejrxmpjt3mb6xocmmumwb6c446wxruecewaklyu",
+              "rev": "3mmtntb7bby2v"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+            "commit": {
+              "cid": "bafyreifsxd2gduel3bdejrxmpjt3mb6xocmmumwb6c446wxruecewaklyu",
+              "rev": "3mmtntb7bby2v"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "La vérité est un concept relatif pour l'IA, elle peut halluciner.  L'AI Score de @unamur.bsky.social évalue les chatbots selon 4 critères\nTester ton chatbot favori ➡️ iascore.academy \nSpoil : Grok excelle en sciences.  Amanote et NotebookLM obtiennent un A\n#tech #AI #AIScore\nbuff.ly/wfGpWnS"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/l-ai-score-premier-outil-belge-qui-evalue-scientifiquement-les-intelligences-artificielles-11726124",
+          "title": "L’AI Score, premier outil belge qui évalue scientifiquement les intelligences artificielles - RTBF Actus",
+          "description": "Combien d’étudiants utilisent encore l’intelligence artificielle sans en connaître les limites ? À l’Université...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T13:54:17.674Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtntb6yiq2v",
+      "cid": "bafyreib3ybrfe3xufaic6p4hvlf6ulkh6uzskjjwj4vj64tt7hfpoaxc3q",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T13:54:14.607Z",
+        "embed": {
+          "$type": "app.bsky.embed.images",
+          "images": [
+            {
+              "alt": "",
+              "aspectRatio": {
+                "height": 1079,
+                "width": 1920
+              },
+              "image": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi"
+                },
+                "mimeType": "image/jpeg",
+                "size": 134819
+              }
+            },
+            {
+              "alt": "",
+              "aspectRatio": {
+                "height": 1080,
+                "width": 1920
+              },
+              "image": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m"
+                },
+                "mimeType": "image/jpeg",
+                "size": 121929
+              }
+            },
+            {
+              "alt": "",
+              "aspectRatio": {
+                "height": 667,
+                "width": 1000
+              },
+              "image": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii"
+                },
+                "mimeType": "image/jpeg",
+                "size": 70528
+              }
+            },
+            {
+              "alt": "",
+              "aspectRatio": {
+                "height": 1079,
+                "width": 1920
+              },
+              "image": {
+                "$type": "blob",
+                "ref": {
+                  "$link": "bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca"
+                },
+                "mimeType": "image/jpeg",
+                "size": 188398
+              }
+            }
+          ]
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "santé"
+              }
+            ],
+            "index": {
+              "byteEnd": 74,
+              "byteStart": 67
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 80,
+              "byteStart": 75
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ia"
+              }
+            ],
+            "index": {
+              "byteEnd": 84,
+              "byteStart": 81
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 92,
+              "byteStart": 85
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Presse"
+              }
+            ],
+            "index": {
+              "byteEnd": 101,
+              "byteStart": 94
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "RevueDePresse"
+              }
+            ],
+            "index": {
+              "byteEnd": 116,
+              "byteStart": 102
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "PaprJm"
+              }
+            ],
+            "index": {
+              "byteEnd": 124,
+              "byteStart": 117
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "thread"
+              }
+            ],
+            "index": {
+              "byteEnd": 132,
+              "byteStart": 125
+            }
+          }
+        ],
+        "text": "Mercredi c'est le jour des cannelloni et de PaprJm !\nLes thèmes : #santé #tech #ia #europe \n#Presse #RevueDePresse #PaprJm #thread"
+      },
+      "embed": {
+        "images": [
+          {
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi",
+            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreievcgwjn3cgmz4h2kzhpck3mu3t72uaewih3mt5gb7mad7ixg2ioi",
+            "alt": "",
+            "aspectRatio": {
+              "height": 1079,
+              "width": 1920
+            }
+          },
+          {
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m",
+            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiesnfbyomde7fefwhuqtr7o4bk2tn2ib3a6fa557bha4e4prnjf2m",
+            "alt": "",
+            "aspectRatio": {
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii",
+            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidezyyjiwjbxx6emmcr5cbkoiicvhtkpbu3jz4y4s3c7mcs3tu6ii",
+            "alt": "",
+            "aspectRatio": {
+              "height": 667,
+              "width": 1000
+            }
+          },
+          {
+            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca",
+            "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiencxvyg4vk3nnnano7ih3wwgyt6n6yv7q2jgsusmudlbpypln5ca",
+            "alt": "",
+            "aspectRatio": {
+              "height": 1079,
+              "width": 1920
+            }
+          }
+        ],
+        "$type": "app.bsky.embed.images#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T13:54:15.765Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjt7itk55",
+      "cid": "bafyreiej5w2tafxxmvv3skqvkgrzsdplfheciikn7dhxzxhqxdyaefjamy",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T12:37:23.038Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 150,
+              "byteStart": 145
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ia"
+              }
+            ],
+            "index": {
+              "byteEnd": 154,
+              "byteStart": 151
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/l-ai-score-premier-outil-belge-qui-evalue-scientifiquement-les-intelligences-artificielles-11726124"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 166
+            }
+          }
+        ],
+        "langs": [
+          "ro",
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreihe5tl7ofb5pnpd2mwukmdeklt5bcr4wumomzqimerirng2wknjzu",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjt4tus55"
+          },
+          "root": {
+            "cid": "bafyreiduu2viqvecj74r7ttjj7pbdk46aivb2aop7wfzwdcc535z2ynhki",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjsukas55"
+          }
+        },
+        "text": "La fiabilité du chatbot est évaluée sur le modèle du Nutriscore.\nSpoiler : Grok est bon en sciences,  Amanote et NotebookLM : A, ChatGpt : B\n#tech #ia \n[rtbf.be](https://www.rtbf.be/article/l-ai-score-premier-outil-belge-qui-evalue-scientifiquement-les-intelligences-artificielles-11726124)",
+        "via": "TOKIMEKI"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T12:37:24.938Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjt4tus55",
+      "cid": "bafyreihe5tl7ofb5pnpd2mwukmdeklt5bcr4wumomzqimerirng2wknjzu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T12:37:22.951Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "santé"
+              }
+            ],
+            "index": {
+              "byteEnd": 102,
+              "byteStart": 95
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/les-jeunes-desinformes-par-les-reseaux-sociaux-sur-les-dangers-du-soleil-certains-evitent-la-creme-solaire-par-crainte-injustifiee-11712983"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 114
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreibjwxdu4vsc7huytzyfxjxkrbjxjghzmnwxtd3ohux4fcnkjbo3i4",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjt26w255"
+          },
+          "root": {
+            "cid": "bafyreiduu2viqvecj74r7ttjj7pbdk46aivb2aop7wfzwdcc535z2ynhki",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjsukas55"
+          }
+        },
+        "text": "1🦀/3 est un 🦀 de la peau.  +500% en 20 ans.  C'est juste une info.  Mais elle est vraie.\n#santé \n[rtbf.be](https://www.rtbf.be/article/les-jeunes-desinformes-par-les-reseaux-sociaux-sur-les-dangers-du-soleil-certains-evitent-la-creme-solaire-par-crainte-injustifiee-11712983)",
+        "via": "TOKIMEKI"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T12:37:24.917Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjt26w255",
+      "cid": "bafyreibjwxdu4vsc7huytzyfxjxkrbjxjghzmnwxtd3ohux4fcnkjbo3i4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-27T12:37:22.864Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 165,
+              "byteStart": 160
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "paperjm"
+              }
+            ],
+            "index": {
+              "byteEnd": 174,
+              "byteStart": 166
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 186
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreiduu2viqvecj74r7ttjj7pbdk46aivb2aop7wfzwdcc535z2ynhki",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjsukas55"
+          },
+          "root": {
+            "cid": "bafyreiduu2viqvecj74r7ttjj7pbdk46aivb2aop7wfzwdcc535z2ynhki",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmtjjsukas55"
+          }
+        },
+        "text": "Notre capacité de fixer notre attention s'effrite. Elle se rapproche de celle du  🐠. Lui: 8s, nous: 9s.  En cause : un cerveau rendu accro à la dopamine. \n#tech #paperjm \n[rtbf.be](https://www.rtbf.be/article/digital-detox-trois-applications-pour-reduire-le-temps-passe-sur-nos-ecrans-11539572)",
+        "via": "TOKIMEKI"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-27T12:37:24.890Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmdz62qwjl2p",
       "cid": "bafyreibw5pifzlni74li2ued5wx6gwvyjkng66f2ykuoqj6lk6tdhbewuy",
       "author": {
@@ -74,7 +1116,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -9485,1032 +10527,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-04-03T07:14:31.803Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3llts6l2nrl2j",
-      "cid": "bafyreid4ygt34n5vrhizihxqlrn63lielx56duf2s4wdeyuxhkt4qbo6vi",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-04-02T16:20:43.905Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm"
-              },
-              "mimeType": "image/jpeg",
-              "size": 304602
-            },
-            "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
-            "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://youth.europa.eu/discovereu_fr"
-              }
-            ],
-            "index": {
-              "byteEnd": 213,
-              "byteStart": 184
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 221,
-              "byteStart": 216
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "yotm"
-              }
-            ],
-            "index": {
-              "byteEnd": 227,
-              "byteStart": 222
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
-              }
-            ],
-            "index": {
-              "byteEnd": 235,
-              "byteStart": 228
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "discoverEu"
-              }
-            ],
-            "index": {
-              "byteEnd": 247,
-              "byteStart": 236
-            }
-          }
-        ],
-        "text": "900 jeunes Belges de 18 ans pourront tenter de recevoir un pass Interrail gratuit pour parcourir plus de 30 pays du continent en train. \nDate limite de candidature: 16/04 -12h.\n➡️ youth.europa.eu/discovereu_fr \n\n#mtts #yotm #europe #discoverEu"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/la-commission-europeenne-offre-900-pass-pour-decouvrir-l-europe-en-train-aux-belges-de-18-ans-11526570",
-          "title": "La Commission européenne offre 900 pass aux Belges de 18 ans pour découvrir l’Europe en train",
-          "description": "Tout comme c’était déjà le cas les années précédentes, voilà de retour les pass pour jeunes proposés par la...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiau5a42kjs46koei5wnwvarz3dle75oofod5ibl6gd2ylgnxjitvm"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-04-02T16:20:46.508Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3llqhprakop2n",
-      "cid": "bafyreie2skamnjvopaygf724vgjw5zhfb5ddgek5xroif22j3geryulovm",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-04-01T08:35:30.854Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L’Europe a profondément revu la directive sur le permis de conduire. Et cela concerne aussi les contrevenants. Désormais, il ne sera plus question de passe- droit : un permis retiré dans un pays le…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifyii5kcnwrryba2bg5uawafv5n5ukdhrcvfynqvok5gm7whhxs2e"
-              },
-              "mimeType": "image/jpeg",
-              "size": 57037
-            },
-            "title": "Fini de tricher : le retrait de permis valable désormais dans toute l'Europe",
-            "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/fini-de-tricher-le-retrait-de-permis-valable-desormais-dans-toute-leurope?utm_source=newsletter&utm_medium=email&utm_campaign=go_daily_fr_v2&emailhash=08ba0c189b6b03b1951350625641d3be8871f00d25fd415624888457e509e2b2"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "permisdeconduire"
-              }
-            ],
-            "index": {
-              "byteEnd": 74,
-              "byteStart": 57
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 241,
-              "byteStart": 236
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "europe"
-              }
-            ],
-            "index": {
-              "byteEnd": 249,
-              "byteStart": 242
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mobilité"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 250
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "justice"
-              }
-            ],
-            "index": {
-              "byteEnd": 269,
-              "byteStart": 261
-            }
-          }
-        ],
-        "text": "Toute décision de retrait, suspension ou restriction du #permisdeconduire par un État membre sera communiquée à l’État qui a émis le permis.  Il devra appliquer la sanction et la communiquer l’interdiction aux autres États \n#mtts #europe #mobilité #justice"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://gocar.be/fr/actu-auto/passer-son-permis-de-conduire/fini-de-tricher-le-retrait-de-permis-valable-desormais-dans-toute-leurope?utm_source=newsletter&utm_medium=email&utm_campaign=go_daily_fr_v2&emailhash=08ba0c189b6b03b1951350625641d3be8871f00d25fd415624888457e509e2b2",
-          "title": "Fini de tricher : le retrait de permis valable désormais dans toute l'Europe",
-          "description": "L’Europe a profondément revu la directive sur le permis de conduire. Et cela concerne aussi les contrevenants. Désormais, il ne sera plus question de passe- droit : un permis retiré dans un pays le…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifyii5kcnwrryba2bg5uawafv5n5ukdhrcvfynqvok5gm7whhxs2e"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-04-01T08:35:33.198Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lk4467jfvi2j",
-      "cid": "bafyreie6qygyjrouvygbxysng4vrt7sx3dyuumc4hnezeuba7qackh45vq",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-11T12:50:23.985Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tous les clients d’Apple ont, une fois dans leur vie, déjà acheté un appareil pommé en gris sidéral. Après douze ans de bons et loyaux services, le coloris semble laisser sa place à l’Argenté.…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifvunuqu6j3cmljq3qkcgnlnk2jhoagafixtmr7nd2mz7aakmmpgu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 28169
-            },
-            "title": "Apple abandonne définitivement une tradition vieille d’une décennie - Belgium iPhone",
-            "uri": "https://belgium-iphone.lesoir.be/actu/apple/apple-abandonne-definitivement-une-tradition-vieille-dune-decennie"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 87,
-              "byteStart": 82
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "appel"
-              }
-            ],
-            "index": {
-              "byteEnd": 94,
-              "byteStart": 88
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "grissideral"
-              }
-            ],
-            "index": {
-              "byteEnd": 107,
-              "byteStart": 95
-            }
-          }
-        ],
-        "text": "Le gris sidéral c'est fini! Hé oui ma bonne m'dame avec temps tout fout le camp\n#mtts #appel #grissideral"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://belgium-iphone.lesoir.be/actu/apple/apple-abandonne-definitivement-une-tradition-vieille-dune-decennie",
-          "title": "Apple abandonne définitivement une tradition vieille d’une décennie - Belgium iPhone",
-          "description": "Tous les clients d’Apple ont, une fois dans leur vie, déjà acheté un appareil pommé en gris sidéral. Après douze ans de bons et loyaux services, le coloris semble laisser sa place à l’Argenté.…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifvunuqu6j3cmljq3qkcgnlnk2jhoagafixtmr7nd2mz7aakmmpgu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-11T12:50:26.648Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lk43pxoyyk2p",
-      "cid": "bafyreieuycqlfgundvqtizvttp7iyl76rzqzjemwg3p57hk2rwahzcei6y",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-11T12:42:26.259Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Découvrez comment l'autorisation de voyage électronique (ETA) pour le Royaume-Uni simplifie vos déplacements au Royaume-Uni. Renseignez-vous sur les conditions d'éligibilité, les frais et la procédure...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifbetqxuwdn6b6mr4y2o2sngvs5264rbj5mjmiynusg27diirtwpe"
-              },
-              "mimeType": "image/png",
-              "size": 3996
-            },
-            "title": "UK ETA",
-            "uri": "https://eta.org.uk/fr/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ETA"
-              }
-            ],
-            "index": {
-              "byteEnd": 18,
-              "byteStart": 14
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RoyaumeUni"
-              }
-            ],
-            "index": {
-              "byteEnd": 90,
-              "byteStart": 79
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://eta.org.uk/fr/"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 247
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 269,
-              "byteStart": 264
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "uk"
-              }
-            ],
-            "index": {
-              "byteEnd": 273,
-              "byteStart": 270
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/royaume-uni-les-voyageurs-peuvent-desormais-demander-leur-autorisation-de-voyage-electronique-eta-11512917"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 274
-            }
-          }
-        ],
-        "text": "Apd 02/04/25  #ETA (Electronic Travel Autorisation) obligatoire pour entrer au #RoyaumeUni. Valable pour plusieurs séjours de max de 6 m/voyage, pendant 2 ans, ou jusqu'à l'expiration du passeport.  \nDélai : 3 jours ouvrables\nPrix: £10\nInfos: eta.org.uk/fr/  \n#mtts #uk\nwww.rtbf.be/article/roya..."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://eta.org.uk/fr/",
-          "title": "UK ETA",
-          "description": "Découvrez comment l'autorisation de voyage électronique (ETA) pour le Royaume-Uni simplifie vos déplacements au Royaume-Uni. Renseignez-vous sur les conditions d'éligibilité, les frais et la procédure...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifbetqxuwdn6b6mr4y2o2sngvs5264rbj5mjmiynusg27diirtwpe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-11T12:42:28.550Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lk42673d672g",
-      "cid": "bafyreic6rurziduhn3anefcka4l3xn3a2wpwt7i5d33cobczyqhsdsob4q",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-11T12:14:36.107Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Il existe 5 directions à l'heure de gérer la mort du système d'exploitation Windows 10, programmée le 14 octobre 2025. Certaines sont gratuites, d'autres limites les coûts, en privilégiant le…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifwjl7adbpsjhptqf6zvtyz2zh5mhgmxopkm3v7za53vqrst3xdei"
-              },
-              "mimeType": "image/jpeg",
-              "size": 52385
-            },
-            "title": "Fin de Windows 10 : les 5 options pour celui qui possède un vieux PC incapable de migrer vers Windows 11",
-            "uri": "https://www.lavenir.net/actu/conso/multimedia/2025/02/27/fin-de-windows-10-les-5-options-pour-celui-qui-possede-un-vieux-pc-incapable-de-migrer-vers-windows-11-WDRWJ5MJJBBVZGSEHAJUKKHFLY/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "W10"
-              }
-            ],
-            "index": {
-              "byteEnd": 16,
-              "byteStart": 12
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "W11"
-              }
-            ],
-            "index": {
-              "byteEnd": 29,
-              "byteStart": 25
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "linux"
-              }
-            ],
-            "index": {
-              "byteEnd": 123,
-              "byteStart": 117
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "chromium"
-              }
-            ],
-            "index": {
-              "byteEnd": 136,
-              "byteStart": 127
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "microsoft"
-              }
-            ],
-            "index": {
-              "byteEnd": 214,
-              "byteStart": 204
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 255
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 261
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "windows"
-              }
-            ],
-            "index": {
-              "byteEnd": 275,
-              "byteStart": 267
-            }
-          }
-        ],
-        "text": "14/10/ 🪦 #W10. ➡️ #W11 impossible? \n1. Ne rien faire: ton pc sera toujours fonctionnel\n2. Changer d'OS ➡️ #linux ou #chromium (gratuits)\n3. Changer la carte-mère\n4. Changer de machine / payer #microsoft pour qu'il te file une rallonge de màj\n#mtts #tech #windows"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.lavenir.net/actu/conso/multimedia/2025/02/27/fin-de-windows-10-les-5-options-pour-celui-qui-possede-un-vieux-pc-incapable-de-migrer-vers-windows-11-WDRWJ5MJJBBVZGSEHAJUKKHFLY/",
-          "title": "Fin de Windows 10 : les 5 options pour celui qui possède un vieux PC incapable de migrer vers Windows 11",
-          "description": "Il existe 5 directions à l'heure de gérer la mort du système d'exploitation Windows 10, programmée le 14 octobre 2025. Certaines sont gratuites, d'autres limites les coûts, en privilégiant le…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifwjl7adbpsjhptqf6zvtyz2zh5mhgmxopkm3v7za53vqrst3xdei"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 1,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-11T12:14:38.555Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ljzj34ppn22k",
-      "cid": "bafyreieamfuenyosrzo3ftysbiubmxoq62jf3yet2fal7k5zzlvdz2shpu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-10T12:03:21.147Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Le gouvernement français a demandé aux acteurs de la recherche de réfléchir aux dispositifs à mettre en place pour...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihftwhoyub3xkljp7xjayganryi25aoku75sdvqfifzwtda6i6hje"
-              },
-              "mimeType": "image/jpeg",
-              "size": 445071
-            },
-            "title": "Les universités françaises invitées à réfléchir à l'accueil de chercheurs américains en raison de la politique de Trump",
-            "uri": "https://www.rtbf.be/article/les-universites-francaises-invitees-a-reflechir-a-l-accueil-de-chercheurs-americains-en-raison-de-la-politique-de-trump-11514943"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "universités"
-              }
-            ],
-            "index": {
-              "byteEnd": 17,
-              "byteStart": 4
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Trump"
-              }
-            ],
-            "index": {
-              "byteEnd": 129,
-              "byteStart": 123
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "fuitedescerveaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 149,
-              "byteStart": 132
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "France"
-              }
-            ],
-            "index": {
-              "byteEnd": 157,
-              "byteStart": 150
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "USA"
-              }
-            ],
-            "index": {
-              "byteEnd": 162,
-              "byteStart": 158
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 168,
-              "byteStart": 163
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/les-universites-francaises-invitees-a-reflechir-a-l-accueil-de-chercheurs-americains-en-raison-de-la-politique-de-trump-11514943"
-              }
-            ],
-            "index": {
-              "byteEnd": 196,
-              "byteStart": 169
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "Les #universités françaises invitées à réfléchir à l'accueil de chercheurs américains en raison de la politique de #Trump  \n#fuitedescerveaux\n#France #USA #mtts\nwww.rtbf.be/article/les-..."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/les-universites-francaises-invitees-a-reflechir-a-l-accueil-de-chercheurs-americains-en-raison-de-la-politique-de-trump-11514943",
-          "title": "Les universités françaises invitées à réfléchir à l'accueil de chercheurs américains en raison de la politique de Trump",
-          "description": "Le gouvernement français a demandé aux acteurs de la recherche de réfléchir aux dispositifs à mettre en place pour...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihftwhoyub3xkljp7xjayganryi25aoku75sdvqfifzwtda6i6hje"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-10T12:03:24.952Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ljzirveyrs2b",
-      "cid": "bafyreiaqto3brsdieqw6bm2n4jcnna4s5iwdladowg4tcdlovoleeqt6we",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-10T11:58:11.466Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "En plein Carnaval de Dunkerque, une tradition aussi insolite que bruyante attire les foules : le Championnat du Monde du...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreialxv7cizaxfhz4tjd3rtkzrdqkdktlgju5mwbfojn44kgj3jm3ce"
-              },
-              "mimeType": "image/jpeg",
-              "size": 387085
-            },
-            "title": "Immersion au Championnat du monde du cri de la mouette",
-            "uri": "https://www.rtbf.be/article/immersion-au-championnat-du-monde-du-cri-de-la-mouette-11513113"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/immersion-au-championnat-du-monde-du-cri-de-la-mouette-11513113"
-              }
-            ],
-            "index": {
-              "byteEnd": 82,
-              "byteStart": 55
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "text": "Immersion au Championnat du monde du cri de la mouette www.rtbf.be/article/imme..."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/immersion-au-championnat-du-monde-du-cri-de-la-mouette-11513113",
-          "title": "Immersion au Championnat du monde du cri de la mouette",
-          "description": "En plein Carnaval de Dunkerque, une tradition aussi insolite que bruyante attire les foules : le Championnat du Monde du...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreialxv7cizaxfhz4tjd3rtkzrdqkdktlgju5mwbfojn44kgj3jm3ce"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-10T11:58:17.048Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ljieddhzuw2f",
-      "cid": "bafyreiekutl7q7jfdwq3rvqunlwtchapkf2rvp4hvstnpzrctxp4avmcsq",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-03-03T16:23:11.395Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-              },
-              "mimeType": "image/jpeg",
-              "size": 115292
-            },
-            "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
-            "uri": "https://buff.ly/d42Lu1L"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "nanogame"
-              }
-            ],
-            "index": {
-              "byteEnd": 60,
-              "byteStart": 51
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "spaceinvader"
-              }
-            ],
-            "index": {
-              "byteEnd": 90,
-              "byteStart": 77
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "nanotechnologie"
-              }
-            ],
-            "index": {
-              "byteEnd": 242,
-              "byteStart": 226
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mtts"
-              }
-            ],
-            "index": {
-              "byteEnd": 280,
-              "byteStart": 275
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "science"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 290
-            }
-          }
-        ],
-        "text": "Des scientifiques 🇯🇵  (Nagoya) ont créé un #nanogame. Il s'agit d'un #spaceinvader où le laser un est un rayon d'électron et les aliens des nanoparticules de polystyrène.\nCe jeu ouvre la voie à des applications en #nanotechnologie et en ingénierie biomédicale\n\n#mtts #science #tech"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/d42Lu1L",
-          "title": "Des scientifiques ont créé le plus petit jeu vidéo de tir au monde",
-          "description": "Au Japon, un groupe de scientifiques a réalisé un 'jeu vidéo' à sa façon. Il s’agit d’un jeu de tir assez atypique...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigx6v64y77f6u72q4xtaq3tr5qn6n4zw44ffxvibltqcanzl37qii"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-03-03T16:23:12.558Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
