@@ -1292,3 +1292,52 @@ footer {
   opacity: 0.4;
   color: var(--text-color);
 }
+// Boutons de contact sur page d'accueil
+.quick-contact-bar {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap; /* Permet le passage à la ligne automatique sur mobile */
+}
+
+.quick-btn {
+    flex: 1;
+    min-width: 240px; /* Évite que les boutons deviennent trop étroits */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Petit effet interactif discret au survol */
+.quick-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.btn-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.btn-text strong {
+    font-size: 0.95rem;
+}
+
+.btn-text small {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: normal;
+}

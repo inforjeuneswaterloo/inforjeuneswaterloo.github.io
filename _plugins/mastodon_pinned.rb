@@ -49,7 +49,7 @@ module Jekyll
         # 4. GÉNÉRATION DU HTML
         <<~HTML
           <div class="pinned-post-container">
-            <div class="pinned-label"><i data-lucide="pin"></i>&nbsp;Epinglé</div>
+            <div class="pinned-label"><i data-lucide="pin"></i></div>
             <div class="pinned-content">
               #{image_html}
               <div class="pinned-text">
