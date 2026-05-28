@@ -1,3 +1,107 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmvgnxc77x2a",
+      "cid": "bafyreieja6vfyredy6raovtnkq7h4lw4uqwl7vchdhyte7mbgsz6knllwu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-28T06:51:17.877Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Préparateur de commande/Orderpicker",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Préparateur de commande - job étudiant à l'année | WATERLOO, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/pr-parateurdecommandejob-tudiantlann-e-waterloo-brabant-wallon/386-42697-1?utm_source=jooble&utm_medium=Paid&igbTracker=916920951&utm_campaign=quest_30&utm_content=Pr%C3%A9parateur+de+commande+-+job+%C3%A9tudiant+%C3%A0+l%27ann%C3%A9e+%28386-42697-1%29+%5B916920951%5D%5Bad83baf950a417bd_a7813f2030e63%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/q59Fg34"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Student préparateur de commande - WATERLOO\nTâches :\n- Préparer les commandes\n- Picking des articles\n- Accueil/aide clientèle\nProfil\n- Expérience souhaitée\n- Sens du détail/rigueur/esprit d'équipe/aisance relationnelle\n- Bonne condition physique\n- Etudiant majeur...\nbuff.ly/q59Fg34  \n#job4u #ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/pr-parateurdecommandejob-tudiantlann-e-waterloo-brabant-wallon/386-42697-1?utm_source=jooble&utm_medium=Paid&igbTracker=916920951&utm_campaign=quest_30&utm_content=Pr%C3%A9parateur+de+commande+-+job+%C3%A9tudiant+%C3%A0+l%27ann%C3%A9e+%28386-42697-1%29+%5B916920951%5D%5Bad83baf950a417bd_a7813f2030e63%5D",
+          "title": "Préparateur de commande - job étudiant à l'année | WATERLOO, Brabant Wallon",
+          "description": "Préparateur de commande/Orderpicker",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-28T06:51:20.569Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-05-28T08:51:17+02:00",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+    }
+  ]
 }
