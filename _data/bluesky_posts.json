@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmwdydsh672q",
+      "cid": "bafyreibla5pzop7yq4mqdsph6nrr4nm527ftx4faa7kztqshyqbhabd3yu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "PaprJm !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-28T15:36:05.332Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 145383
+            },
+            "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 248,
+              "byteStart": 235
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "EnseignementSupérieur"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 249
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Kiné"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 273
+            }
+          }
+        ],
+        "text": "Les études de kinésithérapie passent à 5 ans dès septembre pour les étudiants qui entament les études.  Les étudiants engagés dans la formation pourront poursuivre leur cursus sous sa forme actuelle, même en cas d’échec. \n#Enseignement #EnseignementSupérieur #Kiné"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779",
+          "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
+          "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-28T15:36:08.164Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": true
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmttbxjwfs2w",
       "cid": "bafyreihhrzmtjs3u44bigss3qjyjdwq2qrlbqf5mtteumctlfx33fcwmpe",
       "author": {
@@ -134,7 +236,7 @@
         "bookmarked": false,
         "threadMuted": false,
         "embeddingDisabled": false,
-        "pinned": true
+        "pinned": false
       },
       "labels": []
     },
@@ -10413,144 +10515,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-05-27T05:44:42.747Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lozsraunls26",
-      "cid": "bafyreie4tiehnxxp53atrlwzhiifmjvyu5fwzasveihey5qaujthpppg4i",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-05-13T06:02:44.479Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Cinq mois après avoir lancé une offre à 5€ par mois pour concurrencer l’opérateur roumain Digi, Orange revoit sa position. Les nouveaux clients ne peuvent plus en profiter. En décembre dernier, face…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreietlyxsydh5tah63qkpaq5fxaxdwjgifoissh5w4acwjdqzcisyhe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 76412
-            },
-            "title": "Pourquoi l’opérateur hey! arrête déjà la vente de son abonnement à 5 euros ? - Geeko",
-            "uri": "https://geeko.lesoir.be/2025/05/12/pourquoi-loperateur-hey-arrete-deja-la-vente-de-son-abonnement-a-5-euros/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Orange"
-              }
-            ],
-            "index": {
-              "byteEnd": 32,
-              "byteStart": 25
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Hey"
-              }
-            ],
-            "index": {
-              "byteEnd": 38,
-              "byteStart": 34
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Digi"
-              }
-            ],
-            "index": {
-              "byteEnd": 104,
-              "byteStart": 99
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "consommation"
-              }
-            ],
-            "index": {
-              "byteEnd": 119,
-              "byteStart": 106
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "télécoms"
-              }
-            ],
-            "index": {
-              "byteEnd": 131,
-              "byteStart": 120
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/LkkzoMe"
-              }
-            ],
-            "index": {
-              "byteEnd": 148,
-              "byteStart": 133
-            }
-          }
-        ],
-        "text": "L'opérateur low-cost d' #Orange, #Hey!, arrête l'abonnement à 5 balles lancé pour concurrencer #Digi.\n#consommation #télécoms \nbuff.ly/LkkzoMe"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://geeko.lesoir.be/2025/05/12/pourquoi-loperateur-hey-arrete-deja-la-vente-de-son-abonnement-a-5-euros/",
-          "title": "Pourquoi l’opérateur hey! arrête déjà la vente de son abonnement à 5 euros ? - Geeko",
-          "description": "Cinq mois après avoir lancé une offre à 5€ par mois pour concurrencer l’opérateur roumain Digi, Orange revoit sa position. Les nouveaux clients ne peuvent plus en profiter. En décembre dernier, face…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreietlyxsydh5tah63qkpaq5fxaxdwjgifoissh5w4acwjdqzcisyhe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-05-13T06:02:47.045Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

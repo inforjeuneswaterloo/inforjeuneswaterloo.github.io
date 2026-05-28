@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmttbxjwfs2w",
-      "cid": "bafyreihhrzmtjs3u44bigss3qjyjdwq2qrlbqf5mtteumctlfx33fcwmpe",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmwdydsh672q",
+      "cid": "bafyreibla5pzop7yq4mqdsph6nrr4nm527ftx4faa7kztqshyqbhabd3yu",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,21 +22,21 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-27T15:31:52.718Z",
+        "createdAt": "2026-05-28T15:36:05.332Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "Antoine a tout plaqué pour partir vivre une aventure en Australie avec un Working Holiday Visa. Pas d’expérience à l’étranger, pas de réseau sur place — juste une envie de voyager et le courage de…",
+            "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
+                "$link": "bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
               },
-              "mimeType": "image/webp",
-              "size": 188202
+              "mimeType": "image/jpeg",
+              "size": 145383
             },
-            "title": "Lance-toi !",
-            "uri": "https://inforjeuneswaterloo.be/pvt-australie-temoignage-antoine/"
+            "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779"
           }
         },
         "facets": [
@@ -44,83 +44,47 @@
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "yotm"
+                "tag": "Enseignement"
               }
             ],
             "index": {
-              "byteEnd": 164,
-              "byteStart": 159
+              "byteEnd": 248,
+              "byteStart": 235
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "pvt"
+                "tag": "EnseignementSupérieur"
               }
             ],
             "index": {
-              "byteEnd": 169,
-              "byteStart": 165
+              "byteEnd": 272,
+              "byteStart": 249
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "whv"
+                "tag": "Kiné"
               }
             ],
             "index": {
-              "byteEnd": 174,
-              "byteStart": 170
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "australie"
-              }
-            ],
-            "index": {
-              "byteEnd": 185,
-              "byteStart": 175
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "MobilitéInternationale"
-              }
-            ],
-            "index": {
-              "byteEnd": 210,
-              "byteStart": 186
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "youthonthemove"
-              }
-            ],
-            "index": {
-              "byteEnd": 226,
-              "byteStart": 211
+              "byteEnd": 279,
+              "byteStart": 273
             }
           }
         ],
-        "text": "Il était une fois un Belge en Australie.  Antoine nous raconte ses aventures australiennes et partages ses astuces et pistes pour trouver un job, se loger...\n#yotm #pvt #whv #australie #MobilitéInternationale #youthonthemove"
+        "text": "Les études de kinésithérapie passent à 5 ans dès septembre pour les étudiants qui entament les études.  Les étudiants engagés dans la formation pourront poursuivre leur cursus sous sa forme actuelle, même en cas d’échec. \n#Enseignement #EnseignementSupérieur #Kiné"
       },
       "embed": {
         "external": {
-          "uri": "https://inforjeuneswaterloo.be/pvt-australie-temoignage-antoine/",
-          "title": "Lance-toi !",
-          "description": "Antoine a tout plaqué pour partir vivre une aventure en Australie avec un Working Holiday Visa. Pas d’expérience à l’étranger, pas de réseau sur place — juste une envie de voyager et le courage de…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
+          "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779",
+          "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
+          "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
         },
         "$type": "app.bsky.embed.external#view"
       },
@@ -129,7 +93,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-05-27T15:31:57.647Z",
+      "indexedAt": "2026-05-28T15:36:08.164Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -137,7 +101,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
     }
   ]
 }
