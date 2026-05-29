@@ -1,6 +1,199 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmynpbpq4q2o",
+      "cid": "bafyreih54hyunrygvwc2ocz2zx4pn3nqty7kump4c3433spvbe6b24yabu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-29T13:35:19.519Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=87f2d16b27a1d5a8&q=Etudiants&l=Brabant-wallon&tk=1jpptal1bh7fm800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoD-67I3j51z3zAesD0LbzkdCdPP&xfps=e0fe24f6-bace-4ffb-8197-6f36729a003d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpptal1bh7fm800&xkcb=SoBb67M3j5yjHHUFYx0WbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/NLsxQVS"
+              }
+            ],
+            "index": {
+              "byteEnd": 193,
+              "byteStart": 178
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 200,
+              "byteStart": 194
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 208,
+              "byteStart": 201
+            }
+          }
+        ],
+        "text": "Etudiant magasin traiteur à Waterloo\nProfil\n- Expérience souhaitée\n- Bonne présentation\n- Bilingue est un plus\n- Samedi de 9h à 19h\n- Travail à exécuter toute l'année ! \nbuff.ly/NLsxQVS\n#job4u #ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=87f2d16b27a1d5a8&q=Etudiants&l=Brabant-wallon&tk=1jpptal1bh7fm800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoD-67I3j51z3zAesD0LbzkdCdPP&xfps=e0fe24f6-bace-4ffb-8197-6f36729a003d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpptal1bh7fm800&xkcb=SoBb67M3j5yjHHUFYx0WbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-29T13:35:19.977Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmyngsd7sk2z",
+      "cid": "bafyreih5eupwz6x5jdtw32veg2tmzm4za2pbnjxr7rzpwdegxbewsqgbkm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-29T13:30:33.277Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Cuisine",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job étudiant en commis de cuisine | Waterloo | Juin | WATERLOO, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant-en-commis-de-cuisine--waterloo--juin-waterloo-brabant-wallon/386-42690-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=917336348&utm_campaign=quest_10&utm_content=Job+%C3%A9tudiant+en+commis+de+cuisine+%7C+Waterloo+%7C+Juin+%28386-42690-1%29+%5B917336348%5D%5B77b8c4dee0af9e1e_1a94dafda2f25%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Lv2R6fZ"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant commis de cuisine Waterloo\n- Diplôme en hôtellerie ou belle expérience en Commis de Cuisine\n- Bonne maîtrise des bases culinaires (découpe, préparations)\n- Dynamique, organisé, résistant au stress\n- Savoir travailler en équipe\n- Avoir des heures étudiantes\nbuff.ly/Lv2R6fZ\n#job4u \n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant-en-commis-de-cuisine--waterloo--juin-waterloo-brabant-wallon/386-42690-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=917336348&utm_campaign=quest_10&utm_content=Job+%C3%A9tudiant+en+commis+de+cuisine+%7C+Waterloo+%7C+Juin+%28386-42690-1%29+%5B917336348%5D%5B77b8c4dee0af9e1e_1a94dafda2f25%5D",
+          "title": "Job étudiant en commis de cuisine | Waterloo | Juin | WATERLOO, Brabant Wallon",
+          "description": "Cuisine",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-29T13:30:35.371Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmykb4pyfd2a",
       "cid": "bafyreihfb36wrbfgq7ewtbitc5njpjymttzt3h7ov7vcqvwexxmaf37z2u",
       "author": {
@@ -8244,166 +8437,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-26T14:59:53.156Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhvgpnpl5m2h",
-      "cid": "bafyreic2hrult2ewsqforakqydn45qkebvwqjmxsjipt6mkr4zdilzbgoe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-25T15:46:18.548Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=83002f30205b36f6&q=Etudiant&l=Brussels&tk=1jkatqlr5g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCs67I3lS8dZBzN0p0LbzkdCdPP&xfps=36d8a851-0a7f-470e-a33e-578d51dc17a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkatqlr5g9vg800&xkcb=SoB467M3lKzlEk2iiJ0FbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/imR5JK9"
-              }
-            ],
-            "index": {
-              "byteEnd": 200,
-              "byteStart": 185
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 208,
-              "byteStart": 202
-            }
-          }
-        ],
-        "text": "Etudiant commis de cuisine à Bruxelles\nAu quotidien:\n- faire de la mise en place\n- couper, laver des légumes\n- garnir les sandwiches\n- préparer des salades\n- préparer des gâteaux\n\nbuff.ly/imR5JK9 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=83002f30205b36f6&q=Etudiant&l=Brussels&tk=1jkatqlr5g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoCs67I3lS8dZBzN0p0LbzkdCdPP&xfps=36d8a851-0a7f-470e-a33e-578d51dc17a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jkatqlr5g9vg800&xkcb=SoB467M3lKzlEk2iiJ0FbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 1,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-25T15:46:18.953Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhiuxj3rex26",
-      "cid": "bafyreiecutz6ojgsnmhc7ne26qgddjlyb74fy5kezkonjh3uhqco3pclpy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-20T15:56:37.915Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "Etudiant(e) Vendeur/Vendeuse en Délicatessen - Genval,  - Jobs Manpower Belgium - Interim, Job, Recruitment, Selection",
-            "uri": "https://www.manpower.be/job/etudiant-e-vendeur-slash-vendeuse-en-delicatessen-genval-272796?utm_source=optioncarriere&utm_medium=cpc&utm_campaign=optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kxtUU8p"
-              }
-            ],
-            "index": {
-              "byteEnd": 275,
-              "byteStart": 260
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 276
-            }
-          }
-        ],
-        "text": "Etudiant vendeur H/F à Genval\nTâches:\n- Accueillir et conseiller les clients\n- Aider à choisir parmi les fromages, charcuteries et plats maison, tout en gardant le comptoir propre et appétissant\n- Couper, emballer et préparer de petites recettes rapides \nbuff.ly/kxtUU8p\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.manpower.be/job/etudiant-e-vendeur-slash-vendeuse-en-delicatessen-genval-272796?utm_source=optioncarriere&utm_medium=cpc&utm_campaign=optioncarriere",
-          "title": "Etudiant(e) Vendeur/Vendeuse en Délicatessen - Genval,  - Jobs Manpower Belgium - Interim, Job, Recruitment, Selection",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-20T15:56:38.254Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
