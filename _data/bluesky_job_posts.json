@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmykb4pyfd2a",
+      "cid": "bafyreihfb36wrbfgq7ewtbitc5njpjymttzt3h7ov7vcqvwexxmaf37z2u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-05-29T12:33:41.470Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-wavre-brabant-wallon/142-34852-4&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/aIm1uog"
+              }
+            ],
+            "index": {
+              "byteEnd": 211,
+              "byteStart": 196
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 218,
+              "byteStart": 212
+            }
+          }
+        ],
+        "text": "Etudiant vendeur H/F Wavre\nVos tâches :\n- Gestion d'un stand de jeux (type pêches aux canards, tirs à l'arc, ....)\n- Expliquer les règles et Motiver les clients à jouer\n- booster les ventes \nbuff.ly/aIm1uog\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-wavre-brabant-wallon/142-34852-4&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-05-29T12:33:43.580Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmvhsrur322b",
       "cid": "bafyreidxgn3v2v5xeobuhvroamikxrndbrt6edpo3iyetdalai7rojmn5a",
       "author": {
@@ -8315,95 +8404,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-20T15:56:38.254Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mhiukbfr3i2z",
-      "cid": "bafyreiaakh4zhgiqgpbcj72k7trncsfzfd2ej2qd5m33pilluahucyiktm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-20T15:49:13.009Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Employé étudiant",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5573125?JobId=5573125&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/uOSN4CM"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 288
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 310,
-              "byteStart": 304
-            }
-          }
-        ],
-        "text": "Employé étudiant à Tubize\nProfil\n- En études supérieures (Secrétariat de direction, Communication, Marketing ou équivalent)\n- Min. 300h dans ton contingent student@work\n- Très bon bilingue français / néerlandais (critère indispensable)\n- Dispo 8h/semaine du lundi au vendredi \nbuff.ly/uOSN4CM\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5573125?JobId=5573125&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Employé étudiant",
-          "description": "Job étudiant ZI SAINTES – 8h/semaine | Bilingue NL/FRTu recherches un job étudiant flexible dans la Zone Industrielle de Saintes ?Tes missions:- Archivage de documents papier et digitaux- Travail...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-20T15:49:14.156Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
