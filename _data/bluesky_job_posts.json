@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mncrh7mpg32y",
+      "cid": "bafyreifg4prd3cy2k2xcxaljwfaam47okq2dp2rc47wyi6inlmk65rx3my",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-02T14:09:01.236Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=f07c329ca5ead054&q=%C3%A9tudiant&l=Waterloo&tk=1jq1sd1tb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBb67I3iEcuxnz71J0LbzkdCdPP&xfps=dfea548d-6db3-403d-8a5c-c002e97cf34e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1sd1tb21dp000&xkcb=SoCY67M3iBw6at1gph0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Sir0W81"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Job étudiant service Le Pré Aux Clercs - Bruxelles\nProfil :\n- Expérience service en salle (connaissance des vins et bien s'exprimer à l'oral pour mettre en valeur nos recettes est un +)\n- Polyvalent\n- Dispo 3 jours/sem minimum\nNous ferons qqes jours d'essais rémunérés\nbuff.ly/Sir0W81 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=f07c329ca5ead054&q=%C3%A9tudiant&l=Waterloo&tk=1jq1sd1tb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBb67I3iEcuxnz71J0LbzkdCdPP&xfps=dfea548d-6db3-403d-8a5c-c002e97cf34e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1sd1tb21dp000&xkcb=SoCY67M3iBw6at1gph0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-02T14:09:02.064Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnahosadap25",
       "cid": "bafyreihuznvy7ehxqkpcqrmu47qbeexoi45xy5j7dep5ltwi3cexjajan4",
       "author": {
@@ -8354,86 +8434,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-03-30T12:16:48.456Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mibfj5cyet25",
-      "cid": "bafyreifwlh5pfhqvv2oxyalkmlk4hqvdlucxbl5uw25nwy67ayikvjxxdm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-03-30T09:56:43.145Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=c840204decc75761&q=Etudiant&l=Brussels&tk=1jknob2u6g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBT67I3leyqlZzNyh0LbzkdCdPP&xfps=33e519ba-230a-4ebc-9348-e1007615534e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jknob2u6g9vg800&xkcb=SoDf67M3lX4jtn07S50HbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/d4DMPxN"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 273
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 289
-            }
-          }
-        ],
-        "text": "Animateur étudiant Laser Game Uccle\nMission:\n- Assurer le suivi des clients au cours de leur partie de jeu\n- Vente au bar\n- Veiller au bon fonctionnement et à la bonne utilisation du matériel et des infrastructures\n- Ouverture, fermeture, nettoyage et entretien du site\nbuff.ly/d4DMPxN\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=c840204decc75761&q=Etudiant&l=Brussels&tk=1jknob2u6g9vg800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoBT67I3leyqlZzNyh0LbzkdCdPP&xfps=33e519ba-230a-4ebc-9348-e1007615534e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jknob2u6g9vg800&xkcb=SoDf67M3lX4jtn07S50HbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-03-30T09:56:43.454Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
