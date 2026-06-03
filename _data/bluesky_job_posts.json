@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnf6pjoryq2k",
+      "cid": "bafyreibiueonuszlr43rwwqg7lneb75kqub2w3pbwwjxuz5jz5koru746i",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-03T13:11:36.857Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Etudiant caisse semaine + weekend | NIVELLES, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-caisse-semaine--weekend-nivelles-brabant-wallon/166-32522-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918964776&utm_campaign=quest_1520&utm_content=Etudiant+caisse+semaine+%2B+weekend+%28166-32522-1%29+%5B918964776%5D%5B77b8c4dee0af9e1e_1903988bfc417%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dFCVjnT"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 255
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 271
+            }
+          }
+        ],
+        "text": "Etudiant caisse semaine + weekend Nivelles\n- Accueil et service des clients avec professionnalisme et convivialité\n- Encaissement (gestion des paiements en espèces et électroniques)\n- Tenue et propreté de la caisse\n- Aide en magasin selon les besoins\nbuff.ly/dFCVjnT\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-caisse-semaine--weekend-nivelles-brabant-wallon/166-32522-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918964776&utm_campaign=quest_1520&utm_content=Etudiant+caisse+semaine+%2B+weekend+%28166-32522-1%29+%5B918964776%5D%5B77b8c4dee0af9e1e_1903988bfc417%5D",
+          "title": "Etudiant caisse semaine + weekend | NIVELLES, Brabant Wallon",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-03T13:11:38.768Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnetx6plh52y",
       "cid": "bafyreiegcnhcoefr4xoiqtaib2rfanwdoawgn42k2le2o5lhgrb4xgupyq",
       "author": {
@@ -8336,95 +8425,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-03T14:25:24.859Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mil6mq56mp2z",
-      "cid": "bafyreiavvg7vepue4376kt4ahifur6g5rsybgsz7l2n7dint6fgeysvy3y",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-03T07:20:03.829Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Dans le cadre de cette fonction d'Etudiant en Comptabilité (H/F/X) vos responsabilités sont les suivantes :vous encodez les factures sur un ERP ;vous effectuez l'analyse des écarts entre les bons de...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant en Comptabilité",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5484762?JobId=5484762&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/b9MODHk"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 282
-            }
-          }
-        ],
-        "text": "Etudiant(e) en comptabilité à Nivelles\nProfil\n- vous êtes en fin de 3ème bachelier ou en master (indispensable)\n- vous avez une expérience de stage concluante ou un job étudiant (indispensable)\n- le statut étudiant est indispensable\n- Bonne maîtrise d'Excel\nbuff.ly/b9MODHk\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5484762?JobId=5484762&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "Etudiant en Comptabilité",
-          "description": "Dans le cadre de cette fonction d'Etudiant en Comptabilité (H/F/X) vos responsabilités sont les suivantes :vous encodez les factures sur un ERP ;vous effectuez l'analyse des écarts entre les bons de...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-03T07:20:05.079Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
