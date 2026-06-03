@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnetx6plh52y",
+      "cid": "bafyreiegcnhcoefr4xoiqtaib2rfanwdoawgn42k2le2o5lhgrb4xgupyq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-03T09:59:02.145Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "ETUDIANT - WEEKEND - BOUCHERIE/CHARCUTERIE | GENAPPE, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant--weekend--boucheriecharcuterie-genappe-brabant-wallon/166-32492-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918880026&utm_campaign=quest_1520&utm_content=ETUDIANT+-+WEEKEND+-+BOUCHERIE%2FCHARCUTERIE+%28166-32492-1%29+%5B918880026%5D%5B77b8c4dee0af9e1e_80887640b0f60%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/BKUit5X"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Etudiant(e) boucherie/charcuterie Genappe\n- Accueillir et conseiller les clients au comptoir\n-Servir les produits selon les demandes\n-Peser/emballer/étiqueter les produits\n-Mise en place et réassort du comptoir\n-Veiller à la propreté du poste de travail et du matériel\nbuff.ly/BKUit5X\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant--weekend--boucheriecharcuterie-genappe-brabant-wallon/166-32492-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918880026&utm_campaign=quest_1520&utm_content=ETUDIANT+-+WEEKEND+-+BOUCHERIE%2FCHARCUTERIE+%28166-32492-1%29+%5B918880026%5D%5B77b8c4dee0af9e1e_80887640b0f60%5D",
+          "title": "ETUDIANT - WEEKEND - BOUCHERIE/CHARCUTERIE | GENAPPE, Brabant Wallon",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-03T09:59:04.861Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mncw3akpiq2b",
       "cid": "bafyreibqok2y2yqzedfsisxdjtssinq5pv2rhsiek2wqtuafbgt5rfsvju",
       "author": {
@@ -8336,86 +8425,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-03T07:20:05.079Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miglvrxtfu2f",
-      "cid": "bafyreia3prpklbu6gx2z2r6zzenopfblqp2csuifnoskqiinlrztkces2q",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-01T11:34:28.594Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/beb7f9e292ccee41007c7fe062920c4ab2"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/yuYwGZ1"
-              }
-            ],
-            "index": {
-              "byteEnd": 223,
-              "byteStart": 208
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 230,
-              "byteStart": 224
-            }
-          }
-        ],
-        "text": "Job étudiant à l'année - Grande distribution - Genappe \nVos tâches :\n- Accueil et conseil client.\n- Mise en place de la caisse.\n- Réassort dans les différents rayons.\n- Ouverture/fermeture du magasin. \nbuff.ly/yuYwGZ1\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/beb7f9e292ccee41007c7fe062920c4ab2",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-01T11:34:28.963Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
