@@ -1,6 +1,230 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnkarayo232y",
+      "cid": "bafyreifniau3pixp7vnz7ojjufn3uenhgrmkrk2onayli7fsiynfxd3dda",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-05T13:31:42.473Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://www.optioncarriere.be/jobad/be2865c63761e4986da70b862efa1178cf"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dbWP0Xu"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Etudiant ingénieur avec connaissance du logiciel d'ingénierie électrique ePLAN Bruxelles\n- Bonne maîtrise d'Excel et Word\n- Aptitude à lire des plans\n- Capacité d'analyse de documents techniques\n- Périodes disponibles\n20/07/2026 – 24/07/2026\n27/07/2026 – 31/07/2026 \nbuff.ly/dbWP0Xu\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.optioncarriere.be/jobad/be2865c63761e4986da70b862efa1178cf",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-05T13:31:42.771Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnkait7jko2f",
+      "cid": "bafyreibihuy4kzxhbc6gzcgv4d7vxk4ri66y35xpqnlusqhr6wp4hma54y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-05T13:26:59.589Z",
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/MDlsE0O"
+              }
+            ],
+            "index": {
+              "byteEnd": 227,
+              "byteStart": 212
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 234,
+              "byteStart": 228
+            }
+          }
+        ],
+        "text": "Etudiant(e) en soins infirmiers à Bruxelles\nMissions:\n- Aider à la gestion du matériel\n- Participer aux activités d’hygiène, de logistique et d’administration liées à la supervision de l’infirmier. \nbuff.ly/MDlsE0O\n#job4u"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-05T13:27:00.469Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnka7mgqa22j",
+      "cid": "bafyreifc2mxfeeithjl5ka3gdpc4wdwqxg7gi3piw7wcetxhrt5tnhceky",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-05T13:21:50.496Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8fb5ed895fd1f61e&q=Etudiant&l=Brabant-wallon&tk=1jqbqse16g2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoCr67I3iL1_6TzCSp0LbzkdCdPP&xfps=34b5fe42-2460-4f03-b9fe-face3ab6f68e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqbqse16g2ii800&xkcb=SoA067M3iL987fRZxx0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/KE4fyJY"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 261
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 277
+            }
+          }
+        ],
+        "text": "Jobiste LIDL Jodoigne\nProfil\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/KE4fyJY\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8fb5ed895fd1f61e&q=Etudiant&l=Brabant-wallon&tk=1jqbqse16g2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoCr67I3iL1_6TzCSp0LbzkdCdPP&xfps=34b5fe42-2460-4f03-b9fe-face3ab6f68e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqbqse16g2ii800&xkcb=SoA067M3iL987fRZxx0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-05T13:21:51.387Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnf6pjoryq2k",
       "cid": "bafyreibiueonuszlr43rwwqg7lneb75kqub2w3pbwwjxuz5jz5koru746i",
       "author": {
@@ -8176,255 +8400,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-07T11:36:38.163Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivnfrhruk26",
-      "cid": "bafyreienk72a33byd4oytphb43mkoltfaovbuxyy7kyrps57ipyn6esmiu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-07T11:11:13.804Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Contenu de l'emploi:  Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
-              },
-              "mimeType": "image/png",
-              "size": 68733
-            },
-            "title": "Emploi | Etudiant/Flexi boulangerie | Start People",
-            "uri": "https://www.startpeople.be/fr/job/etudiantflexi_boulangerie-1994033?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Ax0DfOT"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 273
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 289
-            }
-          }
-        ],
-        "text": "Etudiant(e) boulangerie Waterloo\n- Conseiller la clientèle sur les produits\n- Prendre les commandes et effectuer le service au comptoir\n- Veiller à la bonne présentation des produits et à la propreté\n- Contribuer à la satisfaction et à la fidélisation des clients \nbuff.ly/Ax0DfOT\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.startpeople.be/fr/job/etudiantflexi_boulangerie-1994033?utm_source=talent&utm_medium=cpc&utm_campaign=talent-202407-fr",
-          "title": "Emploi | Etudiant/Flexi boulangerie | Start People",
-          "description": "Contenu de l'emploi:  Tâches : Accueillir les clients avec le sourire et assurer un service de qualité Conseiller la clientèle sur les produits de boulangerie et pâtisserie Prendre les commandes et…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibmkfjl4qbtfhbhk6chehnwd7njxjzyalrgh5wm4v2pqtlyidnh5m"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-07T11:11:15.154Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivmlt3r5i2r",
-      "cid": "bafyreighpuyby2yilunpylj3l4kmig2xuiuh5iyafxkhg5gse2p5uaoery",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-07T10:56:44.044Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=9e1550b5212d6429&q=%C3%A9tudiant&l=Waterloo&tk=1jla0mvb6g9vt800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCY67I3lz6d_7AfLz0LbzkdCdPP&xfps=7830bfcb-0f27-4426-8962-81336c5a16fe&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jla0mvb6g9vt800&xkcb=SoA867M3lqJUJQ0WtB0MbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3QJxg9d"
-              }
-            ],
-            "index": {
-              "byteEnd": 257,
-              "byteStart": 242
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 258
-            }
-          }
-        ],
-        "text": "Job étudiant COLLABORATEUR HORECA Bruxelles\nProfil\n- Expérience préalable dans l'horeca exigée\n- Plusieurs horaires possibles (de 15h à 25h/semaine)\n- Pas de travail le weekend ni de service coupé\n- Rémunération : 15,20€ par heure \nbuff.ly/3QJxg9d\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=9e1550b5212d6429&q=%C3%A9tudiant&l=Waterloo&tk=1jla0mvb6g9vt800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCY67I3lz6d_7AfLz0LbzkdCdPP&xfps=7830bfcb-0f27-4426-8962-81336c5a16fe&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jla0mvb6g9vt800&xkcb=SoA867M3lqJUJQ0WtB0MbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-07T10:56:44.553Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3milwfbkypj26",
-      "cid": "bafyreiabxoiif7tsi63gtz7xsdybbdqscdv6yp4zhnmfwujiurzk5ccvm4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-03T14:25:24.373Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=f93e7a4e76ba0b11&q=Etudiant&l=Brussels&tk=1jl9jrraqgbdu800&from=ja&advn=4484156384967478&adid=454240013&ad=-6NYlbfkN0DTiCvhLQf91guOzYB6WwhpKvf6Kp7UFJhWIrlOAcnn8wO6Y4mnjCZ7SDMmsBdRuxYSCqgd7sUjLm-M7C0b7bLT3Ruox08wp37QNjY4N8wGciDKGAxI5Q9phi05Q6RKiKfwZgIvl6ZGZgvEzCsYSwbkc6JD_iUF9_aEIkI-VXmC5uMxIoYtth_gxFpmKP3_Eo2wSSPO3KaHcxHU3RN2LYWzIbByREpvxxUS8i4FIbmKcM_zaw23wk7cFpraOIPCiun3jxCoPSnOVYYEKjGeDqnkrJ_H0_4oX8natW0iBrCP-Q7FVE60xralWE6A2HQkUubPAe4jtRuVGD89UQ6Tx5DZJACaDWV4x9cm1tR9cGoZj9VVuVhZjBiuQWEe89_Voni0kcPyEvCc1maq_a1jx7JP6aMH1C2B-GUuS1mwhZZpD-gcXwp7vh2xk4STndT5Cn5VAqhotr_eWOlePlt3STtAHB2_W74H0EKkw_4AqcHyTGbmmAhVz7DriD-P2HbbJkkdxQxr0E2pzYXPdD4SGuOzoDpt-jYqUDbqvM0077WkbHFvUWRKo0CaM7XhD83veh06NbB6syMGrQ%3D%3D&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLiqG0hIu4H6g%3D%3D&xkcb=SoCi6_M3lpvgpfzfyx0IbzkdCdPP&xpse=SoBw6_I3lp_B6TT7mB0NbzkdCdPP&xfps=30841a92-eddd-4e74-b401-e7343e51697d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Q0Qz8pX"
-              }
-            ],
-            "index": {
-              "byteEnd": 263,
-              "byteStart": 248
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 270,
-              "byteStart": 264
-            }
-          }
-        ],
-        "text": "Job étudiant vente Bruxelles\nProfil\n- Intérêt pour la vente, le commerce ou le marketing\n- À l’aise avec le contact client\n- Motivé(e), sociable et persévérant(e)\n- Très bonne maîtrise du français\n- Disponible 2 à 5 jours par semaine \nbuff.ly/Q0Qz8pX\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=f93e7a4e76ba0b11&q=Etudiant&l=Brussels&tk=1jl9jrraqgbdu800&from=ja&advn=4484156384967478&adid=454240013&ad=-6NYlbfkN0DTiCvhLQf91guOzYB6WwhpKvf6Kp7UFJhWIrlOAcnn8wO6Y4mnjCZ7SDMmsBdRuxYSCqgd7sUjLm-M7C0b7bLT3Ruox08wp37QNjY4N8wGciDKGAxI5Q9phi05Q6RKiKfwZgIvl6ZGZgvEzCsYSwbkc6JD_iUF9_aEIkI-VXmC5uMxIoYtth_gxFpmKP3_Eo2wSSPO3KaHcxHU3RN2LYWzIbByREpvxxUS8i4FIbmKcM_zaw23wk7cFpraOIPCiun3jxCoPSnOVYYEKjGeDqnkrJ_H0_4oX8natW0iBrCP-Q7FVE60xralWE6A2HQkUubPAe4jtRuVGD89UQ6Tx5DZJACaDWV4x9cm1tR9cGoZj9VVuVhZjBiuQWEe89_Voni0kcPyEvCc1maq_a1jx7JP6aMH1C2B-GUuS1mwhZZpD-gcXwp7vh2xk4STndT5Cn5VAqhotr_eWOlePlt3STtAHB2_W74H0EKkw_4AqcHyTGbmmAhVz7DriD-P2HbbJkkdxQxr0E2pzYXPdD4SGuOzoDpt-jYqUDbqvM0077WkbHFvUWRKo0CaM7XhD83veh06NbB6syMGrQ%3D%3D&alid=56b55072e4b05009f1344524&pub=4a1b367933fd867b19b072952f68dceb&camk=UoKtGZLa3XLiqG0hIu4H6g%3D%3D&xkcb=SoCi6_M3lpvgpfzfyx0IbzkdCdPP&xpse=SoBw6_I3lp_B6TT7mB0NbzkdCdPP&xfps=30841a92-eddd-4e74-b401-e7343e51697d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-03T14:25:24.859Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
