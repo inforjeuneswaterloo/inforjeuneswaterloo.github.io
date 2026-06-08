@@ -1,6 +1,442 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnrzz2p2ro2o",
+      "cid": "bafyreielcdubcnbqhnqptkbk54tu4yinbjk3jqgrzncrmnsqlqhz65aa3y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-08T15:52:03.960Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Préparateur de commande/Orderpicker",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Medi-Supply - Étudiant opérateur logistique - Nivelles | NIVELLES, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/medi-supply-tudiantoprateurlogistique-nivelles-nivelles-brabant-wallon/746-34227-3?utm_source=jobrapido&utm_medium=Paid&igbTracker=920533090&utm_campaign=onsitenationaal_10&utm_content=Medi-Supply+-+%C3%89tudiant+op%C3%A9rateur+logistique+-+Nivelles+%28746-34227-3%29+%5B920533090%5D%5B77b8c4dee0af9e1e_9d7834b833d5d%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/xdAmy6N"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "Étudiant opérateur logistique - Nivelles\n- Picking et préparation de commandes (activité principale)\n- Rangement, réapprovisionnement\n- Contrôle qualitatif/quantitatif\n- Participation aux expéditions et à l’activité e commerce\n- Aide ponctuelle au traitement des retours\nbuff.ly/xdAmy6N\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/medi-supply-tudiantoprateurlogistique-nivelles-nivelles-brabant-wallon/746-34227-3?utm_source=jobrapido&utm_medium=Paid&igbTracker=920533090&utm_campaign=onsitenationaal_10&utm_content=Medi-Supply+-+%C3%89tudiant+op%C3%A9rateur+logistique+-+Nivelles+%28746-34227-3%29+%5B920533090%5D%5B77b8c4dee0af9e1e_9d7834b833d5d%5D",
+          "title": "Medi-Supply - Étudiant opérateur logistique - Nivelles | NIVELLES, Brabant Wallon",
+          "description": "Préparateur de commande/Orderpicker",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-08T15:52:06.564Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnrzdlcsvd2o",
+      "cid": "bafyreicdap7zg4mbieurwjwyu4yykylgwc72xvs6w2gethjjoaakd234lm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-08T15:40:04.326Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "1480 Tubize",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigpctzks7qvdnmppqwzltfkk3lwwg5gxloanzlh5rmgnfpiss7ezi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 210020
+            },
+            "title": "Etudiant",
+            "uri": "https://www.aldi.be/fr/jobs/job-details.275717.Etudiant-Tubize.html"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/BHSQ6L2"
+              }
+            ],
+            "index": {
+              "byteEnd": 228,
+              "byteStart": 213
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 235,
+              "byteStart": 229
+            }
+          }
+        ],
+        "text": "Etudiant ALDI Tubize\n- Tu veilleras au bon fonctionnement de la caisse\n- Tu t'assureras que les étagères restent toujours bien approvisionnées\n- Avec ton aide, le magasin sera toujours impeccablement organisé\nbuff.ly/BHSQ6L2\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.aldi.be/fr/jobs/job-details.275717.Etudiant-Tubize.html",
+          "title": "Etudiant",
+          "description": "1480 Tubize",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigpctzks7qvdnmppqwzltfkk3lwwg5gxloanzlh5rmgnfpiss7ezi"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-08T15:40:06.178Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnrvzf5xez26",
+      "cid": "bafyreig3nv6je5gwyxqvdnm6m54vwdtbsdsgbyjnagkrp2cg2eynkhhvnu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-08T14:40:41.129Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous cherchez un emploi comme Job d'étudiant à Braine-l'Alleud. Consultez l'offre et postulez rapidement en ligne! - Accent Jobs",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+              },
+              "mimeType": "image/webp",
+              "size": 7670
+            },
+            "title": "Offre d'emploi Job d'étudiant Braine-l'Alleud - Accent Jobs",
+            "uri": "https://accentjobs.be/fr/offredemploi/job-detudiant-552968?utm_source=CRJ-NL&utm_medium=jobboard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/4QooDpm"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "Job étudiant Braine-l'Alleud\n- Réapprovisionner les rayons et veiller à la présentation des produits\n- Ranger le stock et aider à l'organisation des surfaces de vente\n- Assurer la propreté et contribuer à l'accueil des clients\n- Veiller au bon fonctionnement du magasin \nbuff.ly/4QooDpm\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://accentjobs.be/fr/offredemploi/job-detudiant-552968?utm_source=CRJ-NL&utm_medium=jobboard",
+          "title": "Offre d'emploi Job d'étudiant Braine-l'Alleud - Accent Jobs",
+          "description": "Vous cherchez un emploi comme Job d'étudiant à Braine-l'Alleud. Consultez l'offre et postulez rapidement en ligne! - Accent Jobs",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-08T14:40:42.462Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnrvhnobce25",
+      "cid": "bafyreiamhatk7fczj7kn2zwmfbfz6tlrldvqvcc57xgcmsqbi6ys4ym4ga",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-08T14:30:46.107Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiant manoeuvre",
+            "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/876644"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/d0NpHcI"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant manoeuvre à Perwez\n- Minimum 18 ans\n- En possession du statut étudiant\n- Disponible de juin à septembre\n- En bonne condition physique\n- Tu n'as pas peur de travailler en hauteur\n- Capable de porter des charges lourdes\n- Une expérience dans le bâtiment est un atout\nbuff.ly/d0NpHcI\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/876644",
+          "title": "Etudiant manoeuvre",
+          "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-08T14:30:47.764Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnruj5xj7s2j",
+      "cid": "bafyreidmkk56dac6x6si4lbla37feqbkoziozyf2hdce547a3um62serue",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-08T14:13:43.904Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=9e15285696dd8c71&q=Etudiants&l=Brabant-wallon&tk=1jqjo62kdgkl4804&from=ja&alid=56b55072e4b05009f1344518&xpse=SoAz67I3iT53nNAYGr0LbzkdCdPP&xfps=2fc5c601-6432-4fa3-9815-4494d87870fa&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqjo62kdgkl4804&xkcb=SoAb67M3iT4VmoRc8h0IbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/DUPnBYs"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Étudiant(e) vente – Août & Septembre – Ottignies / Waterloo\n- Accueillir, conseiller et fidéliser la clientèle\n- Assurer les ventes et les encaissements\n- Réceptionner et mettre en place les collections\n- Assurer l'ouverture et la fermeture\n- Gérer le point de vente  \nbuff.ly/DUPnBYs\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=9e15285696dd8c71&q=Etudiants&l=Brabant-wallon&tk=1jqjo62kdgkl4804&from=ja&alid=56b55072e4b05009f1344518&xpse=SoAz67I3iT53nNAYGr0LbzkdCdPP&xfps=2fc5c601-6432-4fa3-9815-4494d87870fa&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqjo62kdgkl4804&xkcb=SoAb67M3iT4VmoRc8h0IbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-08T14:13:44.172Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnkarayo232y",
       "cid": "bafyreifniau3pixp7vnz7ojjufn3uenhgrmkrk2onayli7fsiynfxd3dda",
       "author": {
@@ -7970,436 +8406,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-10T15:37:04.255Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj2zc5hpil2z",
-      "cid": "bafyreievrmz2dizqpdl6o5p4zrocpdcnksrptzc6wsmcgakkv6nrn57pyu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-09T14:27:16.702Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/be5e8058dfcfee3a1cfbf99fe0c80d2563"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/sMijmFs"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 288
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Etudiant H/F caissier station-service Waterloo\nTâches:\n- Accueillir et servir les clients\n- Tenir la caisse (+Loto)\n- Préparer des sandwiches et cuire les viennoiseries\n- Mettre les produits en rayon et vérifier leur fraîcheur\n- Nettoyer le magasin et les extérieurs\nbuff.ly/sMijmFs\n#job4u #ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/be5e8058dfcfee3a1cfbf99fe0c80d2563",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-09T14:27:17.057Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miyjkjudc425",
-      "cid": "bafyreiaddqyscd3wxhxfrfu6tx6d2mmr7efqjk5l4zki6wnaj2zbgpwbza",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-08T14:40:16.670Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-1&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/EE4ISYP"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Etudiant vendeur boucherie Lillois\nProfil:\n- 1 expérience en vente boucherie ou alimentaire est un atout\n- Vous aimez le contact et le conseil personnalisé\n- Vous savez gérer vos tâches avec rigueur et efficacité\n- Flexible, vous êtes à l'aise avec des horaires variables \nbuff.ly/EE4ISYP\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-1&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-08T14:40:19.152Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3miyjannfmt25",
-      "cid": "bafyreibm4uufmcvncj63uiehvzh5w5sreibkv3tl4z3a6wvfuqgr2kr62u",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-08T14:34:47.225Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=f1ae73852f715164&q=Etudiant&l=Brabant-wallon&tk=1jlmj8gelh7pe800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCV67I3l24e1PTBBB0LbzkdCdPP&xfps=7b2d4d21-ea71-466c-8c65-4c577552d5a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlmj8gelh7pe800&xkcb=SoDL67M3l2utx2SWDR0KbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/TVrHEcL"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Job étudiant avec permis B Thaï Café Genval\nTâches:\n- L'accueil des clients et le service en salle\n- La gestion des commandes de boissons au bar\n- La préparation des commandes à emporter\n- La tenue du restaurant et de la cuisine dans un état de propreté irréprochable \nbuff.ly/TVrHEcL\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=f1ae73852f715164&q=Etudiant&l=Brabant-wallon&tk=1jlmj8gelh7pe800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoCV67I3l24e1PTBBB0LbzkdCdPP&xfps=7b2d4d21-ea71-466c-8c65-4c577552d5a0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlmj8gelh7pe800&xkcb=SoDL67M3l2utx2SWDR0KbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-08T14:34:47.654Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivpfnteli2p",
-      "cid": "bafyreifx665y3s5sqt22wtblwb6tbjowqjnyivubg2jtotcvhdzkmgngwu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-07T11:46:56.906Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-1&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/0eQq8IE"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 292
-            }
-          }
-        ],
-        "text": "Etudiant(e) vente boucherie Genval\n- Conseiller les clients sur nos produits et être attentif à leurs besoins\n- Assurer une préparation correcte des commandes\n- Maintenir un espace de travail propre\n- Respecter les normes d'hygiène\n- Être flexible au niveau des horaires\nbuff.ly/0eQq8IE\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-1&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-07T11:46:58.762Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mivot5qaz426",
-      "cid": "bafyreieqllwtnhetyqali7nytikwkaihyggpd2kvhoxsgjufjyjwra4nue",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-07T11:36:37.564Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=c37f7bb59458dbd4&q=Etudiants&l=Brabant-wallon&tk=1jlcdva88g9h2800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDJ67I3lz-AVVzCbR0KbzkdCdPP&xfps=cba329d4-fa71-4f92-b19b-32ae2b6e2c8a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlcdva88g9h2800&xkcb=SoBq67M3lsTyjf-PmB0ObzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/eQ0cpV6"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 288
-            }
-          }
-        ],
-        "text": "Étudiant(e) 8h/semaine Ottignies-Louvain-la-Neuve\n- Vous vivez pour la mode\n- Vous vendez en offrant une expérience client exceptionnelle\n- Vous offrez notre service de piercing\n- Vous réapprovisionnez les stocks\n- Vous gérez les registres\n- Vous nettoyez le magasin \nbuff.ly/eQ0cpV6\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=c37f7bb59458dbd4&q=Etudiants&l=Brabant-wallon&tk=1jlcdva88g9h2800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDJ67I3lz-AVVzCbR0KbzkdCdPP&xfps=cba329d4-fa71-4f92-b19b-32ae2b6e2c8a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlcdva88g9h2800&xkcb=SoBq67M3lsTyjf-PmB0ObzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-07T11:36:38.163Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
