@@ -1,6 +1,196 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mntqandqj22d",
+      "cid": "bafyreibdzwlo34yxm4sfkmiimhf7nbgxn3hoddtccquukpyrywakcwfu6y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-09T08:02:40.163Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Etudiant(e) vente | Vanden Borre | Waterloo | WATERLOO, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eventevandenborrewaterloo-waterloo-brabant-wallon/586-8404-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=920724578&utm_campaign=digital_delivery_1520&utm_content=Etudiant%28e%29+vente+%7C+Vanden+Borre+%7C+Waterloo+%28586-8404-1%29+%5B920724578%5D%5B77b8c4dee0af9e1e_b012e5d67a160%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/5eAPrxo"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente Vanden Borre Waterloo\nProfil\n- Min. 18 ans\n- Dynamique, proactif(ve) et impliqué(e)\n- À l’aise avec le contact client\n- Toujours engagé(e) dans ses études (les étudiants terminant cette année ne correspondent pas au profil)\n- Dispo sur le long terme\nbuff.ly/5eAPrxo\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eventevandenborrewaterloo-waterloo-brabant-wallon/586-8404-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=920724578&utm_campaign=digital_delivery_1520&utm_content=Etudiant%28e%29+vente+%7C+Vanden+Borre+%7C+Waterloo+%28586-8404-1%29+%5B920724578%5D%5B77b8c4dee0af9e1e_b012e5d67a160%5D",
+          "title": "Etudiant(e) vente | Vanden Borre | Waterloo | WATERLOO, Brabant Wallon",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-09T08:02:43.762Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mntporposk2d",
+      "cid": "bafyreibhqrc66dgtotgqhmq6nxhtwegjxzmsawzq3l4mp5lyhke3hqcbvu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-09T07:52:42.403Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous serez responsable du contrôl général du parking et vous aiguillerez au mieux les clients",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 37952
+            },
+            "title": "Joboffers Etudiant Opérateur Control Room | IMPACT",
+            "uri": "https://impact.be/fr/joboffers/employe-de-bureau/brussel/17772/?utm_source=jooble&utm_campaign=vonqprogrammaticad_administratie_secretariaat&utm_medium=cpc&utm_away=beNTc0OHwtNjIzMDQxMTEzNzk4MDExNTc3fDQ2MTgw&view=&igbTracker=920722385&utm_content=Etudiant+Op%C3%A9rateur+Control+Room+%2817772%29+%5B920722385%5D%5Bad83baf950a417bd_df0221c8d17f8%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/WUQBID8"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant Opérateur Control Room Bruxelles\n- effectuer les contrôles du parking entre autres via des caméras de surveillance\n- aider les clients qui ne retrouvent plus leur véhicule\n- aider à comprendre certaines procédures\n- répondre aux questions des clients et les aider \nbuff.ly/WUQBID8\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://impact.be/fr/joboffers/employe-de-bureau/brussel/17772/?utm_source=jooble&utm_campaign=vonqprogrammaticad_administratie_secretariaat&utm_medium=cpc&utm_away=beNTc0OHwtNjIzMDQxMTEzNzk4MDExNTc3fDQ2MTgw&view=&igbTracker=920722385&utm_content=Etudiant+Op%C3%A9rateur+Control+Room+%2817772%29+%5B920722385%5D%5Bad83baf950a417bd_df0221c8d17f8%5D",
+          "title": "Joboffers Etudiant Opérateur Control Room | IMPACT",
+          "description": "Vous serez responsable du contrôl général du parking et vous aiguillerez au mieux les clients",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-09T07:52:43.968Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnrzz2p2ro2o",
       "cid": "bafyreielcdubcnbqhnqptkbk54tu4yinbjk3jqgrzncrmnsqlqhz65aa3y",
       "author": {
@@ -8246,166 +8436,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-13T11:03:12.054Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj5o3m7n5d2r",
-      "cid": "bafyreifd4vkhcifax2vp7w4zlknkjxzmsxwwwsuiayspl6ba4jo7wruvha",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-10T15:44:45.345Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=3f8325df99f1faed&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCv67I3l8JUY6z4tx0LbzkdCdPP&xfps=95e44679-c539-4e21-a559-615e6d3eb5a6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDh67M3l701ruRIy50PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mgbtvAZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 290
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 312,
-              "byteStart": 306
-            }
-          }
-        ],
-        "text": "Etudiant(e) Réceptionniste Leonidas – 20h/semaine\nCompétences requises:\n- Maîtrise des outils bureautiques (Word, Excel, Outlook…)\n- Utilisation de standards téléphoniques\n- Très bonne maîtrise du français et du néerlandais (indispensable)\n- Bonne connaissance de l’anglais \nbuff.ly/mgbtvAZ\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=3f8325df99f1faed&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCv67I3l8JUY6z4tx0LbzkdCdPP&xfps=95e44679-c539-4e21-a559-615e6d3eb5a6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDh67M3l701ruRIy50PbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-10T15:44:45.950Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mj5nnu4fwb25",
-      "cid": "bafyreidm7j3xyjjiun4k6auzlkyrd2atifi5rbwxub67bkfl2kfwnktxde",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-10T15:37:03.869Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=b5b351fa06f215d0&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoBk67I3l8IJWXT5Vp0PbzkdCdPP&xfps=c05ff435-6609-4e7f-b832-44531a02ea59&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDy67M3l701ruRIy50LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/KSvPpkj"
-              }
-            ],
-            "index": {
-              "byteEnd": 234,
-              "byteStart": 219
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 241,
-              "byteStart": 235
-            }
-          }
-        ],
-        "text": "Job étudiant LUKOIL Bierges (15h/semaine)\nProfil:\n- Vous avez plus de 16 ans et êtes disponible en semaine\n- Vous parlez couramment le français\n- Vous êtes ponctuel, orienté client et aimez travailler en équipe. \nbuff.ly/KSvPpkj\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=b5b351fa06f215d0&q=Etudiants&l=Brabant-wallon&tk=1jlrnbv5nmt19800&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoBk67I3l8IJWXT5Vp0PbzkdCdPP&xfps=c05ff435-6609-4e7f-b832-44531a02ea59&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jlrnbv5nmt19800&xkcb=SoDy67M3l701ruRIy50LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-10T15:37:04.255Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
