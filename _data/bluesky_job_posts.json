@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwvgsfgr42n",
+      "cid": "bafyreihh5qz6n5akqv2bncc2sek64oobx62o3t6bjzhpqusymaucbgy3hm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T14:13:36.175Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+              },
+              "mimeType": "image/png",
+              "size": 7088
+            },
+            "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+            "uri": "https://www.konvert.be/fr/vacancies/7-452-202628378"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/gOewJdP"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) manutentionnaire Nivelles\n- Rigoureux(se) et motivé(e), efficace\n- Excellente condition physique\n- Faire preuve de flexibilité (accepter les heures supplémentaires)\n- Capacité à travailler avec rapidité et précision\n- Etre véhiculé\n- Avoir plus de 18 ans\nbuff.ly/gOewJdP\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.konvert.be/fr/vacancies/7-452-202628378",
+          "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
+          "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T14:13:37.569Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwl7est5d2p",
+      "cid": "bafyreicimnftbr4a2ierv3kvz46zdyjl4z4h6tkj6k6jpnze55f65cpnf4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T11:10:28.632Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Cuisine",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Commis de cuisine (H/F/X) | WATERLOO, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/commis-de-cuisine-hfx-waterloo-brabant-wallon/166-32495-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=921168271&utm_campaign=quest_10&utm_content=Commis+de+cuisine+%28H%2FF%2FX%29+%28166-32495-2%29+%5B921168271%5D%5B77b8c4dee0af9e1e_3fe3d3ed7d5e5%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/XrJCZJ4"
+              }
+            ],
+            "index": {
+              "byteEnd": 202,
+              "byteStart": 187
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 209,
+              "byteStart": 203
+            }
+          }
+        ],
+        "text": "Etudiant commis de cuisine Waterloo\nTâches:\n- Découpe des aliments\n- Préparations froides (salades, dressage, garnitures)\n- Aide à la mise en place\n- Respect des normes d’hygiène \nbuff.ly/XrJCZJ4\n#job4u\n#1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/commis-de-cuisine-hfx-waterloo-brabant-wallon/166-32495-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=921168271&utm_campaign=quest_10&utm_content=Commis+de+cuisine+%28H%2FF%2FX%29+%28166-32495-2%29+%5B921168271%5D%5B77b8c4dee0af9e1e_3fe3d3ed7d5e5%5D",
+          "title": "Commis de cuisine (H/F/X) | WATERLOO, Brabant Wallon",
+          "description": "Cuisine",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T11:10:31.066Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwexudjta2y",
       "cid": "bafyreih6ktj2ds6lrmdasaeidwta7aoswsadvss3libwxdwdbpuap47vri",
       "author": {
@@ -8270,175 +8448,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-16T11:02:27.120Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmaqsuljh2f",
-      "cid": "bafyreigockr7pt2hy4k2obiumshgmaufdp5nzqqp7inscdrk3xd4nhd3ry",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-16T10:55:59.962Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "About this jobPour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur.Vos responsabilitésVente au comptoirUtilisation de la trancheuseNettoyage...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiants rayon traiteur LIMAL",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5668786?JobId=5668786&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/3sw5h7V"
-              }
-            ],
-            "index": {
-              "byteEnd": 235,
-              "byteStart": 220
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 242,
-              "byteStart": 236
-            }
-          }
-        ],
-        "text": "Etudiants rayon traiteur LIMAL\nProfil\n- Vous avez une première expérience dans le secteur alimentaire\n- Vous êtes flexible dans les horaires (matin, après-midi, week-end)\n- Vous êtes poli et de bonne présentation \nbuff.ly/3sw5h7V\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5668786?JobId=5668786&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "Etudiants rayon traiteur LIMAL",
-          "description": "About this jobPour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur.Vos responsabilitésVente au comptoirUtilisation de la trancheuseNettoyage...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-16T10:56:01.123Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmahsmudo2s",
-      "cid": "bafyreih4nmonngl6nzok4ytyrt5znnun3vdqwwxlyvygj4tpghe4f2u5l4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-16T10:50:58.417Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/be63f4f57adb7fd8d828e210f1db4f22b6"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/nSW7RC1"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Animateurs H/F Scientifiques \"Stages vacances\" - Wallonie et Bruxelles\n- Etudiant filière scientifique ou pédagogique ou passionné par les matières scientifiques\n- Aptitudes pédagogiques\n- Véhiculé\n- Dispo durant les vacances scolaires\n- Expérience enseignement/animation\nbuff.ly/nSW7RC1\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/be63f4f57adb7fd8d828e210f1db4f22b6",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-16T10:50:58.923Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
