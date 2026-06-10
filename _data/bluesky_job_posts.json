@@ -1,6 +1,507 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwexudjta2y",
+      "cid": "bafyreih6ktj2ds6lrmdasaeidwta7aoswsadvss3libwxdwdbpuap47vri",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T09:18:53.697Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Boucher/ère",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Etudiant.e vendeur.euse en boucherie | Wavre | WAVRE, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-evendeur-euseenboucheriewavre-wavre-brabant-wallon/142-34963-4?utm_source=jobrapido&utm_medium=Paid&igbTracker=921126426&utm_campaign=quest_10&utm_content=Etudiant.e+vendeur.euse+en+boucherie+%7C+Wavre+%28142-34963-4%29+%5B921126426%5D%5B77b8c4dee0af9e1e_456958094aac8%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/6eQzWGL"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente en boucherie à Wavre\nProfil\n- expérience avec la trancheuse requise\n- 1 expérience en boucherie ou en vente alimentaire est un plus\n- Sens du service client et bonne présentation\n- À l’aise avec le travail en équipe\n- Respect des règles d’hygiène  \nbuff.ly/6eQzWGL\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-evendeur-euseenboucheriewavre-wavre-brabant-wallon/142-34963-4?utm_source=jobrapido&utm_medium=Paid&igbTracker=921126426&utm_campaign=quest_10&utm_content=Etudiant.e+vendeur.euse+en+boucherie+%7C+Wavre+%28142-34963-4%29+%5B921126426%5D%5B77b8c4dee0af9e1e_456958094aac8%5D",
+          "title": "Etudiant.e vendeur.euse en boucherie | Wavre | WAVRE, Brabant Wallon",
+          "description": "Boucher/ère",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T09:18:56.163Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnweqjwyt32o",
+      "cid": "bafyreiehhjsl6fprjzsd2lgjyzj63sudw34zswjcf2kzmc4byqyrkp6uky",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T09:14:50.132Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=df6215863c9abe8d&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoDk67I3iYQRwhz4qJ0LbzkdCdPP&xfps=34f57156-7088-4568-8c98-65919a6b5d80&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCn67M3iWvKdcgKQz0KbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0zIlmxU"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "Etudiant Livreur pizza H/F Chaumont-Gistoux\n- disponible soirs et we\n- Permis B (+ véhicule obligatoire)\n- Ponctuel(le), organisé(e), autonome\n- Bonne présentation, contact client facile\n- Résistant(e) au stress et aux pics de rush\n- Connaissance de la zone locale = vrai plus \nbuff.ly/0zIlmxU\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=df6215863c9abe8d&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoDk67I3iYQRwhz4qJ0LbzkdCdPP&xfps=34f57156-7088-4568-8c98-65919a6b5d80&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCn67M3iWvKdcgKQz0KbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T09:14:50.768Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwdvixuqt2y",
+      "cid": "bafyreifqth7ueh5jf6vq5xgminplrkhi64zr2ozfacqxjhdnzc42kjyu3u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T08:59:43.144Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=7939f5567171665b&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAI67I3iYfnVwT49R0LbzkdCdPP&xfps=9c8d6e2b-0348-4270-a5b3-0c7f6d0c8fd1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoC_67M3iWvKdcAKQz0EbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/j7v0078"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) Mango Waterloo\n- capable de faire preuve d'excellentes compétences en communication\n- attitude proactive et enthousiaste pour représenter la marque en offrant un excellent service client\n- 1 expérience de travail dans le commerce de détail de mode est souhaitable \nbuff.ly/j7v0078\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=7939f5567171665b&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAI67I3iYfnVwT49R0LbzkdCdPP&xfps=9c8d6e2b-0348-4270-a5b3-0c7f6d0c8fd1&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoC_67M3iWvKdcAKQz0EbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T08:59:43.660Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwdjx3mvz2z",
+      "cid": "bafyreiehhamopafgnw3jhh6xhqrwzdx4fvpy7rvjvumqthddy2ghnxekzy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T08:53:15.295Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=a651bc7dcc47cd6e&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBl67I3iYelIKz4qJ0LbzkdCdPP&xfps=044df2b1-193c-4169-8a71-5bebe5f029d0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoAi67M3iWvKdcAKQz0HbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dmS9S2y"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant Nettoyage restaurant les samedis matin Bruxelles\n- Travail UNIQUEMENT le samedi matin\n- Indispensable d'être présent le samedi matin\n- Début de la prestation entre 6h00 et 7h00\n- L’assiduité est essentielle. En cas d’absence il est impératif de trouver 1 remplaçant\nbuff.ly/dmS9S2y\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=a651bc7dcc47cd6e&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBl67I3iYelIKz4qJ0LbzkdCdPP&xfps=044df2b1-193c-4169-8a71-5bebe5f029d0&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoAi67M3iWvKdcAKQz0HbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T08:53:15.662Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwd3ieiwa26",
+      "cid": "bafyreigr6jeaj5tutw4wse43dz25bscotcm5m4am7exxiphfk3akrtfd5y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T08:45:10.096Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=4ef4eb8a779169b1&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoD567I3iYeGVIAYGr0LbzkdCdPP&xfps=846f7360-ac22-4a41-9dee-3dccea81f45e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCF67M3iWvKdcAKQz0CbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/fCC2tGK"
+              }
+            ],
+            "index": {
+              "byteEnd": 181,
+              "byteStart": 166
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 188,
+              "byteStart": 182
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 196,
+              "byteStart": 189
+            }
+          }
+        ],
+        "text": "Etudiant(e) Maison de repos Waterloo\n- Etudiants pour l'été 2026 pour différents services (nettoyage, cuisine, soins).\n- Horaires variables sur juillet et août. \nbuff.ly/fCC2tGK\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=4ef4eb8a779169b1&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoD567I3iYeGVIAYGr0LbzkdCdPP&xfps=846f7360-ac22-4a41-9dee-3dccea81f45e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCF67M3iWvKdcAKQz0CbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T08:45:10.566Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwcrwwxk42v",
+      "cid": "bafyreicflwckmh7axkiwjpcbxq45ectyo2si7axb6ouk7w3runpyk32ugq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T08:39:49.836Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ab2fc6eba89a3949&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoCm67I3iYcb0STCUR0LbzkdCdPP&xfps=c7b89401-6f29-4770-9bd0-d31bff3c681e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoBW67M3iWvKdcAKQz0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/KSXXGKe"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Etudiant(e) Carrefour Market Bruxelles\n- 1 expérience dans le secteur alimentaire, horeca,.. est 1 atout considérable\n- Dispo pour travailler avec 1 horaire variable du lundi au dimanche entre 6h et 20h (vendredi 21h)\n- Tu attaches 1 grande importance à la propreté et l'ordre\nbuff.ly/KSXXGKe\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ab2fc6eba89a3949&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoCm67I3iYcb0STCUR0LbzkdCdPP&xfps=c7b89401-6f29-4770-9bd0-d31bff3c681e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoBW67M3iWvKdcAKQz0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T08:39:50.164Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mntqandqj22d",
       "cid": "bafyreibdzwlo34yxm4sfkmiimhf7nbgxn3hoddtccquukpyrywakcwfu6y",
       "author": {
@@ -7938,504 +8439,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-16T10:50:58.923Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjk54trv2p2r",
-      "cid": "bafyreidczvbyqibolv7ii52qmyt45zv6dywm7oc6edsn5alhonjhawhpom",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-15T14:45:49.838Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=edd445daa5e406b8&q=etudiant&l=brabant+wallon&tk=1jm68f223gr8v800&from=ja&advn=5724012140225651&adid=460335698&ad=-6NYlbfkN0DfCRAfHKrvDk01XdFzHGaYKjPfUTOXajk9mG_1Scm4kTQYralmSEqcGRnUsTAK276tFoXeaRsl-lKv-HG90ARmcZDcrZIfeluzdGzRTrtjmVCEYeiNTsSrDpe31ZGanJ7kPUMrkhBLBnWkh_I9q0gugQq92zblQuphhrWaGNnnH5RvevRoBBn_r381857R0yqpdFra9Oh89Q_7A56dqGC_aJzW2IGbbg--xHLG7EZ2xy1Y51hLmiJ619lcD0WWs8z3OxMXkDAVGul8y6aIQk5pbONrEDWZGlY4AcGf4aXB_Ldqjj74GhkfRCwfgQwl9sCx5QWBhL8D1UVK5AaEPTkOTH6Ho1apYHGLW1Y5JifwJX2izZjl5Wauj6xuaxMTAEjF6QTczpVz51SwYrqH8jl4FFAdfKkAVzyc0l9W-fJJQp6OHmqOIHygxsitDB1oUDnHGu5oxA6tlPQY7EhfFDAECQ9vSlt-ja-L8zHsBuispfpMDY8vdRJPWxUTp9NgXLcyBZMT4NReQOGjBPq5CyK47ur1-jBYnypYRRx8Yfp9MlBDpQJp6It5QvjVFwIlmgA%3D&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8E7ZG43L4tKg%3D%3D&xkcb=SoC26_M3kGYziGZB5p0IbzkdCdPP&xpse=SoAH6_I3kIgJjVzBBB0PbzkdCdPP&xfps=4a9231b9-809b-4ba0-91a0-8db6be29b850&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cdfrMm1"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant Marketing Projets Digitaux Nivelles\nTâches:\n- Gestion de nos réseaux sociaux (Instagram, TikTok, Facebook)\n- Suivi et analyse des performances : campagnes, contenus, e-commerce\n- Gestion de collaborations influenceurs et de partenariats\n- Projets marketing ponctuels\nbuff.ly/cdfrMm1\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=edd445daa5e406b8&q=etudiant&l=brabant+wallon&tk=1jm68f223gr8v800&from=ja&advn=5724012140225651&adid=460335698&ad=-6NYlbfkN0DfCRAfHKrvDk01XdFzHGaYKjPfUTOXajk9mG_1Scm4kTQYralmSEqcGRnUsTAK276tFoXeaRsl-lKv-HG90ARmcZDcrZIfeluzdGzRTrtjmVCEYeiNTsSrDpe31ZGanJ7kPUMrkhBLBnWkh_I9q0gugQq92zblQuphhrWaGNnnH5RvevRoBBn_r381857R0yqpdFra9Oh89Q_7A56dqGC_aJzW2IGbbg--xHLG7EZ2xy1Y51hLmiJ619lcD0WWs8z3OxMXkDAVGul8y6aIQk5pbONrEDWZGlY4AcGf4aXB_Ldqjj74GhkfRCwfgQwl9sCx5QWBhL8D1UVK5AaEPTkOTH6Ho1apYHGLW1Y5JifwJX2izZjl5Wauj6xuaxMTAEjF6QTczpVz51SwYrqH8jl4FFAdfKkAVzyc0l9W-fJJQp6OHmqOIHygxsitDB1oUDnHGu5oxA6tlPQY7EhfFDAECQ9vSlt-ja-L8zHsBuispfpMDY8vdRJPWxUTp9NgXLcyBZMT4NReQOGjBPq5CyK47ur1-jBYnypYRRx8Yfp9MlBDpQJp6It5QvjVFwIlmgA%3D&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8E7ZG43L4tKg%3D%3D&xkcb=SoC26_M3kGYziGZB5p0IbzkdCdPP&xpse=SoAH6_I3kIgJjVzBBB0PbzkdCdPP&xfps=4a9231b9-809b-4ba0-91a0-8db6be29b850&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-15T14:45:51.064Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjjxis7dl323",
-      "cid": "bafyreifqlh6l44ocxpd7lgiri45okzrlprc57e7xowf2l7fcmjxa57tfoy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-15T13:05:08.382Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=dff4906a4f3b8323&q=%C3%A9tudiant&l=Waterloo&tk=1jm182qerg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC767I3kIu2rjz4AR0LbzkdCdPP&xfps=aa199526-fa93-48ec-bb08-3d3d1f7af57d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm182qerg9so800&xkcb=SoBv67M3kBYEuCAgUz0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/yIx9q3j"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Barman étudiants 1030 Bruxelles\n- Horaires flexibles (7h30-15h30 ou 15h30-22h30, jusqu’à 23h30 les vendredis et samedis)\n- Fiable, ponctuel et assidu\n- Travailler avec précision et soin\n- Esprit d’équipe\n- La connaissance de l’anglais est un plus\n- Résistant au stress\nbuff.ly/yIx9q3j\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=dff4906a4f3b8323&q=%C3%A9tudiant&l=Waterloo&tk=1jm182qerg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoC767I3kIu2rjz4AR0LbzkdCdPP&xfps=aa199526-fa93-48ec-bb08-3d3d1f7af57d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm182qerg9so800&xkcb=SoBv67M3kBYEuCAgUz0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-15T13:05:08.883Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlyokazd2r",
-      "cid": "bafyreia5dsqf2vi6jzybpgf22juhuecqo4m6l3qvnltbunbys2l6bfmisy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-14T14:33:57.037Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=d0ffd462f493f944&q=etudiant&l=brabant+wallon&tk=1jm3tjp9ugr8v800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoD867I3kGE8uATDGh0LbzkdCdPP&xfps=cefe3b8d-c178-46a4-902c-9998f8809a6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm3tjp9ugr8v800&xkcb=SoBN67M3kDzAm1YDzZ0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/k9FZqnc"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 290
-            }
-          }
-        ],
-        "text": "Animateur étudiant H/F Laser Game Braine-l'Alleud\n- Assurer le suivi des clients au cours de leur partie de jeu\n- Bar\n- Veiller au bon fonctionnement et à la bonne utilisation du matériel et des infrastructures\n- Nettoyage et entretien du site\n- Ouvrir et fermer le site\nbuff.ly/k9FZqnc\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=d0ffd462f493f944&q=etudiant&l=brabant+wallon&tk=1jm3tjp9ugr8v800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoD867I3kGE8uATDGh0LbzkdCdPP&xfps=cefe3b8d-c178-46a4-902c-9998f8809a6c&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm3tjp9ugr8v800&xkcb=SoBN67M3kDzAm1YDzZ0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-14T14:33:57.855Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlmmqoad2m",
-      "cid": "bafyreiaaidnkwwhbgthi5ppt5k4agaxm5tutuwb6fhsfrstbzvhzkyni2e",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-14T14:27:11.786Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Robert Half est à la recherche d'un Etudiant en Comptabilité (H/F/X) terminant son bachelier en comptabilité (3ème année) ou en cours de master.Nous recherchons un étudiant disponible cet été, de d...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
-              },
-              "mimeType": "image/png",
-              "size": 5817
-            },
-            "title": "Offre d'emploi de Etudiant en Comptabilité à Nivelles, Walloon Brabant",
-            "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/etudiant-en-comptabilit%C3%A9/000508485-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ZIjty3o"
-              }
-            ],
-            "index": {
-              "byteEnd": 247,
-              "byteStart": 232
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 254,
-              "byteStart": 248
-            }
-          }
-        ],
-        "text": "Etudiant en comptabilité à Nivelles\nProfil:\n- En fin de 3ème bachelier ou en master\n- Vous avez une expérience de stage concluante ou un job étudiant\n- Vous possédez le statut étudiant\n- Vous avez une bonne maîtrise d'Excel\nbuff.ly/ZIjty3o\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/etudiant-en-comptabilit%C3%A9/000508485-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
-          "title": "Offre d'emploi de Etudiant en Comptabilité à Nivelles, Walloon Brabant",
-          "description": "Robert Half est à la recherche d'un Etudiant en Comptabilité (H/F/X) terminant son bachelier en comptabilité (3ème année) ou en cours de master.Nous recherchons un étudiant disponible cet été, de d...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-14T14:27:12.956Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjhlamcyzn25",
-      "cid": "bafyreid2tfxbibimlgzaj2nbl27bovondf3yct4d7nl6utusuum5qy6xq4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-14T14:20:29.395Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=83909e079db949ea&q=Etudiant&l=Brussels&tk=1jm623ugfg9ud800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD467I3kGDC7LzCGp0LbzkdCdPP&xfps=dfcf2488-ef37-40fd-b076-cd3d442c8f4d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm623ugfg9ud800&xkcb=SoDX67M3kGMAOs6MNh0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/sdYGn4w"
-              }
-            ],
-            "index": {
-              "byteEnd": 249,
-              "byteStart": 234
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 256,
-              "byteStart": 250
-            }
-          }
-        ],
-        "text": "Job étudiant sur stand de marché à Ixelles\nNous cherchons des personnes fiables et responsables avec une bonne condition physique, de préférence qui sont disponibles au moins la moitié de la saison estivale (juillet et août). \nbuff.ly/sdYGn4w\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=83909e079db949ea&q=Etudiant&l=Brussels&tk=1jm623ugfg9ud800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoD467I3kGDC7LzCGp0LbzkdCdPP&xfps=dfcf2488-ef37-40fd-b076-cd3d442c8f4d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jm623ugfg9ud800&xkcb=SoDX67M3kGMAOs6MNh0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-14T14:20:29.669Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjepqvb4ui2h",
-      "cid": "bafyreif3pekh6zbhzikoz5rucs6ynx4p2gbtsa6sa5xd37xlbtoisicpiu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-13T11:03:09.815Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-plongeaide-en-cuisine-lln-et-alentours-louvain-la-neuve-brabant-wallon/142-34934-1&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/omJxKhr"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Etudiant.e plonge/aide en cuisine | Louvain-la-Neuve\nProfil\n- Déjà 1 expérience en plonge et/ou en horeca\n- Accueillant·e, souriant·e et fiable\n- Pas peur de mettre la main à la pâte\n- À la recherche d’un job étudiant sur le long terme\n- Disponible 2 à 3 jours par semaine \nbuff.ly/omJxKhr\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-plongeaide-en-cuisine-lln-et-alentours-louvain-la-neuve-brabant-wallon/142-34934-1&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-13T11:03:12.054Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

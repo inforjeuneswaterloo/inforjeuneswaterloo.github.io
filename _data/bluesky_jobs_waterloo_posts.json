@@ -1,6 +1,100 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwd3ieiwa26",
+      "cid": "bafyreigr6jeaj5tutw4wse43dz25bscotcm5m4am7exxiphfk3akrtfd5y",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-10T08:45:10.096Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=4ef4eb8a779169b1&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoD567I3iYeGVIAYGr0LbzkdCdPP&xfps=846f7360-ac22-4a41-9dee-3dccea81f45e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCF67M3iWvKdcAKQz0CbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/fCC2tGK"
+              }
+            ],
+            "index": {
+              "byteEnd": 181,
+              "byteStart": 166
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 188,
+              "byteStart": 182
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ij1410"
+              }
+            ],
+            "index": {
+              "byteEnd": 196,
+              "byteStart": 189
+            }
+          }
+        ],
+        "text": "Etudiant(e) Maison de repos Waterloo\n- Etudiants pour l'été 2026 pour différents services (nettoyage, cuisine, soins).\n- Horaires variables sur juillet et août. \nbuff.ly/fCC2tGK\n#job4u\n#ij1410"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=4ef4eb8a779169b1&q=%C3%A9tudiant&l=Waterloo&tk=1jqmjhbltg2ik801&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoD567I3iYeGVIAYGr0LbzkdCdPP&xfps=846f7360-ac22-4a41-9dee-3dccea81f45e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqmjhbltg2ik801&xkcb=SoCF67M3iWvKdcAKQz0CbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-10T08:45:10.566Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": [],
+      "created_at_localized": "2026-06-10T10:45:10+02:00",
+      "image_url": null
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mntqandqj22d",
       "cid": "bafyreibdzwlo34yxm4sfkmiimhf7nbgxn3hoddtccquukpyrywakcwfu6y",
       "author": {
