@@ -255,7 +255,7 @@
         "$type": "app.bsky.embed.external#view"
       },
       "bookmarkCount": 0,
-      "replyCount": 0,
+      "replyCount": 1,
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
