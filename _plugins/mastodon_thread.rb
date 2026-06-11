@@ -12,6 +12,7 @@ module Jekyll
 
     def render(context)
       instance = "mastodon.social"
+      # Configuration via ton ID de compte Mastodon exact
       author_account_id = "110700922857450296"
       
       root_url = "https://#{instance}/api/v1/statuses/#{@status_id}"
@@ -35,6 +36,7 @@ module Jekyll
           context_data = JSON.parse(res_context.body)
           descendants = context_data['descendants'] || []
           
+          # Filtrage sécurisé via ton ID de compte
           author_replies = descendants.select do |reply|
             reply['account']['id'].to_s == author_account_id
           end
@@ -42,6 +44,7 @@ module Jekyll
           if author_replies.any?
             html << '<div class="thread-replies-wrapper">'
             
+            # Limite fixée à 5 pour respecter ton design
             max_replies = 5
             truncated = author_replies.size > max_replies
             
@@ -51,6 +54,7 @@ module Jekyll
             
             html << '</div>'
             
+            # Bouton de coupure si le thread dépasse la limite
             if truncated
               mastodon_url = root_post['url']
               html << <<~HTML
@@ -76,19 +80,21 @@ module Jekyll
     def render_post(post, is_root)
       text = post['content']
       
-      # 1. NETTOYAGE DES HASHTAGS MASTODON
+      # 1. DÉCODAGE INITIAL 
+      # On transforme les &#39; en vraies apostrophes avant que le nettoyeur de hashtags ne passe
+      text = CGI.unescapeHTML(text)
+
+      # 2. NETTOYAGE DES HASHTAGS
       text = text.gsub(/<a[^>]*class="[^"]*hashtag[^"]*"[^>]*>#<span>\w+<\/span><\/a>/i, '')
       text = text.gsub(/#\w+/, '').strip
 
-      # 2. NETTOYAGE ET DÉCODAGE DES CARACTÈRES SPÉCIAUX (Apostrophes, etc.)
-      text = CGI.unescapeHTML(text)
-
-      # 3. SÉCURITÉ DES LIENS POUR LE NOUVEL ONGLER
+      # 3. SÉCURITÉ DES LIENS (Ouverture dans un nouvel onglet)
       text = text.gsub(/<a /i, '<a target="_blank" rel="noopener noreferrer" ')
 
       date = Time.parse(post['created_at']).strftime('%d/%m/%Y à %H:%M')
       card_class = is_root ? "thread-post-root" : "thread-post-reply"
       
+      # Extraction des images du thread
       img_html = ""
       if post['media_attachments'] && post['media_attachments'].any?
         img_url = post['media_attachments'][0]['preview_url'] || post['media_attachments'][0]['url']
