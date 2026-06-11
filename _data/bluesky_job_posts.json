@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnzhotfkt427",
+      "cid": "bafyreihctopkkcd4hhrb4gpliy5t3l3oxq76d2t7urlddhnfo5xhu7nccy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T14:45:33.407Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=dd5540f842e221fa&q=%C3%A9tudiant&l=Waterloo&tk=1jqrgredrg2ik800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAM67I3ibrZzFz7RJ0LbzkdCdPP&xfps=4cd02a59-6f37-4dff-a27b-1a83249890c6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqrgredrg2ik800&xkcb=SoAu67M3ibpiIJAzWz0FbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/i23aNLw"
+              }
+            ],
+            "index": {
+              "byteEnd": 271,
+              "byteStart": 256
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 272
+            }
+          }
+        ],
+        "text": "Etudiant - Vendeur / Barista (H/F/X) - Bruxelles\n- Accueillir et conseiller les clients\n- Préparer les boissons chaudes et froides\n- Réaliser les encaissements\n- Réapprovisionner les vitrines et les rayons\n- Maintenir la boutique propre et accueillante\nbuff.ly/i23aNLw\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=dd5540f842e221fa&q=%C3%A9tudiant&l=Waterloo&tk=1jqrgredrg2ik800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAM67I3ibrZzFz7RJ0LbzkdCdPP&xfps=4cd02a59-6f37-4dff-a27b-1a83249890c6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqrgredrg2ik800&xkcb=SoAu67M3ibpiIJAzWz0FbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T14:45:34.163Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnzf6t4ftv2n",
       "cid": "bafyreigah3av5tcsxvsucg2q2w2msutoq7kcta4drklvolhtehy66qzmda",
       "author": {
@@ -8359,86 +8439,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-21T12:50:10.847Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyxbqdqd72u",
-      "cid": "bafyreiduuzsox2umbf4cfmcvika5powlofdwjfodnqsjys4l3mulv5kpb4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T12:11:07.623Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=3375360b2163d531&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDN67I3kXzA67T5YR0LbzkdCdPP&xfps=b04b6542-db86-4680-a3b1-60d94292666f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAA67M3kTA7_aWn1p0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JwzttGv"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Étudiant(e) été Carrefour Waterloo\n- Expérience préalable dans le secteur alimentaire, horeca, retail, catering = atout\n- Dispo pour travailler en horaire variable du lundi au dimanche entre 6h et 20h (vendredi 21h)\n- Tu attaches 1 grande importance à la propreté/l'ordre\nbuff.ly/JwzttGv\n#job4u\n#1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=3375360b2163d531&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDN67I3kXzA67T5YR0LbzkdCdPP&xfps=b04b6542-db86-4680-a3b1-60d94292666f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAA67M3kTA7_aWn1p0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-21T12:11:08.350Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
