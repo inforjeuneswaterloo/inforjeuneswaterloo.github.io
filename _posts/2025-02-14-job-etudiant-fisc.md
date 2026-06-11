@@ -1,5 +1,5 @@
 ---
-layout: post-single
+layout: post
 title: Job étudiant - Fiscalité
 date: 2025-02-14
 slug: job-etudiant-fiscalite

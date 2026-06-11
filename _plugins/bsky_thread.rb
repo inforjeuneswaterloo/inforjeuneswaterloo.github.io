@@ -13,7 +13,7 @@ module Jekyll
       actor_did = "did:plc:rtnecm24l37p42guu4wwwwqq"
       post_uri = "at://#{actor_did}/app.bsky.feed.post/#{@post_id}"
       
-      api_url = "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=#{URI.encode_www_form_component(post_uri)}"
+      api_url = "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=#{URI.encode_www_form_component(post_uri)}&depth=100"
       
       begin
         uri = URI.parse(api_url)
@@ -26,37 +26,35 @@ module Jekyll
         
         html = '<div class="bsky-thread-container">'
         
-        # 1. LE POST PRINCIPAL (RACINE)
+        # 1. POST RACINE
         html << render_post(thread['post'], true)
         
-        # 2. LES RÉPONSES AVEC LIMITE
-        if thread['replies'] && thread['replies'].any?
+        # 2. COLLECTE ET TRI DES RÉPONSES
+        all_replies = []
+        flatten_replies(thread, actor_did, all_replies)
+        
+        sorted_replies = all_replies.uniq { |r| r['uri'] }.sort_by { |r| r['record']['createdAt'] rescue "" }
+        
+        if sorted_replies.any?
           html << '<div class="thread-replies-wrapper">'
           
-          # Filtrer d'abord pour ne garder que l'auteur
-          author_replies = thread['replies'].select { |r| r['post']['author']['did'] == actor_did }
-          
-          # Tri chronologique
-          sorted_replies = author_replies.sort_by { |r| r['post']['record']['createdAt'] rescue "" }
-          
-          # --- LA SÉCURITÉ : On limite à 5 réponses maximum ---
           max_replies = 5
           truncated = sorted_replies.size > max_replies
           
-          sorted_replies.take(max_replies).each do |reply|
-            html << render_post(reply['post'], false)
+          sorted_replies.take(max_replies).each do |reply_post|
+            html << render_post(reply_post, false)
           end
           
           html << '</div>'
           
-          # Si on a dépassé la limite, on met un lien de redirection
+          # 3. LE BOUTON DE SÉCURITÉ Visuelle
           if truncated
             root_post_id = thread['post']['uri'].split('/').last
             bluesky_url = "https://bsky.app/profile/#{actor_did}/post/#{root_post_id}"
             html << <<~HTML
               <div class="thread-truncated-notice">
                 <a href="#{bluesky_url}" target="_blank" class="thread-more-link">
-                  Lire la suite de ce fil sur Bluesky (total: #{sorted_replies.size} posts) →
+                  Lire la suite de ce fil sur Bluesky (total: #{sorted_replies.size + 1} posts) →
                 </a>
               </div>
             HTML
@@ -66,23 +64,74 @@ module Jekyll
         html << '</div>'
         return html
       rescue => e
-        return ""
+        return "<p class='error'>Erreur de chargement du thread Bluesky.</p>"
       end
     end
 
     private
 
+    def flatten_replies(node, actor_did, accumulator)
+      replies = node['replies'] || (node['post'] && node['post']['replies'])
+      return unless replies
+
+      replies.each do |reply|
+        post = reply['post']
+        if post && post['author']['did'] == actor_did
+          accumulator << post
+        end
+        flatten_replies(reply, actor_did, accumulator)
+      end
+    end
+
     def render_post(post, is_root)
       record = post['record']
-      text = record['text'].gsub(/#\w+/, '').strip
-      date = Time.parse(record['createdAt']).strftime('%d/%m/%Y à %H:%M')
+      text_raw = record['text']
       
+      # 1. RECONSTRUCTION EN DIRECT DES LIENS CLIQUABLES (FACETS)
+      formatted_text = text_raw.bytes.to_a
+      
+      if record['facets']
+        # On trie les facettes à l'envers pour ne pas décaler les index textuels lors des insertions HTML
+        sorted_facets = record['facets'].sort_by { |f| -(f['index']['byteStart'] rescue 0) }
+        
+        sorted_facets.each do |facet|
+          next unless facet['features']
+          
+          facet['features'].each do |feature|
+            # Si la facette est un lien web
+            if feature['$type'] == 'app.bsky.richtext.facet#link'
+              url = feature['uri']
+              b_start = facet['index']['byteStart']
+              b_end = facet['index']['byteEnd']
+              
+              # Extraction du texte d'ancrage en octets
+              anchor_bytes = formatted_text[b_start...b_end]
+              anchor_text = anchor_bytes.pack('C*').force_encoding('UTF-8')
+              
+              # Génération de la balise HTML propre ouvrant dans un nouvel onglet
+              html_link = "<a href='#{url}' target='_blank' rel='noopener noreferrer'>#{anchor_text}</a>"
+              
+              # Remplacement dans le tableau d'octets original
+              formatted_text[b_start...b_end] = html_link.bytes.to_a
+            end
+          end
+        end
+      end
+      
+      # Conversion finale du tableau d'octets modifié vers du texte HTML exploitable
+      text_html = formatted_text.pack('C*').force_encoding('UTF-8')
+
+      # Nettoyage des résidus de hashtags textuels
+      text_html = text_html.gsub(/#\w+/, '').strip
+      
+      date = Time.parse(record['createdAt']).strftime('%d/%m/%Y à %H:%M')
       card_class = is_root ? "thread-post-root" : "thread-post-reply"
       
+      # 2. EXTRACTION ET AFFICHAGE DES IMAGES
       img_html = ""
       if post['embed'] && post['embed']['images']
         img_url = post['embed']['images'][0]['thumb']
-        img_html = "<div class='thread-img'><img src='#{img_url}' alt=''></div>"
+        img_html = "<div class='thread-img'><img src='#{img_url}' alt='Illustration Infor Jeunes'></div>"
       end
 
       <<~HTML
@@ -93,7 +142,7 @@ module Jekyll
           </div>
           <div class="thread-body">
             #{img_html}
-            <div class="thread-text">#{text}</div>
+            <div class="thread-text">#{text_html}</div>
           </div>
         </div>
       HTML

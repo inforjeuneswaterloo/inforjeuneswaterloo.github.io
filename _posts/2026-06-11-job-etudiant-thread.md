@@ -15,4 +15,4 @@ tags:
   - Contrat
   - Fiscalité
 ---
-{% bsky_thread 3mnz44fzrak22 %}
+{% mastodon_thread 116731471641151047%}
