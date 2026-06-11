@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: post-single
 title: Job étudiant - Fiscalité
 date: 2025-02-14
 slug: job-etudiant-fiscalite
 categories: 
   - Travail
+  - Job étudiant
 tags: 
   - Carte-info
   - Job étudiant
