@@ -1,12 +1,645 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44psorb2c",
+      "cid": "bafyreifjfr2rsqgyrz25fycr6jblvubfmylmnolnci6alsevna6ywnybxi",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:32.278Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour obtenir un visa étudiant, les candidats doivent prouver qu'ils disposent de moyens de subsistance suffisants. Jusqu'à...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicssbydd6qgig2w6t44etcy2jjxdw7t2ut2j4we7ye3hlsnhkc2c4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 281844
+            },
+            "title": "La ministre Van Bossuyt augmente le seuil financier pour les étudiants non européens - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/la-ministre-van-bossuyt-augmente-le-seuil-financier-pour-les-etudiants-non-europeens-11688804"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/rk0FURL"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ScC10Pd"
+              }
+            ],
+            "index": {
+              "byteEnd": 312,
+              "byteStart": 297
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreid5raj7brq6tf2phaav3czkidbvdk5xnycgefmjnnhukaphz4lgzu",
+            "commit": {
+              "cid": "bafyreifo2l6qtzmuyamcp7hnb45t7lpvxr2ydw2vthca62cgnfzg7lemwq",
+              "rev": "3mnz44ngba32e"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44ng2fd2e",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Etudiants étrangers\n\nRessortissant EEE : rien à faire. Si ❌️ EEE : être autorisé à séjourner pour étudier & obtenir permis unique (Commune).  Pour permis : inscription au registre des étrangers\nℹ️ Max 20h/sem sauf pendant vacances \nFin du 🧵 Questions ? ➡️  buff.ly/rk0FURL \nbuff.ly/ScC10Pd"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/la-ministre-van-bossuyt-augmente-le-seuil-financier-pour-les-etudiants-non-europeens-11688804",
+          "title": "La ministre Van Bossuyt augmente le seuil financier pour les étudiants non européens - RTBF Actus",
+          "description": "Pour obtenir un visa étudiant, les candidats doivent prouver qu'ils disposent de moyens de subsistance suffisants. Jusqu'à...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicssbydd6qgig2w6t44etcy2jjxdw7t2ut2j4we7ye3hlsnhkc2c4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:35.766Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44ng2fd2e",
+      "cid": "bafyreid5raj7brq6tf2phaav3czkidbvdk5xnycgefmjnnhukaphz4lgzu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:32.118Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour prendre un enfant ou une autre personne à charge, l’une des conditions est que ses ressources nettes ne dépassent pas un certain montant.",
+            "title": "Ressources nettes",
+            "uri": "https://fin.belgium.be/fr/particuliers/declaration-impot/situation-personnelle/personnes-a-charge/ressources-nettes"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/zlS1Z9S"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreiear2rpx5yfg7k4743cz7dk2fmirtxo7yq64qn7nxldz3or5d7syu",
+            "commit": {
+              "cid": "bafyreiejgfg6twebjy7r5bbntnd2majqiku2izd6tgcsy2axgmholvdcai",
+              "rev": "3mnz44nbcdt2h"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44nb3j32h",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Fiscalité\n\nFiscalement à charge ➡️  3 cond. cumul.\n- Faire partie du ménage au 01/01 de l'année concernée\n- Revenus ❌️  charges pros déductibles\n- Ressources nettes < plafond fixé par fisc\nℹ️ Calculateur de ressources nettes ⬇️ \nbuff.ly/zlS1Z9S"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://fin.belgium.be/fr/particuliers/declaration-impot/situation-personnelle/personnes-a-charge/ressources-nettes",
+          "title": "Ressources nettes",
+          "description": "Pour prendre un enfant ou une autre personne à charge, l’une des conditions est que ses ressources nettes ne dépassent pas un certain montant."
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:32.368Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44nb3j32h",
+      "cid": "bafyreiear2rpx5yfg7k4743cz7dk2fmirtxo7yq64qn7nxldz3or5d7syu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:31.957Z",
+        "reply": {
+          "parent": {
+            "cid": "bafyreidxkfn7vvcngz7djy7agbwbecuc7xwybpna6derergl62ssth2lhi",
+            "commit": {
+              "cid": "bafyreiey6jrbu3mvmdfost3lc2vfi2nnzbqoihivo6dzfovnsqptbpieji",
+              "rev": "3mnz44mdq5222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44mdlas22",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Allocations familiales \n\n- U18 : inconditionnelles ➡️ pas de limite d'heures de travail\n- 18+ : si dépassement 650h/an ➡️  application du plafond de 240h/trim. Si > plafond ➡️ suspension des alloc. familiales pour le trimestre entier. \nℹ️ Règle 240/trim pas d'application pour 07,08,09 si reprise études"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:32.094Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44mdlas22",
+      "cid": "bafyreidxkfn7vvcngz7djy7agbwbecuc7xwybpna6derergl62ssth2lhi",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:29.066Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tout ce que tu dois savoir comme étudiant sur un job étudiant, ton quota d'heures, l'impact sur allocations et impôts.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifvw7ywtvsxibzd7mymwelo6gjhkaiktp5g2dyhkyg5yjtjpgjldu"
+              },
+              "mimeType": "image/png",
+              "size": 22736
+            },
+            "title": "Accueil | Student At Work",
+            "uri": "https://www.studentatwork.be/fr/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/KBPL9nX"
+              }
+            ],
+            "index": {
+              "byteEnd": 342,
+              "byteStart": 327
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreidjkjpvjg2rgmuaup5r7kevqllai2wyyhmkhs6xk7fgbostlfilum",
+            "commit": {
+              "cid": "bafyreiblbf4crsm55ynxsefm24dodkpwqjy4erxncyejhwfj4owtozsbee",
+              "rev": "3mnz44jmjzd2h"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44jme5t2h",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Cotisations sociales \n\nTaux réduit (2,71%) ➡️  650h/an.  Apd 651e ➡️  Taux normal (13,07%). \n⚠️ Dépassement ➡️  impact s/ alloc. familiales.\nℹ️ Travail pour les besoins du ménage (8h/semaine) ➡️  ❌️ cotisations. Horeca : cotisations réduites ➡️  50 jours \nℹ️ Vérif quota heures ⬇️ \nbuff.ly/KBPL9nX"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.studentatwork.be/fr/",
+          "title": "Accueil | Student At Work",
+          "description": "Tout ce que tu dois savoir comme étudiant sur un job étudiant, ton quota d'heures, l'impact sur allocations et impôts.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifvw7ywtvsxibzd7mymwelo6gjhkaiktp5g2dyhkyg5yjtjpgjldu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:32.073Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44jme5t2h",
+      "cid": "bafyreidjkjpvjg2rgmuaup5r7kevqllai2wyyhmkhs6xk7fgbostlfilum",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:27.186Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "“Nos jeunes ne sont pas une main-d’œuvre gratuite.” Céline, mère d’une adolescente de 19 ans, dénonce une pratique illégale encore trop répandue: la période d’essai non rémunérée pour les étudiants.…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiep7w2swhzqjn22vwiywfiimyyzukomi2x6wt4zil7djsvgztdnza"
+              },
+              "mimeType": "image/jpeg",
+              "size": 62886
+            },
+            "title": "“Une pratique inacceptable”: la colère d’une maman après la journée d’essai non payée de sa fille étudiante",
+            "uri": "https://buff.ly/tPf112V"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/tPf112V"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreihd736rurwoituqcbdgkjr3atgppd47qu6ppnwa6cgxpyvrtamsl4",
+            "commit": {
+              "cid": "bafyreiemznrgj6llqafxtgigb3hhx6iigbbdswnh6uam7rad2vcitunp2e",
+              "rev": "3mnz44hqv4k2e"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44hqqac2e",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Le contrat\n\n- ⚠️ Obligatoire\n- Signé au plus tard le 1er jour de travail\nLes 3 premiers jours sont considérés comme une période d'essai : le contrat peut être rompu sans préavis par les parties.  ⚠️ Les \"journées d'essai\" non rémunérées sont illégales.\nbuff.ly/tPf112V"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://buff.ly/tPf112V",
+          "title": "“Une pratique inacceptable”: la colère d’une maman après la journée d’essai non payée de sa fille étudiante",
+          "description": "“Nos jeunes ne sont pas une main-d’œuvre gratuite.” Céline, mère d’une adolescente de 19 ans, dénonce une pratique illégale encore trop répandue: la période d’essai non rémunérée pour les étudiants.…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiep7w2swhzqjn22vwiywfiimyyzukomi2x6wt4zil7djsvgztdnza"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:29.173Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44hqqac2e",
+      "cid": "bafyreihd736rurwoituqcbdgkjr3atgppd47qu6ppnwa6cgxpyvrtamsl4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:24.566Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Il fallait attendre la publication de cet arrêté royal pour que tous les jeunes de 15 ans – y compris ceux qui sont...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiepnphzsstowy5uxgeu3corng3tolba563o62kpol2mmk7rcrhqcq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 265738
+            },
+            "title": "Emploi : les fonctions accessibles aux étudiants jobistes âgés de 15 ans ont été précisées - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/emploi-les-fonctions-accessibles-aux-etudiants-jobistes-ages-de-15-ans-ont-ete-precisees-11720868"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/iW5exvb"
+              }
+            ],
+            "index": {
+              "byteEnd": 208,
+              "byteStart": 193
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+            "commit": {
+              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
+              "rev": "3mnz44fzx4222"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "Age minimal\n\n15 ans aux conditions suivantes :\n- Pas pendant les heures de cours.  2/j pendant les jours d'école, 8h/j les autres jours\n- Travail entre 20h et 06h interdit\n- Tâches légères\nbuff.ly/iW5exvb"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/emploi-les-fonctions-accessibles-aux-etudiants-jobistes-ages-de-15-ans-ont-ete-precisees-11720868",
+          "title": "Emploi : les fonctions accessibles aux étudiants jobistes âgés de 15 ans ont été précisées - RTBF Actus",
+          "description": "Il fallait attendre la publication de cet arrêté royal pour que tous les jeunes de 15 ans – y compris ceux qui sont...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiepnphzsstowy5uxgeu3corng3tolba563o62kpol2mmk7rcrhqcq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:27.171Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
+      "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T11:18:24.197Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Centre de contact Le Centre de contact est accessible :",
+            "title": "Directions régionales du Contrôle des lois sociales | SPF Emploi - Travail et Concertation sociale",
+            "uri": "https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Travail"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 291
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "JobEtudiant"
+              }
+            ],
+            "index": {
+              "byteEnd": 312,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "🧵  Job étudiant \n\nPas de définition légale du 'statut étudiant'.  Le principe : étudier = activité principale.  Un doute ? Contacte le CLS\n⚠️ Exclusions : \n- Travail depuis 12 mois (ininterrompus) c/ même employeur\n- en cours du soir ou suivant enseignement à horaire réduit\n#Travail #JobEtudiant"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions",
+          "title": "Directions régionales du Contrôle des lois sociales | SPF Emploi - Travail et Concertation sociale",
+          "description": "Centre de contact Le Centre de contact est accessible :"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T11:18:24.665Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmwdydsh672q",
       "cid": "bafyreibla5pzop7yq4mqdsph6nrr4nm527ftx4faa7kztqshyqbhabd3yu",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -108,7 +741,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -246,7 +879,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -356,7 +989,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -490,7 +1123,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -624,7 +1257,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -783,7 +1416,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1026,7 +1659,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1118,7 +1751,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1197,7 +1830,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1288,7 +1921,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1366,7 +1999,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1456,7 +2089,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1590,7 +2223,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1716,7 +2349,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1818,7 +2451,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -1935,7 +2568,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2040,7 +2673,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2130,7 +2763,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2220,7 +2853,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2364,7 +2997,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2442,7 +3075,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2544,7 +3177,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2706,7 +3339,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2858,7 +3491,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -2960,7 +3593,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3074,7 +3707,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3152,7 +3785,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3230,7 +3863,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3320,7 +3953,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3447,7 +4080,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3537,7 +4170,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3615,7 +4248,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3705,7 +4338,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3843,7 +4476,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -3945,7 +4578,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4047,7 +4680,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4125,7 +4758,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4227,7 +4860,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4341,7 +4974,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4455,7 +5088,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4545,7 +5178,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4659,7 +5292,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4761,7 +5394,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4851,7 +5484,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -4978,7 +5611,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5080,7 +5713,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5182,7 +5815,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5284,7 +5917,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5386,7 +6019,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5477,7 +6110,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5591,7 +6224,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5725,7 +6358,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -5859,7 +6492,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6005,7 +6638,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6107,7 +6740,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6209,7 +6842,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6323,7 +6956,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6450,7 +7083,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6552,7 +7185,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6616,7 +7249,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6694,7 +7327,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6772,7 +7405,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6862,7 +7495,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -6964,7 +7597,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7066,7 +7699,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7156,7 +7789,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7246,7 +7879,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7336,7 +7969,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7477,7 +8110,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7594,7 +8227,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7660,7 +8293,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7754,7 +8387,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7835,7 +8468,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -7961,7 +8594,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8078,7 +8711,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8183,7 +8816,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8261,7 +8894,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8375,7 +9008,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8434,7 +9067,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8524,7 +9157,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8614,7 +9247,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8704,7 +9337,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8782,7 +9415,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8860,7 +9493,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -8962,7 +9595,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9076,7 +9709,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9178,7 +9811,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9268,7 +9901,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9394,7 +10027,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9497,7 +10130,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9549,7 +10182,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9663,7 +10296,7 @@
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
+        "displayName": "MTTS : Maintenant Tu Sais !",
         "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
         "associated": {
           "activitySubscription": {
@@ -9775,746 +10408,6 @@
       "likeCount": 1,
       "quoteCount": 0,
       "indexedAt": "2025-06-25T13:17:48.338Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrzgdkhwqs26",
-      "cid": "bafyreidcccjc7tukynxwve6k72eaifdff2ducmzzu62e4ogvbibugnc2om",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-06-20T06:35:53.489Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici"
-              },
-              "mimeType": "image/jpeg",
-              "size": 154634
-            },
-            "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
-            "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "TechFail"
-              }
-            ],
-            "index": {
-              "byteEnd": 278,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dsImwKY"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise",
-          "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
-          "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-06-20T06:35:57.239Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrvcc6yjuq2k",
-      "cid": "bafyreih3l2ru5d5x6iiwkxlkq7pqjkmmhtxkwhvvfe4jufqx5fw2onee3q",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-06-18T15:12:54.901Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm"
-              },
-              "mimeType": "image/jpeg",
-              "size": 61179
-            },
-            "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
-            "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kKSfgPf"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 290
-            }
-          }
-        ],
-        "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/",
-          "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
-          "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-06-18T15:12:57.054Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrfdcxolt42i",
-      "cid": "bafyreibimwcjemlr3qffzyrgfqrafdm4lizbpanec6dx6e4d5wqhtngyx4",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-06-12T06:48:38.413Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi"
-              },
-              "mimeType": "image/jpeg",
-              "size": 231394
-            },
-            "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/session-d-examens-comment-se-servir-de-l-intelligence-artificielle-pour-reviser-avertissements-et-mode-d-emploi-11560238"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "IA"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 282,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/zkYoL9C"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          }
-        ],
-        "text": "L’IA est une alliée à condition de bien l’utiliser !  \nElle peut t’aider à résumer tes cours, créer des quiz ou reformuler des concepts difficiles.\n❗l’IA n’est pas infaillible.\n💡 utilise l’IA pour tester tes connaissances, pas pour tricher.  \n#IA #Enseignement \nbuff.ly/zkYoL9C"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/session-d-examens-comment-se-servir-de-l-intelligence-artificielle-pour-reviser-avertissements-et-mode-d-emploi-11560238",
-          "title": "Session d’examens : comment se servir de l’intelligence artificielle pour réviser ? Avertissements et mode d’emploi - RTBF Actus",
-          "description": "Sur le campus de l’Umons, attablés au 'resto U' ou de passage sur la Plaine de Nimy, les étudiants sont unanimes : ils...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieinobpyuqlzemvbszdlmngjgbikalobelcmmcb4e3umee5pj5ezi"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-06-12T06:48:40.749Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lqndedn2c52b",
-      "cid": "bafyreih6njrvop6mprcw3lbeqvechmuzfxdm6hur22gahinz6n6oyn35pe",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-06-02T17:45:30.775Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Étant donné le nombre de jeunes consommateurs de tabac, l’Organisation mondiale de la Santé a lancé samedi un appel...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibivhkjn24pukeft6moigg6e7skzuqx6dqtddjgv6w2yqwfvdgjj4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 188919
-            },
-            "title": "L’Organisation mondiale de la Santé veut interdire les produits de tabac aromatisés - RTBF Actus",
-            "uri": "https://buff.ly/YXgCsN5"
-          }
-        },
-        "text": "Dans le cadre de sa lutte contre le tabagisme, l'OMS propose l'interdiction mondiale des produits de tabacs aromatisés.  Elle pointe les arômes menthol, chewing gum et barbe à papa dont l'objectif est d'appâter les jeunes. Tout comme le packaging et la publicité."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/YXgCsN5",
-          "title": "L’Organisation mondiale de la Santé veut interdire les produits de tabac aromatisés - RTBF Actus",
-          "description": "Étant donné le nombre de jeunes consommateurs de tabac, l’Organisation mondiale de la Santé a lancé samedi un appel...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibivhkjn24pukeft6moigg6e7skzuqx6dqtddjgv6w2yqwfvdgjj4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-06-02T17:45:33.453Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybyggn72i",
-      "cid": "bafyreid6vxiv2uv7y33p25qwxhtp7rvv5jytpi5vu2r3znus6smidb3gbi",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-05-27T05:44:45.615Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Cette publication intervient alors que Jacqueline Galant, ministre en charge des Médias au sein de la Fédération Wallonie...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreidrf4ydkm6vxjd2pk5egedydyv6z7ocmfel3l3i47fa5sj5lmwcqy"
-              },
-              "mimeType": "image/jpeg",
-              "size": 305052
-            },
-            "title": "L'efficacité de l'interdiction des écrans ou des réseaux sociaux n'est pas démontrée, selon l'OCDE - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/l-efficacite-de-l-interdiction-des-ecrans-ou-des-reseaux-sociaux-n-est-pas-demontree-selon-l-ocde-11547251"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RéseauxSociaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 61,
-              "byteStart": 45
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 259
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "rs"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 265
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Internet"
-              }
-            ],
-            "index": {
-              "byteEnd": 278,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/5IvhmB7"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          }
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreifvk3xpypubgzy6pjxxfqy6ndy3hwtnm2blvqtitypgttbh57trta",
-            "commit": {
-              "cid": "bafyreib2d6vkvvqjfvy67slbrpymrpmuo4zfcz62a4l2uclzoluwlgoygm",
-              "rev": "3lq4ybwcqos25"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybwcfx225",
-            "validationStatus": "valid"
-          },
-          "root": {
-            "cid": "bafyreibgo4tada72zftd5lvghoj6norky24yqen234sz7ssdztqmwa2u4y",
-            "commit": {
-              "cid": "bafyreib5csnfnamcwnclooeppq5wdt3xng6uszxigeo4b6bkopbpq3qgb4",
-              "rev": "3lq4ybtrf7b24"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybtqlsr24",
-            "validationStatus": "valid"
-          }
-        },
-        "text": "Selon l’OCDE, interdire les écrans ou les #RéseauxSociaux n’a pas prouvé son efficacité. Le contexte, le contenu et le temps d’usage comptent davantage. Une approche éducative et équilibrée serait plus bénéfique que des interdictions strictes.\n#tech #rs #Internet\n\nbuff.ly/5IvhmB7"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/l-efficacite-de-l-interdiction-des-ecrans-ou-des-reseaux-sociaux-n-est-pas-demontree-selon-l-ocde-11547251",
-          "title": "L'efficacité de l'interdiction des écrans ou des réseaux sociaux n'est pas démontrée, selon l'OCDE - RTBF Actus",
-          "description": "Cette publication intervient alors que Jacqueline Galant, ministre en charge des Médias au sein de la Fédération Wallonie...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidrf4ydkm6vxjd2pk5egedydyv6z7ocmfel3l3i47fa5sj5lmwcqy"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-05-27T05:44:48.450Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybwcfx225",
-      "cid": "bafyreifvk3xpypubgzy6pjxxfqy6ndy3hwtnm2blvqtitypgttbh57trta",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-05-27T05:44:42.648Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Au-delà de la question de la pertinence d’une telle interdiction (certains plaident avant tout pour une éducation aux...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreib3rgdy3e7utingnouluo36otlofaql5xktpv63bums2ecexrmug4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 202596
-            },
-            "title": "Interdire les réseaux sociaux avant 15 ans : les limites du projet en 4 questions - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/interdire-les-reseaux-sociaux-avant-15-ans-les-limites-du-projet-en-4-questions-11546854"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RéseauxSociaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 37,
-              "byteStart": 21
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/lPiJNMG"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 296
-            }
-          }
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreibgo4tada72zftd5lvghoj6norky24yqen234sz7ssdztqmwa2u4y",
-            "commit": {
-              "cid": "bafyreib5csnfnamcwnclooeppq5wdt3xng6uszxigeo4b6bkopbpq3qgb4",
-              "rev": "3lq4ybtrf7b24"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybtqlsr24",
-            "validationStatus": "valid"
-          },
-          "root": {
-            "cid": "bafyreibgo4tada72zftd5lvghoj6norky24yqen234sz7ssdztqmwa2u4y",
-            "commit": {
-              "cid": "bafyreib5csnfnamcwnclooeppq5wdt3xng6uszxigeo4b6bkopbpq3qgb4",
-              "rev": "3lq4ybtrf7b24"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybtqlsr24",
-            "validationStatus": "valid"
-          }
-        },
-        "text": "L’interdiction des #RéseauxSociaux avant 15 ans soulève des questions: légalité (proportionnalité de la mesure), définition du réseau social floue, difficulté de vérifier l'âge.\nLa réglementation européenne sur les plates-formes en ligne (#DSA) n'impose pas le contrôle de l'âge.\nbuff.ly/lPiJNMG"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/interdire-les-reseaux-sociaux-avant-15-ans-les-limites-du-projet-en-4-questions-11546854",
-          "title": "Interdire les réseaux sociaux avant 15 ans : les limites du projet en 4 questions - RTBF Actus",
-          "description": "Au-delà de la question de la pertinence d’une telle interdiction (certains plaident avant tout pour une éducation aux...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib3rgdy3e7utingnouluo36otlofaql5xktpv63bums2ecexrmug4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-05-27T05:44:45.745Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lq4ybtqlsr24",
-      "cid": "bafyreibgo4tada72zftd5lvghoj6norky24yqen234sz7ssdztqmwa2u4y",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "PaprJm !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-05-27T05:44:39.932Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "L’Australie va interdire les réseaux sociaux aux moins de seize ans en novembre prochain. Et si l’Europe emboîtait le...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreihak62gy57xok6fxbhuoblgxv3bftb75dnqxmi24i3bw22mizt2by"
-              },
-              "mimeType": "image/jpeg",
-              "size": 207347
-            },
-            "title": "Jacqueline Galant veut interdire les réseaux sociaux aux moins de 15 ans : 'Ce n’est pas une punition mais une protection de nos enfants' - RTBF Actus",
-            "uri": "https://buff.ly/4bLtv8z"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "RéseauxSociaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 61,
-              "byteStart": 45
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "cyberharcèlement"
-              }
-            ],
-            "index": {
-              "byteEnd": 220,
-              "byteStart": 202
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Internet"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 290
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "rs"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Jacqueline Galant propose l'interdiction des #RéseauxSociaux aux moins de 15 ans. Elle affirme que ce n’est pas une punition mais une mesure de protection face aux risques d'une exposition précoce: #cyberharcèlement, exposition à des contenus inappropriés ou troubles mentaux.\n#tech #Internet #rs"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/4bLtv8z",
-          "title": "Jacqueline Galant veut interdire les réseaux sociaux aux moins de 15 ans : 'Ce n’est pas une punition mais une protection de nos enfants' - RTBF Actus",
-          "description": "L’Australie va interdire les réseaux sociaux aux moins de seize ans en novembre prochain. Et si l’Europe emboîtait le...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreihak62gy57xok6fxbhuoblgxv3bftb75dnqxmi24i3bw22mizt2by"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-05-27T05:44:42.747Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

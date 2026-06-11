@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnzf6t4ftv2n",
+      "cid": "bafyreigah3av5tcsxvsucg2q2w2msutoq7kcta4drklvolhtehy66qzmda",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T14:00:48.764Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=33b25ed71d86e030&q=etudiant&l=brabant+wallon&tk=1jqotg4lim2dd800&from=ja&alid=698c88431d6abb292039269a&xpse=SoAB67I3ibRxB9T4iR0LbzkdCdPP&xfps=a1b9fd31-13db-4b4f-8bc3-7d3b3aec4aa6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqotg4lim2dd800&xkcb=SoAq67M3iYzOmBU60x0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EGk3tU8"
+              }
+            ],
+            "index": {
+              "byteEnd": 261,
+              "byteStart": 246
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 262
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente chaussures Maniet Nivelles\nProfil\n- Orientation client\n- Passion pour la mode\n- Travail en équipe\n- Capacité d'adaptation et flexibilité\n- Première expérience retail et service à la clientèle\n- Enthousiasme et motivation\nbuff.ly/EGk3tU8\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=33b25ed71d86e030&q=etudiant&l=brabant+wallon&tk=1jqotg4lim2dd800&from=ja&alid=698c88431d6abb292039269a&xpse=SoAB67I3ibRxB9T4iR0LbzkdCdPP&xfps=a1b9fd31-13db-4b4f-8bc3-7d3b3aec4aa6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqotg4lim2dd800&xkcb=SoAq67M3iYzOmBU60x0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T14:00:49.360Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnzbzxsifk2y",
+      "cid": "bafyreifejj5hmsdraesrsgxoxshbz2fxhtpb4fzeijps6qxoaa27dxm5ve",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-11T13:04:24.686Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=19d5c08896e22f92&q=etudiant&l=brabant+wallon&tk=1jqotg4lim2dd800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCe67I3iba3fbTNcR0LbzkdCdPP&xfps=5961f561-d210-4e27-8a3d-ef82204c9a02&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqotg4lim2dd800&xkcb=SoB367M3iYzOmBU60x0PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/jRLOUcg"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 270
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 286
+            }
+          }
+        ],
+        "text": "Etudiant(e) Night&Day Nivelles\n- Accueillir et conseiller les clients avec le sourire\n- Réapprovisionner les rayons\n- Ranger et organiser les livraisons reçues\n- Assurer la gestion de la caisse avec rigueur\n- Veiller à la propreté et à l’ordre du point de vente \nbuff.ly/jRLOUcg\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=19d5c08896e22f92&q=etudiant&l=brabant+wallon&tk=1jqotg4lim2dd800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCe67I3iba3fbTNcR0LbzkdCdPP&xfps=5961f561-d210-4e27-8a3d-ef82204c9a02&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqotg4lim2dd800&xkcb=SoB367M3iYzOmBU60x0PbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-11T13:04:25.067Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnwvgsfgr42n",
       "cid": "bafyreihh5qz6n5akqv2bncc2sek64oobx62o3t6bjzhpqusymaucbgy3hm",
       "author": {
@@ -8279,175 +8439,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-21T12:11:08.350Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyv3hr6hc2e",
-      "cid": "bafyreibkw6rsgwxf35gc2xmzr4wguiiku2c7rqir6p4k4jdfq4f7ahlxym",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T11:31:49.811Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8ce1c5578365193b&q=Etudiants&l=Brabant-wallon&tk=1jmdtikdh2h44000&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDl67I3kXXRHuzCVB0LbzkdCdPP&xfps=eee8197f-3a16-4b83-8f32-75b2c9a9d0b6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmdtikdh2h44000&xkcb=SoDH67M3kNzFR1Wjcx0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dBimR9f"
-              }
-            ],
-            "index": {
-              "byteEnd": 271,
-              "byteStart": 256
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 278,
-              "byteStart": 272
-            }
-          }
-        ],
-        "text": "Job étudiant - GUAPA JUICE Nivelles\n- Production et vente de jus frais et smoothies\n- Type d'emploi : CDD\n- Rémunération : 15,20€ par heure \n- Disponibilités exigées : minimum 2 jours par semaine durant toute l'année scolaire + vacances scolaires.\nbuff.ly/dBimR9f\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8ce1c5578365193b&q=Etudiants&l=Brabant-wallon&tk=1jmdtikdh2h44000&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoDl67I3kXXRHuzCVB0LbzkdCdPP&xfps=eee8197f-3a16-4b83-8f32-75b2c9a9d0b6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmdtikdh2h44000&xkcb=SoDH67M3kNzFR1Wjcx0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-21T11:31:50.344Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjmb4c7qks2v",
-      "cid": "bafyreidgdtufc5luz3j3f5xfbdiw5fups4euo4lpoj3ww7l6jjmfq7qpnm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-16T11:02:25.254Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant Assistant médical administratif",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/LTYAlV5"
-              }
-            ],
-            "index": {
-              "byteEnd": 189,
-              "byteStart": 174
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 197,
-              "byteStart": 191
-            }
-          }
-        ],
-        "text": "Etudiant Assistant médical administratif à Wavre\nTes missions principales :\n- l'accueil\n- la téléphonie\n- la gestion des mails, des agendas\n- la gestion administrative. \nbuff.ly/LTYAlV5 \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5672097?JobId=5672097&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Etudiant Assistant médical administratif",
-          "description": "Tu es étudiant, à la recherche d'un emploi dans le secteur administratif pour cet été ?Express Medical te propose une belle opportunité chez l'un de ses partenaires, une Mutualité.Tes missions principales...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-16T11:02:27.120Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
