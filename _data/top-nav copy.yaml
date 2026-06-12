@@ -1,0 +1,9 @@
+- title: "BLOG"
+  url: '/posts/'
+  class: btn btn-sm btn-primary me-2 text-white
+- title: "HELLO WORLD!"
+  url: '/yotm/'
+  class: btn btn-sm btn-success me-2 text-white
+
+
+

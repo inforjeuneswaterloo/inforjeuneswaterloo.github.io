@@ -1,10 +1,17 @@
 require 'net/http'
 require 'json'
 require 'uri'
-require 'cgi' # Nécessaire pour décoder les caractères HTML
+require 'cgi'
 
 module Jekyll
   class MastodonThreadTag < Liquid::Tag
+    # Cache global en mémoire pour éviter les requêtes HTTP redondantes durant le build
+    @cache = {}
+
+    class << self
+      attr_accessor :cache
+    end
+
     def initialize(tag_name, status_id, tokens)
       super
       @status_id = status_id.strip
@@ -12,9 +19,13 @@ module Jekyll
 
     def render(context)
       instance = "mastodon.social"
-      # Configuration via ton ID de compte Mastodon exact
       author_account_id = "110700922857450296"
       
+      # Si ce thread a déjà été téléchargé durant ce build, on renvoie directement le HTML stocké
+      if MastodonThreadTag.cache.key?(@status_id)
+        return MastodonThreadTag.cache[@status_id]
+      end
+
       root_url = "https://#{instance}/api/v1/statuses/#{@status_id}"
       context_url = "https://#{instance}/api/v1/statuses/#{@status_id}/context"
       
@@ -36,7 +47,6 @@ module Jekyll
           context_data = JSON.parse(res_context.body)
           descendants = context_data['descendants'] || []
           
-          # Filtrage sécurisé via ton ID de compte
           author_replies = descendants.select do |reply|
             reply['account']['id'].to_s == author_account_id
           end
@@ -44,7 +54,6 @@ module Jekyll
           if author_replies.any?
             html << '<div class="thread-replies-wrapper">'
             
-            # Limite fixée à 5 pour respecter ton design
             max_replies = 5
             truncated = author_replies.size > max_replies
             
@@ -54,7 +63,6 @@ module Jekyll
             
             html << '</div>'
             
-            # Bouton de coupure si le thread dépasse la limite
             if truncated
               mastodon_url = root_post['url']
               html << <<~HTML
@@ -69,7 +77,11 @@ module Jekyll
         end
         
         html << '</div>'
+        
+        # Sauvegarde du résultat dans le cache avant de le retourner
+        MastodonThreadTag.cache[@status_id] = html
         return html
+
       rescue => e
         return "<p class='error'>Erreur de chargement du thread Mastodon.</p>"
       end
@@ -80,21 +92,16 @@ module Jekyll
     def render_post(post, is_root)
       text = post['content']
       
-      # 1. DÉCODAGE INITIAL 
-      # On transforme les &#39; en vraies apostrophes avant que le nettoyeur de hashtags ne passe
       text = CGI.unescapeHTML(text)
 
-      # 2. NETTOYAGE DES HASHTAGS
       text = text.gsub(/<a[^>]*class="[^"]*hashtag[^"]*"[^>]*>#<span>\w+<\/span><\/a>/i, '')
       text = text.gsub(/#\w+/, '').strip
 
-      # 3. SÉCURITÉ DES LIENS (Ouverture dans un nouvel onglet)
       text = text.gsub(/<a /i, '<a target="_blank" rel="noopener noreferrer" ')
 
       date = Time.parse(post['created_at']).strftime('%d/%m/%Y à %H:%M')
       card_class = is_root ? "thread-post-root" : "thread-post-reply"
       
-      # Extraction des images du thread
       img_html = ""
       if post['media_attachments'] && post['media_attachments'].any?
         img_url = post['media_attachments'][0]['preview_url'] || post['media_attachments'][0]['url']

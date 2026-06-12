@@ -50,7 +50,6 @@ module Jekyll
 
             html << <<~HTML
               <div class="mastodon-post-card">
-                #{image_header}
                 <div class="mastodon-card-content">
                   <div class="mastodon-card-header">
                     <div class="header-left">

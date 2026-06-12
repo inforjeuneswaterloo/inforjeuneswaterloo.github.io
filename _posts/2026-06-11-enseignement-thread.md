@@ -1,6 +1,6 @@
 ---
 layout: post-single
-title: "Enseignement"
+title: "Enseignement - Actualités"
 date: 2025-02-14
 slug: enseignement
 categories: 
@@ -8,4 +8,5 @@ categories:
 tags: 
   - Actus
 ---
-{% mastodon_thread 116732057538741515 %}
+
+  {% mastodon_thread 116605743929514183 %}

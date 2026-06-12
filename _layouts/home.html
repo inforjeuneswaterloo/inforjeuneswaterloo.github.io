@@ -30,7 +30,7 @@ layout: fw
               </div>
               {%endif%}
               {% if page.url == '/' %}
-                {% if bluesky_job_feed | size > 0 %}
+                {% if bluesky_job_feed.size > 0 %}
                   {% assign jobs=bluesky_job_feed | slice: 0,3 %}
                   <div class="list-group">
                     {% for job in jobs %}
@@ -54,7 +54,7 @@ layout: fw
             </div>
             <div class="col-sm-12 col-md-6">
               {% if page.url =='/' %}
-                {% if bluesky_top_skeet| size > 0 %}
+                {% if bluesky_top_skeet.size > 0 %}
                   {% include snippets/bsky-top-post.html bsky=site.data.bsky_posts_pinned.posts %}
                 {% endif %}
               {% endif %}
@@ -64,7 +64,7 @@ layout: fw
     </div>
   </div>
   <div class="row mb-4">
-    {%if bluesky_feed | size > 0 %}
+    {%if bluesky_feed.size > 0 %}
       <h5 class="display"><i class="fa-solid fa-bullhorn"></i>&nbsp;Oyez! Oyez!</h5>
       {% if page.url == '/' %}
         {%include snippets/bsky-feed.html bsky=site.data.bluesky_posts.posts limit=5%}

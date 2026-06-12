@@ -1,68 +1,131 @@
 require 'net/http'
 require 'json'
 require 'uri'
+require 'cgi'
 
 module Jekyll
   class MastodonPinnedTag < Liquid::Tag
+    @cache_data = nil
+
+    class << self
+      attr_accessor :cache_data
+    end
+
+    def initialize(tag_name, text, tokens)
+      super
+    end
+
     def render(context)
-      # Configuration
-      account_id = "110700922857450296"
-      base_url = "https://mastodon.social"
-      
+      instance = "mastodon.social"
+      author_account_id = "110700922857450296"
+
+      if MastodonPinnedTag.cache_data
+        return MastodonPinnedTag.cache_data
+      end
+
+      url = "https://#{instance}/api/v1/accounts/#{author_account_id}/statuses?pinned=true"
+
       begin
-        # 1. RÉCUPÉRER LES POSTS ÉPINGLÉS (Mastodon en renvoie une liste)
-        url = "#{base_url}/api/v1/accounts/#{account_id}/statuses?pinned=true"
         uri = URI.parse(url)
         response = Net::HTTP.get_response(uri)
-        
         return "" unless response.code == "200"
-        
+
         pinned_posts = JSON.parse(response.body)
-        return "" if pinned_posts.empty? # Si aucun post n'est épinglé
+        return "" if pinned_posts.empty?
 
-        # On prend le premier post épinglé
-        post = pinned_posts.first
-        content = post['content']
-        date = Date.parse(post['created_at']).strftime('%d/%m/%Y')
+        html = '<div class="mastodon-pinned-container">'
         
-        # 2. NETTOYAGE DU CONTENU (Hashtags et liens internes)
-        content = content.gsub(/<a [^>]*class="[^"]*hashtag[^"]*"[^>]*>#<span>[^<]*<\/span><\/a>/i, '')
-        content = content.gsub(/<a [^>]*>.*?<\/a>/i, '')
-
-        # 3. GESTION DES MÉDIAS ET LIEN
-        destination_url = post['url']
-        img_url = ""
-        title = ""
-        source_name = URI.parse(post['url']).host.sub(/^www\./, '')
-
-        if post['card']
-          destination_url = post['card']['url']
-          title = post['card']['title']
-          img_url = post['card']['image']
-          source_name = URI.parse(destination_url).host.sub(/^www\./, '') rescue source_name
-        elsif post['media_attachments'] && post['media_attachments'].any?
-          img_url = post['media_attachments'][0]['preview_url']
+        pinned_posts.each do |post|
+          html << render_pinned_post(post)
         end
 
-        image_html = img_url && !img_url.empty? ? "<div class='pinned-image'><img src='#{img_url}' alt=''></div>" : ""
+        html << '</div>'
 
-        # 4. GÉNÉRATION DU HTML
-        <<~HTML
-          <div class="pinned-post-container">
-            <div class="pinned-label"><i data-lucide="pin"></i></div>
-            <div class="pinned-content">
-              #{image_html}
-              <div class="pinned-text">
-                #{title.empty? ? '' : "<h3 class='mastodon-title' style='font-size:1rem; margin-bottom:5px;'>#{title}</h3>"}
-                <div class="mastodon-text" style="font-size:0.9rem; line-height:1.4;">#{content}</div>
-                <a href="#{destination_url}" target="_blank" class="pinned-link">En savoir plus sur #{source_name} →</a>
+        MastodonPinnedTag.cache_data = html
+        return html
+
+      rescue => e
+        return "" 
+      end
+    end
+
+    private
+
+    def render_pinned_post(post)
+      content_html = post['content']
+      mastodon_url = post['url']
+
+      # 1. EXTRACTION DU LIEN ET DU TITRE DE LA SOURCE
+      source_url = nil
+      source_title = "Actualité" # Titre par défaut
+
+      if post['card']
+        source_url = post['card']['url']
+        source_title = post['card']['title'] || source_title
+      end
+      
+      if source_url.nil? || source_url.empty?
+        links = content_html.scan(/href="([^"]+)"/)
+        links.each do |l|
+          found_url = l.first
+          unless found_url.include?("mastodon.social") || found_url.include?("/tags/")
+            source_url = found_url
+            break
+          end
+        end
+      end
+      
+      source_url ||= mastodon_url
+
+      # 2. EXTRACTION DE L'IMAGE
+      img_url = nil
+      if post['card'] && post['card']['image']
+        img_url = post['card']['image']
+      elsif post['media_attachments'] && post['media_attachments'].any?
+        img_url = post['media_attachments'][0]['preview_url'] || post['media_attachments'][0]['url']
+      end
+
+      img_html = ""
+      if img_url && !img_url.empty?
+        img_html = <<~HTML
+          <div class="pinned-img">
+            <img src="#{img_url}" alt="Illustration">
+          </div>
+        HTML
+      end
+
+      # 3. NETTOYAGE DU TEXTE
+      clean_text = content_html.gsub(/<br\s*\/?>/, "\n")
+      clean_text = clean_text.gsub(/<\/p>/, "\n\n")
+      clean_text = clean_text.gsub(/<[^>]*>/, "")
+      clean_text = CGI.unescapeHTML(clean_text)
+
+      clean_text = clean_text.gsub(source_url, "") if source_url
+      clean_text = clean_text.gsub(/https?:\/\/[^\s]+/, "")
+      clean_text = clean_text.gsub(/#\w+/, '')
+      clean_text = clean_text.strip
+
+      formatted_paragraphs = clean_text.split("\n\n").reject(&:empty?).map { |p| "<p>#{p.strip}</p>" }.join
+
+      # Structure HTML modifiée avec le Titre inclus
+      <<~HTML
+        <div class="pinned-card">
+          <div class="pinned-main-content">
+            <h3 class="pinned-title">#{source_title}</h3>
+            <div class="pinned-content-wrapper">
+              #{img_html}
+              <div class="pinned-text-area">
+                <div class="pinned-text">
+                  #{formatted_paragraphs}
+                </div>
+                <a href="#{source_url}" target="_blank" rel="noopener noreferrer" class="pinned-more-link">
+                  En savoir plus →
+                </a>
               </div>
             </div>
           </div>
-        HTML
-      rescue => e
-        "" # Discret en cas d'erreur
-      end
+        </div>
+      HTML
     end
   end
 end

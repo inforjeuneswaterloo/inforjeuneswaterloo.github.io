@@ -1,5 +1,5 @@
 ---
-layout: miminal
+layout: minimal
 moto: Informer. Automoniser. Sans condition.
 id: 'ij'
 buttons:
