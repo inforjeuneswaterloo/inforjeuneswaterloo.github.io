@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3modgpmwq5b2x",
+      "cid": "bafyreidpsmmb6haqe5zknbwi24o6rfkqm2t2jxsh3jp6l3epo6zh45nmqu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-15T13:54:43.840Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=6525f92639c626c9&q=etudiant&l=brabant+wallon&tk=1jr3fmujgg4uc800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCG67I3il5J19T4iR0LbzkdCdPP&xfps=daeff1cd-e2cc-4c64-a878-b6233a3208a7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr3fmujgg4uc800&xkcb=SoCT67M3ijXTstA3xL0PbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/LSWDbPD"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant Colporteur de presse Novabos Distribution ⁻ Jodoigne/Waremme/Hélécine \nMissions\n- Préparer la tournée (tri, vérification, organisation parcours)\n- Distribuer la presse (avec une appli GPS) \nRespecter les horaires tôt le matin 4h30 à 8h\nAvantages : GSM, Indemnité km\nbuff.ly/LSWDbPD \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=6525f92639c626c9&q=etudiant&l=brabant+wallon&tk=1jr3fmujgg4uc800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCG67I3il5J19T4iR0LbzkdCdPP&xfps=daeff1cd-e2cc-4c64-a878-b6233a3208a7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr3fmujgg4uc800&xkcb=SoCT67M3ijXTstA3xL0PbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-15T13:54:44.366Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3modgchfdgz24",
+      "cid": "bafyreihbjvj5lfxfelotiw3tlzf3mvdzkhjnueqnoohnx5yhoubbjppieu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-15T13:47:20.050Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/iss-catering-braine-lalleud-employee-de-cuisine-etudiante-braine-lalleud-brabant-wallon/586-8515-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Iv5ZiTz"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 288
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 311,
+              "byteStart": 305
+            }
+          }
+        ],
+        "text": "Employé(e) de cuisine étudiant(e) - Braine l'alleud\nMissions : \n-Préparation des repas\n-Entretien ustensiles, équipements et poste de travail\n-Rangement/stockage du matériel\n-...\nProfil :\n-Motivé/capacité à travailler en équipe.\n-Organisé, ponctuel et soucieux du détail.\n-...\nbuff.ly/Iv5ZiTz \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/iss-catering-braine-lalleud-employee-de-cuisine-etudiante-braine-lalleud-brabant-wallon/586-8515-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-15T13:47:22.265Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnzhotfkt427",
       "cid": "bafyreihctopkkcd4hhrb4gpliy5t3l3oxq76d2t7urlddhnfo5xhu7nccy",
       "author": {
@@ -8270,175 +8439,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-22T13:25:22.758Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjz5zcy7bu2b",
-      "cid": "bafyreibepatrkdii2vpur7j5we5htio7twknakbntn4z6g7ynmvvjhrenq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T14:11:39.251Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-polyvalent-circle-k-nivelles-dir-arlon-nivelles-brabant-wallon/585-16843-4&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/XGrcCz6"
-              }
-            ],
-            "index": {
-              "byteEnd": 173,
-              "byteStart": 158
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 180,
-              "byteStart": 174
-            }
-          }
-        ],
-        "text": "Etudiant polyvalent | Circle K | Nivelles\nTes tâches:\n- encaissement\n- réassort\n- nettoyage\n- réalisation/ préparation de sandwich\n- petite restauration \nbuff.ly/XGrcCz6\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-polyvalent-circle-k-nivelles-dir-arlon-nivelles-brabant-wallon/585-16843-4&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-21T14:11:41.848Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mjyzhkmxbs2b",
-      "cid": "bafyreiapth7j2yww74k32rzty7lxsk4dxbe4mmq5s4baanotgxjjdxloau",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-21T12:50:10.443Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=64b9d56830c7aca9&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCH67I3kX2nkWT5bR0LbzkdCdPP&xfps=f33ca3d4-c445-4ab0-b774-02ce48836a47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAp67M3kTA7_aWn1p0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Qn4zLfC"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 287
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 309,
-              "byteStart": 303
-            }
-          }
-        ],
-        "text": "Job étudiant Ingénieur - IA & Développement Louvain-la-Neuve\n- Pas besoin d'1 maîtrise avancée du marketing digital mais 1 désir profond de comprendre pourquoi les gens achètent et comment un business croît.\n- Profil technique avec 1 intérêt poussé pour le business et l'IA. \nbuff.ly/Qn4zLfC\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=64b9d56830c7aca9&q=etudiant&l=brabant+wallon&tk=1jmj4d07ih0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoCH67I3kX2nkWT5bR0LbzkdCdPP&xfps=f33ca3d4-c445-4ab0-b774-02ce48836a47&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmj4d07ih0up800&xkcb=SoAp67M3kTA7_aWn1p0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-21T12:50:10.847Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
