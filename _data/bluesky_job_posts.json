@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mofo6irdbz2x",
+      "cid": "bafyreic52fonmpnd5bpkzmwf4vhcct7x2nvmdnyiujrozkr3u7scvm5ste",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-16T11:13:37.384Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) pour un renfort de clôtures comptables.Notre client est une fiduciaire familiale située à Chaumont-Gistoux, ...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+              },
+              "mimeType": "image/png",
+              "size": 5817
+            },
+            "title": "Offre d'emploi de Étudiant Comptable à Chaumont-gistoux, Walloon Brabant",
+            "uri": "https://www.roberthalf.com/be/fr/emploi/chaumont-gistoux-walloon-brabant/%C3%A9tudiant-comptable/000512851-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/L43Xdnm"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant(e) comptable Chaumont-Gistoux\n- actuellement en bachelier ou master en comptabilité\n- déjà réalisé un stage en fiduciaire\n- bonnes bases comptables\n- rigoureux, organisé et motivé à apprendre\n- tu aimes le travail en équipe\n- dispo en juillet et une partie d'août  \nbuff.ly/L43Xdnm\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.roberthalf.com/be/fr/emploi/chaumont-gistoux-walloon-brabant/%C3%A9tudiant-comptable/000512851-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
+          "title": "Offre d'emploi de Étudiant Comptable à Chaumont-gistoux, Walloon Brabant",
+          "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) pour un renfort de clôtures comptables.Notre client est une fiduciaire familiale située à Chaumont-Gistoux, ...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-16T11:13:38.962Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mofeggcivd2q",
+      "cid": "bafyreicicnwy6qc4nouol4kybrcxd2h6zlilucixta3leqtnboec2324n4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-16T08:19:06.889Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=291f66ff1c52de53&q=%C3%A9tudiant&l=Waterloo&tk=1jr5rv9ifg2ik800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAi67I3innjR5TNVZ0LbzkdCdPP&xfps=f568e6bb-3fbc-4ed4-abfa-867d08d3f45f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr5rv9ifg2ik800&xkcb=SoCU67M3il_ytjwAQJ0IbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QRbTFZp"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 272
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente Bruxelles\n- Vous renseignez les clients et réalisez des ventes complémentaires en ciblant les besoins\n- Vous vous occupez des encaissements, de la gestion du stock, du réassort, de l'entretien général de la boutique\n- Vous parlez plusieurs langues \nbuff.ly/QRbTFZp\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=291f66ff1c52de53&q=%C3%A9tudiant&l=Waterloo&tk=1jr5rv9ifg2ik800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAi67I3innjR5TNVZ0LbzkdCdPP&xfps=f568e6bb-3fbc-4ed4-abfa-867d08d3f45f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr5rv9ifg2ik800&xkcb=SoCU67M3il_ytjwAQJ0IbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-16T08:19:07.663Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3modgpmwq5b2x",
       "cid": "bafyreidpsmmb6haqe5zknbwi24o6rfkqm2t2jxsh3jp6l3epo6zh45nmqu",
       "author": {
@@ -8261,184 +8430,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-22T14:13:42.347Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3ogp4yh42p",
-      "cid": "bafyreiawdmmo5uusghogq6hclwzz4xg5n22ugcwdq7epv2m55rkgtsw7i4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-22T14:10:47.351Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 112305
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-braine-lalleud-tubize-brabant-wallon/386-42491-1&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/r2m0tt2"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Job étudiant en magasin - Braine-l'Alleud\n- Etudiant.e (avec encore minimum 200 heures disponibles)\n- Vous savez vous déplacer facilement (même les dimanches!)\n- Vous êtes majeur (manipulation d'argent)\n- Une expérience en caisse est indispensable\n- Dispo pendant les fêtes\nbuff.ly/r2m0tt2\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-en-magasin-braine-lalleud-tubize-brabant-wallon/386-42491-1&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-22T14:10:50.150Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3lvg6kgv2q",
-      "cid": "bafyreicr6zvw6tezb72jsjqijo3cstm77uqdkamrq7pnf767t3e25vjiby",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-22T13:25:21.672Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ?Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique moderne et organisé...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Préparateur commandes - job étudiant",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5682756?JobId=5682756&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ATmSMa2"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 291
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 313,
-              "byteStart": 307
-            }
-          }
-        ],
-        "text": "Etudiant préparateur de commandes H/F Nivelles\n- Préparation des commandes avec précision\n- Emballage soigné des produits santé & bien-être\n- Contrôle qualité avant expédition\n- Organisation du stock et le réassort\n- Collaboration avec une équipe bienveillante et expérimentée \nbuff.ly/ATmSMa2\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5682756?JobId=5682756&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "Préparateur commandes - job étudiant",
-          "description": "Tu cherches un job étudiant dynamiquement rémunérateur, flexible et valorisant pour ton CV ?Rejoins notre équipe et découvre les coulisses d’un environnement parapharmaceutique moderne et organisé...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-22T13:25:22.758Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
