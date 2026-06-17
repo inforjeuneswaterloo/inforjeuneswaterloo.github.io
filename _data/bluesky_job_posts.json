@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mohlv2omca2d",
+      "cid": "bafyreibu5yfyhc2pa5eqtdghg2cj5t2g2kvm3lajmyelryxaryzjbfrggu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-17T05:37:51.819Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Bonjour, Vous aimez les voitures et recherchez un job étudiant original ? Alors cette offre est faite pour vous !!! Qu'allez-vou faire ? Vous visitez des concessions automobiles…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+              },
+              "mimeType": "image/png",
+              "size": 858751
+            },
+            "title": "Emploi | Student Mystery Shopper | Start People",
+            "uri": "https://www.startpeople.be/fr/job/student_mystery_shopper-2011160?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble_natcamp_st-2020-246?&utm_away=beMjI0fC0zNjMxMTUwMDIxNTMzNzExMzgwfDQ2MTg4"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JD5G3GI"
+              }
+            ],
+            "index": {
+              "byteEnd": 292,
+              "byteStart": 277
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Student - de 21 ans Mystery Shopper - Bruxelles\nTâches :\n- Visite de concessions automobiles (spontanément/sur rdv)\n- Jouer le rôle d'1 acheteur\n- Evaluer le vendeur (amabilité, approche,...)\nProfil\n- Intérêt pr les voitures\n- Sociable/bon sens de l'observation\n- Mobile\nbuff.ly/JD5G3GI  \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/student_mystery_shopper-2011160?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble_natcamp_st-2020-246?&utm_away=beMjI0fC0zNjMxMTUwMDIxNTMzNzExMzgwfDQ2MTg4",
+          "title": "Emploi | Student Mystery Shopper | Start People",
+          "description": "Contenu de l'emploi:  Bonjour, Vous aimez les voitures et recherchez un job étudiant original ? Alors cette offre est faite pour vous !!! Qu'allez-vou faire ? Vous visitez des concessions automobiles…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-17T05:37:55.767Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mofo6irdbz2x",
       "cid": "bafyreic52fonmpnd5bpkzmwf4vhcct7x2nvmdnyiujrozkr3u7scvm5ste",
       "author": {
@@ -8350,86 +8439,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-23T09:13:44.249Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk3olt36fi2c",
-      "cid": "bafyreifx4d5bua4hewssoe6rbzdpm7sah4vex7jhpzvy3vydupnclnqepq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-22T14:13:41.560Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=54c7a047086f3050&q=etudiant&l=brabant+wallon&tk=1jmlot7agh0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDK67I3ka5MQpz42J0LbzkdCdPP&xfps=5bfd655d-3660-4185-ab14-19bc380ee9b3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmlot7agh0up800&xkcb=SoCn67M3kV562gBRBb0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/RvovIZh"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Etudiant(e) Lidl Court-Saint-Etienne\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/RvovIZh\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=54c7a047086f3050&q=etudiant&l=brabant+wallon&tk=1jmlot7agh0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDK67I3ka5MQpz42J0LbzkdCdPP&xfps=5bfd655d-3660-4185-ab14-19bc380ee9b3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmlot7agh0up800&xkcb=SoCn67M3kV562gBRBb0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-22T14:13:42.347Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
