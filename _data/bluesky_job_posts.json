@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mohofhltdi25",
+      "cid": "bafyreicvtftj3e3xei7hbtrrc2xrigjxnc5obulhvoci2s4eix52fgxrf4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-17T06:22:51.575Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=668e6676555b97af&q=etudiant&l=brabant+wallon&tk=1jr8n5l2rg4uc801&from=ja&alid=698c88431d6abb292039269a&xpse=SoDI67I3iqPUtlTC8h0LbzkdCdPP&xfps=6913b142-20c1-4ff3-866e-0aa164643f6d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr8n5l2rg4uc801&xkcb=SoBu67M3iomWUt7Kdp0ObzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ZOpHOTH"
+              }
+            ],
+            "index": {
+              "byteEnd": 259,
+              "byteStart": 244
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 261
+            }
+          }
+        ],
+        "text": "Job étudiant vente comptoir samedis de l'année et pdt les vacances scolaires Boucherie Gorissen - Beauvechain\nSi tu aimes le contact clientèle et les bons petits plats, viens nous aider à partager ta passion ! Capacité à faire le trajet \nbuff.ly/ZOpHOTH \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=668e6676555b97af&q=etudiant&l=brabant+wallon&tk=1jr8n5l2rg4uc801&from=ja&alid=698c88431d6abb292039269a&xpse=SoDI67I3iqPUtlTC8h0LbzkdCdPP&xfps=6913b142-20c1-4ff3-866e-0aa164643f6d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jr8n5l2rg4uc801&xkcb=SoBu67M3iomWUt7Kdp0ObzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-17T06:22:51.968Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3moho3i7ya42d",
+      "cid": "bafyreiejugrey5wrg6vkfaytmpmrmwtitf3tzt5rpzzgme4pdxfzazc75e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-17T06:17:15.387Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Tu cherches un job étudiant en tant qu’étudiant(e) en vente parapharmacie (h/f/x) ? Ce poste d’étudiant(e) en vente parapharmacie (h/f/x) au Medi-Market de Waterloo t’offre une…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+              },
+              "mimeType": "image/png",
+              "size": 858751
+            },
+            "title": "Emploi | Etudiant vente parapharmacie Waterloo | Start People",
+            "uri": "https://www.startpeople.be/fr/job/etudiant_vente_parapharmacie_waterloo-2009074?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble_natcamp_st-2020-246?&utm_away=beMjI0fC0yMzU5NjcxOTYxOTM2NDcwODN8NDYxODg"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/IbDSGe9"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Etudiant vente parapharmacie - Waterloo\nMissions :\n- Accueil/conseil clientèle\n- Réception commandes/réassort\n- Caisse\n- ...\nProfil\n- Etudes idéalement en esthétique, diététique, …\n- Intérêt pr la santé, le bien-être, la beauté\n- Aimer le contact client et la vente...\nbuff.ly/IbDSGe9 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/etudiant_vente_parapharmacie_waterloo-2009074?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble_natcamp_st-2020-246?&utm_away=beMjI0fC0yMzU5NjcxOTYxOTM2NDcwODN8NDYxODg",
+          "title": "Emploi | Etudiant vente parapharmacie Waterloo | Start People",
+          "description": "Contenu de l'emploi:  Tu cherches un job étudiant en tant qu’étudiant(e) en vente parapharmacie (h/f/x) ? Ce poste d’étudiant(e) en vente parapharmacie (h/f/x) au Medi-Market de Waterloo t’offre une…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-17T06:17:17.063Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mohlv2omca2d",
       "cid": "bafyreibu5yfyhc2pa5eqtdghg2cj5t2g2kvm3lajmyelryxaryzjbfrggu",
       "author": {
@@ -8249,196 +8418,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-23T09:40:59.549Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5oz73ac72p",
-      "cid": "bafyreieb33khc5vn7u52nfdbjdfl53pnhoo3fmedh3acgwee5r6jjbg4ye",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-23T09:26:29.182Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour une top boulangerie à Waterloo, nous recherchons un.e étudiant/flexi !",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Vendeur/se en boulangerie étudiant.e ou Flexijob",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702562?JobId=5702562&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/iuHQbFN"
-              }
-            ],
-            "index": {
-              "byteEnd": 277,
-              "byteStart": 262
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 285
-            }
-          }
-        ],
-        "text": "Etudiant vendeur en boulangerie H/F Waterloo\n- Accueillir les clients avec sourire et énergie\n- Offrir un service client exceptionnel en partageant votre passion pour les délices frais du jour\n- Assurer une présentation de nos produits en vitrine et en rayon\nbuff.ly/iuHQbFN\n#job4u\n#ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702562?JobId=5702562&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Vendeur/se en boulangerie étudiant.e ou Flexijob",
-          "description": "Pour une top boulangerie à Waterloo, nous recherchons un.e étudiant/flexi !",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-23T09:26:30.652Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5ocea3pi2e",
-      "cid": "bafyreih4g74megztljfqer5x74qcbyganfkqjmxlngwp22qpil565lwbye",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-23T09:13:42.823Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vous êtes à la recherche d'un étudiant ?Vous êtes disponible de nuit ou du week end?Vous avez une bonne condition physique et êtes véhiculé?Vous avez plus de 18 ans?",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702399?JobId=5702399&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JJq32Wt"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 277
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août Nivelles\nTâches:\n- Charger/décharger des colis pouvant peser jusqu'à 30 kg\n- Trier et organiser les colis avec précision\n- Maintenir la propreté et l'efficacité de l'entrepôt et de votre poste de travail\nbuff.ly/JJq32Wt\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5702399?JobId=5702399&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
-          "description": "Vous êtes à la recherche d'un étudiant ?Vous êtes disponible de nuit ou du week end?Vous avez une bonne condition physique et êtes véhiculé?Vous avez plus de 18 ans?",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-23T09:13:44.249Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
