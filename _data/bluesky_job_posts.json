@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molitshfag2y",
+      "cid": "bafyreiedcn2g4zuj6bmvtqbjgzpksn4wck32u6fryiin5akhs7unodsbnu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-18T18:54:09.237Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e0f791ce73f88d96&q=%C3%A9tudiant&l=Waterloo&tk=1jrdjucg4kdf1800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoC267I3iuKe9PTNjZ0LbzkdCdPP&xfps=ada5ce97-259f-4d97-919b-135bd081c9d6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrdjucg4kdf1800&xkcb=SoAx67M3itv2eT03z50JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/GMGYsqW"
+              }
+            ],
+            "index": {
+              "byteEnd": 263,
+              "byteStart": 248
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 264
+            }
+          }
+        ],
+        "text": "Étudiant(e) en Vente boulangerie - Bruxelles\nMissions\n- Accueil/conseil clientèle avec le sourire.\n- Vente\n- Caisse\n- Réassort\n- Nettoyage\nProfil\n- Motivé(e) et fiable.\n- Aisance dans le contact client.\n- Bonne présentation/sens du service...\nbuff.ly/GMGYsqW\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e0f791ce73f88d96&q=%C3%A9tudiant&l=Waterloo&tk=1jrdjucg4kdf1800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoC267I3iuKe9PTNjZ0LbzkdCdPP&xfps=ada5ce97-259f-4d97-919b-135bd081c9d6&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrdjucg4kdf1800&xkcb=SoAx67M3itv2eT03z50JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-18T18:54:09.576Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molijwpjnx2i",
+      "cid": "bafyreih7ocs3pqczxglhmgyifb3ano42zf5bgu3pdoosegmaobymffatoe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-18T18:48:38.147Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=4bbce5dd5cf792d7&q=etudiant&l=brabant+wallon&tk=1jrdo7qrig4uc800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCj67I3it6e3wzC8h0LbzkdCdPP&xfps=25b2eb46-714b-44a2-af3b-e90931cc0d66&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrdo7qrig4uc800&xkcb=SoBn67M3it4QsfWjiJ0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ywzqMVg"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 290
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 313,
+              "byteStart": 307
+            }
+          }
+        ],
+        "text": "Job Technicien/Electricien de maintenance Aqualibi - Wavre \nTâches :\n- Maintenance installations techniques\n- Dépannages\n- Contrôle/maintien de la qualité de l’eau...\nProfil\n- Rigueur/esprit d’analyse\n- Etudes A2 électricité/mécanique, Bac/ingé électromécanique\n- Flexible...\nbuff.ly/ywzqMVg \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=4bbce5dd5cf792d7&q=etudiant&l=brabant+wallon&tk=1jrdo7qrig4uc800&from=ja&alid=698c88431d6abb292039269a&xpse=SoCj67I3it6e3wzC8h0LbzkdCdPP&xfps=25b2eb46-714b-44a2-af3b-e90931cc0d66&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrdo7qrig4uc800&xkcb=SoBn67M3it4QsfWjiJ0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-18T18:48:38.464Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molar4eyah26",
       "cid": "bafyreigm6kee6nfz6o4kcajv43bjoupphoujcwbmodxqhkwdldyxthuoyy",
       "author": {
@@ -8258,175 +8418,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-27T11:54:27.554Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkhyrkeq2k2k",
-      "cid": "bafyreigj6hn42ohwmywu6jbed2vjh4ys3xhpadvollm4o73iir6is2qj6m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-27T11:47:48.043Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=74aeeffcb08b3820&q=etudiant&l=brabant+wallon&tk=1jn5d84i7h0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoBh67I3knfrz1z4tR0LbzkdCdPP&xfps=a3908222-1085-4560-9fc1-02744ae35e22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jn5d84i7h0up800&xkcb=SoBw67M3klSvRZ6wSx0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ABw5Uzf"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Etudiant Assistant social du 6/07 au 21/08 SILVA Medical - Wavre \nMission : accompagnement psycho-social \nProfil :\n- Min. 18 ans\n- Etudes d’Assistant social\n- Organisé et excellentes compétences administratives\n- Capacité d’adaptation, d’ouverture et aisance relationnelle\nbuff.ly/ABw5Uzf \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=74aeeffcb08b3820&q=etudiant&l=brabant+wallon&tk=1jn5d84i7h0up800&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoBh67I3knfrz1z4tR0LbzkdCdPP&xfps=a3908222-1085-4560-9fc1-02744ae35e22&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jn5d84i7h0up800&xkcb=SoBw67M3klSvRZ6wSx0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-27T11:47:48.352Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkavxvmqm32e",
-      "cid": "bafyreic4cxllmxtpwqoykla26c73ungruhbsylvv5xq4dt5kbkq4ikrqia",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-24T16:09:00.642Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Offre d’emploi Étudiant.e - Decathlon Wavre chez Decathlon Belgium à 1300 Wavre !",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigyeof4woh5civk2cgpzafc2dpnil3xa66tata4awlyshrhnjb35m"
-              },
-              "mimeType": "image/jpeg",
-              "size": 185020
-            },
-            "title": "Étudiant.e - Decathlon Wavre",
-            "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre"
-              }
-            ],
-            "index": {
-              "byteEnd": 176,
-              "byteStart": 141
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 183,
-              "byteStart": 177
-            }
-          }
-        ],
-        "text": "Etudiant(e) Decathlon Wavre\n- Bonne communication\n- Passion du sport\n- Orientation client\n- Flexible\n-Prise d'initiative\n- Esprit d'équipe \njoinus.decathlon.be/fr/annonce/4...\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://joinus.decathlon.be/fr/annonce/4345859-etudiant-e-decathlon-wavre-1300-wavre",
-          "title": "Étudiant.e - Decathlon Wavre",
-          "description": "Offre d’emploi Étudiant.e - Decathlon Wavre chez Decathlon Belgium à 1300 Wavre !",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigyeof4woh5civk2cgpzafc2dpnil3xa66tata4awlyshrhnjb35m"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-24T16:09:03.158Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
