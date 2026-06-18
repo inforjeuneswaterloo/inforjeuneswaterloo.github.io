@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molar4eyah26",
+      "cid": "bafyreigm6kee6nfz6o4kcajv43bjoupphoujcwbmodxqhkwdldyxthuoyy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-18T16:29:28.230Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous cherchez un emploi comme Technicien/-ne de surface à Perwez avec Possibilité fixe. Consultez l'offre et postulez rapidement en ligne! - Accent Jobs",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+              },
+              "mimeType": "image/webp",
+              "size": 7670
+            },
+            "title": "Offre d'emploi Technicien/-ne de surface Perwez - Accent Jobs",
+            "uri": "https://accentjobs.be/fr/offredemploi/technicien-ne-de-surface-554621?utm_source=CRJ-NL&utm_medium=jobboard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://accentjobs.be/fr/offredemploi/technicien-ne-de-surface-554621?utm_source=CRJ-NL&utm_medium=jobboard"
+              }
+            ],
+            "index": {
+              "byteEnd": 245,
+              "byteStart": 216
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 247
+            }
+          }
+        ],
+        "text": "Technicien/ne de surface - Perwez\nProfil :\n- Sens de l'observation\n- Grande Capacité d'apprentissage\n- Ponctuel et motivé. Travail soigné et respect des horaires\n- Autonome/esprit d’équipe\n- Souriant/fiable...\naccentjobs.be/fr/offredemp... \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://accentjobs.be/fr/offredemploi/technicien-ne-de-surface-554621?utm_source=CRJ-NL&utm_medium=jobboard",
+          "title": "Offre d'emploi Technicien/-ne de surface Perwez - Accent Jobs",
+          "description": "Vous cherchez un emploi comme Technicien/-ne de surface à Perwez avec Possibilité fixe. Consultez l'offre et postulez rapidement en ligne! - Accent Jobs",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihy7aoucf4zxxa6k6lesyievxbzmylwa4noe3zwf4pftgioz3mt7e"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-18T16:29:29.569Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molagkscon2z",
+      "cid": "bafyreieou3vksytoa33b4orbyc2jmf2zlwul722rml6s2dopokif2puidm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-18T16:23:33.361Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Inspirer et styliser les clients",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreie727wf2z2mhl6skm67feow7jy3db6echot35ym2z4gj54an3pvje"
+              },
+              "mimeType": "image/png",
+              "size": 979929
+            },
+            "title": "Étudiant(e) 8h/semaine - Lovisa",
+            "uri": "https://careers.lovisa.com/fr/jobs/7914674-etudiant-e-8h-semaine"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/F3cTBVP"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 284
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Étudiant(e) 8h/sem Lovisa - Ixelles\n- Vente/accueil clientèle\n- Service de piercing\n- Réassort\n- Gestion des registres\n- Nettoyage\nProfil :\n- Volonté d'aider et de guider les clients\n- Motivation/volonté d'obtenir d'excellents résultats\n- Sens de la mode\n- Expérience en vente\nbuff.ly/F3cTBVP \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://careers.lovisa.com/fr/jobs/7914674-etudiant-e-8h-semaine",
+          "title": "Étudiant(e) 8h/semaine - Lovisa",
+          "description": "Inspirer et styliser les clients",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreie727wf2z2mhl6skm67feow7jy3db6echot35ym2z4gj54an3pvje"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-18T16:23:35.964Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mohofhltdi25",
       "cid": "bafyreicvtftj3e3xei7hbtrrc2xrigjxnc5obulhvoci2s4eix52fgxrf4",
       "author": {
@@ -8249,175 +8427,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-24T16:09:03.158Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mka4dupxnp2m",
-      "cid": "bafyreifjadlhzq3nvgl7brkvix47qbi3r76jf3ysh7vxfy6ays5ymrnk5y",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-24T08:30:26.202Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=1599c6015909c052&q=%C3%A9tudiant&l=Waterloo&tk=1jmtk3ak0g9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAs67I3kfawGmTN7h0LbzkdCdPP&xfps=f2da7e48-2e98-4e06-84c1-b607d1352dab&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmtk3ak0g9so800&xkcb=SoC967M3kdgCvYxHjp0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/mxKvYhz"
-              }
-            ],
-            "index": {
-              "byteEnd": 254,
-              "byteStart": 239
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 261,
-              "byteStart": 255
-            }
-          }
-        ],
-        "text": "Etudiante support marketing Uccle\nTes missions:\n- Participation à la communication et à la visibilité du centre\n- Création ou aide à la préparation de contenus pour les réseaux sociaux\n- Soutien à l’image de marque d’Epilsoft \nbuff.ly/mxKvYhz\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=1599c6015909c052&q=%C3%A9tudiant&l=Waterloo&tk=1jmtk3ak0g9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAs67I3kfawGmTN7h0LbzkdCdPP&xfps=f2da7e48-2e98-4e06-84c1-b607d1352dab&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jmtk3ak0g9so800&xkcb=SoC967M3kdgCvYxHjp0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-24T08:30:26.746Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mk5pt3pazt2q",
-      "cid": "bafyreifp7pijxg23hypm6rw6ad3fjbl4mkdbwipdmg7a3skwvwrgglewua",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-23T09:40:56.753Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
-              },
-              "mimeType": "image/webp",
-              "size": 219534
-            },
-            "title": "Offres d’emploi | PROMAN Jobs",
-            "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 302,
-              "byteStart": 296
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie à Vieux-Genappe\n- Horaire principal : 11h – 19h\n- Flexibilité pour travailler le week-end et les jours fériés\n- Environnement de travail familial et dynamique\n- 1 test pratique de 4 heures est prévu dans le processus de sélection \nwww.proman.be/fr/jobs/empl...\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.proman.be/fr/jobs/emplois/student-en-boulangerie",
-          "title": "Offres d’emploi | PROMAN Jobs",
-          "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-23T09:40:59.549Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
