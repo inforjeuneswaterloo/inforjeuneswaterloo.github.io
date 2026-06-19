@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3monfdphbkk25",
+      "cid": "bafyreigbmtudslxiopgn6nlbttsdnzgflvdtmam2eocqilmdl4ivxy5aie",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-19T12:56:45.931Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Ouvrier/ère polyvalent(e)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job étudiant – Mission d’ouvrier(e) polyvalent(e) (juillet/août) | Wavre | WAVRE, Brabant Wallon",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant--mission-douvriere-polyvalente-juilletaot--wavre-wavre-brabant-wallon/142-35085-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=924457832&utm_campaign=quest_10&utm_content=Job+%C3%A9tudiant+%E2%80%93+Mission+d%E2%80%99ouvrier%28e%29+polyvalent%28e%29+%28juillet%2Fao%C3%BBt%29+%7C+Wavre+%28142-35085-1%29+%5B924457832%5D%5B77b8c4dee0af9e1e_e669c626de902%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Cu6VdSu"
+              }
+            ],
+            "index": {
+              "byteEnd": 270,
+              "byteStart": 255
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 271
+            }
+          }
+        ],
+        "text": "Etudiant(e) ouvrier(e) polyvalent(e) Wavre\n- Réaliser des tâches de production simples selon les consignes fournies\n- Respecter les normes de sécurité et de qualité\n- Maintenir un environnement de travail propre et organisé\n- Travailler en équipe \nbuff.ly/Cu6VdSu\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/job-tudiant--mission-douvriere-polyvalente-juilletaot--wavre-wavre-brabant-wallon/142-35085-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=924457832&utm_campaign=quest_10&utm_content=Job+%C3%A9tudiant+%E2%80%93+Mission+d%E2%80%99ouvrier%28e%29+polyvalent%28e%29+%28juillet%2Fao%C3%BBt%29+%7C+Wavre+%28142-35085-1%29+%5B924457832%5D%5B77b8c4dee0af9e1e_e669c626de902%5D",
+          "title": "Job étudiant – Mission d’ouvrier(e) polyvalent(e) (juillet/août) | Wavre | WAVRE, Brabant Wallon",
+          "description": "Ouvrier/ère polyvalent(e)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-19T12:56:47.774Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3molitshfag2y",
       "cid": "bafyreiedcn2g4zuj6bmvtqbjgzpksn4wck32u6fryiin5akhs7unodsbnu",
       "author": {
@@ -8329,95 +8418,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-04-27T11:59:38.445Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkhz5gx54b2c",
-      "cid": "bafyreifs6iucil6kst2a4zxmcvpdq7aaakwyyic722c5cys7psmfzu66vy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-27T11:54:25.337Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-aide-mecanicien-156-158-zaventem-zaventem-brabant-flamand/307-34980-1&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/0GTT8HM"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant aide mécanicien 15/6 au 15/8 - Zaventem \nTâches :\n-Remplacer les pneus\n-Petits entretiens\n-Répare vitres/fenêtres\nProfil :\n-Etudes filière technique (le mieux en mécanique)\n-Dispo 15/6 au 15/8\n-Bonne connaissance du FR\n-1ère exp. comme mécanicien est un +\n-Permis B\nbuff.ly/0GTT8HM \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-aide-mecanicien-156-158-zaventem-zaventem-brabant-flamand/307-34980-1&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-27T11:54:27.554Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
