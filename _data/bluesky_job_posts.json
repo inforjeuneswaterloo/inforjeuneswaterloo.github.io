@@ -1,6 +1,255 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3moxppzg3wj2z",
+      "cid": "bafyreiemnlgxumsgntv2hdnw5z3uvm2m6s2nvcrk3u2niyjpagl62hycgm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-23T15:29:15.355Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=b6b49787f872363d&q=Etudiant&l=Brabant-wallon&tk=1jrq7udvhg2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoBp67I3i6qp5ATCNh0LbzkdCdPP&xfps=8ecc03f2-790f-4f2f-ba89-7e184a72aa58&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrq7udvhg2ii800&xkcb=SoBe67M3i6H2Bf7zlR0IbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Q0S4bwP"
+              }
+            ],
+            "index": {
+              "byteEnd": 260,
+              "byteStart": 245
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 262
+            }
+          }
+        ],
+        "text": "Etudiant(e) sandwicherie à Perwez\n- Accueil et service client\n- Préparation et mise en place (sandwicherie / service / caisse )\n- Maintien de la propreté et de l’organisation du poste de travail\n- Travail en équipe et bonne communication \nbuff.ly/Q0S4bwP \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=b6b49787f872363d&q=Etudiant&l=Brabant-wallon&tk=1jrq7udvhg2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoBp67I3i6qp5ATCNh0LbzkdCdPP&xfps=8ecc03f2-790f-4f2f-ba89-7e184a72aa58&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrq7udvhg2ii800&xkcb=SoBe67M3i6H2Bf7zlR0IbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-23T15:29:15.663Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3moxpefq2fj2c",
+      "cid": "bafyreicbzg3cuvy44a5jjfhjauphnyfo5ntj3tjozzjzmo57jutxbngrhu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-23T15:22:45.619Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=b8dca4eaa6595dc3&q=%C3%A9tudiant&l=Waterloo&tk=1jrqeier4285e000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAk67I3i6p_x9gYBD0LbzkdCdPP&xfps=b36b766c-de17-407f-9346-6af5523db8ec&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrqeier4285e000&xkcb=SoD_67M3i6VF2D2fAZ0KbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/PwO2tC9"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 292
+            }
+          }
+        ],
+        "text": "Etudiant(e) vente chez JYSK Anderlecht\n- Contribuer à augmenter les ventes\n- Encaisser les produits au comptoir\n- Aider à remplir les rayons pour que le magasin soit impeccable pour nos clients\n- Aider le responsable logistique à emballer et à déballer les marchandises \nbuff.ly/PwO2tC9\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=b8dca4eaa6595dc3&q=%C3%A9tudiant&l=Waterloo&tk=1jrqeier4285e000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAk67I3i6p_x9gYBD0LbzkdCdPP&xfps=b36b766c-de17-407f-9346-6af5523db8ec&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jrqeier4285e000&xkcb=SoD_67M3i6VF2D2fAZ0KbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-23T15:22:45.964Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3moxormoorl2z",
+      "cid": "bafyreigyr7rrdfommotl5iob5ynlehietgbiqcd7uzucsdivtghnsunoky",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-23T15:12:14.452Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu cherches un job étudiant pour cet été et tu as encore des heures disponibles dans ton contingent ?\\nNous recherchons 2 à 3 étudiants motivés pour rejoindre une entreprise active dans le secteur de…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiants polyvalents",
+            "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiants-polyvalents/883434"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ze87p7H"
+              }
+            ],
+            "index": {
+              "byteEnd": 163,
+              "byteStart": 148
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 170,
+              "byteStart": 164
+            }
+          }
+        ],
+        "text": "Etudiants polyvalent à Bierges\nTes missions :\n- Tri et rangement de matériel\n- Inventaire\n- Organisation des stocks\n- Diverses tâches manuelles \nbuff.ly/ze87p7H\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/professions-techniques/etudiants-polyvalents/883434",
+          "title": "Etudiants polyvalents",
+          "description": "Tu cherches un job étudiant pour cet été et tu as encore des heures disponibles dans ton contingent ?\\nNous recherchons 2 à 3 étudiants motivés pour rejoindre une entreprise active dans le secteur de…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-23T15:12:15.771Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mov2sddetx2l",
       "cid": "bafyreid25rq3b4uinmytxqduuecklcluhnvj3m4fuknquxaneeqidqxqdq",
       "author": {
@@ -8151,273 +8400,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-05T11:45:07.961Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkzrsygexg2c",
-      "cid": "bafyreiemjdwol2fhimqdjohvexktp45nyzgeqoypzltcqtra3rib563np4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-04T13:31:13.480Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-2&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/hNyWb7i"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Etudiant(e) vente boucherie à Genval\nProfil\n- Accueillir et conseiller les clients\n- Sens du service et être attentif aux besoins des clients\n- Préparation correcte des commandes\n- Maintenir un espace de travail propre\n- Respecter les normes d’hygiène.\n- Flexibilité horaire  \nbuff.ly/hNyWb7i\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-genval-genval-brabant-wallon/585-17024-2&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-04T13:31:15.967Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mkzrawnj6i2b",
-      "cid": "bafyreiet446xdicdwfmqkbnwvsnjhbxyjnuneogdkwq7yyk6ukfzuklrzi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-04T13:21:08.779Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Konvert Bruxelles est à la recherche d'un( e)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Etudiant jobiste Vendeur(euse) shop - Région Uccle",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5737871?JobId=5737871&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/QOGPR51"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 288,
-              "byteStart": 282
-            }
-          }
-        ],
-        "text": "Etudiant(e) Vente shop - Région Uccle\nProfil\n- être un joueur d'équipe enthousiaste avec un bon sens commercial\n- avoir de votre propre moyen de transport (lieu difficilement accessible par les transports en commun)\n- flexibilité horaire (ouvert 7 jours sur 7) \nbuff.ly/QOGPR51\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5737871?JobId=5737871&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Etudiant jobiste Vendeur(euse) shop - Région Uccle",
-          "description": "Konvert Bruxelles est à la recherche d'un( e)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiepkwrtz7rdrnzacnwy7mpbtdrjera3dhnffcoeen7iqbndle5mxe"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-04T13:21:10.161Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mknbczodnu2k",
-      "cid": "bafyreidleaxlcy2koz6eax3vuhu3vef3if3qiel22v5aqpffabibanb7f4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-04-29T14:04:01.861Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Assurer le nettoyage et l’entretien de différents types de chantiers : bureaux, magasins, surfaces commerciales, sanitaires, espaces communs ou zones spécifiques selon les besoins du site.Préparer,...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 4304
-            },
-            "title": "Étudiant(e) technicien(ne) de surface",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5720734?JobId=5720734&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/We7h2Vb"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Étudiant technicien de surface H/F Nivelles\n- Idéalement expérience dans le nettoyage (bureaux, sanitaires, sols, surfaces diverses)\n- Dispo pendant l’été, à partir de fin juin, et flexible selon les besoins des différents chantiers\n- Capable de travailler seul et en équipe\nbuff.ly/We7h2Vb\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5720734?JobId=5720734&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "Étudiant(e) technicien(ne) de surface",
-          "description": "Assurer le nettoyage et l’entretien de différents types de chantiers : bureaux, magasins, surfaces commerciales, sanitaires, espaces communs ou zones spécifiques selon les besoins du site.Préparer,...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibcirmh4nezm4g4ycffjlvkguygcub63ril32j7he3mfcgdxc4nb4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-04-29T14:04:03.470Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
