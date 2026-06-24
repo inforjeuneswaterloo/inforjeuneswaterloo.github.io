@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mozpnzrah32r",
+      "cid": "bafyreiefgc2a2ktfsteio7qfnlyen7ez4unynrnvto32ortdkbuo5poiea",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-24T10:33:26.894Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur. Vente au comptoir Utilisation de la trancheuse Nettoyage du poste de travail Vous…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiestqaygtrm3cknt6uoi3nfb2mm3ku2uqowt72li6lenn3dysfmia"
+              },
+              "mimeType": "image/png",
+              "size": 850905
+            },
+            "title": "Etudiants rayon traiteur LIMAL",
+            "uri": "https://www.itzu.eu/fr-be/talent-recruitment/travaux/etudiants-rayon-traiteur-limal?utm_source=jooble&utm_medium=cpc&utm_campaign=allvacancies&utm_away=beNTczNHwtMTMxNjk2NTg3NjAwMzM2MjU5MHw0NjE5NQ"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wgXvo5h"
+              }
+            ],
+            "index": {
+              "byteEnd": 286,
+              "byteStart": 271
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 288
+            }
+          }
+        ],
+        "text": "Etudiants rayon traiteur - LIMAL\nTâches\n- Vente au comptoir\n- Utilisation de la trancheuse\n- Nettoyage du poste de travail\nProfil \n- Première expérience dans le secteur alimentaire\n- Flexible dans les horaires (matin, après-midi, WE)\n- Poli et de bonne présentation\nbuff.ly/wgXvo5h \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.itzu.eu/fr-be/talent-recruitment/travaux/etudiants-rayon-traiteur-limal?utm_source=jooble&utm_medium=cpc&utm_campaign=allvacancies&utm_away=beNTczNHwtMTMxNjk2NTg3NjAwMzM2MjU5MHw0NjE5NQ",
+          "title": "Etudiants rayon traiteur LIMAL",
+          "description": "Pour un de nos clients ayant plusieurs magasins dans la région, nous recherchons des étudiants au rayon traiteur. Vente au comptoir Utilisation de la trancheuse Nettoyage du poste de travail Vous…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiestqaygtrm3cknt6uoi3nfb2mm3ku2uqowt72li6lenn3dysfmia"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-24T10:33:28.868Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3moxppzg3wj2z",
       "cid": "bafyreiemnlgxumsgntv2hdnw5z3uvm2m6s2nvcrk3u2niyjpagl62hycgm",
       "author": {
@@ -8311,95 +8400,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-05T11:49:44.261Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44e52i2i2c",
-      "cid": "bafyreictqpvtl3yx2vob4zq4wye5k65q562ddbgokwjpw7u6lzqoq3oh64",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-05T11:45:06.171Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Plonge",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Etudiant.e plonge/aide en cuisine | Ramillies | RAMILLIES, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eplongeaideencuisineramillies-ramillies-brabant-wallon/142-34934-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=908165527&utm_campaign=quest_10&utm_content=Etudiant.e+plonge%2Faide+en+cuisine+%7C+Ramillies+%28142-34934-2%29+%5B908165527%5D%5B77b8c4dee0af9e1e_2464b5cc2cc82%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/nA9vsWl"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 301
-            }
-          }
-        ],
-        "text": "Etudiant.e plonge/aide en cuisine - Ramillies\nMission : \n- Plonge\n- Donner un coup de main en cuisine\n- Veiller à la propreté et à l’hygiène des espaces de travail\nProfil\n- 1ère exp. en plonge et/ou en horeca\n- Accueillant·e, souriant·e et fiable\n- Dispo 2 à 3 jours/semaine\nbuff.ly/nA9vsWl\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-eplongeaideencuisineramillies-ramillies-brabant-wallon/142-34934-2?utm_source=jobrapido&utm_medium=Paid&igbTracker=908165527&utm_campaign=quest_10&utm_content=Etudiant.e+plonge%2Faide+en+cuisine+%7C+Ramillies+%28142-34934-2%29+%5B908165527%5D%5B77b8c4dee0af9e1e_2464b5cc2cc82%5D",
-          "title": "Etudiant.e plonge/aide en cuisine | Ramillies | RAMILLIES, Brabant Wallon",
-          "description": "Plonge",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-05T11:45:07.961Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
