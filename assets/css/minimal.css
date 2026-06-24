@@ -351,7 +351,7 @@ h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
   font-weight: 600;
-  line-height: var(--lh-titles);
+  line-height: 1rem;
 }
 
 p {
@@ -421,9 +421,10 @@ p {
 }
 
 .post-title {
-  font-size: 2.5rem;
-  margin: 0;
+  font-size: 2rem;
+  margin-top: 2rem;
   color: var(--c); /* Hérite du Front Matter */
+  line-height: 1.2rem;
 }
 
 .main-icon {
@@ -1153,14 +1154,23 @@ footer {
     gap: 1.2rem;
     align-items: flex-start;
 }
+/* 3. L'IMAGE SANS AUCUN TRONQUAGE */
+.pinned-img {
+  width: 100% !important;
+  height: auto !important;      /* Libère la hauteur pour s'adapter au ratio d'origine */
+  max-height: 220px;            /* Limite la hauteur maximale pour éviter les images géantes */
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f9f9f9;    /* Fond neutre si l'image a des bandes sur les côtés */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.pinned-image img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin: 0;
-    border: 1px solid var(--border-color);
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain !important; /* Force l'image à s'afficher EN ENTIER sans être rognée */
+  }
 }
 
 .pinned-text {
@@ -1533,4 +1543,111 @@ footer {
     height: 180px;              /* Un peu plus haute sur mobile */
     margin: 0 0 1rem 0 !important;
   }
+}
+/* ==========================================================================
+   NOUVEAU LAYOUT : LISTE VERTICALE COMPLÈTE (ANTI-TRONQUAGE)
+   ========================================================================== */
+
+/* Conteneurs principaux */
+.mastodon-pinned-list,
+.mastodon-thread-list {
+  display: block !important;           /* Mode liste vertical natif */
+  width: 100%;
+  max-width: 800px;                    /* Confort de lecture optimal */
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* La carte format liste */
+.list-card-item {
+  background-color: #ffffff !important;
+  border: 2px solid #f1c40f !important; /* Ton liseré jaune signature */
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin-bottom: 2rem !important;      /* Espace entre les actualités */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02) !important;
+  display: block !important;
+}
+
+/* L'image : respect total des dimensions et du ratio originels */
+.list-card-img {
+  width: 100% !important;
+  height: auto !important;             /* Supprime toute contrainte de hauteur */
+  margin-bottom: 1.25rem !important;   /* Espace sous la photo */
+  border-radius: 8px !important;
+  overflow: hidden !important;
+
+  img {
+    width: 100% !important;
+    height: auto !important;           /* L'image prend sa vraie hauteur sans être écrasée */
+    display: block !important;
+    object-fit: contain !important;    /* Anti-tronquage absolu */
+  }
+}
+
+/* Zone textuelle sous le visuel */
+.list-card-body {
+  display: block !important;
+}
+
+/* Grand titre de l'actualité */
+.list-card-title {
+  margin: 0 0 0.85rem 0 !important;
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: #222222 !important;
+  line-height: 1.4 !important;
+}
+
+/* Paragraphes de description */
+.list-card-text {
+  color: #4a4a4a !important;
+  font-size: 0.98rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 1rem !important;
+
+  p {
+    margin: 0 0 0.75rem 0 !important;
+  }
+  p:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Lien d'action bleu */
+.list-card-link {
+  display: inline-block !important;
+  color: #0056b3 !important;
+  font-weight: bold !important;
+  font-size: 0.95rem !important;
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+/* Alignement du gros CTA en bas de page */
+.mastodon-profile-action {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 3rem 0 !important;
+  width: 100% !important;
+}
+/* ==========================================================================
+   ESPACEMENT DES CARDS (FORMAT LISTE)
+   ========================================================================== */
+
+.mastodon-thread-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;                /* Marge de 2rem exacte entre chaque card */
+  width: 100%;
+  max-width: 850px;                    /* Aligné sur la largeur de ton site */
+  margin: 2rem auto;                   /* Centre le bloc sur la page */
+  padding: 0 1rem;
+}
+
+.pinned-card {
+  margin-bottom: 0 !important;         /* On laisse le 'gap' du conteneur gérer proprement l'espace */
 }

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
-  <script src="https://kit.fontawesome.com/a03376f283.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/minimal.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
   {% feed_meta %} 
   <noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.inforjeuneswaterloo.be/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 </head>
@@ -42,9 +42,9 @@
     </nav>
   </div>
 </header>
-
+  <div class="container-fluid">
     {{ content }}
-
+  </div> 
     <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid rgba(128,128,128,0.1); font-size: 0.8rem; opacity: 0.5; font-family: sans-serif;">
         <p>&copy; {{ "now" | date: "%Y" }} — {{ site.title }}</p>
         <div class="container">

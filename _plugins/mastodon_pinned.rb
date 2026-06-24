@@ -19,6 +19,7 @@ module Jekyll
       instance = "mastodon.social"
       author_account_id = "110700922857450296"
 
+      # Cache simple (plus besoin de différencier les pages)
       if MastodonPinnedTag.cache_data
         return MastodonPinnedTag.cache_data
       end
@@ -33,10 +34,14 @@ module Jekyll
         pinned_posts = JSON.parse(response.body)
         return "" if pinned_posts.empty?
 
-        html = '<div class="mastodon-pinned-container">'
+        # On garde strictement les 2 derniers posts épinglés
+        pinned_posts = pinned_posts.first(2)
+
+        # Grille Bootstrap (row)
+        html = '<div class="row g-4 mastodon-bootstrap-grid">'
         
         pinned_posts.each do |post|
-          html << render_pinned_post(post)
+          html << render_bootstrap_card(post)
         end
 
         html << '</div>'
@@ -51,13 +56,12 @@ module Jekyll
 
     private
 
-    def render_pinned_post(post)
+    def render_bootstrap_card(post)
       content_html = post['content']
       mastodon_url = post['url']
 
-      # 1. EXTRACTION DU LIEN ET DU TITRE DE LA SOURCE
       source_url = nil
-      source_title = "Actualité" # Titre par défaut
+      source_title = "Actualité"
 
       if post['card']
         source_url = post['card']['url']
@@ -77,7 +81,6 @@ module Jekyll
       
       source_url ||= mastodon_url
 
-      # 2. EXTRACTION DE L'IMAGE
       img_url = nil
       if post['card'] && post['card']['image']
         img_url = post['card']['image']
@@ -85,16 +88,17 @@ module Jekyll
         img_url = post['media_attachments'][0]['preview_url'] || post['media_attachments'][0]['url']
       end
 
+      # Conteneur d'image sans rognage
       img_html = ""
       if img_url && !img_url.empty?
         img_html = <<~HTML
-          <div class="pinned-img">
-            <img src="#{img_url}" alt="Illustration">
+          <div class="pinned-img-container" style="background-color: #fff; text-align: center;">
+            <img src="#{img_url}" class="card-img-top" alt="Illustration" style="width: 100%; height: auto; object-fit: contain;">
           </div>
         HTML
       end
 
-      # 3. NETTOYAGE DU TEXTE
+      # Nettoyage du texte
       clean_text = content_html.gsub(/<br\s*\/?>/, "\n")
       clean_text = clean_text.gsub(/<\/p>/, "\n\n")
       clean_text = clean_text.gsub(/<[^>]*>/, "")
@@ -105,20 +109,20 @@ module Jekyll
       clean_text = clean_text.gsub(/#\w+/, '')
       clean_text = clean_text.strip
 
-      formatted_paragraphs = clean_text.split("\n\n").reject(&:empty?).map { |p| "<p>#{p.strip}</p>" }.join
+      formatted_paragraphs = clean_text.split("\n\n").reject(&:empty?).map { |p| "<p class='card-text'>#{p.strip}</p>" }.join
 
-      # Structure HTML modifiée avec le Titre inclus
+      # Structure Bootstrap 2 colonnes (col-md-6) avec bouton aligné à droite
       <<~HTML
-        <div class="pinned-card">
-          <div class="pinned-main-content">
-            <h3 class="pinned-title">#{source_title}</h3>
-            <div class="pinned-content-wrapper">
-              #{img_html}
-              <div class="pinned-text-area">
-                <div class="pinned-text">
-                  #{formatted_paragraphs}
-                </div>
-                <a href="#{source_url}" target="_blank" rel="noopener noreferrer" class="pinned-more-link">
+        <div class="col-12 col-md-6 d-flex align-items-stretch">
+          <div class="card w-100 m-0 custom-mastodon-card" style="border: 2px solid #f1c40f; border-radius: 12px; display: flex; flex-direction: column;">
+            #{img_html}
+            <div class="card-body d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
+              <h3 class="card-title h5 mb-3" style="color: #222; line-height: 1.4; font-weight: 700;">#{source_title}</h3>
+              <div class="card-text-container" style="flex-grow: 1; color: #4a4a4a; font-size: 0.95rem; line-height: 1.5;">
+                #{formatted_paragraphs}
+              </div>
+              <div class="w-100 text-end text-right mt-3">
+                <a href="#{source_url}" target="_blank" rel="noopener noreferrer" class="cat-button">
                   En savoir plus →
                 </a>
               </div>
