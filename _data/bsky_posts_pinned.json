@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mmwdydsh672q",
-      "cid": "bafyreibla5pzop7yq4mqdsph6nrr4nm527ftx4faa7kztqshyqbhabd3yu",
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mp3whjz2nr2a",
+      "cid": "bafyreifwkwbfu3fwgsx7ui5mntt6vemluuk2gmkjiuhl6vwjnlfclu2gk4",
       "author": {
         "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
         "handle": "inforjeuneswaterloo.be",
@@ -22,24 +22,36 @@
       },
       "record": {
         "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-28T15:36:05.332Z",
+        "createdAt": "2026-06-25T07:40:24.355Z",
         "embed": {
           "$type": "app.bsky.embed.external",
           "external": {
-            "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
+            "description": "Pour savoir s’ils peuvent bénéficier d’une bourse ou d’une réduction des droits d’inscription, les étudiants et...",
             "thumb": {
               "$type": "blob",
               "ref": {
-                "$link": "bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
+                "$link": "bafkreiflznnh3n6ofvzyswlginjhuddsdyu7quiio5frdw5ct4dkgefiwu"
               },
               "mimeType": "image/jpeg",
-              "size": 145383
+              "size": 343023
             },
-            "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779"
+            "title": "Bourse ou réduction du minerval : l’UCLouvain conseille aux étudiants de ne pas traîner pour introduire leur dossier - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/reforme-du-minerval-l-uclouvain-s-attend-a-une-hausse-de-10-des-demandes-d-aides-des-etudiants-11745362"
           }
         },
         "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://allocations-etudes.cfwb.be/conditions-et-montant/enseignement-superieur/minerval/simul"
+              }
+            ],
+            "index": {
+              "byteEnd": 194,
+              "byteStart": 152
+            }
+          },
           {
             "features": [
               {
@@ -48,43 +60,43 @@
               }
             ],
             "index": {
-              "byteEnd": 248,
-              "byteStart": 235
+              "byteEnd": 278,
+              "byteStart": 265
             }
           },
           {
             "features": [
               {
                 "$type": "app.bsky.richtext.facet#tag",
-                "tag": "EnseignementSupérieur"
+                "tag": "FWB"
               }
             ],
             "index": {
-              "byteEnd": 272,
-              "byteStart": 249
+              "byteEnd": 283,
+              "byteStart": 279
             }
           },
           {
             "features": [
               {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Kiné"
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/reforme-du-minerval-l-uclouvain-s-attend-a-une-hausse-de-10-des-demandes-d-aides-des-etudiants-11745362"
               }
             ],
             "index": {
-              "byteEnd": 279,
-              "byteStart": 273
+              "byteEnd": 312,
+              "byteStart": 285
             }
           }
         ],
-        "text": "Les études de kinésithérapie passent à 5 ans dès septembre pour les étudiants qui entament les études.  Les étudiants engagés dans la formation pourront poursuivre leur cursus sous sa forme actuelle, même en cas d’échec. \n#Enseignement #EnseignementSupérieur #Kiné"
+        "text": "A partir de la rentrée prochaine le minerval oscillera entre 0€ et 1194€ en fonction des revenus du ménage.  Envie de savoir ? Simulateur ➡️  allocations-etudes.cfwb.be/conditions-e... \nSpoiler: la probabilité de devoir casquer le max est d'environ 0.6\n\n#Enseignement #FWB"
       },
       "embed": {
         "external": {
-          "uri": "https://www.rtbf.be/article/les-futurs-kinesitherapeutes-etudieront-un-an-de-plus-avant-d-obtenir-leur-diplome-11730779",
-          "title": "Les futurs kinésithérapeutes étudieront un an de plus avant d’obtenir leur diplôme - RTBF Actus",
-          "description": "L’obtention d’un titre de kinésithérapeute et réadaptation se fera désormais au terme d’un master 120, soit 5...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
+          "uri": "https://www.rtbf.be/article/reforme-du-minerval-l-uclouvain-s-attend-a-une-hausse-de-10-des-demandes-d-aides-des-etudiants-11745362",
+          "title": "Bourse ou réduction du minerval : l’UCLouvain conseille aux étudiants de ne pas traîner pour introduire leur dossier - RTBF Actus",
+          "description": "Pour savoir s’ils peuvent bénéficier d’une bourse ou d’une réduction des droits d’inscription, les étudiants et...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiflznnh3n6ofvzyswlginjhuddsdyu7quiio5frdw5ct4dkgefiwu"
         },
         "$type": "app.bsky.embed.external#view"
       },
@@ -93,7 +105,7 @@
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
-      "indexedAt": "2026-05-28T15:36:08.164Z",
+      "indexedAt": "2026-06-25T07:40:27.173Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -101,7 +113,7 @@
         "pinned": true
       },
       "labels": [],
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidpwshwyxmbrpuwe4fwxhpyxzdr3xzjbidl2t3m5oyigr4ik7m6lq"
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiflznnh3n6ofvzyswlginjhuddsdyu7quiio5frdw5ct4dkgefiwu"
     }
   ]
 }
