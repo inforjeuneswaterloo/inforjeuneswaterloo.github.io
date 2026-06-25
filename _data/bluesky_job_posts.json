@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp4odwjpmq2i",
+      "cid": "bafyreigyx2bhepoc2j3dyrllgirilrmde7ealgjyseii2iiea27mnrktdq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-25T14:47:53.964Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) terminant son bachelier en comptabilité (3e année) ou en cours de master disponible pour un job étudiant du ...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+              },
+              "mimeType": "image/png",
+              "size": 5817
+            },
+            "title": "Offre d'emploi de Étudiant Comptable (h-f-x) à Nivelles, Walloon Brabant",
+            "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/%C3%A9tudiant-comptable-h-f-x/000513295-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dB5ZS7V"
+              }
+            ],
+            "index": {
+              "byteEnd": 260,
+              "byteStart": 245
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 261
+            }
+          }
+        ],
+        "text": "Étudiant(e) Comptable à Nivelles\n- en fin de 3e bachelier ou en master\n- disponible tout l'été\n- vous avez une expérience concluante en stage ou en job étudiant\n- vous possédez le statut étudiant\n- vous avez une bonne maîtrise d'Excel \nbuff.ly/dB5ZS7V\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.roberthalf.com/be/fr/emploi/nivelles-walloon-brabant/%C3%A9tudiant-comptable-h-f-x/000513295-befr?utm_source=careerjet&utm_medium=referral&utm_campaign=paid&utm_content=standard",
+          "title": "Offre d'emploi de Étudiant Comptable (h-f-x) à Nivelles, Walloon Brabant",
+          "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) terminant son bachelier en comptabilité (3e année) ou en cours de master disponible pour un job étudiant du ...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreidugws4ag6diu3qswhalrlamjs6r5donmok647g6atig53dkm6ugm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-25T14:47:54.969Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp4nrdvpud2p",
+      "cid": "bafyreih5acylo5u5kbsbas5wgtwua4suuhqg7i2msfbfjlnpzlufhillg4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-25T14:37:29.165Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-magasin-de-piscines-rhode-saint-genese-rhode-saint-genese-brabant-flamand/386-42800-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/HzmVpCY"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Job étudiant | Magasin de piscines | Rhode-Saint-Genèse\n- dynamique et débrouillard\n- disponible régulièrement\n- aimer le secteur de la vente\n- ne pas avoir peur du contact client\n- Avoir travaillé dans un magasin similaire/connaissances techniques en piscine est un atout \nbuff.ly/HzmVpCY\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-magasin-de-piscines-rhode-saint-genese-rhode-saint-genese-brabant-flamand/386-42800-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-25T14:37:31.864Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp25sbdkft2i",
       "cid": "bafyreidoahff7qtzphaaymu7vmr3356rifkyduhb5ekkqeizmogpyszc64",
       "author": {
@@ -8240,166 +8418,6 @@
       "likeCount": 1,
       "quoteCount": 0,
       "indexedAt": "2026-05-06T13:29:15.375Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml4laoyeni2u",
-      "cid": "bafyreieeo43fsducbcvjablfgnlwhrqzhacc56gjiz2mrlbbozadlswzq4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-05T16:11:38.329Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=12527829cd1aa417&q=%C3%A9tudiant&l=Waterloo&tk=1jns7fltmg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAa67I3k8U__Sz4rJ0LbzkdCdPP&xfps=9ec3ea9f-cd2c-4dde-a4cf-bd9b508a5bb8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jns7fltmg9so800&xkcb=SoDF67M3k8GxE6Q2I50RbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/EGwde3H"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Job étudiant Maintenance IBIS BUDGET - Bruxelles\nMissions : \nPetits travaux de remise en état, suivre le cahier de consignes et règler les imprévus\nQualifications\nEtudiant(e) en école technique/maintenance/électricité, curieux et ayant envie de découvrir le métier\nbuff.ly/EGwde3H \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=12527829cd1aa417&q=%C3%A9tudiant&l=Waterloo&tk=1jns7fltmg9so800&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoAa67I3k8U__Sz4rJ0LbzkdCdPP&xfps=9ec3ea9f-cd2c-4dde-a4cf-bd9b508a5bb8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jns7fltmg9so800&xkcb=SoDF67M3k8GxE6Q2I50RbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-05T16:11:39.161Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml44t3mdzj2x",
-      "cid": "bafyreihcse2k6qe5xtm3s6cys5u5veifl64ijfe6bdzkijj65hz4d6muv4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-05T11:53:29.404Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=09e4602bceaf509b&q=%C3%A9tudiant&l=Waterloo&tk=1jnppl4isg9so801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDU67I3k73ABfzCSh0LbzkdCdPP&xfps=a05f2db2-0045-4e34-b6c0-7ca308ac8932&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnppl4isg9so801&xkcb=SoDd67M3k57bfmUpEp0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/sglBMg1"
-              }
-            ],
-            "index": {
-              "byteEnd": 221,
-              "byteStart": 206
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 230,
-              "byteStart": 224
-            }
-          }
-        ],
-        "text": "Job étudiant Proxy Delhaize Thielemans - 1150 Bruxelles\nDescription\n- Préparation boulangerie\n- Cuissons\n- Mise en rayon\n- Vérification des dates\n- Nettoyage\n- Caisse\n- Ouverture et fermeture du magasin\nbuff.ly/sglBMg1  \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=09e4602bceaf509b&q=%C3%A9tudiant&l=Waterloo&tk=1jnppl4isg9so801&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDU67I3k73ABfzCSh0LbzkdCdPP&xfps=a05f2db2-0045-4e34-b6c0-7ca308ac8932&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnppl4isg9so801&xkcb=SoDd67M3k57bfmUpEp0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-05T11:53:30.066Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
