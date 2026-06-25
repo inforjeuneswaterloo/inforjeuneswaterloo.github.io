@@ -79,205 +79,6 @@
       "labels": []
     },
     {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44psorb2c",
-      "cid": "bafyreifjfr2rsqgyrz25fycr6jblvubfmylmnolnci6alsevna6ywnybxi",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-11T11:18:32.278Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour obtenir un visa étudiant, les candidats doivent prouver qu'ils disposent de moyens de subsistance suffisants. Jusqu'à...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreicssbydd6qgig2w6t44etcy2jjxdw7t2ut2j4we7ye3hlsnhkc2c4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 281844
-            },
-            "title": "La ministre Van Bossuyt augmente le seuil financier pour les étudiants non européens - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/la-ministre-van-bossuyt-augmente-le-seuil-financier-pour-les-etudiants-non-europeens-11688804"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/rk0FURL"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ScC10Pd"
-              }
-            ],
-            "index": {
-              "byteEnd": 312,
-              "byteStart": 297
-            }
-          }
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreid5raj7brq6tf2phaav3czkidbvdk5xnycgefmjnnhukaphz4lgzu",
-            "commit": {
-              "cid": "bafyreifo2l6qtzmuyamcp7hnb45t7lpvxr2ydw2vthca62cgnfzg7lemwq",
-              "rev": "3mnz44ngba32e"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44ng2fd2e",
-            "validationStatus": "valid"
-          },
-          "root": {
-            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
-            "commit": {
-              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
-              "rev": "3mnz44fzx4222"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
-            "validationStatus": "valid"
-          }
-        },
-        "text": "Etudiants étrangers\n\nRessortissant EEE : rien à faire. Si ❌️ EEE : être autorisé à séjourner pour étudier & obtenir permis unique (Commune).  Pour permis : inscription au registre des étrangers\nℹ️ Max 20h/sem sauf pendant vacances \nFin du 🧵 Questions ? ➡️  buff.ly/rk0FURL \nbuff.ly/ScC10Pd"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/la-ministre-van-bossuyt-augmente-le-seuil-financier-pour-les-etudiants-non-europeens-11688804",
-          "title": "La ministre Van Bossuyt augmente le seuil financier pour les étudiants non européens - RTBF Actus",
-          "description": "Pour obtenir un visa étudiant, les candidats doivent prouver qu'ils disposent de moyens de subsistance suffisants. Jusqu'à...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicssbydd6qgig2w6t44etcy2jjxdw7t2ut2j4we7ye3hlsnhkc2c4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-11T11:18:35.766Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44ng2fd2e",
-      "cid": "bafyreid5raj7brq6tf2phaav3czkidbvdk5xnycgefmjnnhukaphz4lgzu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-11T11:18:32.118Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Pour prendre un enfant ou une autre personne à charge, l’une des conditions est que ses ressources nettes ne dépassent pas un certain montant.",
-            "title": "Ressources nettes",
-            "uri": "https://fin.belgium.be/fr/particuliers/declaration-impot/situation-personnelle/personnes-a-charge/ressources-nettes"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/zlS1Z9S"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 252
-            }
-          }
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreiear2rpx5yfg7k4743cz7dk2fmirtxo7yq64qn7nxldz3or5d7syu",
-            "commit": {
-              "cid": "bafyreiejgfg6twebjy7r5bbntnd2majqiku2izd6tgcsy2axgmholvdcai",
-              "rev": "3mnz44nbcdt2h"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44nb3j32h",
-            "validationStatus": "valid"
-          },
-          "root": {
-            "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
-            "commit": {
-              "cid": "bafyreifoytzjl3u43epahtttvbdklr73mmvilca5tsflgcecwdhacxlczy",
-              "rev": "3mnz44fzx4222"
-            },
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
-            "validationStatus": "valid"
-          }
-        },
-        "text": "Fiscalité\n\nFiscalement à charge ➡️  3 cond. cumul.\n- Faire partie du ménage au 01/01 de l'année concernée\n- Revenus ❌️  charges pros déductibles\n- Ressources nettes < plafond fixé par fisc\nℹ️ Calculateur de ressources nettes ⬇️ \nbuff.ly/zlS1Z9S"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://fin.belgium.be/fr/particuliers/declaration-impot/situation-personnelle/personnes-a-charge/ressources-nettes",
-          "title": "Ressources nettes",
-          "description": "Pour prendre un enfant ou une autre personne à charge, l’une des conditions est que ses ressources nettes ne dépassent pas un certain montant."
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-11T11:18:32.368Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44nb3j32h",
       "cid": "bafyreiear2rpx5yfg7k4743cz7dk2fmirtxo7yq64qn7nxldz3or5d7syu",
       "author": {
@@ -323,7 +124,7 @@
         "text": "Allocations familiales \n\n- U18 : inconditionnelles ➡️ pas de limite d'heures de travail\n- 18+ : si dépassement 650h/an ➡️  application du plafond de 240h/trim. Si > plafond ➡️ suspension des alloc. familiales pour le trimestre entier. \nℹ️ Règle 240/trim pas d'application pour 07,08,09 si reprise études"
       },
       "bookmarkCount": 0,
-      "replyCount": 1,
+      "replyCount": 0,
       "repostCount": 0,
       "likeCount": 0,
       "quoteCount": 0,
@@ -622,87 +423,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-11T11:18:27.171Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mnz44fzrak22",
-      "cid": "bafyreie7m7w5wb5uqck73y2ecs36er5qw36243s5vdyu2ee5l244kpdb2m",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-11T11:18:24.197Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Centre de contact Le Centre de contact est accessible :",
-            "title": "Directions régionales du Contrôle des lois sociales | SPF Emploi - Travail et Concertation sociale",
-            "uri": "https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Travail"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 291
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "JobEtudiant"
-              }
-            ],
-            "index": {
-              "byteEnd": 312,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "🧵  Job étudiant \n\nPas de définition légale du 'statut étudiant'.  Le principe : étudier = activité principale.  Un doute ? Contacte le CLS\n⚠️ Exclusions : \n- Travail depuis 12 mois (ininterrompus) c/ même employeur\n- en cours du soir ou suivant enseignement à horaire réduit\n#Travail #JobEtudiant"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions",
-          "title": "Directions régionales du Contrôle des lois sociales | SPF Emploi - Travail et Concertation sociale",
-          "description": "Centre de contact Le Centre de contact est accessible :"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-11T11:18:24.665Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
@@ -10360,6 +10080,324 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-07-05T16:28:33.143Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lsgp4qlpo72u",
+      "cid": "bafyreia3ixzyfk3eliw6nyuauuiyhitpj47icsiuatstaekhmyp53qqyom",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-06-25T13:17:46.278Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 238384
+            },
+            "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "viepratique"
+              }
+            ],
+            "index": {
+              "byteEnd": 204,
+              "byteStart": 192
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "loisirs"
+              }
+            ],
+            "index": {
+              "byteEnd": 213,
+              "byteStart": 205
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "festivals"
+              }
+            ],
+            "index": {
+              "byteEnd": 224,
+              "byteStart": 214
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "summer"
+              }
+            ],
+            "index": {
+              "byteEnd": 232,
+              "byteStart": 225
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/JsXu700"
+              }
+            ],
+            "index": {
+              "byteEnd": 250,
+              "byteStart": 235
+            }
+          }
+        ],
+        "text": "Les hirondelles reviennent avec le printemps, les festival avec l'été. Piqûre de rappel sur ce qu'il ne faut pas prendre avec soi pour ne pas s'embrouiller avec les gros bras de la sécu.\n\n#viepratique #loisirs #festivals #summer \n\nbuff.ly/JsXu700"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792",
+          "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
+          "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2025-06-25T13:17:48.338Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrzgdkhwqs26",
+      "cid": "bafyreidcccjc7tukynxwve6k72eaifdff2ducmzzu62e4ogvbibugnc2om",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-06-20T06:35:53.489Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici"
+              },
+              "mimeType": "image/jpeg",
+              "size": 154634
+            },
+            "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
+            "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "IA"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 265
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "TechFail"
+              }
+            ],
+            "index": {
+              "byteEnd": 278,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 284,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/dsImwKY"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "ChatGPT perd aux échecs contre une Atari 2600 de... 1977. Confusion des pièces, excuses absurdes; et une défaite inévitable. Selon le chercheur Robert JR. Caruso: “Les LLM (Large Language Model) ne jouent pas, ils devinent.” Parfois, 128 octets suffisent. \n#IA #TechFail #tech\nbuff.ly/dsImwKY"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.frandroid.com/culture-tech/2645587_chatgpt-perd-contre-une-console-de-1977-aux-echecs-on-vous-explique-pourquoi-ca-nest-pas-une-surprise",
+          "title": "ChatGPT perd contre une console de 1977 aux échecs : on vous explique pourquoi ça n'est pas une surprise",
+          "description": "L'intelligence artificielle a ses limites, et cette expérience le prouve : ChatGPT s'est fait humilier aux échecs par la légendaire console Atari 2600.",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigltdc4ttkt6dhmln7u2jcgkaaxg2mouempjclyci2ogojq454ici"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-06-20T06:35:57.239Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lrvcc6yjuq2k",
+      "cid": "bafyreih3l2ru5d5x6iiwkxlkq7pqjkmmhtxkwhvvfe4jufqx5fw2onee3q",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2025-06-18T15:12:54.901Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm"
+              },
+              "mimeType": "image/jpeg",
+              "size": 61179
+            },
+            "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
+            "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kKSfgPf"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "20/06: l'UE introduit un étiquetage énergétique pour smartphones et tablettes visant à informer, lutter contre l'obsolescence programmée et promouvoir la durabilité. Les critères incluent durée de vie de la batterie, réparabilité, étanchéité, solidité et impact écologique.\n\nbuff.ly/kKSfgPf"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.commentcamarche.net/mobile/34421-voici-ce-qui-va-changer-pour-les-smartphones-et-les-tablettes-vendus-dans-l-ue-a-partir-du-20-juin/",
+          "title": "Voici ce qui va changer pour les smartphones et les tablettes vendus dans l'UE à partir du 20 juin",
+          "description": "À partir du 20 juin 2025, tous les smartphones et tablettes vendus dans l'Union européenne devront respecter certains critères d'écoconception et comporter une étiquette énergétique. Une faç...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreib2hypilby2dgggo7snxpndhycihrttndphi3mpf5tnlkuevnigvm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2025-06-18T15:12:57.054Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
