@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mp6xea6sfx2x",
+      "cid": "bafyreifjiljh2ix2tqf2cfvky5bctxc3z2xhp63hla4cmwlehevs4qi6me",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-26T12:34:26.904Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le gouvernement wallon a adopté en première lecture un projet de réforme des allocations familiales pour les 21-25 ans. Après la fin des études ou d’une formation, les jeunes ne pourraient plus…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreih3z76u46ntj4r6squbes3uzjjjrcdivijlknuhsvpbhczvmdejmm"
+              },
+              "mimeType": "image/jpeg",
+              "size": 15726
+            },
+            "title": "Allocations familiales : un changement important pour de nombreux Belges entrera bientôt en vigueur",
+            "uri": "https://www.rtl.be/actu/belgique/societe/allocations-familiales-un-changement-important-pour-de-nombreux-belges-entrera/2026-06-25/article/792753"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Wallgov"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 260
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "ProtectionSociale"
+              }
+            ],
+            "index": {
+              "byteEnd": 287,
+              "byteStart": 269
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/tgcmObA"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Projet de réforme des allocations familiales pour les 21-25 ans.  Création d'un statut unique.  L'idée : limiter à 12 mois l'octroi des AF après la fin des études ou d'une formation. Application prévue àpd 01/07.  Une période transitoire est prévue.\n#Wallgov #ProtectionSociale\n\nbuff.ly/tgcmObA"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtl.be/actu/belgique/societe/allocations-familiales-un-changement-important-pour-de-nombreux-belges-entrera/2026-06-25/article/792753",
+          "title": "Allocations familiales : un changement important pour de nombreux Belges entrera bientôt en vigueur",
+          "description": "Le gouvernement wallon a adopté en première lecture un projet de réforme des allocations familiales pour les 21-25 ans. Après la fin des études ou d’une formation, les jeunes ne pourraient plus…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreih3z76u46ntj4r6squbes3uzjjjrcdivijlknuhsvpbhczvmdejmm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-26T12:34:29.169Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mp3xctta462j",
       "cid": "bafyreidxkd4j6j6cadhjmqhduwveuwvv3imt3x5pqh7jdmdqvznicuyiqy",
       "author": {
@@ -10296,132 +10398,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-07-05T16:28:33.143Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lsgp4qlpo72u",
-      "cid": "bafyreia3ixzyfk3eliw6nyuauuiyhitpj47icsiuatstaekhmyp53qqyom",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-06-25T13:17:46.278Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 238384
-            },
-            "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "viepratique"
-              }
-            ],
-            "index": {
-              "byteEnd": 204,
-              "byteStart": 192
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "loisirs"
-              }
-            ],
-            "index": {
-              "byteEnd": 213,
-              "byteStart": 205
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "festivals"
-              }
-            ],
-            "index": {
-              "byteEnd": 224,
-              "byteStart": 214
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "summer"
-              }
-            ],
-            "index": {
-              "byteEnd": 232,
-              "byteStart": 225
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JsXu700"
-              }
-            ],
-            "index": {
-              "byteEnd": 250,
-              "byteStart": 235
-            }
-          }
-        ],
-        "text": "Les hirondelles reviennent avec le printemps, les festival avec l'été. Piqûre de rappel sur ce qu'il ne faut pas prendre avec soi pour ne pas s'embrouiller avec les gros bras de la sécu.\n\n#viepratique #loisirs #festivals #summer \n\nbuff.ly/JsXu700"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/ce-qu-il-ne-faut-absolument-pas-prendre-en-festival-11563792",
-          "title": "Ce qu’il ne faut absolument pas prendre en festival - RTBF Actus",
-          "description": "Chaque lieu possède son règlement et en festival, c’est pareil : il y a une liste d’objets interdits sur place....",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreielxp5xggknox62p7turxrudfywymm7pscanmnylkgqdy7mmz7dj4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-06-25T13:17:48.338Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
