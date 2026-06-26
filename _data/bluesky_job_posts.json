@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp67nbmd5l2r",
+      "cid": "bafyreicmtvgveedccdqp3w3zefo376cmk6y4ebat2dl2tqm35vgswnz7eu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-26T05:30:01.525Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=332929f94d85db8f&q=%C3%A9tudiant&l=Waterloo&tk=1js03pd77hb4o802&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAH67I3hBEB5KzNSB0LbzkdCdPP&xfps=1566c20f-cb88-4027-81ec-733adb22a48e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1js03pd77hb4o802&xkcb=SoDE67M3hAPli7yPMh0AbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/YaIzXkS"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 290
+            }
+          }
+        ],
+        "text": "Etudiant en comptabilité Louyet Group - Wavre \n- Encodage/tenue pièces comptables\n- Suivi/récupération créances\n- Préparation paiements via programme ISABEL\n-...\nProfil :\n- Organisé/autonome/rigoureux\n- Goût de la synthèse et de l’analyse\n- Maitrise MS Excel...\nbuff.ly/YaIzXkS \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=332929f94d85db8f&q=%C3%A9tudiant&l=Waterloo&tk=1js03pd77hb4o802&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAH67I3hBEB5KzNSB0LbzkdCdPP&xfps=1566c20f-cb88-4027-81ec-733adb22a48e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1js03pd77hb4o802&xkcb=SoDE67M3hAPli7yPMh0AbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-26T05:30:02.095Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp675yssi32l",
+      "cid": "bafyreiheul54siyaeeqvca5js2m4cukb5ek6vzuvwl65dul6bz7ns7radi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-26T05:21:27.065Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vendeur/se (magasin)",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Employé(e) de Caisse | Medi-Market | Uccle Bascule | UCCLE, Bruxelles",
+            "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-edecaissemedimarketucclebascule-uccle-bruxelles/586-8457-1?utm_source=jooble&utm_medium=Paid&igbTracker=926549754&utm_campaign=digital_delivery_1520&utm_content=Employ%C3%A9%28e%29+de+Caisse+%7C+Medi-Market+%7C+Uccle+Bascule+%28586-8457-1%29+%5B926549754%5D%5Bad83baf950a417bd_d9b3986ffea5e%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ju3fdi4"
+              }
+            ],
+            "index": {
+              "byteEnd": 277,
+              "byteStart": 262
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 285,
+              "byteStart": 279
+            }
+          }
+        ],
+        "text": "Employé(e) de Caisse Medi-Market - Uccle Bascule\nTâches\n- Accueillir les clients\n- Caisse \n- Réassort\n- Mise en ordre, propreté du magasin\n-...\nProfil\n- Plus de 18 ans\n- Orienté(e) client/sens du service.\n- Rigoureux(se), fiable\n- Flexible/polyvalent(e)...\nbuff.ly/ju3fdi4 \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-edecaissemedimarketucclebascule-uccle-bruxelles/586-8457-1?utm_source=jooble&utm_medium=Paid&igbTracker=926549754&utm_campaign=digital_delivery_1520&utm_content=Employ%C3%A9%28e%29+de+Caisse+%7C+Medi-Market+%7C+Uccle+Bascule+%28586-8457-1%29+%5B926549754%5D%5Bad83baf950a417bd_d9b3986ffea5e%5D",
+          "title": "Employé(e) de Caisse | Medi-Market | Uccle Bascule | UCCLE, Bruxelles",
+          "description": "Vendeur/se (magasin)",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-26T05:21:29.862Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp4odwjpmq2i",
       "cid": "bafyreigyx2bhepoc2j3dyrllgirilrmde7ealgjyseii2iiea27mnrktdq",
       "author": {
@@ -8249,175 +8418,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-07T07:51:15.970Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml6vdpd6kr2a",
-      "cid": "bafyreia6i7sazont44rhct35hfkhftkd3a4vyrphojhnbssotlbrh2cxji",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-06T14:17:36.228Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=0bc5e640017141c2&q=Etudiant&l=Brabant-wallon&tk=1jnuoe9hugdbt800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAo67I3k-8al0TNjh0LbzkdCdPP&xfps=954d73a8-6f44-4b56-ab1c-6ab2931b720f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnuoe9hugdbt800&xkcb=SoAX67M3k-425V-ckp0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/JhowlmP"
-              }
-            ],
-            "index": {
-              "byteEnd": 291,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 293
-            }
-          }
-        ],
-        "text": "ETUDIANT SUPERIEUR AIDE GUICHET/COMPTA/ACHATS (H/F)\nVDS Food - Wavre\nTâches :\n- comptabilité (encodage principalement)\n- service achat (classement et encodage)\n- guichet (encaissements, commandes,...)\nProfil\n- Flexibilité/commercial/contact facile\n- Bonne présentation...\nbuff.ly/JhowlmP \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=0bc5e640017141c2&q=Etudiant&l=Brabant-wallon&tk=1jnuoe9hugdbt800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoAo67I3k-8al0TNjh0LbzkdCdPP&xfps=954d73a8-6f44-4b56-ab1c-6ab2931b720f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnuoe9hugdbt800&xkcb=SoAX67M3k-425V-ckp0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-06T14:17:37.361Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ml6sna4ywt2q",
-      "cid": "bafyreid27cs7pi2dcifolxzrbac2q2qb2ipq7mcdg3vcbramwrizjrkizi",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-06T13:29:13.973Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
-              },
-              "mimeType": "image/png",
-              "size": 7088
-            },
-            "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
-            "uri": "https://www.konvert.be/fr/vacancies/7-452-202621988"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/s7WqbUm"
-              }
-            ],
-            "index": {
-              "byteEnd": 272,
-              "byteStart": 257
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 279,
-              "byteStart": 273
-            }
-          }
-        ],
-        "text": "Etudiant de plus de 18 ans Manutentionnaire réserve de recrutement juillet/août - Nivelles\nDispo de nuit ou du WE, bonne condition physique et véhiculé\nTâches :\n- Charger/décharger des colis pouvant peser jusqu'à 30 kg\n- Trier/organiser les colis...\nbuff.ly/s7WqbUm\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.konvert.be/fr/vacancies/7-452-202621988",
-          "title": "Etudiant Manutentionnaire - Réserve de recrutement juillet/août",
-          "description": "Travailler en tant que Etudiant Manutentionnaire - Réserve de recrutement juillet/août ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-06T13:29:15.375Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
