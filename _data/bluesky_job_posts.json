@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp7aazerc22p",
+      "cid": "bafyreian42zroozrcklk3ori4kdqmjbkhdktrdzmyrbklupgeh5bww4wou",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-26T15:13:41.759Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-mission-douvriere-polyvalente-en-aout-wavre-wavre-brabant-wallon/142-35085-3&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SCBtYwB"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 287
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 310,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Etudiant min. 16 ans ouvrier polyvalent août - Wavre\n- Réaliser des tâches de production simples \n- Respecter les normes sécurité et qualité\n- Maintenir un environnement de travail propre et organisé\nProfil :\n- Sérieux/ponctuel/motivé\n- Aucune expérience préalable requise...\nbuff.ly/SCBtYwB \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/job-etudiant-mission-douvriere-polyvalente-en-aout-wavre-wavre-brabant-wallon/142-35085-3&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-26T15:13:44.072Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp77vrhvsk2k",
+      "cid": "bafyreickhefj6l2ondqspmoxjgf4p72dqpolrd74mq3p25lcro5nvbympa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-26T15:07:26.404Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=46e06bf0bb576847&q=Etudiant&l=Brabant-wallon&tk=1js23o6dag2ii800&from=ja&advn=9924331099937097&adid=463612288&ad=-6NYlbfkN0DK65G-dCnHlPJVblw-gGrWFWqIpteqY8Jy38ZMCEmz0uCEjD--vJpzWczTuD_67bmMxcy8hIFrVGBjhbUPmaqIoH8-f-2u-sNruj5BWj4ac3MJMA6cLOW0zSMvITf05Ul8P_hpJhGHfRiZk3LM0pr5DH7eZOj2xGEgr2Objuw-bz7AmXTBjUC-CwRKfNagXQUzv0MUjbaLrq8A1h_Ghg9bJYhc9Q7iQjCNlKPNEokgnC83CqvatUkPIXSBrPsfW6t5DBfBHzCgroWCHxGmTWsncd6vDC-OhFmIlB_rR-ZQuFhPvzOhQM8SOT3dw00NoaOvinYPRtnxvyQkDrXodEpfDfEnJWRMT6N862WEAOyJV-Kvm5Hg78BRCafDHhM_FB4p5xhiRHihssID4IOchaY1O795czF_hKc92Dh3uI4WCElhAlyeQR7b7YX4ESnhaQBPKrDxdd7qUQr8wtQ01i7H5cPMZEgq59LSO_-5TSHmCeZEIDbKUMuXNCmoGKXWKEvvcV0iYFkeBtQCTSau2byA0Ns7pLveoxoGzK5I8zkB0Ra9BKSnHzHbDlyT08IuqeSI86W5NuYcyzVqLVUgHFLX&sjdu=1TOD8xH__lyNNYnyGuYxcDfwW75eLMk3cykhl0EhaOhVElnDYCWUuTCAb4X77089L19JqLD3z1n2QQCvUiqO3g&acatk=1js24tc00hbd5801&alid=56b55072e4b078c137fc0296&pub=21d85ca573e478f5e659e48885c828920cace3277f6b99df&camk=C3EPSzFlQw9SFxtpVMfQXg%3D%3D&xkcb=SoC-6_M3hCPu3dQo7B0IbzkdCdPP&xpse=SoAn6_I3hCB6W1TDaB0IbzkdCdPP&xfps=7617884c-7407-4fdf-b771-072768849ec2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Xr6pY0N"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 303,
+              "byteStart": 297
+            }
+          }
+        ],
+        "text": "Job d'été IT/Câblage/Déploiement Réseau - Nivelles\nMise en place câblage/installation équipements (Wi-Fi, modules réseau,...) et IT/audiovisuels...\nProfil :\n- Ét. informatique/électricité/électromécanique\n- manuel/débrouillard/dynamique\n- sens de l’initiative\n...\nbuff.ly/Xr6pY0N \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=46e06bf0bb576847&q=Etudiant&l=Brabant-wallon&tk=1js23o6dag2ii800&from=ja&advn=9924331099937097&adid=463612288&ad=-6NYlbfkN0DK65G-dCnHlPJVblw-gGrWFWqIpteqY8Jy38ZMCEmz0uCEjD--vJpzWczTuD_67bmMxcy8hIFrVGBjhbUPmaqIoH8-f-2u-sNruj5BWj4ac3MJMA6cLOW0zSMvITf05Ul8P_hpJhGHfRiZk3LM0pr5DH7eZOj2xGEgr2Objuw-bz7AmXTBjUC-CwRKfNagXQUzv0MUjbaLrq8A1h_Ghg9bJYhc9Q7iQjCNlKPNEokgnC83CqvatUkPIXSBrPsfW6t5DBfBHzCgroWCHxGmTWsncd6vDC-OhFmIlB_rR-ZQuFhPvzOhQM8SOT3dw00NoaOvinYPRtnxvyQkDrXodEpfDfEnJWRMT6N862WEAOyJV-Kvm5Hg78BRCafDHhM_FB4p5xhiRHihssID4IOchaY1O795czF_hKc92Dh3uI4WCElhAlyeQR7b7YX4ESnhaQBPKrDxdd7qUQr8wtQ01i7H5cPMZEgq59LSO_-5TSHmCeZEIDbKUMuXNCmoGKXWKEvvcV0iYFkeBtQCTSau2byA0Ns7pLveoxoGzK5I8zkB0Ra9BKSnHzHbDlyT08IuqeSI86W5NuYcyzVqLVUgHFLX&sjdu=1TOD8xH__lyNNYnyGuYxcDfwW75eLMk3cykhl0EhaOhVElnDYCWUuTCAb4X77089L19JqLD3z1n2QQCvUiqO3g&acatk=1js24tc00hbd5801&alid=56b55072e4b078c137fc0296&pub=21d85ca573e478f5e659e48885c828920cace3277f6b99df&camk=C3EPSzFlQw9SFxtpVMfQXg%3D%3D&xkcb=SoC-6_M3hCPu3dQo7B0IbzkdCdPP&xpse=SoAn6_I3hCB6W1TDaB0IbzkdCdPP&xfps=7617884c-7407-4fdf-b771-072768849ec2&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-26T15:07:26.762Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp67nbmd5l2r",
       "cid": "bafyreicmtvgveedccdqp3w3zefo376cmk6y4ebat2dl2tqm35vgswnz7eu",
       "author": {
@@ -8249,175 +8418,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-07T12:03:37.070Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb5xewa7c2k",
-      "cid": "bafyreigwubpnm2f3sxsflkgpf23jza4ptp2du4ykgababghswd6uisavt4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-07T11:56:52.092Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreih2uh7zpcvp6rejdvvqama5ov7adduibxn5tgnvjn6lsakt3ox34m"
-              },
-              "mimeType": "image/webp",
-              "size": 757368
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32376-3&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/puPvmfA"
-              }
-            ],
-            "index": {
-              "byteEnd": 140,
-              "byteStart": 125
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 147,
-              "byteStart": 141
-            }
-          }
-        ],
-        "text": "Etudiant(e) caisse et réassort Nivelles\nTâches\n- Caisse\n- Réassort\n- Polyvalence en fonction des besoins dans le magasin \nbuff.ly/puPvmfA\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-caisse-et-reassort-nivelles-brabant-wallon/166-32376-3&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreih2uh7zpcvp6rejdvvqama5ov7adduibxn5tgnvjn6lsakt3ox34m"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-07T11:57:06.962Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlaq7ryf4a2u",
-      "cid": "bafyreiheugtwpyoifgswh2z32bu4j5f2xorwhyn62wff4nhfzkaathduc4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-07T07:51:15.580Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=96500c115530383f&q=Etudiants&l=Brabant-wallon&tk=1jnustbnu207e002&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCQ67I3jAk6XyT5Wx0LbzkdCdPP&xfps=d908d68c-216a-4d9f-bad2-ccd244f2de27&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnustbnu207e002&xkcb=SoCc67M3k-x6UtAGyD0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/yoisgE0"
-              }
-            ],
-            "index": {
-              "byteEnd": 307,
-              "byteStart": 292
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 314,
-              "byteStart": 308
-            }
-          }
-        ],
-        "text": "Etudiant(e) ALDI Wavre\n- min. 18 ans\n- Faire preuve d’amabilité et de serviabilité à tout moment\n- Aimer être sur le terrain et posséder un véritable esprit d’équipe\n- Dispo les samedis et pendant les congés scolaires\n- Savoir se déplacer vers les ALDI à proximité de chez toi\nbuff.ly/yoisgE0\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=96500c115530383f&q=Etudiants&l=Brabant-wallon&tk=1jnustbnu207e002&from=ja&alid=56b55072e4b05009f1344518&g1tAS=true&xpse=SoCQ67I3jAk6XyT5Wx0LbzkdCdPP&xfps=d908d68c-216a-4d9f-bad2-ccd244f2de27&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jnustbnu207e002&xkcb=SoCc67M3k-x6UtAGyD0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-07T07:51:15.970Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
