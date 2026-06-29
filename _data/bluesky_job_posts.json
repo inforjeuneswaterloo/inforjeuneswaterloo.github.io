@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpguhtqrso25",
+      "cid": "bafyreih67fep5va577drb3mynd6l5frcjicazmrijgskylnk56yzkoz6hi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-29T16:04:04.637Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous êtes à la recherche d’un job d’Etudiant assistant administratif à Jodoigne ?",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifcveqs72qsbgpeimrnts74tf2nzj3w5xa36e7itd7jqktjym7zdm"
+              },
+              "mimeType": "image/jpeg",
+              "size": 75971
+            },
+            "title": "Job vacancy Assistant Administratif in Jodoigne",
+            "uri": "https://www.brightplus.be/en/job/assistant_administratif-2014000"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/MGkGI7m"
+              }
+            ],
+            "index": {
+              "byteEnd": 279,
+              "byteStart": 264
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 286,
+              "byteStart": 280
+            }
+          }
+        ],
+        "text": "Etudiant(e) assistant administratif Jodoigne\nTâches:\n- Gérer le téléphone et les e-mails généraux\n- Assurer le suivi du courrier en français et en anglais\n- Réceptionner les commandes de matériel\n- Assurer la gestion des documents : classement, archivage\nbuff.ly/MGkGI7m\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.brightplus.be/en/job/assistant_administratif-2014000",
+          "title": "Job vacancy Assistant Administratif in Jodoigne",
+          "description": "Vous êtes à la recherche d’un job d’Etudiant assistant administratif à Jodoigne ?",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifcveqs72qsbgpeimrnts74tf2nzj3w5xa36e7itd7jqktjym7zdm"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-29T16:04:06.662Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpgsji5mc72u",
+      "cid": "bafyreibcgtpdbn5mejtyfolxtbi452l4qx7pjz6gz47gj6v6nnozy7urxa",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-29T15:29:12.465Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 20heures 1348 LOUVAIN LA NEUVE, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe :…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 50342
+            },
+            "title": "vendeur/euse polyvalent",
+            "uri": "https://maisonsdumonde.wd3.myworkdayjobs.com/fr-FR/Site_carriere/job/Louvain-La-Neuve/vendeur-euse-polyvalent_R18488"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/kI6oJC6"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant vendeur polyvalent H/F Louvain-la-Neuve\n- Vous aimez l’univers de décoration et de l’ameublement\n- Vous avez déjà une expérience en vente\n- Vous prenez du plaisir à accompagner chaque client dans ses achats\n- Le travail en équipe est important pour vous\nbuff.ly/kI6oJC6\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://maisonsdumonde.wd3.myworkdayjobs.com/fr-FR/Site_carriere/job/Louvain-La-Neuve/vendeur-euse-polyvalent_R18488",
+          "title": "vendeur/euse polyvalent",
+          "description": "Etudiant (durée déterminée) Temps de Travail Hebdomadaire : 20heures 1348 LOUVAIN LA NEUVE, Belgique Notre magasin recrute un/e Vendeur/se Polyvalent/e. Vos missions en magasin au sein de l’équipe :…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreialfgtz2cektw5cx6epcjkjedvlis5sgub5vzhkckcxh2c5bip2hu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-29T15:29:13.568Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mp7aazerc22p",
       "cid": "bafyreian42zroozrcklk3ori4kdqmjbkhdktrdzmyrbklupgeh5bww4wou",
       "author": {
@@ -8237,187 +8415,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-08T08:57:58.362Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mldal5ekjd2e",
-      "cid": "bafyreib2yjqhvaa7jikvot7nen5yefm3wxnlygg3rtuwu3n7lbgpigvcym",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-08T07:49:15.915Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5762597?JobId=5762597&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/wfCdyhU"
-              }
-            ],
-            "index": {
-              "byteEnd": 304,
-              "byteStart": 289
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Etudiant(e) en Soins Infirmiers Woluwé-Saint-Lambert\nCopies à fournir\n - visa d’aide-soignant\n - recto/verso de ta carte d’identité\n - carte de banque\n - carte étudiante ou attestation d’inscription 2025/2026\n- doc de visite médicale récent\n- carte de Vaccination hépatite B \nbuff.ly/wfCdyhU\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5762597?JobId=5762597&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-08T07:49:16.563Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlb6cyfpup2x",
-      "cid": "bafyreiduzfqhfyx4ngkudhjp7yi7dxtvui53os3eisu7i4dmb326xiwfn4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-07T12:03:34.394Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Job étudiant",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
-              },
-              "mimeType": "image/jpeg",
-              "size": 101637
-            },
-            "title": "Étudiant.e/flexi magasin semaine Waterloo",
-            "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/qWHM8FB"
-              }
-            ],
-            "index": {
-              "byteEnd": 226,
-              "byteStart": 211
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 233,
-              "byteStart": 227
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 241,
-              "byteStart": 234
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie Waterloo\nProfil\n- Dynamisme et enthousiasme.\n- Sens du service et de l'accueil client.\n- Capacité à travailler en équipe et à s'adapter.\n- Disponibilité pour un job à l'année. \nbuff.ly/qWHM8FB\n#job4u\n#ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://jobs.lepaindantan.be/jobs/etudianteflexi-magasin-semaine-waterloo-071fe73f?utm_source=careerjet&utm_medium=xml_feed",
-          "title": "Étudiant.e/flexi magasin semaine Waterloo",
-          "description": "Job étudiant",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifiu62vhom33uicvjqjcny24gox3xcjfi3kebm3tdh2267p2ztw3i"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-07T12:03:37.070Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
