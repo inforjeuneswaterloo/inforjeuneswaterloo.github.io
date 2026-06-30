@@ -24,15 +24,6 @@
       <img src="{{ '/assets/images/logos/ijw-banner-transparent.webp' | relative_url }}" alt="{{ site.title }}" class="site-logo">
     </a>
     <p class="site-slogan">{{ site.description }}</p>
-    <div class="partners-inner">
-      <div class="parners-logos">
-        {%for social in site.data.social %}
-          <a class="btn bg-transparent" href="{{social.url}}" target="_blank">
-            <i class="{{social.icon}}"></i>
-          </a>
-        {%endfor%}
-      </div>
-  </div>
   </div>
   <div class="nav-container">
     <input type="checkbox" id="menu-cb" class="menu-checkbox">
@@ -51,9 +42,20 @@
     </nav>
   </div>
 </header>
-  <div class="container-fluid">
+<div class="container mt-0 p-0">
+  <div class="partners-inner">
+      <div class="parners-logos">
+        {%for social in site.data.social %}
+          <a class="btn bg-transparent" href="{{social.url}}" target="_blank">
+            <i class="{{social.icon}}"></i>
+          </a>
+        {%endfor%}
+      </div>
+    </div>
+</div>
+<div class="container-fluid">
     {{ content }}
-  </div> 
+</div> 
     <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid rgba(128,128,128,0.1); font-size: 0.8rem; opacity: 0.5; font-family: sans-serif;">
         <p>&copy; {{ "now" | date: "%Y" }} — {{ site.title }}</p>
         <div class="container">
