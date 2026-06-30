@@ -33,7 +33,7 @@ module Jekyll
         data = JSON.parse(response.body)
         return "" if data['feed'].nil? || data['feed'].empty?
 
-        html = '<div class="row g-4 bsky-bootstrap-grid">'
+        html = '<div class="row g-2 bsky-bootstrap-grid">'
         count = 0
 
         data['feed'].each do |item|

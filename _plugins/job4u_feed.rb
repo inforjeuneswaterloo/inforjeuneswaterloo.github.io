@@ -50,8 +50,8 @@ module Jekyll
             image_header = img_url && !img_url.empty? ? "<div class='mastodon-card-image'><img src='#{img_url}' alt=''></div>" : ""
 
             html << <<~HTML
-              <div class=" col-sm-12 col-md-6 d-flex align-items-stretch mb-3">
-                <div class="card h-100 border-0 mb-2">
+              <div class=" col-sm-12 col-md-6 d-flex align-items-stretch mb-1">
+                <div class="card h-100 border-0 mb-1">
                   <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
                     <div class="d-flex justify-content-end mb-2">
                       <div class="mb-2 text-muted">
