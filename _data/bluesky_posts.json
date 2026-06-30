@@ -1,6 +1,368 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpilgyqo5c2l",
+      "cid": "bafyreibbvxtigotxcxtylctmv7ouif7ifughfmeo5tvov6gcjud652hpu4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-30T08:27:51.813Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Cela fait 13 ans que le dossier des droits des passagers aériens fait l’objet de discussions entre la Commission...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiblzu5ijka62o4verzj6d6qsfksbx4cq624iyayeyqlkg6lvdu5vq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 294650
+            },
+            "title": "Retards, carte d’embarquement, choix du siège, bagages cabine : comment les droits des passagers aériens européens vont changer - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/retards-carte-d-embarquement-choix-du-siege-bagages-cabine-comment-les-droits-des-passagers-aeriens-europeens-vont-changer-11741507"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Consommation"
+              }
+            ],
+            "index": {
+              "byteEnd": 245,
+              "byteStart": 232
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 253,
+              "byteStart": 246
+            }
+          }
+        ],
+        "text": "Parlement européen et Etats membres sont parvenus à un accord : indemnisation et remboursement plus rapides et faciles, clarification de l'information relative aux bagages cabine, plus de droits pour les passagers vulnérables...\n#Consommation #Europe"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/retards-carte-d-embarquement-choix-du-siege-bagages-cabine-comment-les-droits-des-passagers-aeriens-europeens-vont-changer-11741507",
+          "title": "Retards, carte d’embarquement, choix du siège, bagages cabine : comment les droits des passagers aériens européens vont changer - RTBF Actus",
+          "description": "Cela fait 13 ans que le dossier des droits des passagers aériens fait l’objet de discussions entre la Commission...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiblzu5ijka62o4verzj6d6qsfksbx4cq624iyayeyqlkg6lvdu5vq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-30T08:27:54.819Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihuqenac2u",
+      "cid": "bafyreigfdgoqxeoka7r4tvvoqonl526lxri5u5rcrzrjfwqzrqsjxodjfu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-30T07:23:59.437Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Depuis des années, les colis de faible valeur envoyés directement depuis des pays hors Union Européenne (EU)...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiew7ykdnqmj2ocellise4medyhmrxzz7ikp6vdrsfpyym6kkg3xi4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 641325
+            },
+            "title": "Shein, petits colis et nouvelle taxe européenne : ce que change le futur hub du géant chinois en Pologne - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/shein-petits-colis-et-nouvelle-taxe-europeenne-ce-que-change-le-futur-hub-du-geant-chinois-en-pologne-11697511"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/shein-petits-colis-et-nouvelle-taxe-europeenne-ce-que-change-le-futur-hub-du-geant-chinois-en-pologne-11697511"
+              }
+            ],
+            "index": {
+              "byteEnd": 91,
+              "byteStart": 64
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreihosuygrocbgm674a2ufgozncyhci4y55kxniknady3nxtyax2e2m",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihrbxers2g"
+          },
+          "root": {
+            "cid": "bafyreia6pznpp7pnlbtaubfjcauljd42okntknx23ak6v4uj4pqhvfybzq",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihmjugn32g"
+          }
+        },
+        "text": "La réponse chinoise à la taxe européenne sur les petit colis\nwww.rtbf.be/article/shei..."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/shein-petits-colis-et-nouvelle-taxe-europeenne-ce-que-change-le-futur-hub-du-geant-chinois-en-pologne-11697511",
+          "title": "Shein, petits colis et nouvelle taxe européenne : ce que change le futur hub du géant chinois en Pologne - RTBF Actus",
+          "description": "Depuis des années, les colis de faible valeur envoyés directement depuis des pays hors Union Européenne (EU)...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiew7ykdnqmj2ocellise4medyhmrxzz7ikp6vdrsfpyym6kkg3xi4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-30T07:24:03.519Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihrbxers2g",
+      "cid": "bafyreihosuygrocbgm674a2ufgozncyhci4y55kxniknady3nxtyax2e2m",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-30T07:22:03.657Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Trois euros supplémentaires seront donc demandés. Un montant qui sera appliqué à chaque catégorie de produits contenue...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibr6ipo74f7ilrgz7q63ywu4qihtbamwqpbfvstgkcgbtkwx6tsby"
+              },
+              "mimeType": "image/jpeg",
+              "size": 550728
+            },
+            "title": "Taxe européenne de 3 euros sur les petits colis : sortez la calculette, car les additions pourraient devenir salées - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/taxe-europeenne-de-3-euros-sur-les-petits-colis-sortez-la-calculette-car-les-additions-pourraient-devenir-salees-11749562"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.rtbf.be/article/taxe-europeenne-de-3-euros-sur-les-petits-colis-sortez-la-calculette-car-les-additions-pourraient-devenir-salees-11749562"
+              }
+            ],
+            "index": {
+              "byteEnd": 27,
+              "byteStart": 0
+            }
+          }
+        ],
+        "langs": [
+          "fr"
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreia6pznpp7pnlbtaubfjcauljd42okntknx23ak6v4uj4pqhvfybzq",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihmjugn32g"
+          },
+          "root": {
+            "cid": "bafyreia6pznpp7pnlbtaubfjcauljd42okntknx23ak6v4uj4pqhvfybzq",
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihmjugn32g"
+          }
+        },
+        "text": "www.rtbf.be/article/taxe..."
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/taxe-europeenne-de-3-euros-sur-les-petits-colis-sortez-la-calculette-car-les-additions-pourraient-devenir-salees-11749562",
+          "title": "Taxe européenne de 3 euros sur les petits colis : sortez la calculette, car les additions pourraient devenir salées - RTBF Actus",
+          "description": "Trois euros supplémentaires seront donc demandés. Un montant qui sera appliqué à chaque catégorie de produits contenue...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibr6ipo74f7ilrgz7q63ywu4qihtbamwqpbfvstgkcgbtkwx6tsby"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-30T07:22:07.921Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpihmjugn32g",
+      "cid": "bafyreia6pznpp7pnlbtaubfjcauljd42okntknx23ak6v4uj4pqhvfybzq",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-06-30T07:19:22.754Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Ce montant de trois euros sera appliqué à chaque catégorie de produits contenue dans un colis transitant par les douanes...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreieb2ubsbdzddnkdjt4oyoeidgfcv4s3wjkw6wer3stbwz2qqcyt7a"
+              },
+              "mimeType": "image/jpeg",
+              "size": 126074
+            },
+            "title": "Dès le 1er juillet, vos achats Temu, Shein et autres sites hors UE pourraient vous coûter bien plus cher : la taxe de 3 euros se multiplie selon les articles - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/des-le-1er-juillet-vos-achats-temu-shein-et-autres-sites-hors-ue-pourraient-vous-couter-bien-plus-cher-la-taxe-de-3-euros-se-multiplie-selon-les-articles-11741814"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 314,
+              "byteStart": 307
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Consommation"
+              }
+            ],
+            "index": {
+              "byteEnd": 328,
+              "byteStart": 315
+            }
+          }
+        ],
+        "text": "Dès le 01/07 une taxe de 3€ sera imposée sur les petits colis (valeur<150€) provenant de pays hors 🇪🇺.  \n⚠️ La taxe sera appliquée par ligne tarifaire et non par commande.\n2 👖 : 3€ ; 2 👖, 1 👕   et  🧦 : 9€. \nLe montant de la taxe pourrait donc être supérieur à l'achat.  \n#Europe #Consommation"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/des-le-1er-juillet-vos-achats-temu-shein-et-autres-sites-hors-ue-pourraient-vous-couter-bien-plus-cher-la-taxe-de-3-euros-se-multiplie-selon-les-articles-11741814",
+          "title": "Dès le 1er juillet, vos achats Temu, Shein et autres sites hors UE pourraient vous coûter bien plus cher : la taxe de 3 euros se multiplie selon les articles - RTBF Actus",
+          "description": "Ce montant de trois euros sera appliqué à chaque catégorie de produits contenue dans un colis transitant par les douanes...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieb2ubsbdzddnkdjt4oyoeidgfcv4s3wjkw6wer3stbwz2qqcyt7a"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-06-30T07:19:27.622Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false,
+        "pinned": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mp6xea6sfx2x",
       "cid": "bafyreifjiljh2ix2tqf2cfvky5bctxc3z2xhp63hla4cmwlehevs4qi6me",
       "author": {
@@ -10003,401 +10365,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-07-24T18:25:54.942Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lui36ys52u2c",
-      "cid": "bafyreiap2iixe7vodktthhgybpvm5v5z5o253lugz6wbo7twuzpifqtufu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-21T13:16:50.279Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Fini les interdictions de conduite de quelques heures après un test d’alcoolémie positif : toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigpuhwj7hp3djeecfq3jzzkw7iov2r4tazoz6etxmv43bwowgfree"
-              },
-              "mimeType": "image/jpeg",
-              "size": 43990
-            },
-            "title": "Le retrait de permis de 3 heures, c’est terminé : si vous êtes contrôlé positif à l’alcool, la sanction immédiate sera plus sévère",
-            "uri": "https://www.rtl.be/actu/belgique/societe/le-retrait-de-permis-de-3-heures-cest-termine-si-vous-etes-controle-positif/2025-07-19/article/757061"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "mobilité"
-              }
-            ],
-            "index": {
-              "byteEnd": 247,
-              "byteStart": 237
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "CodeDeLaRoute"
-              }
-            ],
-            "index": {
-              "byteEnd": 262,
-              "byteStart": 248
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "justice"
-              }
-            ],
-            "index": {
-              "byteEnd": 271,
-              "byteStart": 263
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "alcool"
-              }
-            ],
-            "index": {
-              "byteEnd": 279,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/zpYRSgP"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          }
-        ],
-        "text": "Fini les interdictions de conduite de 3 ou 6h après un test d’alcoolémie positif.  Toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis seulement après un test négatif. \n#mobilité #CodeDeLaRoute #justice #alcool\nbuff.ly/zpYRSgP"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtl.be/actu/belgique/societe/le-retrait-de-permis-de-3-heures-cest-termine-si-vous-etes-controle-positif/2025-07-19/article/757061",
-          "title": "Le retrait de permis de 3 heures, c’est terminé : si vous êtes contrôlé positif à l’alcool, la sanction immédiate sera plus sévère",
-          "description": "Fini les interdictions de conduite de quelques heures après un test d’alcoolémie positif : toute infraction mènera désormais à une immobilisation automatique de 12 heures, avec récupération du permis…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigpuhwj7hp3djeecfq3jzzkw7iov2r4tazoz6etxmv43bwowgfree"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-21T13:16:52.341Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltholdzyk22k",
-      "cid": "bafyreig5goycof2zalkxuw7o3u3lvp3pu7jjlsjrk6icmfmpw4btubccrq",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-08T16:05:55.393Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "La ministre de l'Enseignement Valérie Glatigny (MR) avait indiqué vendredi et samedi dans différents médias que les...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiecgr2ssbcrezvo7yyxbth2k7xpqujc65ltliepstbzhpo5dccdya"
-              },
-              "mimeType": "image/jpeg",
-              "size": 827967
-            },
-            "title": "Il n'y a pas encore d'accord sur un nouveau seuil de réussite pour le CEB, recadre le cabinet d'Elisabeth Degryse - RTBF Actus",
-            "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "staytuned"
-              }
-            ],
-            "index": {
-              "byteEnd": 173,
-              "byteStart": 163
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026"
-              }
-            ],
-            "index": {
-              "byteEnd": 203,
-              "byteStart": 176
-            }
-          }
-        ],
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreihyy2kk4nl4mdmkrouzf3bmkb5euq73bzifntlvisvowk6jqzypnu",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltehsmd2ss2f"
-          },
-          "root": {
-            "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k"
-          }
-        },
-        "text": "Bien que l'augmentation du seuil de réussite soit repris dans l'accord de majorité; pas encore de fumée blanche en vue... ce n'est donc pas pour tout de suite.\n#staytuned \n\nwww.rtbf.be/article/il-n..."
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtbf.be/article/il-n-y-a-pas-encore-d-accord-sur-un-nouveau-seuil-de-reussite-pour-le-ceb-recadre-le-cabinet-d-elisabeth-degryse-11573026",
-          "title": "Il n'y a pas encore d'accord sur un nouveau seuil de réussite pour le CEB, recadre le cabinet d'Elisabeth Degryse - RTBF Actus",
-          "description": "La ministre de l'Enseignement Valérie Glatigny (MR) avait indiqué vendredi et samedi dans différents médias que les...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiecgr2ssbcrezvo7yyxbth2k7xpqujc65ltliepstbzhpo5dccdya"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-08T16:06:03.139Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ltehsmd2ss2f",
-      "cid": "bafyreihyy2kk4nl4mdmkrouzf3bmkb5euq73bzifntlvisvowk6jqzypnu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-07T09:26:43.551Z",
-        "langs": [
-          "fr"
-        ],
-        "reply": {
-          "parent": {
-            "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k"
-          },
-          "root": {
-            "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
-            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k"
-          }
-        },
-        "text": "CE1D et CESS seraient évidemment également soumis à ce nouveau seuil de réussite."
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-07T09:26:44.838Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lta6gzlhyn2k",
-      "cid": "bafyreihb7t2k3avz6ph5jr74i2jvgz4n5274rcvq2bcnc4olgdy43df3ui",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-05T16:28:31.194Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "La ministre de l’Éducation de la Fédération Wallonie-Bruxelles, Valérie Glatigny, a déposé un avant-projet de décret qui relève le seuil de réussite au CEB, CE1D, et CESS à 60 % au lieu de 50 %…",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigkhqidoh4t5gaavz2r7cydoc56kzmmoscnhne6lhgaogwkvy52tu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 73099
-            },
-            "title": "Bientôt plus de doubleurs à l’école ? Ce projet de Valérie Glatigny pourrait ne pas plaire à beaucoup d’élèves",
-            "uri": "https://www.rtl.be/actu/belgique/societe/bientot-plus-de-doubleurs-lecole-ce-projet-de-valerie-glatigny-pourrait-ne-pas/2025-07-05/article/755497"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 265,
-              "byteStart": 252
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "fwb"
-              }
-            ],
-            "index": {
-              "byteEnd": 270,
-              "byteStart": 266
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "staytuned"
-              }
-            ],
-            "index": {
-              "byteEnd": 281,
-              "byteStart": 271
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/h0d77kr"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          }
-        ],
-        "text": "La Ministre Valérie Glatigny (MR) a déposé un avant-projet de décret visant à augmenter le seuil de réussite du CEB.  Il passerait de 50 à 60%.  Cette initiative provoque est - évidemment - accueillie froidement par le monde de l'enseignement.\n#enseignement #fwb #staytuned\nbuff.ly/h0d77kr"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtl.be/actu/belgique/societe/bientot-plus-de-doubleurs-lecole-ce-projet-de-valerie-glatigny-pourrait-ne-pas/2025-07-05/article/755497",
-          "title": "Bientôt plus de doubleurs à l’école ? Ce projet de Valérie Glatigny pourrait ne pas plaire à beaucoup d’élèves",
-          "description": "La ministre de l’Éducation de la Fédération Wallonie-Bruxelles, Valérie Glatigny, a déposé un avant-projet de décret qui relève le seuil de réussite au CEB, CE1D, et CESS à 60 % au lieu de 50 %…",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigkhqidoh4t5gaavz2r7cydoc56kzmmoscnhne6lhgaogwkvy52tu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 1,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-05T16:28:33.143Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
