@@ -53,10 +53,7 @@ module Jekyll
               <div class=" col-sm-12 col-md-6 d-flex align-items-stretch mb-3">
                 <div class="card h-100 border-0 mb-2">
                   <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
-                    <div class="d-flex justify-content-between mb-2">
-                      <div class="mb-2 text-muted">
-                          #{source_name}
-                      </div>
+                    <div class="d-flex justify-content-end mb-2">
                       <div class="mb-2 text-muted">
                         #{date}
                       </div>
