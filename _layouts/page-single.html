@@ -5,30 +5,36 @@ layout: minimal
 {% assign message=page.message %}
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
+{% assign buttons=page.buttons.btn %}
+{% assign header = page.header %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
-    <div class="category-view" style="margin-bottom: 1rem">
+    <div class="category-view mb-2">
       <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
       &leftarrow; &nbsp; Retour
     </a>
     </div>
-    <div class="service-title-section">
-       <h1 class="post-title">{{ page.title }}</h1>
+    <div class="service-title-section mb-2">
+       <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
-    {% if message %}
-      {% assign enable=message.enable | default: false %}
-      {% if enable %}
-        <div class="cat-button no-link">
-            <i data-lucide="{{message.icon}}"></i>&nbsp;{{message.text}}
-        </div>
-      {%endif%}
+    {% if header %}
+      <div class="section mb-2">
+        {% assign message = header.message %}
+        {% assign button = header.btn %}
+        {% assign message_enbaled=message.enable | default: true %}
+        {% assign button_enabled=button.enable %}
+        {%if message_enabled %}
+            <p class="muted">
+              <i data-lucide="{{message.icon}}"></i>&nbsp;{{message.text}}
+            </p>
+       {%endif%} 
+      </div>
     {%endif%}
   </header>
 
   <section class="post-content">
     {{ content }}
-    
   </section>
   {% if page.buttons %}
       <div class="cta-wrapper" style="margin: 2rem 0; display: flex;">

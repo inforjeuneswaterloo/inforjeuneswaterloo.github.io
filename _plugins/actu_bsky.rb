@@ -37,7 +37,7 @@ module Jekyll
         count = 0
 
         data['feed'].each do |item|
-          break if count >= 2 # Limite stricte aux 4 premiers posts valides
+          break if count >= 4 # Limite stricte aux 4 premiers posts valides
 
           post = item['post']
           record = post['record']
@@ -80,32 +80,32 @@ module Jekyll
           img_html = ""
           if img_url && !img_url.empty?
             img_html = <<~HTML
-              <div class="bsky-img-container" style="background-color: #fff; text-align: center;">
                 <img src="#{img_url}" class="card-img-top" alt="Illustration" style="width: 100%; height: auto; object-fit: contain;">
-              </div>
             HTML
           end
 
           # Rendu en grille Bootstrap 2 colonnes avec alignement du bouton .cat-button à droite
           html << <<~HTML
-            <div class="col-12 col-md-6 d-flex align-items-stretch">
-              <div class="card w-100 m-0 custom-bsky-card" style="border: 4px solid #f4f1ea; border-radius: 12px; display: flex; flex-direction: column;">
-                #{img_html}
-                <div class="card-body d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
-                  <div class="mb-2 text-muted" style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">
-                    #{media_name}
-                  </div>
-                  <h3 class="card-title h5 mb-3" style="color: #222; line-height: 1.4; font-weight: 700;">#{CGI.escapeHTML(title)}</h3>
-                  <div class="card-text-container" style="flex-grow: 1; color: #4a4a4a; font-size: 0.95rem; line-height: 1.5;">
-                    #{formatted_text}
-                  </div>
-                  <div class="w-100 text-end text-right mt-3">
-                    <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class="cat-button">
-                      En savoir plus →
-                    </a>
-                  </div>
+            <div class="col-12 col-md-6 d-flex align-items-stretch mb-3">
+                <div class="card h-100 border-0 mb-2">
+                    #{img_html}
+                    <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
+                    <span class="mb-2 text-muted" style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">
+                        #{media_name}
+                    </span>
+                    <h3 class="card-title h5 mb-2 lh-sm" style="color: #222; line-height: 1.4; font-weight: 700;">#{CGI.escapeHTML(title)}</h3>
+                    <div class="card-text lh-sm">
+                        #{formatted_text}
+                    </div>
+                    <div class="w-100 text-end text-right mt-auto pt-3">
+                        <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
+                        En savoir plus&nbsp;<i data-lucide="move-right"></i>  
+ 
+
+                        </a>
+                    </div>
+                    </div>
                 </div>
-              </div>
             </div>
           HTML
 

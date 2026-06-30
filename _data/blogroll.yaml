@@ -1,9 +1,19 @@
+- title: SPF Emploi, Travail et Concertation sociale
+  url: https://emploi.belgique.be
+  descri: Centralise les infos sur le droit du travail, le bien-être, l'inspection et le dialogue social en Belgique.
 - title: Contrôle des Lois Sociale (CSL)
   url: https://emploi.belgique.be/fr/propos-du-spf/structure-du-spf/inspection-du-travail-dg-controle-des-lois-sociales/directions
-  descri: SPF emploi.belgique.be
+  descri: Directions régionales du Contrôle des lois sociales | SPF Emploi - Travail et Concertation sociale
 - title: Student At Work
   url: https://www.studentatwork.be/fr/index.html
-  descri: 
+  descri: "Portail numérique géré par l'ONSS.  Tu peux y vérifier ton quota d'heures et télécharger des attestations."
+- title: Allocations d'études
+  url: https://allocations-etudes.cfwb.be
+  descri: "Guichet unique : demande d'allocation d'études, simulation du minerval et suivi de ton dossier"
+- title: Bourse provinciale complémentaire
+  url: https://www.brabantwallon.be/le-brabant-wallon/demarches/aides-et-formulaires/bourse-detudes
+  descri: Page destinée à l'introduction de la demande de bourse provinciale.
+
 
 
 

@@ -15,7 +15,8 @@ module Jekyll
         
         if response.code == "200"
           data = JSON.parse(response.body)
-          html = '<div class="mastodon-feed">'
+          html = '<div class="row g-2">'
+          
           
           data['feed'].each do |item|
             post = item['post']
@@ -49,19 +50,27 @@ module Jekyll
             image_header = img_url && !img_url.empty? ? "<div class='mastodon-card-image'><img src='#{img_url}' alt=''></div>" : ""
 
             html << <<~HTML
-              <div class="mastodon-post-card">
-                <div class="mastodon-card-content">
-                  <div class="mastodon-card-header">
-                    <div class="header-left">
-                      <span class="mastodon-source">#{source_name}</span>
-                      <span class="mastodon-date">#{date}</span>
+              <div class=" col-sm-12 col-md-6 d-flex align-items-stretch mb-3">
+                <div class="card h-100 border-0 mb-2">
+                  <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
+                    <div class="d-flex justify-content-between mb-2">
+                      <div class="mb-2 text-muted">
+                          #{source_name}
+                      </div>
+                      <div class="mb-2 text-muted">
+                        #{date}
+                      </div>
                     </div>
-                    <a href="#{destination_url}" target="_blank" class="mastodon-footer-link">Voir l'offre →</a>
-                  </div>
-                  <div class="mastodon-body">
-                    #{title.empty? ? '' : "<h3 class='mastodon-title'>#{title}</h3>"}
-                    <div class="mastodon-text">#{text}</div>
-                  </div>
+                    <h3 class="card-title h5 mb-2 lh-sm" style="color: #222; line-height: 1.4; font-weight: 700;">#{CGI.escapeHTML(title)}</h3>
+                    <div class="card-text lh-sm">
+                        #{text}
+                    </div>
+                    <div class="w-100 text-end text-right mt-auto pt-3">
+                        <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                        En savoir plus&nbsp;<i data-lucide="move-right"></i>  
+                        </a>
+                    </div>
+                  </div> 
                 </div>
               </div>
             HTML

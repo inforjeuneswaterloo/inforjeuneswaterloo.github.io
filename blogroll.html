@@ -1,0 +1,29 @@
+---
+layout: page-single
+title: Blogroll 
+permalink: /blogroll/
+---
+<div class="row g-2">
+    {% for item in site.data.blogroll %}
+        <div class="col-md-6 col-sm-12 d-flex align-items-stretch mb-1">
+            <div class="card h-100 mb-1">
+                <div class="card-body lh-sm">
+                    <span class="badge bg-light text-dark border mb-2 text-uppercase font-weight-bold" style="font-size: 0.75rem; letter-spacing: 0.5px;">
+                            {{ item.url | remove: "https://" | remove: "http://" | remove: "www." | split: "/" | first }}
+                    </span>
+                    <h5 class="card-title lh-1">
+                        {{item.title}}
+                    </h5>
+                    <p class="card-text tex-muted">
+                        {{item.descri}}
+                    </p>
+                    <div class="w-100 text-end text-right mt-auto pt-3">
+                        <a href="{{item.url}}" target="_blank" class="btn-link text-decoration-none">
+                            Visiter le site&nbsp;<i data-lucide="square-arrow-out-up-right"></i>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

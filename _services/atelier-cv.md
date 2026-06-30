@@ -16,10 +16,11 @@ buttons:
      icon: pencil-line
      class:  btn btn-outline-dark text-decoration-none btn-sm
      target: "_blank"
-message:
-  enable: true
-  text: "Inscriptions clôturées / Action terminée"
-  icon: circle-x
+header:
+  - message:
+     enable: true
+     text: "Inscriptions clôturées / Action terminée"
+     icon: circle-x
   
 ---
 L’atelier *Viens avec ton PC… et repars avec ton CV (et ton PC)!*, organisé en partenariat avec la Mission Régionale pour l’Emploi du Brabant wallon , a pour objectif de te donner les outils nécessaires pour proposer un CV qui retienne l’attention.

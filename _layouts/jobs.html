@@ -1,19 +1,7 @@
 ---
-layout: minimal
+layout: page-single
 title: Le coin des petites annonces
 ---
-<section class="home-hero">
-    <h1>{{page.title}}</h1>
-    <p class="subtitle">
-        {{page.subtitle}}
-    </p>
-</section>
-<div class="jobs-section-wrapper">
-   {% assign include=page.include %}
-   {% case include %}
-        {% when 'job'%}
-            {% job4u_feed %}
-        {% when 'actu' %}
-            {% mastodon_pinned mtts%}
-   {% endcase %}
+<div class="row g-2">
+    {% job4u_feed %}
 </div>
