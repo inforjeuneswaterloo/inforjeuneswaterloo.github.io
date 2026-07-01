@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpluvs5ngj2q",
+      "cid": "bafyreidnrvh5rr25kjnyeidqytupdqis2tzwqmjtp63ds4kvvcs75epnqq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-01T15:55:11.767Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Student Sales Assistant (m/f/d) 8h/week - Brussels, Inno Louise",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreib6cy3nlbxeykii53kesz6tz22xuizutpnsnmhxfcalczbthzlffu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 73689
+            },
+            "title": "Student Sales Assistant (m/f/d) 8h/week - Brussels, Inno Louise",
+            "uri": "https://sapcareerssite.pandoragroup.com/job/Bruxelles-Student-Sales-Assistant-%28mfd%29-8hweek-Brussels%2C-Inno-Louise/1409385233/"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/V9TpbTM"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Jobiste études supérieures X-Care team-Uccle ou Grand-Bigard\nMissions:\n- Planifier infirmier(ère)s/aides-soignant(e)s\n- Screenings tél de candidats\n- Soutien administratif\n- Rédaction offres d’emploi...\nProfil :\n- Dispo août et/ou sept.\n- Maîtrise parfaite du FR\n- Proactif...\nbuff.ly/V9TpbTM\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://sapcareerssite.pandoragroup.com/job/Bruxelles-Student-Sales-Assistant-%28mfd%29-8hweek-Brussels%2C-Inno-Louise/1409385233/",
+          "title": "Student Sales Assistant (m/f/d) 8h/week - Brussels, Inno Louise",
+          "description": "Student Sales Assistant (m/f/d) 8h/week - Brussels, Inno Louise",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreib6cy3nlbxeykii53kesz6tz22xuizutpnsnmhxfcalczbthzlffu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-01T15:55:12.829Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpluvlxwhr2c",
+      "cid": "bafyreiheylc22w7d3azvk4cnuwpd7vxga2et3staqy2htizjzxlw2rpnje",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-01T15:55:04.873Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Contenu de l'emploi:  Pour une grande enseigne du secteur du bricolage, nous recherchons un étudiant (h/f/x) pour la caisse. L'étudiant retenu travailler tous les samedis du mois de juillet 2026 + à…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+              },
+              "mimeType": "image/png",
+              "size": 858751
+            },
+            "title": "Emploi | Vendeur réassortisseur | Start People",
+            "uri": "https://www.startpeople.be/fr/job/vendeur_reassortisseur-2015966?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Cpmobya"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Student vente les sam. de juillet + à temps plein en août secteur bricolage - Braine-l'Alleud \nTâches :\n- Caisse/Accueil clientèle/Nettoyage\n- Chargement/déchargement\n- ...\nProfil\n- Bon contact clientèle/Sens de l'organisation/rigueur\n- Respect normes et procédures\n- ...\nbuff.ly/Cpmobya \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.startpeople.be/fr/job/vendeur_reassortisseur-2015966?utm_source=Careerjet-Optioncarriere&utm_medium=lead&utm_campaign=startpeople_careerjet-optioncarriere",
+          "title": "Emploi | Vendeur réassortisseur | Start People",
+          "description": "Contenu de l'emploi:  Pour une grande enseigne du secteur du bricolage, nous recherchons un étudiant (h/f/x) pour la caisse. L'étudiant retenu travailler tous les samedis du mois de juillet 2026 + à…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreifp3evmzscz6fqvcbilf5gv6463vgis5pf6uhz34izkd2qj2sh234"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-01T15:55:06.422Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mplk6kydw32c",
       "cid": "bafyreifsvrah6hrw45phggntrihjde7wd457orkc27imotxgm7ebdfnxna",
       "author": {
@@ -8276,166 +8454,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-11T15:23:16.872Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlkwpaj7yh2q",
-      "cid": "bafyreif3ipj2pabgbtym343iukblyycglpnyniczas6uedpol7t32a5xcq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-11T09:13:53.960Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=33e42ca3eaf03106&q=%C3%A9tudiant&l=Waterloo&tk=1jo9tmfllg9so80b&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBF67I3jLBua4T4s50LbzkdCdPP&xfps=4ae365c2-5509-4226-88ce-e645ba2d5df4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jo9tmfllg9so80b&xkcb=SoDk67M3jJzV33g29z0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/7CkjCSs"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 283
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 299
-            }
-          }
-        ],
-        "text": "Job Etudiant Sabai Sabai SA - Bruxelles\nMissions :\n- Accueil/service en salle\n- Gestion du bar\n- Préparation des commandes à emporter...\nProfil :\n- Motivé, dynamique et polyvalent, capable d’intervenir aussi bien en salle qu’en plonge\n- Sens du service et bon relationnel ...\nbuff.ly/7CkjCSs\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=33e42ca3eaf03106&q=%C3%A9tudiant&l=Waterloo&tk=1jo9tmfllg9so80b&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBF67I3jLBua4T4s50LbzkdCdPP&xfps=4ae365c2-5509-4226-88ce-e645ba2d5df4&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jo9tmfllg9so80b&xkcb=SoDk67M3jJzV33g29z0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-11T09:13:54.402Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlkutswmqi2c",
-      "cid": "bafyreic6nb6umslypp6eeoaaftljboyotpb662ih737nbttgpcaaihqneq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-11T08:40:39.942Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5771086?JobId=5771086&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/scU19QX"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 286
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 310,
-              "byteStart": 304
-            }
-          }
-        ],
-        "text": "Job étudiant Comptabilité Juillet 26 - BW\nMissions :\n- Encodages factures, banques\n- Relances clients\n- Vérifications limites de crédits\n- Gestion boîte mail...\nProfil\n- Étudiant en comptabilité/finance\n- Maîtrise suite Office, anglais pro\n- Rigueur, ponctualité, proactivité\nbuff.ly/scU19QX  \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5771086?JobId=5771086&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-11T08:40:40.361Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
