@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpokdkun572q",
+      "cid": "bafyreidonmyjhgcmysyca5jgovjusf37a5rvjjuiqg7o5chrfwq44biwmm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-02T17:24:00.890Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 977485
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-caissier-reassortisseur-we-et-jours-feries-nivelles-brabant-wallon/166-32506-5&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-caissier-reassortisseur-we-et-jours-feries-nivelles-brabant-wallon/166-32506-5&utm_source=careerjet-optioncarriere"
+              }
+            ],
+            "index": {
+              "byteEnd": 194,
+              "byteStart": 164
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 201,
+              "byteStart": 195
+            }
+          }
+        ],
+        "text": "Etudiant(e) CAISSE/REASSORT WE et jours fériés - NIVELLES\nTâches :\n- Caisse\n- Réassort tout rayon\nProfil\n- Excellent contact client\n- Dynamisme\n- Polyvalence  \nwww.adecco.com/nl-be/vacatu...\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-caissier-reassortisseur-we-et-jours-feries-nivelles-brabant-wallon/166-32506-5&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-02T17:24:03.220Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpocl4kk4d2q",
       "cid": "bafyreidplbvjyqreckiyl7amcwtvfcmzsitjsgmazgjhplbso2p4vxiieq",
       "author": {
@@ -8383,86 +8472,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-12T09:21:49.861Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlncrljxle2u",
-      "cid": "bafyreifk3fvokikhgtih7psz6coi34rfxss6ynlcejoekde55za6kdb3h4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-12T07:55:17.005Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=388b31c91aad8f68&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDb67I3jNtTGpzNpB0LbzkdCdPP&xfps=5b2a9fae-5b27-40c9-a64f-69fb97c4fd50&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAw67M3jMmf18UzjJ0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/c7fykoH"
-              }
-            ],
-            "index": {
-              "byteEnd": 245,
-              "byteStart": 230
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 253,
-              "byteStart": 247
-            }
-          }
-        ],
-        "text": "Job Étudiant Vente JYSK - Wavre\nTâches :\n- Conseil et service clientèle\n- Réassort/logistique\n- Caisse\nProfil : \n- Veut apprendre activement\n- Ouvert d'esprit, enthousiaste, prend des initiatives et aime parler aux clients...\nbuff.ly/c7fykoH \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=388b31c91aad8f68&q=etudiant&l=brabant+wallon&tk=1jocn401o2318000&from=ja&alid=698c88431d6abb292039269a&g1tAS=true&xpse=SoDb67I3jNtTGpzNpB0LbzkdCdPP&xfps=5b2a9fae-5b27-40c9-a64f-69fb97c4fd50&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jocn401o2318000&xkcb=SoAw67M3jMmf18UzjJ0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-12T07:55:17.262Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
