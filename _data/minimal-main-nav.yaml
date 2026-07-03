@@ -1,5 +1,7 @@
-- title: "A propos"
-  url: '/about/'
+- title: "Projets et services"
+  url: '/services/'
+- title: "Jobs étudiants"
+  url: "/job4u/"
 - title: "Archives"
   url: '/categories/'
 - title: "Liens utiles"

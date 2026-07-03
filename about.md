@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page-single
 title: A propos
 permalink: '/about/'
 buttons:
