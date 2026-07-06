@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpyt7kbfr32t",
+      "cid": "bafyreigbmmjoefdnaaomlh737jkmavegrcpvrvb3fponbegctr5es5eoce",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-06T19:29:28.949Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ac3a98e0cd5baa25&q=etudiant&l=brabant+wallon&tk=1jss4dndlga2d800&from=ja&alid=698c88431d6abb292039269a&xpse=SoDQ67I3hcUvEKzCYR0LbzkdCdPP&xfps=8d44557e-096d-4c74-9bb0-a67ed132f0f8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jss4dndlga2d800&xkcb=SoAC67M3hcA438bLMp0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Y42IKJx"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 259
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 275
+            }
+          }
+        ],
+        "text": "Etudiant Technicien de surface H/F Mont-Saint-Guibert\n- Nettoyage d atelier de boulangerie.\n- Nettoyer tables de travail, étagères, frigos et chambres froides, sol, chariots, grilles et plaques de cuisson \n- Rémunération : 13,43€ à 17,52€ par heure \nbuff.ly/Y42IKJx\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ac3a98e0cd5baa25&q=etudiant&l=brabant+wallon&tk=1jss4dndlga2d800&from=ja&alid=698c88431d6abb292039269a&xpse=SoDQ67I3hcUvEKzCYR0LbzkdCdPP&xfps=8d44557e-096d-4c74-9bb0-a67ed132f0f8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jss4dndlga2d800&xkcb=SoAC67M3hcA438bLMp0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-06T19:29:29.228Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpq3qnzxci2d",
       "cid": "bafyreihuhpozmor2dug2k7khca5v43m6pbbblph2ee34vxyackjdbwv5vy",
       "author": {
@@ -8401,86 +8481,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-13T13:28:01.462Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqewxebmc2x",
-      "cid": "bafyreig4nb55krx53afj7se7q7r7htp7xt27tix5ezbtf4pqijjcjfw4pu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-13T13:12:03.869Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/7MOgnL6"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 272
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 288
-            }
-          }
-        ],
-        "text": "Job étudiant caisse réassort à Nivelles\n- Vous travaillez en caisse ou en rayon sur un job étudiant de 36 h par semaine, en juillet ou en août\n- Encaisser les achats en caisse.\n - Mettre les produits en rayon.\n - Suivre la formation prévue avant la prise de poste. \nbuff.ly/7MOgnL6\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5778958?JobId=5778958&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-13T13:12:05.161Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
