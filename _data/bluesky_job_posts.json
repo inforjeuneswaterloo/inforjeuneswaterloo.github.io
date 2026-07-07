@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mq2qy5hrsq2s",
+      "cid": "bafyreih2ocfe53suuqj2bcunsa2vfsqarbbbftqtykppskzjmf4qoxsltu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-07T13:54:52.637Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8cd6824bcdc26a9e&q=Etudiant&l=Brussels&tk=1jsu8r4ndgbd2800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoCw67I3heS6TUTN0R0LbzkdCdPP&xfps=aedc30ab-7448-414b-8641-d945e8911308&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jsu8r4ndgbd2800&xkcb=SoC567M3heZjf4wkcB0CbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/CCYNxX0"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 308,
+              "byteStart": 302
+            }
+          }
+        ],
+        "text": "Etudiant H/F Serveur à l'année | SINA PASTA Bruxelles\n- Min. 18 ans\n- Disposé à travailler minimum 3 fois semaine toute l'année même pendant la période d'examen\n- Avoir une première expérience dans l'horeca\n- Respect strict des règles et procédures\n- Résistant(e) au stress\nbuff.ly/CCYNxX0\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8cd6824bcdc26a9e&q=Etudiant&l=Brussels&tk=1jsu8r4ndgbd2800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoCw67I3heS6TUTN0R0LbzkdCdPP&xfps=aedc30ab-7448-414b-8641-d945e8911308&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jsu8r4ndgbd2800&xkcb=SoC567M3heZjf4wkcB0CbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-07T13:54:53.635Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mpyt7kbfr32t",
       "cid": "bafyreigbmmjoefdnaaomlh737jkmavegrcpvrvb3fponbegctr5es5eoce",
       "author": {
@@ -8401,86 +8481,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-18T10:13:29.164Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mlqfti2yq72e",
-      "cid": "bafyreigcveqbi56efhxypmkywjvdhsjyms5kvzcrkpdpz3dopcmralagbe",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-13T13:28:00.915Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Xn6kGsg"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 290
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 312,
-              "byteStart": 306
-            }
-          }
-        ],
-        "text": "Etudiant(e) événementiel été 2026 Bruxelles\n- Présentation soignée\n- Excellente expression orale en français (néerlandais et/ou anglais = atout sérieux)\n- Expérience en accueil, événementiel ou stewarding appréciée\n- Flexible sur la période estivale (journée et/ou soirée)\nbuff.ly/Xn6kGsg\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=23f5a424ddfc0e3e&q=Etudiant&l=Brussels&tk=1jogikhhnhgjd800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoAa67I3jQnyfCT44x0LbzkdCdPP&xfps=a4e3598e-920e-49ab-80e4-e8a17fc52b75&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jogikhhnhgjd800&xkcb=SoBo67M3jQtd5gQ2LR0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-13T13:28:01.462Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
