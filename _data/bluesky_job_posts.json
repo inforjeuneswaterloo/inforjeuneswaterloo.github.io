@@ -1,6 +1,326 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqcjnhvvas2i",
+      "cid": "bafyreihqmqwwqifvznceoql62hz4ytv3yu7wrma4f53nq6rx7o6yep3nhi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-10T16:04:56.174Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=17f0b34df1924dbb&q=Etudiants&l=Brabant-wallon&tk=1jt68jkn8kmnn800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoCT67I3hmQICFTBDB0LbzkdCdPP&xfps=4e0f8ff7-6da3-4b3d-862f-d2ea5f1e1512&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt68jkn8kmnn800&xkcb=SoCj67M3hmZe76QzFB0KbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/QHumrBr"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 259
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 275
+            }
+          }
+        ],
+        "text": "Etudiant H/F Préparateur/trice de commandes Braine-le-Château\n· Préparation des commandes et colisage des produits\n· Repérage et signalement des anomalies de manutention\n· Réalisation des opérations de manutention, d’entreposage, de transport…  \nbuff.ly/QHumrBr\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=17f0b34df1924dbb&q=Etudiants&l=Brabant-wallon&tk=1jt68jkn8kmnn800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoCT67I3hmQICFTBDB0LbzkdCdPP&xfps=4e0f8ff7-6da3-4b3d-862f-d2ea5f1e1512&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt68jkn8kmnn800&xkcb=SoCj67M3hmZe76QzFB0KbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-10T16:04:57.274Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqcj5arbku2s",
+      "cid": "bafyreiccqlyormhqaxceknj5jrwokqhk3t2kkrikakm3bxghvz36nsboji",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-10T15:55:51.833Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=93849fff1f659310&q=Etudiant&l=Brussels&tk=1jt3ar7r1h5nb800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoAT67I3hmfJL6z4zh0LbzkdCdPP&xfps=743911ce-1b91-4b66-8ce5-ea176570658e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt3ar7r1h5nb800&xkcb=SoCI67M3hjdi3Bb2H50dbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/WmMyYEX"
+              }
+            ],
+            "index": {
+              "byteEnd": 254,
+              "byteStart": 239
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 262,
+              "byteStart": 256
+            }
+          }
+        ],
+        "text": "ETUDIANT H/F VENDEUR Bruxelles\n- Vous savez vendre et fidéliser la clientèle\n- Expérience souhaitée\n- L'esprit créatif et esthétique pour les étalages est un plus\n- Vous êtes autonome et responsable\n- Vous parlez plusieurs langues\nbuff.ly/WmMyYEX \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=93849fff1f659310&q=Etudiant&l=Brussels&tk=1jt3ar7r1h5nb800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoAT67I3hmfJL6z4zh0LbzkdCdPP&xfps=743911ce-1b91-4b66-8ce5-ea176570658e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt3ar7r1h5nb800&xkcb=SoCI67M3hjdi3Bb2H50dbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-10T15:55:52.174Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqcimul3fe24",
+      "cid": "bafyreihykl2a54lfecu7pbk4jrs5xbgkxqrsu54ewwo2yftie5sq327nci",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-10T15:46:42.172Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.jooble.org/desc/-3253438493712746949?ckey=job+etudiant+ouvrier+production+viande&rgn=649&pos=1&groupId=-1129439527&elckey=6344341599064162561&pageType=20&p=1&sid=7041177041773309543&jobAge=88&relb=100&brelb=100&bscr=53718.713884019395&scr=53718.713884019395&searchTestGroup=1_2_1&iid=-7317435825143545383"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/WVzRXdL"
+              }
+            ],
+            "index": {
+              "byteEnd": 267,
+              "byteStart": 252
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 274,
+              "byteStart": 268
+            }
+          }
+        ],
+        "text": "Etudiant H/F ouvrier de production alimentaire Bruxelles\n- Pour notre client spécialiste dans la production de viandes\n- Votre travail consiste à mener à bien la production pour des délicieux barbecues et des superbes fêtes de fin d’années !  \nbuff.ly/WVzRXdL\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.jooble.org/desc/-3253438493712746949?ckey=job+etudiant+ouvrier+production+viande&rgn=649&pos=1&groupId=-1129439527&elckey=6344341599064162561&pageType=20&p=1&sid=7041177041773309543&jobAge=88&relb=100&brelb=100&bscr=53718.713884019395&scr=53718.713884019395&searchTestGroup=1_2_1&iid=-7317435825143545383",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-10T15:46:42.488Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqcib7jemx2v",
+      "cid": "bafyreihczldwaubbb7ve63lwvwfldcwfglqmp2ybthkk7med7pmveg6yui",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-10T15:40:11.000Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=bec67af7fcf7224d&q=%C3%A9tudiant&l=Waterloo&tk=1jsup7k24g2gl800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAj67I3hmc3fOz4zh0LbzkdCdPP&xfps=d1fbaea9-57ea-44a8-98b6-54421b9f3c0a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jsup7k24g2gl800&xkcb=SoDq67M3he6RSoebLp0KbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EabSvRm"
+              }
+            ],
+            "index": {
+              "byteEnd": 297,
+              "byteStart": 282
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "ETUDIANT H/F Cuisinier Bruxelles\n- Réaliser les préparations préliminaires\n- Participer à la réalisation de plats simples en supervision avec le chef de partie\n- Contribuer à la mise en place générale et des mets sur les assiettes\n- Réceptionner et ranger les marchandises\nbuff.ly/EabSvRm\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=bec67af7fcf7224d&q=%C3%A9tudiant&l=Waterloo&tk=1jsup7k24g2gl800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoAj67I3hmc3fOz4zh0LbzkdCdPP&xfps=d1fbaea9-57ea-44a8-98b6-54421b9f3c0a&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jsup7k24g2gl800&xkcb=SoDq67M3he6RSoebLp0KbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-10T15:40:11.373Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mq2qy5hrsq2s",
       "cid": "bafyreih2ocfe53suuqj2bcunsa2vfsqarbbbftqtykppskzjmf4qoxsltu",
       "author": {
@@ -8161,326 +8481,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-19T13:19:49.762Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm4upfimxg2h",
-      "cid": "bafyreih4pnvy4mszh2diogqkrlunj5e5jlg3rzqucm3mhhhfmtmyx4sj7e",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-18T12:26:06.986Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=d9b5b209a544da8a&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBV67I3jdpHSGT4mp0LbzkdCdPP&xfps=7b5bd034-783d-4b6b-a719-c94bb70b47d9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoCQ67M3jbZp4afbW50ZbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/f1kQloh"
-              }
-            ],
-            "index": {
-              "byteEnd": 284,
-              "byteStart": 269
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 292,
-              "byteStart": 286
-            }
-          }
-        ],
-        "text": "Job étudiant nettoyage 20h/semaine CPAS et crèche - Grez-Doiceau\nProfil :\n- Etudiant(e) motivé(e)\n- pouvoir se déplacer sans difficulté entre les 2 endroits (CPAS et crèche Baby-Cool \nContrat étudiant de 20h/semaine (4h/jour du lu au ve du 11/08/26 au 31/08/26)\nbuff.ly/f1kQloh \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=d9b5b209a544da8a&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBV67I3jdpHSGT4mp0LbzkdCdPP&xfps=7b5bd034-783d-4b6b-a719-c94bb70b47d9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoCQ67M3jbZp4afbW50ZbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-18T12:26:07.278Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm4uoniafu2c",
-      "cid": "bafyreibip5ymulgt743y5mbsucffiaysiktcqggxtcuq3q3bczq7nlor5q",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-18T12:25:41.808Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=6f785167ef73f00d&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBN67I3jdoq5fT4pB0LbzkdCdPP&xfps=38f40502-33dc-4af3-b29d-e81b27f67cf7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoB367M3jbZp4afbW50LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cd6RgNr"
-              }
-            ],
-            "index": {
-              "byteEnd": 256,
-              "byteStart": 241
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 264,
-              "byteStart": 258
-            }
-          }
-        ],
-        "text": "Student Leopold Café Presse (Diamant) - Bruxelles\nProfil :\n- Dispo en semaine ET le WE (condition n°1) sur le long terme\n- Sourire facile, énergie positive, sens du contact client\n- Dynamisme, ponctualité et fiabilité\n- Polyvalence ...\nbuff.ly/cd6RgNr \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=6f785167ef73f00d&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBN67I3jdoq5fT4pB0LbzkdCdPP&xfps=38f40502-33dc-4af3-b29d-e81b27f67cf7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoB367M3jbZp4afbW50LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-18T12:25:42.167Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm4u3spowe27",
-      "cid": "bafyreice6au4rmpl2amlhhw4qvzghkeohlsmi37rbbaj7itn5xdy7el6om",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-18T12:15:09.644Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=daf935f9189f3f72&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDt67I3jdXXRlzCTp0LbzkdCdPP&xfps=c53eebf4-e0e4-47fd-aded-5836cbc9c669&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoDq67M3jbZp4b_bW50PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cM2mCKB"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 288
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 311,
-              "byteStart": 305
-            }
-          }
-        ],
-        "text": "Job étudiant événementiel/horeca Flexho - Bruxelles\nMissions :\nMissions ponctuelles soirées, mariages, événements d’entreprise (horeca, catering, accueil, logistique)\nProfil :\n- motivé/ponctuel/dynamique/souriant/bon sens du relationnel\n- Expérience ds l’horeca obligatoire !\nbuff.ly/cM2mCKB \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=daf935f9189f3f72&q=%C3%A9tudiant&l=Waterloo&tk=1jor8phfb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDt67I3jdXXRlzCTp0LbzkdCdPP&xfps=c53eebf4-e0e4-47fd-aded-5836cbc9c669&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jor8phfb21dp000&xkcb=SoDq67M3jbZp4b_bW50PbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-18T12:15:10.265Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm4nc775wo2u",
-      "cid": "bafyreicw6qmfzsjeak5ucw5xdaxql6g2b7j6ngoi5u6sz6jlpxlh2vjjf4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-18T10:13:27.984Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Expert Witness Assisted Search. Let us find the right expert witness for you for a flat fee. NO BROKER!",
-            "title": "Expert Witness Request Form",
-            "uri": "https://experts.Support"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/un7s5cm"
-              }
-            ],
-            "index": {
-              "byteEnd": 263,
-              "byteStart": 248
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 270,
-              "byteStart": 264
-            }
-          }
-        ],
-        "text": "Etudiant technique polyvalent - Anderlecht\nMissions :\n- Initiation et aide à la soudure\n- Assister les équipes de montage\n- Maintenance de l'atelier \n- Appui administratif\nProfil : sens pratique/soif d'apprendre/esprit d'initiative/fiabilité...\nbuff.ly/un7s5cm\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://experts.Support",
-          "title": "Expert Witness Request Form",
-          "description": "Expert Witness Assisted Search. Let us find the right expert witness for you for a flat fee. NO BROKER!"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-18T10:13:29.164Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
