@@ -1,6 +1,255 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqjxmo4u272h",
+      "cid": "bafyreihhzy6u24s3ybsmcsbh6rpsd6hti6f5krmrw3se4wfcw244zpecwy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-13T15:03:39.634Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "Consultant-e interim STUDENT,  - Jobs Manpower Belgium - Interim, Job, Recruitment, Selection",
+            "uri": "https://www.manpower.be/job/consultant-e-interim-student-279832?utm_source=optioncarriere&utm_medium=cpc&utm_campaign=optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Crp1neS"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant(e) Consultant(e) interim Anderlecht\n- Vous êtes dispo à tps plein jusqu'au 15/09/26\n- Vous avez un intérêt pour les Ressources Humaines, le recrutement ou les relations humaines\n- Vous communiquez aisément en français\n- Vous maîtrisez les outils informatiques courants\nbuff.ly/Crp1neS\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.manpower.be/job/consultant-e-interim-student-279832?utm_source=optioncarriere&utm_medium=cpc&utm_campaign=optioncarriere",
+          "title": "Consultant-e interim STUDENT,  - Jobs Manpower Belgium - Interim, Job, Recruitment, Selection",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-13T15:03:40.166Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqjwhud6ef25",
+      "cid": "bafyreiggee2elvi6gafwycbly6xws5vgxdlmyihihfevbbjkuumx6enyru",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-13T14:43:02.751Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+              },
+              "mimeType": "image/jpeg",
+              "size": 112305
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-operateur-games-wavre-wavre-brabant-wallon/142-35127-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/S4xm9SH"
+              }
+            ],
+            "index": {
+              "byteEnd": 182,
+              "byteStart": 167
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 190,
+              "byteStart": 184
+            }
+          }
+        ],
+        "text": "Etudiant(e) opérateur games | Wavre\n- Recherche d'étudiants dynamiques et enthousiastes pour animer et gérer des stands de jeux payants dans un parc d'attraction.\n\nbuff.ly/S4xm9SH\n #job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiante-operateur-games-wavre-wavre-brabant-wallon/142-35127-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-13T14:43:05.068Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqjvbscvej2v",
+      "cid": "bafyreidwxxil6ardtkn4ilmz6ao2q4mjg4q73u6vot7ueruw5eo727v5uq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-13T14:21:47.525Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=89afd888cb72c8b7&q=Etudiant&l=Brabant-wallon&tk=1jt8kgj6okner800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoAp67I3ht_E-IT5ZZ0LbzkdCdPP&xfps=2562f3ad-f436-46d3-b1c6-a7e86eb5b403&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt8kgj6okner800&xkcb=SoBt67M3hohNKTTibp0DbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/skJLTS3"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 294
+            }
+          }
+        ],
+        "text": "VENDEUR Etudiant H/F Louvain-la-Neuve\n- personne motivée, dynamique, extravertie\n- capable de faire preuve d'excellentes compétences en communication\n- attitude proactive et enthousiasme pour représenter la marque\n- expérience souhaitée dans le commerce de détail de mode\nbuff.ly/skJLTS3\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=89afd888cb72c8b7&q=Etudiant&l=Brabant-wallon&tk=1jt8kgj6okner800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoAp67I3ht_E-IT5ZZ0LbzkdCdPP&xfps=2562f3ad-f436-46d3-b1c6-a7e86eb5b403&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jt8kgj6okner800&xkcb=SoBt67M3hohNKTTibp0DbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-13T14:21:47.866Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqcjnhvvas2i",
       "cid": "bafyreihqmqwwqifvznceoql62hz4ytv3yu7wrma4f53nq6rx7o6yep3nhi",
       "author": {
@@ -8241,246 +8490,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-20T15:20:33.075Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7jkn7zvq2w",
-      "cid": "bafyreihuxjm7ykl6sxispfk2z4jgmzxb2z57d56dpzu7lpzaagc3ttgkze",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-19T13:44:35.373Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=761ef179a7aa5ff0&q=Etudiant&l=Brabant-wallon&tk=1jp070cibg2ii801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDn67I3jgGosWT7dB0LbzkdCdPP&xfps=ebfe2755-e40c-4555-8334-c7400f80edc8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp070cibg2ii801&xkcb=SoCD67M3jgGOfG0zrB0LbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kAYaham"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 290
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 312,
-              "byteStart": 306
-            }
-          }
-        ],
-        "text": "Etudiant Préparateur de commandes à Braine-le-Château\n· Préparation des commandes et colisage des produits\n· Repérage et signalement des anomalies de manutention\n. Attention particulière aux numéros de lots des produits\n· Opérations de manutention, d’entreposage, de transport\nbuff.ly/kAYaham\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=761ef179a7aa5ff0&q=Etudiant&l=Brabant-wallon&tk=1jp070cibg2ii801&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoDn67I3jgGosWT7dB0LbzkdCdPP&xfps=ebfe2755-e40c-4555-8334-c7400f80edc8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp070cibg2ii801&xkcb=SoCD67M3jgGOfG0zrB0LbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-19T13:44:35.869Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7intfon52w",
-      "cid": "bafyreidu5fkc3viv3ydyhtyemziax5uzgpepqbis5ffh2io4vpvo4pfxni",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-19T13:28:28.777Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5798946?JobId=5798946&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/F55Yfn5"
-              }
-            ],
-            "index": {
-              "byteEnd": 265,
-              "byteStart": 250
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 272,
-              "byteStart": 266
-            }
-          }
-        ],
-        "text": "Inventoriste étudiant Ittre\nProfil:\n- Tu es disponible soit en matinée, en soirée, la semaine ou le week-end\n- Tu peux te rendre facilement aux lieux de travail demandés\n- Tu es rapide et consciencieux \nOffre\n- Un salaire de 13.6148 bruts/heure \nbuff.ly/F55Yfn5\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5798946?JobId=5798946&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-19T13:28:29.163Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mm7i6dxor22u",
-      "cid": "bafyreicjvhddp2eo2rdhm6wv52n3iqusmjtjw7kgavh5zjmopbg765o3f4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-19T13:19:49.276Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=69faf158a5eebbdc&q=%C3%A9tudiant&l=Waterloo&tk=1jotopa8r21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCA67I3jf0t0Sz5Tx0LbzkdCdPP&xfps=15a41c64-3d86-4b04-88e3-7b9ee7d8c602&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jotopa8r21dp000&xkcb=SoAZ67M3jd5qg1B4ML0NbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/kguxAuG"
-              }
-            ],
-            "index": {
-              "byteEnd": 239,
-              "byteStart": 224
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 246,
-              "byteStart": 240
-            }
-          }
-        ],
-        "text": "Etudiant(e) en boulangerie Etterbeek\nNotre boulangerie recherche un.e étudiant.e pour renforcer son équipe de vente les week-ends. Les horaires du poste sont les suivants :\n- samedi : 06h00-13h00\n- dimanche : 06h00-11h00 \nbuff.ly/kguxAuG\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=69faf158a5eebbdc&q=%C3%A9tudiant&l=Waterloo&tk=1jotopa8r21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoCA67I3jf0t0Sz5Tx0LbzkdCdPP&xfps=15a41c64-3d86-4b04-88e3-7b9ee7d8c602&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jotopa8r21dp000&xkcb=SoAZ67M3jd5qg1B4ML0NbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-19T13:19:49.762Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
