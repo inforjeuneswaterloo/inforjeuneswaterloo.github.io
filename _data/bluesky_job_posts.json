@@ -1,6 +1,86 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqmj35u3bi2n",
+      "cid": "bafyreiblfrdb2weqtmb25nz7dmcnurhrgsdc4o46yxm5fp73bkk6ouax2a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-14T15:21:19.050Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=ae7fa16ea94d73d5&q=Etudiant&l=Brussels&tk=1jtgblc1ugd97800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoD567I3hwuI8izNyR0LbzkdCdPP&xfps=b40c2037-ebf5-4197-909a-4217494e6d73&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jtgblc1ugd97800&xkcb=SoCO67M3hwfaHQ4G2h0BbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/SUt9mAK"
+              }
+            ],
+            "index": {
+              "byteEnd": 266,
+              "byteStart": 251
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 273,
+              "byteStart": 267
+            }
+          }
+        ],
+        "text": "Etudiant polyvalent H/F Bruxelles\nLa Bourse et le Belgian Beer World recherchent des étudiants:\n- passionnés par la bière, l’histoire, l’architecture\n- dynamiques et flexibles pour travailler dans le site de la Bourse et du musée de la Bière\nbuff.ly/SUt9mAK\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=ae7fa16ea94d73d5&q=Etudiant&l=Brussels&tk=1jtgblc1ugd97800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoD567I3hwuI8izNyR0LbzkdCdPP&xfps=b40c2037-ebf5-4197-909a-4217494e6d73&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jtgblc1ugd97800&xkcb=SoCO67M3hwfaHQ4G2h0BbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-14T15:21:19.471Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqmim7cv752u",
       "cid": "bafyreigpzurqabtllsuplbxpvbmr523y4lg4bkehumf4iiywx6r6y7gota",
       "author": {
@@ -8407,86 +8487,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-22T10:18:27.280Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmgp5bwyqf2w",
-      "cid": "bafyreidi2et3mrdm6vrpew35lp6tyhurpousd2rs7jc3lfdzqz3fwxwpc4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-22T10:13:07.961Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=5eb12f83695eb240&q=Etudiant&l=Brussels&tk=1jp5a9bhggbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3jntKdkz4BB0LbzkdCdPP&xfps=d943ffa5-8799-45d5-9066-066412c6cb04&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp5a9bhggbct800&xkcb=SoDJ67M3jlcqoZa5050JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/E0RISgx"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Etudiant(e) H&M été - Uccle\n- Plier, suspendre, présenter et mettre en valeur les vêtements\n- Traiter, stocker et réapprovisionner activement les vêtements\n- Ouvrir, déballer et antivoler les marchandises\n- Assister les clients dans leurs achats et leurs retours en caisse \nbuff.ly/E0RISgx\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=5eb12f83695eb240&q=Etudiant&l=Brussels&tk=1jp5a9bhggbct800&from=ja&alid=56b55072e4b05009f1344524&g1tAS=true&xpse=SoDg67I3jntKdkz4BB0LbzkdCdPP&xfps=d943ffa5-8799-45d5-9066-066412c6cb04&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp5a9bhggbct800&xkcb=SoDJ67M3jlcqoZa5050JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-22T10:13:08.668Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
