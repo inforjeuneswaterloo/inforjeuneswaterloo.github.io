@@ -1,6 +1,264 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqmim7cv752u",
+      "cid": "bafyreigpzurqabtllsuplbxpvbmr523y4lg4bkehumf4iiywx6r6y7gota",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-14T15:12:56.493Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Description du poste: Un Sales Advisor est chargé d'offrir à la clientèle une expérience optimale qui contribue aux ventes et aux bénéfices du magasin. En tant que Sales Advisor, tu donnes toujours…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig64pilb5uk6qe5sbr7e5mlaygkti3yzyzau4qbikx4nduhtqawcq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 12807
+            },
+            "title": "Etudiant(e) Aide du Samedi 9h - Woluwe",
+            "uri": "https://jobs.smartrecruiters.com/hmgroup/744000137125640-etudiant-e-aide-du-samedi-9h-woluwe"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/DvXIFp9"
+              }
+            ],
+            "index": {
+              "byteEnd": 275,
+              "byteStart": 260
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 282,
+              "byteStart": 276
+            }
+          }
+        ],
+        "text": "Etudiant(e) H&M samedi à Woluwé-Saint-Lambert\n- Expérience préalable dans le domaine du retail\n- Gestion efficace du temps - résistance au stress et capacité à établir des priorités\n- Avoir un état d'esprit axé sur la clientèle\n- Connaitre la mode\nbuff.ly/DvXIFp9\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://jobs.smartrecruiters.com/hmgroup/744000137125640-etudiant-e-aide-du-samedi-9h-woluwe",
+          "title": "Etudiant(e) Aide du Samedi 9h - Woluwe",
+          "description": "Description du poste: Un Sales Advisor est chargé d'offrir à la clientèle une expérience optimale qui contribue aux ventes et aux bénéfices du magasin. En tant que Sales Advisor, tu donnes toujours…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreig64pilb5uk6qe5sbr7e5mlaygkti3yzyzau4qbikx4nduhtqawcq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-14T15:12:57.973Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqmcie45aw2k",
+      "cid": "bafyreihxxvylbwdpds3ymnlozxoliunog5agtcdn2q6aej7fdy3tyiq4ku",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-14T13:23:24.881Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) pour un renfort de clôtures comptables.Notre client est une f",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibt5pidceu54twdgj6w7ppwbjnbs5m3ejyzqloxb4qbggvk2ogxye"
+              },
+              "mimeType": "image/webp",
+              "size": 3590
+            },
+            "title": "Étudiant Comptable  - Walloon Brabant, Chaumont-Gistoux job with Robert Half | 10527789",
+            "uri": "https://jobs.references.be/offre-emploi/10527789/etudiant-comptable-/?TrackID=32580&utm_source=goldenbees&utm_medium=agregateur&utm_campaign_name=neuvoo"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/CSaGre3"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant(e) comptable Chaumont-Gistoux\n- encodage des pièces comptables\n- réconciliations et vérifications comptables\n- préparation des dossiers de clôture\n- support aux gestionnaires de dossiers\n- diverses tâches administratives et comptables en fonction de ton autonomie \nbuff.ly/CSaGre3\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://jobs.references.be/offre-emploi/10527789/etudiant-comptable-/?TrackID=32580&utm_source=goldenbees&utm_medium=agregateur&utm_campaign_name=neuvoo",
+          "title": "Étudiant Comptable  - Walloon Brabant, Chaumont-Gistoux job with Robert Half | 10527789",
+          "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) pour un renfort de clôtures comptables.Notre client est une f",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibt5pidceu54twdgj6w7ppwbjnbs5m3ejyzqloxb4qbggvk2ogxye"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-14T13:23:26.368Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqmbrgx6pg2o",
+      "cid": "bafyreiakl6j6ysznqrqn73jlgpih63m6ao72tsfdxwzxjmbui36fod3swe",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-14T13:10:36.852Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=bcaf3a32f2528b06&q=%C3%A9tudiant&l=Waterloo&tk=1jte63b96g2gl806&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoCt67I3hwd6lQz4QZ0LbzkdCdPP&xfps=ef263919-0e7f-4332-bf86-542228a323ae&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jte63b96g2gl806&xkcb=SoD667M3huECon71kp0IbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/DSOuHiR"
+              }
+            ],
+            "index": {
+              "byteEnd": 252,
+              "byteStart": 237
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 259,
+              "byteStart": 253
+            }
+          }
+        ],
+        "text": "Etudiant(e) - aide administratif Bruxelles\n- Classement et organisation de dossiers papier et électroniques ;\n- Encodage et mise à jour de données administratives ;\n- Archivage de documents conformément aux procédures en vigueur ; \nbuff.ly/DSOuHiR\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=bcaf3a32f2528b06&q=%C3%A9tudiant&l=Waterloo&tk=1jte63b96g2gl806&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoCt67I3hwd6lQz4QZ0LbzkdCdPP&xfps=ef263919-0e7f-4332-bf86-542228a323ae&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jte63b96g2gl806&xkcb=SoD667M3huECon71kp0IbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-14T13:10:37.272Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqjxmo4u272h",
       "cid": "bafyreihhzy6u24s3ybsmcsbh6rpsd6hti6f5krmrw3se4wfcw244zpecwy",
       "author": {
@@ -8229,267 +8487,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-22T10:13:08.668Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmef245gqk2k",
-      "cid": "bafyreie2olz2bgl27ni7v243bscn3llqhssdi5hdpwio62riwcjr6ilil4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-21T12:07:04.325Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5810041?JobId=5810041&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/V0TSVUK"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 285
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 308,
-              "byteStart": 302
-            }
-          }
-        ],
-        "text": "Job étudiant été 26 Assurance Qualité Pharmaceutique BAXTER - Braine l’Alleud\nMissions\nRelecture/vérification de documents FR, Nld, ANG, ALL\nProfil\n- Etudes pharmaceutique, médicale...\n- Bonne maîtrise de Microsoft Office\n- Rigueur/concentration/conscience professionnelle...\nbuff.ly/V0TSVUK \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_5810041?JobId=5810041&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-21T12:07:04.859Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7feuu7u2x",
-      "cid": "bafyreiczp6djllyg2j63tofh6g6gmeh3mbozmjwgkmhbt2d6r2kvuly6sy",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-20T15:20:38.586Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
-              },
-              "mimeType": "image/webp",
-              "size": 219534
-            },
-            "title": "Offres d’emploi | PROMAN Jobs",
-            "uri": "https://www.proman.be/fr/jobs/emplois/student-support-logistique-communication-hfx"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/cVi2kZE"
-              }
-            ],
-            "index": {
-              "byteEnd": 279,
-              "byteStart": 264
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 287,
-              "byteStart": 281
-            }
-          }
-        ],
-        "text": "STUDENT support logistique communication 6/07 au 17/07 - Nivelles \nMissions:\n- Trier/organiser le matériel de comm\n- Rangement du stock \n- Soutien général à l’équipe communication...\nProfil :\n- Organisé, rigoureux et motivé\n- Autonome et consciencieux...\nbuff.ly/cVi2kZE \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.proman.be/fr/jobs/emplois/student-support-logistique-communication-hfx",
-          "title": "Offres d’emploi | PROMAN Jobs",
-          "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-20T15:20:40.871Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmc7f4nvuz2e",
-      "cid": "bafyreicuqce5z3l6za735vjdq6ulvatnmwkbxanosg2vy2gz4yhbtzhbva",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-20T15:20:32.034Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/VlqVMpg"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 268
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 298,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Conseiller(ère) de vente étudiant INTERSPORT - WATERLOO \nMissions :\n- Accueillir, renseigner et conseiller les clients\n- Réassort/entretien du rayon ...\nProfil\n- Passionné(e) de sport, de mode et de vente\n- À l’écoute, bon sens du service et du relationnel...\nbuff.ly/VlqVMpg\n#job4u #ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=f1dbbf80736d45d2&q=Etudiant&l=Brabant-wallon&tk=1jp2ud191g2ii800&from=ja&alid=56b55072e4b078c137fc0296&g1tAS=true&xpse=SoBq67I3ji1iVtz5Xx0LbzkdCdPP&xfps=63ab8334-b7b2-4b6b-9ab8-2b17213cae4f&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jp2ud191g2ii800&xkcb=SoBy67M3ji077y1Y0R0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-20T15:20:33.075Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
