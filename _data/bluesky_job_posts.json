@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqtqnylrkd2f",
+      "cid": "bafyreig4scqxkrb3hw7em3lw5c3s4v5g5t26seqkwxst4wct4rpvynt75e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-17T12:25:44.611Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiant manoeuvre",
+            "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/900065"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/V5HOUq8"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 289
+            }
+          }
+        ],
+        "text": "Etudiant min. 18 ans manoeuvre à partir du 10/08 - Perwez\nTâches : Pose de tuiles/Aide à la création de charpente/Construction d'ossature bois...\nProfil :\n- Brevet VCA\n- Bonne condition physique/pas peur de travailler en hauteur\n- Capable de porter des charges lourdes\nbuff.ly/V5HOUq8 #job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/900065",
+          "title": "Etudiant manoeuvre",
+          "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-17T12:25:45.768Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqtgfj46pn2n",
       "cid": "bafyreigzsuskfr67iwcsx3u7zjuc547exblh6m6wod3jwhtsf74d6jxgtq",
       "author": {
@@ -8434,86 +8523,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-28T06:51:20.569Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmtyos65tp2e",
-      "cid": "bafyreicdthm3rjimv4tutguwkaftto4s2qvbwydq4epxls4jh5jqq4e7cu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-27T17:08:35.673Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=1e99f0491fbe66fa&q=%C3%A9tudiant&l=Waterloo&tk=1jpkrpjb621dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDz67I3j1EqCyT4iJ0LbzkdCdPP&xfps=7c882ffb-920e-4ab5-a72f-5d307df511dc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpkrpjb621dp000&xkcb=SoCb67M3j0_prsa56p0DbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/Zdev35H"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Etudiant serveur polyvalent H/F Haagen Dazs Bruxelles\n- Min. 20 ans\n- Expérience obligatoire\n- Excellente présentation et bon contact client\n- Sérieux(se), ponctuel(le) et polyvalent(e)\n- Savoir travailler sous pression et en équipe\n- Maîtrise de plusieurs langues = atout \nbuff.ly/Zdev35H\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=1e99f0491fbe66fa&q=%C3%A9tudiant&l=Waterloo&tk=1jpkrpjb621dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoDz67I3j1EqCyT4iJ0LbzkdCdPP&xfps=7c882ffb-920e-4ab5-a72f-5d307df511dc&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpkrpjb621dp000&xkcb=SoCb67M3j0_prsa56p0DbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-27T17:08:36.071Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
