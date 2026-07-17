@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqtgfj46pn2n",
+      "cid": "bafyreigzsuskfr67iwcsx3u7zjuc547exblh6m6wod3jwhtsf74d6jxgtq",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-17T09:22:02.667Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Votre fonction en tant qu'Étudiant Administratif (h-f-x) :vous êtes le point de contact privilégié des clients, que ce soit par téléphone ou par e-mail ;vous accueillez, écoutez et identifiez…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
+              },
+              "mimeType": "image/png",
+              "size": 16268
+            },
+            "title": "Étudiant Administratif",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_6038165?JobId=6038165&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/EKs45Gy"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant administratif H/F Nivelles\n- package salarial compris entre 13 € et 14 € brut/heure\n- contrat d'intérim à partir du mois d'août avec prolongation pendant l'année scolaire selon la charge de travail\n- environnement bienveillant et collaboratif accessible en voiture \nbuff.ly/EKs45Gy\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_6038165?JobId=6038165&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-top",
+          "title": "Étudiant Administratif",
+          "description": "Votre fonction en tant qu'Étudiant Administratif (h-f-x) :vous êtes le point de contact privilégié des clients, que ce soit par téléphone ou par e-mail ;vous accueillez, écoutez et identifiez…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibsfvmd7lme4k4ianr3qjqi5q7jiytxjiq77tir7u4euppl35nkha"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-17T09:22:03.669Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqtfwxqugp24",
+      "cid": "bafyreihdnbqcnptdy5zanhcpszxzcajr6alxa5d45pofbfwg7kwrmhmikm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-17T09:13:54.735Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) terminant son bachelier en comptabilité (3e année) ou en cour",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreibt5pidceu54twdgj6w7ppwbjnbs5m3ejyzqloxb4qbggvk2ogxye"
+              },
+              "mimeType": "image/webp",
+              "size": 3590
+            },
+            "title": "Étudiant Comptable (h-f-x)  - Nivelles, Walloon Brabant job with Robert Half | 10531633",
+            "uri": "https://jobs.references.be/offre-emploi/10531633/etudiant-comptable-h-f-x-/?TrackID=32580&utm_source=goldenbees&utm_medium=agregateur&utm_campaign_name=neuvoo"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/qb691IR"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "Etudiant(e) comptable Nivelles\n- encodage des achats/ventes et opérations financières\n- soutien au chef-comptable dans ses activités\n- contacts avec les clients et les fournisseurs\n- travaux divers sur Excel\n- tâches administratives diverses liées au département comptable\nbuff.ly/qb691IR\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://jobs.references.be/offre-emploi/10531633/etudiant-comptable-h-f-x-/?TrackID=32580&utm_source=goldenbees&utm_medium=agregateur&utm_campaign_name=neuvoo",
+          "title": "Étudiant Comptable (h-f-x)  - Nivelles, Walloon Brabant job with Robert Half | 10531633",
+          "description": "Pour l'un de ses clients, Robert Half est à la recherche d'un Étudiant Comptable (h-f-x) terminant son bachelier en comptabilité (3e année) ou en cour",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibt5pidceu54twdgj6w7ppwbjnbs5m3ejyzqloxb4qbggvk2ogxye"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-17T09:13:55.864Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqrdkfruvb2f",
       "cid": "bafyreidygfumiqr2jrqskgpgmyz7cqwhxrx623y44nl4d53e2uay4viplu",
       "author": {
@@ -8336,166 +8514,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-27T17:08:36.071Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmtxxvy53s2e",
-      "cid": "bafyreiddt4j256rmgsklzzheml3wpbtefqw2sugqebclvcsj7n4uylgntu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-27T16:55:47.921Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=ea3aa84a038f105b&q=etudiant&l=brabant+wallon&tk=1jpkr0tnfj922800&from=ja&advn=2872620200357037&adid=462411489&ad=-6NYlbfkN0DmK0IpfR1Iwohm7h5xPxFwr-u0XE55r2jL74JnIIBBILj3BtFReK4_q00SU-PWVhSCb5zNmOiJe_d8Z0huGns8cfHIlAltA6dNUmhGeoubGgGChmjd8YljNiJqrXtRxZZbZkJLuhVj4RF-QnowdGP2S-5A-qYu21jqw_e5B6lPm81WWMU2qYoBZjNnma5NRyQE3Si_QlOwdQoqRdMtYXwM_QguPHzSABr4-duWEyUSJOXj3n5FeoJTZPMURkdbZ-hv3w2HWcs8H8KNLRXs4LLKCJ6tnBzUuulb_ybPiGVN_f7LizQpIGXftz4cT1aqrwLe9H4TMgWIvmQoysG96rPi3UtexdKj5KJcWGDXRmW1Vivf7QdiW-OMEKr81zShwd7n0ZJYEAI_K-0t57fc2SMKHba0iLNUroASKF0fl7s9cfthVEDqAzmWrJzJQkAMenmU2ZNHf-V4Apo20aCarvogBILQEyB96v1AgtumoCo3HaAW3sBJaGrkBqpkmR_P_7Q9s9D3wqdB-NmvLVLbJB7ekC36oAjeCLb3ZbNmEpnLkjxPWGz0801AsKBgd879stD9PvgWht2RZ7TNV6qHGx61&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8n27KzOZP97Q%3D%3D&xkcb=SoC56_M3j0-MZL7J550dbzkdCdPP&xpse=SoCk6_I3j1DYLaT45J0NbzkdCdPP&xfps=8dc8fda0-acbe-4bcf-aa6b-e9c501868df3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/XNi451O"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Etudiant chef de rang Mamy Louise Wavre\n- Minimum 1 an d'expérience\n- Connaissance du français/anglais\n- Ponctuel, flexible et résistant au stress\n- Esprit d’équipe et motivation\n- Bonne présentation et souriant\n- Sens de la discipline, de la rigueur et de la précision \nbuff.ly/XNi451O\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=ea3aa84a038f105b&q=etudiant&l=brabant+wallon&tk=1jpkr0tnfj922800&from=ja&advn=2872620200357037&adid=462411489&ad=-6NYlbfkN0DmK0IpfR1Iwohm7h5xPxFwr-u0XE55r2jL74JnIIBBILj3BtFReK4_q00SU-PWVhSCb5zNmOiJe_d8Z0huGns8cfHIlAltA6dNUmhGeoubGgGChmjd8YljNiJqrXtRxZZbZkJLuhVj4RF-QnowdGP2S-5A-qYu21jqw_e5B6lPm81WWMU2qYoBZjNnma5NRyQE3Si_QlOwdQoqRdMtYXwM_QguPHzSABr4-duWEyUSJOXj3n5FeoJTZPMURkdbZ-hv3w2HWcs8H8KNLRXs4LLKCJ6tnBzUuulb_ybPiGVN_f7LizQpIGXftz4cT1aqrwLe9H4TMgWIvmQoysG96rPi3UtexdKj5KJcWGDXRmW1Vivf7QdiW-OMEKr81zShwd7n0ZJYEAI_K-0t57fc2SMKHba0iLNUroASKF0fl7s9cfthVEDqAzmWrJzJQkAMenmU2ZNHf-V4Apo20aCarvogBILQEyB96v1AgtumoCo3HaAW3sBJaGrkBqpkmR_P_7Q9s9D3wqdB-NmvLVLbJB7ekC36oAjeCLb3ZbNmEpnLkjxPWGz0801AsKBgd879stD9PvgWht2RZ7TNV6qHGx61&alid=698c88431d6abb292039269a&pub=4a1b367933fd867b19b072952f68dceb&camk=C3EPSzFlQw8n27KzOZP97Q%3D%3D&xkcb=SoC56_M3j0-MZL7J550dbzkdCdPP&xpse=SoCk6_I3j1DYLaT45J0NbzkdCdPP&xfps=8dc8fda0-acbe-4bcf-aa6b-e9c501868df3&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-27T16:55:48.271Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmrdidxzeu2e",
-      "cid": "bafyreic72psd32e2fnfldtmqexel2oab3xxkqkh7qpmbgpaeu3lycumm5m",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-26T15:43:51.413Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=7ed22eb55b6b84c6&q=%C3%A9tudiant&l=Waterloo&tk=1jpg4rv6k21dp001&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBG67I3jyV6oGz4Wx0LbzkdCdPP&xfps=7e3592db-a2db-4255-a6dd-19b486c787db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpg4rv6k21dp001&xkcb=SoDa67M3jwBgKjBZqr0BbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/oJI95kN"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 290
-            }
-          }
-        ],
-        "text": "Étudiant.e assistant.e dentaire | Brabant-Wallon Assistance dentaire · Dentius Louvain-La-Neuve\n- étudiant en dentisterie, soins de santé ou domaine similaire\n- 1 expérience est un plus, mais pas obligatoire\n- Contact facile\n- Bonne maîtrise de l’outil informatique\nbuff.ly/oJI95kN\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=7ed22eb55b6b84c6&q=%C3%A9tudiant&l=Waterloo&tk=1jpg4rv6k21dp001&from=ja&alid=698c7a5f2c2690065c4a2ef7&g1tAS=true&xpse=SoBG67I3jyV6oGz4Wx0LbzkdCdPP&xfps=7e3592db-a2db-4255-a6dd-19b486c787db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpg4rv6k21dp001&xkcb=SoDa67M3jwBgKjBZqr0BbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-26T15:43:51.961Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
