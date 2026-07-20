@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mr3bcq7mxa23",
+      "cid": "bafyreielwksegfdg3n33c45pyyo2qozvzxbme27my3ioyotiejnyatoil4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-20T12:12:18.683Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Travailler en tant que jobstudent Shop & Go ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne chance !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+              },
+              "mimeType": "image/png",
+              "size": 7088
+            },
+            "title": "jobstudent Shop & Go | Konvert",
+            "uri": "https://www.konvert.be/fr/offres-d-emploi/7-701-202635686"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/FkBG0RT"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 305,
+              "byteStart": 299
+            }
+          }
+        ],
+        "text": "Etudiant Shop & Go - Molenbeek\nTâches\n- Réception commandes (charger/décharger camions)\n- Gestion du stock/réassort\n- Nettoyage/rangement\n- Préparer sandwichs/viennoiseries\nProfil\n- Permis B/véhicule personnel\n- 1ère expérience en vente\n- Rigoureux/polyvalent/proactif\n- ...\nbuff.ly/FkBG0RT\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.konvert.be/fr/offres-d-emploi/7-701-202635686",
+          "title": "jobstudent Shop & Go | Konvert",
+          "description": "Travailler en tant que jobstudent Shop & Go ? Découvrez maintenant cette offre d'emploi intéressante et postulez sur le site internet de Konvert. Bonne chance !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreianpkudnmiyzpk7nicyoibzasyw6sgexbmmbsgwfgdslyv4pqvc3a"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-20T12:12:19.683Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mqttzmso342t",
       "cid": "bafyreiekdvqnhk2ewthyqimreodf6wys44ch4ckqpmz6sulceziveyidiu",
       "author": {
@@ -8397,95 +8486,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-28T07:11:56.262Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmvhdfcsaz2b",
-      "cid": "bafyreicqrdt67cssnrzqmmnjmh2mgnu5g5fx7ckedoyk6eta5sddissuly",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-28T07:03:17.337Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Employé(e) polyvalent(e) en parapharmacie – Région de Bruxelles | Medi-Market | BRUXELLES, Bruxelles",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-epolyvalenteenparapharmacier-giondebruxellesmedimarket-bruxelles-bruxelles/586-8159-4?utm_source=jooble&utm_medium=Paid&igbTracker=916923290&utm_campaign=digital_delivery_1520&utm_content=Employ%C3%A9%28e%29+polyvalent%28e%29+en+parapharmacie+%E2%80%93+R%C3%A9gion+de+Bruxelles+%7C+Medi-Market+%28586-8159-4%29+%5B916923290%5D%5Bad83baf950a417bd_18db52f3cfe57%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/ma6SG6B"
-              }
-            ],
-            "index": {
-              "byteEnd": 295,
-              "byteStart": 280
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Job étudiant min. 18 ans employé polyvalent parapharmacie dispo sur appel Medi Market - Bruxelles\nTâches : \n- Accueil/conseil clientèle\n- Réassort/caisse\nProfil\n- Flexible/dispo rapidement\n- Exp vente ou retail est un +\n- Intérêt pr la santé/les soins/la parapharmacie...\nbuff.ly/ma6SG6B \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/employ-epolyvalenteenparapharmacier-giondebruxellesmedimarket-bruxelles-bruxelles/586-8159-4?utm_source=jooble&utm_medium=Paid&igbTracker=916923290&utm_campaign=digital_delivery_1520&utm_content=Employ%C3%A9%28e%29+polyvalent%28e%29+en+parapharmacie+%E2%80%93+R%C3%A9gion+de+Bruxelles+%7C+Medi-Market+%28586-8159-4%29+%5B916923290%5D%5Bad83baf950a417bd_18db52f3cfe57%5D",
-          "title": "Employé(e) polyvalent(e) en parapharmacie – Région de Bruxelles | Medi-Market | BRUXELLES, Bruxelles",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-28T07:03:20.061Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
