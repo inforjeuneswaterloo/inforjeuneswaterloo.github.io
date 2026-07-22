@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mraario7zz2g",
+      "cid": "bafyreiairmflho4zdbkkmjxdornq3qrfxiijgfg4tffmupza2xrgp7mcs4",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-22T11:45:59.683Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=e2a021dfd1bb2ef5&q=%C3%A9tudiant&l=Waterloo&tk=1ju2qmtnlg494800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBu67I3gE712yT4ZB0LbzkdCdPP&xfps=8f21abef-3908-48ff-ab2b-063c6facb06e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ju2qmtnlg494800&xkcb=SoCV67M3gC9UPMxAUx0CbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/Zom9n6Q"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 286
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 309,
+              "byteStart": 303
+            }
+          }
+        ],
+        "text": "Etudiant Primark Ixelles\n- Aimer travailler avec les gens, créer des expériences positives\n- Etre honnête, bon communicateur, capable d'écouter, de partager des idées et d'intervenir si nécessaire\n- Avoir le sens de l'organisation et le souci du détail\n-S'intéresser à la mode\nbuff.ly/Zom9n6Q \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=e2a021dfd1bb2ef5&q=%C3%A9tudiant&l=Waterloo&tk=1ju2qmtnlg494800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBu67I3gE712yT4ZB0LbzkdCdPP&xfps=8f21abef-3908-48ff-ab2b-063c6facb06e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1ju2qmtnlg494800&xkcb=SoCV67M3gC9UPMxAUx0CbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-22T11:46:00.066Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mraaa7egyi2j",
+      "cid": "bafyreibd3ihcohpwde7jllp5lb3e2224fikmvlird3rlfqbz7knj3fejku",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-22T11:36:18.749Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Dans le cadre d’un renfort temporaire, nous recherchons un(e) étudiant Customer Success motivé(e) afin d’assurer la continuité des opérations pendant les périodes de congé de nos collaborateurs…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicd24g5w6y55lakuu2yy32gcyi3uzeguibp3fcmoliv5xipxfi7ka"
+              },
+              "mimeType": "image/jpeg",
+              "size": 44312
+            },
+            "title": "étudiant chargé de relation client",
+            "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_6052866?JobId=6052866&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/xMzi1iv"
+              }
+            ],
+            "index": {
+              "byteEnd": 300,
+              "byteStart": 285
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 307,
+              "byteStart": 301
+            }
+          }
+        ],
+        "text": "Etudiant(e) Customer success Louvain-la-Neuve\n- Tâches quotidiennes de back-office/front-office \n- Garantir la continuité des activités et le bon déroulement des opérations\n- Participer aux initiatives d’optimisation des processus\n- Contribuer au nettoyage et MAJ des données \nbuff.ly/xMzi1iv\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.jobat.be/fr/emplois/jobdetail/job_6052866?JobId=6052866&Mail=1&utm_campaign=newsletter-daily-express&utm_content=link&utm_medium=jobs&utm_source=jobat&utm_term=f-bottom",
+          "title": "étudiant chargé de relation client",
+          "description": "Dans le cadre d’un renfort temporaire, nous recherchons un(e) étudiant Customer Success motivé(e) afin d’assurer la continuité des opérations pendant les périodes de congé de nos collaborateurs…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicd24g5w6y55lakuu2yy32gcyi3uzeguibp3fcmoliv5xipxfi7ka"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-22T11:36:20.171Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mr3bcq7mxa23",
       "cid": "bafyreielwksegfdg3n33c45pyyo2qozvzxbme27my3ioyotiejnyatoil4",
       "author": {
@@ -8308,184 +8477,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-05-29T13:30:35.371Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmykb4pyfd2a",
-      "cid": "bafyreihfb36wrbfgq7ewtbitc5njpjymttzt3h7ov7vcqvwexxmaf37z2u",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-29T12:33:41.470Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-wavre-brabant-wallon/142-34852-4&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/aIm1uog"
-              }
-            ],
-            "index": {
-              "byteEnd": 211,
-              "byteStart": 196
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 218,
-              "byteStart": 212
-            }
-          }
-        ],
-        "text": "Etudiant vendeur H/F Wavre\nVos tâches :\n- Gestion d'un stand de jeux (type pêches aux canards, tirs à l'arc, ....)\n- Expliquer les règles et Motiver les clients à jouer\n- booster les ventes \nbuff.ly/aIm1uog\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-wavre-brabant-wallon/142-34852-4&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-29T12:33:43.580Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmvhsrur322b",
-      "cid": "bafyreidxgn3v2v5xeobuhvroamikxrndbrt6edpo3iyetdalai7rojmn5a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-28T07:11:54.712Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Étudiant motivé et titulaire du permis B ? Rejoignez une mission de terrain dynamique en juillet dans un environnement technique et autonome.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 37952
-            },
-            "title": "Joboffers Student Agent technique | IMPACT",
-            "uri": "https://impact.be/fr/joboffers/bruxelles/110343/?utm_source=jooble&utm_campaign=vonqprogrammaticad_overig&utm_medium=cpc&utm_away=beNTc0OHwtMTU0NzMxNTExMzcwNzAxNTA1M3w0NjE2OA&view=&igbTracker=916924908&utm_content=Student+Agent+technique+%28110343%29+%5B916924908%5D%5Bad83baf950a417bd_1c5a52e57e260%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/HmtfGwo"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Student min. 21 ans Agent technique en juillet - Bruxelles \nTâches :\n- Mise en place/remplacement d’affichages en extérieur\n- Interventions techniques/signalement anomalies...\nFormation prévue à l’entrée\nProfil\n- Permis B valide\n- Organisé/ponctuel/fiable/autonome...\nbuff.ly/HmtfGwo \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://impact.be/fr/joboffers/bruxelles/110343/?utm_source=jooble&utm_campaign=vonqprogrammaticad_overig&utm_medium=cpc&utm_away=beNTc0OHwtMTU0NzMxNTExMzcwNzAxNTA1M3w0NjE2OA&view=&igbTracker=916924908&utm_content=Student+Agent+technique+%28110343%29+%5B916924908%5D%5Bad83baf950a417bd_1c5a52e57e260%5D",
-          "title": "Joboffers Student Agent technique | IMPACT",
-          "description": "Étudiant motivé et titulaire du permis B ? Rejoignez une mission de terrain dynamique en juillet dans un environnement technique et autonome.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-28T07:11:56.262Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
