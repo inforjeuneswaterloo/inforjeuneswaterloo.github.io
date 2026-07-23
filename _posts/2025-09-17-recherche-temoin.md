@@ -9,7 +9,6 @@ date: 2025-09-17
 slug: temoins-recherches
 categories:
   - International
-  - Actu du Centre
 buttons:
   - btn:
      enable: true

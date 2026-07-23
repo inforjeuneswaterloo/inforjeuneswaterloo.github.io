@@ -12,10 +12,6 @@ buttons:
       href: '/contact/ae/'
       icon: message-circle
       target: _self
-sidebar: 
-  - enabled: true
-  - show: all
-  - title: Dans la même section
 ---
 **_Acti-débat_** est un projet mené conjointement par la Maison des Jeunes MJWOO et Infor Jeunes Waterloo.  
 

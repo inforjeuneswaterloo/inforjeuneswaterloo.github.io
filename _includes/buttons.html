@@ -4,8 +4,8 @@
     {% assign btn = item.btn %}
     {% if btn.enable %}
         {% assign color=btn.color | default: include.color%}
-        <a class="cat-button"  href="{{btn.href | relative_url}}" style="border: 1px solid #{{color}}; background:none; margin-right:0.5rem" >
-            <i data-lucide="{{btn.icon}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
-        </a>
+            <a class="btn"  href="{{btn.href | relative_url}}" style="border: 1px solid #{{color}}; background:none; margin-right:0.5rem" >
+                <i data-lucide="{{btn.icon}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
+            </a>
     {% endif %}
 {% endfor %}

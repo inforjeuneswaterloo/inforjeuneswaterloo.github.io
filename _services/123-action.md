@@ -10,11 +10,11 @@ buttons:
       enable: true
       href: "mailto:amaury.erauw@inforjeuneswaterloo.be"
       icon: message-circle
-      text: "Infos et insciption : contacte Amaury !"
+      text: "Infos et insciption"
       color: e67c22
   - btn:
       enable: true
-      text: "Jette un oeil sur les éditions précédentes"
+      text: "Editions précédentes"
       href: 'https://www.youtube.com/watch?v=Zpeo9I2ozdw&list=PLvmOmql-Z9wUYXw6cmDev3cJl9S_My-NU&pp=sAgC'
       icon: "play"
       target: _blank

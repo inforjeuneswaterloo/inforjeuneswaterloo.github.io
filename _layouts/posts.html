@@ -10,7 +10,7 @@ layout: minimal
     {% comment %} Couleur trouvée ou gris par défaut {% endcomment %}
     {% assign border_color = cat_info | default: cate_info.default | replace: '#', '' %}
 
-    <a href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
+    <a class="btn" href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
       <i data-lucide="chevron-right"></i>
       <span class="cat-name">{{ post.title }}</span>
     </a>

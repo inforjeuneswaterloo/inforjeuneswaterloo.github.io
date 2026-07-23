@@ -5,7 +5,7 @@ layout: minimal
 {% assign message=page.message %}
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
-{% assign buttons=page.buttons.btn %}
+{% assign buttons=page.buttons %}
 {% assign header = page.header %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
@@ -37,7 +37,7 @@ layout: minimal
     {{ content }}
   </section>
   {% if page.buttons %}
-      <div class="cta-wrapper" style="margin: 2rem 0; display: flex;">
+      <div class="cta-wrapper mt-4">
         {% include buttons.html items=buttons color=color %}
       </div>
     {%endif%}
@@ -51,7 +51,7 @@ layout: minimal
           {% for item in site[page.collection] %}
             {% unless item.url == page.url %}
               {% assign color=item.color %}
-              <a href="{{ item.url | relative_url }}" class="cat-button" style="border: 1px solid #{{color}}">
+              <a href="{{ item.url | relative_url }}" class="btn" style="border: 1px solid #{{color}}">
                 <i data-lucide="{{ item.lucide | default: 'circle' }}" style="color: #{{color}}"></i>&nbsp;
                 <span class="cat-name">{{ item.title }}</span>
               </a>

@@ -6,4 +6,6 @@
   url: '/categories/'
 - title: "Liens utiles"
   url: '/blogroll/'
+- title: "Le coin presse"
+  url: '/coin-presse/'
  

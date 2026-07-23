@@ -9,7 +9,7 @@ layout: minimal
   {% for service in services %}
     {% assign hex = service.color | default: "888888" %}
     {% assign icon = service.lucide | default: "rocket" %}
-  <a href="{{ service.url | relative_url }}" 
+  <a class="btn" href="{{ service.url | relative_url }}" 
      class="cat-button" style="border: 1px solid  #{{hex}}">
        <i data-lucide="{{ icon }}" style="color: #{{hex}}"></i>&nbsp; 
     <span class="cat-name">{{ service.title }}</span>

@@ -10,7 +10,7 @@ icon:
   text: Atelier CV
 buttons:
   - btn:
-     enable: false 
+     enable: true
      text: S'inscrire
      href: https://forms.office.com/e/JzZq60DxWR
      icon: pencil-line

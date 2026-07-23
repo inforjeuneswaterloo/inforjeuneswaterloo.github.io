@@ -18,11 +18,11 @@ layout: minimal
     {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
 
     <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" 
-       class="cat-button" 
-       style="--color-cat: #{{ hex }};">
+       class="btn" 
+       style="border: 1px solid #{{ hex }};">
       <span class="cat-name">{{ cat_name }}</span>
       
-      <span class="cat-badge">
+      <span class="badge rounded-pill" style="background: #{{ hex }}">
         {{ posts_count | default: 0 }}
       </span>
     </a>

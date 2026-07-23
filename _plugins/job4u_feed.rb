@@ -63,7 +63,7 @@ module Jekyll
                         #{text}
                     </div>
                     <div class="w-100 text-end text-right mt-auto pt-3">
-                        <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                        <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class=" text-decoration-none">
                         En savoir plus&nbsp;<i data-lucide="move-right"></i>  
                         </a>
                     </div>

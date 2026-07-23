@@ -14,11 +14,11 @@ layout: minimal
       <span class="category-count">{{ posts_count }} article{% if posts_count > 1 %}s{% endif %} publié{% if posts_count > 1 %}s{% endif %}</span>
     </h1>-->
     <div
-       class="cat-button" 
-       style="--color-cat: #{{ cat_color }};">
+       class="btn" 
+       style="border: 1px solid #{{ cat_color }};">
       <span class="cat-name">{{ page.category }}</span>
       
-      <span class="cat-badge">
+      <span class="badge rounded-pill " style="background: #{{cat_color}}">
         {{ posts_count | default: 0 }}
 
       </span>

@@ -1,0 +1,7 @@
+[build]
+  command = "ruby scripts/fetch_instapaper.rb && bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.3.1"

@@ -13,7 +13,7 @@ Le site Internet n'utilise aucun cookie, il ne récupère par conséquent aucune
 - whatsapp
   - [https://www.whatsapp.com/privacy](https://www.whatsapp.com/privacy)  
 - Formulaire de contact
-  - [htpps://airform.io](https://airform.io)
+  - [https://airform.io](https://airform.io)
 - Formulaires en ligne
   - [https://www.microsoft.com/fr-fr/privacy/privacystatement](https://www.microsoft.com/fr-fr/privacy/privacystatement)
 - Matomo (analyse statistique)
