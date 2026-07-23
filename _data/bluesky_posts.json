@@ -1,6 +1,588 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcco42rfh2s",
+      "cid": "bafyreihksfokbz5d7grv3jh3tluj4ouby7mgn5rhdicnzdawtd5ob22qbm",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:25:11.301Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Le vote clôt la première étape de cette réforme portée par le Premier ministre, Bart De Wever. Une nouvelle période...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicdvcl66qbwqzr6vseuzj4uh5ceossxa6xxwqfgmkzvubuu6c7wk4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 419202
+            },
+            "title": "Vers la suppression du Sénat : la Chambre approuve la révision de l’article 195 de la Constitution - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/reforme-du-senat-la-chambre-approuve-la-revision-de-l-article-195-de-la-constitution-11751850"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Belgique"
+              }
+            ],
+            "index": {
+              "byteEnd": 150,
+              "byteStart": 141
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Institutions"
+              }
+            ],
+            "index": {
+              "byteEnd": 164,
+              "byteStart": 151
+            }
+          }
+        ],
+        "text": "La Chambre approuve en séance plénière la révision de l’article 195 de la Constitution qui ouvre la voie à la suppression du Sénat. \n#Belgique #Institutions"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/reforme-du-senat-la-chambre-approuve-la-revision-de-l-article-195-de-la-constitution-11751850",
+          "title": "Vers la suppression du Sénat : la Chambre approuve la révision de l’article 195 de la Constitution - RTBF Actus",
+          "description": "Le vote clôt la première étape de cette réforme portée par le Premier ministre, Bart De Wever. Une nouvelle période...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicdvcl66qbwqzr6vseuzj4uh5ceossxa6xxwqfgmkzvubuu6c7wk4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:25:14.565Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrccdvwjje22",
+      "cid": "bafyreieln3fmau2d6dyiz6363k7inllfatffldbezwvwpdjorzzux2idde",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:19:29.078Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "A l’heure actuelle, cette sélection s’opère en fin de première année d’études (Bac1), ce qui a souvent pour effet...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreic5c2lft4u6lfjmgh75fxcd4iyyix2tfobixtfhfqczf5fjwiewha"
+              },
+              "mimeType": "image/jpeg",
+              "size": 243068
+            },
+            "title": "Dès 2027, le concours d’entrée en médecine vétérinaire sera organisé en début de cursus - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/des-2027-le-concours-d-entree-en-medecine-veterinaire-sera-organise-en-debut-de-cursus-11755004"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Enseignement"
+              }
+            ],
+            "index": {
+              "byteEnd": 179,
+              "byteStart": 166
+            }
+          }
+        ],
+        "text": "Dès 2027, le concours d’entrée en médecine vétérinaire sera organisé en début de cursus comme c'est le cas pour les études de médecine et de dentisterie.\n#Enseignement"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/des-2027-le-concours-d-entree-en-medecine-veterinaire-sera-organise-en-debut-de-cursus-11755004",
+          "title": "Dès 2027, le concours d’entrée en médecine vétérinaire sera organisé en début de cursus - RTBF Actus",
+          "description": "A l’heure actuelle, cette sélection s’opère en fin de première année d’études (Bac1), ce qui a souvent pour effet...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreic5c2lft4u6lfjmgh75fxcd4iyyix2tfobixtfhfqczf5fjwiewha"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:19:31.964Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbr2t4ex2s",
+      "cid": "bafyreic6xzo4itpjc2d2lf366qjcim5sd6abcb2wvbyqwlqasu36me7csu",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:08:56.871Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L'UE doit-elle interdire les réseaux sociaux aux enfants et adolescents en dessous d'un certain âge, ou se contenter de faciliter les mesures mises en place par certains Etats? La réflexion progresse…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreifo5ts4yuoa4kbmr6ijhywessju4zwmsauufssmuxmtccgjelxs3u"
+              },
+              "mimeType": "image/jpeg",
+              "size": 56336
+            },
+            "title": "Comment limiter l'accès des enfants aux réseaux sociaux? L'UE proche d'une décision",
+            "uri": "https://www.france24.com/fr/info-en-continu/20260709-comment-limiter-l-acc%C3%A8s-des-enfants-aux-r%C3%A9seaux-sociaux-l-ue-proche-d-une-d%C3%A9cision"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/2Kuu3Hx"
+              }
+            ],
+            "index": {
+              "byteEnd": 15,
+              "byteStart": 0
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreibe5x7e6qqqx4xtgqzwbfk3mw45m24zocdrfnc7xbifnpxl6k4gma",
+            "commit": {
+              "cid": "bafyreicyqutedmffmmgb4u2ix5jtdiwowksd3gyhfevl7353muier75esm",
+              "rev": "3mrcbqyaaak2y"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqya2f22y",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreifv3teinr62oaxmysuvg43q4e3qm6bomzyx5o3kg3dvbzhpnyysnm",
+            "commit": {
+              "cid": "bafyreifcfm2jcyn2mwbcjoc55g77p5x4coc3msctav7bfoi5yun6m3x7vq",
+              "rev": "3mrcbqsvvsj26"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqsvl2r26",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "buff.ly/2Kuu3Hx"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.france24.com/fr/info-en-continu/20260709-comment-limiter-l-acc%C3%A8s-des-enfants-aux-r%C3%A9seaux-sociaux-l-ue-proche-d-une-d%C3%A9cision",
+          "title": "Comment limiter l'accès des enfants aux réseaux sociaux? L'UE proche d'une décision",
+          "description": "L'UE doit-elle interdire les réseaux sociaux aux enfants et adolescents en dessous d'un certain âge, ou se contenter de faciliter les mesures mises en place par certains Etats? La réflexion progresse…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreifo5ts4yuoa4kbmr6ijhywessju4zwmsauufssmuxmtccgjelxs3u"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:09:00.266Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqya2f22y",
+      "cid": "bafyreibe5x7e6qqqx4xtgqzwbfk3mw45m24zocdrfnc7xbifnpxl6k4gma",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:08:53.864Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Voici les principales recommandations du comité d’experts européens sur la protection des mineurs en ligne, remises...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicspiexb3blz3aqjoitwpuldmw4c6pb2jfc63j6t2g36u35ytzyjq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 188731
+            },
+            "title": "Comment protéger les mineurs en ligne : les recommandations faites à la Commission européenne, qui fera une proposition après l’été - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/comment-proteger-les-mineurs-en-ligne-les-recommandations-faites-a-la-commission-europeenne-qui-fera-une-proposition-apres-l-ete-11757132"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/au50F7u"
+              }
+            ],
+            "index": {
+              "byteEnd": 15,
+              "byteStart": 0
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreif7ojo2vsqslahcl2pu3u5h7o7ambhcr642vxlllmr5qixbvllea4",
+            "commit": {
+              "cid": "bafyreich35uqgtz2udhbxocjxil346ts6ex6g5525kvhi3rkik3d6ankna",
+              "rev": "3mrcbqvfijs2m"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqvfaps2m",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreifv3teinr62oaxmysuvg43q4e3qm6bomzyx5o3kg3dvbzhpnyysnm",
+            "commit": {
+              "cid": "bafyreifcfm2jcyn2mwbcjoc55g77p5x4coc3msctav7bfoi5yun6m3x7vq",
+              "rev": "3mrcbqsvvsj26"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqsvl2r26",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "buff.ly/au50F7u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/comment-proteger-les-mineurs-en-ligne-les-recommandations-faites-a-la-commission-europeenne-qui-fera-une-proposition-apres-l-ete-11757132",
+          "title": "Comment protéger les mineurs en ligne : les recommandations faites à la Commission européenne, qui fera une proposition après l’été - RTBF Actus",
+          "description": "Voici les principales recommandations du comité d’experts européens sur la protection des mineurs en ligne, remises...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreicspiexb3blz3aqjoitwpuldmw4c6pb2jfc63j6t2g36u35ytzyjq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:08:56.864Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqvfaps2m",
+      "cid": "bafyreif7ojo2vsqslahcl2pu3u5h7o7ambhcr642vxlllmr5qixbvllea4",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:08:51.315Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Après le Sénat dans l'après-midi, les députés ont adopté par 279 voix contre 81 cette réforme, promesse d'Emmanuel...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreieuskfvnax6y4ravxtliru6b5ru3axdbqk227zjlbtu5ouikwohmi"
+              },
+              "mimeType": "image/jpeg",
+              "size": 179328
+            },
+            "title": "La France interdit les réseaux sociaux aux moins de 15 ans, une première en Europe - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/la-france-interdit-les-reseaux-sociaux-aux-moins-de-15-ans-une-premiere-en-europe-11761056"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/URarsDK"
+              }
+            ],
+            "index": {
+              "byteEnd": 289,
+              "byteStart": 274
+            }
+          }
+        ],
+        "reply": {
+          "parent": {
+            "cid": "bafyreifv3teinr62oaxmysuvg43q4e3qm6bomzyx5o3kg3dvbzhpnyysnm",
+            "commit": {
+              "cid": "bafyreifcfm2jcyn2mwbcjoc55g77p5x4coc3msctav7bfoi5yun6m3x7vq",
+              "rev": "3mrcbqsvvsj26"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqsvl2r26",
+            "validationStatus": "valid"
+          },
+          "root": {
+            "cid": "bafyreifv3teinr62oaxmysuvg43q4e3qm6bomzyx5o3kg3dvbzhpnyysnm",
+            "commit": {
+              "cid": "bafyreifcfm2jcyn2mwbcjoc55g77p5x4coc3msctav7bfoi5yun6m3x7vq",
+              "rev": "3mrcbqsvvsj26"
+            },
+            "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqsvl2r26",
+            "validationStatus": "valid"
+          }
+        },
+        "text": "A partir du 01/09 il ne sera plus possible aux moins de 15 ans  de se créer un compte sur les réseaux sociaux. Le 01/01/27 l'interdiction sera étendue à tous les comptes existants.\nLe texte de loi prévoit également l'interdiction des téléphones portables au lycée.\nbuff.ly/URarsDK"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/la-france-interdit-les-reseaux-sociaux-aux-moins-de-15-ans-une-premiere-en-europe-11761056",
+          "title": "La France interdit les réseaux sociaux aux moins de 15 ans, une première en Europe - RTBF Actus",
+          "description": "Après le Sénat dans l'après-midi, les députés ont adopté par 279 voix contre 81 cette réforme, promesse d'Emmanuel...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreieuskfvnax6y4ravxtliru6b5ru3axdbqk227zjlbtu5ouikwohmi"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:08:53.864Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcbqsvl2r26",
+      "cid": "bafyreifv3teinr62oaxmysuvg43q4e3qm6bomzyx5o3kg3dvbzhpnyysnm",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T07:08:48.824Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "L'Union européenne envisage d'instaurer un accès",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreig5v7hjxmpopjaf4ur7orqeo7yuzb65hr3x2pbmvokz2tqo2xwdu4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 14261
+            },
+            "title": "L'UE veut instaurer un accès",
+            "uri": "https://www.courrierinternational.com/depeche/enfants-et-reseaux-sociaux-des-experts-europeens-devoilent-leurs-propositions.afp.com.20260712.doc.b9ud9zq.xml"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Europe"
+              }
+            ],
+            "index": {
+              "byteEnd": 249,
+              "byteStart": 242
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Tech"
+              }
+            ],
+            "index": {
+              "byteEnd": 255,
+              "byteStart": 250
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "RéseauxSociaux"
+              }
+            ],
+            "index": {
+              "byteEnd": 272,
+              "byteStart": 256
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "UE"
+              }
+            ],
+            "index": {
+              "byteEnd": 276,
+              "byteStart": 273
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/6qrmUol"
+              }
+            ],
+            "index": {
+              "byteEnd": 293,
+              "byteStart": 278
+            }
+          }
+        ],
+        "text": "L'UE veut instaurer une \"majorité numérique\".  Interdiction avant 13 ans.  \n13-18 ans : accès OK si pas de fonctionnalités addictives (flux continus et personnalisés).  Les Etats sont libres de fixer une interdiction au-delà de 13 ans.\n#Europe #Tech #RéseauxSociaux #UE\n\nbuff.ly/6qrmUol"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.courrierinternational.com/depeche/enfants-et-reseaux-sociaux-des-experts-europeens-devoilent-leurs-propositions.afp.com.20260712.doc.b9ud9zq.xml",
+          "title": "L'UE veut instaurer un accès",
+          "description": "L'Union européenne envisage d'instaurer un accès",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreig5v7hjxmpopjaf4ur7orqeo7yuzb65hr3x2pbmvokz2tqo2xwdu4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 1,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T07:08:51.367Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mpilgyqo5c2l",
       "cid": "bafyreibbvxtigotxcxtylctmv7ouif7ifughfmeo5tvov6gcjud652hpu4",
       "author": {
@@ -85,8 +667,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -176,8 +757,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -267,8 +847,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -357,8 +936,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -459,8 +1037,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -561,8 +1138,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -675,8 +1251,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": true
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -753,8 +1328,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -812,8 +1386,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -910,8 +1483,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1008,8 +1580,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1106,8 +1677,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1208,8 +1778,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1346,8 +1915,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1456,8 +2024,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1590,8 +2157,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1724,8 +2290,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -1883,8 +2448,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2126,8 +2690,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2218,8 +2781,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2297,8 +2859,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2388,8 +2949,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2466,8 +3026,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2556,8 +3115,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2690,8 +3248,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2816,8 +3373,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -2918,8 +3474,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3035,8 +3590,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3140,8 +3694,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3230,8 +3783,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3320,8 +3872,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3464,8 +4015,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3542,8 +4092,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3644,8 +4193,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3806,8 +4354,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -3958,8 +4505,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4060,8 +4606,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4174,8 +4719,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4252,8 +4796,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4330,8 +4873,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4420,8 +4962,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4547,8 +5088,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4637,8 +5177,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4715,8 +5254,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4805,8 +5343,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -4943,8 +5480,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5045,8 +5581,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5147,8 +5682,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5225,8 +5759,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5327,8 +5860,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5441,8 +5973,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5555,8 +6086,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5645,8 +6175,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5759,8 +6288,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5861,8 +6389,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -5951,8 +6478,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6078,8 +6604,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6180,8 +6705,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6282,8 +6806,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6384,8 +6907,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6486,8 +7008,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6577,8 +7098,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6691,8 +7211,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6825,8 +7344,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -6959,8 +7477,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7105,8 +7622,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7207,8 +7723,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7309,8 +7824,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7423,8 +7937,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7550,8 +8063,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7652,8 +8164,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7716,8 +8227,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7794,8 +8304,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7872,8 +8381,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -7962,8 +8470,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8064,8 +8571,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8166,8 +8672,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8256,8 +8761,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8346,8 +8850,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8436,8 +8939,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8577,8 +9079,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8694,8 +9195,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8760,8 +9260,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8854,8 +9353,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -8935,8 +9433,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9061,8 +9558,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9178,8 +9674,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9283,8 +9778,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9361,8 +9855,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9475,8 +9968,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9534,8 +10026,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9624,8 +10115,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9714,8 +10204,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     },
@@ -9804,572 +10293,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv3xeiplzm2d",
-      "cid": "bafyreid6q57yfkqo34xwoszmxtzdvy6d7rb6apqpzhtxu4lgu7qdu7kgpu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-29T11:01:34.087Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Une équipe de l’université Radboud, aux Pays-Bas, a recalculé la durée de vie de l’univers en s’appuyant sur le...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibciopd6mstaon4vkgadtioplb7qr2t47wyky6hukydchjlxxaiku"
-              },
-              "mimeType": "image/jpeg",
-              "size": 162365
-            },
-            "title": "Une nouvelle étude prédit que la fin de l’univers surviendra bien plus vite que prévu… - RTBF Actus",
-            "uri": "https://buff.ly/boheuZG"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "sciences"
-              }
-            ],
-            "index": {
-              "byteEnd": 262,
-              "byteStart": 253
-            }
-          }
-        ],
-        "text": "Voici la nouvelle timeline: d’ici environ 1 Md d’années le soleil deviendra trop chaud, l’augmentation de température fera bouillir les océans. 7 Md d'années plus tard, il engloutira la planète. \nBref il n'y a pas le feu au lac comme on dit.\n#sciences"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/boheuZG",
-          "title": "Une nouvelle étude prédit que la fin de l’univers surviendra bien plus vite que prévu… - RTBF Actus",
-          "description": "Une équipe de l’université Radboud, aux Pays-Bas, a recalculé la durée de vie de l’univers en s’appuyant sur le...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibciopd6mstaon4vkgadtioplb7qr2t47wyky6hukydchjlxxaiku"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-29T11:01:36.405Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luy6mmfn5a2i",
-      "cid": "bafyreib7unjjyduubobicbbmlu2uhbjxzz4uixfdjvtchkv7farregt64a",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-27T23:00:43.834Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq"
-              },
-              "mimeType": "image/jpeg",
-              "size": 99135
-            },
-            "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
-            "uri": "https://buff.ly/oEgsQfy"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "bonplan"
-              }
-            ],
-            "index": {
-              "byteEnd": 8,
-              "byteStart": 0
-            }
-          }
-        ],
-        "text": "#bonplan"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/oEgsQfy",
-          "title": "Les 'Maisons des Etudiants', une alternative aux kots de plus en plus chers - RTBF Actus",
-          "description": "Partir de la maison familiale le dimanche en fin de journée pour une nouvelle semaine d’école, la routine est connue...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreibslgtjmkwtmzpufp5ojtpdqi3ej42bldmmugkn5v47pxdhzzm4mq"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-27T23:00:46.906Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luriwjemza2i",
-      "cid": "bafyreift4bsvnh3gs2bzpdj4viw2u6b75jyqmjiqy75weyobwqqahiwlge",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-25T07:16:34.846Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 299595
-            },
-            "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
-            "uri": "https://buff.ly/76OEn0C"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "lgbt"
-              }
-            ],
-            "index": {
-              "byteEnd": 266,
-              "byteStart": 261
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "belgique"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 267
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "vieaffective"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 277
-            }
-          }
-        ],
-        "text": "La Belgique a été le second pays au monde à autoriser le mariage homosexuel.  C'était en 2023. Mais ce droit n'est garanti que par une loi ordinaire. Son inscription dans la Constitution constituerait ainsi un verrou contre toute velléité réactionnaire.\n#lgbt #belgique #vieaffective"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/76OEn0C",
-          "title": "Vooruit souhaite inscrire le mariage homosexuel dans la constitution belge - RTBF Actus",
-          "description": "Le parti Vooruit et le ministre de l'Egalité des chances, Rob Beenders, issu de cette formation, souhaitent que le mariage...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreid6uvnv5klxfwpjot5erer7xztd6bwntcdchmw75mrpw35j7up2vu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-25T07:16:38.008Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lurindyg5b2m",
-      "cid": "bafyreiflqcazqhy2o3lhz73d5p3qzpi5tbtpdnk6d7cvqkofsgmo6pvl2a",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-25T07:11:27.856Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Cela fait des années que la rumeur va et vient : 'Facebook va devenir payant'. Plaisanteries incrédules ou panique à...",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiauxbocu2rxavpvk3wqdf6tockz7gzylqlokqny5sfvrbeywgif6m"
-              },
-              "mimeType": "image/jpeg",
-              "size": 207883
-            },
-            "title": "Payer ou être pisté : que cache le dilemme imposé par Facebook et Instagram ? - RTBF Actus",
-            "uri": "https://buff.ly/fh0TG7e"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "tech"
-              }
-            ],
-            "index": {
-              "byteEnd": 249,
-              "byteStart": 244
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "socialmedia"
-              }
-            ],
-            "index": {
-              "byteEnd": 262,
-              "byteStart": 250
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "réseauxsociaux"
-              }
-            ],
-            "index": {
-              "byteEnd": 279,
-              "byteStart": 263
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "fediverse"
-              }
-            ],
-            "index": {
-              "byteEnd": 290,
-              "byteStart": 280
-            }
-          }
-        ],
-        "text": "Tu paies ou tes données seront utilisées/vendues (Si c'est gratuit, c'est toi le produit). Meta préfère que tu optes pour la \"gratuité\" nettement plus rentable; la publicité représente 98% de son CA.  3e voie: opter pour une alternative\n#tech #socialmedia #réseauxsociaux #fediverse"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/fh0TG7e",
-          "title": "Payer ou être pisté : que cache le dilemme imposé par Facebook et Instagram ? - RTBF Actus",
-          "description": "Cela fait des années que la rumeur va et vient : 'Facebook va devenir payant'. Plaisanteries incrédules ou panique à...",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiauxbocu2rxavpvk3wqdf6tockz7gzylqlokqny5sfvrbeywgif6m"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-25T07:11:30.409Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq6rrk7u32s",
-      "cid": "bafyreic7iwkdm6ereujcde6vlbvmom2uzqyocercon7offpfgampzvm4mu",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-24T18:42:18.976Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Les États-Unis ont financé pour près de 10 millions de dollars de contraceptifs, explique Reuters.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigcqfhz3e6yp6s7otswphjoguwwjbfpqtnleqpxq7car2ruk7jvve"
-              },
-              "mimeType": "image/jpeg",
-              "size": 169274
-            },
-            "title": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump",
-            "uri": "https://buff.ly/Y26GQYh"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "Trump"
-              }
-            ],
-            "index": {
-              "byteEnd": 255,
-              "byteStart": 249
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "USA"
-              }
-            ],
-            "index": {
-              "byteEnd": 260,
-              "byteStart": 256
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "USAID"
-              }
-            ],
-            "index": {
-              "byteEnd": 267,
-              "byteStart": 261
-            }
-          }
-        ],
-        "text": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump. Après avoir dépensé $10 Mi pour les acheter, ils devraient débourser $160 k pour les incinérer... \n#Trump #USA #USAID"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/Y26GQYh",
-          "title": "Des contraceptifs commandés par les États-Unis à la Belgique seront brûlés en France suite aux coupures budgétaires du gouvernement Trump",
-          "description": "Les États-Unis ont financé pour près de 10 millions de dollars de contraceptifs, explique Reuters.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigcqfhz3e6yp6s7otswphjoguwwjbfpqtnleqpxq7car2ruk7jvve"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 1,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-24T18:42:21.343Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3luq5uen4pg24",
-      "cid": "bafyreic4arojui2iwjqvfoldgh6n7afhx3k3el2secnwwdv43ipbeefbum",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-24T18:25:52.301Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm"
-              },
-              "mimeType": "image/jpeg",
-              "size": 93832
-            },
-            "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
-            "uri": "https://www.rtl.be/actu/belgique/societe/le-renouvellement-automatique-de-vos-abonnements-cest-termine-une-nouvelle-loi/2025-07-23/article/757389"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "consommation"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 276
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/UwmcIwZ"
-              }
-            ],
-            "index": {
-              "byteEnd": 306,
-              "byteStart": 291
-            }
-          }
-        ],
-        "text": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne.  Les entreprises devront informer clairement et explicitement leurs clients 15 jours avant tout renouvellement; de manière à leur laisser le temps de la décision.  \n#consommation \nbuff.ly/UwmcIwZ"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.rtl.be/actu/belgique/societe/le-renouvellement-automatique-de-vos-abonnements-cest-termine-une-nouvelle-loi/2025-07-23/article/757389",
-          "title": "Le renouvellement automatique de vos abonnements, c’est terminé : une nouvelle loi va changer la donne",
-          "description": "Une nouvelle loi belge veut mieux protéger les consommateurs face aux reconductions tacites.",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreigv2p2qcdwxdzukhqhwqaqpmga4lzg5h4zwdyn7ysnazz4l4di2cm"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-24T18:25:54.942Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": []
     }

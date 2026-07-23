@@ -133,8 +133,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": [],
       "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreia7yphpgy3iho5hw7oi4a64dxflgrqnam5lg2tmuii6q3hsmsloxu"
@@ -278,8 +277,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": [],
       "image_url": null
@@ -406,8 +404,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": [],
       "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreial2nsrcyuiv5lfd7l55i2ygbjxjytiemcigwh6epay3ng65uwiym"
@@ -548,8 +545,7 @@
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
-        "embeddingDisabled": false,
-        "pinned": false
+        "embeddingDisabled": false
       },
       "labels": [],
       "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreidj5pvqbyeexl3rorywmlpa4wrlxltodv2z6hlxmofmn5manojb6i"
