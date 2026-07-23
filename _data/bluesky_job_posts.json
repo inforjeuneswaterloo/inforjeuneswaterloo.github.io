@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrcx524ez42o",
+      "cid": "bafyreigp62372hadpomczoii2g3l4ffpubh4wb2af4uxcdrleijl47xlea",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-23T13:31:27.779Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Travailler chez Korian, c’est le faire avec un grand cœur ! Nous encourageons toutes les personnes à postuler, indépendamment de leur origine, couleur de peau, sexe, âge, orientation sexuelle,…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicqjnhisod4e6c4dpcu2vt626g742oqqbxuyhom7be4uybrtm3zve"
+              },
+              "mimeType": "image/jpeg",
+              "size": 145575
+            },
+            "title": "Étudiant(e) en Soins – Formation Aide-soignant(e) | Korian jobs",
+            "uri": "https://www.korianjobs.be/fr/job/730/etudiant-e-en-soins-formation-aide-soignant-e"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/866VP1J"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 287
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 309,
+              "byteStart": 303
+            }
+          }
+        ],
+        "text": "Étudiant(e) en Soins Bruxelles\n- Vous êtes étudiant(e) en 6e ou 7e année aide-soignant(e)\n- Une expérience de stage en maison de repos et de soins est un réel atout\n- Vous travaillez aussi bien de manière autonome qu'en équipe\n- Vous maîtrisez le néerlandais (oral et écrit) \nbuff.ly/866VP1J\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.korianjobs.be/fr/job/730/etudiant-e-en-soins-formation-aide-soignant-e",
+          "title": "Étudiant(e) en Soins – Formation Aide-soignant(e) | Korian jobs",
+          "description": "Travailler chez Korian, c’est le faire avec un grand cœur ! Nous encourageons toutes les personnes à postuler, indépendamment de leur origine, couleur de peau, sexe, âge, orientation sexuelle,…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicqjnhisod4e6c4dpcu2vt626g742oqqbxuyhom7be4uybrtm3zve"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-23T13:31:29.570Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mraekzal4k2x",
       "cid": "bafyreiddmfexg76xyfyihvnfyjvk5y2gpze7sn67e6pr5xggv4rhiw5h7e",
       "author": {
@@ -8364,98 +8453,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-01T09:24:12.061Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mmynpbpq4q2o",
-      "cid": "bafyreih54hyunrygvwc2ocz2zx4pn3nqty7kump4c3433spvbe6b24yabu",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-05-29T13:35:19.519Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=87f2d16b27a1d5a8&q=Etudiants&l=Brabant-wallon&tk=1jpptal1bh7fm800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoD-67I3j51z3zAesD0LbzkdCdPP&xfps=e0fe24f6-bace-4ffb-8197-6f36729a003d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpptal1bh7fm800&xkcb=SoBb67M3j5yjHHUFYx0WbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/NLsxQVS"
-              }
-            ],
-            "index": {
-              "byteEnd": 193,
-              "byteStart": 178
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 200,
-              "byteStart": 194
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "ij1410"
-              }
-            ],
-            "index": {
-              "byteEnd": 208,
-              "byteStart": 201
-            }
-          }
-        ],
-        "text": "Etudiant magasin traiteur à Waterloo\nProfil\n- Expérience souhaitée\n- Bonne présentation\n- Bilingue est un plus\n- Samedi de 9h à 19h\n- Travail à exécuter toute l'année ! \nbuff.ly/NLsxQVS\n#job4u #ij1410"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=87f2d16b27a1d5a8&q=Etudiants&l=Brabant-wallon&tk=1jpptal1bh7fm800&from=ja&alid=56b55072e4b05009f1344518&xpse=SoD-67I3j51z3zAesD0LbzkdCdPP&xfps=e0fe24f6-bace-4ffb-8197-6f36729a003d&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpptal1bh7fm800&xkcb=SoBb67M3j5yjHHUFYx0WbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-05-29T13:35:19.977Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
