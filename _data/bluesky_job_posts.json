@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrfvk75xap2r",
+      "cid": "bafyreia3azjirlpqixc3cfteigzg7c5g7rn7tfkx6zz3uxb7rzgr26wknm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-24T17:41:00.605Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Si tu es passionné(e), gourmand(e) de travail et de bonnes choses, libre le week-end et que tu aimes créer des expériences client inoubliables, deviens notre Conseiller (ère) Service Client sous…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiaowttmbu6kjjmpn6nk7nlddsfou4nhhhlqobjiuzq2ncwx2vgsfu"
+              },
+              "mimeType": "image/jpeg",
+              "size": 464297
+            },
+            "title": "Etudiant(e) Conseiller(ère) Service Client bilingue @ Tartes de Francoise",
+            "uri": "https://app.talentsquare.com/job/65061-Etudiant(e)%20Conseiller(%C3%A8re)%20Service%20Client%20bilingue"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/ertRSEl"
+              }
+            ],
+            "index": {
+              "byteEnd": 261,
+              "byteStart": 246
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 268,
+              "byteStart": 262
+            }
+          }
+        ],
+        "text": "Etudiant H/F conseiller bilingue Uccle\n- Gérer les appels de nos clients en français et en néerlandais\n- Encoder les commandes avec le sourire\n- Gérer les plaintes avec professionnalisme\n- Assurer le relais avec nos partenaires de livraison \nbuff.ly/ertRSEl\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://app.talentsquare.com/job/65061-Etudiant(e)%20Conseiller(%C3%A8re)%20Service%20Client%20bilingue",
+          "title": "Etudiant(e) Conseiller(ère) Service Client bilingue @ Tartes de Francoise",
+          "description": "Si tu es passionné(e), gourmand(e) de travail et de bonnes choses, libre le week-end et que tu aimes créer des expériences client inoubliables, deviens notre Conseiller (ère) Service Client sous…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiaowttmbu6kjjmpn6nk7nlddsfou4nhhhlqobjiuzq2ncwx2vgsfu"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-24T17:41:02.865Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mresextefi2v",
       "cid": "bafyreiaa66wg2fcxmkqrk66it3hp2c57d2j25buaot5vajb3om4d7hpbmy",
       "author": {
@@ -8385,74 +8474,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-01T16:03:31.475Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mn7vl24sor2f",
-      "cid": "bafyreifgr2tmi4dn2agr4fgrdqveaq65bkxou4sw56c3ycocx5dbisczqq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-01T10:44:45.442Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=4dcfd3c787593b1e&q=Etudiant&l=Brussels&tk=1jpsbir6dgbct801&from=ja&alid=56b55072e4b05009f1344524&xpse=SoDh67I3iBdzl4gesD0KbzkdCdPP&xfps=c374062c-c66d-4347-8b95-af7239205cd9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpsbir6dgbct801&xkcb=SoCP67M3j8fErx6WXZ0KbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/pbsRfzY"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          }
-        ],
-        "text": "Etudiant(e) Bar, Salle & Cuisine The Wayne Coffee Bruxelles\n- Dispo en semaine et/ou WE\n- Capacité à travailler en équipe\n- Flexible et prêt(e) à occuper différents postes\n- Une expérience en horeca est un plus\n- Français et anglais requis ; toute autre langue est un plus.\nbuff.ly/pbsRfzY"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=4dcfd3c787593b1e&q=Etudiant&l=Brussels&tk=1jpsbir6dgbct801&from=ja&alid=56b55072e4b05009f1344524&xpse=SoDh67I3iBdzl4gesD0KbzkdCdPP&xfps=c374062c-c66d-4347-8b95-af7239205cd9&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jpsbir6dgbct801&xkcb=SoCP67M3j8fErx6WXZ0KbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-01T10:44:45.767Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
