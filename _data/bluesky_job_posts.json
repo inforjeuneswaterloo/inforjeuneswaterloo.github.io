@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrmyjtz2qc2r",
+      "cid": "bafyreienqzbdlptygndxcqcue6f57ywguix25agyxqjpcnekeaeal6b25u",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-27T13:23:09.798Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=a141a34030d13583&q=Etudiant&l=Brussels&tk=1juhriv54gbd8800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoAe67I3gR_cc3zN5J0LbzkdCdPP&xfps=41f887fc-571e-4410-897c-a29ff52617d8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juhriv54gbd8800&xkcb=SoCh67M3gR_Dz9gHVz0LbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/lSsxH4m"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "Étudiant Polyvalent Horeca Cafe le Refuge - Uccle\nMissions\n- Accueil/accompagnement des clients\n- Commandes/Service\n- Préparation/entretien des espaces de travail\nProfil\n- Sérieux/ponctuel\n- Bonne présentation/aisance relationnelle\n- Motivation et capacité d’adaptation\n- ...\nbuff.ly/lSsxH4m \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=a141a34030d13583&q=Etudiant&l=Brussels&tk=1juhriv54gbd8800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoAe67I3gR_cc3zN5J0LbzkdCdPP&xfps=41f887fc-571e-4410-897c-a29ff52617d8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juhriv54gbd8800&xkcb=SoCh67M3gR_Dz9gHVz0LbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 1,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-27T13:23:10.178Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrmxqe64rn2g",
+      "cid": "bafyreiada4sxkdrmb3yum7mkayef2atdrubrr6cq2tn3x5wmbbf32rfs5e",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-27T13:08:52.446Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+              },
+              "mimeType": "image/webp",
+              "size": 219534
+            },
+            "title": "Offres d’emploi | PROMAN Jobs",
+            "uri": "https://www.proman.be/fr/jobs/emplois/student-vendeurse-magasin-de-jouets-hfx"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wd1GDyY"
+              }
+            ],
+            "index": {
+              "byteEnd": 298,
+              "byteStart": 283
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 306,
+              "byteStart": 300
+            }
+          }
+        ],
+        "text": "STUDENT min 18 ans VENTE MAGASIN DE JOUETS - Laeken\nTâches\n- Accueil/conseil clientèle\n- Merchandising/réassort/étiquetage\n- Vitrines/animations commerciales\n- Caisse...\nProfil\n- Aimer le contact humain\n- Dynamique, souriant\n- Sens du service/affinité avec l’univers du jouet\nbuff.ly/wd1GDyY \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.proman.be/fr/jobs/emplois/student-vendeurse-magasin-de-jouets-hfx",
+          "title": "Offres d’emploi | PROMAN Jobs",
+          "description": "Vous êtes à la recherche d’un nouvel emploi ? Découvrez toutes nos offres et qui sait, peut-être commencerez-vous bientôt un nouveau défi !",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreiao7gqexbe4mhuhsmpxm5kxn3eiwd4j5xfqtvn35ozb5dpj7rsfca"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-27T13:08:54.776Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrfvk75xap2r",
       "cid": "bafyreia3azjirlpqixc3cfteigzg7c5g7rn7tfkx6zz3uxb7rzgr26wknm",
       "author": {
@@ -8305,175 +8474,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-02T14:09:02.064Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnahosadap25",
-      "cid": "bafyreihuznvy7ehxqkpcqrmu47qbeexoi45xy5j7dep5ltwi3cexjajan4",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-01T16:08:58.714Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=a60477452c716bd1&q=Etudiant&l=Brussels&tk=1jq1gq444gbct80g&from=ja&alid=56b55072e4b05009f1344524&xpse=SoCw67I3iB-l9YzBLx0LbzkdCdPP&xfps=c7b310fa-6e77-40bd-863d-ab1b01e13503&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1gq444gbct80g&xkcb=SoD167M3iBpnTt1zlx0PbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/pF1K4hH"
-              }
-            ],
-            "index": {
-              "byteEnd": 299,
-              "byteStart": 284
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "jb4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 305,
-              "byteStart": 300
-            }
-          }
-        ],
-        "text": "Étudiant Polyvalent Horeca Salle & Bar Uccle\n- Accueil et accompagnement des clients\n- Prise de commandes et suivi du service\n- Service en salle et au bar\n- Préparation et entretien des espaces de travail\n- Participation au bon déroulement des services dans un esprit d’équipe \nbuff.ly/pF1K4hH\n#jb4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=a60477452c716bd1&q=Etudiant&l=Brussels&tk=1jq1gq444gbct80g&from=ja&alid=56b55072e4b05009f1344524&xpse=SoCw67I3iB-l9YzBLx0LbzkdCdPP&xfps=c7b310fa-6e77-40bd-863d-ab1b01e13503&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1gq444gbct80g&xkcb=SoD167M3iBpnTt1zlx0PbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-01T16:08:59.084Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnahezhbp42g",
-      "cid": "bafyreiecr6cf6gocd5bbx6dw7jz43y4lbnxwjvjfigpk2vdpqj2dj2x7cm",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-01T16:03:28.428Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 112305
-            },
-            "title": "Job details page",
-            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-3&utm_source=careerjet-optioncarriere"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/jVu20e3"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 281
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 303,
-              "byteStart": 297
-            }
-          }
-        ],
-        "text": "Etudiant(e) vente boucherie Lillois\n- Accueillir et conseiller les clients\n- Avoir le sens du service et être attentif aux besoins des clients\n- Préparation correcte des commandes\n- Maintenir un espace de travail propre\n- Respecter les normes d’hygiène\n- Flexibilité horaire\nbuff.ly/jVu20e3\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-vendeur-boucherie-atelier-charlier-lillois-lillois-witterzee-brabant-wallon/585-17027-3&utm_source=careerjet-optioncarriere",
-          "title": "Job details page",
-          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-01T16:03:31.475Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
