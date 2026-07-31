@@ -1,6 +1,255 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrwtatipej2n",
+      "cid": "bafyreietv46wwvuvvmsrwjsm3tg2wn7mruf5aj7dbhqwfwvx2lo2ohwr2a",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-31T11:15:15.385Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Serveur·se et bar- Etudiant/Student H/F/X - Ref 5911762 - Belgique - Bruxelles - Travail à temps partiel",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihu274jglgojutiramxz7sqcbtcvqcmbfbcujisozhsxv6ha73zdq"
+              },
+              "mimeType": "image/png",
+              "size": 5206
+            },
+            "title": "Serveur·se et bar- Etudiant/Student H/F/X - Ref 5911762",
+            "uri": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5911762&utm_source=jooble&utm_medium=cpc&utm_campaign=jooble"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/pScIjZF"
+              }
+            ],
+            "index": {
+              "byteEnd": 296,
+              "byteStart": 281
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 304,
+              "byteStart": 298
+            }
+          }
+        ],
+        "text": "Job étudiant Service/bar Auberges de jeunesse - Bruxelles\n- Accueil/conseil clientèle\n- Commandes\n- Service/caisse\n- Mise en place, rangement, nettoyage...\nProfil :\n-Souriant, rapide\n- Bases en service, et sens de l'accueil\n-Français, néerlandais ( obligatoire), et anglais...\nbuff.ly/pScIjZF \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.actiris.brussels/fr/citoyens/detail-offre-d-emploi/?reference=5911762&utm_source=jooble&utm_medium=cpc&utm_campaign=jooble",
+          "title": "Serveur·se et bar- Etudiant/Student H/F/X - Ref 5911762",
+          "description": "Serveur·se et bar- Etudiant/Student H/F/X - Ref 5911762 - Belgique - Bruxelles - Travail à temps partiel",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihu274jglgojutiramxz7sqcbtcvqcmbfbcujisozhsxv6ha73zdq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-31T11:15:16.766Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrwsobwnxg2d",
+      "cid": "bafyreiafswh4rkvpi46h2mvhxwcfuhgfjkxibhz766y5uf4afw75hwgteu",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-31T11:04:53.549Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=8ff11b8ebbf1b7aa&q=%C3%A9tudiant&l=Waterloo&tk=1juq12v49h08n800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoDA67I3gbyUrJz4s50LbzkdCdPP&xfps=a6980f8c-3425-4ddc-ade6-35c7a46c49f8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juq12v49h08n800&xkcb=SoCE67M3gaKEKE0ZXB0abzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/0YYNvrr"
+              }
+            ],
+            "index": {
+              "byteEnd": 281,
+              "byteStart": 266
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 288,
+              "byteStart": 282
+            }
+          }
+        ],
+        "text": "Etudiant peintre de figurines MINI EUROPE - Bruxelles\nTâches :\n- Peindre des figurines et autres petites décos\n - Autres petites tâches : nettoyage de maquettes, aide dans le parc,...\nProfil :\n- Expérience en peinture au pinceau\n- Dispo les we et jours fériés\nbuff.ly/0YYNvrr\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=8ff11b8ebbf1b7aa&q=%C3%A9tudiant&l=Waterloo&tk=1juq12v49h08n800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoDA67I3gbyUrJz4s50LbzkdCdPP&xfps=a6980f8c-3425-4ddc-ade6-35c7a46c49f8&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juq12v49h08n800&xkcb=SoCE67M3gaKEKE0ZXB0abzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-31T11:04:53.872Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrwscb6po224",
+      "cid": "bafyreicxkyba2ossatph3lpz3o6jeyigymbszsot4tn3ibdmhtmnz4b6jm",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-31T10:58:10.110Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=2095689a139c8543&q=%C3%A9tudiant&l=Waterloo&tk=1juq12v49h08n800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBt67I3gbxtDHz4q50LbzkdCdPP&xfps=535e0e3f-752c-448d-9017-671c2310bf57&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juq12v49h08n800&xkcb=SoDX67M3gaKEKE0ZXB0JbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/izFecmA"
+              }
+            ],
+            "index": {
+              "byteEnd": 283,
+              "byteStart": 268
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 285
+            }
+          }
+        ],
+        "text": "Etudiant(e) Support recrutement MAISON NET - Genval\nTâches :\n- Réception/tri des candidatures (aide-menager(e) titres-services)\n- Contacter les candidats\n- Fixer les entretiens avec les consultants\n- Dossiers de recrutement\nProfil : Dispo à l'année (12 h/semaine)\nbuff.ly/izFecmA \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=2095689a139c8543&q=%C3%A9tudiant&l=Waterloo&tk=1juq12v49h08n800&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBt67I3gbxtDHz4q50LbzkdCdPP&xfps=535e0e3f-752c-448d-9017-671c2310bf57&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1juq12v49h08n800&xkcb=SoDX67M3gaKEKE0ZXB0JbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-31T10:58:10.472Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrpjov7o6j2z",
       "cid": "bafyreiagvvp77ziallwgcdg454bvs3o4vi54tr3mgju2g6zb6f6lwdojue",
       "author": {
@@ -8225,255 +8474,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-03T13:11:38.768Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnetx6plh52y",
-      "cid": "bafyreiegcnhcoefr4xoiqtaib2rfanwdoawgn42k2le2o5lhgrb4xgupyq",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-03T09:59:02.145Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-              },
-              "mimeType": "image/jpeg",
-              "size": 112305
-            },
-            "title": "ETUDIANT - WEEKEND - BOUCHERIE/CHARCUTERIE | GENAPPE, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant--weekend--boucheriecharcuterie-genappe-brabant-wallon/166-32492-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918880026&utm_campaign=quest_1520&utm_content=ETUDIANT+-+WEEKEND+-+BOUCHERIE%2FCHARCUTERIE+%28166-32492-1%29+%5B918880026%5D%5B77b8c4dee0af9e1e_80887640b0f60%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/BKUit5X"
-              }
-            ],
-            "index": {
-              "byteEnd": 289,
-              "byteStart": 274
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 296,
-              "byteStart": 290
-            }
-          }
-        ],
-        "text": "Etudiant(e) boucherie/charcuterie Genappe\n- Accueillir et conseiller les clients au comptoir\n-Servir les produits selon les demandes\n-Peser/emballer/étiqueter les produits\n-Mise en place et réassort du comptoir\n-Veiller à la propreté du poste de travail et du matériel\nbuff.ly/BKUit5X\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant--weekend--boucheriecharcuterie-genappe-brabant-wallon/166-32492-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918880026&utm_campaign=quest_1520&utm_content=ETUDIANT+-+WEEKEND+-+BOUCHERIE%2FCHARCUTERIE+%28166-32492-1%29+%5B918880026%5D%5B77b8c4dee0af9e1e_80887640b0f60%5D",
-          "title": "ETUDIANT - WEEKEND - BOUCHERIE/CHARCUTERIE | GENAPPE, Brabant Wallon",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibablotgeqozbeqtjpl4jimajvkzcd7o2tluacreeglqq3n55uhfa"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-03T09:59:04.861Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mncw3akpiq2b",
-      "cid": "bafyreibqok2y2yqzedfsisxdjtssinq5pv2rhsiek2wqtuafbgt5rfsvju",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-02T15:31:48.277Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=fed27d9f407fbeb6&q=Etudiant&l=Brussels&tk=1jq491tlsgbct800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoBW67I3iEWE5wz71J0LbzkdCdPP&xfps=bca8369c-c0a5-4e8f-a014-e9d72846d326&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq491tlsgbct800&xkcb=SoAe67M3iEaIFM3gh50CbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dQR3C8J"
-              }
-            ],
-            "index": {
-              "byteEnd": 246,
-              "byteStart": 231
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 254,
-              "byteStart": 248
-            }
-          }
-        ],
-        "text": "Job étudiant 18 ans min Shop express - 1150 Bruxelles\nTâches : Caisse/Stock/Nettoyage/Service clients\nProfil : Sérieux/Dynamique/Motivé/Dispo de suite\nIntéressé(e) ?Envoyez votre CV par email à : Managershop.coin@gmail.com \nbuff.ly/dQR3C8J \n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=fed27d9f407fbeb6&q=Etudiant&l=Brussels&tk=1jq491tlsgbct800&from=ja&alid=56b55072e4b05009f1344524&xpse=SoBW67I3iEWE5wz71J0LbzkdCdPP&xfps=bca8369c-c0a5-4e8f-a014-e9d72846d326&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq491tlsgbct800&xkcb=SoAe67M3iEaIFM3gh50CbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-02T15:31:48.578Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mncvic5kzz25",
-      "cid": "bafyreiewjuicjhtgrbzqdjszr7clglemde3zfi4kdzlm6hn7pie3wf6a2a",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-02T15:21:12.405Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=d593f10f299acf6c&q=%C3%A9tudiant&l=Waterloo&tk=1jq1sd1tb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBM67I3iEUssxTBG50LbzkdCdPP&xfps=6c4233b3-6892-482c-a8c0-5927e9c239a7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1sd1tb21dp000&xkcb=SoD_67M3iBw6asVgph0CbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/wpt6gJ9"
-              }
-            ],
-            "index": {
-              "byteEnd": 297,
-              "byteStart": 282
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 304,
-              "byteStart": 298
-            }
-          }
-        ],
-        "text": "Etudiant Magasinier (semaine) Planet Foods - Nivelles\nMission :\n- Réception des marchandises\n- Scanner/préparer les colis\n- Emballer les commandes/expédition...\nProfil :\n- motivé, ponctuel, dynamique\n- Dispo en semaine, de 9h à 17h40\n- Plus de 18 ans/propre moyen de transport\nbuff.ly/wpt6gJ9\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=d593f10f299acf6c&q=%C3%A9tudiant&l=Waterloo&tk=1jq1sd1tb21dp000&from=ja&alid=698c7a5f2c2690065c4a2ef7&xpse=SoBM67I3iEUssxTBG50LbzkdCdPP&xfps=6c4233b3-6892-482c-a8c0-5927e9c239a7&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jq1sd1tb21dp000&xkcb=SoD_67M3iBw6asVgph0CbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-02T15:21:13.378Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
