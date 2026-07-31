@@ -1,6 +1,175 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrx33srjhx2q",
+      "cid": "bafyreigjzin33oaaaz43qkdptfje7rbwfjllkyxdigmhvovuknvsm6nbfi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-31T13:35:37.329Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "",
+            "title": "",
+            "uri": "https://be.indeed.com/viewjob?jk=3d92ee4f040b253e&q=Etudiant&l=Brussels&tk=1jus117itgbd8801&from=ja&alid=56b55072e4b05009f1344524&xpse=SoDf67I3gcDhiYT7jp0LbzkdCdPP&xfps=a8c4f364-bcfb-48b2-905b-40facef436db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jus117itgbd8801&xkcb=SoDD67M3gcKK2YQC4h0NbzkdCdPP"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/wGKeXPv"
+              }
+            ],
+            "index": {
+              "byteEnd": 291,
+              "byteStart": 276
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 299,
+              "byteStart": 293
+            }
+          }
+        ],
+        "text": "Etudiant Vente boulangerie 6h-14h le dim. - Woluwe St Pierre\n- Accueil/service clientèle\n- Caisse\n- Mise en place/réassort\n - Préparation des commandes\n -  Entretien de l'espace de vente\nProfil :\n- Motivé(e), ponctuel(le) et souriant(e)\n- À l'aise avec le contact client\nbuff.ly/wGKeXPv \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://be.indeed.com/viewjob?jk=3d92ee4f040b253e&q=Etudiant&l=Brussels&tk=1jus117itgbd8801&from=ja&alid=56b55072e4b05009f1344524&xpse=SoDf67I3gcDhiYT7jp0LbzkdCdPP&xfps=a8c4f364-bcfb-48b2-905b-40facef436db&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jus117itgbd8801&xkcb=SoDD67M3gcKK2YQC4h0NbzkdCdPP",
+          "title": "",
+          "description": ""
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-31T13:35:37.579Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrx33jzmn623",
+      "cid": "bafyreidastwvfo26kjbthqder3y5kxllguskx56rrtowsvnhvwcipkx4ry",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-07-31T13:35:27.427Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreicbvxnby7tyntlszqqcwanms5tubjfjomnwhc3a2haexv3z7j5exe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 42871
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/student-agent-de-nettoyage-ottignies-hfx-ottignies-brabant-wallon/142-35123-4&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/e5R844u"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 301,
+              "byteStart": 295
+            }
+          }
+        ],
+        "text": "student agent de nettoyage du 17 au 21/08 - Ottignies\nTâches :\n- Nettoyage des salles de classe, couloirs, espaces communs et des vitres\n- Entretien des sanitaires.\n- Remplacement de consommables, vidage des poubelles,...\nProfil\n- Sérieux(se/organisé(e)/ponctuel(le)/autonome\nbuff.ly/e5R844u\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/student-agent-de-nettoyage-ottignies-hfx-ottignies-brabant-wallon/142-35123-4&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreicbvxnby7tyntlszqqcwanms5tubjfjomnwhc3a2haexv3z7j5exe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-07-31T13:35:29.076Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrwtatipej2n",
       "cid": "bafyreietv46wwvuvvmsrwjsm3tg2wn7mruf5aj7dbhqwfwvx2lo2ohwr2a",
       "author": {
@@ -8305,175 +8474,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-05T13:27:00.469Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnka7mgqa22j",
-      "cid": "bafyreifc2mxfeeithjl5ka3gdpc4wdwqxg7gi3piw7wcetxhrt5tnhceky",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-05T13:21:50.496Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=8fb5ed895fd1f61e&q=Etudiant&l=Brabant-wallon&tk=1jqbqse16g2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoCr67I3iL1_6TzCSp0LbzkdCdPP&xfps=34b5fe42-2460-4f03-b9fe-face3ab6f68e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqbqse16g2ii800&xkcb=SoA067M3iL987fRZxx0JbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/KE4fyJY"
-              }
-            ],
-            "index": {
-              "byteEnd": 276,
-              "byteStart": 261
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 283,
-              "byteStart": 277
-            }
-          }
-        ],
-        "text": "Jobiste LIDL Jodoigne\nProfil\n- Vous avez au moins 16 ans.\n- Vous aimez travailler dur pour que les jours passent vite.\n- Vous êtes prévenant, fiable et désireux d'apprendre.\n- Vous gardez la tête froide, même s’il y a beaucoup de monde dans le magasin. \nbuff.ly/KE4fyJY\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=8fb5ed895fd1f61e&q=Etudiant&l=Brabant-wallon&tk=1jqbqse16g2ii800&from=ja&alid=56b55072e4b078c137fc0296&xpse=SoCr67I3iL1_6TzCSp0LbzkdCdPP&xfps=34b5fe42-2460-4f03-b9fe-face3ab6f68e&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqbqse16g2ii800&xkcb=SoA067M3iL987fRZxx0JbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-05T13:21:51.387Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnf6pjoryq2k",
-      "cid": "bafyreibiueonuszlr43rwwqg7lneb75kqub2w3pbwwjxuz5jz5koru746i",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-03T13:11:36.857Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Vendeur/se (magasin)",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-              },
-              "mimeType": "image/jpeg",
-              "size": 977485
-            },
-            "title": "Etudiant caisse semaine + weekend | NIVELLES, Brabant Wallon",
-            "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-caisse-semaine--weekend-nivelles-brabant-wallon/166-32522-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918964776&utm_campaign=quest_1520&utm_content=Etudiant+caisse+semaine+%2B+weekend+%28166-32522-1%29+%5B918964776%5D%5B77b8c4dee0af9e1e_1903988bfc417%5D"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dFCVjnT"
-              }
-            ],
-            "index": {
-              "byteEnd": 270,
-              "byteStart": 255
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 277,
-              "byteStart": 271
-            }
-          }
-        ],
-        "text": "Etudiant caisse semaine + weekend Nivelles\n- Accueil et service des clients avec professionnalisme et convivialité\n- Encaissement (gestion des paiements en espèces et électroniques)\n- Tenue et propreté de la caisse\n- Aide en magasin selon les besoins\nbuff.ly/dFCVjnT\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.adecco.com/fr-be/offres-emploi/etudiant-caisse-semaine--weekend-nivelles-brabant-wallon/166-32522-1?utm_source=jobrapido&utm_medium=Paid&igbTracker=918964776&utm_campaign=quest_1520&utm_content=Etudiant+caisse+semaine+%2B+weekend+%28166-32522-1%29+%5B918964776%5D%5B77b8c4dee0af9e1e_1903988bfc417%5D",
-          "title": "Etudiant caisse semaine + weekend | NIVELLES, Brabant Wallon",
-          "description": "Vendeur/se (magasin)",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreigvqik4sk3woc652jsspvq5vucrv7zdxuvfgizhji6at7ztidz5fu"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-03T13:11:38.768Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
