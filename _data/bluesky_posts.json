@@ -1,6 +1,97 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3ms6jggmezp2f",
+      "cid": "bafyreifa3tyiqw63jece3trc3z57szjlfcrik724hmvxecczsp54wu3ccq",
+      "author": {
+        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
+        "handle": "inforjeuneswaterloo.be",
+        "displayName": "MTTS : Maintenant Tu Sais !",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "mutedOnlyReposts": false,
+          "mutedOnlyQuoteposts": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2024-12-11T15:27:55.144Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-08-03T12:40:43.188Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "C’est désormais bétonné dans une loi : si un travailleur ne convient pas dans une entreprise, l’employeur...",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreif6yntfpbylh2dvb2a6symhd2v7fo7f2egegkqzff6kyu4mo6ykfe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 94760
+            },
+            "title": "Contrats de travail : le préavis passe à une semaine pendant les six premiers mois, dès ce 1er août - RTBF Actus",
+            "uri": "https://www.rtbf.be/article/contrats-de-travail-le-preavis-passe-a-une-semaine-pendant-les-six-premiers-mois-des-ce-1er-aout-11763551"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Travail"
+              }
+            ],
+            "index": {
+              "byteEnd": 177,
+              "byteStart": 169
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "Emploi"
+              }
+            ],
+            "index": {
+              "byteEnd": 185,
+              "byteStart": 178
+            }
+          }
+        ],
+        "text": "Si la rupture du contrat — qu'elle soit le fait du travailleur ou de l'employeur — intervient au cours des 6 premiers mois, la durée de préavis est d'une semaine.\n#Travail #Emploi"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.rtbf.be/article/contrats-de-travail-le-preavis-passe-a-une-semaine-pendant-les-six-premiers-mois-des-ce-1er-aout-11763551",
+          "title": "Contrats de travail : le préavis passe à une semaine pendant les six premiers mois, dès ce 1er août - RTBF Actus",
+          "description": "C’est désormais bétonné dans une loi : si un travailleur ne convient pas dans une entreprise, l’employeur...",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreif6yntfpbylh2dvb2a6symhd2v7fo7f2egegkqzff6kyu4mo6ykfe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-08-03T12:40:46.165Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3mrcco42rfh2s",
       "cid": "bafyreihksfokbz5d7grv3jh3tluj4ouby7mgn5rhdicnzdawtd5ob22qbm",
       "author": {
@@ -10399,97 +10490,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2025-07-30T05:00:40.308Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:rtnecm24l37p42guu4wwwwqq/app.bsky.feed.post/3lv4bl5ob2y2i",
-      "cid": "bafyreihgmjpod2iwfuadz6d7bpwyeeci733qblswc3jkiz5nnriazwgmwm",
-      "author": {
-        "did": "did:plc:rtnecm24l37p42guu4wwwwqq",
-        "handle": "inforjeuneswaterloo.be",
-        "displayName": "MTTS : Maintenant Tu Sais !",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiagwg3hultfmkwwge47w6s7ghthy7ld6d2j3xd464owd6lz6njrta",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "mutedOnlyReposts": false,
-          "mutedOnlyQuoteposts": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2024-12-11T15:27:55.144Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2025-07-29T14:04:14.624Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "Les unifs et hautes écoles peuvent désormais choisir leurs périodes d’examens. Bientôt la fin des sessions de janvier et juin ?",
-            "thumb": {
-              "$type": "blob",
-              "ref": {
-                "$link": "bafkreiaecjoffy7yc5sbpiexx75zazwlft3rexsuqfoqmukpmgi2u5s7h4"
-              },
-              "mimeType": "image/jpeg",
-              "size": 90851
-            },
-            "title": "Fin des examens imposés en janvier et juin ?",
-            "uri": "https://buff.ly/DBW6Mwf"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "enseignement"
-              }
-            ],
-            "index": {
-              "byteEnd": 263,
-              "byteStart": 250
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "fwb"
-              }
-            ],
-            "index": {
-              "byteEnd": 268,
-              "byteStart": 264
-            }
-          }
-        ],
-        "text": "Les universités et hautes écoles de la Fédération Wallonie-Bruxelles ne sont  plus obligées d’organiser les examens en fin de quadrimestre.  Le décret offre à chaque établissement la liberté de fixer ses propres périodes d’évaluation.\n#enseignement #fwb"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://buff.ly/DBW6Mwf",
-          "title": "Fin des examens imposés en janvier et juin ?",
-          "description": "Les unifs et hautes écoles peuvent désormais choisir leurs périodes d’examens. Bientôt la fin des sessions de janvier et juin ?",
-          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rtnecm24l37p42guu4wwwwqq/bafkreiaecjoffy7yc5sbpiexx75zazwlft3rexsuqfoqmukpmgi2u5s7h4"
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2025-07-29T14:04:17.403Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,

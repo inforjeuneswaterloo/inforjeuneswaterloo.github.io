@@ -1,6 +1,188 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ms6ek6ujoh2l",
+      "cid": "bafyreiev7c6bp7qqacc3rth2mb6wggnetprgpqz52eadpgef2luiz6q3gi",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "mutedOnlyReposts": false,
+          "mutedOnlyQuoteposts": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-08-03T11:13:20.855Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+              },
+              "mimeType": "image/jpeg",
+              "size": 109334
+            },
+            "title": "Etudiant manoeuvre",
+            "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/909301"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/fkOGMVm"
+              }
+            ],
+            "index": {
+              "byteEnd": 295,
+              "byteStart": 280
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant min. 18 ans manoeuvre à partir du 10/08 - Perwez\nTâches : \n- Pose de tuiles/création charpente\n- Construction d'ossature bois\n...\nProfil :\n- Dispo à partir du 10/08 jusque min. septembre\n- Brevet VCA\n- Bonne condition physique/pas peur de travailler en hauteur\n- ...\nbuff.ly/fkOGMVm\n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.actief.be/nl/vacatures/batiment-bois-et-construction/etudiant-manoeuvre/909301",
+          "title": "Etudiant manoeuvre",
+          "description": "Tu cherches un job étudiant qui bouge vraiment ? Tu préfères être sur le terrain plutôt que derrière un bureau ?\\nAlors cette offre est faite pour toi !\\nPour un client actif dans le secteur de la…",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihmpkc2my7vndbsr74rbtbzwvh3tqle4lov3l7qkcqs2g3cewapwe"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-08-03T11:13:21.969Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ms67vetbjy2u",
+      "cid": "bafyreignzc52a6yzo32mkxdtcj24wwludnsdyyo4mh77cmafgmtynim6cy",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "mutedOnlyReposts": false,
+          "mutedOnlyQuoteposts": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-08-03T09:50:07.473Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Vous serez responsable du contrôl général du parking et vous aiguillerez au mieux les clients",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
+              },
+              "mimeType": "image/jpeg",
+              "size": 37952
+            },
+            "title": "Joboffers Etudiant Opérateur Control Room | IMPACT",
+            "uri": "https://impact.be/fr/joboffers/employe-de-bureau/brussel/17772/?utm_source=jooble&utm_campaign=vonqprogrammaticad_administratie_secretariaat&utm_medium=cpc&utm_away=beNTc0OHwtODc5NzA1NDc4MTM5MDIwNzEyNnw0NjIzNQ&view=&igbTracker=940158767&utm_content=Etudiant+Op%C3%A9rateur+Control+Room+%2817772%29+%5B940158767%5D%5Bad83baf950a417bd_450c7a7166c59%5D"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/qtyYg8s"
+              }
+            ],
+            "index": {
+              "byteEnd": 294,
+              "byteStart": 279
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 296
+            }
+          }
+        ],
+        "text": "Etudiant Opérateur Control Room - Bruxelles\nTâches :\n- Contrôle du parking\n- Aide à la clientèle\nProfil\n- S'exprimer PARFAITEMENT en Nlds/Fr/Ang\n- Exp service clientèle/bon sens du contact/gestion des situations opérationnelles\n- Calme/respectueux/résistant au stress...\nbuff.ly/qtyYg8s \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://impact.be/fr/joboffers/employe-de-bureau/brussel/17772/?utm_source=jooble&utm_campaign=vonqprogrammaticad_administratie_secretariaat&utm_medium=cpc&utm_away=beNTc0OHwtODc5NzA1NDc4MTM5MDIwNzEyNnw0NjIzNQ&view=&igbTracker=940158767&utm_content=Etudiant+Op%C3%A9rateur+Control+Room+%2817772%29+%5B940158767%5D%5Bad83baf950a417bd_450c7a7166c59%5D",
+          "title": "Joboffers Etudiant Opérateur Control Room | IMPACT",
+          "description": "Vous serez responsable du contrôl général du parking et vous aiguillerez au mieux les clients",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreierunxspzwkffkyckrr6zlcgy5eftokxk4fkr4r37ymfcmanys7s4"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-08-03T09:50:08.666Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mrx33srjhx2q",
       "cid": "bafyreigjzin33oaaaz43qkdptfje7rbwfjllkyxdigmhvovuknvsm6nbfi",
       "author": {
@@ -8526,154 +8708,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-08T14:13:44.172Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnkarayo232y",
-      "cid": "bafyreifniau3pixp7vnz7ojjufn3uenhgrmkrk2onayli7fsiynfxd3dda",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "mutedOnlyReposts": false,
-          "mutedOnlyQuoteposts": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-05T13:31:42.473Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://www.optioncarriere.be/jobad/be2865c63761e4986da70b862efa1178cf"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/dbWP0Xu"
-              }
-            ],
-            "index": {
-              "byteEnd": 293,
-              "byteStart": 278
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 300,
-              "byteStart": 294
-            }
-          }
-        ],
-        "text": "Etudiant ingénieur avec connaissance du logiciel d'ingénierie électrique ePLAN Bruxelles\n- Bonne maîtrise d'Excel et Word\n- Aptitude à lire des plans\n- Capacité d'analyse de documents techniques\n- Périodes disponibles\n20/07/2026 – 24/07/2026\n27/07/2026 – 31/07/2026 \nbuff.ly/dbWP0Xu\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://www.optioncarriere.be/jobad/be2865c63761e4986da70b862efa1178cf",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-05T13:31:42.771Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnkait7jko2f",
-      "cid": "bafyreibihuy4kzxhbc6gzcgv4d7vxk4ri66y35xpqnlusqhr6wp4hma54y",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "mutedOnlyReposts": false,
-          "mutedOnlyQuoteposts": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-05T13:26:59.589Z",
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/MDlsE0O"
-              }
-            ],
-            "index": {
-              "byteEnd": 227,
-              "byteStart": 212
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 234,
-              "byteStart": 228
-            }
-          }
-        ],
-        "text": "Etudiant(e) en soins infirmiers à Bruxelles\nMissions:\n- Aider à la gestion du matériel\n- Participer aux activités d’hygiène, de logistique et d’administration liées à la supervision de l’infirmier. \nbuff.ly/MDlsE0O\n#job4u"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-05T13:27:00.469Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
