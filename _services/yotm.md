@@ -13,8 +13,9 @@ buttons:
   - btn:
      enable: false
      text: Vers la section 'YOTM'
-     href: /yotm/
-     icon: fa-solid fa-angle-right
+     href: /construction/
+     icon: 
+     fa: fa-solid fa-angle-right
      class: btn btn-outline-dark text-decoration-none
      target: "_blank"
 ---
