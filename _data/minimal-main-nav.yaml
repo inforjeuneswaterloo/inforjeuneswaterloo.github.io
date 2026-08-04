@@ -2,8 +2,6 @@
   url: '/services/'
 - title: "Jobs étudiants"
   url: "/job4u/"
-- title: "Archives"
-  url: '/categories/'
 - title: "Liens utiles"
   url: '/blogroll/'
 - title: "Le coin presse"
