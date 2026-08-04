@@ -1,0 +1,37 @@
+{% assign items=include.items %}
+{% assign button=include.button %}
+{% assign color=include.color %}
+{% assign collection=include.collection %}
+
+{% if collection %}
+<div class="category-nav mb-4">
+  {% for item in collection %}
+    {% assign hex = item.color | default: "888888" %}
+  <a class="btn" href="{{ item.permalink | relative_url }}" 
+     class="cat-button" style="border: 1px solid  #{{hex}}; color:#{{hex}}">
+    <span class="cat-name">{{ item.title }}</span>
+  </a>
+  {% endfor %}
+</div>
+{%endif%}
+<div class="row g-2">
+    {% for item in items %}
+        <div class="col-md-6 col-sm-12 d-flex align-items-stretch mb-1">
+            <div class="card h-100 mb-1" style="color: #{{color}}; border:1px solid #{{color}}">
+                <div class="card-body lh-sm">
+                    <h5 class="card-title lh-1">
+                        {{item.title}}
+                    </h5>
+                    <p class="card-text tex-muted">
+                        {{item.descri}}
+                    </p>
+                    <div class="w-100 text-end text-right mt-auto pt-3">
+                        <a href="{{item.link}}" target="_blank" class="btn-link text-decoration-none">
+                            Lire l'article&nbsp;<i data-lucide="square-arrow-out-up-right"></i>  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

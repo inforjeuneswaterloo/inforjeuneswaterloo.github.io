@@ -2,11 +2,9 @@
 layout: minimal
 ---
 {% assign page_color=page.color | default: "2c3e50" %}
-{% assign message=page.message %}
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
 {% assign buttons=page.buttons %}
-{% assign header = page.header %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -18,19 +16,13 @@ layout: minimal
     <div class="service-title-section mb-2">
        <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
-    {% if header %}
       <div class="section mb-2">
-        {% assign message = header.message %}
-        {% assign button = header.btn %}
-        {% assign message_enbaled=message.enable | default: true %}
-        {% assign button_enabled=button.enable %}
-        {%if message_enabled %}
-            <p class="muted">
-              <i data-lucide="{{message.icon}}"></i>&nbsp;{{message.text}}
-            </p>
-       {%endif%} 
+        {% if page.subtitle %}
+          <p class="muted">
+            {{page.subtitle}}
+          </p>
+        {% endif %}
       </div>
-    {%endif%}
   </header>
 
   <section class="post-content">
