@@ -1,6 +1,97 @@
 {
   "posts": [
     {
+      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3msax57v2hh23",
+      "cid": "bafyreieutb2re2heiso4zfwxgyyo5a5imtgi6oyahl4xata5wk7ukbgzui",
+      "author": {
+        "did": "did:plc:ob2khl3reouin6l4dntfslex",
+        "handle": "job4u.bsky.social",
+        "displayName": "Job4u",
+        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
+        "associated": {
+          "activitySubscription": {
+            "allowSubscriptions": "followers"
+          }
+        },
+        "viewer": {
+          "muted": false,
+          "mutedOnlyReposts": false,
+          "mutedOnlyQuoteposts": false,
+          "blockedBy": false
+        },
+        "labels": [],
+        "createdAt": "2025-11-09T12:28:59.249Z"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "createdAt": "2026-08-04T11:51:26.136Z",
+        "embed": {
+          "$type": "app.bsky.embed.external",
+          "external": {
+            "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+            "thumb": {
+              "$type": "blob",
+              "ref": {
+                "$link": "bafkreihkw4mhcbcb44vdfcd3zh2fbtq2rhlm2bsshc64ta5wbi3rrxiyoq"
+              },
+              "mimeType": "image/jpeg",
+              "size": 42859
+            },
+            "title": "Job details page",
+            "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-mecaniciens-trottinettes-temporaire-fr-anderlecht-brussel/307-35443-1&utm_source=careerjet-optioncarriere"
+          }
+        },
+        "facets": [
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#link",
+                "uri": "https://buff.ly/yrPXQQD"
+              }
+            ],
+            "index": {
+              "byteEnd": 302,
+              "byteStart": 287
+            }
+          },
+          {
+            "features": [
+              {
+                "$type": "app.bsky.richtext.facet#tag",
+                "tag": "job4u"
+              }
+            ],
+            "index": {
+              "byteEnd": 310,
+              "byteStart": 304
+            }
+          }
+        ],
+        "text": "Etudiant Mécanicien Trottinette - ANDERLECHT\nTâches :\n- Vérifier les véhicules\n- Réparer, charger les batteries\n- S'assurer de la conformité des trottinettes  ...\nProfil :\nIntérêt pour la mécanique/1ère exp. avec des outils mécaniques\nBonne connaissance du Fr. L'Ang est un +\nbuff.ly/yrPXQQD \n#job4u"
+      },
+      "embed": {
+        "external": {
+          "uri": "https://www.adecco.com/nl-be/vacatures/etudiant-mecaniciens-trottinettes-temporaire-fr-anderlecht-brussel/307-35443-1&utm_source=careerjet-optioncarriere",
+          "title": "Job details page",
+          "description": "Bekijk duizenden actuele vacatures in België via Adecco. Zoek jobs per sector, regio of type contract en solliciteer eenvoudig online.22",
+          "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreihkw4mhcbcb44vdfcd3zh2fbtq2rhlm2bsshc64ta5wbi3rrxiyoq"
+        },
+        "$type": "app.bsky.embed.external#view"
+      },
+      "bookmarkCount": 0,
+      "replyCount": 0,
+      "repostCount": 0,
+      "likeCount": 0,
+      "quoteCount": 0,
+      "indexedAt": "2026-08-04T11:51:27.766Z",
+      "viewer": {
+        "bookmarked": false,
+        "threadMuted": false,
+        "embeddingDisabled": false
+      },
+      "labels": []
+    },
+    {
       "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3ms6ek6ujoh2l",
       "cid": "bafyreiev7c6bp7qqacc3rth2mb6wggnetprgpqz52eadpgef2luiz6q3gi",
       "author": {
@@ -8626,88 +8717,6 @@
       "likeCount": 0,
       "quoteCount": 0,
       "indexedAt": "2026-06-08T14:30:47.764Z",
-      "viewer": {
-        "bookmarked": false,
-        "threadMuted": false,
-        "embeddingDisabled": false
-      },
-      "labels": []
-    },
-    {
-      "uri": "at://did:plc:ob2khl3reouin6l4dntfslex/app.bsky.feed.post/3mnruj5xj7s2j",
-      "cid": "bafyreidmkk56dac6x6si4lbla37feqbkoziozyf2hdce547a3um62serue",
-      "author": {
-        "did": "did:plc:ob2khl3reouin6l4dntfslex",
-        "handle": "job4u.bsky.social",
-        "displayName": "Job4u",
-        "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ob2khl3reouin6l4dntfslex/bafkreibglapgvhkgazoghame44yuffzr24a343x2iw4pqmh6bj3r3s36pu",
-        "associated": {
-          "activitySubscription": {
-            "allowSubscriptions": "followers"
-          }
-        },
-        "viewer": {
-          "muted": false,
-          "mutedOnlyReposts": false,
-          "mutedOnlyQuoteposts": false,
-          "blockedBy": false
-        },
-        "labels": [],
-        "createdAt": "2025-11-09T12:28:59.249Z"
-      },
-      "record": {
-        "$type": "app.bsky.feed.post",
-        "createdAt": "2026-06-08T14:13:43.904Z",
-        "embed": {
-          "$type": "app.bsky.embed.external",
-          "external": {
-            "description": "",
-            "title": "",
-            "uri": "https://be.indeed.com/viewjob?jk=9e15285696dd8c71&q=Etudiants&l=Brabant-wallon&tk=1jqjo62kdgkl4804&from=ja&alid=56b55072e4b05009f1344518&xpse=SoAz67I3iT53nNAYGr0LbzkdCdPP&xfps=2fc5c601-6432-4fa3-9815-4494d87870fa&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqjo62kdgkl4804&xkcb=SoAb67M3iT4VmoRc8h0IbzkdCdPP"
-          }
-        },
-        "facets": [
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#link",
-                "uri": "https://buff.ly/DUPnBYs"
-              }
-            ],
-            "index": {
-              "byteEnd": 294,
-              "byteStart": 279
-            }
-          },
-          {
-            "features": [
-              {
-                "$type": "app.bsky.richtext.facet#tag",
-                "tag": "job4u"
-              }
-            ],
-            "index": {
-              "byteEnd": 301,
-              "byteStart": 295
-            }
-          }
-        ],
-        "text": "Étudiant(e) vente – Août & Septembre – Ottignies / Waterloo\n- Accueillir, conseiller et fidéliser la clientèle\n- Assurer les ventes et les encaissements\n- Réceptionner et mettre en place les collections\n- Assurer l'ouverture et la fermeture\n- Gérer le point de vente  \nbuff.ly/DUPnBYs\n#job4u"
-      },
-      "embed": {
-        "external": {
-          "uri": "https://be.indeed.com/viewjob?jk=9e15285696dd8c71&q=Etudiants&l=Brabant-wallon&tk=1jqjo62kdgkl4804&from=ja&alid=56b55072e4b05009f1344518&xpse=SoAz67I3iT53nNAYGr0LbzkdCdPP&xfps=2fc5c601-6432-4fa3-9815-4494d87870fa&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&rgtk=1jqjo62kdgkl4804&xkcb=SoAb67M3iT4VmoRc8h0IbzkdCdPP",
-          "title": "",
-          "description": ""
-        },
-        "$type": "app.bsky.embed.external#view"
-      },
-      "bookmarkCount": 0,
-      "replyCount": 0,
-      "repostCount": 0,
-      "likeCount": 0,
-      "quoteCount": 0,
-      "indexedAt": "2026-06-08T14:13:44.172Z",
       "viewer": {
         "bookmarked": false,
         "threadMuted": false,
