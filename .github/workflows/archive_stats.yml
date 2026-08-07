@@ -1,0 +1,31 @@
+name: Archivage Trimestriel des Statistiques Cloudflare
+
+on:
+  schedule:
+    # S'exécute à 00:00 UTC le 1er jour des mois de Janvier, Avril, Juillet et Octobre
+    - cron: '0 0 1 1,4,7,10 *'
+
+  workflow_dispatch: # Permet de lancer l'archivage manuellement depuis GitHub en cas de besoin
+
+jobs:
+  run-archive-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python 3.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Installer la bibliothèque requests
+        run: pip install requests
+
+      - name: Exécuter le script Python d'archivage et d'envoi d'e-mail
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/cloudflare_archive.py
