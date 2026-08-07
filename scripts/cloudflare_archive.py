@@ -1,8 +1,9 @@
+
 import os
 import requests
 import csv
 import smtplib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -19,7 +20,8 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")  # Mot de passe d'appl
 RECIPIENT_EMAIL = "marc.griffon@inforjeuneswaterloo.be"
 
 # --- 2. RÉCUPÉRATION DES DONNÉES CLOUDFLARE ---
-end_date = datetime.utcnow().date()
+# Utilisation de timezone.utc pour éviter le DeprecationWarning
+end_date = datetime.now(timezone.utc).date()
 start_date = end_date - timedelta(days=90)
 
 url = "https://api.cloudflare.com/client/v4/graphql"
@@ -29,6 +31,7 @@ headers = {
     "Content-Type": "application/json"
 }
 
+# Modifié: orderBy est passe sur [date_ASC] au lieu de [datetimePeriod_ASC]
 query = """
 query GetAnalytics($accountTag: string!, $siteTag: string!, $datetimeStart: string!, $datetimeEnd: string!) {
   viewer {
@@ -40,7 +43,7 @@ query GetAnalytics($accountTag: string!, $siteTag: string!, $datetimeStart: stri
           datetime_geq: $datetimeStart,
           datetime_leq: $datetimeEnd
         },
-        orderBy: [datetimePeriod_ASC]
+        orderBy: [date_ASC]
       ) {
         dimensions {
           datetimePeriod: date
@@ -65,6 +68,9 @@ data = response.json()
 output_filename = f"cloudflare_stats_{start_date}_au_{end_date}.csv"
 
 try:
+    if "errors" in data and data["errors"]:
+        raise ValueError(f"Erreur API Cloudflare : {data['errors']}")
+        
     records = data["data"]["viewer"]["accounts"][0]["rumPageloadEventsAdaptiveGroups"]
     
     with open(output_filename, mode="w", newline="", encoding="utf-8") as file:
@@ -77,7 +83,7 @@ try:
 
 except Exception as e:
     print("❌ Erreur lors de la récupération des données Cloudflare :", e)
-    print(data)
+    print("Réponse brute de l'API :", data)
     exit(1)
 
 # --- 3. ENVOI DE L'E-MAIL VIA GMAIL SMTP ---
@@ -106,3 +112,4 @@ try:
 
 except Exception as e:
     print("❌ Erreur lors de l'envoi de l'e-mail :", e)
+    exit(1)
