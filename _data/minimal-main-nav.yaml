@@ -1,7 +1,9 @@
 - title: "Projets et services"
   url: '/services/'
-- title: "Jobs étudiants"
-  url: "/job4u/"
+- title: "Centre de ressource Eurodesk"
+  url: "https://programmes.eurodesk.eu/en"
+  icon: "fa-solid fa-up-right-from-square"
+  target: "_blank"
 - title: "Archives"
   url: '/construction/'
 - title: "Liens utiles"
