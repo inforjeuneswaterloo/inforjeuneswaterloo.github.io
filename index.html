@@ -5,11 +5,12 @@ hero:
   subtitle: "Partir. Découvrir. Partager."
   buttons:
     - enabled: true
-      text: Ressources eurodesk
+      text: Explorer les possibilités
       url: "https://programmes.eurodesk.eu/"
       target: "_blank"
       icon: "fa-solid fa-up-right-from-square"
       color: "#F8b700"
+      title: "Infor Jeunes Waterloo est membre du réseau Eurodesk"
     - enabled: true
       text: Nous contacter
       url: "https://wa.me/32473953806"
@@ -34,7 +35,8 @@ hero:
           {% assign icon=item.icon%}
           {% assign color=item.color%}
           {% assign url=item.url%}
-          <a class="btn" title="{{text}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
+          {% assign title=item.title | default: text %}
+          <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
             <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
           </a>
         {%endfor%}
