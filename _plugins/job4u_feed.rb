@@ -58,7 +58,6 @@ module Jekyll
                         #{date}
                       </div>
                     </div>
-                    #<h3 class="card-title h5 mb-2 lh-sm" style="color: #222; line-height: 1.4; font-weight: 700;">#{CGI.escapeHTML(title)}</h3>
                     <div class="card-text lh-sm">
                         #{text}
                     </div>
