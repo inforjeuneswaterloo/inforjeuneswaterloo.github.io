@@ -6,7 +6,9 @@ url: "https://yotm.netlify.app" # the base hostname & protocol for your site, e.
 title: Infor Jeunes Waterloo
 description: "Informer. Autonomiser. Sans condition."
 slugify_mode: ascii
-
+github_media:
+  user: "inforjeuneswaterloo"
+  repo: "inforjeuneswaterloo.github.io"
 
 
 #Pagination

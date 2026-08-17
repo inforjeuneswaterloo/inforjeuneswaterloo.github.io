@@ -12,8 +12,10 @@ layout: page-single
   </section>
 
   <footer class="post-footer">
-    <div class="category-view">
-      <a href="/categories/{{ slug }}/" class="back-link" style="--c: #{{cat_color}}">← Retour à {{ category_name }}</a>
-    </div>  
+    <div class="category-view mb-2">
+      <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
+      &leftarrow; &nbsp; Retour
+    </a>
+    </div>
   </footer>
 </article>
