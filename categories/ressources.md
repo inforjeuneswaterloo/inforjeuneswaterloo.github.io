@@ -1,5 +1,5 @@
 ---
-layout: category-single
+layout: archive
 title: Articles de la catégorie Ressources
 permalink: /categories/ressources/
 category: Ressources

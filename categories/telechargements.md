@@ -1,5 +1,5 @@
 ---
-layout: category-single
+layout: archive
 title: Articles de la catégorie Téléchargements
 permalink: /categories/telechargements/
 category: Téléchargements

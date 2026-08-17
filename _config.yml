@@ -22,9 +22,9 @@ collections:
   services:
     output: true
     permalink: /services/:title/
-  yotm:
+  tesmoignages:
     output: true
-    permalink: /yotm/:title/
+    permalink: /temoignages/:title/
   telechargements:
     output: true
     permalink: /telechargements/:title/
