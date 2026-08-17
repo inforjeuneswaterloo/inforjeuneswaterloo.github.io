@@ -7,28 +7,24 @@ module Jekyll
 
     def render(context)
       text = super
+      
       # Convertit le contenu Markdown en HTML
       site = context.registers[:site]
       converter = site.find_converter_instance(Jekyll::Converters::Markdown)
       content = converter.convert(text)
 
-      # Configuration des icônes et couleurs par type
-      case @type
-      when "info"
-        icon, color = "info", "#3498db"
-      when "warning"
-        icon, color = "alert-triangle", "#e67c22"
-      when "success"
-        icon, color = "check-circle", "#27ae60"
-      when "danger"
-        icon, color = "x-circle", "#e74c3c"
-      else
-        icon, color = "bell", "#2c3e50"
-      end
+      # Définition de la classe Bootstrap
+      bs_class = case @type
+                 when "info" then "alert-info"
+                 when "warning" then "alert-warning"
+                 when "success" then "alert-success"
+                 when "danger" then "alert-danger"
+                 else "alert-secondary"
+                 end
 
-      # Génère le rendu final
+      # Rendu HTML Bootstrap sans icône
       <<-HTML
-<div class="cat-button" style=" border:none; border-left: 4px solid #{color}; border-right: 4px solid #{color}">
+<div class="alert #{bs_class} my-3" role="alert">
   <div class="alert-content">
     #{content}
   </div>
