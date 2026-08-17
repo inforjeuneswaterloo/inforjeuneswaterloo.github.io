@@ -4,10 +4,8 @@
   url: "https://programmes.eurodesk.eu/en"
   icon: "fa-solid fa-up-right-from-square"
   target: "_blank"
-- title: "Archives"
-  url: '/construction/'
-- title: "Liens utiles"
-  url: '/blogroll/'
-- title: "Le coin presse"
-  url: '/construction/'
+- title: "Zone info"
+  url: '/categories/international'
+- title: "Témoignages"
+  url: '/categories/temoignages'
  
