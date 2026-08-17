@@ -25,6 +25,9 @@ collections:
   telechargements:
     output: true
     permalink: /telechargements/:title/
+  temoignages:
+    output: true
+    permalink: /temoignages/:title
   instapaper:
     output: true
     permalink: /instapaper/:path/
