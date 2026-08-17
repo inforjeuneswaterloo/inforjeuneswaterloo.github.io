@@ -22,9 +22,6 @@ collections:
   services:
     output: true
     permalink: /services/:title/
-  tesmoignages:
-    output: true
-    permalink: /temoignages/:title/
   telechargements:
     output: true
     permalink: /telechargements/:title/
