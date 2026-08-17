@@ -28,3 +28,27 @@ layout: minimal
     </a>
   {% endfor %}
 </div>
+{% for collection in site.collections %}
+  {% comment %} Optionnel : Ignorer la collection 'posts' pour ne garder que les collections personnalisées {% endcomment %}
+  {% if collection.label == 'posts' %}{% continue %}{% endif %}
+
+  {% comment %} Filtrer les documents de la collection attribués à la catégorie de la page {% endcomment %}
+  {% assign col_docs = collection.docs | where: "category", page.category %}
+
+  {% if col_docs.size > 0 %}
+    <div class="collection-group my-3">
+      <h3 class="h6 text-uppercase fw-bold text-muted mb-2">
+        Collection : {{ collection.label }} ({{ col_docs.size }})
+      </h3>
+
+      <nav class="category-nav">
+        {% for item in col_docs %}
+          <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ cat_color }};">
+            <i data-lucide="chevron-right"></i>
+            <span class="cat-name">{{ item.title }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+    </div>
+  {% endif %}
+{% endfor %}

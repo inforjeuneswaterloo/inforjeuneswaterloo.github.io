@@ -6,7 +6,6 @@ icon: fa-solid fa-feather-pointed
 title: "Lola en Australie"
 date: 2022-02-10T14:03:18.000Z
 categories: 
-  - International
   - Témoignages
 image: https://cdn-images-1.medium.com/max/1024/1*es6a9vYByMxgKS9TxluthQ.jpeg
 ---

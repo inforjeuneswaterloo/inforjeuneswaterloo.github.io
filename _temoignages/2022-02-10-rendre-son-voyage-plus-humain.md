@@ -7,7 +7,6 @@ title: "Rendre son voyage plus humain"
 date: 2022-02-10T14:59:16.000Z
 categories:
   - Témoignages
-  - International
 image: https://cdn-images-1.medium.com/max/1024/1*ay_TZ9KpvOXgK4cp_05MTg.jpeg
 ---
 

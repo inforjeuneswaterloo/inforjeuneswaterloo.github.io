@@ -1,72 +1,38 @@
 ---
 layout: minimal
 ---
+{% comment %} 1. Initialisation de la catégorie et de sa couleur {% endcomment %}
 {% assign cat_slug = page.category | custom_slugify %}
-{% assign cat_color = site.data.categories[cat_slug] | default: "888888" %}
-{% assign posts_count = site.categories[page.category] | size %}
+{% assign cat_info = site.data.categories | where: "name", cat_slug | first %}
+{% assign cat_color = cat_info.color | default: "888888" | replace: '#', '' %}
+
+{% comment %} 2. Agrégation de TOUS les documents (posts + collections) attribués à cette catégorie {% endcomment %}
+{% assign matching_docs = "" | split: "," %}
+{% for doc in site.documents %}
+  {% if doc.categories contains page.category or doc.category == page.category %}
+    {% assign matching_docs = matching_docs | push: doc %}
+  {% endif %}
+{% endfor %}
+{% assign posts_count = matching_docs | size %}
 
 <div class="category-view">
-  <a href="/categories/" class="back-link" style="--c: #{{cat_color}}">← Retour aux catégories</a>
+  <a href="{{ '/categories/' | relative_url }}" class="back-link" style="color: {{ cat_color }};">← Retour aux catégories</a>
 
-  <header class="category-header">
-    <!--<h1 class="category-title" style="--c: #{{cat_color}}">
-      {{ page.category }}
-      <span class="category-count">{{ posts_count }} article{% if posts_count > 1 %}s{% endif %} publié{% if posts_count > 1 %}s{% endif %}</span>
-    </h1>-->
-    <div
-       class="btn" 
-       style="border: 1px solid #{{ cat_color }};">
+  <header class="category-header my-3">
+    <div class="btn" style="border: 1px solid #{{ cat_color }};">
       <span class="cat-name">{{ page.category }}</span>
-      
-      <span class="badge rounded-pill " style="background: #{{cat_color}}">
-        {{ posts_count | default: 0 }}
-
+      <span class="badge rounded-pill" style="background: #{{ cat_color }};">
+        {{ posts_count }}
       </span>
     </div>
   </header>
 
-  {% comment %} 
-   Extraction du slug depuis l'URL : /categories/mon-slug/ -> mon-slug
-{% endcomment %}
-{% assign url_parts = page.url | split: '/' %}
-{% assign current_cat_slug = url_parts[2] %}
-
-{% comment %} 
-   1. Extraction du slug cible depuis l'URL (ex: /categories/protection-sociale/ -> protection-sociale)
-{% endcomment %}
-{% assign url_parts = page.url | split: '/' %}
-{% assign target_cat_slug = url_parts[2] %}
-
-<nav class="category-nav">
-  {% for post in site.posts %}
-    
-    {% comment %} 
-       2. Création d'une liste de slugs pour les catégories du post actuel
-    {% endcomment %}
-    {% assign post_cat_slugs = "" | split: "," %}
-    {% for cat in post.categories %}
-      {% assign s = cat | slugify %}
-      {% assign post_cat_slugs = post_cat_slugs | push: s %}
-    {% endfor %}
-
-    {% comment %} 
-       3. Vérification : est-ce que le slug de la page est dans la liste du post ?
-    {% endcomment %}
-    {% if post_cat_slugs contains target_cat_slug %}
-      
-      {% comment %} 
-         4. Récupération de la couleur associée au slug actuel dans _data/categories.yml
-      {% endcomment %}
-      {% assign cat_info = site.data.categories | where: "name", target_cat_slug | first %}
-      {% assign border_color = cat_info.color | default: "888888" | replace: '#', '' %}
-
-      <a href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
+  <div class="category-nav">
+    {% for item in matching_docs %}
+      <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ cat_color }};">
         <i data-lucide="chevron-right"></i>
-        <span class="cat-name">{{ post.title }}</span>
+        <span class="cat-name">{{ item.title | markdownify }}</span>
       </a>
-      
-    {% endif %}
-  {% endfor %}
-</nav>
-    
+    {% endfor %}
+    </div>
 </div>

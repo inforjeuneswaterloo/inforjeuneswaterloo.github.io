@@ -12,7 +12,6 @@ date: 2025-10-31
 slug: temoignage-camille
 accroche: Découvre le témoignage de Camille partie en Erasmus en Finlande et en PVT en Australie.
 categories:
-  - International
   - Témoignages
 buttons:
   - btn:

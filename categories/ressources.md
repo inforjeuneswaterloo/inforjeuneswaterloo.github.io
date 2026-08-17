@@ -1,8 +1,8 @@
 ---
-layout: category_archive
-title: Articles de la catégorie Actu du Centre
-permalink: /categories/actu-du-centre/
-category: Actu du Centre
+layout: archive
+title: Articles de la catégorie Ressources
+permalink: /categories/ressources/
+category: Ressources
 ---
 Cette page liste tous les articles de la catégorie.
 <br><br>

@@ -9,8 +9,7 @@ date: 2025-08-25
 update: 2025-08-25
 slug: rediger-son-cv-en-anglais
 categories:
-  - International
-  - Travail
+  - Ressources
 tags: 
   - Brohures
   - CV

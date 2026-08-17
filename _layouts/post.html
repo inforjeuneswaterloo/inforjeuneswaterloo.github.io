@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page-single
 ---
 {% assign category_name = page.categories | first %}
 {% assign slug = category_name | custom_slugify %}
@@ -7,20 +7,6 @@ layout: minimal
 
 
 <article class="post-container" style="--c: #{{ cat_color }};">
-  <header class="post-header">
-    <div class="category-view">
-      {% for cat in page.categories %}
-        {% assign tag_slug = cat | custom_slugify %}
-        {% assign cat_color = site.data.categories[tag_slug] | default: site.data.categories.default %}
-        {% assign color=cat_color%}
-        <a href="/categories/{{ tag_slug }}/" class="btn" style="border: 1px solid #{{ color }}; color: #{{ color }}">
-          {{ cat }}
-        </a>
-      {% endfor %}
-    </div>
-    <h1 class="post-title lh-sm">{{ page.title }}</h1>
-  </header>
-
   <section class="post-content">
     {{ content }}
   </section>
@@ -28,7 +14,6 @@ layout: minimal
   <footer class="post-footer">
     <div class="category-view">
       <a href="/categories/{{ slug }}/" class="back-link" style="--c: #{{cat_color}}">← Retour à {{ category_name }}</a>
-    </div>
-    
+    </div>  
   </footer>
 </article>

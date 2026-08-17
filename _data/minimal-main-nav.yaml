@@ -4,8 +4,10 @@
   url: "https://programmes.eurodesk.eu/en"
   icon: "fa-solid fa-up-right-from-square"
   target: "_blank"
-- title: "Zone info"
-  url: '/categories/international'
+- title: "Articles"
+  url: '/posts/'
+- title: "Téléchargements"
+  url: '/telechargements/'
 - title: "Témoignages"
-  url: '/categories/temoignages'
+  url: '/temoignages/'
  

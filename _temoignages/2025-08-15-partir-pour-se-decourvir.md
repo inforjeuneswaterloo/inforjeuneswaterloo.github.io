@@ -9,8 +9,6 @@ disclaimer:
   text: "Ce contenu vidéo est une reprise d'une ressource externe.  _Partir pour se découvrir_ est une production d'[Eurodesk France](https://www.youtube.com/@EurodeskFR/). Les informations, opinions et conseils présentés dans cette vidéo sont l'entière responsabilité de son producteur et ne reflètent pas nécessairement le point de vue d'Infor Jeunes Waterloo."
 slug: partir-pour-se-decouvrir
 categories:
-  - International
-  - Témoignages
   - Ressources
 tags: 
   - Récit
