@@ -19,18 +19,12 @@ pagination:
   
 #Collections
 collections:
-  services:
-    output: true
-    permalink: /services/:title/
   telechargements:
     output: true
     permalink: /telechargements/:title/
   temoignages:
     output: true
     permalink: /temoignages/:title
-  instapaper:
-    output: true
-    permalink: /instapaper/:path/
 
 # Définir des valeurs par défaut pour les collections
 defaults:

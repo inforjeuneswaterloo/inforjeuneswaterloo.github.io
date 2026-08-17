@@ -1,18 +1,5 @@
 ---
 layout: archives
-title: Index des catégories
-permalink: /categories/
+title: Collections
+permalink: /archives/
 ---
-{% assign categories=site.categories %}
-
-{% for category in categories %}
-    {% assign category_name= category | first %}
-    {% assign category_slug=category_name | custom_slugify %}
-    {% assign posts_in_category =category | last %}
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        <span><h6 class="display">{{ category_name}}</h6></span>
-        <a class="btn btn-light text-decoration-none" href="{{'/categories/' | append: category_slug | append: '/'}}">
-            {{posts_in_category.size}}
-        </a>
-    </li>
-{% endfor %}

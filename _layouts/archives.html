@@ -4,51 +4,25 @@ layout: minimal
 <h1 style="font-family: var(--font-main); font-weight: 400; margin-bottom: 2rem; opacity: 0.8;">
   {{page.title}}
 </h1>
-<div class="category-nav">
-  {% assign sorted_categories = site.categories | sort %}
-  {% for category in sorted_categories %}
-    {% assign cat_name = category | first %}
-    {% assign cat_slug = cat_name | custom_slugify %}
-    {% assign posts_count = category | last | size %}
-    
-    {% comment %} 
-       On récupère la couleur dans _data/categories.yml via le slug.
-       Si absent, on utilise une couleur grise par défaut.
-    {% endcomment %}
-    {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
-
-    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" 
-       class="btn" 
-       style="border: 1px solid #{{ hex }};">
-      <span class="cat-name">{{ cat_name }}</span>
-      
-      <span class="badge rounded-pill" style="background: #{{ hex }}">
-        {{ posts_count | default: 0 }}
-      </span>
-    </a>
-  {% endfor %}
-</div>
 {% for collection in site.collections %}
   {% comment %} Optionnel : Ignorer la collection 'posts' pour ne garder que les collections personnalisées {% endcomment %}
-  {% if collection.label == 'posts' %}{% continue %}{% endif %}
-
-  {% comment %} Filtrer les documents de la collection attribués à la catégorie de la page {% endcomment %}
   {% assign col_docs = collection.docs | where: "category", page.category %}
 
   {% if col_docs.size > 0 %}
-    <div class="collection-group my-3">
+    <div class="content-section mb-2">
       <h3 class="h6 text-uppercase fw-bold text-muted mb-2">
-        Collection : {{ collection.label }} ({{ col_docs.size }})
+        {{ collection.label }} ({{ col_docs.size }})
       </h3>
-
-      <nav class="category-nav">
+      <ul class="list-group list-group-flush mt-4 mb-4">
         {% for item in col_docs %}
-          <a href="{{ item.url | relative_url }}" class="cat-button" style="--c: #{{ cat_color }};">
-            <i data-lucide="chevron-right"></i>
-            <span class="cat-name">{{ item.title }}</span>
-          </a>
+          <li class="list-group-item" style="background: #f4f1ea">
+            <a class="text-decoration-none" href="{{ item.url | relative_url }}">
+              <i data-lucide="chevron-right"></i>
+              <span class="cat-name">{{ item.title }}</span>
+            </a>
+          </li>
         {% endfor %}
-      </nav>
+      </ul>
     </div>
   {% endif %}
 {% endfor %}

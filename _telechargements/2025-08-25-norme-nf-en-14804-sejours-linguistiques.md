@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La norme européenne _NF EN 14804_ encadrant les organisateurs de séjours linguistiques"
+title: "La norme européenne NF EN 14804 encadrant les organisateurs de séjours linguistiques"
 author: CIDJ
 disclaimer:
   enabled: true

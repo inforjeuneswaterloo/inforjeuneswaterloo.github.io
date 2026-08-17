@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "_Time to mind_ Un guide pour gérer ta santé mentale à l'étranger"
+title: "TIME TO MIND Un guide pour gérer ta santé mentale à l'étranger"
 author: CIDJ
 disclaimer:
   enabled: true
