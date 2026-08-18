@@ -4,11 +4,25 @@ layout: page-single
 {% assign category_name = page.categories | first %}
 {% assign slug = category_name | custom_slugify %}
 {% assign cat_color = site.data.categories[slug] | default: site.data.categories.default %}
+{% assign buttons=page.buttons%}
+{% assign type=page.type | default: "text" %}
 
 
 <article class="post-container" style="--c: #{{ cat_color }};">
   <section class="post-content">
     {{ content }}
+    {%if buttons %}
+      <div class="cta-wrapper mt-2">
+        {% for items in buttons %}
+          {% assign item=items.btn%}
+          {% if item.enable | default: false %}
+            <a class="{{item.class}}" href="{{item.href}}" target="{{item.target}}">
+              {{item.text}}&nbsp;{{item.icon}}
+            </a>
+          {% endif %}
+        {%endfor%}
+      </div>
+    {% endif %}
   </section>
 
   <footer class="post-footer">

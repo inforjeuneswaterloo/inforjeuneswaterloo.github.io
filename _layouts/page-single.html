@@ -4,7 +4,7 @@ layout: minimal
 {% assign page_color=page.color | default: "2c3e50" %}
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
-{% assign buttons=page.buttons %}
+{% assign post_type=page.type | default: 'text'%}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -20,6 +20,14 @@ layout: minimal
         {% if page.accroche %}
           <p class="muted">
             {{page.accroche}}
+            {% case post_type %}
+              {% when'audio' %}
+                &nbsp; <i class="fa-solid fa-headphones"></i>
+              {% when'video' %}
+                &nbsp; <i class="fa-regular fa-circle-play"></i>
+              {% else %}
+                &nbsp; <i class="fa-solid fa-feather-pointed"></i>
+            {% endcase %}
           </p>
         {% endif %}
       </div>
@@ -27,11 +35,6 @@ layout: minimal
   <section class="post-content mt-0">
     {{ content }}
   </section>
-  {% if page.buttons %}
-      <div class="cta-wrapper mt-4">
-        {% include buttons.html items=buttons color=color %}
-      </div>
-    {%endif%}
   <footer class="post-footer">
     {% comment %} NAVIGATION FOOTER (Rappel des suggestions) {% endcomment %}
     {% assign total_items = site[page.collection] | size %}
