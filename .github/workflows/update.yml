@@ -1,15 +1,21 @@
-name: Mise à jour quotidienne du site
+name: Mise à jour quotidienne du site (Branche yotm)
 
 on:
   schedule:
-    # Mise à jour quotidienne à 23h00 (UTC) du lundi au vendredi
-   - cron: '0 23 * * *'
+    # Exécution tous les jours à 23:00 UTC (01:00 heure locale UTC+2)
+    - cron: '0 23 * * *'
 
-  workflow_dispatch: # Permet de lancer la mise à jour manuellement
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branche à déployer'
+        required: true
+        default: 'yotm'
 
 jobs:
   ping-netlify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Build
-        run: curl -X POST -d {} "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
+      - name: Trigger Build sur Netlify pour yotm
+        run: |
+          curl -X POST -d '{"clear_cache": false, "branch": "yotm"}' "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
