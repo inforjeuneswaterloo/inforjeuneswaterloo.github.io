@@ -1,13 +1,15 @@
 ---
-layout: page-single
+layout: post
 title: En construction
 permalink: construction/
+
 buttons:
   - btn:
-     enable: true
-     text: Retour à la page d'accueil
+     enable: false
+     text: "Retour à la page d'accueil"
      href: /
-     icon: "move-left"
+     icon: "fa-solid fa-arrow-left-long"
+     class: btn-outline
      color: "ffb001"
 ---
-Cette section du site est actuellement en construction / maintenance.
+<i class="fa-solid fa-road-barrier"></i>&nbsp;Cette section du site est actuellement en construction / maintenance.

@@ -26,7 +26,7 @@ layout: minimal
           {% assign url=item.url%}
           {% assign title=item.title | default: text %}
           <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
-            <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
+            <span class="text-white">{% if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i></span>
           </a>
         {%endfor%}
       </div>
@@ -49,11 +49,13 @@ layout: minimal
         </a>
         {% case post_type %}
               {% when'audio' %}
-                &nbsp; <i class="fa-solid fa-headphones"></i>
+                &nbsp; <span class="muted"><i class="fa-solid fa-headphones"></i></span>
               {% when'video' %}
-                &nbsp; <i class="fa-regular fa-circle-play"></i>
+                &nbsp; <span class="muted"><i class="fa-regular fa-circle-play"></i></span>
+              {% when 'file'%}
+                &nbsp; <span class="muted"><i class="fa-regular fa-file-pdf"></i></span>
               {% else %}
-                &nbsp; <i class="fa-solid fa-feather-pointed"></i>
+                &nbsp; <span class="muted"><i class="fa-solid fa-feather-pointed"></i></span>
             {% endcase %}
       </li>
   {% endfor %}

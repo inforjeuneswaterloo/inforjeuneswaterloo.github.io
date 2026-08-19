@@ -17,6 +17,41 @@ layout: minimal
        <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
       <div class="section">
+        {%if page.hero %}
+          {% assign hero_buttons = page.hero.buttons %}
+          {% assign subtitle=page.hero.subtitle %}
+          {% if subtitle %}
+            <p class="muted fs-6 fw-light">{{subtitle}}</p>
+          {% endif %}
+          {% if hero_buttons %}
+            <div class="hero-contact">
+              {% for item in hero_buttons %}
+                {% assign target=item.target | default: self %}
+                {% assign text=item.text%}
+                {% assign icon=item.icon%}
+                {% assign color=item.color%}
+                {% assign url=item.url%}
+                {% assign title=item.title | default: text %}
+                <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
+                  <span class="text-white">{% if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i></span>
+                </a>
+              {%endfor%}
+            </div>
+          {%endif%}
+        {%endif%}
+        {% if page.accroche %}
+          <p class="muted">
+            {{page.accroche}}
+            {% case post_type %}
+              {% when'audio' %}
+                &nbsp; <i class="fa-solid fa-headphones"></i>
+              {% when'video' %}
+                &nbsp; <i class="fa-regular fa-circle-play"></i>
+              {% else %}
+                &nbsp; <i class="fa-solid fa-feather-pointed"></i>
+            {% endcase %}
+          </p>
+        {% endif %}
         {% if page.accroche %}
           <p class="muted">
             {{page.accroche}}
@@ -34,6 +69,8 @@ layout: minimal
   </header>
   <section class="post-content mt-0">
     {{ content }}
+    {%if buttons %}
+    {% endif %}
   </section>
   <footer class="post-footer">
     {% comment %} NAVIGATION FOOTER (Rappel des suggestions) {% endcomment %}

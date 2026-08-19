@@ -5,7 +5,7 @@ author: Infor Jeunes Waterloo
 disclaimer:
   enabled: true
 title: "Victoria en Argentine"
-date: 2025-10-31
+date: 2024-11-07
 slug: victoria
 accroche: Victoria est partie un an en Argentine avec le Rotary
 categories:
@@ -16,7 +16,7 @@ buttons:
      enable: true
      text: Ecouter le podcast
      href: https://drive.google.com/file/d/1x-Yyzrx5pcElKR0UvSAIIVLvrSHSDHSX/view?usp=sharing
-     icon: <i class="fa-solid fa-play"></i>
+     icon: fa-solid fa-play
      target: "_blank"
      class: "btn btn-dark text-white text-decoration-none"
 draft: false

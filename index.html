@@ -18,6 +18,12 @@ hero:
       icon: "fa-brands fa-whatsapp"
       color: "#25d366"
     - enabled: true
+      text: Partager ton expérience
+      url: "/participer/"
+      target: "_self"
+      icon: "fa-solid fa-comments"
+      color: "#242424"
+    - enabled: false
       text: Archives
       url: "/archives/"
       target: "_self"
@@ -36,15 +42,17 @@ hero:
     {% if hero_buttons %}
       <div class="hero-contact">
         {% for item in hero_buttons %}
-          {% assign target=item.target | default: self %}
-          {% assign text=item.text%}
-          {% assign icon=item.icon%}
-          {% assign color=item.color%}
-          {% assign url=item.url%}
-          {% assign title=item.title | default: text %}
-          <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
-            <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
-          </a>
+          {%if item.enabled | default: false %}
+            {% assign target=item.target | default: self %}
+            {% assign text=item.text%}
+            {% assign icon=item.icon%}
+            {% assign color=item.color%}
+            {% assign url=item.url%}
+            {% assign title=item.title | default: text %}
+            <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
+              <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
+            </a>
+          {%endif%}
         {%endfor%}
       </div>
     {%endif%}

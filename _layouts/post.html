@@ -12,13 +12,31 @@ layout: page-single
   <section class="post-content">
     {{ content }}
     {%if buttons %}
-      <div class="cta-wrapper mt-2">
+      <div class="cta-wrapper mt-2 mb-2 p-1">
         {% for items in buttons %}
           {% assign item=items.btn%}
-          {% if item.enable | default: false %}
-            <a class="{{item.class}}" href="{{item.href}}" target="{{item.target}}">
-              {{item.text}}&nbsp;{{item.icon}}
-            </a>
+          {% assign enabled=item.enable | default: false %}
+          {% if enable %}
+            {% assign class=item.class | default: "btn-outline-dark" %}  
+            {% assign text=item.text%}
+            {% assign icon=item.icon%}
+            {%assign color=item.color | default: '#2c3e50'%}
+            {%assign href=item.href|relative_url%}
+            {%assign target=item.target|default:'_self'%}
+              <a class="{{class}}" style="background: {{color}}" href="{{href}}" target="{{target}}">
+                {%if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i>
+              </a>
+          {% endif %}
+          {% if item.enable %}
+            {% assign class=item.class | default: "btn-outline-dark" %}  
+            {% assign text=item.text%}
+            {% assign icon=item.icon%}
+            {%assign color=item.color | default: '#2c3e50'%}
+            {%assign href=item.href|relative_url%}
+            {%assign target=item.target|default:'_self'%}
+              <a class="{{class}}" style="background: {{color}}" href="{{href}}" target="{{target}}">
+                {%if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i>
+              </a>
           {% endif %}
         {%endfor%}
       </div>

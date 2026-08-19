@@ -1,13 +1,16 @@
-- title: "Projets et services"
-  url: '/services/'
-- title: "Centre de ressource Eurodesk"
-  url: "https://programmes.eurodesk.eu/en"
+- title: "Le projet Youth on the Move"
+  url: '/yotm/'
+- title: "Espace Eurodesk"
+  url: '/eurodesk/'
   icon: "fa-solid fa-up-right-from-square"
-  target: "_blank"
+  target: "_self"
 - title: "Articles"
   url: '/posts/'
 - title: "Téléchargements"
   url: '/telechargements/'
 - title: "Témoignages"
   url: '/temoignages/'
+- title: Plan du site
+  url: '/archives/'
+
  

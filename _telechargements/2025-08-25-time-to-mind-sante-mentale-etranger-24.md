@@ -2,6 +2,9 @@
 layout: post
 title: "TIME TO MIND Un guide pour gérer ta santé mentale à l'étranger"
 author: CIDJ
+descri: Tu as prévu de partir bientôt à l’étranger ? Vivre à l’étranger peut être une expérience formidable, mais il est indispensable de veiller à ton bien-être et d’être conscient que tu auras peut-être un choc culturel.
+type: file
+link: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/Ee3uCA_nYKxJr_AjpryD0XMBvNRpD5BbR2dMF_MtGvcwLQ?e=xlWhCA
 disclaimer:
   enabled: true
   text: "Ce contenu est une reprise d'une ressource externe. Les informations, opinions et conseils y présentés sont l'entière responsabilité de son producteur et ne reflètent pas nécessairement le point de vue d'Infor Jeunes Waterloo."
@@ -13,19 +16,6 @@ categories:
 tags: 
   - Brochures
   - Santé mentale
-image: /assets/images/posts/telechargements.webp
-sidebar: 
-  show: all
-  title: A lire
-buttons:
-  - btn:
-     enable: true
-     text: Télécharger la brochure
-     href: https://ij1410-my.sharepoint.com/:b:/g/personal/marc_griffon_inforjeuneswaterloo_be/Ee3uCA_nYKxJr_AjpryD0XMBvNRpD5BbR2dMF_MtGvcwLQ?e=xlWhCA
-     icon: fa-solid fa-file-pdf
-     target: "_blank"
-     class: "btn btn-dark text-white text-decoration-none"
 ---
-Tu as prévu de partir bientôt à l’étranger ? Vivre à l’étranger peut être une expérience formidable, mais il est indispensable de veiller à ton bien-être et d’être conscient que tu auras peut-être un choc culturel.
 
-{% image /assets/images/posts/time-to-mind-2024.png %}
+

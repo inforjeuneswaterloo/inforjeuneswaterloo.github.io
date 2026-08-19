@@ -27,7 +27,9 @@ collections:
   temoignages:
     output: true
     permalink: /temoignages/:title
-
+  organismes:
+    output: true
+    permalink: /organismes/:title
 # Définir des valeurs par défaut pour les collections
 defaults:
   # Appliquer ces valeurs à toutes les pages de la collection 'services'
