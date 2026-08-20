@@ -1,0 +1,99 @@
+---
+layout: minimal
+---
+{% assign organismes=site.organismes %}
+{% if organismes.size > 0 %}
+<article class="post-container" style="--c: #{{ page.color | default: '2c3e50' }};">
+  <header class="post-header">
+    <div class="category-view mb-2">
+      <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
+      &leftarrow; &nbsp; Retour
+    </a>
+    </div>
+    <div class="service-title-section mb-2">
+       <h1 class="post-title lh-sm">{{ page.title }}</h1>
+    </div>
+  </header>
+<ul class="list-group mt-4 mb-4">
+  {% for item in organismes %}
+    {%assign title=item.title%}
+    {%assign link=item.link%}
+    {%assign url=item.url|relative_url%}
+    {%assign target=item.target|default:'_blank'%}
+    {% assign descri=item.descri | default: title %}
+    {% assign author=item.author | default: site.author.name %}
+    {% assign reco = item.reco %}
+    {% assign champs=item.champs %}
+    {% assign type = item.type %}
+    {% assign logo = item.logo %}
+    {% assign adresse = item.adresse %}
+    {% assign tel = item.tel %}
+    {% assign email = item.email %}
+    {% assign siteweb = item.siteweb %}
+    {% assign contact=item.contact %}
+      <li class="list-group list-group-item d-flex justify-content-between mb-3 align-items-end" style="background: #f4f1ea">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold bg-primary text-white p-2 mb-2 rounded">
+            {{title}}
+          </div>
+          {% if reco %}
+            <div class="fs-6 muted">
+              {% for item in reco %}
+                <span class="fs-6 muted">{{item}}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <p class="fs-6">{{descri}}<br/>
+          </p>
+        </div>
+        <span>
+          <a class="btn btn-dark text-white" title="{{descri}}" href="{{ link }}" style="--c: #{{ border_color }};">
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </span>
+      </li>
+    {% assign contact=item.contact | default: site.author.name %}
+      <li class="list-group list-group-item d-flex justify-content-between mb-3 align-items-end" style="background: #f4f1ea">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">
+            {{title}}
+          </div>
+          <p class="fs-6">{{descri}}<br/>{{author}}</p>
+        </div>
+        <span>
+          <a class="btn btn-dark text-white" title="{{descri}}" href="{{ link }}" style="--c: #{{ border_color }};">
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </span>
+      </li>
+    {% assign contact=item.contact | default: site.author.name %}
+      <li class="list-group list-group-item d-flex justify-content-between mb-3 align-items-end" style="background: #f4f1ea">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">
+            {{title}}
+          </div>
+          <p class="fs-6">{{descri}}<br/>{{author}}</p>
+        </div>
+        <span>
+          <a class="btn btn-dark text-white" title="{{descri}}" href="{{ link }}" style="--c: #{{ border_color }};">
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </span>
+      </li>
+    {% assign contact=item.contact | default: site.author.name %}
+      <li class="list-group list-group-item d-flex justify-content-between mb-3 align-items-end" style="background: #f4f1ea">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">
+            {{title}}
+          </div>
+          <p class="fs-6">{{descri}}<br/>{{author}}</p>
+        </div>
+        <span>
+          <a class="btn btn-dark text-white" title="{{descri}}" href="{{ link }}" style="--c: #{{ border_color }};">
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </span>
+      </li>
+  {% endfor %}
+</ul>
+{% endif %}

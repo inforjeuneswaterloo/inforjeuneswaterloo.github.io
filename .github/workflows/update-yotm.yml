@@ -18,4 +18,4 @@ jobs:
     steps:
       - name: Trigger Build sur Netlify pour yotm
         run: |
-          curl -X POST -d '{"clear_cache": false, "branch": "yotm"}' "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
+          curl -X POST -d {} "https://api.netlify.com/build_hooks/6a8696a81d2178ee7df009b2"
