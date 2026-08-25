@@ -1,45 +1,64 @@
 ---
 layout: minimal
 ---
-{% assign telechargements=site.data.downloads %}
+{% assign telechargements = site.data.downloads %}
+
 {% if telechargements.size > 0 %}
 <article class="post-container" style="--c: #{{ page.color | default: '2c3e50' }};">
   <header class="post-header">
     <div class="category-view mb-2">
       <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
-      &leftarrow; &nbsp; Retour
-    </a>
+        &leftarrow; &nbsp; Retour
+      </a>
     </div>
     <div class="service-title-section mb-2">
-       <h1 class="post-title lh-sm">{{ page.title }}</h1>
+      <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
   </header>
-<ul class="list-group list-group-flush mt-2 mb-2">
-  {% for item in telechargements %}
-    {% assign target_cat = item.categories | first | default: col_name | custom_slugify %}
-    {% assign cat_info = site.data.categories | where: "name", target_cat | first %}
-    {% assign raw_color = cat_info.color | default: "6c757d" %}
-    {% assign border_color = raw_color | replace: '#', '' %}
-    {% assign post_type=item.type | default: 'text' %}
-    {%assign title=item.title%}
-    {%assign link=item.link%}
-    {%assign url=item.url|relative_url%}
-    {%assign target=item.target|default:'_blank'%}
-    {% assign descri=item.descri | default: title %}
-    {% assign author=item.author | default: site.author.name %}
-      <li class="list-group-item d-flex justify-content-between mb-3 align-items-end" style="background: #f4f1ea">
+
+  <ul class="list-group list-group-flush mt-2 mb-2">
+    {% for item in telechargements %}
+      {% assign key    = item[0] %}
+      {% assign value  = item[1] %}
+      
+      {% assign title  = value.title  | default: key %}
+      {% assign link   = value.link   | default: '#' %}
+      {% assign descri = value.descri | default: '' %}
+      {% assign author = value.author | default: site.author.name %}
+      {% assign target = value.target | default: '_blank' %}
+      {% assign date   = value.date   | date: "%d/%m/%Y" %}
+      {% assign update = value.update | date: "%d/%m/%Y" %}
+
+      <li class="list-group-item d-flex justify-content-between align-items-center mb-3 p-2" style="background: #f4f1ea;">
         <div class="ms-2 me-auto">
-          <div class="fw-bold">
-            {{title}}
+          <div class="fw-bold text-dark">
+            {{ title }}
           </div>
-          <p class="fs-6">{{descri}}<br/>{{author}}</p>
+          
+          {% if descri != '' %}
+            <p class="mb-1 text-muted">{{ descri }}</p>
+          {% endif %}
+
+          <small class="text-secondary d-block">
+            {% if author %}Par <strong>{{ author }}</strong>{% endif %}
+            {% if date %} &bull; Publié le {{ date }}{% endif %}
+            {% if update %} &bull; Mis à jour le {{ update }}{% endif %}
+          </small>
         </div>
-        <span>
-          <a class="btn btn-dark text-white" title="{{descri}}" href="{{ link }}" style="--c: #{{ border_color }};">
+
+        <div class="ms-3">
+          <a class="btn btn-dark text-white d-inline-flex align-items-center gap-2" 
+             title="{{ descri }}" 
+             href="{{ link }}" 
+             target="{{ target }}"
+             {% if target == '_blank' %}rel="noopener noreferrer"{% endif %}
+             download>
             <i class="fa-solid fa-download"></i>
+            <span class="d-none d-md-inline">Télécharger</span>
           </a>
-        </span>
+        </div>
       </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</article>
 {% endif %}

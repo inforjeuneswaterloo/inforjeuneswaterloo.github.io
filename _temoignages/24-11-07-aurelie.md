@@ -2,8 +2,6 @@
 layout: post
 type : audio
 author: Infor Jeunes Waterloo
-disclaimer:
-  enabled: true
 title: "Aurélie à Katmandou"
 date: 2024-11-07
 slug: aurelie

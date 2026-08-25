@@ -59,4 +59,21 @@ hero:
   </section>
 {%endif%}
 <div class="cta mt-4">
+  {% assign ttm = site.data.ttm %}
+  {% if ttm %}
+    <div class="card h-100">
+      <div class="card-header" style="background: #2ca4dd; color: #fff">
+        <p class="fw-bold fs-3 lh-sm">{{ttm.title}}</p>
+      </div>
+      <div class="lh-sm p-2">
+        <p class="card-text">{{ttm.description | markdownify }}</p>
+        <p class="card-text">{{ttm.suivi|markdownify}}</p>
+      </div>
+      <div class="d-flex flex-row-reverse p-2">
+        <a class="btn text-white" style="background: #25d366" href="{{ttm.btn.link}}" target="_blank">
+          {{ttm.btn.text}} &nbsp; <i class="{{ttm.btn.icon}}"></i> 
+        </a>
+      </div>
+    </div>
+  {% endif %}
 </div>

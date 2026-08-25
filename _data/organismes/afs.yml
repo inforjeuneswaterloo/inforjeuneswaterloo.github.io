@@ -1,0 +1,13 @@
+title: AFS - Programmes interculturels
+descri: Fiche descriptive de l'organisme AFS - Echanges interculturels
+reco: Organisation de jeunesse reconnue par la fwb
+champs:
+  - Echanges interculturels
+contact:
+  - name: Internet
+    icon: "fa-solid fa-arrow-up-right-from-square"
+    link: https://www.afsbelgique.be/
+  - name: Email
+    icon: "fa-solid fa-envelope"
+    link: "mailto: info@afsbelgique.be"
+      

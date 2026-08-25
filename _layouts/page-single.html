@@ -52,19 +52,6 @@ layout: minimal
             {% endcase %}
           </p>
         {% endif %}
-        {% if page.accroche %}
-          <p class="muted">
-            {{page.accroche}}
-            {% case post_type %}
-              {% when'audio' %}
-                &nbsp; <i class="fa-solid fa-headphones"></i>
-              {% when'video' %}
-                &nbsp; <i class="fa-regular fa-circle-play"></i>
-              {% else %}
-                &nbsp; <i class="fa-solid fa-feather-pointed"></i>
-            {% endcase %}
-          </p>
-        {% endif %}
       </div>
   </header>
   <section class="post-content mt-0">
