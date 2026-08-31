@@ -5,6 +5,7 @@ layout: minimal
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
 {% assign post_type=page.type | default: 'text'%}
+{% assign organismes=site.data.organismes %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -17,6 +18,47 @@ layout: minimal
        <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
       <div class="section">
+        {% if page.url == '/organismes' or page.url == '/organismes/' or page.permalink == '/organismes' %}
+          {% assign organismes = site.data.organismes %}
+            
+          {% if organismes.size > 0 %}
+            {% comment %} 1. Extraction et dédoublonnage de tous les tags {% endcomment %}
+            {% assign all_tags = "" | split: "" %}
+
+            {% for item in organismes %}
+              {% assign org = item[1] %}
+
+              {% if org.title %}
+                {% for tag in org.champs %}
+                  {% assign all_tags = all_tags | push: tag %}
+                  {% endfor %}
+              {% else %}
+                {% for sub_org in org %}
+                  {% for tag in sub_org.champs %}
+                      {% assign all_tags = all_tags | push: tag %}
+                  {% endfor %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+
+            {% assign unique_tags = all_tags | uniq | sort %}
+
+              {% if unique_tags.size > 0 %}
+                <div class="d-flex align-items-center flex-wrap gap-2 my-3">
+                  <span class="text-muted small me-1">
+                    <i class="fa-solid fa-tags"></i>
+                  </span>
+
+                  {% for tag in unique_tags %}
+                    <a class="btn btn-sm btn-outline-secondary" href="{{ tag | custom_slugify }}">
+                      {{ tag }}
+                    </a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+          {% endif %}
+        {% endif %}
         {%if page.hero %}
           {% assign hero_buttons = page.hero.buttons %}
           {% assign subtitle=page.hero.subtitle %}

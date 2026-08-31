@@ -2,26 +2,26 @@
 layout: page-single
 ---
 {% assign file=page.data%}
-{% assign telechargements = site.data.downloads %}
+{% assign telechargements = site.data.organismes %}
 
-{% if telechargements.size > 0 %} 
-
+{% if telechargements.size > 0 %}
   <ul class="list-group list-group-flush mt-2 mb-2">
     {% for item in telechargements %}
       {% assign key    = item[0] %}
       {% assign value  = item[1] %}
       
       {% assign title  = value.title  | default: key %}
-      {% assign link   = value.link   | default: '#' %}
+      {% assign contact  = value.contact %}
       {% assign descri = value.descri | default: '' %}
       {% assign author = value.author | default: site.author.name %}
       {% assign target = value.target | default: '_blank' %}
       {% assign date   = value.date   | date: "%d/%m/%Y" %}
       {% assign update = value.update | date: "%d/%m/%Y" %}
+      {% assign champs = value.champs %}
 
       <li class="list-group-item d-flex justify-content-between align-items-center mb-3 p-2" style="background: #f4f1ea;">
         <div class="ms-2 me-auto">
-          <div class="fw-bold text-dark">
+          <div class="fw-bold text-dark mb-2">
             {{ title }}
           </div>
           
@@ -34,18 +34,36 @@ layout: page-single
             {% if date %} &bull; Publié le {{ date }}{% endif %}
             {% if update %} &bull; Mis à jour le {{ update }}{% endif %}
           </small>
+          <div class="d-flex align-items-center flex-wrap gap-2 my-3">
+            {% if champs.size > 0 %}
+            <span class="ext-muted small me-1">
+              <i class="fa-solid fa-tags me-1"></i>
+            </span>
+              {% for item in champs  %}
+                <a class="text-decoratio-none fs-6 fw-light" href="#">
+                  {{item}}&nbsp;  
+                </a>
+              {% endfor %}
+            {% endif %}
+          </div>
         </div>
 
         <div class="ms-3">
-          <a class="btn btn-dark text-white d-inline-flex align-items-center gap-2" 
+          {% for item in contact %}
+            {% assign target=item.target | default: "_blank" %}
+            {% assign text=item.name %} 
+            {% assign icon=item.icon %} 
+            {% assign link=item.link %}
+            <a class="btn btn-dark text-white d-inline-flex align-items-center gap-2 mb-1" 
              title="{{ descri }}" 
              href="{{ link }}" 
              target="{{ target }}"
              {% if target == '_blank' %}rel="noopener noreferrer"{% endif %}
              download>
-            <i class="fa-solid fa-download"></i>
-            <span class="d-none d-md-inline">Télécharger</span>
-          </a>
+            <i class="{{icon}}"></i>
+            <span class="d-none d-md-inline">{{text}}</span>
+            </a>
+          {% endfor %}
         </div>
       </li>
     {% endfor %}

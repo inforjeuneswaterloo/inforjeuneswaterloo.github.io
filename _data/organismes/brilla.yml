@@ -1,0 +1,12 @@
+title: "Brilla"
+descri: "Spécialiste du marché espagnol, avec des partenariats exclusifs dans plusieurs villes.  Chaque participant est accompagné de A à Z par un coach référent, depuis la première prise de contact jusqu’au retour du séjour.  Destinations proposées toute l’année : Málaga, Séville, Cordoue, Grenade, Madrid, Valence, Salamanque, Alicante, Barcelone, Dénia, Nerja, Tenerife, Cork, Dublin, Londres."
+champs:
+  - Séjours linguistiques
+  - Echanges
+contact:
+  - name: WWW
+    icon: "fa-solid fa-arrow-up-right-from-square"
+    link: https://www.brilla.be
+  - name: Instagram
+    icon: "fa-brands fa-instagram"
+    link: https://instagram.com/brilla_travel 

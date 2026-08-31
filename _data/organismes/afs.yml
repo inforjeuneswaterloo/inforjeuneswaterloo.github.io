@@ -1,10 +1,10 @@
 title: AFS - Programmes interculturels
-descri: Fiche descriptive de l'organisme AFS - Echanges interculturels
-reco: Organisation de jeunesse reconnue par la fwb
+descri: "AFS Programmes Interculturels est un organisme qui propose des séjours d’immersion culturelle. Nous avons plusieurs programmes tels que des programmes scolaires, supérieurs, de volontariat ou d’été dans plus de 50 destinations.  Le but? Découvrir un pays, une culture, une manière de vivre et la langue du pays.  Nous accueillons également des jeunes des 4 coins du monde qui désirent découvrir la culture belge."
+reco: Organisation de jeunesse reconnue
 champs:
-  - Echanges interculturels
+  - Echanges
 contact:
-  - name: Internet
+  - name: WWW
     icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://www.afsbelgique.be/
   - name: Email

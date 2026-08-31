@@ -27,6 +27,9 @@ collections:
   organismes:
     output: true
     permalink: /organismes/:title
+  champs:
+    output: true
+    permalink: /organismes/:slug
 # Définir des valeurs par défaut pour les collections
 defaults:
   # Appliquer ces valeurs à toutes les pages de la collection 'services'

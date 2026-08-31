@@ -1,6 +1,5 @@
 ---
-layout: posts
+layout: organismes
 title: Organismes
-collection: organismes
 permalink: /organismes/
 ---
