@@ -11,10 +11,10 @@ icon:
   text: Hello World!
 buttons:
   - btn:
-     enable: false
-     text: Vers la section 'YOTM'
-     href: /construction/
-     icon: 
+     enable: true
+     text: Vers la site 
+     href: https://yotm.be
+     icon: "external-link"
      fa: fa-solid fa-angle-right
      class: btn btn-outline-dark text-decoration-none
      target: "_blank"
