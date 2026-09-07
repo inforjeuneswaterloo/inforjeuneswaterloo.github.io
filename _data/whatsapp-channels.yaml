@@ -1,0 +1,12 @@
+- title: "Wassup ?"
+  url: 'https://whatsapp.com/channel/0029VbE0ktB5K3zc31HPGd0R'
+  target: '_blank'
+  icon: "fa-solid fa-up-right-from-square"
+  rs: "fa-brands fa-whatsapp"
+- title: "Job4u"
+  url: 'https://bsky.app/profile/job4u.bsky.social'
+  target: '_blank'
+  icon: "fa-solid fa-up-right-from-square"
+  rs: "fa-brands fa-bluesky"
+
+

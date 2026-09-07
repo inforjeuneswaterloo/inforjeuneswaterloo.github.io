@@ -51,7 +51,7 @@ module Jekyll
 
             html << <<~HTML
               <div class=" col-sm-12 col-md-6 d-flex align-items-stretch mb-1">
-                <div class="card h-100 border-0 mb-1">
+                <div class="card h-100 border-0 mb-1 bg-light shadow-sm" style="border-radius: 0.5rem; overflow: hidden;">
                   <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
                     <div class="d-flex justify-content-end mb-2">
                       <div class="mb-2 text-muted">

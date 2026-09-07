@@ -87,7 +87,7 @@ module Jekyll
           # Rendu en grille Bootstrap 2 colonnes avec alignement du bouton .cat-button à droite
           html << <<~HTML
             <div class="col-12 col-md-6 d-flex align-items-stretch mb-1">
-                <div class="card h-100 border-0 mb-1">
+                <div class="card h-100 border-0 mb-1 bg-light shadow-sm" style="border-radius: 0.5rem; overflow: hidden;">
                     #{img_html}
                     <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
                     <span class="mb-2 text-muted" style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">
