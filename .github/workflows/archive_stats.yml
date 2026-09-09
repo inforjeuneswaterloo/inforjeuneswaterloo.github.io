@@ -3,7 +3,7 @@ name: Archivage Trimestriel des Statistiques Cloudflare
 on:
   schedule:
     # S'exécute à 00:00 UTC le 1er jour des mois de Janvier, Avril, Juillet et Octobre
-    - cron: '0 0 1 1,4,7,10 *'
+    - cron: '0 0 1 * *'
 
   workflow_dispatch: # Permet de lancer l'archivage manuellement depuis GitHub en cas de besoin
 
