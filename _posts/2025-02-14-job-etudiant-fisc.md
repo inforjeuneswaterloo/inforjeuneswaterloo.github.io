@@ -35,5 +35,3 @@ Oui. Tous tes revenus sont imposables distinctement des revenus de tes parents. 
 
 Besoin d’éclaircissements et/ou d’infos supplémentaires? N’hésite pas à nous contacter ! Tu peux également consulter la page dédiée du [**site du SPF Finances**](https://fin.belgium.be/fr/particuliers/declaration-impot/situation-personnelle/personnes-a-charge/enfants)
 
-{% include elements/renvoi.html renvoi="job" %}
-

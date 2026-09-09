@@ -1,11 +1,32 @@
 ---
 layout: minimal
 ---
-<h1 style="font-family: var(--font-main); font-weight: 400; margin-bottom: 2rem; opacity: 0.8;">
-  {{page.title}}
-</h1>
+<header class="post-header">
+    <div class="category-view mb-2">
+      <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
+      &leftarrow; &nbsp; Retour
+    </a>
+    </div>
+    <div class="service-title-section mb-2">
+       <h1 class="post-title lh-sm">{{ page.title }}</h1>
+    </div>
+      <div class="section mb-2">
+        {% if page.subtitle %}
+          <p class="muted">
+            {{page.subtitle}}
+          </p>
+        {% endif %}
+      </div>
+  </header>
+
 <div class="category-nav">
   {% assign sorted_categories = site.categories | sort %}
+  {% assign posts=site.posts | sort: 'date' | reverse %}
+  {% assign categories=site.categories %}
+
+  {% comment %} 
+     On parcourt toutes les catégories pour créer un bouton par catégorie.
+  {% endcomment %}
   {% for category in sorted_categories %}
     {% assign cat_name = category | first %}
     {% assign cat_slug = cat_name | custom_slugify %}
@@ -27,4 +48,16 @@ layout: minimal
       </span>
     </a>
   {% endfor %}
+  <div class="posts-list mt-2">
+    <nav class="category-nav">
+      {% if posts.size >0 %}
+        {% assign post_categories = post.categories | map: "downcase" %}
+        {% for post in posts %}
+            <a href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
+              <i data-lucide="chevron-right"></i>&nbsp;<span class="cat-name">{{ post.title}}</span>
+            </a>
+        {% endfor %}
+      {%endif%}
+    </nav>
+  </div>
 </div>
