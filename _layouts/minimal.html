@@ -15,6 +15,21 @@
 <body>
 
   <main >
+    <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 top-0 mx-auto py-2 px-4 
+    shadow-sm" style="z-index: 1050;">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-2 small">
+          <i class="fa-brands fa-whatsapp fs-5"></i>
+          <span><strong>Ne manque rien !</strong> Toute l'actu du projet sur <strong><i>Time To Move : Waterloo</i></strong></span>
+        </div>
+        <a href="{{ site.data.whatsapp-channels[0].url }}" target="{{ site.data.whatsapp-channels[0].target | default: '_blank' }}" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-sm btn-light fw-bold text-success px-3 text-white" style="background-color: #25D366 !important;">
+          Rejoindre <i class="{{ site.data.whatsapp-channels[0].icon }} ms-1"></i>
+        </a>
+      </div>
+    </div>
    <header class="site-header">
   <div class="header-spacer"></div>
 
