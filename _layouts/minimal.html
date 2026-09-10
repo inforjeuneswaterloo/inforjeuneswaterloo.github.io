@@ -92,17 +92,24 @@
         </div>
         <p class="muted text-center">Infor Jeunes Waterloo ASBL | Rue Théophile Delbar 18A, 1410 Waterloo | BCE : 0414.613.830 | RPM: Nivelles</p>
     </footer>
-     <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 
-      mx-auto py-2 px-4 shadow-sm" style="z-index: 1050;">
-        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
-          <div class="d-flex align-items-center gap-2 small">
-            <i class="fa-regular fa-comments fs-5"></i>
-            <span><strong>Tu souhaites partager ton expérience ?</strong> Contacte-nous ! </span>
-          <a href="/particicper/"  target="{{ site.data.whatsapp-channels[1].target|default:'_self' }}" rel="noopener noreferrer" class="btn btn-sm btn-light fw-bold text-success px-3 text-white" style="background-color: #E67C22 !important;">
-            Job4u <i class="fa-solid fa-envelope ms-1"></i>
-          </a>
+
+    {%unless page.url contains '/participer/' %}  
+      <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 mx-auto py-2 px-4
+    <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 mx-auto py-2 px-4 
+    shadow-sm" style="z-index: 1050;">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div class="d-flex align-items-center gap-2 small">
+          <i class="fa-solid fa-comments fs-5"></i>
+          <span><strong>Envie de partager ton expérience ?</strong> Contacte-nous via WhatsApp ou par mail</span>
         </div>
+        <a href="/participer/" target="_self" 
+           rel="noopener noreferrer" 
+           class="btn btn-sm btn-light fw-bold text-success px-3 text-white" style="background-color: #12a3fe !important;">
+          Participer au projet <i class="fa-solid fa-envelope ms-1"></i>
+        </a>
       </div>
+    </div>
+    {%endunless%}
   </main>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
