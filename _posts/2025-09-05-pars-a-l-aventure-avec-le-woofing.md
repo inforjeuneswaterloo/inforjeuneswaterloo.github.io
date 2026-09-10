@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pars à l'aventure avec le _woofing_!"
+title: "Pars à l'aventure avec le WOOFING!"
 author: Infor Jeunes Waterloo
 image: '/assets/images/posts/woofing.webp'
 disclaimer:
@@ -37,9 +37,9 @@ draft: false
 3. **Choix de l’hôte** selon tes préférences.
 4. **Contact personnalisé** : email clair, questions pratiques (hébergement, tâches, horaires, langues, accès à internet…).
   
-{% alert info%}
+{% notice info%}
 A toi d'éplucher et comparer les offres et de choisir celle qui te conviendrait le mieux
-{% endalert %}
+{% endnotice %}
 
 ## Checklist avant de partir
 
@@ -61,6 +61,3 @@ A toi d'éplucher et comparer les offres et de choisir celle qui te conviendrait
 - [www.wwoof.be](https://wwoof.be) – pour la Belgique
 - [wwoofinternational.org](https://wwoofinternational.org) – pour les pays sans organisation nationale
   
-
-
-{% include elements/renvoi.html renvoi="contact" %}

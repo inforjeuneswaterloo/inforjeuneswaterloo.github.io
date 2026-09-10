@@ -22,15 +22,15 @@ Le **jeune au pair** vit dans une famille d'accueil pour laquelle il s'occupe de
 
 C'est une expérience d'échange culturel qui permet d'apprendre / d'approfondir une langue, d'acquérir de l'autonomie et de partager des moments uniques avec la famille d'accueil.
 
-{% alert info%}
+{% notice info%}
 Certaines formalités administratives importantes sont à régler en Belgique: allocations familiales, mutuelle, assurances...
-{%endalert%}
+{%endnotice%}
 
 ### Quelles sont les conditions pour devenir jeune au pair ?
 
-{% alert warning%}
+{% notice warning%}
 Les conditions peuvent varier d'un pays à l'autre.
-{%endalert%}
+{%endnotice%}
 
 - Etre âgé entre 17 et 30 ans
 - Avoir un niveau de base dans la langue du pays d'accueil
@@ -50,6 +50,3 @@ Les conditions peuvent varier d'un pays à l'autre.
 - [Le travail au pair: quel types de projets ?](https://mobilitedesjeunes.be/index.php/partir-a-l-etranger/le-travail-au-pair/quels-types-de-projets)
 - [C'est quoi le travail au pair ?](https://mobilitedesjeunes.be/index.php/partir-a-l-etranger/le-travail-au-pair/c-est-quoi-le-travail-au-pair)
 
-### Des questions?
-
-{% include elements/renvoi.html renvoi="contact" %}
