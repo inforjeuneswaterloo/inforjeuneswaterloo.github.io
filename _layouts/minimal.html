@@ -22,8 +22,8 @@
           <i class="fa-brands fa-whatsapp fs-5"></i>
           <span><strong>Ne manque rien !</strong> Toute l'actu du projet sur <strong><i>Time To Move : Waterloo</i></strong></span>
         </div>
-        <a href="{{ site.data.whatsapp-channels[0].url }}" target="{{ site.data.whatsapp-channels[0].target | default: '_blank' }}" 
-           target="_blank" 
+        <a href="{{ site.data.whatsapp-channels[0].url }}" target="{{ site.data.whatsapp-channels[0].target|default:'_self'}}" 
+           |defaulty:'_self'="_blank" 
            rel="noopener noreferrer" 
            class="btn btn-sm btn-light fw-bold text-success px-3 text-white" style="background-color: #25D366 !important;">
           Rejoindre <i class="{{ site.data.whatsapp-channels[0].icon }} ms-1"></i>
@@ -60,7 +60,7 @@
   <div class="partners-inner">
       <div class="parners-logos">
         {% for social in site.data.social %}
-          <a class="btn bg-transparent" href="{{social.url}}" target="_blank">
+          <a class="btn bg-transparent" href="{{social.url}}" |defaulty:'_self'="_blank">
             <i class="{{social.icon}}"></i>
           </a>
         {%endfor%}
@@ -92,6 +92,17 @@
         </div>
         <p class="muted text-center">Infor Jeunes Waterloo ASBL | Rue Théophile Delbar 18A, 1410 Waterloo | BCE : 0414.613.830 | RPM: Nivelles</p>
     </footer>
+     <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 
+      mx-auto py-2 px-4 shadow-sm" style="z-index: 1050;">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+          <div class="d-flex align-items-center gap-2 small">
+            <i class="fa-regular fa-comments fs-5"></i>
+            <span><strong>Tu souhaites partager ton expérience ?</strong> Contacte-nous ! </span>
+          <a href="/particicper/"  target="{{ site.data.whatsapp-channels[1].target|default:'_self' }}" rel="noopener noreferrer" class="btn btn-sm btn-light fw-bold text-success px-3 text-white" style="background-color: #E67C22 !important;">
+            Job4u <i class="fa-solid fa-envelope ms-1"></i>
+          </a>
+        </div>
+      </div>
   </main>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
