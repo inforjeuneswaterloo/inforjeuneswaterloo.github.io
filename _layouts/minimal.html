@@ -17,7 +17,7 @@
   <main >
     {% unless page.url contains '/ttm'%}
     <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 top-0 mx-auto py-2 px-4 
-    shadow-sm" style="z-index: 1050;">
+    shadow-sm mb-4" style="z-index: 1050;">
       <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div class="d-flex align-items-center gap-2 small">
           <i class="fa-brands fa-whatsapp fs-5"></i>
@@ -35,7 +35,7 @@
    <header class="site-header">
   <div class="header-spacer"></div>
 
-  <div class="brand-container">
+  <div class="brand-container mt-4">
     <a href="{{ '/' | relative_url }}" class="logo-link">
       <img src="{{ '/assets/images/logos/ijw-banner-transparent.webp' | relative_url }}" alt="{{ site.title }}" class="site-logo">
     </a>

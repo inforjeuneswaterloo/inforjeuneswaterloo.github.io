@@ -17,18 +17,12 @@ hero:
       target: "_blank"
       icon: "fa-brands fa-whatsapp"
       color: "#25d366"
-    - enabled: false
-      text: Partager ton expérience
-      url: "/participer/"
+    - enabled: true
+      text: Time To Move 2026
+      url: "/ttm/"
       target: "_self"
-      icon: "fa-solid fa-comments"
-      color: "#242424"
-    - enabled: false
-      text: Archives
-      url: "/archives/"
-      target: "_self"
-      icon: "fa-solid fa-folder-open"
-      color: "#2ca4dd"
+      icon: "fa-solid fa-rocket"
+      color: "#3261ac"
 ---
 {% assign hero=page.hero%}
 {%if hero %}
@@ -58,24 +52,25 @@ hero:
     {%endif%}
   </section>
 {%endif%}
-<div class="rss-feed-container">
-  <h3>Dernières actualités Mobilité des Jeunes</h3>
-  
-  {% if site.data.mobilitejeunes.size > 0 %}
-    <div class="list-group">
-      {% for item in site.data.mobilitejeunes %}
-        <a href="{{ item.link }}" class="list-group-item list-group-item-action" target="_blank" rel="noopener">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">{{ item.title }}</h5>
-            <small class="text-muted">{{ item.pubDate }}</small>
-          </div>
-          <p class="mb-1 text-truncate">{{ item.description | strip_html }}</p>
-        </a>
-      {% endfor %}
-    </div>
-  {% else %}
-    {% notice info %}
-      Les dernières actualités sont temporairement indisponibles.
-    {% endnotice %}
-  {% endif %}
+<div class="mt-2 mb-2">
+  <div class="mb-2">
+     <h3>Dernières actualités Mobilité des Jeunes</h3>
+      {% if site.data.mobilitejeunes.size > 0 %}
+        <div class="list-group">
+          {% for item in site.data.mobilitejeunes %}
+            <a href="{{ item.link }}" class="list-group-item list-group-item-action" target="_blank" rel="noopener">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ item.title }}</h5>
+                <small class="text-muted">{{ item.pubDate }}</small>
+              </div>
+              <p class="mb-1 text-truncate">{{ item.description | strip_html }}</p>
+            </a>
+          {% endfor %}
+        </div>
+      {% else %}
+        {% notice info %}
+          Les dernières actualités sont temporairement indisponibles.
+        {% endnotice %}
+      {% endif %}
+  </div>
 </div>
