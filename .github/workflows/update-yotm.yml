@@ -34,7 +34,7 @@ jobs:
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-        run: ruby scripts/sync_airtable.rb
+        run: ruby scripts/airtable_organismes_sync.rb
 
       # Push des données fraîchement récupérées dans le dépôt GitHub pour que Netlify les voie
       - name: Commit et Push des fichiers JSON de données
