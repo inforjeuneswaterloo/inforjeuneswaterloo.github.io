@@ -1,4 +1,4 @@
-name: Mise à jour quotidienne du site (Branche yotm)
+name: "Mise à jour quotidienne du site (Branche yotm)"
 
 on:
   schedule:
@@ -13,9 +13,38 @@ on:
         default: 'yotm'
 
 jobs:
-  ping-netlify:
+  sync-and-trigger:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch || 'yotm' }}
+
+      - name: Configuration de Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Synchronisation du flux RSS
+        run: ruby scripts/sync_feed.rb
+
+      - name: Synchronisation des données Airtable
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+        run: ruby scripts/sync_airtable.rb
+
+      # Push des données fraîchement récupérées dans le dépôt GitHub pour que Netlify les voie
+      - name: Commit et Push des fichiers JSON de données
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update RSS and Airtable data [skip ci]" && git push)
+
+      # Une fois les données à jour sur GitHub, on déclenche le build Netlify
       - name: Trigger Build sur Netlify pour yotm
         run: |
           curl -X POST -d {} "https://api.netlify.com/build_hooks/6a8696a81d2178ee7df009b2"
