@@ -30,12 +30,6 @@ jobs:
       - name: Synchronisation du flux RSS
         run: ruby scripts/actu_mobilite_sync.rb
 
-      - name: Synchronisation des données Airtable
-        env:
-          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_TOKEN }}
-          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-        run: ruby scripts/airtable_organismes_sync.rb
-
       # Push des données fraîchement récupérées dans le dépôt GitHub pour que Netlify les voie
       - name: Commit et Push des fichiers JSON de données
         run: |
