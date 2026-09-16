@@ -23,8 +23,8 @@ Certaines formalités administratives importantes sont à régler en Belgique: a
 
 ### Quelles sont les conditions pour devenir jeune au pair ?
 
-Les conditions peuvent varier d'un pays à l'autre. Mais pour l'Europe il existe une base légale : [**l'Accord européen sur le placement au pair**](https://drive.google.com/file/d/10Md3WKDVcpWz1x_CrSprT7C5Imw4RiJS/view?usp=sharing)
-
+Les **conditions peuvent varier d'un pays à l'autre**. Mais pour l'Europe il existe une base légale : [**l'Accord européen sur le placement au pair**](https://drive.google.com/file/d/10Md3WKDVcpWz1x_CrSprT7C5Imw4RiJS/view?usp=sharing)
+{% notice light %}
 - **Critères**
   - Être âgé de 17 à 30 ans
   - Fournir un certificat médical de moins de 3 mois
@@ -34,6 +34,7 @@ Les conditions peuvent varier d'un pays à l'autre. Mais pour l'Europe il existe
   - Le travail pour la famille est limité à 5 heures par jour au maximum pour préserver du temps d'étude
 - **Engagements de la famille**
   - Nourrir, loger (si possible en chambre individuelle), accorder au moins 1 jour de repos par semaine (dont un dimanche par mois) et verser un argent de poche
+{%endnotice%}
 - Avoir un niveau de base dans la langue du pays d'accueil
 - Etre célibataire et sans enfants
 - Aimer les enfants et avoir une certaine expérience en garde d'enfants
@@ -48,5 +49,4 @@ Les conditions peuvent varier d'un pays à l'autre. Mais pour l'Europe il existe
 
 ### Pour en savoir plus
 
-- [C'est quoi le travail au pair ?](https://mobilitedesjeunes.be/index.php/partir-a-l-etranger/le-travail-au-pair/c-est-quoi-le-travail-au-pair)
-- [Le travail au pair: quel types de projets ?](https://mobilitedesjeunes.be/index.php/partir-a-l-etranger/le-travail-au-pair/quels-types-de-projets)
+- [C'est quoi le travail au pair ?](https://mobilitedesjeunes.be/index.php/partir-a-l-etranger/le-travail-au-pair/c-est-quoi-le-travail-au-pair) 
