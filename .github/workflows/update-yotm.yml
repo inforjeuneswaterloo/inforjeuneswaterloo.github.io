@@ -28,7 +28,7 @@ jobs:
           bundler-cache: true
 
       - name: Synchronisation du flux RSS
-        run: ruby scripts/sync_feed.rb
+        run: ruby scripts/actu_mobilite_sync.rb
 
       - name: Synchronisation des données Airtable
         env:
