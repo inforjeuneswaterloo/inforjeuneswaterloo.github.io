@@ -15,6 +15,7 @@
 <body>
 
   <main >
+    {% unless page.url contains '/ttm'%}
     <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 top-0 mx-auto py-2 px-4 
     shadow-sm" style="z-index: 1050;">
       <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
@@ -30,6 +31,7 @@
         </a>
       </div>
     </div>
+    {% endunless %}
    <header class="site-header">
   <div class="header-spacer"></div>
 

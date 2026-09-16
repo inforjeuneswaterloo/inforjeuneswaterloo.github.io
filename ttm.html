@@ -1,0 +1,23 @@
+---
+layout: page-single
+title: Time To Move
+edition: 2026
+slug: ttm
+---
+{% assign items=site.data.ttm %}
+{% assign whatsapp=site.whatsapp %}
+{% assign channel=site.channel %}
+{% for item in items %}
+    <div class="card mb-3">
+        {% if item.image %}
+            <img src="{{item.image}}" class="card-img-top img-fluid" alt="{{item.title}}">
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            {% if item.date %}
+                <p class="card-text"><small class="text-muted">{{item.date |date: '%d/%m/%Y'}}&nbsp;{{item.horaire}}</small></p>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}

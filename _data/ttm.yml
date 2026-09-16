@@ -1,0 +1,26 @@
+- title: Auberge espagnole
+  edition: 2026
+  date: 2026-10-02
+  horaire: A partir de 18h00
+  image: /assets/images/ttm-26/auberge-espagnole.webp
+  description: "Apporte une spécialité de ton pays ou d'un pays que tu as déjà visité et viens la partager avec nous !"
+- title: Acti-débat  
+  edition: 2026
+  date: 2026-10-02
+  horaire: A partir de 18h00
+  image: /assets/images/ttm-26/acti-debat.webp
+  description: "Viens débattre sur des sujets qui te tiennent à cœur et partage ton point de vue avec d'autres jeunes !"
+- title: "Permanences 'Mobilité internationale'"
+  description: "Tu as des questions sur la mobilité internationale ? Pousse la porte !"
+  edition: 2026
+  date: "2026-10-14 & 2026-10-21"
+  horaire: 14-18h00
+  image: /assets/images/ttm-26/permanences.webp  
+- title: "Time to Move - Time to meet"
+  edition: 2026
+  date: 2026-10-10 & 2026-10-24
+  horaire: 14-17h00
+  image: /assets/images/ttm-26/time-to-meet.webp
+  description: "Viens rencontrer les associations et structures qui pourront t'aider à préparer ton projet de mobilité internationale !"
+
+
