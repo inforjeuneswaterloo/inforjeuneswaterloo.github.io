@@ -61,9 +61,9 @@ hero:
 <div class="rss-feed-container">
   <h3>Dernières actualités Mobilité des Jeunes</h3>
   
-  {% if site.data.mobilitedesjeunes.size > 0 %}
+  {% if site.data.mobilitejeunes.size > 0 %}
     <div class="list-group">
-      {% for item in site.data.mobilitedesjeunes %}
+      {% for item in site.data.mobilitejeunes %}
         <a href="{{ item.link }}" class="list-group-item list-group-item-action" target="_blank" rel="noopener">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">{{ item.title }}</h5>
