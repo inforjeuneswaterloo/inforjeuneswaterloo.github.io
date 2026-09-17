@@ -15,6 +15,11 @@ on:
 jobs:
   sync-and-trigger:
     runs-on: ubuntu-latest
+
+    # Autorisation requise pour push les commits automatisés
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout du code
         uses: actions/checkout@v5
@@ -29,16 +34,23 @@ jobs:
 
       - name: Synchronisation du flux RSS
         run: ruby scripts/actu_mobilite_sync.rb
-
-      # Push des données fraîchement récupérées dans le dépôt GitHub pour que Netlify les voie
+        
       - name: Commit et Push des fichiers JSON de données
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Indexation exclusive du dossier _data/
           git add _data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): auto-update RSS and Airtable data [skip ci]" && git push)
+          
+          # Vérification isolée des modifications dans _data/
+          if git diff --staged --quiet; then
+            echo "Aucune modification dans _data/. Aucun commit nécessaire."
+          else
+            git commit -m "chore(data): auto-update RSS and Airtable data [skip ci]"
+            git push
+          fi
 
-      # Une fois les données à jour sur GitHub, on déclenche le build Netlify
       - name: Trigger Build sur Netlify pour yotm
         run: |
           curl -X POST -d {} "https://api.netlify.com/build_hooks/6a8696a81d2178ee7df009b2"
