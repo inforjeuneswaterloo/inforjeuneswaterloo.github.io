@@ -6,43 +6,33 @@ layout: page-single
 {% assign cat_color = site.data.categories[slug] | default: site.data.categories.default %}
 {% assign buttons=page.buttons%}
 {% assign type=page.type | default: "text" %}
+{% assign image=page.image%}
 
 
-<article class="post-container" style="--c: #{{ cat_color }};">
-  <section class="post-content">
+<article class="post-container body-background">
+  <section class="post-content mb-2">
     {{ content }}
+  </section>
     {%if buttons %}
-      <div class="cta-wrapper mt-2 mb-2 p-1">
+      <div class="d-flex flex-row">
         {% for items in buttons %}
           {% assign item=items.btn%}
-          {% assign enabled=item.enable | default: false %}
+          {% assign enable=item.enable | default: false %}
           {% if enable %}
-            {% assign class=item.class | default: "btn-outline-dark" %}  
+            {% assign class=item.class %}  
             {% assign text=item.text%}
             {% assign icon=item.icon%}
-            {%assign color=item.color | default: '#2c3e50'%}
             {%assign href=item.href|relative_url%}
             {%assign target=item.target|default:'_self'%}
-              <a class="{{class}}" style="background: {{color}}" href="{{href}}" target="{{target}}">
+            <div class="p-2">
+              <a class="text-decoration-none p-2 rounded {{class}}" href="{{href}}" target="{{target}}">
                 {%if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i>
               </a>
-          {% endif %}
-          {% if item.enable %}
-            {% assign class=item.class | default: "btn-outline-dark" %}  
-            {% assign text=item.text%}
-            {% assign icon=item.icon%}
-            {%assign color=item.color | default: '#2c3e50'%}
-            {%assign href=item.href|relative_url%}
-            {%assign target=item.target|default:'_self'%}
-              <a class="{{class}}" style="background: {{color}}" href="{{href}}" target="{{target}}">
-                {%if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i>
-              </a>
+            </div>
           {% endif %}
         {%endfor%}
       </div>
     {% endif %}
-  </section>
-
   <footer class="post-footer">
     <div class="category-view mb-2">
       <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">

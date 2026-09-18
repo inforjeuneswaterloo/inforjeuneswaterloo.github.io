@@ -33,31 +33,17 @@ layout: minimal
     {%endif%}
   {% endif %}
   </header>
-<ul class="list-group-flush mt-4 mb-4">
+<ul class="list-group mt-4 mb-4">
   {% for item in col_items %}
-    {% assign target_cat = item.categories | first | default: col_name | custom_slugify %}
-    {% assign cat_info = site.data.categories | where: "name", target_cat | first %}
-    {% assign raw_color = cat_info.color | default: "6c757d" %}
-    {% assign border_color = raw_color | replace: '#', '' %}
-    {% assign post_type=item.type | default: 'text' %}
-      <li class="list-group list-group-item" style="background: #f4f1ea">
-          <a class="text-decoration-none" title="{{page.accroche}}" href="{{ item.url | relative_url }}" style="--c: #{{ border_color }};">
-          <i data-lucide="chevron-right"></i>
-          <span class="cat-name">{{ item.title }}
-          </span>
-
-        </a>
-        {% case post_type %}
-              {% when'audio' %}
-                &nbsp; <span class="muted"><i class="fa-solid fa-headphones"></i></span>
-              {% when'video' %}
-                &nbsp; <span class="muted"><i class="fa-regular fa-circle-play"></i></span>
-              {% when 'file'%}
-                &nbsp; <span class="muted"><i class="fa-regular fa-file-pdf"></i></span>
-              {% else %}
-                &nbsp; <span class="muted"><i class="fa-solid fa-feather-pointed"></i></span>
-            {% endcase %}
-      </li>
+    {% assign class=item.class | default: 'body-background' %}
+    <li class="list-group list-group-item {{class}} mb-1 border-0" >
+      <a class="p-2 rounded {{class}} w-100" title="{{page.accroche}}" href="{{ item.url | relative_url }}">
+        <i data-lucide="chevron-right"></i>
+        <span class="cat-name">
+          {{ item.title }}
+        </span>
+      </a>
+    </li>
   {% endfor %}
 </ul>
 {% endif %}

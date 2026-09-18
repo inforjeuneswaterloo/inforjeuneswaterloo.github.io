@@ -1,8 +1,5 @@
 - title: "Le projet Youth on the Move"
   url: '/yotm/'
-- title: "Espace Eurodesk"
-  url: '/eurodesk/'
-  icon: "fa-solid fa-up-right-from-square"
   target: "_self"
 - title: "Articles"
   url: '/posts/'

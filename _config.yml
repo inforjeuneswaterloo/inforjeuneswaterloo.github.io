@@ -32,6 +32,9 @@ collections:
   champs:
     output: true
     permalink: /organismes/:slug
+  programmes:
+    output: true
+    permalink: /opportunites/:title
 # Définir des valeurs par défaut pour les collections
 defaults:
   # Appliquer ces valeurs à toutes les pages de la collection 'services'

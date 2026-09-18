@@ -8,17 +8,24 @@ layout: minimal
 {% assign organismes=site.data.organismes %}
 {% assign current_year = "now" | date: "%Y" %}
 {% assign year=page.edition %}
+{% assign image=page.image %}
 
-<article class="post-container" style="--c: #{{ page_color }};">
+<article class="post-container">
  <header class="post-header">
     <div class="category-view mb-2">
       <a href="{{ '/' | relative_url }}" onclick="history.back(); return false;" class="back-link">
       &leftarrow; &nbsp; Retour
     </a>
     </div>
+    {% if image %}
+      <div class="img mb-4">
+        <img src="{{image}}" alt="{{page.alt}}" class="card-img-top img-fluid ">
+      </div>
+    {% endif %}
     <div class="service-title-section mb-2">
        <h1 class="post-title lh-sm">
-        {{ page.title }}&nbsp;<span class="p-2 text-white rounded" style="background-color:var(--highlight)">{{year}}</span>
+        {{ page.title }}&nbsp;
+        {%if page.edition %}<span class="p-2 cobalt rounded">{{page.edition}}</span>{% endif %}
        </h1>
     </div>
       <div class="section">
@@ -75,7 +82,7 @@ layout: minimal
                 {% assign target=item.target | default: self %}
                 {% assign text=item.text%}
                 {% assign icon=item.icon%}
-                {% assign color=item.color%}
+                {% assign classr=item.class%}
                 {% assign url=item.url%}
                 {% assign title=item.title | default: text %}
                 <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
@@ -88,35 +95,12 @@ layout: minimal
         {% if page.accroche %}
           <p class="muted">
             {{page.accroche}}
-            {% case post_type %}
-              {% when'audio' %}
-                &nbsp; <i class="fa-solid fa-headphones"></i>
-              {% when'video' %}
-                &nbsp; <i class="fa-regular fa-circle-play"></i>
-              {% else %}
-                &nbsp; <i class="fa-solid fa-feather-pointed"></i>
-            {% endcase %}
           </p>
         {% endif %}
       </div>
   </header>
   <section class="post-content mt-0">
     {{ content }}
-    {%if buttons %}
-      <div class="d-flex flex-wrap gap-2 mt-3">
-        {% for item in buttons %}
-          {% assign target=item.btn.target | default: self %}
-          {% assign text=item.btn.text%}
-          {% assign icon=item.btn.icon%}
-          {% assign color=item.btn.color%}
-          {% assign url=item.btn.url%}
-          {% assign title=item.btn.title | default: text %}
-          <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
-            <span class="text-white">{% if text %}{{text}}&nbsp;{%endif%}<i class="{{icon}}"></i></span>
-          </a>
-        {%endfor%}
-      </div>
-    {%endif%}
     {% if page.url contains '/ttm' %}
       <div class="d-flex flex-wrap gap-2 mt-3">
         <a class="btn" title="Suivre l'actualité du projet" alt="Logo WhatsApp" href="{{site.channel}}" target="_blank" style="background: #25D366; border: 4px solid #25D366">

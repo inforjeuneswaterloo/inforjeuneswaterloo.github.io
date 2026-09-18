@@ -6,9 +6,9 @@ hero:
   buttons:
     - enabled: true
       text: Explorer les possibilités
-      url: "https://programmes.eurodesk.eu/"
+      url: "/programmes/"
       target: "_blank"
-      icon: "fa-solid fa-up-right-from-square"
+      icon: "fa-solid fa-plane-departures"
       color: "#F8b700"
       title: "Infor Jeunes Waterloo est membre du réseau Eurodesk"
     - enabled: true
@@ -29,7 +29,7 @@ hero:
   {% assign hero_buttons = hero.buttons %}
   {% assign subtitle = hero.subtitle %}
   <section class="home-hero">
-    <h1>Youth On The <span class="highlight">Move</span> !</h1>
+    <h1>Youth On The <span class="cobalt p-2 rounded">Move</span> !</h1>
     {% if subtitle %}
       <p class="muted">{{subtitle}}</p>
     {% endif %}
@@ -43,7 +43,7 @@ hero:
             {% assign color=item.color%}
             {% assign url=item.url%}
             {% assign title=item.title | default: text %}
-            <a class="btn" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
+            <a class="btn btn-light rounded" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
               <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
             </a>
           {%endif%}
@@ -54,23 +54,6 @@ hero:
 {%endif%}
 <div class="mt-2 mb-2">
   <div class="mb-2">
-     <h3>Dernières actualités Mobilité des Jeunes</h3>
-      {% if site.data.mobilitejeunes.size > 0 %}
-        <div class="list-group">
-          {% for item in site.data.mobilitejeunes %}
-            <a href="{{ item.link }}" class="list-group-item list-group-item-action" target="_blank" rel="noopener">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">{{ item.title }}</h5>
-                <small class="text-muted">{{ item.pubDate }}</small>
-              </div>
-              <p class="mb-1 text-truncate">{{ item.description | strip_html }}</p>
-            </a>
-          {% endfor %}
-        </div>
-      {% else %}
-        {% notice info %}
-          Les dernières actualités sont temporairement indisponibles.
-        {% endnotice %}
-      {% endif %}
+    
   </div>
 </div>
