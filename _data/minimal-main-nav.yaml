@@ -1,6 +1,9 @@
 - title: "Le projet Youth on the Move"
   url: '/yotm/'
   target: "_self"
+- title: "Les programmes"
+  url: '/programmes/'
+  target: "_self"
 - title: "Articles"
   url: '/posts/'
 - title: "Téléchargements"
