@@ -1,6 +1,9 @@
 ---
 layout: minimal
 title: Youth On The Move
+image:
+  enabled: true
+  src: /assets/images/ttm-26/general.webp
 hero:
   subtitle: "Partir. Découvrir. Partager."
   buttons:
@@ -8,10 +11,10 @@ hero:
       text: Explorer les possibilités
       url: "/programmes/"
       target: "_blank"
-      icon: "fa-solid fa-plane-departures"
-      color: "#F8b700"
+      icon: "fa-solid fa-plane-departure"
+      class: "orange"
       title: "Infor Jeunes Waterloo est membre du réseau Eurodesk"
-    - enabled: true
+    - enabled: false
       text: Nous contacter
       url: "https://wa.me/32473953806"
       target: "_blank"
@@ -22,9 +25,10 @@ hero:
       url: "/ttm/"
       target: "_self"
       icon: "fa-solid fa-rocket"
-      color: "#3261ac"
+      class: "cobalt-outline"
 ---
 {% assign hero=page.hero%}
+{% assign containers=page.containers%}
 {%if hero %}
   {% assign hero_buttons = hero.buttons %}
   {% assign subtitle = hero.subtitle %}
@@ -38,22 +42,25 @@ hero:
         {% for item in hero_buttons %}
           {%if item.enabled | default: false %}
             {% assign target=item.target | default: self %}
+            {% assign class=item.class %}
             {% assign text=item.text%}
             {% assign icon=item.icon%}
-            {% assign color=item.color%}
             {% assign url=item.url%}
             {% assign title=item.title | default: text %}
-            <a class="btn btn-light rounded" title="{{title}}" alt="Logo WhatsApp" href="{{url}}" target="{{target}}" style="background: {{color}}; border: 4px solid {{color}}">
-              <span class="text-white">{{text}}&nbsp;<i class="{{icon}}"></i></span>
-            </a>
+            <div class="d-flex justify-content-center gap-1 text-nowrap">
+              <a class="{{class}} p-2 rounded" title="{{title}}" href="{{url}}" target="{{target}}">
+                <span>{{text}}&nbsp;<i class="{{icon}}"></i></span>
+              </a>
+            </div>
           {%endif%}
         {%endfor%}
       </div>
     {%endif%}
   </section>
 {%endif%}
-<div class="mt-2 mb-2">
-  <div class="mb-2">
-    
-  </div>
+<div class="sections mt-2 mb-2">
+  {% if page.image.enabled %}
+    {% assign img=page.image.src %}
+    <img src="{{img}}" class="img-fluid">
+  {% endif %}
 </div>

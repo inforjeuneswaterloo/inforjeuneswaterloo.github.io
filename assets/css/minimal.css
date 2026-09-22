@@ -389,13 +389,13 @@ p {
   stroke: var(--c);
   stroke-width: 2px;
 } 
-.post-container a,.post-content a, .hero-contact a {
+.post-container a,.post-content a,.home-hero,.hero-contact a {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
 }
 
-.post-container a:hover,.post-content a:hover, .hero-contact a:hover {
+.post-container a:hover,.post-content a:hover,.home-hero, .hero-contact a:hover {
   opacity: 0.8;
 
 }
@@ -613,163 +613,6 @@ footer {
   }
 }
 
-/* ==========================================================================
-   FLUX MASTODON : COLONNE UNIQUE & ULTRA-COMPACT
-   ========================================================================== */
-
-.mastodon-feed {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem; /* Espace réduit entre les posts */
-    margin: 2rem auto;
-    width: 100%;
-    max-width: var(--max-width); /* Aligné sur ton texte principal */
-}
-
-.mastodon-post-card {
-    background: #ffffff;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Bannière minimaliste */
-.mastodon-card-image img {
-    width: 100%;
-    height: 140px; /* Hauteur fixe pour ne pas manger tout l'écran */
-    object-fit: cover;
-    margin: 0;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.mastodon-card-content {
-    padding: 0.75rem 1rem; /* Padding très serré */
-}
-
-.mastodon-card-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.4rem;
-}
-
-.mastodon-source {
-    font-size: 0.65rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: var(--text-muted);
-}
-
-.mastodon-date {
-    font-size: 0.65rem;
-    color: var(--text-muted);
-    opacity: 0.6;
-}
-
-/* Typographie resserrée */
-.mastodon-title {
-    font-size: 1rem;
-    font-weight: 800;
-    margin: 0 0 0.3rem 0;
-    line-height: 1.2;
-    color: var(--text-color);
-}
-
-.mastodon-body {
-    font-size: 0.88rem; /* Police plus petite pour l'aspect "news" */
-    line-height: 1.4;
-    color: var(--text-color);
-}
-
-.mastodon-text p {
-    margin-bottom: 0.5rem;
-}
-
-.mastodon-text p:last-child {
-    margin-bottom: 0;
-}
-
-/* Lien discret */
-.mastodon-footer-link {
-    display: inline-block;
-    margin-top: 0.6rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--link-color);
-    border-bottom: 1px solid transparent;
-}
-
-.mastodon-footer-link:hover {
-    border-bottom-color: var(--link-color);
-}
-
-/* Optimisation mobile (déjà gérée par le flex-column, mais on s'assure) */
-@media (max-width: 650px) {
-    .mastodon-card-content {
-        padding: 0.6rem 0.8rem;
-    }
-    .mastodon-card-image img {
-        height: 120px;
-    }
-}
-.pinned-post-container {
-    background: #ffffff;
-    border: 2px solid var(--highlight); /* Orange/Jaune Infor Jeunes */
-    border-radius: 12px;
-    padding: 1rem;
-    margin: 2rem 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.pinned-label {
-    font-size: 0.65rem;
-    font-weight: 900;
-    color: var(--highlight);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.8rem;
-}
-
-.pinned-content {
-    display: flex;
-    gap: 1.2rem;
-    align-items: flex-start;
-}
-/* 3. L'IMAGE SANS AUCUN TRONQUAGE */
-.pinned-img {
-  width: 100% !important;
-  height: auto !important;      /* Libère la hauteur pour s'adapter au ratio d'origine */
-  max-height: 220px;            /* Limite la hauteur maximale pour éviter les images géantes */
-  border-radius: 6px;
-  overflow: hidden;
-  background-color: #f9f9f9;    /* Fond neutre si l'image a des bandes sur les côtés */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: contain !important; /* Force l'image à s'afficher EN ENTIER sans être rognée */
-  }
-}
-
-.pinned-text {
-    flex: 1;
-}
-
-.pinned-link {
-    display: inline-block;
-    margin-top: 0.8rem;
-    font-size: 0.75rem;
-    font-weight: 800;
-    color: var(--text-color);
-    text-decoration: underline;
-}
-
 /* Version Mobile */
 @media (max-width: 550px) {
     .pinned-content {
@@ -933,71 +776,6 @@ footer {
     position: relative;
 }
 
-/* Petite flèche ou indicateur pour lier au fil */
-.thread-post-reply::before {
-    content: "";
-    position: absolute;
-    left: -1.6rem;
-    top: 1.5rem;
-    width: 1rem;
-    height: 2px;
-    background: var(--border-color);
-}
-
-.thread-meta {
-    font-size: 0.8rem;
-    margin-bottom: 0.6rem;
-    display: flex;
-    gap: 0.5rem;
-}
-
-.thread-author {
-    font-weight: 800;
-}
-
-.thread-date {
-    color: var(--text-muted);
-}
-
-.thread-body {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-}
-
-.thread-img img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.thread-text {
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-.thread-truncated-notice {
-    text-align: center;
-    margin-top: 1.5rem;
-}
-
-.thread-more-link {
-    display: inline-block;
-    font-size: 0.85rem;
-    font-weight: 800;
-    color: var(--link-color);
-    text-decoration: none;
-    padding: 0.6rem 1.2rem;
-    border: 1px dashed var(--border-color);
-    border-radius: 6px;
-    background: #ffffff;
-}
-
-.thread-more-link:hover {
-    background: #fafafa;
-    border-style: solid;
-}
-
 /* ==========================================================================
    RESPONSIVE SMARTPHONE 📱
    ========================================================================== */
@@ -1023,13 +801,28 @@ footer {
   background-color: var(--cobalt-blue);
   color: #ffffff;
 }
+.cobalt-outline{
+  border: 1px solid var(--cobalt-blue);
+  color: var(--cobalt-blue);
+  background: var(--body-background);
+}
 .whatsapp{
-  background-color: var(--whatsapp-green);
+  background-color: var(--whatsapp);
   color: #ffffff;
+}
+.whatsapp-outline{
+  border: 1px solid var(--whatsapp);
+  background-color: var(--body-background);
+  color: var(--whatsapp);
 }
 .orange{
   background-color: var(--orange);
   color: #ffffff;
+}
+.orange-outline{
+  border: 1px solid var(--orange);
+  background: var(--body-background);
+  color: var(--orange);
 }
 .rouge-bij{
   background-color: var(--rouge-bij);

@@ -15,26 +15,9 @@
 <body>
 
   <main >
-    {% unless page.url contains '/ttm'%}
-    <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 top-0 mx-auto py-2 px-4 
-    shadow-sm mb-4" style="z-index: 1050;">
-      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
-        <div class="d-flex align-items-center gap-2 small">
-          <i class="fa-brands fa-whatsapp fs-5"></i>
-          <span><strong>Ne manque rien !</strong> Toute l'actu du projet sur <strong><i>Time To Move : Waterloo</i></strong></span>
-        </div>
-        <a href="{{ site.data.whatsapp-channels[0].url }}" target="{{ site.data.whatsapp-channels[0].target|default:'_self'}}" 
-           rel="noopener noreferrer" 
-           class="btn btn-sm btn-light fw-bold text-white" style="background-color: #25D366 !important;">
-          Rejoindre <i class="{{ site.data.whatsapp-channels[0].icon }} ms-1"></i>
-        </a>
-      </div>
-    </div>
-    {% endunless %}
    <header class="site-header">
   <div class="header-spacer"></div>
-
-  <div class="brand-container mt-4">
+  <div class="brand-container mt-1">
     <a href="{{ '/' | relative_url }}" class="logo-link">
       <img src="{{ '/assets/images/logos/ijw-banner-transparent.webp' | relative_url }}" alt="{{ site.title }}" class="site-logo">
     </a>
@@ -57,16 +40,15 @@
     </nav>
   </div>
 </header>
-<div class="container mt-0 p-0">
-  <div class="partners-inner">
-      <div class="parners-logos">
-        {% for social in site.data.social %}
-          <a class="btn bg-transparent" href="{{social.url}}" |defaulty:'_self'="_blank">
-            <i class="{{social.icon}}"></i>
-          </a>
-        {%endfor%}
-      </div>
-    </div>
+<div class="sub-header py-0 px-1 d-inline-block">
+  <div class="d-flex justify-content-center gap-1 text-nowrap">
+    <a class="whatsapp px-2 py-1 rounded lh-1" href="{{site.whatsapp | relative_url}}">
+      Message&nbsp;<i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a class="whatsapp-outline px-2 py-1 rounded lh-1" href="{{site.channel}}">
+      Actu du projet&nbsp;<i class="fa-solid fa-bullhorn"></i>
+    </a>
+</div>
 </div>
 <div class="container-fluid">
     {{ content }}
@@ -92,25 +74,16 @@
           </div>
         </div>
         <p class="muted text-center">Infor Jeunes Waterloo ASBL | Rue Théophile Delbar 18A, 1410 Waterloo | BCE : 0414.613.830 | RPM: Nivelles</p>
-    </footer>
+        <div class="container mt-4 p-0 d-flex flex-row-reverse">
+          
+              {% for social in site.data.social %}
+                <a class="btn bg-transparent" href="{{social.url}}" |defaulty:'_self'="_blank">
+                  <i class="{{social.icon}}"></i>
+                </a>
+              {%endfor%}
 
-    {%unless page.url contains '/participer/' %}  
-      <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 mx-auto py-2 px-4
-    <div class="whatsapp-banner bg-body-tertiary position-fixed start-0 end-0 bottom-0 mx-auto py-2 px-4 
-    shadow-sm" style="z-index: 1050;">
-      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
-        <div class="d-flex align-items-center gap-2 small">
-          <i class="fa-solid fa-comments fs-5"></i>
-          <span><strong>Envie de partager ton expérience ?</strong> Contacte-nous via WhatsApp ou par mail</span>
         </div>
-        <a href="/participer/" target="_self" 
-           rel="noopener noreferrer" 
-           class="btn btn-sm btn-light fw-bold px-3 cobalt">
-          Participer au projet <i class="fa-solid fa-envelope ms-1"></i>
-        </a>
-      </div>
-    </div>
-    {%endunless%}
+    </footer>
   </main>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
