@@ -22,6 +22,13 @@
   --link-color: #3261AC;
   --europe-etoile: #ffcc01;
   --bleu-europe: #003399;
+  --enabel-black: #575756;
+  --enabel-red: #cd1d1f;
+  --enabel-yellow: #fcc900;
+  --ares-light:#01a1af;
+  --ares-dark: #014c6a;
+
+
 
   
   /* Typographie Système */
@@ -843,4 +850,20 @@ footer {
 .europe{
   background-color: var(--bleu-europe);
   color: var(--europe-etoile);
+}
+.enabel-black{
+  background-color: var(--enabel-black);
+  color: var(--enabel-yellow);
+}
+.enabel-red{
+  background-color: var(--enabel-red);
+  color: var(--enabel-yellow);
+}
+.ares-light{
+  background-color: var(--ares-light);
+  color: #ffffff;
+}
+.ares-dark{
+  background-color: var(--ares-dark);
+  color: #ffffff;
 }

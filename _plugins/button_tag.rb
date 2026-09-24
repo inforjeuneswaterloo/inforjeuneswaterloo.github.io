@@ -6,25 +6,41 @@ module Jekyll
     end
 
     def render(context)
-      # On sépare par virgule : {% button "Texte", "URL/Mail", "Couleur_Hex", "Nom_Icone" %}
+      # Arguments : {% button "Texte", "URL/Mail", "Nom_Icone", "Target", "Classe_CSS" %}
       parts = @markup.split(',').map { |p| p.strip.gsub(/\A["']|["']\Z/, '') }
 
-      text  = parts[0] || 'Bouton'
-      target = parts[1] || '#'
-      # On nettoie la couleur pour s'assurer qu'il n'y a pas de double #
-      color = (parts[2] || 'e67c22').delete('#') 
-      icon  = parts[3] # L'icône Lucide
+      text       = parts[0] || 'Bouton'
+      target_url = parts[1] || '#'
+      icon       = parts[2]
+      custom_tgt = parts[3]
+      custom_cls = parts[4] # Classe CSS personnalisée (ex: whatsapp, btn-danger, etc.)
 
       # Détection mailto
-      url = target.include?('@') ? "mailto:#{target}" : target
+      url = target_url.include?('@') && !target_url.start_with?('mailto:') ? "mailto:#{target_url}" : target_url
 
-      # Construction du HTML
-      html =  "<a href=\"#{url}\" class=\"cat-button\" style=\"--c: ##{color}; text-decoration: none !important;\">"
-      html += "<i data-lucide=\"#{icon}\"></i> " if icon
-      html += "<span class=\"cat-name\">#{text}</span>"
-      html += "</a>"
+      # Gestion de la cible (Target)
+      target_attr = if custom_tgt && !custom_tgt.empty?
+                      custom_tgt
+                    elsif url.start_with?('http://', 'https://')
+                      '_blank'
+                    else
+                      '_self'
+                    end
 
-      html
+      rel_attr = target_attr == '_blank' ? 'rel="noopener noreferrer"' : ''
+
+      # Classe CSS par défaut : 'cobalt' si aucun argument n'est fourni
+      btn_class = custom_cls && !custom_cls.empty? ? custom_cls : 'cobalt'
+
+      # Balise Icône
+      icon_html = icon && !icon.empty? ? "<i class=\"#{icon} me-1\"></i>" : ""
+
+      # HTML généré
+      <<~HTML
+        <a href="#{url}" class="#{btn_class} px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center" target="#{target_attr}" #{rel_attr}>
+          #{icon_html}<span>#{text}</span>
+        </a>
+      HTML
     end
   end
 

@@ -8,7 +8,7 @@ disclaimer:
   text: "Ce contenu est une reprise d'une ressource externe. Les informations, opinions et conseils y présentés sont l'entière responsabilité de son producteur et ne reflètent pas nécessairement le point de vue d'Infor Jeunes Waterloo."
 date: 2025-09-05
 update: 2025-09-12
-slug: pars-a-l-aventure-avec-le-woofing
+slug: woofing
 categories:
   - International
 tags: 
