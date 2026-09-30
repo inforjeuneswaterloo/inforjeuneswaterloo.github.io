@@ -6,7 +6,9 @@ url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your si
 title: Infor Jeunes Waterloo
 description: "Informer. Autonomiser. Sans condition."
 slugify_mode: ascii
-
+channel: https://whatsapp.com/channel/0029VbE0ktB5K3zc31HPGd0R
+whatsapp: https://wa.me/32473953806 
+job4u: https://bsky.app/profile/job4u.bsky.social
 
 
 #Pagination

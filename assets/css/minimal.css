@@ -27,6 +27,7 @@
  --enabel-yellow: #fcc900;
  --ares-light:#01a1af;
  --ares-dark: #014c6a;
+ --bluesky: #1185fe;
 
   
   /* Typographie Système */
@@ -128,6 +129,10 @@ body {
   justify-content: center;
   overflow-x: hidden; /* Empêche le défilement horizontal dû au menu caché */
   -webkit-font-smoothing: antialiased;
+}
+body a{
+  text-decoration:none;
+  color: var (--link-color);
 }
 
 main {
@@ -449,6 +454,17 @@ p {
   stroke: var(--c);
   stroke-width: 2px;
 }
+/*
+.post-container a,.post-content a,.home-hero,.hero-contact a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.post-container a:hover,.post-content a:hover,.home-hero, .hero-contact a:hover {
+  opacity: 0.8;
+
+}*/
 
 /* --- LIENS DANS LE CONTENU (HÉRITAGE) --- */
 .post-content a {
@@ -1729,5 +1745,9 @@ footer {
 }
 .ares-dark{
   background-color: var(--ares-dark);
+  color: #ffffff;
+}
+.bluesly{
+  background-color: var(--bluesky);
   color: #ffffff;
 }
