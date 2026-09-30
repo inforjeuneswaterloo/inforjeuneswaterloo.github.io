@@ -33,10 +33,10 @@ layout: minimal
     {%endif%}
   {% endif %}
   </header>
-<ul class="list-group mt-4 mb-4">
+<ul class="list-group mb-4">
   {% for item in col_items %}
     {% assign class=item.class | default: 'body-background' %}
-    <li class="list-group list-group-item {{class}} mb-1 border-0" >
+    <li class="list-group list-group-item {{class}} mb-1 border-0 rounded" >
       <a class="p-2 rounded {{class}} w-100" title="{{page.accroche}}" href="{{ item.url | relative_url }}">
         <i data-lucide="chevron-right"></i>
         <span class="cat-name">

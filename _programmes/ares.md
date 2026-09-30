@@ -32,7 +32,7 @@ Une « Bourse de voyage » permet aux étudiantes et étudiants de vivre une exp
 ## Microprojets
 Un « Microprojet » donne la possibilité à des groupes d’étudiantes et d'étudiants en Belgique et dans un pays partenaire de l’ARES de monter un projet commun sur une thématique liée au **développement durable**.
 
-{%button "Plus d'infos sur les Microprojets", "https://www.ares-ac.be/fr/microprojets-etudiants-et-etudiantes","fa-solid fa-up-right-from-square","_blank","ares-dark"%}
+{%button "Plus d'infos sur les Microprojets", "https://www.ares-ac.be/fr/microprojets-etudiants-et-etudiantes","fa-solid fa-up-right-from-square","_blank","ares-light"%}
 
 ## Bourses de formations internationales
 Les bourses de formations internationales permettent aux **ressortissants d'un pays partenaire de l'ARES** détenteur d'un **diplôme de l'enseignement supérieur** et disposant d'une **expérience professionnelle** de suivre une formation liée au développement dans une établissement de la Fédération Wallonie-Bruxelles.
