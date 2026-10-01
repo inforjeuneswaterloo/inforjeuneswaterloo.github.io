@@ -5,6 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
 title: Infor Jeunes Waterloo
 description: "Informer. Autonomiser. Sans condition."
+logo: "/assets/images/logos/ijw-banner-transparent.avif"
 slugify_mode: ascii
 channel: https://whatsapp.com/channel/0029VbE0ktB5K3zc31HPGd0R
 whatsapp: https://wa.me/32473953806 
