@@ -1,8 +1,8 @@
 ---
 layout: minimal
 title: Infor Jeunes Waterloo
-
 ---
+{% assign visuels=site.data.ij-visuels%}
 <section class="home-hero">
   <h1>Une info <span class="p-2 rounded orange">claire</span> !</h1>
   <!--<p class="subtitle">Orientation, droit, travail ou santé : nous centralisons l'essentiel pour les jeunes à Waterloo (et d'ailleurs).</p>-->
@@ -26,7 +26,27 @@ title: Infor Jeunes Waterloo
     </a>-->
   </div>
 </section>
-<h3 class="text-body-primary mb-2">
+{% if visuels.size > 0 %}
+  <div class="hero-image mb-4">
+    <h3 class="text-body-primary mb-4 mt-2">
+      Si ça te dit, on t'invite à découvrir nos dernières activités et projets&nbsp;!
+    </h3>
+    {% if visuels.size == 1 %}
+      <!-- 1 seule image : affichage pleine largeur -->
+      <img src="{{ visuels.first.image }}" alt="{{ visuels.first.title }}" class="img-fluid rounded w-100">
+    {% else %}
+      <!-- Plusieurs images : affichage en grille 2 colonnes -->
+      <div class="row g-2">
+        {% for image in visuels %}
+          <div class="col-6">
+            <img src="{{ image.image }}" alt="{{ image.title }}" class="img-fluid rounded w-100 h-100 object-fit-cover">
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
+<h3 class="text-body-primary mt-2 mb-4">
   Vu dans la presse
 </h3>
   {% actu %}
