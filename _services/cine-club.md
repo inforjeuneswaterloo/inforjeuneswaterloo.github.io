@@ -1,8 +1,8 @@
 ---
 layout: page-single
 id: ij
-title: "Ciné-club : Enjoy the sow"
-image: /assets/images/services/group-arrows-rotate-solid-full.svg
+title: "Ciné-club : Enjoy the show"
+image: /assets/images/cine-club.png
 lucide: "popcorn"
 color: 802B20
 buttons:

@@ -5,6 +5,8 @@ layout: minimal
 {% assign buttons=page.buttons %}
 {% assign color=page.color | default: 'e67c2' %}
 {% assign buttons=page.buttons %}
+{% assign image=page.image %}
+{% assign vedette = page.vedette %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -29,10 +31,13 @@ layout: minimal
     {{ content }}
   </section>
   {% if page.buttons %}
-      <div class="cta-wrapper mt-4">
+      <div class="cta-wrapper mt-4 mb-4">
         {% include buttons.html items=buttons color=color %}
       </div>
     {%endif%}
+  {%if image %}
+      <img src="{{image}}" class="img-fluid rounded">
+  {% endif %}
   <footer class="post-footer">
     {% comment %} NAVIGATION FOOTER (Rappel des suggestions) {% endcomment %}
     {% assign total_items = site[page.collection] | size %}

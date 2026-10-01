@@ -6,6 +6,7 @@ update: 2025-12-01
 slug: job-etudiant-allocations-familiales
 categories: 
   - Travail
+  - Job étudiant
   - Protection sociale
 tags:
   - Carte-info
