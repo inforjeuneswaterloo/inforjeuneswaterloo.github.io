@@ -29,7 +29,7 @@ title: Infor Jeunes Waterloo
 {% if visuels.size > 0 %}
   <div class="hero-image mb-4">
     <h3 class="text-body-primary mb-4 mt-2">
-      Si ça te dit, on t'invite à découvrir nos dernières activités et projets&nbsp;!
+      Nos activités et projets.  On t'y attend !
     </h3>
     {% if visuels.size == 1 %}
       <!-- 1 seule image : affichage pleine largeur -->
@@ -38,7 +38,7 @@ title: Infor Jeunes Waterloo
       <!-- Plusieurs images : affichage en grille 2 colonnes -->
       <div class="row g-2">
         {% for image in visuels %}
-          <div class="col-6">
+          <div class="col-md-4 col-sm-12">
             <img src="{{ image.image }}" alt="{{ image.title }}" class="img-fluid rounded w-100 h-100 object-fit-cover">
           </div>
         {% endfor %}
