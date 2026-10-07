@@ -33,6 +33,9 @@ collections:
   instapaper:
     output: true
     permalink: /instapaper/:path/
+  job-etudiant:
+    output: true
+    permalink: /job-etudiant/:title/
 
 # Définir des valeurs par défaut pour les collections
 defaults:
