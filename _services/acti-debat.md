@@ -1,17 +1,16 @@
 ---
 layout: page-single
-id: ij
-title: "Acti-débat: fais entendre ta voix"
-image: /assets/images/services/group-arrows-rotate-solid-full.svg
+title: "Acti-débat: fais entendre ta voix !"
 lucide: "messages-square"
 color: 9b59b6
 buttons:
   - btn:
       enable: true
       text: "Besoin d'infos ? Contacte Amaury !"
-      href: '/contact/ae/'
-      icon: message-circle
-      target: _self
+      href: 'mailto:amaury.erauw@inforjeuneswaterloo.be'
+      i: fa
+      icon: fa-solid fa-envelope
+      target: _blank
 ---
 **_Acti-débat_** est un projet mené conjointement par la Maison des Jeunes MJWOO et Infor Jeunes Waterloo.  
 

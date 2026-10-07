@@ -9,23 +9,21 @@ categories:
   - Job étudiant
   - Protection sociale
 tags:
-  - Carte-info
-  - Job étudiant
   - Allocations familiales
   - Réglementation
-image: /assets/images/posts/job-af.webp
-sidebar: 
-  show: all
-  title: A lire
 ---
 {% notice warning %}
 Les règles expliquées ci-dessous ne sont valables que pour la Wallonie
 {% endnotice %}
 
-## Bon à savoir
+## La base
 
-- Avant 18 ans Tu perçois tes allocations familiales de manière **inconditionnelle** jusqu’au **31 août** de l’année civile au cours de laquelle tu atteins tes **18 ans**
-- Entre **18 et 21 ans** Tu ne dois pas te trouver dans une situation d’obstacle (voir ci-dessous). Il s’agit donc d’un droit **semi-automatique**.
+- **Avant 18 ans** Tu perçois tes allocations familiales de manière **inconditionnelle** jusqu’au **31 août** de l’année civile au cours de laquelle tu atteins tes **18 ans**
+- Entre **18 et 20 ans** Tu ne dois pas te trouver dans une **situation d’obstacle**. Il s’agit donc d’un droit **semi-automatique**.
+  - Tu travaille plus de **240 heures** par trimestre **hors** contrat étudiant ou sous statut **d’indépendant sans cotisations sociales** (attention perte des allocations familiales pour le trimestre durant lequel tu dépasses ce quota)
+  - Tu perçois une prestation sociale (indemnités suite à une maladie, une invalidité, un accident du travail ou une maladie professionnelle)
+  - Tu perçois des allocations d’insertion ou de chômage
+  - Ton activité d’indépendant à **titre principal** entraîne le paiement de cotisations sociales
 - Entre **21 et 25 ans** Le bénéfice des allocations familiales est subordonné au respect de certaines **condtions**
 
 {% notice info %}
@@ -43,11 +41,3 @@ Tu peux jober tout en continuant à bénéficier des allocations familiales si t
 En cas de dépassement du quota annuel de 650h, tu perdra les allocations familiales pour le trimestre durant lequel ce dépassement a eu lieu.
 {% endnotice %}
 
-## Quelles sont les différentes “situations obstacle” au bénéfice des allocations familiales?
-
-- Tu travaille plus de 240 heures par trimestre hors contrat étudiant ou sous statut d’indépendant sans cotisations sociales (attention perte des allocations familiales pour le trimestre durant lequel tu dépasses ce quota)
-- Tu perçois une prestation sociale (indemnités suite à une maladie, une invalidité, un accident du travail ou une maladie professionnelle)
-- Tu perçois des allocations d’insertion ou de chômage
-- Ton activité d’indépendant à titre principal entraîne le paiement de cotisations sociales
-
-{% include elements/renvoi.html renvoi="contact" %}

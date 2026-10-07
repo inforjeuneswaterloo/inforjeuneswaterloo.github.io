@@ -1,5 +1,4 @@
 
-title-icon: "fa-solid fa-plane-departure"
 email: info@inforjeuneswaterloo.be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,6 +9,12 @@ slugify_mode: ascii
 channel: https://whatsapp.com/channel/0029VbE0ktB5K3zc31HPGd0R
 whatsapp: https://wa.me/32473953806 
 job4u: https://bsky.app/profile/job4u.bsky.social
+btn-class: btn btn-primary text-white text-decoration-none btn-sm
+contact:
+  email: info@inforjeuneswaterloo.be
+  tel: "+32 473 95 38 06"
+  adresse: "Rue Théophile Delbar 18A 1410 Waterloo"
+  horaires: "Du mardi au vendredi de 12 à 17 heures"
 
 
 #Pagination
@@ -25,12 +30,6 @@ collections:
   services:
     output: true
     permalink: /services/:title/
-  yotm:
-    output: true
-    permalink: /yotm/:title/
-  telechargements:
-    output: true
-    permalink: /telechargements/:title/
   instapaper:
     output: true
     permalink: /instapaper/:path/

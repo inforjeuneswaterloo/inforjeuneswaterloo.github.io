@@ -6,4 +6,6 @@
   url: '/blogroll/'
 - title: "Le coin presse"
   url: '/construction/'
+- title: "Contact"
+  url: '/contact/'
  

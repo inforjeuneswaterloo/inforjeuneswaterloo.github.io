@@ -12,11 +12,10 @@ icon:
 buttons:
   - btn:
      enable: true
-     text: Vers la site 
+     text: Vers le site yotm.be
      href: https://yotm.be
-     icon: "external-link"
-     fa: fa-solid fa-angle-right
-     class: btn btn-outline-dark text-decoration-none
+     icon: "fa-solid fa-arrow-up-right-from-square"
+     i: fa
      target: "_blank"
 ---
 Depuis une dizaine d'année maintenant Infor Jeunes Waterloo organise des événements autour de la mobilité internationale des jeunes. 

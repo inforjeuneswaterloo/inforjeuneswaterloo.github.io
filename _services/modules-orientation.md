@@ -10,9 +10,10 @@ icon:
 buttons:
   - btn:
      enable: true
-     text: Contacte-nous pour demander un RDV 
-     href: /contact/
-     icon: 
+     text: Demande de rendez-vous 
+     href: https://forms.gle/iDQ5DGAZB2btj5PLA
+     i : fa
+     icon: "fa-solid fa-pen-to-square"
      class: btn btn-primary text-white text-decoration-none btn-sm
      target: _blank
 ---

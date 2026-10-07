@@ -1,48 +1,22 @@
 ---
-layout: minimal
+layout: page-single
 ---
-{% assign contact_ij=site.data.contact-ij %}
-{% assign contact_yotm=site.data.contact-yotm%}
-<div class="row">
-    <div class="col-sm-12 col-md-8 mb-2">
-        <form action="https://airform.io/info@inforjeuneswaterloo.be" method="POST">
-  
-            <div class="mb-3 mt-O">
-                <label for="name" class="form-label">Nom et Prénom</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="email" class="form-label">Adresse Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="nom.prenom@exemple.com" required>
-                <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre email.</div>
-            </div>
-
-            <div class="mb-3">
-                <label for="message" class="form-label">Votre Message</label>
-                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-            </div>
-
-            <input type="hidden" name="_subject" value="Nouveau Contact depuis le site">
-            
-            <input type="hidden" name="_gotcha" value="https://airform.io/merci/">
-
-            <button type="submit" class="btn btn-primary">
-                <i class="bi bi-send-fill me-2"></i> Envoyer le message
-            </button>
-  
-        </form>
+{%assign mail=site.contact.email%}
+{%assign adresse=site.contact.adresse%}
+{%assign horaires=site.contact.horaires%}
+{% assign tel=site.contact.tel%}
+<div class="row gx-2">
+    <div class="col-sm-12 col-md-6 mb-2">
+        <p class="mb-1"><strong>Adresse :</strong> {{adresse}}</p>
+        <p class="mb-1"><strong>Horaires :</strong> {{horaires}}</p>
+        <p class="mb-1"><strong>Email :</strong> <a href="mailto:{{mail}}">{{mail}}</a></p>
+        <p class="mb-1"><strong>Téléphone :</strong> <a href="tel:{{tel}}">{{tel}}</a></p>
     </div>
-    <div class="col-sm-12 col-md-4 mt-4 mb-2">
-        <ul class="list-group list-group-flush card rounded mb-2">
-            {% for item in contact_ij %}
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    {{item.text}}
-                </li>
-            {% endfor %}
-        </ul>
+    <div class="col-md-6 col-sm-12 rounded">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.147359909766!2d4.393505076077334!3d50.71720526812176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3ce28a7471047%3A0x693c257e9f1c78cc!2sInfor%20Jeunes%20Waterloo!5e0!3m2!1sfr!2sbe!4v1791364715157!5m2!1sfr!2sbe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
 </div>
+
 
 
 

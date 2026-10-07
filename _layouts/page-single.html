@@ -32,7 +32,24 @@ layout: minimal
   </section>
   {% if page.buttons %}
       <div class="cta-wrapper mt-4 mb-4">
-        {% include buttons.html items=buttons color=color %}
+        {% for item in page.buttons %}
+          {% assign btn = item.btn %}
+            {% if btn.enable %}
+              {% assign i = btn.i%}
+              {% assign color=btn.color%}
+              {% assign class=btn.class | default: site.btn-class %}
+                <a class="{{class}}"  href="{{btn.href | relative_url}}" target="{{btn.target| default: '_self'}}">
+                  {% if btn.icon %}
+                    {% case i %}
+                      {% when 'lucide' %}
+                        <i data-lucide="{{btn.icon}}" style="color: #{{color}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
+                      {% when 'fa' %}
+                        <i class="{{btn.icon}}" style="color: #{{color}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
+                    {% endcase %}
+                  {% endif %}
+                </a>
+            {% endif %}
+        {% endfor %}
       </div>
     {%endif%}
   {%if image %}

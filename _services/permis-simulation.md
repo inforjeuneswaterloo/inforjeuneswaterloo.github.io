@@ -1,9 +1,6 @@
 ---
 layout: page-single
-image: assets/images/services/permis-de-conduire.png
-id: ij
 title: Permis de conduire - simulation 
-lucide: "car"
 color: f1c40f
 icon: 
   fa: fa-solid fa-car-side
@@ -11,11 +8,12 @@ icon:
 buttons:
   - btn:
      enable: true
-     text: Contacte-nous pour fixer un RDV
-     href: /contact/
-     icon: 
-     class: btn btn-primary text-white text-decoration-none
-     target: "_self"
+     text: Fixer un rendez-vous
+     href: https://forms.gle/A2Ai7Dtrco9ssgVCA
+     i: fa
+     icon: "fa-solid fa-pen-to-square"
+     class: btn btn-primary text-white text-decoration-none btn-sm
+     target: "_blank"
 ---
 **Tu envisages de passer ton permis?**
 
