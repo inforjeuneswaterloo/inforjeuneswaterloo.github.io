@@ -2,7 +2,7 @@
 layout: collection
 title: Job étudiant
 collection: job-etudiant
-permalink: '/job/'
+permalink: '/job-etudiant/'
 ---
 Il n’y a **pas** de définition légale du « statut étudiant », la règle à retenir est qu’étudier doit rester ton activité **principale**. Le travail doit donc être une **activité secondaire**. En cas de doute, contacte le CLS (Contrôle des Lois Sociales) au 02/235.55.60 ou à l’adresse [info.cls@emploi.belgique.be](mailto:info.cls@emploi.belgique.be).
 

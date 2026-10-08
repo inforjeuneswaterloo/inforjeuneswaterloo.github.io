@@ -3,7 +3,7 @@ layout: post
 title: Le job étudiant
 date: 2025-02-13
 update: 2026-10-01
-slug: job-etudiant
+slug: travailler-comme-etudiant
 categories: 
   - Travail
   - Job étudiant
@@ -14,7 +14,7 @@ buttons:
  - btn:
     enable: true
     text: Lire notre dossier "Job étudiant"
-    href: /job/
+    href: /job_etudiant/
     i: lucide
     icon: arrow-up-right
     target: _self

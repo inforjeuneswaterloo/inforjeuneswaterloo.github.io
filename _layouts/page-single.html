@@ -66,7 +66,7 @@ layout: minimal
             {% unless item.url == page.url %}
               {% assign color=item.color %}
               <a href="{{ item.url | relative_url }}" class="btn" style="border: 1px solid #{{color}}">
-                <i data-lucide="{{ item.lucide | default: 'circle' }}" style="color: #{{color}}"></i>&nbsp;
+                <i data-lucide="{{ item.lucide | default: 'arrow-up-right' }}" style="color: #{{color}}"></i>&nbsp;
                 <span class="cat-name">{{ item.title }}</span>
               </a>
             {% endunless %}
