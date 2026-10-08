@@ -24,7 +24,28 @@ layout: minimal
   <section class="post-content">
     {{ content }}
   </section>
-
+    {% if page.buttons %}
+      <div class="cta-wrapper mt-4 mb-4">
+        {% for item in page.buttons %}
+          {% assign btn = item.btn %}
+            {% if btn.enable %}
+              {% assign i = btn.i%}
+              {% assign color=btn.color%}
+              {% assign class=btn.class | default: site.btn-class %}
+                <a class="{{class}}"  href="{{btn.href | relative_url}}" target="{{btn.target| default: '_self'}}">
+                  {% if btn.icon %}
+                    {% case i %}
+                      {% when 'lucide' %}
+                        <i data-lucide="{{btn.icon}}" style="color: #{{color}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
+                      {% when 'fa' %}
+                        <i class="{{btn.icon}}" style="color: #{{color}}"></i>&nbsp;<span class="cat-name">{{btn.text}}</span>
+                    {% endcase %}
+                  {% endif %}
+                </a>
+            {% endif %}
+        {% endfor %}
+      </div>
+    {%endif%}
   <footer class="post-footer">
     <div class="category-view">
       <a href="/categories/{{ slug }}/" class="back-link" style="--c: #{{cat_color}}">← Retour à {{ category_name }}</a>

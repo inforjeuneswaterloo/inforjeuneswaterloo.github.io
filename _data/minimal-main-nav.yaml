@@ -1,11 +1,9 @@
 - title: "Projets et services"
   url: '/services/'
-- title: "Archives"
+- title: "Le blog"
   url: '/categories/'
 - title: "Liens utiles"
   url: '/blogroll/'
-- title: "Le coin presse"
-  url: '/construction/'
 - title: "Contact"
   url: '/contact/'
  
