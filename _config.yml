@@ -36,6 +36,9 @@ collections:
   job-etudiant:
     output: true
     permalink: /job-etudiant/:title/
+  whats-next:
+    output: true
+    permalink: /whats-next/:title/
 
 # Définir des valeurs par défaut pour les collections
 defaults:
