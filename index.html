@@ -29,6 +29,7 @@ hero:
 ---
 {% assign hero=page.hero%}
 {% assign containers=page.containers%}
+{% assign visuels=site.data.ij-visuels %}
 {%if hero %}
   {% assign hero_buttons = hero.buttons %}
   {% assign subtitle = hero.subtitle %}
@@ -59,8 +60,13 @@ hero:
   </section>
 {%endif%}
 <div class="sections mt-2 mb-2">
-  {% if page.image.enabled %}
-    {% assign img=page.image.src %}
-    <img src="{{img}}" class="img-fluid">
+  {% if visuels.size >0 %}
+    <div class="row gx-2">
+      {% for item in visuels %}
+        <div class="col-md-4 col-sm-12 mb-2">
+          <img src="{{item.image}}" class="img-fluid rounded" alt="{{item.title}}">
+        </div>
+      {% endfor %}
+    </div>
   {% endif %}
 </div>
