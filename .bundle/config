@@ -1,2 +1,3 @@
 ---
-BUNDLE_PATH: "vendor/bundle"
+BUNDLE_PATH: "/home/runner/work/inforjeuneswaterloo.github.io/inforjeuneswaterloo.github.io/vendor/bundle"
+BUNDLE_DEPLOYMENT: "true"
