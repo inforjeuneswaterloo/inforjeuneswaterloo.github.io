@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout du code
         uses: actions/checkout@v4
+        with:
+          ref: main # Force l'alignement immédiat sur la branche main
 
       - name: Configuration de Ruby
         uses: ruby/setup-ruby@v1
@@ -25,10 +27,15 @@ jobs:
         run: |
           ruby scripts/fetch_instapaper.rb
 
+      - name: Nettoyage des fichiers temporaires
+        run: |
+          rm -rf .bundle/config
+
       - name: Commit et Push des modifications s'il y en a
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chrono: mise à jour automatique Instapaper [skip ci]"
+          file_pattern: "_data/*.yml"
           branch: main
 
       - name: Trigger Netlify Build Hook
