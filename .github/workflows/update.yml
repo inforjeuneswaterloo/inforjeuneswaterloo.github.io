@@ -15,7 +15,7 @@ jobs:
       - name: Checkout du code
         uses: actions/checkout@v4
         with:
-          ref: main # Force l'alignement immédiat sur la branche main
+          ref: design-minimaliste # Force l'alignement immédiat sur la branche main
 
       - name: Configuration de Ruby
         uses: ruby/setup-ruby@v1
