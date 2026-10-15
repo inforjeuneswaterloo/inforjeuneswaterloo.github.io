@@ -7,9 +7,7 @@ FileUtils.mkdir_p('_data')
 
 # Correspondance entre le fichier YAML généré dans _data/ et la variable Netlify
 feeds = {
-  "instapaper_home"  => ENV["INSTAPAPER_PRESS_REVIEW_RSS"],
-  "instapaper_tech"  => ENV["INSTAPAPER_TAG_TECH"],
-  "instapaper_sante" => ENV["INSTAPAPER_TAG_SANTE"]
+  "instapaper_home"  => "https://www.instapaper.com/rss/folder/5423670/16799378/ehwFPbnTRGx0z8DQjp3jmZoZ9E",
 }
 
 feeds.each do |filename, url|
