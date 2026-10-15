@@ -7,7 +7,7 @@ FileUtils.mkdir_p('_data')
 
 # Correspondance entre le fichier YAML généré dans _data/ et la variable Netlify
 feeds = {
-  "instapaper_home"  => ENV["INSTAPAPER_HOME_RSS"],
+  "instapaper_home"  => ENV["INSTAPAPER_PRESS_REVIEW_RSS"],
   "instapaper_tech"  => ENV["INSTAPAPER_TAG_TECH"],
   "instapaper_sante" => ENV["INSTAPAPER_TAG_SANTE"]
 }
