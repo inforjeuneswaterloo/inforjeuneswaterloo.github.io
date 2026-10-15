@@ -36,7 +36,7 @@ jobs:
         with:
           commit_message: "chrono: mise à jour automatique Instapaper [skip ci]"
           file_pattern: "_data/*.yml"
-          branch: main
+          branch: design-minimaliste
 
       - name: Trigger Netlify Build Hook
         run: |
