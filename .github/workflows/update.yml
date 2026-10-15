@@ -40,4 +40,4 @@ jobs:
 
       - name: Trigger Netlify Build Hook
         run: |
-          curl -X POST -d {} "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b"
+          curl -X POST -d {} "https://api.netlify.com/build_hooks/6a049c6c5a5eb6a6785dd85b" 
