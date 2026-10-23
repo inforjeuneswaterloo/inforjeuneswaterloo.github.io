@@ -3,7 +3,7 @@ email: info@inforjeuneswaterloo.be
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://inforjeuneswaterloo.be" # the base hostname & protocol for your site, e.g. http://example.com
 title: Infor Jeunes Waterloo
-description: "Informer. Autonomiser. Sans condition."
+description: "Une question ? Une info ? Infor Jeunes Waterloo !"
 logo: "/assets/images/logos/ijw-banner-transparent.avif"
 slugify_mode: ascii
 channel: https://whatsapp.com/channel/0029VbE0ktB5K3zc31HPGd0R
@@ -28,17 +28,25 @@ pagination:
 #Collections
 collections:
   services:
+    title: "Nos projets et services"
     output: true
     permalink: /services/:title/
-  instapaper:
-    output: true
-    permalink: /instapaper/:path/
   job-etudiant:
+    title: "Job étudiant"
     output: true
     permalink: /job-etudiant/:title/
+  allocations-familiales:
+    title : "Les allocations familiales"
+    output: true
+    permalink: /allocations-familiales/:title/
   whats-next:
+    title: "Fini les études ? Et après ?"
     output: true
     permalink: /whats-next/:title/
+  agenda:
+    title: Agenda
+    output: true
+    permalink: /agenda/:title/
 
 # Définir des valeurs par défaut pour les collections
 defaults:

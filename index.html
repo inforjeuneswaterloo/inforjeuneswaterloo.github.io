@@ -3,45 +3,118 @@ layout: minimal
 title: Infor Jeunes Waterloo
 ---
 {% assign visuels=site.data.ij-visuels%}
-<section class="home-hero">
-  <h1>Une info <span class="p-2 rounded orange">claire</span> !</h1>
-  <!--<p class="subtitle">Orientation, droit, travail ou santé : nous centralisons l'essentiel pour les jeunes à Waterloo (et d'ailleurs).</p>-->
-  
-  <div class="hero-contact">
-    <a class="btn" title="Voir les dernières annonces de job" href="/services/job4u/" target="_self" style="background: #1185fe; border: 4px solid #1185fe">
-      <span class="text-white">Jobs étudiant &nbsp;<i class="fa-solid fa-briefcase"></i></span>
-    </a>
-    <a href="https://yotm.be" title="Hello World! Notre projet relatif à la mobilité internationale des jeunes" class="btn text-white" style="border: 4px solid #3261ac; background: #3261ac">
-      Hello World !&nbsp;<i class="fa-solid fa-plane-departure"></i>
-    </a>
-    <a href="/services/" title="Nos projets et services" class="btn text-white" style="background: #2ca4dd; border: 4px solid #2ca4dd">
-      Projets & services&nbsp;<i class="fa-solid fa-rocket"></i>
-    </a>
-    <!--<a href="https://www.reddit.com/r/inforjeuneswaterloo/submit?flair_id=dde627ac-3e4a-11f1-8547-aa8e8f0f06a6" class="cat-button" style="border: 2px solid #e32423;">
-      <i data-lucide="bot"></i>&nbsp;Pose ta question à la communauté
-    </a>-->
-     <!--<a href="/job4u/" class="cat-button" style="border: 2px solid #f8b700">
-      <i class="fa-solid fa-briefcase"></i>&nbsp;
-      <span>jobs étudiants</span>
-    </a>-->
+{% assign collections=site.collections %}
+{% assign categories=site.categories %}
+{% assign breaking=site.data.breaking-news%}
+{% assign services=site.services %}
+{% assign contact=site.contact-ij %}
+<section class="home-hero p-5 mt-2 border-0">
+  <div class="hero-contact justify-content-center">
+    <div class="d-flex justify-content-center gap-1 text-nowrap">
+      <a class="whatsapp px-2 py-1 rounded lh-1" href="{{site.whatsapp | relative_url}}">
+        Nous contacter&nbsp;<i data-lucide="messages-circle"></i>
+      </a>
+      <a class="whatsapp-outline px-2 py-1 rounded lh-1" href="{{site.channel}}">
+        Actu du Centre&nbsp;<i data-lucide="megaphone"></i>
+      </a>
+    </div>
   </div>
 </section>
-{% if visuels.size > 0 %}
-  <div class="hero-image mb-4">
-    <h3 class="text-body-primary mb-4 mt-2">
-      Nos activités et projets.  On t'y attend !
-    </h3>
-      <!-- Plusieurs images : affichage en grille 2 colonnes -->
-      <div class="row g-2">
-        {% for image in visuels %}
-          <div class="col-md-4 col-sm-12">
-            <img src="{{ image.image }}" alt="{{ image.title }}" class="img-fluid rounded w-100 h-100 object-fit-cover">
-          </div>
-        {% endfor %}
-      </div>
+{% if breaking.size>0%}
+  {% assign sorted-items = breaking | sort: 'date-start'%}
+  <div class="breaking p-2 mb-4">
+    <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="calendar-fold"></i>&nbsp;Save the date !</h3>
+    <div class="list-group">
+      {%for item in sorted-items %}
+        {% assign date-start = item.date-start | date: "%d/%m/%Y" %}
+        {% assign date-end =item.date-end | date: "%d/%m/%Y" %}
+        {% assign title=item.title %}
+        <div class="d-flex mb-2">
+            <a href="{{item.url|relative_url}}" class="btn btn-outline-dark rounded text-decoration-none theme-primary">
+              <i data-lucide="arrow-up-right"></i>&nbsp;{{title}}
+            </a>
+        </div>
+      {%endfor%}
+    </div>
+  </div>
+{%endif%}
+{% if services.size >0 %}
+  <div class="services p-2 mb-4">
+    <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="rocket"></i>&nbsp;Ce que nous te proposons</h3>
+    <div class="services category-nav mb-4">
+      {% for item in services %}
+        {% assign hex = item.color | default: "888888" %}
+        {% assign icon = item.lucide | default: "arrow-up-right" %}
+        <a class="btn" href="{{ item.url | relative_url }}" 
+          class="cat-button" style="border: 1px solid  #{{hex}}">
+            <i data-lucide="{{ icon }}" style="color: #{{hex}}"></i>&nbsp; 
+          <span class="cat-name">{{ item.title }}</span>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 {% endif %}
-<h3 class="text-body-primary mt-2 mb-4">
-  Actualités
-</h3>
+{% if categories.size > 0 %}
+  <div class="blog p-2 mb-4">
+    <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="tags"></i>&nbsp;Le Blog</h3>
+    <div class="category-nav mt-2 mb-4">
+      {% assign sorted_categories = site.categories | sort %}
+      {% assign posts=site.posts | sort: 'date' | reverse %}
+      {% assign categories=site.categories %}
+      {% for category in sorted_categories %}
+        {% assign cat_name = category | first %}
+        {% assign cat_slug = cat_name | custom_slugify %}
+        {% assign posts_count = category | last | size %}
+        {% assign hex = site.data.categories[cat_slug] | default: site.data.categories.default %}
+        <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}" 
+          class="btn" 
+          style="border: 1px solid #{{ hex }};">
+          <span style="color: #{{ hex }}">
+            <i data-lucide="tag"></i></span>
+          {{ cat_name }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="posts-list mt-2">
+      <ul class="list-group border-0">
+        {% for post in site.posts | limit:3 %}
+          {% unless post.draft %}
+            <li class="list-group-item bg-transparent border-0">
+              <i data-lucide="chevron-right"></i>&nbsp;
+              <a href="{{post.url | relative_url}}" class="text_decoration:none">
+                {{post.title}}
+              </a>
+            </li>
+          {%endunless%}
+        {% endfor %}
+      </ul>
+  </div>
+{%endif%}
+<!--{% if visuels.size > 0 %}
+<div class="images p-2 mb-4">
+  <h3 class="text-body-primary mb-4 mt-2">
+    <i data-lucide="image"></i>&nbsp;Nos activités et projets
+  </h3>
+  <div class="row g-2">
+    {% for image in visuels %}
+    <div class="col-md-4 col-lg-3 col-sm-12">
+      <img src="{{ image.image }}" alt="{{ image.title }}" class="img-fluid rounded w-100 h-100 object-fit-cover">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}-->
+<div class="press-section mb-4">
+  <h3 class="text-body-primary mb-4 mt-2">
+    <i data-lucide="newspaper"></i>&nbsp;Dans la presse
+  </h3>
   {% actu %}
+</div>
+<div class="contact-section mb-4">
+  <h3 class="text-body-primary">
+    <i data-lucide="map-pin"></i>&nbsp;Nous contacter
+  </h3>
+    <div class="contact mt-2 mb-2 rounded">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.1460932604523!2d4.393464776077289!3d50.71722876811997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3ce28a7471047%3A0x693c257e9f1c78cc!2sInfor%20Jeunes%20Waterloo!5e0!3m2!1sfr!2sbe!4v1792588367800!5m2!1sfr!2sbe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+</div>

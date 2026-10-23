@@ -86,7 +86,7 @@ module Jekyll
 
           # Rendu en grille Bootstrap 2 colonnes avec alignement du bouton .cat-button à droite
           html << <<~HTML
-            <div class="col-12 col-md-6 d-flex align-items-stretch mb-1">
+            <div class="col-sm-12 col-md-6 d-flex align-items-stretch mb-1">
                 <div class="card h-100 border-0 mb-1 bg-light shadow-sm" style="border-radius: 0.5rem; overflow: hidden;">
                     #{img_html}
                     <div class="card-body lh-sm d-flex flex-column" style="flex-grow: 1; padding: 1.25rem;">
@@ -99,9 +99,7 @@ module Jekyll
                     </div>
                     <div class="w-100 text-end text-right mt-auto pt-3">
                         <a href="#{destination_url}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
-                        En savoir plus&nbsp;<i data-lucide="move-right"></i>  
- 
-
+                        En savoir plus&nbsp;<i data-lucide="arrow-up-right"></i>  
                         </a>
                     </div>
                     </div>

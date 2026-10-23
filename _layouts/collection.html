@@ -12,16 +12,26 @@ layout: minimal
   </div>
 {% endif %}
 {% if total_items > 0 %}
-  <div class="category-nav">
+  <div class="category-nav mt-4 mb-2">
     {% for item in site[page.collection] %}
     {% assign hex = item.color | default: "888888" %}
     {% assign icon = item.lucide | default: "arrow-up-right" %}
-  <a class="btn" href="{{ item.url | relative_url }}" 
-     class="cat-button" style="border: 1px solid  #{{hex}}">
-       <i data-lucide="{{ icon }}" style="color: #{{hex}}"></i>&nbsp; 
-    <span class="cat-name">{{ item.title }}</span>
-  </a>
+    {% assign infos =item.infos %}
+    {% assign draft=item.draft | default: false %}
+  {%unless draft %}
+    <a class="btn" href="{{ item.url | relative_url }}" 
+      class="cat-button" style="border: 1px solid  #{{hex}}">
+        <i data-lucide="{{ icon }}" style="color: #{{hex}}"></i>&nbsp; 
+      <span class="cat-name">
+          {% if infos.date-start %}{{infos.date-start|date: "%d/%m/%Y"}}&nbsp;{%endif%}
+          {{ item.title }}
+      </span>
+    </a>
+  {%endunless%}
   {% endfor %}
   </div>
-  
+{% else %}
+  {% notice info %}
+  Rien à afficher ici.
+  {%endnotice %}
 {% endif %}

@@ -1,0 +1,42 @@
+---
+layout: page-single
+title: Accueil
+---
+{% assign items=site.data.breaking-news%}
+{%if items.size > 0 %}
+  
+    {% for item in items %}
+      {% assign infos=item.info %}
+      {% assign title=item.title%}
+      {% assign start_date=item.date-start | date: "%d/%m/%Y"%}
+      {% assign end_date =item.date-end | date: "%d/%m/%Y"%}
+      <div class="list-group mb-4 p-3 bg-light border rounded shadow-sm">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ title }}</h5>
+        <small class="badge text-bg-primary rounded p-2">
+            {{start_date}}{%if end_date%}-{{end_date}}{%endif%}
+        </small>
+      </div>
+        <p class="mt-2 mb-1">
+          {{item.text | markdownify}}
+        </p>
+        {% if infos %}
+          <small class="body-text-secondary mt-0 mb-1">
+            {% for info in infos%}
+              {{info.location}}{{info.start | date: "%H:%M"}}{%if info.end%}-{{info.end}}{%endif%}{{info.paf}}
+            {% endfor %}
+          </small>
+        {% endif %}
+          {%if item.organizer.size>0 %}
+            {% assign organizers=item.organizer %}
+            <small class="text-body-secondary">
+              {% for organizer in organizers %}
+                <a class="text-decoration-none" href="{{ organizer.url }}" target="_blank">
+                  <i data-lucide="move-up-right"></i>&nbsp;{{ organizer.title }} 
+                </a>
+              {%endfor%}
+              </small>
+          {%endif%}
+      </div>
+    {% endfor %}
+{%endif%}

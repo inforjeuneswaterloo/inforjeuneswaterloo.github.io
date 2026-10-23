@@ -30,5 +30,5 @@ buttons:
 Il n’y a **pas** de définition légale du « statut étudiant », la règle à retenir est qu’étudier doit rester ton activité principale. Le travail doit donc être une activité secondaire. En cas de doute, contacte le CLS (Contrôle des Lois Sociales) au 02/235.55.60 ou à l’adresse [info.cls@emploi.belgique.be](mailto:info.cls@emploi.belgique.be).
 
 {% notice info %}
-Si tu es diplômé en juin ou en septembre tu ne peux, en principe, plus travailler en tant qu'étudiant. Toutefois l'ONSS, l'ONEM et les caisses d'allocations familiales l'admettent jusqu'au 30/09 ; **à condition** de respecter le [quota d'heures autorisé](/job_etudiant/650-h-tm-3)
+Si tu es diplômé en juin ou en septembre tu ne peux, en principe, plus travailler en tant qu'étudiant. Toutefois l'ONSS, l'ONEM et les caisses d'allocations familiales l'admettent jusqu'au 30/09 ; **à condition** de respecter le [quota d'heures autorisé](/job-etudiant/650-h)
 {% endnotice %}

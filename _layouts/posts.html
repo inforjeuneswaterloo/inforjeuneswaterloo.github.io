@@ -6,13 +6,13 @@ layout: minimal
     {% comment %} Extraction de la catégorie et recherche de la couleur associée {% endcomment %}
     {% assign first_cat = post.categories | first | custom_slugify %} 
     {% assign cat_info = site.data.categories | where: "name", first_cat | first %}
-    
-    {% comment %} Couleur trouvée ou gris par défaut {% endcomment %}
+    {% assign draft=post.draft%}
     {% assign border_color = cat_info | default: cate_info.default | replace: '#', '' %}
-
-    <a class="btn" href="{{ post.url | relative_url }}" style="--c: #{{ border_color }};">
-      <i data-lucide="chevron-right"></i>
-      <span class="cat-name">{{ post.title }}</span>
-    </a>
+    {%unless draft %}
+      <a class="btn" href="{{ post.url | relative_url }}" style="--c: #{{ border_color }};">
+        <i data-lucide="chevron-right"></i>
+        <span class="cat-name">{{ post.title }}</span>
+      </a>
+    {%endunless%}
   {% endfor %}
 </nav>

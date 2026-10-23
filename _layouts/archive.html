@@ -17,9 +17,9 @@ layout: minimal
   <header class="category-header mb-4">
     <div class="btn d-inline-flex align-items-center gap-2 p-2 border" style="border-color: #{{ cat_color }} !important;">
       <span class="cat-name fw-bold">{{ page.category }}</span>
-      <span class="badge rounded-pill text-white" style="background-color: #{{ cat_color }};">
+      <!--<span class="badge rounded-pill text-white" style="background-color: #{{ cat_color }};">
         {{ posts_count | default: 0 }}
-      </span>
+      </span>-->
     </div>
   </header>
 
@@ -29,10 +29,13 @@ layout: minimal
     
     {% if category_posts and category_posts.size > 0 %}
       {% for post in category_posts %}
-        <a href="{{ post.url | relative_url }}" class="cat-button p-2 rounded text-decoration-none d-flex align-items-center border" style="--c: #{{ cat_color }};">
-          <i class="fa-solid fa-chevron-right me-2" style="color: #{{ cat_color }};"></i>
-          <span class="cat-name text-dark fw-semibold">{{ post.title }}</span>
-        </a>
+        {% assign draft=post.draft | default: false %}
+        {% unless draft %}
+          <a href="{{ post.url | relative_url }}" class="cat-button p-2 rounded text-decoration-none d-flex align-items-center border" style="--c: #{{ cat_color }};">
+            <i class="fa-solid fa-chevron-right me-2" style="color: #{{ cat_color }};"></i>
+            <span class="cat-name text-dark fw-semibold">{{ post.title }}</span>
+          </a>
+        {% endunless %}
       {% endfor %}
     {% else %}
       <p class="text-muted small">Aucun article publié dans cette catégorie pour le moment.</p>

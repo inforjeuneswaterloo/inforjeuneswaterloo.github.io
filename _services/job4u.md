@@ -10,9 +10,17 @@ buttons:
      enable: true
      text: Consulter les dernières offres
      href: https://bsky.app/profile/job4u.bsky.social
-     i: fa
-     icon: "fa-solid fa-arrow-up-right-from-square"
+     i: lucide
+     icon: move-up-right
      target: "_blank"
+  - btn:
+     enable: true
+     text: "Des questions sur la réglementation ?"
+     href: "/job-etudiant/"
+     i: lucide
+     icon: move-up-right
+     target: "_self"
+     class: "btn btn-outline-primary text-decoration-none btn-sm"
 ---
 
 {%job4u_feed%}

@@ -4,6 +4,7 @@ layout: minimal
 {% assign category_name = page.categories | first %}
 {% assign slug = category_name | custom_slugify %}
 {% assign cat_color = site.data.categories[slug] | default: site.data.categories.default %}
+{% assign draft=page.draft | default: false %}
 
 
 <article class="post-container" style="--c: #{{ cat_color }};">
@@ -22,7 +23,11 @@ layout: minimal
   </header>
 
   <section class="post-content">
-    {{ content }}
+    {%unless draft%}
+      {{ content }}
+    {%else%}
+      {% notice info %}Contenu en cours de relecture {%endnotice%}
+    {%endunless%}
   </section>
     {% if page.buttons %}
       <div class="cta-wrapper mt-4 mb-4">

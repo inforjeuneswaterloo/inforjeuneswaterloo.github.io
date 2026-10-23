@@ -53,9 +53,11 @@ layout: minimal
       {% if posts.size >0 %}
         {% assign post_categories = post.categories | map: "downcase" %}
         {% for post in posts %}
+          {% unless post.draft %}
             <a href="{{ post.url | relative_url }}" class="cat-button" style="--c: #{{ border_color }};">
               <i data-lucide="chevron-right"></i>&nbsp;<span class="cat-name">{{ post.title}}</span>
             </a>
+          {% endunless %}
         {% endfor %}
       {%endif%}
     </nav>

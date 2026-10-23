@@ -7,6 +7,8 @@ layout: minimal
 {% assign buttons=page.buttons %}
 {% assign image=page.image %}
 {% assign vedette = page.vedette %}
+{% assign infos=page.infos%}
+{% assign draft=page.draft | default: false %}
 
 <article class="post-container" style="--c: #{{ page_color }};">
  <header class="post-header">
@@ -19,16 +21,41 @@ layout: minimal
        <h1 class="post-title lh-sm">{{ page.title }}</h1>
     </div>
       <div class="section mb-2">
-        {% if page.subtitle %}
-          <p class="muted">
-            {{page.subtitle}}
-          </p>
+        {% if infos.size>0 %}
+          {% assign day-start=infos.date-start%}
+          {% assign day-end=infos.date-end%}
+          {% assign h-start=infos.h-start%}
+          {% assign h-end=infos.h-end%}
+          {% assign location=infos.location%}
+          <div class="d-flex muted">
+            {{day-start|date:"%d/%m/%Y"}}
+            {%if day-end%}
+              &nbsp;-&nbsp;{{day-end|date:"%d/%m/%Y"}}
+            {%endif%}
+            &bull;
+            {%if h-start%}
+              {{h-start}}
+                {%if h-end%}
+                  &nbsp;-&nbsp;{{h-end}}
+                {%endif%}
+              &bull;
+            {%endif%}
+            {%if location%}
+              {{location}}
+            {%endif%}
+          </div>
         {% endif %}
       </div>
   </header>
 
   <section class="post-content">
-    {{ content }}
+    {% unless draft %}
+      {{ content }}
+    {% else %}
+      {% notice info %}
+      Contenu en relecture
+      {%endnotice%}
+    {%endunless%}
   </section>
   {% if page.buttons %}
       <div class="cta-wrapper mt-4 mb-4">
