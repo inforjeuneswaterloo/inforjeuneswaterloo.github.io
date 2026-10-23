@@ -19,7 +19,7 @@ layout: minimal
         </a>
       {% endfor %}
     </div>
-    <h1 class="post-title lh-sm">{{ page.title }}</h1>
+    <h1 class="post-title lh-sm">{{ page.title|markdownify}}</h1>
   </header>
 
   <section class="post-content">
