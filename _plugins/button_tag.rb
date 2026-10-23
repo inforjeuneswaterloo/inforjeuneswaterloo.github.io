@@ -1,3 +1,4 @@
+# _plugins/button_tag.rb
 module Jekyll
   class ButtonTag < Liquid::Tag
     def initialize(tag_name, markup, tokens)
@@ -6,27 +7,42 @@ module Jekyll
     end
 
     def render(context)
-      # On évalue les variables ou chaînes fournies dans le contexte Liquid
-      raw_args = Liquid::Template.parse("{% array #{@markup} %}").render(context) rescue ""
-      
-      # Extraction propre des arguments séparés par des virgules
-      parts = @markup.split(',').map { |p| p.strip.gsub(/\A["']|["']\Z/, '') }
+      # Découpage des arguments et évaluation des variables Liquid dans le contexte courant
+      parts = @markup.split(',').map do |p|
+        evaluated = Liquid::Template.parse(p).render(context)
+        evaluated.strip.gsub(/\A["']|["']\Z/, '')
+      end
 
-      text   = CGI.escapeHTML(parts[0] || 'Bouton')
-      target = parts[1] || '#'
-      color  = (parts[2] || 'e67c22').gsub(/[^a-fA-F0-9]/, '') # Sécurité : conserve uniquement le hex
-      icon   = parts[3] ? CGI.escapeHTML(parts[3]) : nil
+      text       = parts[0].to_s.empty? ? 'Bouton' : parts[0]
+      target_url = parts[1].to_s.empty? ? '#' : parts[1]
+      icon       = parts[2]
+      custom_tgt = parts[3]
+      custom_cls = parts[4] # Classe CSS personnalisée (ex: whatsapp, btn-danger, etc.)
 
-      # Détection et construction de l'URL
-      url = target.include?('@') && !target.start_with?('mailto:') ? "mailto:#{target}" : target
-      url = CGI.escapeHTML(url)
+      # Détection mailto
+      url = target_url.include?('@') && !target_url.start_with?('mailto:') ? "mailto:#{target_url}" : target_url
 
-      # Construction du HTML
-      icon_html = icon ? "<i data-lucide=\"#{icon}\"></i> " : ""
-      
-      <<~HTML.strip
-        <a href="#{url}" class="cat-button" style="--c: ##{color}; text-decoration: none !important;">
-          #{icon_html}<span class="cat-name">#{text}</span>
+      # Gestion de la cible (Target)
+      target_attr = if custom_tgt && !custom_tgt.empty?
+                      custom_tgt
+                    elsif url.start_with?('http://', 'https://')
+                      '_blank'
+                    else
+                      '_self'
+                    end
+
+      rel_attr = target_attr == '_blank' ? 'rel="noopener noreferrer"' : ''
+
+      # Classe CSS par défaut : 'cobalt' si aucun argument n'est fourni
+      btn_class = custom_cls && !custom_cls.empty? ? custom_cls : 'cobalt'
+
+      # Balise Icône Lucide (ex: icon="calendar" ou icon="calendar-fold")
+      icon_html = icon && !icon.empty? ? "<i data-lucide=\"#{icon}\" class=\"me-1\"></i>" : ""
+
+      # HTML généré
+      <<~HTML
+        <a href="#{url}" class="#{btn_class} px-2 py-1 rounded text-decoration-none d-inline-flex align-items-center" target="#{target_attr}" #{rel_attr}>
+          #{icon_html}<span>#{text}</span>
         </a>
       HTML
     end
