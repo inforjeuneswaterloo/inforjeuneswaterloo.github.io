@@ -28,7 +28,7 @@ Les formations _**Rebond**_ et _**Relais**_ s'adressent aux étudiants en situat
 - Organisée à Louvain-la-Neuve par le CPFB
 - 3 sessions/an : novembre &rarr; juillet, mars &rarr; juillet et avril &rarr; juillet
 - Statut d'étudiant et maintien des [allocations familiales](/les-allocations-familiales/) 
-- Pas d'impact sur ta [finançabilité](https://mesetudes.be/conditions-reussite)
+- Pas d'impact sur ta [finançabilité](/financabilite/)
    - Cette formation te permettra de profiter d’une **année supplémentaire** afin de réussir un bachelier (6 ans au lieu de 5 en cas de réorientation – valable **une** fois).
 
 {% button "En savoir plus sur la formation Relais", " https://www.cpfb.be/formations/formations-relais/", "arrow-up-right", "_blank", "cobalt text-white btn-sm" %}

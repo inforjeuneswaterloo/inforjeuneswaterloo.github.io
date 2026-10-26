@@ -1,6 +1,6 @@
 ---
 layout: page-single
-title: Les allocations familiales
+title: Job étudiant et allocations familiales
 date: 2025-02-13
 update: 2025-12-01
 slug: allocations-familiales
@@ -9,32 +9,30 @@ buttons:
     enable: true
     href: https://famiwal.be/jeunes/les-principes-de-base
     text: En savoir plus sur les allocations familiales
-    i: fa
+    i: lucide
     target: _blank
-    icon: "fa-solid fa-arrow-up-right-from-square"
+    icon: "arrow-up-right"
     class: btn btn-primary text-white text-decoration-none btn-sm
 ---
-{% notice warning %}
-Les règles expliquées ci-dessous ne sont valables que pour la Wallonie.  Toutes les informations relatives au allocations familiales en région wallonne : [famiwal.be](https://famiwal.be/jeunes/les-principes-de-base)
+{% notice danger %}
+Les règles expliquées ci-dessous ne sont valables que pour la Wallonie.
 {% endnotice %}
   
 ## Que se passe-t-il si je travaille ?
 
 ### Avant 18 ans
 
-Avant **18 ans** les allocations familiales sont versées de manière **inconditionnelle**
+Avant **18 ans** les allocations familiales sont versées de manière **inconditionnelle**.  
 
 ### Après 18 ans
 
-Tu peux jober tout en continuant à bénéficier des allocations familiales si tu respectes les règles suivantes:
+Tu peux travailler sous **contrat d'occupation étudiant** pendant **650h/an** en continuant à percevoir tes allocations familiales.  Si tu dépasses ce seuil tu en conserveras le bénéfice **si** tu ne travailles pas plus de **240h/trimestre**. 
+{% notice info%}Les allocations sont **suspendues** pour le **trimestre** au cours duquel intervient le dépassement.{%endnotice%}
 
-- Tu travailles dans le cadre d’un contrat d’occupation d’étudiant : tu dois respecter le quota annuel de **650 heures**.
-- Tu travailles sous contrat de travail ordinaire: tu ne peux pas dépasser la limite de **240 heures/trimestre**.
-- Tu travailles en tant qu'**indépendant**
-    - A titre **principal** &rarr; les allocations familiales sont suspendues
-    - A titre **complémentaire** &rarr; les allocations familiales sont maintenues aux **mêmes conditions** qu'un étudiant classique
+#### Tu travailles en tant qu'**indépendant**
 
-{% notice warning%}
-En cas de dépassement, tu perdra les allocations familiales pour le trimestre durant lequel ce dépassement a eu lieu.
-{% endnotice %}
+Les allocations familiales sont **suspendues** si :
+- Tu paies des cotisations sociales en tant qu'indépendant **à titre principal**
+- Tu paies des cotisations réduites et tu travailles plus de **240h/trimestre**
+
 
