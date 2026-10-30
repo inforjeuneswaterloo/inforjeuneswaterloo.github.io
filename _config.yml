@@ -47,6 +47,11 @@ collections:
     title: Agenda
     output: true
     permalink: /agenda/:title/
+  allocations-familiales:
+    title: Les allocations familiales
+    output: true
+    permalink: /allocations-familiales/:title/
+
 
 # Définir des valeurs par défaut pour les collections
 defaults:
