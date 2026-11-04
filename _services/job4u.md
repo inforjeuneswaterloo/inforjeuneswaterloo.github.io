@@ -2,9 +2,7 @@
 layout: page-single
 title: Offres de job étudiant
 color: e67c22
-icon: 
-  fa: "fa-brands fa-bluesky"
-  text: Service job
+lucide: briefcase-business
 buttons:
   - btn:
      enable: true

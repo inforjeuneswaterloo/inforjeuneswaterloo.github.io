@@ -1,7 +1,8 @@
 ---
 layout: page-single
 title: "1,2,3... Action!"
-color: 34495e 
+color: 34495e
+lucide: clapperboard 
 buttons:
   - btn:
       enable: true

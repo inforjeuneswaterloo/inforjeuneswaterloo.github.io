@@ -43,10 +43,6 @@ collections:
     title: "Fini les études ? Et après ?"
     output: true
     permalink: /whats-next/:title/
-  agenda:
-    title: Agenda
-    output: true
-    permalink: /agenda/:title/
   allocations-familiales:
     title: Les allocations familiales
     output: true

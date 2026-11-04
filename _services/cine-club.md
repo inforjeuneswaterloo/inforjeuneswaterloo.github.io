@@ -3,6 +3,7 @@ layout: page-single
 id: ij
 title: "Ciné-club : Enjoy the show"
 image: /assets/images/ij/cine-club.avif
+lucide: popcorn
 color: 802B20
 buttons:
   - btn:

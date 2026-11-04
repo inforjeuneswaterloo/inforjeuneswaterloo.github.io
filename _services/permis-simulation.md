@@ -2,9 +2,7 @@
 layout: page-single
 title: Permis de conduire - simulation 
 color: f1c40f
-icon: 
-  fa: fa-solid fa-car-side
-  text: Permis de conduire
+lucide: square-letter-l
 buttons:
   - btn:
      enable: true

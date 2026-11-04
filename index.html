@@ -20,24 +20,6 @@ title: Infor Jeunes Waterloo
     </div>
   </div>
 </section>
-{% if breaking.size>0%}
-  {% assign sorted-items = breaking | sort: 'date-start'%}
-  <div class="breaking p-2 mb-4">
-    <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="calendar-fold"></i>&nbsp;Save the date !</h3>
-    <div class="list-group">
-      {%for item in sorted-items %}
-        {% assign date-start = item.date-start | date: "%d/%m/%Y" %}
-        {% assign date-end =item.date-end | date: "%d/%m/%Y" %}
-        {% assign title=item.title %}
-        <div class="d-flex mb-2">
-            <a href="{{item.url|relative_url}}" class="btn btn-outline-dark rounded text-decoration-none theme-primary">
-              <i data-lucide="arrow-up-right"></i>&nbsp;{{title}}
-            </a>
-        </div>
-      {%endfor%}
-    </div>
-  </div>
-{%endif%}
 {% if services.size >0 %}
   <div class="services p-2 mb-4">
     <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="rocket"></i>&nbsp;Ce que nous te proposons</h3>
@@ -56,7 +38,14 @@ title: Infor Jeunes Waterloo
 {% endif %}
 {% if categories.size > 0 %}
   <div class="blog p-2 mb-4">
-    <h3 class="text-body-primary mb-4 mt-2"><i data-lucide="tags"></i>&nbsp;Le Blog</h3>
+    <div class="d-flex justify-content-between align-items-center mb-4 mt-2">
+      <h3 class="text-body-primary"><i data-lucide="tags"></i>&nbsp;Le Blog</h3>
+      <span class="badge rounded-pill bg-primary">
+        <a class="text-decoration-none text-white" href="{{ '/blog/' | relative_url }}">
+          <i data-lucide="arrow-up-right"></i>
+        </a>
+      </span>
+    </div>
     <div class="category-nav mt-2 mb-4">
       {% assign sorted_categories = site.categories | sort %}
       {% assign posts=site.posts | sort: 'date' | reverse %}
