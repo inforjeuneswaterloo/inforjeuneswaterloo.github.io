@@ -1,6 +1,6 @@
 ---
 layout: page-single
-title: Le conditions de formation
+title: Les conditions de formation
 date: 2026-10-28
 update: 
 slug: "conditions-de-formation"

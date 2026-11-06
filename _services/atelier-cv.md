@@ -3,7 +3,7 @@ layout: page-single
 section: ij
 lucide: "file-user"
 color: 27a660
-title: Atelier d'aide à la réalisation d'un CV - Action Job Etudiant
+title: "Job étudiant : atelier CV"
 buttons:
   - btn:
      enable: true

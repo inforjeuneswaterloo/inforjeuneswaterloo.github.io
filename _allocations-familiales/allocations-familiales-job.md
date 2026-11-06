@@ -3,7 +3,7 @@ layout: page-single
 title: Job et allocations familiales
 date: 2026-10-28
 update: 
-slug: "job-et-allocations-familiales"
+slug: "job-etudiant"
 ---
 {% notice danger %}
 Les règles expliquées dans cet article ne sont valables qu'en région wallonne.

@@ -64,20 +64,6 @@ title: Infor Jeunes Waterloo
         </a>
       {% endfor %}
     </div>
-    <div class="posts-list mt-2">
-      <ul class="list-group border-0">
-        {% for post in site.posts | limit:3 %}
-          {% unless post.draft %}
-            <li class="list-group-item bg-transparent border-0">
-              <i data-lucide="chevron-right"></i>&nbsp;
-              <a href="{{post.url | relative_url}}" class="text_decoration:none">
-                {{post.title}}
-              </a>
-            </li>
-          {%endunless%}
-        {% endfor %}
-      </ul>
-  </div>
 {%endif%}
 <!--{% if visuels.size > 0 %}
 <div class="images p-2 mb-4">
