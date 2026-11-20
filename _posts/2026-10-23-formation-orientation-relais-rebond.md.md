@@ -3,7 +3,7 @@ layout: post
 title: "La formation 'Relais'"
 date: 2026-10-23
 update:
-slug: formations-relais
+slug: formation-relais
 categories: 
   - Enseignement
   - Formation
